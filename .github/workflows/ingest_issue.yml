@@ -11,10 +11,18 @@ jobs:
       issues: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install requests
+
+      - name: Prepare notes directory and dependencies
+        run: |
+          mkdir -p notes
+          pip install requests
+
       - name: Create note
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
@@ -28,35 +36,75 @@ jobs:
           from datetime import date
 
           body = os.environ.get("ISSUE_BODY", "")
-          num = os.environ.get("ISSUE_NUM")
-          author = os.environ.get("USER_LOGIN")
-          title = os.environ.get("ISSUE_TITLE", f"Paper-{num}")
+          num = os.environ.get("ISSUE_NUM", "0")
+          author = os.environ.get("USER_LOGIN", "unknown")
+          raw_title = os.environ.get("ISSUE_TITLE", f"Paper-{num}")
           abstract = "N/A"
 
+          # Clean raw title from issue
+          title = " ".join(raw_title.split())
+
+          # Look for arXiv ID (handles e.g. 2305.12345 or cond-mat/0123456)
           arxiv_match = re.search(r'(\d{4}\.\d{4,5})', body)
           if arxiv_match:
-              r = requests.get(f"http://export.arxiv.org/api/query?id_list={arxiv_match.group(1)}")
-              if r.ok:
-                  import xml.etree.ElementTree as ET
-                  entry = ET.fromstring(r.text).find('{http://www.w3.org/2005/Atom}entry')
-                  if entry is not None:
-                      title = entry.find('{http://www.w3.org/2005/Atom}title').text.strip().replace('\n', ' ')
-                      abstract = entry.find('{http://www.w3.org/2005/Atom}summary').text.strip()
+              arxiv_id = arxiv_match.group(1)
+              try:
+                  r = requests.get(f"http://export.arxiv.org/api/query?id_list={arxiv_id}", timeout=20)
+                  if r.ok:
+                      import xml.etree.ElementTree as ET
+                      entry = ET.fromstring(r.text).find('{http://www.w3.org/2005/Atom}entry')
+                      if entry is not None:
+                          fetched_title = entry.find('{http://www.w3.org/2005/Atom}title')
+                          fetched_abstract = entry.find('{http://www.w3.org/2005/Atom}summary')
+                          if fetched_title is not None and fetched_title.text:
+                              title = " ".join(fetched_title.text.split())
+                          if fetched_abstract is not None and fetched_abstract.text:
+                              abstract = fetched_abstract.text.strip()
+              except Exception as e:
+                  print(f"arXiv fetch error: {e}")
 
-          slug = re.sub(r'[^a-zA-Z0-9]', '_', title)[:35]
-          note = f"---\ntitle: \"{title}\"\nsource: \"{body.strip()}\"\ncaptured_by: \"{author}\"\ndate: {date.today().isoformat()}\n---\n\n# {title}\n\n## Abstract\n{abstract}\n"
+          # Sanitize slug: strip ALL non-alphanumeric chars (strictly prevents slashes/subdirs)
+          clean_slug = re.sub(r'[^a-zA-Z0-9_-]', '_', title)
+          clean_slug = re.sub(r'_+', '_', clean_slug).strip('_')[:40]
+          if not clean_slug:
+              clean_slug = "paper"
+
+          filename = f"{num}_{clean_slug}.md"
           
-          out_dir = Path("notes")
+          # Force directory creation directly via pathlib
+          out_dir = Path("notes").resolve()
           out_dir.mkdir(parents=True, exist_ok=True)
-          (out_dir / f"{num}_{slug}.md").write_text(note)
+          
+          target_path = out_dir / filename
+
+          note = f"""---
+title: "{title.replace('\"', '\\\"')}"
+source: "{body.strip()}"
+captured_by: "{author}"
+date: {date.today().isoformat()}
+issue: {num}
+---
+
+# {title}
+
+- **Captured by:** @{author}
+- **Source:** {body.strip()}
+
+## Abstract
+{abstract}
+"""
+          target_path.write_text(note, encoding="utf-8")
+          print(f"Successfully wrote note to: {target_path}")
           PY
-      - run: |
+
+      - name: Commit note and close issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add notes/
           git commit -m "docs: ingest #${ISSUE_NUM}" || exit 0
-          git push
+          git push origin main
           gh issue close "${ISSUE_NUM}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUM: ${{ github.event.issue.number }}
