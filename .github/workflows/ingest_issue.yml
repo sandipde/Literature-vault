@@ -45,6 +45,7 @@ jobs:
 
           slug = re.sub(r'[^a-zA-Z0-9]', '_', title)[:35]
           note = f"---\ntitle: \"{title}\"\nsource: \"{body.strip()}\"\ncaptured_by: \"{author}\"\ndate: {date.today().isoformat()}\n---\n\n# {title}\n\n## Abstract\n{abstract}\n"
+          
           out_dir = Path("notes")
           out_dir.mkdir(parents=True, exist_ok=True)
           (out_dir / f"{num}_{slug}.md").write_text(note)
