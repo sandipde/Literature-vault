@@ -1,0 +1,59 @@
+name: Ingest Issue Reference
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Create note
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
+          USER_LOGIN: ${{ github.event.issue.user.login }}
+        run: |
+          python - << 'PY'
+          import os, re, requests
+          from pathlib import Path
+          from datetime import date
+
+          body = os.environ.get("ISSUE_BODY", "")
+          num = os.environ.get("ISSUE_NUM")
+          author = os.environ.get("USER_LOGIN")
+          title = os.environ.get("ISSUE_TITLE", f"Paper-{num}")
+          abstract = "N/A"
+
+          arxiv_match = re.search(r'(\d{4}\.\d{4,5})', body)
+          if arxiv_match:
+              r = requests.get(f"http://export.arxiv.org/api/query?id_list={arxiv_match.group(1)}")
+              if r.ok:
+                  import xml.etree.ElementTree as ET
+                  entry = ET.fromstring(r.text).find('{http://www.w3.org/2005/Atom}entry')
+                  if entry is not None:
+                      title = entry.find('{http://www.w3.org/2005/Atom}title').text.strip().replace('\n', ' ')
+                      abstract = entry.find('{http://www.w3.org/2005/Atom}summary').text.strip()
+
+          slug = re.sub(r'[^a-zA-Z0-9]', '_', title)[:35]
+          note = f"---\ntitle: \"{title}\"\nsource: \"{body.strip()}\"\ncaptured_by: \"{author}\"\ndate: {date.today().isoformat()}\n---\n\n# {title}\n\n## Abstract\n{abstract}\n"
+          (Path("notes") / f"{num}_{slug}.md").write_text(note)
+          PY
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add notes/
+          git commit -m "docs: ingest #${ISSUE_NUM}" || exit 0
+          git push
+          gh issue close "${ISSUE_NUM}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUM: ${{ github.event.issue.number }}

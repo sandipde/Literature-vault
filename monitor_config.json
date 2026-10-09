@@ -1,0 +1,6 @@
+{
+  "queries": [
+    "cat:physics.chem-ph AND abs:catalysis",
+    "cat:cond-mat.mtrl-sci AND abs:\"machine learning\""
+  ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="manifest.json" />
+  <title>Literature Capture</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; color: #24292f; }
+    input, textarea, button { width: 100%; box-sizing: border-box; margin-top: 8px; padding: 10px; font-size: 14px; border: 1px solid #d0d7de; border-radius: 6px; }
+    button { background: #2da44e; color: white; font-weight: 600; border: none; cursor: pointer; margin-top: 16px; }
+    .status { margin-top: 16px; font-weight: 500; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <h3>Literature Capture</h3>
+  <div id="setup-section" class="hidden">
+    <p style="font-size: 13px; color: #57609a;">Configure GitHub target once:</p>
+    <input id="cfg-owner" placeholder="GitHub Username / Org" />
+    <input id="cfg-repo" placeholder="Repository Name" />
+    <input id="cfg-token" type="password" placeholder="Fine-Grained PAT" />
+    <button onclick="saveConfig()">Save Settings</button>
+  </div>
+  <div id="capture-section" class="hidden">
+    <input id="title" placeholder="Title / Note" />
+    <textarea id="url" rows="3" placeholder="URL or reference text"></textarea>
+    <button id="submit-btn" onclick="submitIssue()">Save to Repo</button>
+    <p style="font-size: 11px; color: #57609a; margin-top: 12px; cursor: pointer;" onclick="clearConfig()">Reset settings</p>
+  </div>
+  <div id="status" class="status"></div>
+  <script>
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js'); }
+    const setupSec = document.getElementById('setup-section');
+    const captureSec = document.getElementById('capture-section');
+    const statusDiv = document.getElementById('status');
+
+    function checkConfig() {
+      const token = localStorage.getItem('gh_token');
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      if (!token || !owner || !repo) {
+        setupSec.classList.remove('hidden');
+        captureSec.classList.add('hidden');
+        return false;
+      }
+      setupSec.classList.add('hidden');
+      captureSec.classList.remove('hidden');
+      return true;
+    }
+
+    function saveConfig() {
+      localStorage.setItem('gh_owner', document.getElementById('cfg-owner').value.trim());
+      localStorage.setItem('gh_repo', document.getElementById('cfg-repo').value.trim());
+      localStorage.setItem('gh_token', document.getElementById('cfg-token').value.trim());
+      if (checkConfig()) handleIncomingShare();
+    }
+
+    function clearConfig() { localStorage.clear(); checkConfig(); statusDiv.innerText = 'Cleared.'; }
+
+    function handleIncomingShare() {
+      const params = new URLSearchParams(window.location.search);
+      const incomingUrl = params.get('url') || params.get('text');
+      if (incomingUrl) {
+        document.getElementById('url').value = incomingUrl;
+        document.getElementById('title').value = params.get('title') || 'New Reference';
+        submitIssue();
+      }
+    }
+
+    async function submitIssue() {
+      const title = document.getElementById('title').value.trim() || 'New Reference';
+      const bodyText = document.getElementById('url').value.trim();
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      const token = localStorage.getItem('gh_token');
+      if (!bodyText) return;
+      statusDiv.innerText = 'Saving...';
+      try {
+        const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+          body: JSON.stringify({ title, body: bodyText })
+        });
+        statusDiv.innerText = res.ok ? '✓ Saved!' : `Error: ${res.status}`;
+        if (res.ok) {
+          document.getElementById('url').value = '';
+          document.getElementById('title').value = '';
+          setTimeout(() => { if (window.history.length > 1) window.close(); }, 1200);
+        }
+      } catch (err) { statusDiv.innerText = `Network error: ${err.message}`; }
+    }
+    if (checkConfig()) handleIncomingShare();
+  </script>
+</body>
+</html>
