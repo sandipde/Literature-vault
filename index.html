@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="manifest" href="manifest.json" />
+  <link rel="manifest" href="/Literature-vault/manifest.json" />
   <title>Literature Capture</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; color: #24292f; }
@@ -30,7 +30,7 @@
   </div>
   <div id="status" class="status"></div>
   <script>
-    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js'); }
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/Literature-vault/sw.js'); }
     const setupSec = document.getElementById('setup-section');
     const captureSec = document.getElementById('capture-section');
     const statusDiv = document.getElementById('status');
