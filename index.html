@@ -10,6 +10,7 @@
     input, textarea, button { width: 100%; box-sizing: border-box; margin-top: 8px; padding: 10px; font-size: 14px; border: 1px solid #d0d7de; border-radius: 6px; }
     button { background: #2da44e; color: white; font-weight: 600; border: none; cursor: pointer; margin-top: 16px; }
     .status { margin-top: 16px; font-weight: 500; }
+    .source-type { margin: 8px 0 0; color: #57606a; font-size: 12px; }
     .hidden { display: none; }
   </style>
 </head>
@@ -25,6 +26,7 @@
   <div id="capture-section" class="hidden">
     <input id="title" placeholder="Title / Note" />
     <textarea id="url" rows="3" placeholder="URL or reference text"></textarea>
+    <p id="source-type" class="source-type">Type detected when you add a URL.</p>
     <button id="submit-btn" onclick="submitIssue()">Save to Repo</button>
     <p style="font-size: 11px; color: #57609a; margin-top: 12px; cursor: pointer;" onclick="clearConfig()">Reset settings</p>
   </div>
@@ -34,6 +36,85 @@
     const setupSec = document.getElementById('setup-section');
     const captureSec = document.getElementById('capture-section');
     const statusDiv = document.getElementById('status');
+    const sourceType = document.getElementById('source-type');
+
+    function extractSourceUrl(text) {
+      const url = (text.match(/https?:\/\/[^\s<>"'`]+/i) || [])[0];
+      if (url) return url.replace(/[.,;:!?)\]}>'"]+$/, '');
+      const doi = (text.match(/10\.\d{4,9}\/[-._;()/A-Z0-9]+/i) || [])[0];
+      return doi ? `https://doi.org/${doi.replace(/[.,;:!?)\]}>'"]+$/, '')}` : '';
+    }
+
+    function sourceIdentity(value) {
+      if (!value) return null;
+      let parsed;
+      try { parsed = new URL(value); } catch { return null; }
+      const host = parsed.hostname.toLowerCase().replace(/^www\./, '');
+      const path = decodeURIComponent(parsed.pathname).replace(/^\/+|\/+$/g, '');
+      const doiMatch = path.match(/10\.\d{4,9}\/[-._;()/A-Z0-9]+/i);
+      if (host === 'doi.org' || host === 'dx.doi.org' || doiMatch) {
+        const doi = doiMatch ? doiMatch[0] : path;
+        return { type: 'paper', key: `https://doi.org/${doi.toLowerCase()}` };
+      }
+      if ((host === 'arxiv.org' || host === 'export.arxiv.org') && /\d{4}\.\d{4,5}/.test(path)) {
+        const id = (path.match(/\d{4}\.\d{4,5}/) || [])[0];
+        return { type: 'arXiv paper', key: `https://arxiv.org/abs/${id}` };
+      }
+      if (host === 'github.com' && path.split('/').length >= 2) {
+        const [owner, repo] = path.split('/');
+        return { type: 'GitHub repository', key: `https://github.com/${owner.toLowerCase()}/${repo.replace(/\.git$/i, '').toLowerCase()}` };
+      }
+      if (host === 'huggingface.co') {
+        const parts = path.split('/');
+        if (parts[0] === 'datasets' || parts[0] === 'spaces') {
+          const type = parts[0] === 'datasets' ? 'Hugging Face dataset' : 'Hugging Face Space';
+          return { type, key: `https://huggingface.co/${parts[0]}/${parts[1]}/${parts[2]}`.toLowerCase() };
+        }
+        if (parts.length >= 2) return { type: 'Hugging Face model', key: `https://huggingface.co/${parts[0]}/${parts[1]}`.toLowerCase() };
+      }
+      if (host === 'gitlab.com' && path) {
+        const project = path.split('/-/')[0].replace(/\.git$/i, '').toLowerCase();
+        return { type: 'GitLab project', key: `https://gitlab.com/${project}` };
+      }
+      if (host === 'chemrxiv.org') return { type: 'ChemRxiv paper', key: `https://chemrxiv.org/${path}` };
+      const query = new URLSearchParams(parsed.search);
+      [...query.keys()].forEach(key => {
+        if (key.toLowerCase().startsWith('utm_') || ['fbclid', 'gclid', 'mc_cid', 'mc_eid'].includes(key.toLowerCase())) query.delete(key);
+      });
+      const suffix = query.toString() ? `?${query.toString()}` : '';
+      return { type: 'Other website', key: `https://${host}${path ? `/${path}` : ''}${suffix}` };
+    }
+
+    function updateDetectedType() {
+      const identity = sourceIdentity(extractSourceUrl(document.getElementById('url').value));
+      sourceType.textContent = identity ? `Detected: ${identity.type}` : 'Type detected when you add a URL.';
+    }
+
+    async function findExistingSource(identity, owner, repo, token) {
+      const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/sources.json?ref=main&_=${Date.now()}`;
+      const response = await fetch(endpoint, {
+        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
+      });
+      if (!response.ok) throw new Error(`Registry lookup failed (${response.status})`);
+      const data = await response.json();
+      const binary = atob(data.content.replace(/\n/g, ''));
+      const bytes = Uint8Array.from(binary, char => char.charCodeAt(0));
+      const registry = JSON.parse(new TextDecoder().decode(bytes));
+      return registry.sources?.[identity.key] || null;
+    }
+
+    function showDuplicate(record, owner, repo) {
+      statusDiv.textContent = 'This source is already in your vault. ';
+      const notePath = record.notes?.[0];
+      if (notePath) {
+        const link = document.createElement('a');
+        link.href = `https://github.com/${owner}/${repo}/blob/main/${notePath.split('/').map(encodeURIComponent).join('/')}`;
+        link.textContent = 'Open existing note';
+        link.target = '_blank';
+        link.rel = 'noopener';
+        statusDiv.append(link);
+      }
+    }
 
     function checkConfig() {
       const token = localStorage.getItem('gh_token');
@@ -71,12 +152,26 @@
     async function submitIssue() {
       const title = document.getElementById('title').value.trim() || 'New Reference';
       const bodyText = document.getElementById('url').value.trim();
+      const identity = sourceIdentity(extractSourceUrl(bodyText));
+      const submitButton = document.getElementById('submit-btn');
       const owner = localStorage.getItem('gh_owner');
       const repo = localStorage.getItem('gh_repo');
       const token = localStorage.getItem('gh_token');
       if (!bodyText) return;
-      statusDiv.innerText = 'Saving...';
+      if (!identity) { statusDiv.innerText = 'Enter a URL or DOI to capture.'; return; }
+      submitButton.disabled = true;
+      statusDiv.innerText = 'Checking for an existing source...';
       try {
+        try {
+          const existing = await findExistingSource(identity, owner, repo, token);
+          if (existing) {
+            showDuplicate(existing, owner, repo);
+            return;
+          }
+        } catch (lookupError) {
+          statusDiv.innerText = 'Duplicate check unavailable; the ingest workflow will recheck. ';
+        }
+        statusDiv.innerText = 'Saving...';
         const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
           method: 'POST',
           headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
@@ -89,7 +184,9 @@
           setTimeout(() => { if (window.history.length > 1) window.close(); }, 1200);
         }
       } catch (err) { statusDiv.innerText = `Network error: ${err.message}`; }
+      finally { submitButton.disabled = false; }
     }
+    document.getElementById('url').addEventListener('input', updateDetectedType);
     if (checkConfig()) handleIncomingShare();
   </script>
 </body>

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "https://arxiv.org/abs/2610.04224": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.04224",
+      "original_url": "https://arxiv.org/pdf/2610.04224",
+      "title": "Dielectric Response of Short and Long Range Models of Nonuniform Liquids and Implications for Machine Learned Interatomic Potentials",
+      "notes": [
+        "notes/3_Dielectric_Response_of_Short_and_Long_Ra.md",
+        "notes/4_Dielectric_Response_of_Short_and_Long_Ra.md"
+      ]
+    },
+    "https://arxiv.org/abs/2604.27613": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2604.27613",
+      "original_url": "https://arxiv.org/pdf/2604.27613v1",
+      "title": "AMGenC: Generating Charge Balanced Amorphous Materials",
+      "notes": ["notes/5_AMGenC_Generating_Charge_Balanced_Amorph.md"]
+    },
+    "https://github.com/helixdb/helix-foundry": {
+      "type": "github",
+      "canonical_url": "https://github.com/helixdb/helix-foundry",
+      "original_url": "https://github.com/HelixDB/helix-foundry",
+      "title": "New Reference",
+      "notes": ["notes/6_New_Reference.md"]
+    }
+  }
+}

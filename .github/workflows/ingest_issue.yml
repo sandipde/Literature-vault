@@ -4,6 +4,10 @@ on:
   issues:
     types: [opened]
 
+concurrency:
+  group: literature-vault-${{ github.repository }}
+  cancel-in-progress: false
+
 jobs:
   process:
     runs-on: ubuntu-latest
@@ -21,9 +25,10 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       - name: Generate note from issue
+        id: ingest
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
@@ -31,14 +36,25 @@ jobs:
           USER_LOGIN: ${{ github.event.issue.user.login }}
         run: python scripts/ingest.py
 
-      - name: Commit note and close issue
+      - name: Comment on duplicate
+        if: steps.ingest.outputs.result == 'duplicate'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
+          NOTE_PATH: ${{ steps.ingest.outputs.note_path }}
+        run: |
+          gh issue comment "${ISSUE_NUM}" --body "This source is already captured in [${NOTE_PATH}](https://github.com/${GITHUB_REPOSITORY}/blob/main/${NOTE_PATH})."
+
+      - name: Commit registry and note updates
+        env:
           ISSUE_NUM: ${{ github.event.issue.number }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add notes/
-          git commit -m "docs: ingest #${ISSUE_NUM}" || exit 0
-          git push origin main
+          git pull --rebase origin main
+          git add notes/ sources.json
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: ingest #${ISSUE_NUM}"
+            git push origin HEAD:main
+          fi
           gh issue close "${ISSUE_NUM}"
