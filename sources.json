@@ -73,6 +73,15 @@
       "notes": [
         "notes/7_ACEsuit_mace.md"
       ]
+    },
+    "https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267": {
+      "type": "web",
+      "canonical_url": "https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267",
+      "original_url": "https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267",
+      "title": "A foundation model for atomistic materials chemistry | The Journal of Chemical Physics | AIP Publishing",
+      "notes": [
+        "notes/9_A_foundation_model_for_atomistic_materials_chemist.md"
+      ]
     }
   }
 }
