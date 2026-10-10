@@ -158,10 +158,19 @@
     }
 
     async function fetchRepositoryJson(path, owner, repo, token) {
+      if (!owner || !repo) {
+        throw new Error('Repository owner and name are required.');
+      }
       const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=main&_=${Date.now()}`;
-      const response = await fetch(endpoint, {
-        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
-      });
+      const headers = { 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' };
+      if (token) headers.Authorization = `Bearer ${token}`;
+
+      let response = await fetch(endpoint, { headers });
+      if (!response.ok && token) {
+        response = await fetch(endpoint, {
+          headers: { 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
+        });
+      }
       if (!response.ok) throw new Error(`${path} read failed (${response.status})`);
       const data = await response.json();
       const binary = atob(data.content.replace(/\n/g, ''));
@@ -443,10 +452,18 @@
       const token = localStorage.getItem('gh_token');
       settingsStatus.textContent = 'Loading saved profiles...';
       try {
+        if (!owner || !repo) {
+          throw new Error('Repository owner and name are required.');
+        }
         const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/monitor_config.json?ref=main&_=${Date.now()}`;
-        const response = await fetch(endpoint, {
-          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
-        });
+        const headers = { 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' };
+        if (token) headers.Authorization = `Bearer ${token}`;
+        let response = await fetch(endpoint, { headers });
+        if (!response.ok && token) {
+          response = await fetch(endpoint, {
+            headers: { 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
+          });
+        }
         if (!response.ok) throw new Error(`Settings read failed (${response.status})`);
         const data = await response.json();
         const binary = atob(data.content.replace(/\n/g, ''));
@@ -614,7 +631,7 @@
       const token = localStorage.getItem('gh_token');
       const owner = localStorage.getItem('gh_owner');
       const repo = localStorage.getItem('gh_repo');
-      if (!token || !owner || !repo) {
+      if (!owner || !repo) {
         setupSec.classList.remove('hidden');
         captureSec.classList.add('hidden');
         pageTabs.classList.add('hidden');
