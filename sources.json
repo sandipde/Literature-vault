@@ -64,6 +64,15 @@
       "notes": [
         "notes/huggingface_space_jomasego_repro-pft-phonon-fine-tuning-for-mac_fa7b9e3fde.md"
       ]
+    },
+    "https://github.com/acesuit/mace": {
+      "type": "github",
+      "canonical_url": "https://github.com/acesuit/mace",
+      "original_url": "https://github.com/acesuit/mace",
+      "title": "ACEsuit/mace",
+      "notes": [
+        "notes/7_ACEsuit_mace.md"
+      ]
     }
   }
 }
