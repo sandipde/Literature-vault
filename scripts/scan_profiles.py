@@ -46,7 +46,7 @@ def _filename(profile, metadata):
     return f"{prefix}_{slug}_{digest}.md"
 
 
-def run_scan(config_file=CONFIG_FILE, seen_file=SEEN_FILE, registry_file=REGISTRY_FILE, notes_dir=NOTES_DIR, state_file=None, now=None, profile_names=None, max_results_override=None, history_file=None):
+def run_scan(config_file=CONFIG_FILE, seen_file=SEEN_FILE, registry_file=REGISTRY_FILE, notes_dir=NOTES_DIR, state_file=None, now=None, profile_names=None, max_results_override=None, history_file=None, force=False):
     config_path = Path(config_file)
     seen_path = Path(seen_file)
     registry_path = Path(registry_file)
@@ -77,7 +77,7 @@ def run_scan(config_file=CONFIG_FILE, seen_file=SEEN_FILE, registry_file=REGISTR
             profile_runs.append({"id": profile["id"], "name": profile["name"], "provider": profile["provider"], "lookback_hours": profile["lookback_hours"], "status": "disabled"})
             continue
         previous = state["profiles"].get(profile["id"])
-        if not is_due(profile, previous, now):
+        if not force and not is_due(profile, previous, now):
             profile_runs.append({"id": profile["id"], "name": profile["name"], "provider": profile["provider"], "lookback_hours": profile["lookback_hours"], "status": "not_due"})
             continue
         try:
@@ -143,10 +143,11 @@ def main():
     parser = argparse.ArgumentParser(description="Run due literature scan profiles")
     parser.add_argument("--profile-name", action="append", help="Run only profiles with this name; may be repeated")
     parser.add_argument("--max-results", type=int, help="Temporarily cap results per profile for a test run")
+    parser.add_argument("--force", action="store_true", help="Ignore profile cadence while preserving lookback and deduplication")
     arguments = parser.parse_args()
     if arguments.max_results is not None and not 1 <= arguments.max_results <= 100:
         parser.error("--max-results must be between 1 and 100")
-    result = run_scan(profile_names=arguments.profile_name, max_results_override=arguments.max_results)
+    result = run_scan(profile_names=arguments.profile_name, max_results_override=arguments.max_results, force=arguments.force)
     print(f"Completed profiles: {len(result['completed'])}; notes added: {len(result['added_notes'])}; profile failures: {len(result['failed'])}")
     for profile in result["profile_runs"]:
         print(f"{profile['provider']} / {profile['name']}: {profile['status']} ({profile.get('notes_added', 0)} notes)")

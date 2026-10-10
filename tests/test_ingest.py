@@ -242,7 +242,7 @@ class ScannerTests(unittest.TestCase):
             self.assertIn("retry-me", result["failed"])
             self.assertNotIn("retry-me", result["state"]["profiles"])
 
-    def test_profile_name_filter_runs_only_the_requested_group(self):
+    def test_forced_profile_name_filter_runs_only_the_requested_group(self):
         profiles = [
             {"id": "mlip-arxiv", "name": "MLIP developments scan", "provider": "arxiv", "enabled": True,
              "queries": ["query"], "max_results": 10, "interval": "twice_daily"},
@@ -253,12 +253,18 @@ class ScannerTests(unittest.TestCase):
             root = Path(temp_dir)
             config = root / "monitor_config.json"
             config.write_text(json.dumps({"version": 1, "profiles": profiles}), encoding="utf-8")
+            state = root / "state.json"
+            state.write_text(json.dumps({"version": 1, "profiles": {
+                "mlip-arxiv": "2026-10-10T05:00:00+00:00",
+                "other": "2026-10-10T05:00:00+00:00",
+            }}), encoding="utf-8")
             with patch.object(scan_profiles, "search_profile", return_value=[]) as search:
                 result = scan_profiles.run_scan(config, root / "seen.json", root / "sources.json", root / "notes",
-                                                root / "state.json", profile_names=["MLIP developments scan"])
+                                                state, profile_names=["MLIP developments scan"],
+                                                now=datetime(2026, 10, 10, 6, tzinfo=timezone.utc), force=True)
             self.assertEqual(search.call_count, 1)
             self.assertEqual(result["completed"], ["mlip-arxiv"])
-            self.assertNotIn("other", result["state"]["profiles"])
+            self.assertEqual(result["state"]["profiles"]["other"], "2026-10-10T05:00:00+00:00")
 
     def test_duplicate_source_across_profiles_creates_one_note(self):
         profiles = [

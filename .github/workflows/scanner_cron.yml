@@ -3,6 +3,20 @@ on:
   schedule:
     - cron: '0 5,17 * * *'
   workflow_dispatch:
+    inputs:
+      profile_name:
+        description: "Optional exact profile name to run (for example, MLIP developments scan)"
+        required: false
+        type: string
+      force:
+        description: "Ignore profile cadence, while preserving freshness and deduplication checks"
+        required: false
+        default: false
+        type: boolean
+      max_results:
+        description: "Optional temporary result cap per profile"
+        required: false
+        type: number
 
 concurrency:
   group: literature-vault-${{ github.repository }}
@@ -19,7 +33,17 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - run: python -m scripts.scan_profiles
+      - name: Run due scan profiles
+        env:
+          PROFILE_NAME: ${{ inputs.profile_name }}
+          FORCE_SCAN: ${{ inputs.force }}
+          MAX_RESULTS: ${{ inputs.max_results }}
+        run: |
+          args=()
+          if [[ -n "${PROFILE_NAME}" ]]; then args+=(--profile-name "${PROFILE_NAME}"); fi
+          if [[ "${FORCE_SCAN}" == "true" ]]; then args+=(--force); fi
+          if [[ "${MAX_RESULTS}" =~ ^[0-9]+$ ]] && (( MAX_RESULTS >= 1 )); then args+=(--max-results "${MAX_RESULTS}"); fi
+          python -m scripts.scan_profiles "${args[@]}"
       - run: |
           git config user.name "scanner-bot[bot]"
           git config user.email "scanner-bot@users.noreply.github.com"
