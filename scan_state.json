@@ -8,6 +8,12 @@
     "mlip-development-gitlab": "2026-10-10T20:47:54.149338+00:00",
     "mlip-development-hf-model": "2026-10-10T20:47:54.149338+00:00",
     "mlip-development-hf-dataset": "2026-10-10T20:47:54.149338+00:00",
-    "mlip-development-hf-space": "2026-10-10T20:47:54.149338+00:00"
+    "mlip-development-hf-space": "2026-10-10T20:47:54.149338+00:00",
+    "arxiv-mlips": "2026-10-10T20:52:18.320648+00:00",
+    "arxiv-ml-atomistic": "2026-10-10T20:52:18.320648+00:00",
+    "arxiv-atomic-scale": "2026-10-10T20:52:18.320648+00:00",
+    "arxiv-heterogeneous-catalysis": "2026-10-10T20:52:18.320648+00:00",
+    "arxiv-legacy-1": "2026-10-10T20:52:18.320648+00:00",
+    "arxiv-legacy-2": "2026-10-10T20:52:18.320648+00:00"
   }
 }
