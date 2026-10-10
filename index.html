@@ -9,7 +9,8 @@
   <link rel="manifest" href="/Literature-vault/manifest.json" />
   <title>Literature Capture</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 480px; margin: 40px auto; padding: 0 16px; color: #24292f; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 980px; margin: 40px auto; padding: 0 16px; color: #24292f; }
+    #setup-section, #capture-section, #scan-settings { max-width: 480px; }
     input, textarea, button { width: 100%; box-sizing: border-box; margin-top: 8px; padding: 10px; font-size: 14px; border: 1px solid #d0d7de; border-radius: 6px; }
     button { background: #2da44e; color: white; font-weight: 600; border: none; cursor: pointer; margin-top: 16px; }
     .status { margin-top: 16px; font-weight: 500; }
@@ -25,6 +26,33 @@
     .scan-profile .profile-enabled input { width: auto; margin: 0; }
     .scan-profile .profile-remove { width: auto; padding: 7px 12px; background: #f2e7e3; color: #7d3421; }
     .settings-help { color: #57606a; font-size: 12px; line-height: 1.5; }
+    .results-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+    .results-head h3 { margin: 0; }
+    .results-head p { margin: 6px 0 14px; color: #57606a; font-size: 13px; }
+    .results-head button { width: auto; margin: 0; padding: 8px 12px; }
+    .results-tabs { display: flex; gap: 20px; border-bottom: 1px solid #d8e0dc; }
+    .results-tabs button { width: auto; margin: 0; padding: 10px 2px; border: 0; border-radius: 0; border-bottom: 2px solid transparent; background: transparent; color: #57606a; }
+    .results-tabs button[aria-selected="true"] { border-bottom-color: #145c50; color: #145c50; }
+    .results-toolbar { display: grid; grid-template-columns: minmax(220px, 1fr) repeat(3, minmax(130px, 180px)); gap: 8px; align-items: center; margin: 12px 0; }
+    .results-toolbar input, .results-toolbar select { margin: 0; }
+    .results-count, .results-status { color: #57606a; font-size: 12px; }
+    .results-count { margin: 8px 0; }
+    .result-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 14px 0; border-top: 1px solid #e1e6e3; }
+    .result-row h4 { margin: 0 0 5px; font-size: 15px; font-weight: 600; overflow-wrap: anywhere; }
+    .result-details { display: flex; flex-wrap: wrap; gap: 6px 12px; color: #57606a; font-size: 12px; }
+    .result-details a, .result-actions a { color: #145c50; }
+    .result-type { color: #145c50; }
+    .result-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 12px; font-size: 12px; }
+    .result-status { font-weight: 600; }
+    .result-status[data-status="failed"] { color: #a13d2d; }
+    .result-status[data-status="success"] { color: #145c50; }
+    .results-empty { padding: 28px 0; border-top: 1px solid #e1e6e3; color: #57606a; font-size: 13px; }
+    @media (max-width: 680px) {
+      .results-toolbar { grid-template-columns: 1fr 1fr; }
+      .results-toolbar input { grid-column: 1 / -1; }
+      .result-row { grid-template-columns: 1fr; }
+      .result-actions { justify-content: flex-start; }
+    }
     .hidden { display: none; }
   </style>
 </head>
@@ -40,6 +68,7 @@
   <div id="page-tabs" class="page-tabs hidden" role="tablist" aria-label="Literature Vault views">
     <button type="button" role="tab" aria-selected="true" data-view="capture">Capture</button>
     <button type="button" role="tab" aria-selected="false" data-view="settings">Scan Settings</button>
+    <button type="button" role="tab" aria-selected="false" data-view="results">Results</button>
   </div>
   <div id="capture-section" class="hidden">
     <input id="title" placeholder="Title / Note" />
@@ -56,6 +85,28 @@
     <button id="add-profile" type="button">Add profile</button>
     <button id="save-profiles" type="button">Request settings update</button>
   </div>
+  <section id="results-section" class="hidden" aria-label="Saved results and scan activity">
+    <div class="results-head">
+      <div>
+        <h3>Results</h3>
+        <p>Saved references and recent scan outcomes.</p>
+      </div>
+      <button id="refresh-results" type="button">Refresh</button>
+    </div>
+    <div class="results-tabs" role="tablist" aria-label="Result lists">
+      <button type="button" role="tab" aria-selected="true" data-results-view="saved">Saved</button>
+      <button type="button" role="tab" aria-selected="false" data-results-view="scans">Scan activity</button>
+    </div>
+    <div class="results-toolbar">
+      <input id="results-search" type="search" placeholder="Search title, URL, provider..." aria-label="Search results" />
+      <select id="saved-type-filter" aria-label="Filter saved results by type"></select>
+      <select id="scan-provider-filter" class="hidden" aria-label="Filter scan activity by provider"></select>
+      <select id="scan-status-filter" class="hidden" aria-label="Filter scan activity by status"></select>
+    </div>
+    <p id="results-status" class="results-status" role="status"></p>
+    <p id="results-count" class="results-count"></p>
+    <div id="results-list" aria-live="polite"></div>
+  </section>
   <div id="status" class="status"></div>
   <script>
     if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/Literature-vault/sw.js'); }
@@ -65,24 +116,217 @@
     const sourceType = document.getElementById('source-type');
     const pageTabs = document.getElementById('page-tabs');
     const settingsSec = document.getElementById('scan-settings');
+    const resultsSec = document.getElementById('results-section');
     const profilesList = document.getElementById('profile-list');
     const settingsStatus = document.getElementById('settings-status');
+    const resultsStatus = document.getElementById('results-status');
+    const resultsCount = document.getElementById('results-count');
+    const resultsList = document.getElementById('results-list');
+    const resultSearch = document.getElementById('results-search');
+    const savedTypeFilter = document.getElementById('saved-type-filter');
+    const scanProviderFilter = document.getElementById('scan-provider-filter');
+    const scanStatusFilter = document.getElementById('scan-status-filter');
     const providerOptions = {
       arxiv: 'arXiv', crossref: 'Journal papers (Crossref)', chemrxiv: 'ChemRxiv', github: 'GitHub repositories',
       gitlab: 'GitLab projects', huggingface_model: 'Hugging Face models',
       huggingface_dataset: 'Hugging Face datasets', huggingface_space: 'Hugging Face Spaces'
     };
+    const resultTypeOptions = {
+      arxiv: 'arXiv', paper: 'Journal paper', chemrxiv: 'ChemRxiv', github: 'GitHub repository',
+      gitlab: 'GitLab project', huggingface_model: 'Hugging Face model',
+      huggingface_dataset: 'Hugging Face dataset', huggingface_space: 'Hugging Face Space', web: 'Website'
+    };
     let scanProfiles = [];
     let scanSettingsLoaded = false;
+    let savedResults = [];
+    let scanResults = [];
+    let resultsLoaded = false;
+    let resultsMode = 'saved';
 
     function selectView(view) {
+      const showCapture = view === 'capture';
       const showSettings = view === 'settings';
-      captureSec.classList.toggle('hidden', showSettings);
+      const showResults = view === 'results';
+      captureSec.classList.toggle('hidden', !showCapture);
       settingsSec.classList.toggle('hidden', !showSettings);
+      resultsSec.classList.toggle('hidden', !showResults);
       pageTabs.querySelectorAll('[data-view]').forEach(tab => {
         tab.setAttribute('aria-selected', String(tab.dataset.view === view));
       });
       if (showSettings && !scanSettingsLoaded) loadScanSettings();
+      if (showResults && !resultsLoaded) loadResults();
+    }
+
+    async function fetchRepositoryJson(path, owner, repo, token) {
+      const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=main&_=${Date.now()}`;
+      const response = await fetch(endpoint, {
+        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
+      });
+      if (!response.ok) throw new Error(`${path} read failed (${response.status})`);
+      const data = await response.json();
+      const binary = atob(data.content.replace(/\n/g, ''));
+      const bytes = Uint8Array.from(binary, character => character.charCodeAt(0));
+      return JSON.parse(new TextDecoder().decode(bytes));
+    }
+
+    function createExternalLink(url, label) {
+      if (!/^https?:\/\//i.test(url || '')) return null;
+      const link = document.createElement('a');
+      link.href = url;
+      link.textContent = label;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      return link;
+    }
+
+    function setFilterOptions(select, label, values, labels = {}) {
+      const options = [new Option(label, '')];
+      [...new Set(values.filter(Boolean))].sort().forEach(value => {
+        options.push(new Option(labels[value] || value, value));
+      });
+      select.replaceChildren(...options);
+    }
+
+    function updateResultsControls() {
+      const showSaved = resultsMode === 'saved';
+      savedTypeFilter.classList.toggle('hidden', !showSaved);
+      scanProviderFilter.classList.toggle('hidden', showSaved);
+      scanStatusFilter.classList.toggle('hidden', showSaved);
+      document.querySelectorAll('[data-results-view]').forEach(tab => {
+        tab.setAttribute('aria-selected', String(tab.dataset.resultsView === resultsMode));
+      });
+      renderResults();
+    }
+
+    async function loadResults() {
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      const token = localStorage.getItem('gh_token');
+      const refreshButton = document.getElementById('refresh-results');
+      refreshButton.disabled = true;
+      resultsStatus.textContent = 'Loading results...';
+      try {
+        const [registry, history] = await Promise.all([
+          fetchRepositoryJson('sources.json', owner, repo, token),
+          fetchRepositoryJson('scan_history.json', owner, repo, token)
+        ]);
+        savedResults = Object.entries(registry.sources || {}).map(([canonicalUrl, record]) => ({
+          canonicalUrl,
+          title: record.title || canonicalUrl,
+          type: record.type || 'web',
+          notePaths: Array.isArray(record.notes) ? record.notes : []
+        })).sort((first, second) => first.title.localeCompare(second.title));
+        scanResults = (history.runs || []).slice().reverse().flatMap(run =>
+          (run.profiles || []).map(profile => ({ ...profile, startedAt: run.started_at }))
+        );
+        setFilterOptions(savedTypeFilter, 'All types', savedResults.map(item => item.type), resultTypeOptions);
+        setFilterOptions(scanProviderFilter, 'All providers', scanResults.map(item => item.provider), providerOptions);
+        setFilterOptions(scanStatusFilter, 'All statuses', scanResults.map(item => item.status));
+        resultsLoaded = true;
+        resultsStatus.textContent = '';
+        updateResultsControls();
+      } catch (error) {
+        resultsStatus.textContent = `${error.message}. Check repository Contents: read permission.`;
+        resultsCount.textContent = '';
+        resultsList.replaceChildren();
+      } finally {
+        refreshButton.disabled = false;
+      }
+    }
+
+    function formatResultDate(value) {
+      const date = new Date(value);
+      return Number.isNaN(date.getTime()) ? value : date.toLocaleString();
+    }
+
+    function renderSavedResults() {
+      const query = resultSearch.value.trim().toLowerCase();
+      const type = savedTypeFilter.value;
+      const filtered = savedResults.filter(item => {
+        const searchable = `${item.title} ${item.canonicalUrl} ${item.type} ${item.notePaths.join(' ')}`.toLowerCase();
+        return (!query || searchable.includes(query)) && (!type || item.type === type);
+      });
+      resultsCount.textContent = `${filtered.length} of ${savedResults.length} saved sources`;
+      if (!filtered.length) {
+        resultsList.innerHTML = '<p class="results-empty">No saved sources match these filters.</p>';
+        return;
+      }
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      resultsList.replaceChildren(...filtered.map(item => {
+        const row = document.createElement('article');
+        row.className = 'result-row';
+        const content = document.createElement('div');
+        const title = document.createElement('h4');
+        title.textContent = item.title;
+        content.append(title);
+        const details = document.createElement('div');
+        details.className = 'result-details';
+        const typeLabel = document.createElement('span');
+        typeLabel.className = 'result-type';
+        typeLabel.textContent = resultTypeOptions[item.type] || item.type;
+        details.append(typeLabel);
+        const sourceLink = createExternalLink(item.canonicalUrl, 'Source');
+        if (sourceLink) details.append(sourceLink);
+        content.append(details);
+        const actions = document.createElement('div');
+        actions.className = 'result-actions';
+        item.notePaths.forEach((notePath, index) => {
+          const encodedPath = notePath.split('/').map(encodeURIComponent).join('/');
+          const link = createExternalLink(`https://github.com/${owner}/${repo}/blob/main/${encodedPath}`, item.notePaths.length > 1 ? `Note ${index + 1}` : 'Open note');
+          if (link) actions.append(link);
+        });
+        row.append(content, actions);
+        return row;
+      }));
+    }
+
+    function renderScanResults() {
+      const query = resultSearch.value.trim().toLowerCase();
+      const provider = scanProviderFilter.value;
+      const status = scanStatusFilter.value;
+      const filtered = scanResults.filter(item => {
+        const searchable = `${item.name} ${item.provider} ${item.status} ${item.error || ''}`.toLowerCase();
+        return (!query || searchable.includes(query)) && (!provider || item.provider === provider) && (!status || item.status === status);
+      });
+      resultsCount.textContent = `${filtered.length} of ${scanResults.length} profile runs`;
+      if (!filtered.length) {
+        resultsList.innerHTML = '<p class="results-empty">No scan activity matches these filters.</p>';
+        return;
+      }
+      resultsList.replaceChildren(...filtered.map(item => {
+        const row = document.createElement('article');
+        row.className = 'result-row';
+        const content = document.createElement('div');
+        const title = document.createElement('h4');
+        title.textContent = item.name || 'Scan profile';
+        content.append(title);
+        const details = document.createElement('div');
+        details.className = 'result-details';
+        const provider = document.createElement('span');
+        provider.textContent = providerOptions[item.provider] || item.provider || 'Unknown provider';
+        details.append(provider, document.createTextNode(formatResultDate(item.startedAt)));
+        if (item.status === 'success') {
+          details.append(document.createTextNode(`${item.results || 0} found · ${item.notes_added || 0} saved`));
+        }
+        if (item.error) details.append(document.createTextNode(item.error));
+        content.append(details);
+        const actions = document.createElement('div');
+        actions.className = 'result-actions';
+        const badge = document.createElement('span');
+        badge.className = 'result-status';
+        badge.dataset.status = item.status || '';
+        badge.textContent = item.status || 'unknown';
+        actions.append(badge);
+        row.append(content, actions);
+        return row;
+      }));
+    }
+
+    function renderResults() {
+      if (!resultsLoaded) return;
+      if (resultsMode === 'saved') renderSavedResults();
+      else renderScanResults();
     }
 
     function addProfileField(container, labelText, control) {
@@ -375,6 +619,7 @@
         captureSec.classList.add('hidden');
         pageTabs.classList.add('hidden');
         settingsSec.classList.add('hidden');
+        resultsSec.classList.add('hidden');
         return false;
       }
       setupSec.classList.add('hidden');
@@ -443,6 +688,17 @@
     pageTabs.querySelectorAll('[data-view]').forEach(tab => {
       tab.addEventListener('click', () => selectView(tab.dataset.view));
     });
+    document.querySelectorAll('[data-results-view]').forEach(tab => {
+      tab.addEventListener('click', () => {
+        resultsMode = tab.dataset.resultsView;
+        updateResultsControls();
+      });
+    });
+    resultSearch.addEventListener('input', renderResults);
+    [savedTypeFilter, scanProviderFilter, scanStatusFilter].forEach(filter => {
+      filter.addEventListener('change', renderResults);
+    });
+    document.getElementById('refresh-results').addEventListener('click', loadResults);
     document.getElementById('add-profile').addEventListener('click', addScanProfile);
     document.getElementById('save-profiles').addEventListener('click', requestScanSettings);
     if (checkConfig()) handleIncomingShare();

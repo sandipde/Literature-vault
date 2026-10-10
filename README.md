@@ -22,6 +22,10 @@ The app submits new references as GitHub Issues. The issue workflow then resolve
 
 You can also create an Issue directly in the configured repository. Put the source URL or DOI in the Issue body. The same metadata and duplicate handling apply.
 
+## Browse Results
+
+Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; filter saved sources by type or scan activity by provider and status. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.
+
 ## Supported Sources
 
 | Source | Information collected when available |
