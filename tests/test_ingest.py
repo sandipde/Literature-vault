@@ -223,6 +223,7 @@ class LiteratureTests(unittest.TestCase):
             (notes / "2_newer.md").write_text(
                 '---\ntitle: Project\ntype: github\nsource: "https://github.com/org/project"\n'
                 'date: "2025-01-05"\ncaptured_at: "2025-01-05T10:00:00+00:00"\n'
+                'last_requested: "2025-02-01T00:00:00+00:00"\n'
                 'provider_data:\n  pushed_at: "2025-02-03T00:00:00Z"\n---\n',
                 encoding="utf-8",
             )
@@ -230,6 +231,7 @@ class LiteratureTests(unittest.TestCase):
 
         record = registry["sources"]["https://github.com/org/project"]
         self.assertEqual(record["added_at"], "2025-01-02")
+        self.assertEqual(record["last_requested_at"], "2025-02-01T00:00:00+00:00")
         self.assertEqual(record["published_at"], "2020-03-04")
         self.assertEqual(record["updated_at"], "2025-02-03T00:00:00Z")
 
@@ -279,6 +281,34 @@ class IngestTests(unittest.TestCase):
             self.assertEqual(source["added_at"], note["captured_at"])
             self.assertEqual(source["published_at"], "2026-10-10")
 
+    def test_duplicate_request_updates_existing_note_and_registry(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            notes = Path(temp_dir) / "notes"
+            registry_path = Path(temp_dir) / "sources.json"
+            env = {
+                "ISSUE_NUM": "21",
+                "USER_LOGIN": "reader",
+                "ISSUE_TITLE": "Captured title",
+                "ISSUE_BODY": "https://arxiv.org/abs/2610.04224",
+            }
+            timestamps = ["2025-01-01T00:00:00+00:00", "2025-02-01T00:00:00+00:00"]
+            with patch.object(ingest, "NOTES_DIR", notes), patch.object(ingest, "REGISTRY_FILE", registry_path), patch.object(
+                ingest, "resolve_metadata", return_value=self.metadata()
+            ), patch.object(ingest, "utc_timestamp", side_effect=timestamps), patch.dict(os.environ, env, clear=True):
+                created = ingest.main()
+                os.environ["ISSUE_NUM"] = "22"
+                duplicate = ingest.main()
+
+            self.assertEqual(created["result"], "created")
+            self.assertEqual(duplicate["result"], "duplicate")
+            note_text = Path(created["note_path"]).read_text(encoding="utf-8")
+            note_end = note_text.find("\n---", 4)
+            note = yaml.safe_load(note_text[4:note_end])
+            self.assertEqual(note["last_requested"], timestamps[1])
+            self.assertIn("## Summary\nA useful abstract.", note_text)
+            source = json.loads(registry_path.read_text(encoding="utf-8"))["sources"]["https://arxiv.org/abs/2610.04224"]
+            self.assertEqual(source["last_requested_at"], timestamps[1])
+
 
 class ScannerTests(unittest.TestCase):
     def test_scanner_does_not_duplicate_second_pass(self):
@@ -306,7 +336,12 @@ class ScannerTests(unittest.TestCase):
             self.assertEqual(json.loads((root / "seen_papers.json").read_text(encoding="utf-8")), ["2610.04224"])
             registered = json.loads((root / "sources.json").read_text(encoding="utf-8"))["sources"]["https://arxiv.org/abs/2610.04224"]
             self.assertEqual(registered["added_at"], "2026-10-10T00:00:00+00:00")
+            self.assertEqual(registered["last_requested_at"], registered["added_at"])
             self.assertEqual(registered["published_at"], "2026-10-10")
+            note_text = Path(first["added_notes"][0]).read_text(encoding="utf-8")
+            note_end = note_text.find("\n---", 4)
+            note = yaml.safe_load(note_text[4:note_end])
+            self.assertEqual(note["last_requested"], registered["last_requested_at"])
             history = json.loads((root / "scan_history.json").read_text(encoding="utf-8"))
             self.assertEqual(history["runs"][0]["profiles"][0]["status"], "success")
             self.assertEqual(history["runs"][0]["notes_added"], 1)

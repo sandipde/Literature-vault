@@ -432,7 +432,7 @@
     let scanResults = [];
     let resultsLoaded = false;
     let resultsMode = 'saved';
-    const resultSortModes = { saved: 'added_desc', scans: 'started_desc' };
+    const resultSortModes = { saved: 'requested_desc', scans: 'started_desc' };
     const activeFilters = { saved: { type: [] }, scans: { provider: [], status: [] } };
 
     function selectView(view) {
@@ -569,6 +569,7 @@
     function updateResultSortOptions() {
       const options = resultsMode === 'saved'
         ? [
+          ['requested_desc', 'Last requested (newest)'],
             ['added_desc', 'Added (newest)'],
             ['published_desc', 'Published (newest)'],
             ['updated_desc', 'Last updated (newest)'],
@@ -584,6 +585,7 @@
 
     function sortResultItems(items, sortMode) {
       const dateFields = {
+        requested_desc: ['lastRequestedAt', 'desc'],
         added_desc: ['addedAt', 'desc'],
         published_desc: ['publishedAt', 'desc'],
         updated_desc: ['updatedAt', 'desc'],
@@ -633,6 +635,7 @@
           type: record.type || 'web',
           notePaths: Array.isArray(record.notes) ? record.notes : [],
           addedAt: record.added_at || '',
+          lastRequestedAt: record.last_requested_at || record.last_requested || record.added_at || '',
           publishedAt: record.published_at || '',
           updatedAt: record.updated_at || ''
         })).sort((first, second) => first.title.localeCompare(second.title));
@@ -684,7 +687,7 @@
         typeLabel.className = 'result-type';
         typeLabel.textContent = resultTypeOptions[item.type] || item.type;
         details.append(typeLabel);
-        [['Added', item.addedAt], ['Published', item.publishedAt], ['Updated', item.updatedAt]].forEach(([label, value]) => {
+        [['Requested', item.lastRequestedAt], ['Added', item.addedAt], ['Published', item.publishedAt], ['Updated', item.updatedAt]].forEach(([label, value]) => {
           if (value) details.append(document.createTextNode(`${label}: ${formatResultDate(value)}`));
         });
         const sourceLink = createExternalLink(item.canonicalUrl, 'Source');

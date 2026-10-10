@@ -519,6 +519,29 @@ def _load_frontmatter(path):
         return {}
 
 
+def update_note_last_requested(path, requested_at):
+    path = Path(path)
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return False
+    if not text.startswith("---\n"):
+        return False
+    frontmatter_end = text.find("\n---", 4)
+    if frontmatter_end < 0:
+        return False
+    try:
+        frontmatter = yaml.safe_load(text[4:frontmatter_end])
+    except yaml.YAMLError:
+        return False
+    if not isinstance(frontmatter, dict):
+        return False
+    frontmatter["last_requested"] = requested_at
+    yaml_text = yaml.safe_dump(frontmatter, allow_unicode=True, sort_keys=False, default_flow_style=False).rstrip()
+    path.write_text(f"---\n{yaml_text}\n---{text[frontmatter_end + 4:]}", encoding="utf-8")
+    return True
+
+
 def _timestamp_order(value):
     try:
         parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
@@ -566,6 +589,12 @@ def load_registry(registry_path, notes_dir):
             current_added_at = record.get("added_at", "")
             if not current_added_at or _timestamp_order(note_added_at) < _timestamp_order(current_added_at):
                 record["added_at"] = note_added_at
+        note_last_requested = frontmatter.get("last_requested") or frontmatter.get("captured_at") or frontmatter.get("date")
+        if note_last_requested:
+            note_last_requested = str(note_last_requested)
+            current_last_requested = record.get("last_requested_at", "")
+            if not current_last_requested or _timestamp_order(note_last_requested) > _timestamp_order(current_last_requested):
+                record["last_requested_at"] = note_last_requested
         published_at = frontmatter.get("published")
         if published_at and not record.get("published_at"):
             record["published_at"] = str(published_at)
@@ -589,19 +618,22 @@ def save_registry(registry, registry_path):
 def register_source(registry, metadata, note_path, original_url, added_at=None):
     key = metadata["canonical_url"]
     provider_data = metadata.get("provider_data", {})
+    captured_at = added_at or utc_timestamp()
     registry["sources"][key] = {
         "type": metadata["type"],
         "canonical_url": key,
         "original_url": original_url,
         "title": metadata["title"],
         "notes": [str(note_path).replace("\\", "/")],
-        "added_at": added_at or utc_timestamp(),
+        "added_at": captured_at,
+        "last_requested_at": captured_at,
         "published_at": str(metadata.get("published") or ""),
         "updated_at": _provider_updated_at(provider_data),
     }
 
 
 def write_note(path, metadata, original_url, author, captured_date, issue_number, captured_at=None):
+    captured_at = captured_at or utc_timestamp()
     frontmatter = {
         "title": metadata["title"],
         "type": metadata["type"],
@@ -609,7 +641,8 @@ def write_note(path, metadata, original_url, author, captured_date, issue_number
         "canonical_url": metadata["canonical_url"],
         "captured_by": author,
         "date": captured_date,
-        "captured_at": captured_at or utc_timestamp(),
+        "captured_at": captured_at,
+        "last_requested": captured_at,
         "issue": str(issue_number),
         "status": "to-read",
         "authors": metadata.get("authors", []),

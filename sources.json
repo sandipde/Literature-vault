@@ -10,7 +10,8 @@
         "notes/3_Dielectric_Response_of_Short_and_Long_Ra.md",
         "notes/4_Dielectric_Response_of_Short_and_Long_Ra.md"
       ],
-      "added_at": "2026-10-09"
+      "added_at": "2026-10-09",
+      "last_requested_at": "2026-10-09"
     },
     "https://arxiv.org/abs/2604.27613": {
       "type": "arxiv",
@@ -20,7 +21,8 @@
       "notes": [
         "notes/5_AMGenC_Generating_Charge_Balanced_Amorph.md"
       ],
-      "added_at": "2026-10-09"
+      "added_at": "2026-10-09",
+      "last_requested_at": "2026-10-09"
     },
     "https://github.com/helixdb/helix-foundry": {
       "type": "github",
@@ -30,7 +32,8 @@
       "notes": [
         "notes/6_New_Reference.md"
       ],
-      "added_at": "2026-10-10"
+      "added_at": "2026-10-10",
+      "last_requested_at": "2026-10-10"
     },
     "https://arxiv.org/abs/2610.12151": {
       "type": "arxiv",
@@ -41,7 +44,8 @@
         "notes/arxiv_2610.12151_Specialized_machine_learning_force_fields_for_92e7687bf3.md"
       ],
       "added_at": "2026-10-10",
-      "published_at": "2026-10-08"
+      "published_at": "2026-10-08",
+      "last_requested_at": "2026-10-10"
     },
     "https://doi.org/10.26434/chemrxiv-2025-bktvd": {
       "type": "chemrxiv",
@@ -52,7 +56,8 @@
         "notes/crossref_Conformational_analysis_of_macrocyclic_compou_6c3bde5a63.md"
       ],
       "added_at": "2026-10-10",
-      "published_at": "2025-06-19"
+      "published_at": "2025-06-19",
+      "last_requested_at": "2026-10-10"
     },
     "https://github.com/isayevlab/aimnetcentral": {
       "type": "github",
@@ -63,7 +68,8 @@
         "notes/github_isayevlab_aimnetcentral_031dba971c.md"
       ],
       "added_at": "2026-10-10",
-      "updated_at": "2026-10-09T18:53:50Z"
+      "updated_at": "2026-10-09T18:53:50Z",
+      "last_requested_at": "2026-10-10"
     },
     "https://huggingface.co/spaces/jomasego/repro-pft-phonon-fine-tuning-for-machine-learned-interatomic-potentials": {
       "type": "huggingface_space",
@@ -74,7 +80,8 @@
         "notes/huggingface_space_jomasego_repro-pft-phonon-fine-tuning-for-mac_fa7b9e3fde.md"
       ],
       "added_at": "2026-10-10",
-      "updated_at": "2026-07-20T11:57:55.000Z"
+      "updated_at": "2026-07-20T11:57:55.000Z",
+      "last_requested_at": "2026-10-10"
     },
     "https://github.com/acesuit/mace": {
       "type": "github",
@@ -85,7 +92,8 @@
         "notes/7_ACEsuit_mace.md"
       ],
       "added_at": "2026-10-10",
-      "updated_at": "2026-10-09T11:19:03Z"
+      "updated_at": "2026-10-09T11:19:03Z",
+      "last_requested_at": "2026-10-10"
     },
     "https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267": {
       "type": "web",
@@ -97,7 +105,8 @@
       ],
       "added_at": "2026-10-10",
       "published_at": "2025-11-14",
-      "updated_at": ""
+      "updated_at": "",
+      "last_requested_at": "2026-10-10"
     },
     "https://linkedin.com/safety/go?messageThreadUrn=urn%3Ali%3AmessageThreadUrn%3A&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41467-026-77080-4%3Ferror%3Dcookies_not_supported%26code%3Dd2060206-7615-491d-bb8c-696dcd28c726&trk=flagship-messaging-android": {
       "type": "web",
@@ -107,7 +116,8 @@
       "notes": [
         "notes/13_New_Reference.md"
       ],
-      "added_at": "2026-10-10"
+      "added_at": "2026-10-10",
+      "last_requested_at": "2026-10-10"
     },
     "https://nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726": {
       "type": "web",
@@ -119,7 +129,8 @@
       ],
       "added_at": "2026-10-10",
       "published_at": "2026-09-17",
-      "updated_at": ""
+      "updated_at": "",
+      "last_requested_at": "2026-10-10"
     }
   }
 }

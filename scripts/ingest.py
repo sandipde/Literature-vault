@@ -10,6 +10,7 @@ from scripts.literature import (
     save_registry,
     utc_date,
     utc_timestamp,
+    update_note_last_requested,
     write_note,
 )
 
@@ -30,6 +31,13 @@ def main():
     registry = load_registry(REGISTRY_FILE, NOTES_DIR)
     existing = registry["sources"].get(metadata["canonical_url"])
     if existing:
+        requested_at = utc_timestamp()
+        for note_name in existing.get("notes", []):
+            note_path = Path(note_name)
+            if not note_path.is_absolute():
+                note_path = NOTES_DIR.parent / note_path
+            update_note_last_requested(note_path, requested_at)
+        existing["last_requested_at"] = requested_at
         save_registry(registry, REGISTRY_FILE)
         note_path = existing.get("notes", [""])[0]
         result = {"result": "duplicate", "note_path": note_path, "canonical_url": metadata["canonical_url"]}

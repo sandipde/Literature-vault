@@ -28,7 +28,7 @@ To install the unpacked extension, open `chrome://extensions`, enable **Develope
 
 ## Browse Results
 
-Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; combine multiple filters by type, provider, and status. Sort saved sources by added date, publication date, last provider update, or title, and scan activity by run time. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.
+Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; combine multiple filters by type, provider, and status. Saved sources default to most recently requested and can also be sorted by added date, publication date, last provider update, or title. Scan activity sorts by run time. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.
 
 ## Supported Sources
 
