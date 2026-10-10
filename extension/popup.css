@@ -28,15 +28,10 @@ body {
 .popup-shell { padding: 18px; }
 .popup-header { display: flex; align-items: center; gap: 11px; padding-bottom: 15px; border-bottom: 1px solid var(--line); }
 .brand-mark {
-  display: grid;
   width: 38px;
   height: 38px;
   flex: 0 0 auto;
-  place-items: center;
-  border: 1px solid var(--pine);
-  color: var(--pine);
-  background: var(--surface);
-  font: 600 16px/1 Georgia, serif;
+  object-fit: contain;
 }
 .brand-copy { flex: 1; min-width: 0; }
 .brand-kicker { margin: 0; color: var(--copper); font: 500 9px/1.4 ui-monospace, monospace; text-transform: uppercase; }

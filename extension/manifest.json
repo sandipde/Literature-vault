@@ -3,10 +3,20 @@
   "name": "Literature Vault Capture",
   "version": "1.0.0",
   "description": "Save the current page to your Literature Vault.",
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
   "permissions": ["activeTab", "storage"],
   "host_permissions": ["https://api.github.com/*"],
   "action": {
     "default_title": "Save page to Literature Vault",
+    "default_icon": {
+      "16": "icon-16.png",
+      "32": "icon-32.png"
+    },
     "default_popup": "popup.html"
   }
 }

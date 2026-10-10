@@ -47,15 +47,10 @@
     }
     .site-header { display: flex; align-items: center; gap: 16px; margin-bottom: 34px; }
     .brand-mark {
-      display: grid;
       width: 46px;
       height: 46px;
       flex: 0 0 auto;
-      place-items: center;
-      border: 1px solid var(--pine);
-      color: var(--pine);
-      background: var(--surface);
-      font: 600 17px/1 "Newsreader", Georgia, serif;
+      object-fit: contain;
     }
     .brand-kicker, .setup-intro {
       margin: 0;
@@ -337,7 +332,7 @@
 <body>
   <main class="site-shell">
   <header class="site-header">
-    <span class="brand-mark" aria-hidden="true">LV</span>
+    <img class="brand-mark" src="/Literature-vault/icon.svg" alt="" />
     <div>
       <p class="brand-kicker">Literature Vault / Research Desk</p>
       <h1>Literature Capture</h1>
