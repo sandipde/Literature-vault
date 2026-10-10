@@ -48,6 +48,7 @@ jobs:
 
       - name: Commit registry and note updates
         env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_NUM: ${{ github.event.issue.number }}
         run: |
           git config user.name "github-actions[bot]"
