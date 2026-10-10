@@ -52,10 +52,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add notes/ sources.json
           if ! git diff --cached --quiet; then
             git commit -m "docs: ingest #${ISSUE_NUM}"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
           gh issue close "${ISSUE_NUM}"
