@@ -91,11 +91,13 @@
       "type": "web",
       "canonical_url": "https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267",
       "original_url": "https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267",
-      "title": "A foundation model for atomistic materials chemistry | The Journal of Chemical Physics | AIP Publishing",
+      "title": "A foundation model for atomistic materials chemistry",
       "notes": [
         "notes/9_A_foundation_model_for_atomistic_materials_chemist.md"
       ],
-      "added_at": "2026-10-10"
+      "added_at": "2026-10-10",
+      "published_at": "2025-11-14",
+      "updated_at": ""
     },
     "https://linkedin.com/safety/go?messageThreadUrn=urn%3Ali%3AmessageThreadUrn%3A&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41467-026-77080-4%3Ferror%3Dcookies_not_supported%26code%3Dd2060206-7615-491d-bb8c-696dcd28c726&trk=flagship-messaging-android": {
       "type": "web",
@@ -111,11 +113,13 @@
       "type": "web",
       "canonical_url": "https://nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726",
       "original_url": "https://www.nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726",
-      "title": "Data-driven massive reaction networks reveal mechanistic pathways underlying catalytic CO2 hydrogenation | Nature Communications",
+      "title": "Data-driven massive reaction networks reveal mechanistic pathways underlying catalytic CO2 hydrogenation",
       "notes": [
         "notes/14_Data-driven_massive_reaction_networks_reveal_mecha.md"
       ],
-      "added_at": "2026-10-10"
+      "added_at": "2026-10-10",
+      "published_at": "2026-09-17",
+      "updated_at": ""
     }
   }
 }

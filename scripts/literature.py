@@ -1,9 +1,12 @@
 import html
+import ipaddress
 import json
 import re
+import socket
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from difflib import SequenceMatcher
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -27,6 +30,21 @@ class _TextExtractor(HTMLParser):
 
     def text(self):
         return " ".join(" ".join(self.parts).split())
+
+
+class _CitationMetadataParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.values = {}
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() != "meta":
+            return
+        attributes = dict(attrs)
+        name = attributes.get("name") or attributes.get("property") or attributes.get("itemprop")
+        content = attributes.get("content")
+        if name and content:
+            self.values.setdefault(name.lower(), []).append(html.unescape(content.strip()))
 
 
 def clean_url(value):
@@ -132,6 +150,51 @@ def _request_text(url, params=None):
     return response.text
 
 
+def _request_public_html(url):
+    current_url = url
+    for _ in range(5):
+        parsed = urllib.parse.urlsplit(current_url)
+        if parsed.scheme not in {"http", "https"} or not parsed.hostname or parsed.username or parsed.password:
+            raise ValueError("Publisher metadata URL must be a public HTTP(S) URL.")
+        port = parsed.port or (443 if parsed.scheme == "https" else 80)
+        if port != (443 if parsed.scheme == "https" else 80):
+            raise ValueError("Publisher metadata URL uses an unsupported port.")
+        try:
+            addresses = socket.getaddrinfo(parsed.hostname, port, type=socket.SOCK_STREAM)
+        except OSError as error:
+            raise requests.ConnectionError(f"Could not resolve publisher host: {error}") from error
+        if not addresses or any(not ipaddress.ip_address(address[4][0]).is_global for address in addresses):
+            raise ValueError("Publisher metadata URL must resolve only to public addresses.")
+
+        response = requests.get(
+            current_url,
+            timeout=20,
+            headers={"User-Agent": "LiteratureVault/1.0 (open metadata lookup)", "Accept": "text/html"},
+            allow_redirects=False,
+            stream=True,
+        )
+        try:
+            if 300 <= response.status_code < 400:
+                location = response.headers.get("Location")
+                if not location:
+                    response.raise_for_status()
+                current_url = urllib.parse.urljoin(current_url, location)
+                continue
+            response.raise_for_status()
+            content_type = response.headers.get("Content-Type", "text/html").lower()
+            if "html" not in content_type:
+                return ""
+            body = bytearray()
+            for chunk in response.iter_content(65536):
+                body.extend(chunk)
+                if len(body) > 2 * 1024 * 1024:
+                    raise requests.RequestException("Publisher page exceeds the metadata size limit.")
+            return bytes(body).decode(response.encoding or "utf-8", errors="replace")
+        finally:
+            response.close()
+    raise requests.TooManyRedirects("Publisher page has too many redirects.")
+
+
 def _plain_text(value):
     parser = _TextExtractor()
     parser.feed(value or "")
@@ -176,9 +239,10 @@ def _openalex(canonical_url):
         params={"filter": f"locations.landing_page_url:{canonical_url}", "per-page": 1},
     )
     results = data.get("results", [])
-    if not results:
-        return {}
-    work = results[0]
+    return _openalex_work(results[0]) if results else {}
+
+
+def _openalex_work(work):
     inverted = work.get("abstract_inverted_index") or {}
     words = []
     for word, positions in inverted.items():
@@ -200,6 +264,106 @@ def _openalex(canonical_url):
             "cited_by_count": work.get("cited_by_count"),
         },
     }
+
+
+def _openalex_by_doi(doi):
+    encoded_doi = urllib.parse.quote(doi, safe="/")
+    work = _request_json(f"https://api.openalex.org/works/https://doi.org/{encoded_doi}")
+    return _openalex_work(work)
+
+
+def _title_for_lookup(value):
+    title = (value or "").split(" | ", 1)[0]
+    return " ".join(re.findall(r"\w+", title.casefold()))
+
+
+def _openalex_by_title(title):
+    normalized_title = _title_for_lookup(title)
+    if len(normalized_title) < 20 or normalized_title in {"new reference", "paper"}:
+        return {}
+    results = _request_json(
+        "https://api.openalex.org/works",
+        params={"search": title.split(" | ", 1)[0], "per-page": 5},
+    ).get("results", [])
+    if not results:
+        return {}
+    best_match = max(
+        results,
+        key=lambda work: SequenceMatcher(None, normalized_title, _title_for_lookup(work.get("title", ""))).ratio(),
+    )
+    similarity = SequenceMatcher(None, normalized_title, _title_for_lookup(best_match.get("title", ""))).ratio()
+    return _openalex_work(best_match) if similarity >= 0.9 else {}
+
+
+def _metadata_values(values, *keys):
+    return [value for key in keys for value in values.get(key, []) if value]
+
+
+def _fetch_web_metadata(canonical_url, fallback_title=""):
+    values = {}
+    try:
+        parser = _CitationMetadataParser()
+        parser.feed(_request_public_html(canonical_url))
+        values = parser.values
+    except (requests.RequestException, ValueError):
+        pass
+
+    page_titles = _metadata_values(values, "citation_title", "dc.title", "dcterms.title", "og:title")
+    page_authors = _metadata_values(values, "citation_author")
+    if not page_authors:
+        page_authors = _metadata_values(values, "dc.creator", "author")
+    page_abstracts = _metadata_values(values, "citation_abstract", "description", "og:description")
+    page_dates = _metadata_values(values, "citation_publication_date", "citation_online_date", "citation_date", "dc.date")
+    page_dois = _metadata_values(values, "citation_doi", "prism.doi", "dc.identifier")
+    doi = _doi_from(page_dois[0]) if page_dois else ""
+    title = page_titles[0] if page_titles else fallback_title
+
+    crossref = {}
+    if doi:
+        try:
+            crossref = _crossref(doi)
+        except requests.RequestException:
+            pass
+
+    openalex = {}
+    if doi and (not crossref.get("abstract") or not crossref.get("authors")):
+        try:
+            openalex = _openalex_by_doi(doi)
+        except requests.RequestException:
+            pass
+    elif title:
+        try:
+            openalex = _openalex_by_title(title)
+        except requests.RequestException:
+            pass
+    if not crossref and openalex:
+        doi = _doi_from(openalex.get("provider_data", {}).get("doi", ""))
+        if doi:
+            try:
+                crossref = _crossref(doi)
+            except requests.RequestException:
+                pass
+
+    details = {
+        "title": page_titles[0] if page_titles else crossref.get("title") or openalex.get("title", ""),
+        "authors": page_authors or crossref.get("authors") or openalex.get("authors", []),
+        "published": crossref.get("published") or openalex.get("published") or (page_dates[0] if page_dates else ""),
+        "abstract": page_abstracts[0] if page_abstracts else crossref.get("abstract") or openalex.get("abstract", ""),
+        "provider_data": {},
+    }
+    details["provider_data"].update(crossref.get("provider_data", {}))
+    for key, value in openalex.get("provider_data", {}).items():
+        details["provider_data"].setdefault(key, value)
+    if doi:
+        details["provider_data"].setdefault("doi", doi)
+    journal_titles = _metadata_values(values, "citation_journal_title", "prism.publicationname")
+    if journal_titles:
+        details["provider_data"].setdefault("journal", journal_titles[0])
+
+    if not any((details["title"], details["authors"], details["published"], details["abstract"])):
+        return "Publisher metadata", {}
+    provider = "Crossref" if crossref else "OpenAlex" if openalex else "Publisher metadata"
+    return provider, details
 
 
 def _fetch_arxiv(canonical_url):
@@ -325,6 +489,8 @@ def resolve_metadata(value, fallback_title=""):
             details = _crossref(doi) if doi else {}
         elif kind == "chemrxiv":
             provider, details = "OpenAlex", _openalex(canonical_url)
+        elif kind == "web":
+            provider, details = _fetch_web_metadata(canonical_url, fallback_title)
         else:
             provider, details = "", {}
         if details:

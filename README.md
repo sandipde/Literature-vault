@@ -38,9 +38,9 @@ Open **Results** in the Pages app to browse saved sources or recent scan activit
 | arXiv | Title, authors, abstract, publication date, categories, and DOI |
 | DOI-linked journal paper | Crossref title, authors, journal, publisher, publication date, abstract, subjects, and license details |
 | ChemRxiv paper | OpenAlex metadata for an exact public landing-page match; DOI metadata when submitted as a DOI |
-| Other URL | Canonical source URL and any submitted title; no page scraping is performed |
+| Other URL | Standard publisher citation metadata when available; DOI/title matches may be enriched through Crossref or OpenAlex. Page body text is not extracted. |
 
-Metadata lookups use public APIs without additional credentials. Some providers may not expose every field; failed or partial lookups do not prevent the source from being saved.
+Metadata lookups use public APIs without additional credentials. For general journal URLs, the capture workflow reads standard citation tags when available, then resolves an identified DOI or a high-confidence title match through Crossref or OpenAlex. Some publishers block page metadata requests or omit fields; failed or partial lookups do not prevent the source from being saved.
 
 ## Duplicate Handling
 
@@ -58,7 +58,7 @@ The initial configuration in [`monitor_config.json`](monitor_config.json) includ
 
 The **Periodic Scanner** workflow runs at 05:00 and 17:00 UTC. Each profile searches only within its configured rolling lookback window, defaulting to the preceding 24 hours; provider timestamps are arXiv submission time, Crossref record creation, repository push/activity, or Hugging Face last modification. It checks each enabled profile's last successful scan and runs it only when its interval is due. Profiles can run twice daily, daily, weekly, or monthly. Result limits apply to the total results collected for a profile across its queries. A failed provider search does not advance that profile's schedule, so it remains due for retry. All results share canonical-source deduplication with manually captured notes and other profiles.
 
-Scans use provider APIs (arXiv Atom, Crossref including the ChemRxiv DOI prefix, GitHub, GitLab, and Hugging Face Hub); no page scraping is performed. To run due profiles immediately, open the repository's **Actions** tab, select **Periodic Scanner**, and choose **Run workflow**. The scanner records successful runs in `scan_state.json`, per-provider outcomes in `scan_history.json`, and legacy arXiv history in `seen_papers.json`. Ensure GitHub Actions is enabled and permitted to write repository contents and Issues.
+Scans use provider APIs (arXiv Atom, Crossref including the ChemRxiv DOI prefix, GitHub, GitLab, and Hugging Face Hub); they do not scrape publisher pages. To run due profiles immediately, open the repository's **Actions** tab, select **Periodic Scanner**, and choose **Run workflow**. The scanner records successful runs in `scan_state.json`, per-provider outcomes in `scan_history.json`, and legacy arXiv history in `seen_papers.json`. Ensure GitHub Actions is enabled and permitted to write repository contents and Issues.
 
 ## GitHub Pages
 

@@ -79,6 +79,79 @@ class LiteratureTests(unittest.TestCase):
         self.assertEqual(parsed["abstract"], "Open metadata. Structured")
         self.assertEqual(parsed["provider_data"]["topics"], ["Chemistry"])
 
+    def test_web_page_citation_tags_enrich_doi_metadata(self):
+        page = '''<meta name="citation_title" content="A journal article">
+          <meta name="citation_author" content="Ada Lovelace">
+                    <meta name="author" content="Ada Lovelace">
+          <meta name="citation_doi" content="10.5555/example.123">
+          <meta name="citation_publication_date" content="2025-03-08">
+          <meta property="og:description" content="Publisher abstract text.">'''
+        crossref = {
+            "title": "A journal article",
+            "authors": ["Ada Lovelace"],
+            "published": "2025-03-08",
+            "abstract": "",
+            "provider_data": {"doi": "10.5555/example.123", "journal": "Journal of Tests"},
+        }
+        with patch.object(literature, "_request_public_html", return_value=page), patch.object(
+            literature, "_crossref", return_value=crossref
+        ):
+            result = literature.resolve_metadata("https://journal.example/article")
+        self.assertEqual(result["metadata_provider"], "Crossref")
+        self.assertEqual(result["title"], "A journal article")
+        self.assertEqual(result["authors"], ["Ada Lovelace"])
+        self.assertEqual(result["published"], "2025-03-08")
+        self.assertEqual(result["abstract"], "Publisher abstract text.")
+        self.assertEqual(result["provider_data"]["doi"], "10.5555/example.123")
+
+    def test_web_page_uses_exact_title_match_when_publisher_blocks_access(self):
+        work = {
+            "title": "A foundation model for atomistic materials chemistry",
+            "publication_date": "2025-10-01",
+            "authorships": [{"author": {"display_name": "Ada Lovelace"}}],
+            "abstract_inverted_index": {"Structured": [0], "abstract.": [1]},
+            "primary_location": {"source": {"display_name": "Journal of Tests"}},
+            "topics": [],
+            "open_access": {"is_oa": True},
+            "cited_by_count": 0,
+            "doi": "https://doi.org/10.5555/example.123",
+            "type": "article",
+        }
+        fallback_title = "A foundation model for atomistic materials chemistry | Journal of Tests"
+        crossref = {
+            "title": work["title"],
+            "authors": ["Ada Lovelace"],
+            "published": "2025-10-02",
+            "abstract": "Crossref abstract.",
+            "provider_data": {"doi": "10.5555/example.123"},
+        }
+        with patch.object(literature, "_request_public_html", side_effect=requests.HTTPError("403 blocked")), patch.object(
+            literature, "_request_json", return_value={"results": [work]}
+        ), patch.object(literature, "_crossref", return_value=crossref):
+            result = literature.resolve_metadata("https://publisher.example/article/123", fallback_title)
+            unrelated = literature._openalex_by_title("A completely unrelated title about astronomy")
+        self.assertEqual(result["metadata_provider"], "Crossref")
+        self.assertEqual(result["title"], "A foundation model for atomistic materials chemistry")
+        self.assertEqual(result["authors"], ["Ada Lovelace"])
+        self.assertEqual(result["published"], "2025-10-02")
+        self.assertEqual(result["abstract"], "Crossref abstract.")
+        self.assertEqual(result["provider_data"]["doi"], "10.5555/example.123")
+        self.assertEqual(unrelated, {})
+
+    def test_web_metadata_fetch_rejects_redirects_to_private_addresses(self):
+        redirect = Mock(status_code=302, headers={"Location": "http://127.0.0.1/private"})
+
+        def resolve_host(host, port, type):
+            address = "93.184.216.34" if host == "publisher.example" else "127.0.0.1"
+            return [(2, 1, 6, "", (address, port))]
+
+        with patch.object(literature.socket, "getaddrinfo", side_effect=resolve_host), patch.object(
+            literature.requests, "get", return_value=redirect
+        ) as request:
+            with self.assertRaises(ValueError):
+                literature._request_public_html("https://publisher.example/article")
+        request.assert_called_once()
+
     def test_repository_metadata_parsers(self):
         github = {
             "full_name": "org/repo", "description": "A useful project", "language": "Python",
