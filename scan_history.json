@@ -261,6 +261,68 @@
         }
       ],
       "notes_added": 0
+    },
+    {
+      "started_at": "2026-10-10T20:55:44.824610+00:00",
+      "profiles": [
+        {
+          "id": "mlip-development-arxiv",
+          "name": "MLIP developments scan",
+          "provider": "arxiv",
+          "lookback_hours": 24,
+          "status": "not_due"
+        },
+        {
+          "id": "mlip-development-crossref",
+          "name": "MLIP developments scan",
+          "provider": "crossref",
+          "lookback_hours": 24,
+          "status": "not_due"
+        },
+        {
+          "id": "mlip-development-chemrxiv",
+          "name": "MLIP developments scan",
+          "provider": "chemrxiv",
+          "lookback_hours": 24,
+          "status": "not_due"
+        },
+        {
+          "id": "mlip-development-github",
+          "name": "MLIP developments scan",
+          "provider": "github",
+          "lookback_hours": 24,
+          "status": "not_due"
+        },
+        {
+          "id": "mlip-development-gitlab",
+          "name": "MLIP developments scan",
+          "provider": "gitlab",
+          "lookback_hours": 24,
+          "status": "not_due"
+        },
+        {
+          "id": "mlip-development-hf-model",
+          "name": "MLIP developments scan",
+          "provider": "huggingface_model",
+          "lookback_hours": 24,
+          "status": "not_due"
+        },
+        {
+          "id": "mlip-development-hf-dataset",
+          "name": "MLIP developments scan",
+          "provider": "huggingface_dataset",
+          "lookback_hours": 24,
+          "status": "not_due"
+        },
+        {
+          "id": "mlip-development-hf-space",
+          "name": "MLIP developments scan",
+          "provider": "huggingface_space",
+          "lookback_hours": 24,
+          "status": "not_due"
+        }
+      ],
+      "notes_added": 0
     }
   ]
 }
