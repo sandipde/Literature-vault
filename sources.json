@@ -9,7 +9,8 @@
       "notes": [
         "notes/3_Dielectric_Response_of_Short_and_Long_Ra.md",
         "notes/4_Dielectric_Response_of_Short_and_Long_Ra.md"
-      ]
+      ],
+      "added_at": "2026-10-09"
     },
     "https://arxiv.org/abs/2604.27613": {
       "type": "arxiv",
@@ -18,7 +19,8 @@
       "title": "AMGenC: Generating Charge Balanced Amorphous Materials",
       "notes": [
         "notes/5_AMGenC_Generating_Charge_Balanced_Amorph.md"
-      ]
+      ],
+      "added_at": "2026-10-09"
     },
     "https://github.com/helixdb/helix-foundry": {
       "type": "github",
@@ -27,7 +29,8 @@
       "title": "New Reference",
       "notes": [
         "notes/6_New_Reference.md"
-      ]
+      ],
+      "added_at": "2026-10-10"
     },
     "https://arxiv.org/abs/2610.12151": {
       "type": "arxiv",
@@ -36,7 +39,9 @@
       "title": "Specialized machine learning force fields for materials dynamics",
       "notes": [
         "notes/arxiv_2610.12151_Specialized_machine_learning_force_fields_for_92e7687bf3.md"
-      ]
+      ],
+      "added_at": "2026-10-10",
+      "published_at": "2026-10-08"
     },
     "https://doi.org/10.26434/chemrxiv-2025-bktvd": {
       "type": "chemrxiv",
@@ -45,7 +50,9 @@
       "title": "Conformational analysis of macrocyclic compounds using a machine-learned interatomic potential",
       "notes": [
         "notes/crossref_Conformational_analysis_of_macrocyclic_compou_6c3bde5a63.md"
-      ]
+      ],
+      "added_at": "2026-10-10",
+      "published_at": "2025-06-19"
     },
     "https://github.com/isayevlab/aimnetcentral": {
       "type": "github",
@@ -54,7 +61,9 @@
       "title": "isayevlab/aimnetcentral",
       "notes": [
         "notes/github_isayevlab_aimnetcentral_031dba971c.md"
-      ]
+      ],
+      "added_at": "2026-10-10",
+      "updated_at": "2026-10-09T18:53:50Z"
     },
     "https://huggingface.co/spaces/jomasego/repro-pft-phonon-fine-tuning-for-machine-learned-interatomic-potentials": {
       "type": "huggingface_space",
@@ -63,7 +72,9 @@
       "title": "jomasego/repro-pft-phonon-fine-tuning-for-machine-learned-interatomic-potentials",
       "notes": [
         "notes/huggingface_space_jomasego_repro-pft-phonon-fine-tuning-for-mac_fa7b9e3fde.md"
-      ]
+      ],
+      "added_at": "2026-10-10",
+      "updated_at": "2026-07-20T11:57:55.000Z"
     },
     "https://github.com/acesuit/mace": {
       "type": "github",
@@ -72,7 +83,9 @@
       "title": "ACEsuit/mace",
       "notes": [
         "notes/7_ACEsuit_mace.md"
-      ]
+      ],
+      "added_at": "2026-10-10",
+      "updated_at": "2026-10-09T11:19:03Z"
     },
     "https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267": {
       "type": "web",
@@ -81,7 +94,8 @@
       "title": "A foundation model for atomistic materials chemistry | The Journal of Chemical Physics | AIP Publishing",
       "notes": [
         "notes/9_A_foundation_model_for_atomistic_materials_chemist.md"
-      ]
+      ],
+      "added_at": "2026-10-10"
     },
     "https://linkedin.com/safety/go?messageThreadUrn=urn%3Ali%3AmessageThreadUrn%3A&url=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs41467-026-77080-4%3Ferror%3Dcookies_not_supported%26code%3Dd2060206-7615-491d-bb8c-696dcd28c726&trk=flagship-messaging-android": {
       "type": "web",
@@ -90,7 +104,8 @@
       "title": "New Reference",
       "notes": [
         "notes/13_New_Reference.md"
-      ]
+      ],
+      "added_at": "2026-10-10"
     },
     "https://nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726": {
       "type": "web",
@@ -99,7 +114,8 @@
       "title": "Data-driven massive reaction networks reveal mechanistic pathways underlying catalytic CO2 hydrogenation | Nature Communications",
       "notes": [
         "notes/14_Data-driven_massive_reaction_networks_reveal_mecha.md"
-      ]
+      ],
+      "added_at": "2026-10-10"
     }
   }
 }

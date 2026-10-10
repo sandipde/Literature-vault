@@ -138,6 +138,28 @@ class LiteratureTests(unittest.TestCase):
         record = registry["sources"]["https://arxiv.org/abs/2610.04224"]
         self.assertEqual(set(record["notes"]), {"notes/3_old.md", "notes/4_duplicate.md"})
 
+    def test_registry_backfills_sort_timestamps_from_note_frontmatter(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            notes = Path(temp_dir) / "notes"
+            notes.mkdir()
+            (notes / "1_old.md").write_text(
+                '---\ntitle: Project\ntype: github\nsource: "https://github.com/org/project"\n'
+                'date: "2025-01-02"\npublished: "2020-03-04"\nprovider_data:\n  pushed_at: "2025-02-01T00:00:00Z"\n---\n',
+                encoding="utf-8",
+            )
+            (notes / "2_newer.md").write_text(
+                '---\ntitle: Project\ntype: github\nsource: "https://github.com/org/project"\n'
+                'date: "2025-01-05"\ncaptured_at: "2025-01-05T10:00:00+00:00"\n'
+                'provider_data:\n  pushed_at: "2025-02-03T00:00:00Z"\n---\n',
+                encoding="utf-8",
+            )
+            registry = literature.load_registry(Path(temp_dir) / "sources.json", notes)
+
+        record = registry["sources"]["https://github.com/org/project"]
+        self.assertEqual(record["added_at"], "2025-01-02")
+        self.assertEqual(record["published_at"], "2020-03-04")
+        self.assertEqual(record["updated_at"], "2025-02-03T00:00:00Z")
+
 
 class IngestTests(unittest.TestCase):
     def metadata(self):
@@ -179,6 +201,10 @@ class IngestTests(unittest.TestCase):
             note = yaml.safe_load(note_text[4:note_end])
             self.assertEqual(note["type"], "arxiv")
             self.assertEqual(note["provider_data"]["categories"], ["cs.LG"])
+            self.assertTrue(datetime.fromisoformat(note["captured_at"]).tzinfo)
+            source = json.loads(registry_path.read_text(encoding="utf-8"))["sources"]["https://arxiv.org/abs/2610.04224"]
+            self.assertEqual(source["added_at"], note["captured_at"])
+            self.assertEqual(source["published_at"], "2026-10-10")
 
 
 class ScannerTests(unittest.TestCase):
@@ -205,6 +231,9 @@ class ScannerTests(unittest.TestCase):
             self.assertEqual(second["added_notes"], [])
             self.assertEqual(search.call_count, 1)
             self.assertEqual(json.loads((root / "seen_papers.json").read_text(encoding="utf-8")), ["2610.04224"])
+            registered = json.loads((root / "sources.json").read_text(encoding="utf-8"))["sources"]["https://arxiv.org/abs/2610.04224"]
+            self.assertEqual(registered["added_at"], "2026-10-10T00:00:00+00:00")
+            self.assertEqual(registered["published_at"], "2026-10-10")
             history = json.loads((root / "scan_history.json").read_text(encoding="utf-8"))
             self.assertEqual(history["runs"][0]["profiles"][0]["status"], "success")
             self.assertEqual(history["runs"][0]["notes_added"], 1)

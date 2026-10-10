@@ -9,6 +9,7 @@ from scripts.literature import (
     resolve_metadata,
     save_registry,
     utc_date,
+    utc_timestamp,
     write_note,
 )
 
@@ -38,8 +39,9 @@ def main():
         filename = f"{issue_number}_{title_slug}.md"
         NOTES_DIR.mkdir(parents=True, exist_ok=True)
         target_path = NOTES_DIR / filename
-        write_note(target_path, metadata, source_url, author, utc_date(), issue_number)
-        register_source(registry, metadata, target_path, source_url)
+        captured_at = utc_timestamp()
+        write_note(target_path, metadata, source_url, author, utc_date(), issue_number, captured_at)
+        register_source(registry, metadata, target_path, source_url, added_at=captured_at)
         save_registry(registry, REGISTRY_FILE)
         result = {"result": "created", "note_path": str(target_path), "canonical_url": metadata["canonical_url"]}
 

@@ -185,7 +185,9 @@
     }
     .results-tabs button:hover { color: var(--pine); background: transparent; }
     .results-tabs button[aria-selected="true"] { border-bottom-color: var(--copper); color: var(--pine-dark); }
-    .results-toolbar { margin: 16px 0 10px; }
+    .results-toolbar { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: center; margin: 16px 0 10px; }
+    .results-sort-control { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .results-sort-control select { width: auto; min-width: 178px; min-height: 40px; margin: 0; padding: 7px 30px 7px 9px; font-size: 12px; }
     .results-filterbar {
       display: flex;
       min-height: 52px;
@@ -308,6 +310,8 @@
       .site-shell { width: min(100% - 32px, 1080px); padding-top: 22px; }
       .site-header { margin-bottom: 25px; }
       .site-header h1 { font-size: 30px; }
+      .results-toolbar { grid-template-columns: 1fr; }
+      .results-sort-control { justify-self: end; }
     }
     @media (max-width: 520px) {
       .site-shell { width: min(100% - 24px, 1080px); padding-top: 18px; }
@@ -319,6 +323,8 @@
       .scan-profile { grid-template-columns: 1fr; }
       .results-head { align-items: center; }
       .results-head button { flex: 0 0 auto; }
+      .results-sort-control { width: 100%; justify-content: space-between; }
+      .results-sort-control select { flex: 1; }
       .result-row { grid-template-columns: 1fr; gap: 8px; }
       .result-actions { justify-content: flex-start; }
       #scan-settings #save-profiles { margin-left: 0; }
@@ -385,6 +391,10 @@
           <div id="filter-menu-options" class="filter-menu-options"></div>
         </details>
       </div>
+      <label class="results-sort-control">
+        <span>Sort by</span>
+        <select id="results-sort" aria-label="Sort results"></select>
+      </label>
     </div>
     <p id="results-status" class="results-status" role="status"></p>
     <p id="results-count" class="results-count"></p>
@@ -407,6 +417,7 @@
     const resultsCount = document.getElementById('results-count');
     const resultsList = document.getElementById('results-list');
     const resultSearch = document.getElementById('results-search');
+    const resultsSort = document.getElementById('results-sort');
     const activeFilterChips = document.getElementById('active-filter-chips');
     const filterMenu = document.getElementById('filter-menu');
     const filterMenuOptions = document.getElementById('filter-menu-options');
@@ -426,6 +437,7 @@
     let scanResults = [];
     let resultsLoaded = false;
     let resultsMode = 'saved';
+    const resultSortModes = { saved: 'added_desc', scans: 'started_desc' };
     const activeFilters = { saved: { type: [] }, scans: { provider: [], status: [] } };
 
     function selectView(view) {
@@ -559,7 +571,48 @@
       }
     }
 
+    function updateResultSortOptions() {
+      const options = resultsMode === 'saved'
+        ? [
+            ['added_desc', 'Added (newest)'],
+            ['published_desc', 'Published (newest)'],
+            ['updated_desc', 'Last updated (newest)'],
+            ['title_asc', 'Title (A to Z)']
+          ]
+        : [
+            ['started_desc', 'Run time (newest)'],
+            ['started_asc', 'Run time (oldest)']
+          ];
+      resultsSort.replaceChildren(...options.map(([value, label]) => new Option(label, value)));
+      resultsSort.value = resultSortModes[resultsMode];
+    }
+
+    function sortResultItems(items, sortMode) {
+      const dateFields = {
+        added_desc: ['addedAt', 'desc'],
+        published_desc: ['publishedAt', 'desc'],
+        updated_desc: ['updatedAt', 'desc'],
+        started_desc: ['startedAt', 'desc'],
+        started_asc: ['startedAt', 'asc']
+      };
+      if (sortMode === 'title_asc') {
+        return items.slice().sort((first, second) => first.title.localeCompare(second.title));
+      }
+      const [field, direction] = dateFields[sortMode] || dateFields.added_desc;
+      return items.slice().sort((first, second) => {
+        const firstTime = Date.parse(first[field] || '');
+        const secondTime = Date.parse(second[field] || '');
+        const firstValid = Number.isFinite(firstTime);
+        const secondValid = Number.isFinite(secondTime);
+        if (!firstValid && !secondValid) return 0;
+        if (!firstValid) return 1;
+        if (!secondValid) return -1;
+        return direction === 'asc' ? firstTime - secondTime : secondTime - firstTime;
+      });
+    }
+
     function updateResultsControls() {
+      updateResultSortOptions();
       renderFilterControls();
       document.querySelectorAll('[data-results-view]').forEach(tab => {
         tab.setAttribute('aria-selected', String(tab.dataset.resultsView === resultsMode));
@@ -583,7 +636,10 @@
           canonicalUrl,
           title: record.title || canonicalUrl,
           type: record.type || 'web',
-          notePaths: Array.isArray(record.notes) ? record.notes : []
+          notePaths: Array.isArray(record.notes) ? record.notes : [],
+          addedAt: record.added_at || '',
+          publishedAt: record.published_at || '',
+          updatedAt: record.updated_at || ''
         })).sort((first, second) => first.title.localeCompare(second.title));
         scanResults = (history.runs || []).slice().reverse().flatMap(run =>
           (run.profiles || []).map(profile => ({ ...profile, startedAt: run.started_at }))
@@ -601,6 +657,7 @@
     }
 
     function formatResultDate(value) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(value || '')) return value;
       const date = new Date(value);
       return Number.isNaN(date.getTime()) ? value : date.toLocaleString();
     }
@@ -608,10 +665,10 @@
     function renderSavedResults() {
       const query = resultSearch.value.trim().toLowerCase();
       const types = activeFilters.saved.type;
-      const filtered = savedResults.filter(item => {
+      const filtered = sortResultItems(savedResults.filter(item => {
         const searchable = `${item.title} ${item.canonicalUrl} ${item.type} ${item.notePaths.join(' ')}`.toLowerCase();
         return (!query || searchable.includes(query)) && (!types.length || types.includes(item.type));
-      });
+      }), resultSortModes.saved);
       resultsCount.textContent = `${filtered.length} of ${savedResults.length} saved sources`;
       if (!filtered.length) {
         resultsList.innerHTML = '<p class="results-empty">No saved sources match these filters.</p>';
@@ -632,6 +689,9 @@
         typeLabel.className = 'result-type';
         typeLabel.textContent = resultTypeOptions[item.type] || item.type;
         details.append(typeLabel);
+        [['Added', item.addedAt], ['Published', item.publishedAt], ['Updated', item.updatedAt]].forEach(([label, value]) => {
+          if (value) details.append(document.createTextNode(`${label}: ${formatResultDate(value)}`));
+        });
         const sourceLink = createExternalLink(item.canonicalUrl, 'Source');
         if (sourceLink) details.append(sourceLink);
         content.append(details);
@@ -651,12 +711,12 @@
       const query = resultSearch.value.trim().toLowerCase();
       const providers = activeFilters.scans.provider;
       const statuses = activeFilters.scans.status;
-      const filtered = scanResults.filter(item => {
+      const filtered = sortResultItems(scanResults.filter(item => {
         const searchable = `${item.name} ${item.provider} ${item.status} ${item.error || ''}`.toLowerCase();
         return (!query || searchable.includes(query)) &&
           (!providers.length || providers.includes(item.provider)) &&
           (!statuses.length || statuses.includes(item.status));
-      });
+      }), resultSortModes.scans);
       resultsCount.textContent = `${filtered.length} of ${scanResults.length} profile runs`;
       if (!filtered.length) {
         resultsList.innerHTML = '<p class="results-empty">No scan activity matches these filters.</p>';
@@ -1081,6 +1141,10 @@
       });
     });
     resultSearch.addEventListener('input', renderResults);
+    resultsSort.addEventListener('change', () => {
+      resultSortModes[resultsMode] = resultsSort.value;
+      renderResults();
+    });
     document.addEventListener('click', event => {
       if (!filterMenu.contains(event.target)) filterMenu.open = false;
     });

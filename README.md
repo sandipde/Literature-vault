@@ -24,7 +24,7 @@ You can also create an Issue directly in the configured repository. Put the sour
 
 ## Browse Results
 
-Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; filter saved sources by type or scan activity by provider and status. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.
+Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; combine multiple filters by type, provider, and status. Sort saved sources by added date, publication date, last provider update, or title, and scan activity by run time. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.
 
 ## Supported Sources
 

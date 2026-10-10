@@ -353,6 +353,26 @@ def _load_frontmatter(path):
         return {}
 
 
+def _timestamp_order(value):
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.timestamp()
+    except (OverflowError, TypeError, ValueError):
+        return float("-inf")
+
+
+def _provider_updated_at(provider_data):
+    if not isinstance(provider_data, dict):
+        return ""
+    for key in ("pushed_at", "last_activity_at", "last_modified", "updated", "updated_at"):
+        value = provider_data.get(key)
+        if value:
+            return str(value)
+    return ""
+
+
 def load_registry(registry_path, notes_dir):
     try:
         registry = json.loads(Path(registry_path).read_text(encoding="utf-8"))
@@ -374,6 +394,19 @@ def load_registry(registry_path, notes_dir):
             "title": frontmatter.get("title", ""),
             "notes": [],
         })
+        note_added_at = frontmatter.get("captured_at") or frontmatter.get("date")
+        if note_added_at:
+            note_added_at = str(note_added_at)
+            current_added_at = record.get("added_at", "")
+            if not current_added_at or _timestamp_order(note_added_at) < _timestamp_order(current_added_at):
+                record["added_at"] = note_added_at
+        published_at = frontmatter.get("published")
+        if published_at and not record.get("published_at"):
+            record["published_at"] = str(published_at)
+        updated_at = _provider_updated_at(frontmatter.get("provider_data"))
+        current_updated_at = record.get("updated_at", "")
+        if updated_at and (not current_updated_at or _timestamp_order(updated_at) > _timestamp_order(current_updated_at)):
+            record["updated_at"] = updated_at
         try:
             note_name = note_path.resolve().relative_to(Path(notes_dir).resolve().parent).as_posix()
         except ValueError:
@@ -387,18 +420,22 @@ def save_registry(registry, registry_path):
     Path(registry_path).write_text(json.dumps(registry, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
-def register_source(registry, metadata, note_path, original_url):
+def register_source(registry, metadata, note_path, original_url, added_at=None):
     key = metadata["canonical_url"]
+    provider_data = metadata.get("provider_data", {})
     registry["sources"][key] = {
         "type": metadata["type"],
         "canonical_url": key,
         "original_url": original_url,
         "title": metadata["title"],
         "notes": [str(note_path).replace("\\", "/")],
+        "added_at": added_at or utc_timestamp(),
+        "published_at": str(metadata.get("published") or ""),
+        "updated_at": _provider_updated_at(provider_data),
     }
 
 
-def write_note(path, metadata, original_url, author, captured_date, issue_number):
+def write_note(path, metadata, original_url, author, captured_date, issue_number, captured_at=None):
     frontmatter = {
         "title": metadata["title"],
         "type": metadata["type"],
@@ -406,6 +443,7 @@ def write_note(path, metadata, original_url, author, captured_date, issue_number
         "canonical_url": metadata["canonical_url"],
         "captured_by": author,
         "date": captured_date,
+        "captured_at": captured_at or utc_timestamp(),
         "issue": str(issue_number),
         "status": "to-read",
         "authors": metadata.get("authors", []),
@@ -447,3 +485,7 @@ def write_note(path, metadata, original_url, author, captured_date, issue_number
 
 def utc_date():
     return datetime.now(timezone.utc).date().isoformat()
+
+
+def utc_timestamp():
+    return datetime.now(timezone.utc).isoformat(timespec="seconds")

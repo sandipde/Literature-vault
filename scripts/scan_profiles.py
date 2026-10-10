@@ -5,7 +5,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scripts.literature import load_registry, register_source, save_registry, utc_date, write_note
+from scripts.literature import load_registry, register_source, save_registry, utc_date, utc_timestamp, write_note
 from scripts.scan_config import is_due, migrate_config
 from scripts.scan_providers import search_profile
 
@@ -94,8 +94,9 @@ def run_scan(config_file=CONFIG_FILE, seen_file=SEEN_FILE, registry_file=REGISTR
                         seen_ids.add(arxiv_id)
                     continue
                 target_path = notes_path / _filename(profile, metadata)
-                write_note(target_path, metadata, metadata.get("source_url", canonical_url), "auto-scanner", utc_date(), f"scan:{profile['id']}")
-                register_source(registry, metadata, target_path, metadata.get("source_url", canonical_url))
+                captured_at = now.astimezone(timezone.utc).isoformat(timespec="seconds")
+                write_note(target_path, metadata, metadata.get("source_url", canonical_url), "auto-scanner", utc_date(), f"scan:{profile['id']}", captured_at)
+                register_source(registry, metadata, target_path, metadata.get("source_url", canonical_url), added_at=captured_at)
                 added_notes.append(str(target_path))
                 if arxiv_id:
                     seen_ids.add(arxiv_id)
