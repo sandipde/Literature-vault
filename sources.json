@@ -91,6 +91,15 @@
       "notes": [
         "notes/13_New_Reference.md"
       ]
+    },
+    "https://nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726": {
+      "type": "web",
+      "canonical_url": "https://nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726",
+      "original_url": "https://www.nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726",
+      "title": "Data-driven massive reaction networks reveal mechanistic pathways underlying catalytic CO2 hydrogenation | Nature Communications",
+      "notes": [
+        "notes/14_Data-driven_massive_reaction_networks_reveal_mecha.md"
+      ]
     }
   }
 }
