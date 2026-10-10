@@ -1,0 +1,59 @@
+name: Update Scan Settings
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: literature-vault-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: ${{ contains(github.event.issue.body, '<!-- literature-vault:scan-settings:v1 -->') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate settings request
+        id: settings
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR_ASSOCIATION: ${{ github.event.issue.author_association }}
+        run: python -m scripts.update_scan_settings
+
+      - name: Commit validated settings
+        if: steps.settings.outputs.result == 'applied'
+        env:
+          ISSUE_NUM: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add monitor_config.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update scan settings from #${ISSUE_NUM}"
+            git push origin HEAD:main
+          fi
+
+      - name: Report and close request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
+          RESULT_MESSAGE: ${{ steps.settings.outputs.message }}
+        run: |
+          gh issue comment "${ISSUE_NUM}" --body "${RESULT_MESSAGE}"
+          gh issue close "${ISSUE_NUM}"

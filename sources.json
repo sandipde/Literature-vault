@@ -16,14 +16,54 @@
       "canonical_url": "https://arxiv.org/abs/2604.27613",
       "original_url": "https://arxiv.org/pdf/2604.27613v1",
       "title": "AMGenC: Generating Charge Balanced Amorphous Materials",
-      "notes": ["notes/5_AMGenC_Generating_Charge_Balanced_Amorph.md"]
+      "notes": [
+        "notes/5_AMGenC_Generating_Charge_Balanced_Amorph.md"
+      ]
     },
     "https://github.com/helixdb/helix-foundry": {
       "type": "github",
       "canonical_url": "https://github.com/helixdb/helix-foundry",
       "original_url": "https://github.com/HelixDB/helix-foundry",
       "title": "New Reference",
-      "notes": ["notes/6_New_Reference.md"]
+      "notes": [
+        "notes/6_New_Reference.md"
+      ]
+    },
+    "https://arxiv.org/abs/2610.12151": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.12151",
+      "original_url": "https://arxiv.org/abs/2610.12151",
+      "title": "Specialized machine learning force fields for materials dynamics",
+      "notes": [
+        "notes/arxiv_2610.12151_Specialized_machine_learning_force_fields_for_92e7687bf3.md"
+      ]
+    },
+    "https://doi.org/10.26434/chemrxiv-2025-bktvd": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv-2025-bktvd",
+      "original_url": "https://doi.org/10.26434/chemrxiv-2025-bktvd",
+      "title": "Conformational analysis of macrocyclic compounds using a machine-learned interatomic potential",
+      "notes": [
+        "notes/crossref_Conformational_analysis_of_macrocyclic_compou_6c3bde5a63.md"
+      ]
+    },
+    "https://github.com/isayevlab/aimnetcentral": {
+      "type": "github",
+      "canonical_url": "https://github.com/isayevlab/aimnetcentral",
+      "original_url": "https://github.com/isayevlab/aimnetcentral",
+      "title": "isayevlab/aimnetcentral",
+      "notes": [
+        "notes/github_isayevlab_aimnetcentral_031dba971c.md"
+      ]
+    },
+    "https://huggingface.co/spaces/jomasego/repro-pft-phonon-fine-tuning-for-machine-learned-interatomic-potentials": {
+      "type": "huggingface_space",
+      "canonical_url": "https://huggingface.co/spaces/jomasego/repro-pft-phonon-fine-tuning-for-machine-learned-interatomic-potentials",
+      "original_url": "https://huggingface.co/spaces/jomasego/repro-pft-phonon-fine-tuning-for-machine-learned-interatomic-potentials",
+      "title": "jomasego/repro-pft-phonon-fine-tuning-for-machine-learned-interatomic-potentials",
+      "notes": [
+        "notes/huggingface_space_jomasego_repro-pft-phonon-fine-tuning-for-mac_fa7b9e3fde.md"
+      ]
     }
   }
 }

@@ -10,6 +10,7 @@ concurrency:
 
 jobs:
   process:
+    if: ${{ !contains(github.event.issue.body, '<!-- literature-vault:scan-settings:v1 -->') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,7 +35,7 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUM: ${{ github.event.issue.number }}
           USER_LOGIN: ${{ github.event.issue.user.login }}
-        run: python scripts/ingest.py
+        run: python -m scripts.ingest
 
       - name: Comment on duplicate
         if: steps.ingest.outputs.result == 'duplicate'

@@ -14,6 +14,17 @@
     button { background: #2da44e; color: white; font-weight: 600; border: none; cursor: pointer; margin-top: 16px; }
     .status { margin-top: 16px; font-weight: 500; }
     .source-type { margin: 8px 0 0; color: #57606a; font-size: 12px; }
+    .page-tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+    .page-tabs button { width: auto; flex: 1; margin: 0; background: #e8efec; color: #145c50; }
+    .page-tabs button[aria-selected="true"] { background: #145c50; color: #fff; }
+    .scan-profile { border-top: 1px solid #d8e0dc; padding: 16px 0; }
+    .scan-profile h4 { margin: 0 0 8px; font-size: 15px; }
+    .scan-profile label { display: block; margin-top: 8px; color: #44534e; font-size: 12px; }
+    .scan-profile input, .scan-profile textarea, .scan-profile select { margin-top: 4px; }
+    .scan-profile .profile-enabled { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+    .scan-profile .profile-enabled input { width: auto; margin: 0; }
+    .scan-profile .profile-remove { width: auto; padding: 7px 12px; background: #f2e7e3; color: #7d3421; }
+    .settings-help { color: #57606a; font-size: 12px; line-height: 1.5; }
     .hidden { display: none; }
   </style>
 </head>
@@ -26,12 +37,24 @@
     <input id="cfg-token" type="password" placeholder="Fine-Grained PAT" />
     <button onclick="saveConfig()">Save Settings</button>
   </div>
+  <div id="page-tabs" class="page-tabs hidden" role="tablist" aria-label="Literature Vault views">
+    <button type="button" role="tab" aria-selected="true" data-view="capture">Capture</button>
+    <button type="button" role="tab" aria-selected="false" data-view="settings">Scan Settings</button>
+  </div>
   <div id="capture-section" class="hidden">
     <input id="title" placeholder="Title / Note" />
     <textarea id="url" rows="3" placeholder="URL or reference text"></textarea>
     <p id="source-type" class="source-type">Type detected when you add a URL.</p>
     <button id="submit-btn" onclick="submitIssue()">Save to Repo</button>
     <p style="font-size: 11px; color: #57609a; margin-top: 12px; cursor: pointer;" onclick="clearConfig()">Reset settings</p>
+  </div>
+  <div id="scan-settings" class="hidden">
+    <h3>Scan Settings</h3>
+    <p class="settings-help">Edit provider searches, enable profiles, and set how often they run. Saving creates a settings request Issue; a repository owner or collaborator must authorize it before settings are applied.</p>
+    <p id="settings-status" class="status" role="status"></p>
+    <div id="profile-list"></div>
+    <button id="add-profile" type="button">Add profile</button>
+    <button id="save-profiles" type="button">Request settings update</button>
   </div>
   <div id="status" class="status"></div>
   <script>
@@ -40,6 +63,230 @@
     const captureSec = document.getElementById('capture-section');
     const statusDiv = document.getElementById('status');
     const sourceType = document.getElementById('source-type');
+    const pageTabs = document.getElementById('page-tabs');
+    const settingsSec = document.getElementById('scan-settings');
+    const profilesList = document.getElementById('profile-list');
+    const settingsStatus = document.getElementById('settings-status');
+    const providerOptions = {
+      arxiv: 'arXiv', crossref: 'Journal papers (Crossref)', chemrxiv: 'ChemRxiv', github: 'GitHub repositories',
+      gitlab: 'GitLab projects', huggingface_model: 'Hugging Face models',
+      huggingface_dataset: 'Hugging Face datasets', huggingface_space: 'Hugging Face Spaces'
+    };
+    let scanProfiles = [];
+    let scanSettingsLoaded = false;
+
+    function selectView(view) {
+      const showSettings = view === 'settings';
+      captureSec.classList.toggle('hidden', showSettings);
+      settingsSec.classList.toggle('hidden', !showSettings);
+      pageTabs.querySelectorAll('[data-view]').forEach(tab => {
+        tab.setAttribute('aria-selected', String(tab.dataset.view === view));
+      });
+      if (showSettings && !scanSettingsLoaded) loadScanSettings();
+    }
+
+    function addProfileField(container, labelText, control) {
+      const label = document.createElement('label');
+      label.append(document.createTextNode(labelText));
+      label.append(control);
+      container.append(label);
+    }
+
+    function createProfileEditor(profile) {
+      const row = document.createElement('section');
+      row.className = 'scan-profile';
+      row.dataset.profileId = profile.id;
+      const heading = document.createElement('h4');
+      heading.textContent = `${profile.name || 'New search profile'} - ${providerOptions[profile.provider] || profile.provider}`;
+      row.append(heading);
+
+      const enabledLabel = document.createElement('label');
+      enabledLabel.className = 'profile-enabled';
+      const enabled = document.createElement('input');
+      enabled.type = 'checkbox';
+      enabled.checked = profile.enabled === true;
+      enabled.dataset.field = 'enabled';
+      enabledLabel.append(enabled, document.createTextNode('Enabled'));
+      row.append(enabledLabel);
+
+      const name = document.createElement('input');
+      name.value = profile.name || '';
+      name.maxLength = 100;
+      name.dataset.field = 'name';
+      addProfileField(row, 'Profile name', name);
+
+      const provider = document.createElement('select');
+      provider.dataset.field = 'provider';
+      Object.entries(providerOptions).forEach(([value, label]) => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = label;
+        option.selected = value === profile.provider;
+        provider.append(option);
+      });
+      addProfileField(row, 'Search source', provider);
+
+      const queries = document.createElement('textarea');
+      queries.rows = 3;
+      queries.maxLength = 10000;
+      queries.value = (profile.queries || []).join('\n');
+      queries.dataset.field = 'queries';
+      addProfileField(row, 'Queries (one per line)', queries);
+      const queryHelp = document.createElement('p');
+      queryHelp.className = 'settings-help';
+      row.append(queryHelp);
+      const updateQueryHelp = () => {
+        heading.textContent = `${name.value || 'New search profile'} - ${providerOptions[provider.value]}`;
+        const guidance = {
+          arxiv: 'Use arXiv search syntax, for example cat:cond-mat.mtrl-sci AND all:"machine learning".',
+          crossref: 'Enter plain search phrases for journal metadata; one phrase per line.',
+          chemrxiv: 'Enter plain search phrases; results are restricted to ChemRxiv DOI records.',
+          github: 'Use GitHub repository search terms or qualifiers such as language:Python or topic:materials-science.',
+          gitlab: 'Use free-text project search terms, one per line.',
+          huggingface_model: 'Use model hub search terms, one per line.',
+          huggingface_dataset: 'Use dataset hub search terms, one per line.',
+          huggingface_space: 'Use Space hub search terms, one per line.'
+        };
+        queryHelp.textContent = guidance[provider.value] || '';
+      };
+      provider.addEventListener('change', updateQueryHelp);
+      updateQueryHelp();
+
+      const limit = document.createElement('input');
+      limit.type = 'number';
+      limit.min = '1';
+      limit.max = '100';
+      limit.value = profile.max_results || 20;
+      limit.dataset.field = 'max_results';
+      addProfileField(row, 'Maximum results per run', limit);
+
+      const lookback = document.createElement('input');
+      lookback.type = 'number';
+      lookback.min = '1';
+      lookback.max = '720';
+      lookback.value = profile.lookback_hours || 24;
+      lookback.dataset.field = 'lookback_hours';
+      addProfileField(row, 'Only include items from the last N hours', lookback);
+
+      const interval = document.createElement('select');
+      interval.dataset.field = 'interval';
+      [['twice_daily', 'Twice daily'], ['daily', 'Daily'], ['weekly', 'Weekly'], ['monthly', 'Monthly']].forEach(([value, label]) => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = label;
+        option.selected = value === profile.interval;
+        interval.append(option);
+      });
+      addProfileField(row, 'Scan interval', interval);
+
+      const remove = document.createElement('button');
+      remove.type = 'button';
+      remove.className = 'profile-remove';
+      remove.textContent = 'Remove profile';
+      remove.addEventListener('click', () => row.remove());
+      row.append(remove);
+      name.addEventListener('input', updateQueryHelp);
+      return row;
+    }
+
+    function renderProfiles() {
+      profilesList.replaceChildren(...scanProfiles.map(createProfileEditor));
+    }
+
+    async function loadScanSettings() {
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      const token = localStorage.getItem('gh_token');
+      settingsStatus.textContent = 'Loading saved profiles...';
+      try {
+        const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/monitor_config.json?ref=main&_=${Date.now()}`;
+        const response = await fetch(endpoint, {
+          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache' }
+        });
+        if (!response.ok) throw new Error(`Settings read failed (${response.status})`);
+        const data = await response.json();
+        const binary = atob(data.content.replace(/\n/g, ''));
+        const bytes = Uint8Array.from(binary, char => char.charCodeAt(0));
+        const config = JSON.parse(new TextDecoder().decode(bytes));
+        if (!Array.isArray(config.profiles)) throw new Error('Saved settings use an unsupported format.');
+        scanProfiles = config.profiles;
+        scanSettingsLoaded = true;
+        renderProfiles();
+        settingsStatus.textContent = `${scanProfiles.length} saved profiles loaded.`;
+      } catch (error) {
+        settingsStatus.textContent = `${error.message}. Check repository Contents: read permission.`;
+      }
+    }
+
+    function collectProfiles() {
+      const profiles = [...profilesList.querySelectorAll('.scan-profile')].map(row => ({
+        id: row.dataset.profileId,
+        name: row.querySelector('[data-field="name"]').value.trim(),
+        provider: row.querySelector('[data-field="provider"]').value,
+        enabled: row.querySelector('[data-field="enabled"]').checked,
+        queries: row.querySelector('[data-field="queries"]').value.split('\n').map(query => query.trim()).filter(Boolean),
+        max_results: Number(row.querySelector('[data-field="max_results"]').value),
+        lookback_hours: Number(row.querySelector('[data-field="lookback_hours"]').value),
+        interval: row.querySelector('[data-field="interval"]').value
+      }));
+      if (profiles.length > 50) throw new Error('Use no more than 50 profiles.');
+      const ids = new Set();
+      profiles.forEach(profile => {
+        if (!profile.name || profile.name.length > 100) throw new Error('Each profile needs a name under 100 characters.');
+        if (ids.has(profile.id)) throw new Error('Profile IDs must be unique.');
+        ids.add(profile.id);
+        if (profile.queries.length < 1 || profile.queries.length > 20 || profile.queries.some(query => query.length > 500)) {
+          throw new Error('Each profile needs 1 to 20 queries, each under 500 characters.');
+        }
+        if (!Number.isInteger(profile.max_results) || profile.max_results < 1 || profile.max_results > 100) {
+          throw new Error('Maximum results must be between 1 and 100.');
+        }
+        if (!Number.isInteger(profile.lookback_hours) || profile.lookback_hours < 1 || profile.lookback_hours > 720) {
+          throw new Error('Lookback must be between 1 and 720 hours.');
+        }
+      });
+      return { version: 1, profiles };
+    }
+
+    async function requestScanSettings() {
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      const token = localStorage.getItem('gh_token');
+      const submitButton = document.getElementById('save-profiles');
+      if (submitButton.disabled) return;
+      submitButton.disabled = true;
+      try {
+        if (!scanSettingsLoaded) throw new Error('Load the saved profiles before submitting changes.');
+        const config = collectProfiles();
+        const json = JSON.stringify(config, null, 2);
+        if (json.length > 50000) throw new Error('Settings exceed the 50 KB request limit.');
+        settingsStatus.textContent = 'Submitting settings request...';
+        const fence = String.fromCharCode(96).repeat(3);
+        const body = `<!-- literature-vault:scan-settings:v1 -->\n\nSubmitted from Literature Vault Scan Settings.\n\n${fence}json\n${json}\n${fence}\n`;
+        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+          body: JSON.stringify({ title: '[Scan settings] Update search profiles', body })
+        });
+        const result = await response.json();
+        if (!response.ok) throw new Error(`Settings request failed (${response.status})`);
+        settingsStatus.textContent = `Request #${result.number} submitted. `;
+        const link = document.createElement('a');
+        link.href = result.html_url;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.textContent = 'View request';
+        settingsStatus.append(link, document.createTextNode('. A repository owner or collaborator must authorize it.'));
+      } catch (error) {
+        settingsStatus.textContent = error.message;
+      } finally { submitButton.disabled = false; }
+    }
+
+    function addScanProfile() {
+      const id = `custom-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
+      const profile = { id, name: 'New search profile', provider: 'arxiv', enabled: false, queries: [''], max_results: 10, lookback_hours: 24, interval: 'weekly' };
+      profilesList.append(createProfileEditor(profile));
+    }
 
     function extractSourceUrl(text) {
       const url = (text.match(/https?:\/\/[^\s<>"'`]+/i) || [])[0];
@@ -126,10 +373,13 @@
       if (!token || !owner || !repo) {
         setupSec.classList.remove('hidden');
         captureSec.classList.add('hidden');
+        pageTabs.classList.add('hidden');
+        settingsSec.classList.add('hidden');
         return false;
       }
       setupSec.classList.add('hidden');
-      captureSec.classList.remove('hidden');
+      pageTabs.classList.remove('hidden');
+      selectView('capture');
       return true;
     }
 
@@ -190,6 +440,11 @@
       finally { submitButton.disabled = false; }
     }
     document.getElementById('url').addEventListener('input', updateDetectedType);
+    pageTabs.querySelectorAll('[data-view]').forEach(tab => {
+      tab.addEventListener('click', () => selectView(tab.dataset.view));
+    });
+    document.getElementById('add-profile').addEventListener('click', addScanProfile);
+    document.getElementById('save-profiles').addEventListener('click', requestScanSettings);
     if (checkConfig()) handleIncomingShare();
   </script>
 </body>

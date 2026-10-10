@@ -2,13 +2,14 @@ import json
 import os
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import Mock, patch
 
 import requests
 import yaml
 
-from scripts import ingest, literature, scan_arxiv
+from scripts import ingest, literature, scan_profiles
 
 
 class LiteratureTests(unittest.TestCase):
@@ -182,28 +183,102 @@ class IngestTests(unittest.TestCase):
 
 class ScannerTests(unittest.TestCase):
     def test_scanner_does_not_duplicate_second_pass(self):
-        feed = '''<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
-          <entry>
-            <id>https://arxiv.org/abs/2610.04224v1</id>
-            <title>A sample paper</title>
-            <summary>A sample abstract.</summary>
-            <published>2026-10-10T00:00:00Z</published>
-            <author><name>Ada Lovelace</name></author>
-            <category term="cs.LG" />
-          </entry>
-        </feed>'''
-        response = Mock(text=feed)
-        response.raise_for_status = Mock()
+        profile = {"id": "test-arxiv", "name": "Test arXiv", "provider": "arxiv", "enabled": True,
+                   "queries": ["cat:cs.LG"], "max_results": 10, "interval": "daily"}
+        metadata = {"type": "arxiv", "canonical_url": "https://arxiv.org/abs/2610.04224",
+                    "title": "A sample paper", "authors": ["Ada Lovelace"], "published": "2026-10-10",
+                    "abstract": "A sample abstract.", "metadata_provider": "arXiv", "metadata_status": "complete",
+                    "provider_data": {"arxiv_id": "2610.04224", "categories": ["cs.LG"]},
+                    "source_url": "https://arxiv.org/abs/2610.04224"}
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
             config_file = root / "monitor_config.json"
-            config_file.write_text(json.dumps({"queries": ["cat:cs.LG"]}), encoding="utf-8")
+            config_file.write_text(json.dumps({"version": 1, "profiles": [profile]}), encoding="utf-8")
             notes = root / "notes"
-            with patch.object(scan_arxiv.requests, "get", return_value=response):
-                scan_arxiv.run_scan(config_file, root / "seen_papers.json", root / "sources.json", notes)
-                scan_arxiv.run_scan(config_file, root / "seen_papers.json", root / "sources.json", notes)
+            with patch.object(scan_profiles, "search_profile", return_value=[metadata]) as search:
+                first = scan_profiles.run_scan(config_file, root / "seen_papers.json", root / "sources.json", notes,
+                                               root / "scan_state.json", datetime(2026, 10, 10, tzinfo=timezone.utc))
+                second = scan_profiles.run_scan(config_file, root / "seen_papers.json", root / "sources.json", notes,
+                                                root / "scan_state.json", datetime(2026, 10, 10, 1, tzinfo=timezone.utc))
             self.assertEqual(len(list(notes.glob("*.md"))), 1)
+            self.assertEqual(len(first["added_notes"]), 1)
+            self.assertEqual(second["added_notes"], [])
+            self.assertEqual(search.call_count, 1)
             self.assertEqual(json.loads((root / "seen_papers.json").read_text(encoding="utf-8")), ["2610.04224"])
+            history = json.loads((root / "scan_history.json").read_text(encoding="utf-8"))
+            self.assertEqual(history["runs"][0]["profiles"][0]["status"], "success")
+            self.assertEqual(history["runs"][0]["notes_added"], 1)
+
+    def test_disabled_and_not_due_profiles_are_not_searched(self):
+        profiles = [
+            {"id": "disabled", "name": "Disabled", "provider": "arxiv", "enabled": False,
+             "queries": ["query"], "max_results": 10, "interval": "daily"},
+            {"id": "weekly", "name": "Weekly", "provider": "arxiv", "enabled": True,
+             "queries": ["query"], "max_results": 10, "interval": "weekly"},
+        ]
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config = root / "monitor_config.json"
+            config.write_text(json.dumps({"version": 1, "profiles": profiles}), encoding="utf-8")
+            state = root / "scan_state.json"
+            state.write_text(json.dumps({"version": 1, "profiles": {"weekly": "2026-10-07T05:00:00+00:00"}}), encoding="utf-8")
+            with patch.object(scan_profiles, "search_profile") as search:
+                result = scan_profiles.run_scan(config, root / "seen.json", root / "sources.json", root / "notes",
+                                                state, datetime(2026, 10, 10, 5, tzinfo=timezone.utc))
+            search.assert_not_called()
+            self.assertEqual(result["completed"], [])
+
+    def test_failed_profile_does_not_advance_state(self):
+        profile = {"id": "retry-me", "name": "Retry", "provider": "arxiv", "enabled": True,
+                   "queries": ["query"], "max_results": 10, "interval": "daily"}
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config = root / "monitor_config.json"
+            config.write_text(json.dumps({"version": 1, "profiles": [profile]}), encoding="utf-8")
+            state = root / "scan_state.json"
+            with patch.object(scan_profiles, "search_profile", side_effect=requests.Timeout("offline")):
+                result = scan_profiles.run_scan(config, root / "seen.json", root / "sources.json", root / "notes",
+                                                state, datetime(2026, 10, 10, 5, tzinfo=timezone.utc))
+            self.assertIn("retry-me", result["failed"])
+            self.assertNotIn("retry-me", result["state"]["profiles"])
+
+    def test_profile_name_filter_runs_only_the_requested_group(self):
+        profiles = [
+            {"id": "mlip-arxiv", "name": "MLIP developments scan", "provider": "arxiv", "enabled": True,
+             "queries": ["query"], "max_results": 10, "interval": "twice_daily"},
+            {"id": "other", "name": "Other scan", "provider": "crossref", "enabled": True,
+             "queries": ["query"], "max_results": 10, "interval": "daily"},
+        ]
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config = root / "monitor_config.json"
+            config.write_text(json.dumps({"version": 1, "profiles": profiles}), encoding="utf-8")
+            with patch.object(scan_profiles, "search_profile", return_value=[]) as search:
+                result = scan_profiles.run_scan(config, root / "seen.json", root / "sources.json", root / "notes",
+                                                root / "state.json", profile_names=["MLIP developments scan"])
+            self.assertEqual(search.call_count, 1)
+            self.assertEqual(result["completed"], ["mlip-arxiv"])
+            self.assertNotIn("other", result["state"]["profiles"])
+
+    def test_duplicate_source_across_profiles_creates_one_note(self):
+        profiles = [
+            {"id": f"profile-{index}", "name": f"Profile {index}", "provider": "arxiv", "enabled": True,
+             "queries": [f"query {index}"], "max_results": 10, "interval": "daily"}
+            for index in (1, 2)
+        ]
+        metadata = {"type": "arxiv", "canonical_url": "https://arxiv.org/abs/2610.04224",
+                    "title": "A sample paper", "authors": [], "published": "", "abstract": "Summary",
+                    "metadata_provider": "arXiv", "metadata_status": "complete",
+                    "provider_data": {"arxiv_id": "2610.04224"}, "source_url": "https://arxiv.org/abs/2610.04224"}
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config_file = root / "monitor_config.json"
+            config_file.write_text(json.dumps({"version": 1, "profiles": profiles}), encoding="utf-8")
+            with patch.object(scan_profiles, "search_profile", return_value=[metadata]):
+                result = scan_profiles.run_scan(config_file, root / "seen.json", root / "sources.json",
+                                                root / "notes", root / "state.json")
+            self.assertEqual(len(result["added_notes"]), 1)
+            self.assertEqual(result["completed"], ["profile-1", "profile-2"])
 
 
 if __name__ == "__main__":

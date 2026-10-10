@@ -1,6 +1,203 @@
 {
-  "queries": [
-    "cat:physics.chem-ph AND abs:catalysis",
-    "cat:cond-mat.mtrl-sci AND abs:\"machine learning\""
+  "version": 1,
+  "profiles": [
+    {
+      "id": "arxiv-mlips",
+      "name": "ML interatomic potentials",
+      "provider": "arxiv",
+      "enabled": true,
+      "queries": ["all:\"machine-learned interatomic potential\" OR all:MLIP"],
+      "max_results": 20,
+      "interval": "daily"
+    },
+    {
+      "id": "arxiv-ml-atomistic",
+      "name": "ML for atomistic materials modelling",
+      "provider": "arxiv",
+      "enabled": true,
+      "queries": ["cat:cond-mat.mtrl-sci AND (all:\"machine learning\" OR all:\"machine learning potential\")"],
+      "max_results": 20,
+      "interval": "daily"
+    },
+    {
+      "id": "arxiv-atomic-scale",
+      "name": "Atomic-scale modelling technology",
+      "provider": "arxiv",
+      "enabled": true,
+      "queries": ["cat:cond-mat.mtrl-sci AND (all:\"atomic scale modeling\" OR all:\"atomistic modeling\")"],
+      "max_results": 20,
+      "interval": "daily"
+    },
+    {
+      "id": "arxiv-heterogeneous-catalysis",
+      "name": "Heterogeneous catalysis and atomistic ML",
+      "provider": "arxiv",
+      "enabled": true,
+      "queries": ["all:\"heterogeneous catalysis\" AND (all:atomistic OR all:\"machine learning\")"],
+      "max_results": 20,
+      "interval": "daily"
+    },
+    {
+      "id": "mlip-development-arxiv",
+      "name": "MLIP developments scan",
+      "provider": "arxiv",
+      "enabled": true,
+      "queries": [
+        "all:\"machine-learned interatomic potential\" OR all:\"machine learning interatomic potential\" OR all:MLIP",
+        "all:MACE OR all:NequIP OR all:Allegro OR all:ACE OR all:GAP OR all:MTP OR all:SNAP OR all:CHGNet OR all:M3GNet OR all:SevenNet OR all:MatterSim",
+        "all:\"equivariant neural network\" AND (all:interatomic OR all:atomistic)",
+        "all:\"foundation model\" AND (all:materials OR all:atomistic) AND (all:potential OR all:simulation)",
+        "all:\"active learning\" AND (all:\"interatomic potential\" OR all:\"atomistic simulation\")",
+        "all:\"on-the-fly learning\" AND (all:atomistic OR all:materials)",
+        "all:\"long-range electrostatics\" AND (all:interatomic OR all:potential)",
+        "all:\"heterogeneous catalysis\" AND (all:atomistic OR all:MLIP OR all:\"machine learning potential\")"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "mlip-development-crossref",
+      "name": "MLIP developments scan",
+      "provider": "crossref",
+      "enabled": true,
+      "queries": [
+        "machine-learned interatomic potential",
+        "machine learning interatomic potential MLIP",
+        "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        "equivariant neural network atomistic interatomic potential",
+        "foundation model universal interatomic potential materials",
+        "active learning on-the-fly learning atomistic simulation",
+        "long-range electrostatics charge equilibration reactive potential",
+        "heterogeneous catalysis surfaces interfaces defects materials modelling"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "mlip-development-chemrxiv",
+      "name": "MLIP developments scan",
+      "provider": "chemrxiv",
+      "enabled": true,
+      "queries": [
+        "machine-learned interatomic potential",
+        "machine learning interatomic potential MLIP",
+        "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        "equivariant neural network atomistic interatomic potential",
+        "foundation model universal interatomic potential materials",
+        "active learning on-the-fly learning atomistic simulation",
+        "long-range electrostatics charge equilibration reactive potential",
+        "heterogeneous catalysis surfaces interfaces defects materials modelling"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "mlip-development-github",
+      "name": "MLIP developments scan",
+      "provider": "github",
+      "enabled": true,
+      "queries": [
+        "machine-learned interatomic potential",
+        "machine learning interatomic potential MLIP",
+        "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        "equivariant neural network atomistic interatomic potential",
+        "foundation model universal interatomic potential materials",
+        "active learning on-the-fly learning atomistic simulation",
+        "long-range electrostatics charge equilibration reactive potential",
+        "heterogeneous catalysis surfaces interfaces defects materials modelling"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "mlip-development-gitlab",
+      "name": "MLIP developments scan",
+      "provider": "gitlab",
+      "enabled": true,
+      "queries": [
+        "machine-learned interatomic potential",
+        "machine learning interatomic potential MLIP",
+        "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        "equivariant neural network atomistic interatomic potential",
+        "foundation model universal interatomic potential materials",
+        "active learning on-the-fly learning atomistic simulation",
+        "long-range electrostatics charge equilibration reactive potential",
+        "heterogeneous catalysis surfaces interfaces defects materials modelling"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "mlip-development-hf-model",
+      "name": "MLIP developments scan",
+      "provider": "huggingface_model",
+      "enabled": true,
+      "queries": [
+        "machine-learned interatomic potential",
+        "machine learning interatomic potential MLIP",
+        "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        "equivariant neural network atomistic interatomic potential",
+        "foundation model universal interatomic potential materials",
+        "active learning on-the-fly learning atomistic simulation",
+        "long-range electrostatics charge equilibration reactive potential",
+        "heterogeneous catalysis surfaces interfaces defects materials modelling"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "mlip-development-hf-dataset",
+      "name": "MLIP developments scan",
+      "provider": "huggingface_dataset",
+      "enabled": true,
+      "queries": [
+        "machine-learned interatomic potential",
+        "machine learning interatomic potential MLIP",
+        "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        "equivariant neural network atomistic interatomic potential",
+        "foundation model universal interatomic potential materials",
+        "active learning on-the-fly learning atomistic simulation",
+        "long-range electrostatics charge equilibration reactive potential",
+        "heterogeneous catalysis surfaces interfaces defects materials modelling"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "mlip-development-hf-space",
+      "name": "MLIP developments scan",
+      "provider": "huggingface_space",
+      "enabled": true,
+      "queries": [
+        "machine-learned interatomic potential",
+        "machine learning interatomic potential MLIP",
+        "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        "equivariant neural network atomistic interatomic potential",
+        "foundation model universal interatomic potential materials",
+        "active learning on-the-fly learning atomistic simulation",
+        "long-range electrostatics charge equilibration reactive potential",
+        "heterogeneous catalysis surfaces interfaces defects materials modelling"
+      ],
+      "max_results": 20,
+      "interval": "twice_daily"
+    },
+    {
+      "id": "arxiv-legacy-1",
+      "name": "Existing arXiv query 1",
+      "provider": "arxiv",
+      "enabled": true,
+      "queries": ["cat:physics.chem-ph AND abs:catalysis"],
+      "max_results": 10,
+      "interval": "daily"
+    },
+    {
+      "id": "arxiv-legacy-2",
+      "name": "Existing arXiv query 2",
+      "provider": "arxiv",
+      "enabled": true,
+      "queries": ["cat:cond-mat.mtrl-sci AND abs:\"machine learning\""],
+      "max_results": 10,
+      "interval": "daily"
+    }
   ]
 }

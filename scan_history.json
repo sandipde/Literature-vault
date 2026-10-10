@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "started_at": "2026-10-10T20:31:50.495006+00:00",
+      "profiles": [
+        {
+          "id": "mlip-development-arxiv",
+          "name": "MLIP developments scan",
+          "provider": "arxiv",
+          "status": "success",
+          "results": 1,
+          "notes_added": 1
+        },
+        {
+          "id": "mlip-development-crossref",
+          "name": "MLIP developments scan",
+          "provider": "crossref",
+          "status": "success",
+          "results": 1,
+          "notes_added": 1
+        },
+        {
+          "id": "mlip-development-chemrxiv",
+          "name": "MLIP developments scan",
+          "provider": "chemrxiv",
+          "status": "success",
+          "results": 1,
+          "notes_added": 0
+        },
+        {
+          "id": "mlip-development-github",
+          "name": "MLIP developments scan",
+          "provider": "github",
+          "status": "success",
+          "results": 1,
+          "notes_added": 1
+        },
+        {
+          "id": "mlip-development-gitlab",
+          "name": "MLIP developments scan",
+          "provider": "gitlab",
+          "status": "success",
+          "results": 0,
+          "notes_added": 0
+        },
+        {
+          "id": "mlip-development-hf-model",
+          "name": "MLIP developments scan",
+          "provider": "huggingface_model",
+          "status": "success",
+          "results": 0,
+          "notes_added": 0
+        },
+        {
+          "id": "mlip-development-hf-dataset",
+          "name": "MLIP developments scan",
+          "provider": "huggingface_dataset",
+          "status": "success",
+          "results": 0,
+          "notes_added": 0
+        },
+        {
+          "id": "mlip-development-hf-space",
+          "name": "MLIP developments scan",
+          "provider": "huggingface_space",
+          "status": "success",
+          "results": 1,
+          "notes_added": 1
+        }
+      ],
+      "notes_added": 4
+    }
+  ]
+}

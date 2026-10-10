@@ -44,11 +44,17 @@ Sources are keyed by canonical URL. Known aliases such as arXiv PDF, abstract, a
 
 The registry is bootstrapped from existing note frontmatter. Historical notes are not deleted or merged, even when they refer to the same source; future captures use the shared identity to avoid adding more duplicates.
 
-## Scheduled arXiv Scan
+## Autoscan Profiles
 
-[`monitor_config.json`](monitor_config.json) contains the search queries. The scanner checks the latest 10 results per query on weekdays at 05:00 UTC and uses the same source registry as manual capture. To change queries, edit that file. To start a scan immediately, open the repository's **Actions** tab, select **Periodic Scanner**, and choose **Run workflow**.
+Open **Scan Settings** in the Pages app to configure searches without editing repository files. Profiles have a source/provider, enabled toggle, one or more queries, a maximum result count, a lookback window in hours (24 by default), and a twice-daily, daily, weekly, or monthly interval. Query syntax depends on the selected provider; the editor gives a short hint. New profiles start disabled unless explicitly enabled.
 
-The scanner stores its legacy arXiv ID history in `seen_papers.json` and commits new notes and registry entries to `main`. Ensure GitHub Actions is enabled and permitted to write to the repository.
+Saving submits a `[Scan settings]` Issue. The settings workflow applies it only when the author is a repository owner, member, or collaborator and the payload passes validation. It comments with the outcome and closes the request. The issue-ingest workflow ignores marked settings requests, so they are never mistaken for references. The browser token needs **Contents: read-only** to load settings and **Issues: read and write** to submit the request; repository file writes stay with Actions.
+
+The initial configuration in [`monitor_config.json`](monitor_config.json) includes searches for ML interatomic potentials, model families (MACE, NequIP, Allegro, ACE, GAP, MTP, SNAP, CHGNet, M3GNet, SevenNet, MatterSim), equivariant networks, materials foundation models, active/on-the-fly learning, long-range electrostatics, and atomistic catalysis. The same **MLIP developments scan** profile name is configured for arXiv, Crossref, ChemRxiv DOI records, GitHub, GitLab, and Hugging Face models, datasets, and Spaces. Previous arXiv searches remain enabled.
+
+The **Periodic Scanner** workflow runs at 05:00 and 17:00 UTC. Each profile searches only within its configured rolling lookback window, defaulting to the preceding 24 hours; provider timestamps are arXiv submission time, Crossref record creation, repository push/activity, or Hugging Face last modification. It checks each enabled profile's last successful scan and runs it only when its interval is due. Profiles can run twice daily, daily, weekly, or monthly. Result limits apply to the total results collected for a profile across its queries. A failed provider search does not advance that profile's schedule, so it remains due for retry. All results share canonical-source deduplication with manually captured notes and other profiles.
+
+Scans use provider APIs (arXiv Atom, Crossref including the ChemRxiv DOI prefix, GitHub, GitLab, and Hugging Face Hub); no page scraping is performed. To run due profiles immediately, open the repository's **Actions** tab, select **Periodic Scanner**, and choose **Run workflow**. The scanner records successful runs in `scan_state.json`, per-provider outcomes in `scan_history.json`, and legacy arXiv history in `seen_papers.json`. Ensure GitHub Actions is enabled and permitted to write repository contents and Issues.
 
 ## GitHub Pages
 
