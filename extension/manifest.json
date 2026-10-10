@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Literature Vault Capture",
+  "version": "1.0.0",
+  "description": "Save the current page to your Literature Vault.",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://api.github.com/*"],
+  "action": {
+    "default_title": "Save page to Literature Vault",
+    "default_popup": "popup.html"
+  }
+}

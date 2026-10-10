@@ -22,6 +22,10 @@ The app submits new references as GitHub Issues. The issue workflow then resolve
 
 You can also create an Issue directly in the configured repository. Put the source URL or DOI in the Issue body. The same metadata and duplicate handling apply.
 
+## Chrome Extension
+
+To install the unpacked extension, open `chrome://extensions`, enable **Developer mode**, choose **Load unpacked**, and select this repository's [`extension/`](extension/) directory. Open the extension's **Settings** and enter the repository owner, repository name, and a fine-grained token with **Issues: read and write** permission. The token is stored in Chrome's local extension storage and is not synced by the extension. Use it only in a trusted browser profile and revoke it when no longer needed. The extension submits the active page's title and URL as an Issue; the existing workflow handles duplicate checks, metadata enrichment, note creation, and Issue closure.
+
 ## Browse Results
 
 Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; combine multiple filters by type, provider, and status. Sort saved sources by added date, publication date, last provider update, or title, and scan activity by run time. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.

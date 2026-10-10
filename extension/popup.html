@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Literature Vault Capture</title>
+  <link rel="stylesheet" href="popup.css" />
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <main class="popup-shell">
+    <header class="popup-header">
+      <span class="brand-mark" aria-hidden="true">LV</span>
+      <div class="brand-copy">
+        <p class="brand-kicker">Literature Vault</p>
+        <h1>Capture page</h1>
+      </div>
+      <button id="settings-toggle" class="text-button" type="button">Settings</button>
+    </header>
+
+    <section id="capture-view" class="view" aria-label="Capture current page" hidden>
+      <p id="page-host" class="page-host"></p>
+      <label class="field-label" for="page-title">Title</label>
+      <input id="page-title" type="text" maxlength="200" autocomplete="off" />
+      <div class="source-line">
+        <span class="source-label">Source</span>
+        <p id="page-url" class="page-url"></p>
+      </div>
+      <button id="save-page" class="primary-button" type="button">Save to Literature Vault</button>
+      <a id="issue-link" class="issue-link" target="_blank" rel="noopener" hidden>Open submitted Issue</a>
+    </section>
+
+    <section id="settings-view" class="view" aria-label="Extension settings" hidden>
+      <form id="settings-form">
+        <label class="field-label" for="owner">GitHub owner or organization</label>
+        <input id="owner" name="owner" type="text" autocomplete="username" required />
+        <label class="field-label" for="repo">Repository</label>
+        <input id="repo" name="repo" type="text" autocomplete="off" required />
+        <label class="field-label" for="token">Fine-grained access token</label>
+        <input id="token" name="token" type="password" autocomplete="new-password" required />
+        <p class="settings-note">Use a repository-scoped token with Issues: read and write. The token stays in this browser profile.</p>
+        <button class="primary-button" type="submit">Save settings</button>
+      </form>
+      <button id="cancel-settings" class="secondary-button" type="button" hidden>Back to page</button>
+    </section>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
