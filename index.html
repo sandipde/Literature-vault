@@ -7,59 +7,338 @@
   <link rel="icon" type="image/svg+xml" href="/Literature-vault/icon.svg" />
   <link rel="apple-touch-icon" href="/Literature-vault/icon-192.png" />
   <link rel="manifest" href="/Literature-vault/manifest.json" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
   <title>Literature Capture</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 980px; margin: 40px auto; padding: 0 16px; color: #24292f; }
-    #setup-section, #capture-section, #scan-settings { max-width: 480px; }
-    input, textarea, button { width: 100%; box-sizing: border-box; margin-top: 8px; padding: 10px; font-size: 14px; border: 1px solid #d0d7de; border-radius: 6px; }
-    button { background: #2da44e; color: white; font-weight: 600; border: none; cursor: pointer; margin-top: 16px; }
-    .status { margin-top: 16px; font-weight: 500; }
-    .source-type { margin: 8px 0 0; color: #57606a; font-size: 12px; }
-    .page-tabs { display: flex; gap: 8px; margin-bottom: 20px; }
-    .page-tabs button { width: auto; flex: 1; margin: 0; background: #e8efec; color: #145c50; }
-    .page-tabs button[aria-selected="true"] { background: #145c50; color: #fff; }
-    .scan-profile { border-top: 1px solid #d8e0dc; padding: 16px 0; }
-    .scan-profile h4 { margin: 0 0 8px; font-size: 15px; }
-    .scan-profile label { display: block; margin-top: 8px; color: #44534e; font-size: 12px; }
-    .scan-profile input, .scan-profile textarea, .scan-profile select { margin-top: 4px; }
-    .scan-profile .profile-enabled { display: flex; align-items: center; gap: 8px; font-size: 14px; }
-    .scan-profile .profile-enabled input { width: auto; margin: 0; }
-    .scan-profile .profile-remove { width: auto; padding: 7px 12px; background: #f2e7e3; color: #7d3421; }
-    .settings-help { color: #57606a; font-size: 12px; line-height: 1.5; }
-    .results-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
-    .results-head h3 { margin: 0; }
-    .results-head p { margin: 6px 0 14px; color: #57606a; font-size: 13px; }
-    .results-head button { width: auto; margin: 0; padding: 8px 12px; }
-    .results-tabs { display: flex; gap: 20px; border-bottom: 1px solid #d8e0dc; }
-    .results-tabs button { width: auto; margin: 0; padding: 10px 2px; border: 0; border-radius: 0; border-bottom: 2px solid transparent; background: transparent; color: #57606a; }
-    .results-tabs button[aria-selected="true"] { border-bottom-color: #145c50; color: #145c50; }
-    .results-toolbar { display: grid; grid-template-columns: minmax(220px, 1fr) repeat(3, minmax(130px, 180px)); gap: 8px; align-items: center; margin: 12px 0; }
-    .results-toolbar input, .results-toolbar select { margin: 0; }
-    .results-count, .results-status { color: #57606a; font-size: 12px; }
-    .results-count { margin: 8px 0; }
-    .result-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 14px 0; border-top: 1px solid #e1e6e3; }
-    .result-row h4 { margin: 0 0 5px; font-size: 15px; font-weight: 600; overflow-wrap: anywhere; }
-    .result-details { display: flex; flex-wrap: wrap; gap: 6px 12px; color: #57606a; font-size: 12px; }
-    .result-details a, .result-actions a { color: #145c50; }
-    .result-type { color: #145c50; }
-    .result-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 12px; font-size: 12px; }
-    .result-status { font-weight: 600; }
-    .result-status[data-status="failed"] { color: #a13d2d; }
-    .result-status[data-status="success"] { color: #145c50; }
-    .results-empty { padding: 28px 0; border-top: 1px solid #e1e6e3; color: #57606a; font-size: 13px; }
-    @media (max-width: 680px) {
-      .results-toolbar { grid-template-columns: 1fr 1fr; }
-      .results-toolbar input { grid-column: 1 / -1; }
-      .result-row { grid-template-columns: 1fr; }
-      .result-actions { justify-content: flex-start; }
-    }
     .hidden { display: none; }
+    :root {
+      color-scheme: light;
+      --paper: #f3f5f0;
+      --surface: #fcfdf9;
+      --ink: #202b27;
+      --muted: #66736d;
+      --line: #d8e0d9;
+      --pine: #205747;
+      --pine-dark: #173f35;
+      --pine-wash: #e4eee8;
+      --copper: #a65f3e;
+      --copper-wash: #f4e8df;
+      --focus: #c48a50;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      color: var(--ink);
+      background-color: var(--paper);
+      background-image: linear-gradient(to bottom, rgba(32, 43, 39, .035) 1px, transparent 1px);
+      background-size: 100% 32px;
+      font-family: "DM Sans", sans-serif;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+    .site-shell {
+      width: min(100% - 48px, 1080px);
+      margin: 0 auto;
+      padding: 34px 0 72px;
+      animation: arrive 360ms ease-out both;
+    }
+    .site-header { display: flex; align-items: center; gap: 16px; margin-bottom: 34px; }
+    .brand-mark {
+      display: grid;
+      width: 46px;
+      height: 46px;
+      flex: 0 0 auto;
+      place-items: center;
+      border: 1px solid var(--pine);
+      color: var(--pine);
+      background: var(--surface);
+      font: 600 17px/1 "Newsreader", Georgia, serif;
+    }
+    .brand-kicker, .setup-intro {
+      margin: 0;
+      color: var(--copper);
+      font: 500 10px/1.4 "DM Mono", monospace;
+      text-transform: uppercase;
+    }
+    .site-header h1 { margin: 1px 0 0; font: 500 34px/1.05 "Newsreader", Georgia, serif; }
+    #setup-section, #capture-section { max-width: 620px; }
+    #scan-settings, #results-section { width: 100%; }
+    #setup-section, #capture-section, #scan-settings, #results-section {
+      padding-top: 26px;
+      border-top: 1px solid var(--line);
+    }
+    input, textarea, select {
+      width: 100%;
+      min-height: 44px;
+      margin-top: 8px;
+      padding: 10px 12px;
+      border: 1px solid #c8d2ca;
+      border-radius: 4px;
+      color: var(--ink);
+      background: var(--surface);
+      font: 400 14px/1.45 "DM Sans", sans-serif;
+      transition: border-color 140ms ease, box-shadow 140ms ease, background 140ms ease;
+    }
+    textarea { min-height: 100px; resize: vertical; }
+    input::placeholder, textarea::placeholder { color: #87938c; }
+    input:focus, textarea:focus, select:focus {
+      border-color: var(--pine);
+      outline: 3px solid color-mix(in srgb, var(--focus) 28%, transparent);
+      background: #fff;
+    }
+    button {
+      display: inline-flex;
+      width: auto;
+      min-height: 42px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 16px;
+      padding: 9px 16px;
+      border: 1px solid var(--pine);
+      border-radius: 4px;
+      color: #fff;
+      background: var(--pine);
+      font: 600 13px/1.2 "DM Sans", sans-serif;
+      cursor: pointer;
+      transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+    }
+    button:hover { border-color: var(--pine-dark); background: var(--pine-dark); }
+    button:active { transform: translateY(1px); }
+    button:focus-visible, a:focus-visible { outline: 3px solid color-mix(in srgb, var(--focus) 45%, transparent); outline-offset: 3px; }
+    button:disabled { opacity: .58; cursor: wait; }
+    .status { margin-top: 16px; color: var(--muted); font-size: 13px; font-weight: 500; }
+    .source-type { margin: 8px 0 0; color: var(--muted); font-size: 12px; }
+    .reset-settings {
+      display: inline-block;
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 12px;
+      text-decoration: underline;
+      text-decoration-color: #b7c1b9;
+      text-underline-offset: 3px;
+      cursor: pointer;
+    }
+    .reset-settings:hover { color: var(--copper); }
+    .page-tabs { display: flex; gap: 22px; margin-bottom: 27px; border-bottom: 1px solid var(--line); }
+    .page-tabs button {
+      min-height: 44px;
+      margin: 0 0 -1px;
+      padding: 9px 2px 11px;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      border-radius: 0;
+      color: var(--muted);
+      background: transparent;
+      font-size: 13px;
+    }
+    .page-tabs button:hover { color: var(--pine); background: transparent; }
+    .page-tabs button[aria-selected="true"] { border-bottom-color: var(--copper); color: var(--pine-dark); }
+    #scan-settings > h3, .results-head h3 { margin: 0; font: 500 25px/1.15 "Newsreader", Georgia, serif; }
+    .settings-help { color: var(--muted); font-size: 13px; line-height: 1.6; }
+    #scan-settings > .settings-help { max-width: 700px; margin: 8px 0 18px; }
+    .scan-profile {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0 22px;
+      padding: 20px 0;
+      border-top: 1px solid var(--line);
+    }
+    .scan-profile h4, .scan-profile .profile-enabled, .scan-profile .settings-help, .scan-profile .profile-remove { grid-column: 1 / -1; }
+    .scan-profile h4 { margin: 0 0 8px; font: 500 18px/1.25 "Newsreader", Georgia, serif; }
+    .scan-profile label { display: block; margin-top: 10px; color: var(--muted); font-size: 12px; font-weight: 600; }
+    .scan-profile input, .scan-profile textarea, .scan-profile select { margin-top: 5px; }
+    .scan-profile .profile-enabled { display: flex; align-items: center; gap: 9px; margin: 2px 0 6px; color: var(--ink); font-size: 13px; }
+    .scan-profile .profile-enabled input { width: 17px; min-height: 17px; height: 17px; margin: 0; accent-color: var(--pine); }
+    .scan-profile .settings-help { margin: 7px 0 0; font-size: 12px; }
+    .scan-profile .profile-remove {
+      width: max-content;
+      min-height: 34px;
+      margin-top: 14px;
+      padding: 6px 10px;
+      border-color: #dfc4b8;
+      color: #8b4d35;
+      background: transparent;
+      font-size: 12px;
+    }
+    .scan-profile .profile-remove:hover { background: var(--copper-wash); }
+    #scan-settings #add-profile { border-color: var(--line); color: var(--pine); background: transparent; }
+    #scan-settings #add-profile:hover { border-color: var(--pine); background: var(--pine-wash); }
+    #scan-settings #save-profiles { margin-left: 8px; }
+    .results-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+    .results-head p { margin: 5px 0 17px; color: var(--muted); font-size: 13px; }
+    .results-head button { min-height: 36px; margin: 0; padding: 7px 11px; border-color: var(--line); color: var(--pine); background: var(--surface); }
+    .results-head button:hover { border-color: var(--pine); background: var(--pine-wash); }
+    .results-tabs { display: flex; gap: 22px; border-bottom: 1px solid var(--line); }
+    .results-tabs button {
+      min-height: 42px;
+      margin: 0 0 -1px;
+      padding: 8px 1px 10px;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      border-radius: 0;
+      color: var(--muted);
+      background: transparent;
+      font-size: 13px;
+    }
+    .results-tabs button:hover { color: var(--pine); background: transparent; }
+    .results-tabs button[aria-selected="true"] { border-bottom-color: var(--copper); color: var(--pine-dark); }
+    .results-toolbar { margin: 16px 0 10px; }
+    .results-filterbar {
+      display: flex;
+      min-height: 52px;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      padding: 6px;
+      border: 1px solid #c8d2ca;
+      border-radius: 4px;
+      background: var(--surface);
+      transition: border-color 140ms ease, box-shadow 140ms ease;
+    }
+    .results-filterbar:focus-within { border-color: var(--pine); box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 22%, transparent); }
+    .results-filterbar > input {
+      width: auto;
+      min-width: 150px;
+      min-height: 36px;
+      flex: 1 1 220px;
+      margin: 0;
+      padding: 6px 8px;
+      border: 0;
+      border-radius: 2px;
+      background: transparent;
+      box-shadow: none;
+    }
+    .results-filterbar > input:focus { outline: 0; background: transparent; }
+    .active-filter-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+    .filter-chip {
+      display: inline-flex;
+      min-height: 30px;
+      align-items: center;
+      gap: 7px;
+      padding: 3px 5px 3px 9px;
+      border: 1px solid #cfddd2;
+      border-radius: 3px;
+      color: var(--pine-dark);
+      background: var(--pine-wash);
+      font-size: 11px;
+      white-space: nowrap;
+    }
+    .filter-chip-remove {
+      display: grid;
+      width: 20px;
+      min-height: 20px;
+      place-items: center;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      border-radius: 2px;
+      color: var(--pine-dark);
+      background: transparent;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1;
+    }
+    .filter-chip-remove:hover { color: #fff; background: var(--pine); }
+    .filter-adder { position: relative; flex: 0 0 auto; }
+    .filter-adder summary {
+      display: inline-flex;
+      min-height: 34px;
+      align-items: center;
+      padding: 5px 9px;
+      border: 1px dashed #aab9af;
+      border-radius: 3px;
+      color: var(--pine);
+      font-size: 12px;
+      font-weight: 600;
+      list-style: none;
+      cursor: pointer;
+    }
+    .filter-adder summary::-webkit-details-marker { display: none; }
+    .filter-adder summary:hover, .filter-adder[open] summary { border-color: var(--pine); background: var(--pine-wash); }
+    .filter-menu-options {
+      position: absolute;
+      z-index: 5;
+      top: calc(100% + 7px);
+      right: 0;
+      width: min(280px, calc(100vw - 40px));
+      max-height: 300px;
+      overflow-y: auto;
+      padding: 7px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: var(--surface);
+      box-shadow: 0 10px 24px rgba(32, 43, 39, .14);
+    }
+    .filter-option-group + .filter-option-group { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--line); }
+    .filter-option-group h5 { margin: 2px 7px 4px; color: var(--muted); font: 500 10px/1.4 "DM Mono", monospace; text-transform: uppercase; }
+    .filter-option-group button {
+      display: block;
+      width: 100%;
+      min-height: 34px;
+      margin: 0;
+      padding: 7px;
+      border: 0;
+      border-radius: 2px;
+      color: var(--ink);
+      background: transparent;
+      font-size: 12px;
+      font-weight: 400;
+      text-align: left;
+    }
+    .filter-option-group button:hover { color: var(--pine-dark); background: var(--pine-wash); }
+    .filter-menu-empty { margin: 3px 6px; color: var(--muted); font-size: 12px; }
+    .results-count, .results-status { color: var(--muted); font-size: 12px; }
+    .results-count { margin: 10px 0; font-family: "DM Mono", monospace; }
+    .result-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 16px 4px; border-top: 1px solid var(--line); }
+    .result-row h4 { margin: 0 0 5px; font: 500 18px/1.25 "Newsreader", Georgia, serif; overflow-wrap: anywhere; }
+    .result-details { display: flex; flex-wrap: wrap; gap: 5px 14px; color: var(--muted); font-size: 12px; }
+    .result-details a, .result-actions a { color: var(--pine); text-underline-offset: 3px; }
+    .result-details a:hover, .result-actions a:hover { color: var(--copper); }
+    .result-type { color: var(--copper); font: 500 10px/1.5 "DM Mono", monospace; text-transform: uppercase; }
+    .result-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 14px; font-size: 12px; }
+    .result-status { padding: 4px 8px; border-radius: 2px; color: var(--muted); background: #e8ece7; font: 500 10px/1.4 "DM Mono", monospace; text-transform: uppercase; }
+    .result-status[data-status="failed"] { color: #873f2d; background: var(--copper-wash); }
+    .result-status[data-status="success"] { color: var(--pine-dark); background: var(--pine-wash); }
+    .results-empty { padding: 24px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    @keyframes arrive { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    @media (max-width: 760px) {
+      .site-shell { width: min(100% - 32px, 1080px); padding-top: 22px; }
+      .site-header { margin-bottom: 25px; }
+      .site-header h1 { font-size: 30px; }
+    }
+    @media (max-width: 520px) {
+      .site-shell { width: min(100% - 24px, 1080px); padding-top: 18px; }
+      .brand-mark { width: 40px; height: 40px; }
+      .site-header { gap: 12px; }
+      .site-header h1 { font-size: 27px; }
+      .page-tabs { gap: 16px; }
+      .page-tabs button { padding-inline: 0; font-size: 12px; }
+      .scan-profile { grid-template-columns: 1fr; }
+      .results-head { align-items: center; }
+      .results-head button { flex: 0 0 auto; }
+      .result-row { grid-template-columns: 1fr; gap: 8px; }
+      .result-actions { justify-content: flex-start; }
+      #scan-settings #save-profiles { margin-left: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
   </style>
 </head>
 <body>
-  <h3>Literature Capture</h3>
+  <main class="site-shell">
+  <header class="site-header">
+    <span class="brand-mark" aria-hidden="true">LV</span>
+    <div>
+      <p class="brand-kicker">Literature Vault / Research Desk</p>
+      <h1>Literature Capture</h1>
+    </div>
+  </header>
   <div id="setup-section" class="hidden">
-    <p style="font-size: 13px; color: #57609a;">Configure GitHub target once:</p>
+    <p class="setup-intro">Configure repository</p>
     <input id="cfg-owner" placeholder="GitHub Username / Org" />
     <input id="cfg-repo" placeholder="Repository Name" />
     <input id="cfg-token" type="password" placeholder="Fine-Grained PAT" />
@@ -75,7 +354,7 @@
     <textarea id="url" rows="3" placeholder="URL or reference text"></textarea>
     <p id="source-type" class="source-type">Type detected when you add a URL.</p>
     <button id="submit-btn" onclick="submitIssue()">Save to Repo</button>
-    <p style="font-size: 11px; color: #57609a; margin-top: 12px; cursor: pointer;" onclick="clearConfig()">Reset settings</p>
+    <p class="reset-settings" onclick="clearConfig()">Reset settings</p>
   </div>
   <div id="scan-settings" class="hidden">
     <h3>Scan Settings</h3>
@@ -98,16 +377,21 @@
       <button type="button" role="tab" aria-selected="false" data-results-view="scans">Scan activity</button>
     </div>
     <div class="results-toolbar">
-      <input id="results-search" type="search" placeholder="Search title, URL, provider..." aria-label="Search results" />
-      <select id="saved-type-filter" aria-label="Filter saved results by type"></select>
-      <select id="scan-provider-filter" class="hidden" aria-label="Filter scan activity by provider"></select>
-      <select id="scan-status-filter" class="hidden" aria-label="Filter scan activity by status"></select>
+      <div class="results-filterbar">
+        <input id="results-search" type="search" placeholder="Search title, URL, provider..." aria-label="Search results" />
+        <div id="active-filter-chips" class="active-filter-chips" aria-live="polite"></div>
+        <details id="filter-menu" class="filter-adder">
+          <summary aria-label="Add a result filter">+ Filter</summary>
+          <div id="filter-menu-options" class="filter-menu-options"></div>
+        </details>
+      </div>
     </div>
     <p id="results-status" class="results-status" role="status"></p>
     <p id="results-count" class="results-count"></p>
     <div id="results-list" aria-live="polite"></div>
   </section>
   <div id="status" class="status"></div>
+  </main>
   <script>
     if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/Literature-vault/sw.js'); }
     const setupSec = document.getElementById('setup-section');
@@ -123,9 +407,9 @@
     const resultsCount = document.getElementById('results-count');
     const resultsList = document.getElementById('results-list');
     const resultSearch = document.getElementById('results-search');
-    const savedTypeFilter = document.getElementById('saved-type-filter');
-    const scanProviderFilter = document.getElementById('scan-provider-filter');
-    const scanStatusFilter = document.getElementById('scan-status-filter');
+    const activeFilterChips = document.getElementById('active-filter-chips');
+    const filterMenu = document.getElementById('filter-menu');
+    const filterMenuOptions = document.getElementById('filter-menu-options');
     const providerOptions = {
       arxiv: 'arXiv', crossref: 'Journal papers (Crossref)', chemrxiv: 'ChemRxiv', github: 'GitHub repositories',
       gitlab: 'GitLab projects', huggingface_model: 'Hugging Face models',
@@ -142,6 +426,7 @@
     let scanResults = [];
     let resultsLoaded = false;
     let resultsMode = 'saved';
+    const activeFilters = { saved: { type: [] }, scans: { provider: [], status: [] } };
 
     function selectView(view) {
       const showCapture = view === 'capture';
@@ -188,19 +473,94 @@
       return link;
     }
 
-    function setFilterOptions(select, label, values, labels = {}) {
-      const options = [new Option(label, '')];
-      [...new Set(values.filter(Boolean))].sort().forEach(value => {
-        options.push(new Option(labels[value] || value, value));
+    function getFilterDefinitions() {
+      if (resultsMode === 'saved') {
+        return [{
+          key: 'type',
+          label: 'Type',
+          values: [...new Set(savedResults.map(item => item.type).filter(Boolean))].sort(),
+          labels: resultTypeOptions
+        }];
+      }
+      return [
+        {
+          key: 'provider',
+          label: 'Provider',
+          values: [...new Set(scanResults.map(item => item.provider).filter(Boolean))].sort(),
+          labels: providerOptions
+        },
+        {
+          key: 'status',
+          label: 'Status',
+          values: [...new Set(scanResults.map(item => item.status).filter(Boolean))].sort(),
+          labels: {}
+        }
+      ];
+    }
+
+    function renderFilterControls() {
+      const selected = activeFilters[resultsMode];
+      const definitions = getFilterDefinitions();
+      activeFilterChips.replaceChildren();
+      definitions.forEach(definition => {
+        selected[definition.key].forEach(value => {
+          const chip = document.createElement('span');
+          chip.className = 'filter-chip';
+          const label = document.createElement('span');
+          label.textContent = `${definition.label}: ${definition.labels[value] || value}`;
+          const remove = document.createElement('button');
+          remove.type = 'button';
+          remove.className = 'filter-chip-remove';
+          remove.setAttribute('aria-label', `Remove ${definition.label}: ${definition.labels[value] || value}`);
+          remove.textContent = '×';
+          remove.addEventListener('click', () => {
+            selected[definition.key] = selected[definition.key].filter(selectedValue => selectedValue !== value);
+            updateResultsControls();
+          });
+          chip.append(label, remove);
+          activeFilterChips.append(chip);
+        });
       });
-      select.replaceChildren(...options);
+
+      filterMenuOptions.replaceChildren();
+      let hasOptions = false;
+      definitions.forEach(definition => {
+        const availableValues = definition.values.filter(value => !selected[definition.key].includes(value));
+        if (!availableValues.length) return;
+        hasOptions = true;
+        const group = document.createElement('div');
+        group.className = 'filter-option-group';
+        const heading = document.createElement('h5');
+        heading.textContent = definition.label;
+        group.append(heading);
+        availableValues.forEach(value => {
+          const option = document.createElement('button');
+          option.type = 'button';
+          option.textContent = definition.labels[value] || value;
+          option.addEventListener('click', () => {
+            selected[definition.key].push(value);
+            updateResultsControls();
+            const nextOption = filterMenuOptions.querySelector('button');
+            if (nextOption) nextOption.focus();
+            else {
+              filterMenu.open = false;
+              filterMenu.querySelector('summary').focus();
+            }
+          });
+          group.append(option);
+        });
+        filterMenuOptions.append(group);
+      });
+      if (!hasOptions) {
+        const empty = document.createElement('p');
+        empty.className = 'filter-menu-empty';
+        empty.textContent = 'No filters available';
+        filterMenuOptions.append(empty);
+      }
     }
 
     function updateResultsControls() {
-      const showSaved = resultsMode === 'saved';
-      savedTypeFilter.classList.toggle('hidden', !showSaved);
-      scanProviderFilter.classList.toggle('hidden', showSaved);
-      scanStatusFilter.classList.toggle('hidden', showSaved);
+      renderFilterControls();
       document.querySelectorAll('[data-results-view]').forEach(tab => {
         tab.setAttribute('aria-selected', String(tab.dataset.resultsView === resultsMode));
       });
@@ -228,9 +588,6 @@
         scanResults = (history.runs || []).slice().reverse().flatMap(run =>
           (run.profiles || []).map(profile => ({ ...profile, startedAt: run.started_at }))
         );
-        setFilterOptions(savedTypeFilter, 'All types', savedResults.map(item => item.type), resultTypeOptions);
-        setFilterOptions(scanProviderFilter, 'All providers', scanResults.map(item => item.provider), providerOptions);
-        setFilterOptions(scanStatusFilter, 'All statuses', scanResults.map(item => item.status));
         resultsLoaded = true;
         resultsStatus.textContent = '';
         updateResultsControls();
@@ -250,10 +607,10 @@
 
     function renderSavedResults() {
       const query = resultSearch.value.trim().toLowerCase();
-      const type = savedTypeFilter.value;
+      const types = activeFilters.saved.type;
       const filtered = savedResults.filter(item => {
         const searchable = `${item.title} ${item.canonicalUrl} ${item.type} ${item.notePaths.join(' ')}`.toLowerCase();
-        return (!query || searchable.includes(query)) && (!type || item.type === type);
+        return (!query || searchable.includes(query)) && (!types.length || types.includes(item.type));
       });
       resultsCount.textContent = `${filtered.length} of ${savedResults.length} saved sources`;
       if (!filtered.length) {
@@ -292,11 +649,13 @@
 
     function renderScanResults() {
       const query = resultSearch.value.trim().toLowerCase();
-      const provider = scanProviderFilter.value;
-      const status = scanStatusFilter.value;
+      const providers = activeFilters.scans.provider;
+      const statuses = activeFilters.scans.status;
       const filtered = scanResults.filter(item => {
         const searchable = `${item.name} ${item.provider} ${item.status} ${item.error || ''}`.toLowerCase();
-        return (!query || searchable.includes(query)) && (!provider || item.provider === provider) && (!status || item.status === status);
+        return (!query || searchable.includes(query)) &&
+          (!providers.length || providers.includes(item.provider)) &&
+          (!statuses.length || statuses.includes(item.status));
       });
       resultsCount.textContent = `${filtered.length} of ${scanResults.length} profile runs`;
       if (!filtered.length) {
@@ -708,12 +1067,13 @@
     document.querySelectorAll('[data-results-view]').forEach(tab => {
       tab.addEventListener('click', () => {
         resultsMode = tab.dataset.resultsView;
+        filterMenu.open = false;
         updateResultsControls();
       });
     });
     resultSearch.addEventListener('input', renderResults);
-    [savedTypeFilter, scanProviderFilter, scanStatusFilter].forEach(filter => {
-      filter.addEventListener('change', renderResults);
+    document.addEventListener('click', event => {
+      if (!filterMenu.contains(event.target)) filterMenu.open = false;
     });
     document.getElementById('refresh-results').addEventListener('click', loadResults);
     document.getElementById('add-profile').addEventListener('click', addScanProfile);
