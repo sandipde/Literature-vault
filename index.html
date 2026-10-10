@@ -1014,11 +1014,20 @@
     function clearConfig() { localStorage.clear(); checkConfig(); statusDiv.innerText = 'Cleared.'; }
 
     function handleIncomingShare() {
-      const params = new URLSearchParams(window.location.search);
-      const incomingUrl = params.get('url') || params.get('text');
+      const shareLocation = new URL(window.location.href);
+      const incomingUrl = shareLocation.searchParams.get('url') || shareLocation.searchParams.get('text');
       if (incomingUrl) {
+        const incomingTitle = shareLocation.searchParams.get('title') || 'New Reference';
+        shareLocation.searchParams.delete('url');
+        shareLocation.searchParams.delete('text');
+        shareLocation.searchParams.delete('title');
+        window.history.replaceState(
+          window.history.state,
+          '',
+          `${shareLocation.pathname}${shareLocation.search}${shareLocation.hash}`
+        );
         document.getElementById('url').value = incomingUrl;
-        document.getElementById('title').value = params.get('title') || 'New Reference';
+        document.getElementById('title').value = incomingTitle;
         submitIssue();
       }
     }
