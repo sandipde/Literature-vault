@@ -47,9 +47,9 @@ jobs:
       - run: |
           git config user.name "scanner-bot[bot]"
           git config user.email "scanner-bot@users.noreply.github.com"
-          git pull --rebase origin main
           git add notes/ sources.json seen_papers.json scan_state.json scan_history.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: auto-scan update [skip ci]"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
