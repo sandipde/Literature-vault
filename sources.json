@@ -235,6 +235,19 @@
       "last_requested_at": "2026-10-11T15:39:44+00:00",
       "published_at": "2026-10-02",
       "updated_at": "2026-10-02T21:35:55Z"
+    },
+    "https://github.com/wheresryan22/anatomy": {
+      "type": "github",
+      "canonical_url": "https://github.com/wheresryan22/anatomy",
+      "original_url": "https://github.com/wheresryan22/anatomy",
+      "title": "wheresryan22/anatomy",
+      "notes": [
+        "notes/122_wheresryan22_anatomy.md"
+      ],
+      "added_at": "2026-10-11T16:52:05+00:00",
+      "last_requested_at": "2026-10-11T16:52:05+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-10T15:44:30Z"
     }
   }
 }
