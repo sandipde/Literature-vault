@@ -209,6 +209,19 @@
       "last_requested_at": "2026-10-11T11:09:58+00:00",
       "published_at": "",
       "updated_at": "2026-10-10T13:16:29Z"
+    },
+    "https://sciencedirect.com/science/article/abs/pii/S0927025626006385": {
+      "type": "web",
+      "canonical_url": "https://sciencedirect.com/science/article/abs/pii/S0927025626006385",
+      "original_url": "https://www.sciencedirect.com/science/article/abs/pii/S0927025626006385",
+      "title": "A versatile microstructure tool for large-scale atomistic simulations - ScienceDirect",
+      "notes": [
+        "notes/120_A_versatile_microstructure_tool_for_large-scale_at.md"
+      ],
+      "added_at": "2026-10-11T15:29:57+00:00",
+      "last_requested_at": "2026-10-11T15:29:57+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
