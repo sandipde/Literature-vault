@@ -183,6 +183,19 @@
       "last_requested_at": "2026-10-11T10:13:51+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv-2025-l9gnz/v4": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv-2025-l9gnz/v4",
+      "original_url": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-l9gnz/v4",
+      "title": "Machine learning-accelerated evolutionary Monte Carlo for rapid phase exploration of compositionally complex materials in reactive environments",
+      "notes": [
+        "notes/119_Machine_learning-accelerated_evolutionary_Monte_Ca.md"
+      ],
+      "added_at": "2026-10-11T10:27:22+00:00",
+      "last_requested_at": "2026-10-11T10:27:22+00:00",
+      "published_at": "2026-09-09",
+      "updated_at": ""
     }
   }
 }
