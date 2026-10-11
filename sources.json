@@ -287,6 +287,19 @@
       "last_requested_at": "2026-10-11T19:18:12+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.1103/tzwd-cl3y": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/tzwd-cl3y",
+      "original_url": "https://journals.aps.org/prxenergy/abstract/10.1103/tzwd-cl3y",
+      "title": "Multifidelity Machine Learning Interatomic Potentials for Charged Point Defects",
+      "notes": [
+        "notes/126_Multifidelity_Machine_Learning_Interatomic_Potenti.md"
+      ],
+      "added_at": "2026-10-11T19:25:16+00:00",
+      "last_requested_at": "2026-10-11T19:25:16+00:00",
+      "published_at": "2026-10-08",
+      "updated_at": ""
     }
   }
 }
