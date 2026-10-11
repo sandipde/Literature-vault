@@ -314,6 +314,33 @@
     .result-status { padding: 4px 8px; border-radius: 2px; color: var(--muted); background: #e8ece7; font: 500 10px/1.4 "DM Mono", monospace; text-transform: uppercase; }
     .result-status[data-status="failed"] { color: #873f2d; background: var(--copper-wash); }
     .result-status[data-status="success"] { color: var(--pine-dark); background: var(--pine-wash); }
+    .result-meta-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 8px;
+      margin: 8px 0 0;
+    }
+    .result-meta-chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 3px 7px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--pine-dark);
+      background: var(--pine-wash);
+      font: 500 10px/1.4 "DM Mono", monospace;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .result-meta-chip[data-kind="priority"][data-value="low"] { background: #eef3ef; color: var(--pine-dark); }
+    .result-meta-chip[data-kind="priority"][data-value="normal"] { background: #ecf4f2; color: var(--pine-dark); }
+    .result-meta-chip[data-kind="priority"][data-value="high"] { background: #f7efe9; color: #8b4d35; }
+    .result-meta-chip[data-kind="priority"][data-value="urgent"] { background: #f9e6e1; color: #883c2f; }
+    .result-meta-chip[data-kind="status"][data-value="to-read"] { background: #edf3f2; color: var(--pine-dark); }
+    .result-meta-chip[data-kind="status"][data-value="reading"] { background: #eef1fa; color: #4157a3; }
+    .result-meta-chip[data-kind="status"][data-value="read"] { background: #ebf7ef; color: #2d6e47; }
+    .result-meta-chip[data-kind="status"][data-value="archived"] { background: #f3f3f3; color: #5d6263; }
     .results-empty { padding: 24px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
     .note-reader {
       position: fixed;
@@ -357,25 +384,104 @@
     .note-reader-content {
       flex: 1 1 auto;
       overflow-y: auto;
-      padding: 20px 18px 26px;
-      white-space: pre-wrap;
+      padding: 22px 20px 28px;
+      color: var(--ink);
+      font: 400 15px/1.8 "DM Sans", sans-serif;
+      letter-spacing: -0.01em;
       word-break: break-word;
-      font-size: 14px;
-      line-height: 1.7;
+      white-space: normal;
     }
     .note-reader-content h1, .note-reader-content h2, .note-reader-content h3, .note-reader-content h4 {
-      margin: 1.4em 0 .7em;
-      line-height: 1.2;
+      margin: 1.5em 0 .75em;
+      color: var(--pine-dark);
+      font-family: "Newsreader", Georgia, serif;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
     }
-    .note-reader-content p, .note-reader-content ul, .note-reader-content ol, .note-reader-content blockquote {
-      margin: 0 0 1em;
+    .note-reader-content h1 { font-size: clamp(2rem, 2.3vw, 2.5rem); }
+    .note-reader-content h2 { font-size: clamp(1.55rem, 1.8vw, 2rem); }
+    .note-reader-content h3 { font-size: clamp(1.25rem, 1.4vw, 1.6rem); }
+    .note-reader-content h4 { font-size: 1.1rem; }
+    .note-reader-content p, .note-reader-content ul, .note-reader-content ol, .note-reader-content blockquote, .note-reader-content pre {
+      margin: 0 0 1.1em;
+    }
+    .note-reader-content ul, .note-reader-content ol {
+      padding-left: 1.35em;
+    }
+    .note-reader-content li + li { margin-top: .28em; }
+    .note-reader-content a {
+      color: var(--pine);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .note-reader-content a:hover { color: var(--copper); }
+    .note-reader-content blockquote {
+      margin-left: 0;
+      padding: 12px 16px;
+      border-left: 3px solid var(--copper);
+      border-radius: 0 5px 5px 0;
+      color: var(--pine-dark);
+      background: #f5efe9;
+    }
+    .note-reader-content pre {
+      overflow-x: auto;
+      padding: 14px 16px;
+      border: 1px solid #dfe8df;
+      border-radius: 8px;
+      background: #f5f7f5;
+      font: 500 12.5px/1.6 "DM Mono", monospace;
+      color: var(--ink);
     }
     .note-reader-content code {
-      padding: 2px 4px;
-      border-radius: 3px;
+      padding: 2px 6px;
+      border-radius: 4px;
       background: #edf1ee;
-      font-family: "DM Mono", monospace;
+      font: 500 12.5px/1.4 "DM Mono", monospace;
+    }
+    .note-reader-content pre code {
+      padding: 0;
+      background: transparent;
+    }
+    .note-reader-content hr {
+      height: 1px;
+      margin: 1.6em 0;
+      border: 0;
+      background: linear-gradient(90deg, rgba(32, 43, 39, 0), rgba(32, 43, 39, .18), rgba(32, 43, 39, 0));
+    }
+    .note-reader-content strong { font-weight: 700; }
+    .note-reader-content em { font-style: italic; }
+    .note-reader-meta {
+      margin-top: 2rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+    }
+    .note-reader-meta h5 {
+      margin: 0 0 1rem;
+      color: var(--pine-dark);
+      font: 600 14px/1.3 "DM Mono", monospace;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .note-reader-meta label {
+      display: block;
+      margin-bottom: .9rem;
+      color: var(--muted);
       font-size: 12px;
+      font-weight: 600;
+    }
+    .note-reader-meta .meta-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .note-reader-meta input, .note-reader-meta textarea, .note-reader-meta select {
+      margin-top: 6px;
+      font: 400 14px/1.5 "DM Sans", sans-serif;
+    }
+    .note-reader-meta textarea { min-height: 118px; }
+    .note-reader-meta button {
+      margin-top: 0.5rem;
+      min-height: 38px;
     }
     @keyframes arrive { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
     @media (max-width: 760px) {
@@ -644,6 +750,284 @@
         .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
     }
 
+    function extractFrontmatterValue(markdownText, fieldName) {
+      const match = String(markdownText || '').match(new RegExp(`^${fieldName}:\\s*(.+)$`, 'm'));
+      if (!match) return '';
+      return match[1].trim().replace(/^['\"]|['\"]$/g, '');
+    }
+
+    function readUserMetadata(markdownText) {
+      const frontmatter = String(markdownText || '').match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+      if (!frontmatter) return { tags: [], rating: '', comments: '', priority: '', status: '' };
+      const yaml = frontmatter[1];
+
+      const ratingMatch = yaml.match(/^user_rating:\s*(.+)$/m);
+      const tagsMatch = yaml.match(/^user_tags:\s*\n((?:\s{2,}-\s*.*\n?)*)/m) || yaml.match(/^user_tags:\s*\[(.*)\]\s*$/m);
+      const commentsMatch = yaml.match(/^user_comments:\s*\|\s*\n((?:\s{2,}.*\n?)*)/m);
+      const priorityMatch = yaml.match(/^user_priority:\s*(.+)$/m);
+      const statusMatch = yaml.match(/^user_status:\s*(.+)$/m);
+
+      const rating = ratingMatch ? ratingMatch[1].trim().replace(/['"]/g, '') : '';
+      let tags = [];
+      if (tagsMatch) {
+        const block = tagsMatch[1] || tagsMatch[0].replace(/^user_tags:\s*\[|\]\s*$/g, '');
+        if (block.includes('-')) {
+          tags = block.split(/\n/).map(line => line.replace(/^-\s*/, '').trim()).filter(Boolean);
+        } else {
+          tags = block.split(',').map(tag => tag.trim()).filter(Boolean);
+        }
+      }
+      const comments = commentsMatch ? commentsMatch[1].replace(/^\s{2}/gm, '').trim() : '';
+      return {
+        tags,
+        rating,
+        comments,
+        priority: priorityMatch ? priorityMatch[1].trim().replace(/['"]/g, '') : '',
+        status: statusMatch ? statusMatch[1].trim().replace(/['"]/g, '') : ''
+      };
+    }
+
+    function removeYamlField(frontmatterText, fieldName) {
+      const lines = frontmatterText.split(/\r?\n/);
+      const start = lines.findIndex(line => line.startsWith(`${fieldName}:`));
+      if (start === -1) return frontmatterText;
+      let end = start + 1;
+      while (end < lines.length) {
+        const nextLine = lines[end];
+        if (!nextLine || nextLine.startsWith(' ') || nextLine.startsWith('-')) {
+          end += 1;
+          continue;
+        }
+        break;
+      }
+      return lines.slice(0, start).concat(lines.slice(end)).join('\n');
+    }
+
+    function buildYamlBlock(fieldName, value) {
+      if (fieldName === 'user_tags') {
+        if (!Array.isArray(value) || !value.length) return 'user_tags: []';
+        return ['user_tags:','', ...value.map(tag => `  - ${tag}`)].join('\n');
+      }
+      if (fieldName === 'user_comments') {
+        if (!value || !String(value).trim()) return 'user_comments: ""';
+        const lines = String(value).split(/\r?\n/);
+        return ['user_comments: |', ...lines.map(line => `  ${line}`)].join('\n');
+      }
+      if (fieldName === 'user_priority') return `user_priority: ${String(value || '').trim() || 'normal'}`;
+      if (fieldName === 'user_status') return `user_status: ${String(value || '').trim() || 'to-read'}`;
+      return `user_rating: ${Number(value) || 0}`;
+    }
+
+    async function loadPersonalMeta(notePath) {
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      const token = localStorage.getItem('gh_token');
+      if (!owner || !repo || !notePath) return { status: 'to-read', priority: 'normal' };
+      try {
+        const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(notePath).replace(/%2F/g, '/')}?ref=main&_=${Date.now()}`;
+        const response = await fetch(endpoint, { headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' } });
+        if (!response.ok) return { status: 'to-read', priority: 'normal' };
+        const data = await response.json();
+        const text = atob(data.content.replace(/\n/g, ''));
+        const yaml = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+        const body = yaml ? yaml[1] : '';
+        return {
+          status: (extractFrontmatterValue(body, 'user_status') || 'to-read').toLowerCase(),
+          priority: (extractFrontmatterValue(body, 'user_priority') || 'normal').toLowerCase()
+        };
+      } catch (error) {
+        return { status: 'to-read', priority: 'normal' };
+      }
+    }
+
+    function addMetaChips(container, item) {
+      if (item.pending || !item.notePaths?.length) return;
+      const statusChip = document.createElement('span');
+      statusChip.className = 'result-meta-chip';
+      statusChip.dataset.kind = 'status';
+      statusChip.dataset.value = 'to-read';
+      statusChip.textContent = 'Status: To read';
+      container.append(statusChip);
+
+      const priorityChip = document.createElement('span');
+      priorityChip.className = 'result-meta-chip';
+      priorityChip.dataset.kind = 'priority';
+      priorityChip.dataset.value = 'normal';
+      priorityChip.textContent = 'Priority: Normal';
+      container.append(priorityChip);
+
+      loadPersonalMeta(item.notePaths[0]).then(meta => {
+        statusChip.dataset.value = meta.status || 'to-read';
+        statusChip.textContent = `Status: ${String(meta.status || 'to-read').replace(/-/g, ' ')}`;
+        priorityChip.dataset.value = meta.priority || 'normal';
+        priorityChip.textContent = `Priority: ${String(meta.priority || 'normal')}`;
+      });
+    }
+
+    function updateNoteMetadataFile(notePath, { tags, rating, comments, priority, status }) {
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      const token = localStorage.getItem('gh_token');
+      const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(notePath).replace(/%2F/g, '/')}?ref=main&_=${Date.now()}`;
+      return fetch(endpoint, { headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' } })
+        .then(response => {
+          if (!response.ok) throw new Error(`Unable to load note (${response.status})`);
+          return response.json();
+        })
+        .then(data => {
+          const text = atob(data.content.replace(/\n/g, ''));
+          const frontmatterMatch = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+          let frontmatter = frontmatterMatch ? frontmatterMatch[1].trim() : '';
+          let body = frontmatterMatch ? text.slice(frontmatterMatch[0].length) : text;
+
+          const fields = ['user_tags', 'user_rating', 'user_comments', 'user_priority', 'user_status'];
+          fields.forEach(field => {
+            frontmatter = removeYamlField(frontmatter, field);
+          });
+
+          const blocks = [
+            buildYamlBlock('user_rating', rating || 0),
+            buildYamlBlock('user_priority', priority || 'normal'),
+            buildYamlBlock('user_status', status || 'to-read'),
+            buildYamlBlock('user_tags', Array.isArray(tags) ? tags : String(tags || '').split(',').map(tag => tag.trim()).filter(Boolean)),
+            buildYamlBlock('user_comments', comments || '')
+          ];
+          frontmatter = frontmatter.trim();
+          if (frontmatter) frontmatter = `${frontmatter}\n${blocks.join('\n')}\n`;
+          else frontmatter = blocks.join('\n');
+
+          const personalSection = [
+            '## Personal notes',
+            '',
+            `- **Rating:** ${rating ? `${rating}/5` : 'Not rated'}`,
+            `- **Priority:** ${priority || 'normal'}`,
+            `- **Status:** ${status || 'to-read'}`,
+            `- **Tags:** ${Array.isArray(tags) && tags.length ? tags.join(', ') : 'None'}`,
+            '',
+            comments ? `- **Comments:** ${comments}` : '- **Comments:** None',
+            ''
+          ].join('\n');
+
+          const noteBody = body.includes('## Personal notes')
+            ? body.replace(/## Personal notes[\s\S]*$/m, personalSection)
+            : `${body.trim()}\n\n${personalSection}`;
+
+          const nextContent = `---\n${frontmatter}\n---\n${noteBody.trim()}\n`;
+          return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(notePath).replace(/%2F/g, '/')}`, {
+            method: 'PUT',
+            headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              message: `Update personal metadata for ${notePath}`,
+              sha: data.sha,
+              content: btoa(unescape(encodeURIComponent(nextContent)))
+            })
+          });
+        })
+        .then(response => {
+          if (!response.ok) throw new Error(`Unable to save note metadata (${response.status})`);
+          return response.json();
+        });
+    }
+
+    function addPersonalMetadataEditor(notePath, title, markdownText) {
+      const meta = readUserMetadata(markdownText);
+      const editor = document.createElement('section');
+      editor.className = 'note-reader-meta';
+      const heading = document.createElement('h5');
+      heading.textContent = 'Personal notes';
+      editor.append(heading);
+
+      const metaRow = document.createElement('div');
+      metaRow.className = 'meta-row';
+
+      const ratingLabel = document.createElement('label');
+      ratingLabel.textContent = 'Rating (1-5)';
+      const ratingInput = document.createElement('input');
+      ratingInput.type = 'number';
+      ratingInput.min = '1';
+      ratingInput.max = '5';
+      ratingInput.step = '1';
+      ratingInput.value = meta.rating || '';
+      ratingLabel.append(ratingInput);
+      metaRow.append(ratingLabel);
+
+      const priorityLabel = document.createElement('label');
+      priorityLabel.textContent = 'Priority';
+      const prioritySelect = document.createElement('select');
+      ['low', 'normal', 'high', 'urgent'].forEach(value => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = value.charAt(0).toUpperCase() + value.slice(1);
+        option.selected = (meta.priority || 'normal') === value;
+        prioritySelect.append(option);
+      });
+      priorityLabel.append(prioritySelect);
+      metaRow.append(priorityLabel);
+      editor.append(metaRow);
+
+      const statusRow = document.createElement('div');
+      statusRow.className = 'meta-row';
+
+      const statusLabel = document.createElement('label');
+      statusLabel.textContent = 'Status';
+      const statusSelect = document.createElement('select');
+      ['to-read', 'reading', 'read', 'archived'].forEach(value => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = value.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+        option.selected = (meta.status || 'to-read') === value;
+        statusSelect.append(option);
+      });
+      statusLabel.append(statusSelect);
+      statusRow.append(statusLabel);
+
+      const tagsLabel = document.createElement('label');
+      tagsLabel.textContent = 'Tags';
+      const tagsInput = document.createElement('input');
+      tagsInput.type = 'text';
+      tagsInput.value = (meta.tags || []).join(', ');
+      tagsInput.placeholder = 'e.g. materials, ML, survey';
+      tagsLabel.append(tagsInput);
+      statusRow.append(tagsLabel);
+      editor.append(statusRow);
+
+      const commentsLabel = document.createElement('label');
+      commentsLabel.textContent = 'Comments';
+      const commentsInput = document.createElement('textarea');
+      commentsInput.value = meta.comments || '';
+      commentsInput.placeholder = 'Add your own summary, questions, or context...';
+      commentsLabel.append(commentsInput);
+      editor.append(commentsLabel);
+
+      const saveButton = document.createElement('button');
+      saveButton.type = 'button';
+      saveButton.textContent = 'Save personal notes';
+      saveButton.addEventListener('click', async () => {
+        saveButton.disabled = true;
+        saveButton.textContent = 'Saving...';
+        try {
+          const nextTags = tagsInput.value.split(',').map(tag => tag.trim()).filter(Boolean);
+          const nextRating = Number(ratingInput.value || 0);
+          const nextComments = commentsInput.value.trim();
+          await updateNoteMetadataFile(notePath, {
+            tags: nextTags,
+            rating: nextRating > 0 && nextRating <= 5 ? String(nextRating) : '',
+            comments: nextComments,
+            priority: prioritySelect.value,
+            status: statusSelect.value
+          });
+          saveButton.textContent = 'Saved';
+          setTimeout(() => { saveButton.textContent = 'Save personal notes'; saveButton.disabled = false; }, 1200);
+        } catch (error) {
+          saveButton.textContent = 'Save failed';
+          setTimeout(() => { saveButton.textContent = 'Save personal notes'; saveButton.disabled = false; }, 1600);
+          noteReaderContent.insertAdjacentHTML('beforeend', `<p class="note-reader-save-error">${escapeHtml(error.message)}</p>`);
+        }
+      });
+      editor.append(saveButton);
+      noteReaderContent.append(editor);
+    }
+
     async function openNoteReader(notePath, title) {
       const owner = localStorage.getItem('gh_owner');
       const repo = localStorage.getItem('gh_repo');
@@ -662,6 +1046,7 @@
         const decoded = atob(data.content.replace(/\n/g, ''));
         const content = stripNoteFrontmatter(decoded);
         noteReaderContent.innerHTML = renderMarkdownToHtml(content);
+        addPersonalMetadataEditor(notePath, title, decoded);
       } catch (error) {
         noteReaderContent.textContent = `Could not load the note directly from GitHub: ${error.message}`;
       }
@@ -678,6 +1063,16 @@
           label: 'Type',
           values: [...new Set(savedResults.map(item => item.type).filter(Boolean))].sort(),
           labels: resultTypeOptions
+        }, {
+          key: 'status',
+          label: 'Status',
+          values: [...new Set(savedResults.map(item => item.status || 'to-read').filter(Boolean))].sort(),
+          labels: {
+            'to-read': 'To read',
+            'reading': 'Reading',
+            'read': 'Read',
+            'archived': 'Archived'
+          }
         }];
       }
       return [
@@ -836,8 +1231,18 @@
           addedAt: record.added_at || '',
           lastRequestedAt: record.last_requested_at || record.last_requested || record.added_at || '',
           publishedAt: record.published_at || '',
-          updatedAt: record.updated_at || ''
+          updatedAt: record.updated_at || '',
+          status: 'to-read',
+          priority: 'normal'
         })).sort((first, second) => first.title.localeCompare(second.title));
+
+        await Promise.all(savedResults.map(async item => {
+          const primaryNote = item.notePaths[0];
+          if (!primaryNote) return;
+          const meta = await loadPersonalMeta(primaryNote);
+          item.status = meta.status || 'to-read';
+          item.priority = meta.priority || 'normal';
+        }));
 
         pendingResults = (issues || []).filter(issue => !issue.pull_request).map(issue => {
           const url = extractSourceUrl(issue.body || '');
@@ -884,10 +1289,14 @@
     function renderSavedResults() {
       const query = resultSearch.value.trim().toLowerCase();
       const types = activeFilters.saved.type;
+      const statuses = activeFilters.saved.status || [];
       const combinedResults = [...savedResults, ...pendingResults];
       const filtered = sortResultItems(combinedResults.filter(item => {
         const searchable = `${item.title} ${item.canonicalUrl} ${item.type} ${item.notePaths.join(' ')}`.toLowerCase();
-        return (!query || searchable.includes(query)) && (!types.length || types.includes(item.type));
+        const itemStatus = item.pending ? 'queued' : (item.status || 'to-read');
+        return (!query || searchable.includes(query)) &&
+          (!types.length || types.includes(item.type)) &&
+          (!statuses.length || item.pending ? false : statuses.includes(itemStatus));
       }), resultSortModes.saved);
       resultsCount.textContent = `${filtered.length} of ${combinedResults.length} saved or queued sources`;
       if (!filtered.length) {
@@ -922,6 +1331,12 @@
         const sourceLink = createExternalLink(item.canonicalUrl, 'Source');
         if (sourceLink) details.append(sourceLink);
         content.append(details);
+
+        const metaChips = document.createElement('div');
+        metaChips.className = 'result-meta-chips';
+        if (!item.pending) addMetaChips(metaChips, item);
+        content.append(metaChips);
+
         const actions = document.createElement('div');
         actions.className = 'result-actions';
         if (item.pending && item.issueUrl) {
