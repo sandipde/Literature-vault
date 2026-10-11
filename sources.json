@@ -248,6 +248,19 @@
       "last_requested_at": "2026-10-11T16:52:05+00:00",
       "published_at": "",
       "updated_at": "2026-10-10T15:44:30Z"
+    },
+    "https://github.com/ppdebreuck/matra-genoa": {
+      "type": "github",
+      "canonical_url": "https://github.com/ppdebreuck/matra-genoa",
+      "original_url": "https://github.com/ppdebreuck/matra-genoa",
+      "title": "ppdebreuck/matra-genoa",
+      "notes": [
+        "notes/123_ppdebreuck_matra-genoa.md"
+      ],
+      "added_at": "2026-10-11T18:03:44+00:00",
+      "last_requested_at": "2026-10-11T18:03:44+00:00",
+      "published_at": "",
+      "updated_at": "2026-09-14T10:14:29Z"
     }
   }
 }
