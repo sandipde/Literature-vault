@@ -196,6 +196,19 @@
       "last_requested_at": "2026-10-11T10:27:22+00:00",
       "published_at": "2026-09-09",
       "updated_at": ""
+    },
+    "https://github.com/mlipstudio/mlip-studio": {
+      "type": "github",
+      "canonical_url": "https://github.com/mlipstudio/mlip-studio",
+      "original_url": "https://github.com/mlipstudio/MLIP-Studio",
+      "title": "mlipstudio/MLIP-Studio",
+      "notes": [
+        "notes/github_mlipstudio_MLIP-Studio_c512dffdba.md"
+      ],
+      "added_at": "2026-10-11T11:09:58+00:00",
+      "last_requested_at": "2026-10-11T11:09:58+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-10T13:16:29Z"
     }
   }
 }
