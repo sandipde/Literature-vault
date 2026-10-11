@@ -222,6 +222,19 @@
       "last_requested_at": "2026-10-11T15:29:57+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.04074": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.04074",
+      "original_url": "https://arxiv.org/abs/2610.04074v1",
+      "title": "IdeaScientist: Orchestrating Agents for Grounded Scientific Ideation",
+      "notes": [
+        "notes/121_IdeaScientist_Orchestrating_Agents_for_Grounded_Sc.md"
+      ],
+      "added_at": "2026-10-11T15:39:44+00:00",
+      "last_requested_at": "2026-10-11T15:39:44+00:00",
+      "published_at": "2026-10-02",
+      "updated_at": "2026-10-02T21:35:55Z"
     }
   }
 }
