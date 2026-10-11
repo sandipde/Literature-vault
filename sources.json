@@ -157,6 +157,19 @@
       "last_requested_at": "2026-10-11T10:03:18+00:00",
       "published_at": "",
       "updated_at": "2026-10-11T09:44:23Z"
+    },
+    "https://github.com/settings/notifications": {
+      "type": "github",
+      "canonical_url": "https://github.com/settings/notifications",
+      "original_url": "https://github.com/settings/notifications?email_source=notifications&email_token=ACWK2CLGPLD67EUJUIYQZFT5TK3MZA5CNFSNUACDM5UWIORPF5TWS5BNNB2WEL2DNBSWG22TOVUXIZKFOZSW45CON52GSZTJMNQXI2LPNYXTCMBTGIYDQOJYGIZDMNZFGNBDCNZZGE3DOMRRGIYKM4TFMFZW63VAUVSXMZLOOSYWG427ONSXI5DJNZTXGX3DNRUWG2Y",
+      "title": "[Email] https://github.com/settings/notifications?email_source=notif...",
+      "notes": [
+        "notes/48_Email_https_github_com_settings_notifications_emai.md"
+      ],
+      "added_at": "2026-10-11T10:03:31+00:00",
+      "last_requested_at": "2026-10-11T10:03:31+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
