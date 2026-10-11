@@ -131,6 +131,19 @@
       "published_at": "2026-09-17",
       "updated_at": "",
       "last_requested_at": "2026-10-10"
+    },
+    "https://github.com/molecularai/atom-bond-featurizer": {
+      "type": "github",
+      "canonical_url": "https://github.com/molecularai/atom-bond-featurizer",
+      "original_url": "https://github.com/MolecularAI/atom-bond-featurizer",
+      "title": "MolecularAI/atom-bond-featurizer",
+      "notes": [
+        "notes/24_MolecularAI_atom-bond-featurizer.md"
+      ],
+      "added_at": "2026-10-11T08:55:24+00:00",
+      "last_requested_at": "2026-10-11T08:55:24+00:00",
+      "published_at": "",
+      "updated_at": "2026-06-29T15:59:07Z"
     }
   }
 }
