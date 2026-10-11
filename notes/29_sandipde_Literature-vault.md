@@ -6,7 +6,7 @@ canonical_url: https://github.com/sandipde/literature-vault
 captured_by: sandipde
 date: '2026-10-11'
 captured_at: '2026-10-11T10:03:18+00:00'
-last_requested: '2026-10-11T10:06:15+00:00'
+last_requested: '2026-10-11T10:06:31+00:00'
 issue: '29'
 status: to-read
 authors: []
