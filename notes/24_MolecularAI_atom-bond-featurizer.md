@@ -6,7 +6,7 @@ canonical_url: https://github.com/molecularai/atom-bond-featurizer
 captured_by: sandipde
 date: '2026-10-11'
 captured_at: '2026-10-11T08:55:24+00:00'
-last_requested: '2026-10-11T08:55:24+00:00'
+last_requested: '2026-10-11T08:56:37+00:00'
 issue: '24'
 status: to-read
 authors: []
