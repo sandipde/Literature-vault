@@ -274,6 +274,19 @@
       "last_requested_at": "2026-10-11T18:54:06+00:00",
       "published_at": "",
       "updated_at": "2025-05-02T11:38:28Z"
+    },
+    "https://cylview.org": {
+      "type": "web",
+      "canonical_url": "https://cylview.org",
+      "original_url": "https://www.cylview.org/",
+      "title": "CYLview26",
+      "notes": [
+        "notes/125_CYLview26.md"
+      ],
+      "added_at": "2026-10-11T19:18:12+00:00",
+      "last_requested_at": "2026-10-11T19:18:12+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
