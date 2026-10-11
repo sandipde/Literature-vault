@@ -1063,16 +1063,6 @@
           label: 'Type',
           values: [...new Set(savedResults.map(item => item.type).filter(Boolean))].sort(),
           labels: resultTypeOptions
-        }, {
-          key: 'status',
-          label: 'Status',
-          values: [...new Set(savedResults.map(item => item.status || 'to-read').filter(Boolean))].sort(),
-          labels: {
-            'to-read': 'To read',
-            'reading': 'Reading',
-            'read': 'Read',
-            'archived': 'Archived'
-          }
         }];
       }
       return [
@@ -1231,18 +1221,8 @@
           addedAt: record.added_at || '',
           lastRequestedAt: record.last_requested_at || record.last_requested || record.added_at || '',
           publishedAt: record.published_at || '',
-          updatedAt: record.updated_at || '',
-          status: 'to-read',
-          priority: 'normal'
+          updatedAt: record.updated_at || ''
         })).sort((first, second) => first.title.localeCompare(second.title));
-
-        await Promise.all(savedResults.map(async item => {
-          const primaryNote = item.notePaths[0];
-          if (!primaryNote) return;
-          const meta = await loadPersonalMeta(primaryNote);
-          item.status = meta.status || 'to-read';
-          item.priority = meta.priority || 'normal';
-        }));
 
         pendingResults = (issues || []).filter(issue => !issue.pull_request).map(issue => {
           const url = extractSourceUrl(issue.body || '');
@@ -1289,14 +1269,10 @@
     function renderSavedResults() {
       const query = resultSearch.value.trim().toLowerCase();
       const types = activeFilters.saved.type;
-      const statuses = activeFilters.saved.status || [];
       const combinedResults = [...savedResults, ...pendingResults];
       const filtered = sortResultItems(combinedResults.filter(item => {
         const searchable = `${item.title} ${item.canonicalUrl} ${item.type} ${item.notePaths.join(' ')}`.toLowerCase();
-        const itemStatus = item.pending ? 'queued' : (item.status || 'to-read');
-        return (!query || searchable.includes(query)) &&
-          (!types.length || types.includes(item.type)) &&
-          (!statuses.length || item.pending ? false : statuses.includes(itemStatus));
+        return (!query || searchable.includes(query)) && (!types.length || types.includes(item.type));
       }), resultSortModes.saved);
       resultsCount.textContent = `${filtered.length} of ${combinedResults.length} saved or queued sources`;
       if (!filtered.length) {
