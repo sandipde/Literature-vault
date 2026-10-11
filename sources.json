@@ -261,6 +261,19 @@
       "last_requested_at": "2026-10-11T18:03:44+00:00",
       "published_at": "",
       "updated_at": "2026-09-14T10:14:29Z"
+    },
+    "https://github.com/ppdebreuck/modnet": {
+      "type": "github",
+      "canonical_url": "https://github.com/ppdebreuck/modnet",
+      "original_url": "https://github.com/ppdebreuck/modnet",
+      "title": "ppdebreuck/modnet",
+      "notes": [
+        "notes/124_ppdebreuck_modnet.md"
+      ],
+      "added_at": "2026-10-11T18:54:06+00:00",
+      "last_requested_at": "2026-10-11T18:54:06+00:00",
+      "published_at": "",
+      "updated_at": "2025-05-02T11:38:28Z"
     }
   }
 }
