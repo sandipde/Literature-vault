@@ -296,10 +296,87 @@
     .result-details a:hover, .result-actions a:hover { color: var(--copper); }
     .result-type { color: var(--copper); font: 500 10px/1.5 "DM Mono", monospace; text-transform: uppercase; }
     .result-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px 14px; font-size: 12px; }
+    .result-action-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 32px;
+      margin: 0;
+      padding: 6px 10px;
+      border: 1px solid var(--pine);
+      border-radius: 4px;
+      color: var(--pine);
+      background: transparent;
+      font: 600 12px/1.2 "DM Sans", sans-serif;
+      cursor: pointer;
+    }
+    .result-action-button:hover { background: var(--pine-wash); }
     .result-status { padding: 4px 8px; border-radius: 2px; color: var(--muted); background: #e8ece7; font: 500 10px/1.4 "DM Mono", monospace; text-transform: uppercase; }
     .result-status[data-status="failed"] { color: #873f2d; background: var(--copper-wash); }
     .result-status[data-status="success"] { color: var(--pine-dark); background: var(--pine-wash); }
     .results-empty { padding: 24px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    .note-reader {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: min(560px, calc(100vw - 24px));
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid var(--line);
+      background: var(--surface);
+      box-shadow: -18px 0 34px rgba(32, 43, 39, .12);
+      z-index: 40;
+      transition: transform 180ms ease;
+    }
+    .note-reader.hidden { transform: translateX(calc(100% + 18px)); display: none; }
+    .note-reader-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 20px 18px 16px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(232, 236, 231, .7);
+    }
+    .note-reader-header h4 {
+      margin: 5px 0 0;
+      font: 500 22px/1.15 "Newsreader", Georgia, serif;
+      overflow-wrap: anywhere;
+    }
+    .note-reader-close {
+      min-height: 34px;
+      margin: 0;
+      padding: 6px 12px;
+      border: 1px solid var(--line);
+      color: var(--pine);
+      background: transparent;
+      font: 600 12px/1.2 "DM Sans", sans-serif;
+      cursor: pointer;
+    }
+    .note-reader-content {
+      flex: 1 1 auto;
+      overflow-y: auto;
+      padding: 20px 18px 26px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .note-reader-content h1, .note-reader-content h2, .note-reader-content h3, .note-reader-content h4 {
+      margin: 1.4em 0 .7em;
+      line-height: 1.2;
+    }
+    .note-reader-content p, .note-reader-content ul, .note-reader-content ol, .note-reader-content blockquote {
+      margin: 0 0 1em;
+    }
+    .note-reader-content code {
+      padding: 2px 4px;
+      border-radius: 3px;
+      background: #edf1ee;
+      font-family: "DM Mono", monospace;
+      font-size: 12px;
+    }
     @keyframes arrive { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
     @media (max-width: 760px) {
       .site-shell { width: min(100% - 32px, 1080px); padding-top: 22px; }
@@ -395,6 +472,16 @@
     <p id="results-count" class="results-count"></p>
     <div id="results-list" aria-live="polite"></div>
   </section>
+  <aside id="note-reader" class="note-reader hidden" aria-live="polite" aria-label="Note reader panel">
+    <div class="note-reader-header">
+      <div>
+        <p class="brand-kicker">Reading Pane</p>
+        <h4 id="note-reader-title">Note</h4>
+      </div>
+      <button id="close-note-reader" class="note-reader-close" type="button">Close</button>
+    </div>
+    <div id="note-reader-content" class="note-reader-content"></div>
+  </aside>
   <div id="status" class="status"></div>
   </main>
   <script>
@@ -411,6 +498,9 @@
     const resultsStatus = document.getElementById('results-status');
     const resultsCount = document.getElementById('results-count');
     const resultsList = document.getElementById('results-list');
+    const noteReader = document.getElementById('note-reader');
+    const noteReaderTitle = document.getElementById('note-reader-title');
+    const noteReaderContent = document.getElementById('note-reader-content');
     const resultSearch = document.getElementById('results-search');
     const resultsSort = document.getElementById('results-sort');
     const activeFilterChips = document.getElementById('active-filter-chips');
@@ -429,6 +519,7 @@
     let scanProfiles = [];
     let scanSettingsLoaded = false;
     let savedResults = [];
+    let pendingResults = [];
     let scanResults = [];
     let resultsLoaded = false;
     let resultsMode = 'saved';
@@ -478,6 +569,106 @@
       link.target = '_blank';
       link.rel = 'noopener';
       return link;
+    }
+
+    function stripNoteFrontmatter(markdownText) {
+      const text = String(markdownText || '').replace(/^\uFEFF/, '');
+      if (!text.startsWith('---')) return text.trim();
+      const match = text.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/);
+      return match ? text.slice(match[0].length).trim() : text.trim();
+    }
+
+    function escapeHtml(text) {
+      return String(text)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function renderMarkdownToHtml(markdown) {
+      const text = String(markdown || '').replace(/\r\n/g, '\n');
+      if (!text.trim()) return '<p>No readable note content was found.</p>';
+
+      const safe = text
+        .replace(/<script[\s\S]*?<\/script>/gi, '')
+        .replace(/<iframe[\s\S]*?<\/iframe>/gi, '')
+        .replace(/<object[\s\S]*?<\/object>/gi, '')
+        .replace(/<embed[\s\S]*?>/gi, '');
+
+      const sections = safe.split(/\n{2,}/).map(block => block.trim()).filter(Boolean);
+      const htmlBlocks = sections.map(block => {
+        if (block.startsWith('```')) {
+          const match = block.match(/^```(?:\w+)?\n([\s\S]*?)\n```$/);
+          const code = match ? match[1] : block.replace(/^```(?:\w+)?\n|\n```$/g, '');
+          return `<pre><code>${escapeHtml(code)}</code></pre>`;
+        }
+
+        if (/^#{1,6}\s/.test(block)) {
+          const level = block.match(/^#+/)[0].length;
+          const content = block.replace(/^#{1,6}\s+/, '');
+          return `<h${level}>${renderInlineMarkdown(content)}</h${level}>`;
+        }
+
+        if (/^>\s/.test(block)) {
+          const quote = block.split(/\n>\s?/).map(line => line.replace(/^>\s?/, '')).join('\n');
+          return `<blockquote>${renderInlineMarkdown(quote)}</blockquote>`;
+        }
+
+        const listPattern = /^[-*+]\s+/m;
+        if (listPattern.test(block)) {
+          const items = block.split(/\n/).map(line => line.trim()).filter(line => /^[-*+]\s+/.test(line)).map(line => line.replace(/^[-*+]\s+/, ''));
+          return `<ul>${items.map(item => `<li>${renderInlineMarkdown(item)}</li>`).join('')}</ul>`;
+        }
+
+        const orderedPattern = /^\d+\.\s+/m;
+        if (orderedPattern.test(block)) {
+          const items = block.split(/\n/).map(line => line.trim()).filter(line => /^\d+\.\s+/.test(line)).map(line => line.replace(/^\d+\.\s+/, ''));
+          return `<ol>${items.map(item => `<li>${renderInlineMarkdown(item)}</li>`).join('')}</ol>`;
+        }
+
+        return `<p>${renderInlineMarkdown(block)}</p>`;
+      });
+
+      return htmlBlocks.join('');
+    }
+
+    function renderInlineMarkdown(text) {
+      return escapeHtml(text)
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+        .replace(/_([^_]+)_/g, '<em>$1</em>')
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+        .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+    }
+
+    async function openNoteReader(notePath, title) {
+      const owner = localStorage.getItem('gh_owner');
+      const repo = localStorage.getItem('gh_repo');
+      const token = localStorage.getItem('gh_token');
+      if (!notePath) return;
+      noteReaderTitle.textContent = title || 'Note';
+      noteReaderContent.innerHTML = 'Loading note...';
+      noteReader.classList.remove('hidden');
+      try {
+        const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(notePath).replace(/%2F/g, '/')}?ref=main&_=${Date.now()}`;
+        const headers = { 'Accept': 'application/vnd.github+json' };
+        if (token) headers.Authorization = `Bearer ${token}`;
+        const response = await fetch(endpoint, { headers });
+        if (!response.ok) throw new Error(`Unable to load note (${response.status})`);
+        const data = await response.json();
+        const decoded = atob(data.content.replace(/\n/g, ''));
+        const content = stripNoteFrontmatter(decoded);
+        noteReaderContent.innerHTML = renderMarkdownToHtml(content);
+      } catch (error) {
+        noteReaderContent.textContent = `Could not load the note directly from GitHub: ${error.message}`;
+      }
+    }
+
+    function closeNoteReader() {
+      noteReader.classList.add('hidden');
     }
 
     function getFilterDefinitions() {
@@ -625,10 +816,18 @@
       refreshButton.disabled = true;
       resultsStatus.textContent = 'Loading results...';
       try {
-        const [registry, history] = await Promise.all([
+        const [registry, history, issues] = await Promise.all([
           fetchRepositoryJson('sources.json', owner, repo, token),
-          fetchRepositoryJson('scan_history.json', owner, repo, token)
+          fetchRepositoryJson('scan_history.json', owner, repo, token),
+          fetch(`https://api.github.com/repos/${owner}/${repo}/issues?state=open&per_page=100`, {
+            headers: { 'Authorization': token ? `Bearer ${token}` : undefined, 'Accept': 'application/vnd.github+json' }
+          }).then(async response => {
+            if (!response.ok) return [];
+            const items = await response.json();
+            return Array.isArray(items) ? items : [];
+          })
         ]);
+
         savedResults = Object.entries(registry.sources || {}).map(([canonicalUrl, record]) => ({
           canonicalUrl,
           title: record.title || canonicalUrl,
@@ -639,6 +838,28 @@
           publishedAt: record.published_at || '',
           updatedAt: record.updated_at || ''
         })).sort((first, second) => first.title.localeCompare(second.title));
+
+        pendingResults = (issues || []).filter(issue => !issue.pull_request).map(issue => {
+          const url = extractSourceUrl(issue.body || '');
+          if (!url) return null;
+          const identity = sourceIdentity(url);
+          const canonicalUrl = identity ? identity.key : url;
+          if (savedResults.some(item => item.canonicalUrl === canonicalUrl)) return null;
+          return {
+            canonicalUrl,
+            title: issue.title || 'Pending reference',
+            type: identity ? identity.type : 'web',
+            notePaths: [],
+            addedAt: '',
+            lastRequestedAt: issue.updated_at || issue.created_at || '',
+            publishedAt: '',
+            updatedAt: '',
+            pending: true,
+            issueNumber: issue.number,
+            issueUrl: issue.html_url
+          };
+        }).filter(Boolean);
+
         scanResults = (history.runs || []).slice().reverse().flatMap(run =>
           (run.profiles || []).map(profile => ({ ...profile, startedAt: run.started_at }))
         );
@@ -663,11 +884,12 @@
     function renderSavedResults() {
       const query = resultSearch.value.trim().toLowerCase();
       const types = activeFilters.saved.type;
-      const filtered = sortResultItems(savedResults.filter(item => {
+      const combinedResults = [...savedResults, ...pendingResults];
+      const filtered = sortResultItems(combinedResults.filter(item => {
         const searchable = `${item.title} ${item.canonicalUrl} ${item.type} ${item.notePaths.join(' ')}`.toLowerCase();
         return (!query || searchable.includes(query)) && (!types.length || types.includes(item.type));
       }), resultSortModes.saved);
-      resultsCount.textContent = `${filtered.length} of ${savedResults.length} saved sources`;
+      resultsCount.textContent = `${filtered.length} of ${combinedResults.length} saved or queued sources`;
       if (!filtered.length) {
         resultsList.innerHTML = '<p class="results-empty">No saved sources match these filters.</p>';
         return;
@@ -685,8 +907,15 @@
         details.className = 'result-details';
         const typeLabel = document.createElement('span');
         typeLabel.className = 'result-type';
-        typeLabel.textContent = resultTypeOptions[item.type] || item.type;
+        typeLabel.textContent = item.pending ? 'Queued' : (resultTypeOptions[item.type] || item.type);
         details.append(typeLabel);
+        if (item.pending) {
+          details.append(document.createTextNode('Awaiting ingestion'));
+          if (item.issueUrl) {
+            const issueLink = createExternalLink(item.issueUrl, 'Open issue');
+            if (issueLink) details.append(issueLink);
+          }
+        }
         [['Requested', item.lastRequestedAt], ['Added', item.addedAt], ['Published', item.publishedAt], ['Updated', item.updatedAt]].forEach(([label, value]) => {
           if (value) details.append(document.createTextNode(`${label}: ${formatResultDate(value)}`));
         });
@@ -695,11 +924,24 @@
         content.append(details);
         const actions = document.createElement('div');
         actions.className = 'result-actions';
-        item.notePaths.forEach((notePath, index) => {
-          const encodedPath = notePath.split('/').map(encodeURIComponent).join('/');
-          const link = createExternalLink(`https://github.com/${owner}/${repo}/blob/main/${encodedPath}`, item.notePaths.length > 1 ? `Note ${index + 1}` : 'Open note');
-          if (link) actions.append(link);
-        });
+        if (item.pending && item.issueUrl) {
+          const issueLink = createExternalLink(item.issueUrl, 'Issue');
+          if (issueLink) actions.append(issueLink);
+        }
+        if (!item.pending) {
+          item.notePaths.forEach((notePath, index) => {
+            const readButton = document.createElement('button');
+            readButton.type = 'button';
+            readButton.className = 'result-action-button';
+            readButton.textContent = item.notePaths.length > 1 ? `Read note ${index + 1}` : 'Read note';
+            readButton.addEventListener('click', () => openNoteReader(notePath, item.title));
+            actions.append(readButton);
+
+            const encodedPath = notePath.split('/').map(encodeURIComponent).join('/');
+            const link = createExternalLink(`https://github.com/${owner}/${repo}/blob/main/${encodedPath}`, item.notePaths.length > 1 ? `GitHub ${index + 1}` : 'Open on GitHub');
+            if (link) actions.append(link);
+          });
+        }
         row.append(content, actions);
         return row;
       }));
@@ -1118,11 +1360,25 @@
           headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
           body: JSON.stringify({ title, body: bodyText })
         });
-        statusDiv.innerText = res.ok ? '✓ Saved!' : `Error: ${res.status}`;
         if (res.ok) {
+          const responseJson = await res.json();
+          statusDiv.innerHTML = '';
+          statusDiv.append(document.createTextNode('✓ Saved! Issue #'));
+          const issueLink = document.createElement('a');
+          issueLink.href = responseJson.html_url;
+          issueLink.target = '_blank';
+          issueLink.rel = 'noopener';
+          issueLink.textContent = String(responseJson.number);
+          statusDiv.append(issueLink);
+          statusDiv.append(document.createTextNode(' is queued for ingestion and should appear in the Results tab shortly.'));
           document.getElementById('url').value = '';
           document.getElementById('title').value = '';
+          if (typeof loadResults === 'function') {
+            await loadResults();
+          }
           setTimeout(() => { if (window.history.length > 1) window.close(); }, 1200);
+        } else {
+          statusDiv.innerText = `Error: ${res.status}`;
         }
       } catch (err) { statusDiv.innerText = `Network error: ${err.message}`; }
       finally { submitButton.disabled = false; }
@@ -1147,6 +1403,7 @@
       if (!filterMenu.contains(event.target)) filterMenu.open = false;
     });
     document.getElementById('refresh-results').addEventListener('click', loadResults);
+    document.getElementById('close-note-reader').addEventListener('click', closeNoteReader);
     document.getElementById('add-profile').addEventListener('click', addScanProfile);
     document.getElementById('save-profiles').addEventListener('click', requestScanSettings);
     if (checkConfig()) handleIncomingShare();
