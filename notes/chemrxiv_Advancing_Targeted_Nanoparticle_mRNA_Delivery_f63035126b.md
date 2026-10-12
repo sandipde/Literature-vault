@@ -22,6 +22,11 @@ provider_data:
   publisher: American Chemical Society (ACS)
   type: posted-content
   subjects: []
+user_rating: 0
+user_priority: low
+user_status: to-read
+user_tags: []
+user_comments: ""
 ---
 
 # Advancing Targeted Nanoparticle mRNA Delivery Using Machine Learning
@@ -37,3 +42,11 @@ provider_data:
 - **Doi:** 10.26434/chemrxiv.15010224/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## Personal notes
+
+- **Rating:** Not rated
+- **Priority:** low
+- **Status:** to-read
+- **Tags:** None
+- **Comments:** None
