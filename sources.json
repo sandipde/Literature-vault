@@ -313,6 +313,396 @@
       "last_requested_at": "2026-10-11T20:28:11+00:00",
       "published_at": "2026-10-07",
       "updated_at": ""
+    },
+    "https://doi.org/10.1007/s10765-026-03842-3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s10765-026-03842-3",
+      "original_url": "https://doi.org/10.1007/s10765-026-03842-3",
+      "title": "Integration of a Structural Coherence Model with a Semi-Universal Machine Learning Interatomic Potential to Predict Molten Salt Thermal Conductivity",
+      "notes": [
+        "notes/crossref_Integration_of_a_Structural_Coherence_Model_w_81a47b5a0b.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1002/leap.2088": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1002/leap.2088",
+      "original_url": "https://doi.org/10.1002/leap.2088",
+      "title": "Before the Science Begins: The Non‐Scientific Chasm in Academic Publishing",
+      "notes": [
+        "notes/crossref_Before_the_Science_Begins_The_Non_Scientific__eb992c6b4c.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2147/bctt.s632531": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2147/bctt.s632531",
+      "original_url": "https://doi.org/10.2147/bctt.s632531",
+      "title": "Potential Molecular Links Between Benzophenone-3 and Breast Cancer: Network Toxicology, Machine Learning, Molecular Modeling, and Gene Expression Validation",
+      "notes": [
+        "notes/crossref_Potential_Molecular_Links_Between_Benzophenon_aa2101f488.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.7717/peerj-cs.4106/table-6": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.7717/peerj-cs.4106/table-6",
+      "original_url": "https://doi.org/10.7717/peerj-cs.4106/table-6",
+      "title": "Table 6: Aggregated performance statistics: machine learning <i>vs</i> . deep learning.",
+      "notes": [
+        "notes/crossref_Table_6_Aggregated_performance_statistics_mac_11cf765c09.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010245/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010245/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010245/v1",
+      "title": "From Vacuum Geometry to Solution-Phase Electronic Properties and Thermodynamics via Equivariant Neural Networks",
+      "notes": [
+        "notes/crossref_From_Vacuum_Geometry_to_Solution-Phase_Electr_b02835e3ef.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.58213/eqfy7h39": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.58213/eqfy7h39",
+      "original_url": "https://doi.org/10.58213/eqfy7h39",
+      "title": "Review On Use of Machine Learning and Deep Neural Network for Network Anomaly Detection",
+      "notes": [
+        "notes/crossref_Review_On_Use_of_Machine_Learning_and_Deep_Ne_ea8cf44e4e.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2025-03-31",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1002/adhm.71821": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1002/adhm.71821",
+      "original_url": "https://doi.org/10.1002/adhm.71821",
+      "title": "Unleashing the Potential of Autologous Platelet Concentrates in Bone Regeneration: A Focus on Their Synergy With Biomaterials",
+      "notes": [
+        "notes/crossref_Unleashing_the_Potential_of_Autologous_Platel_67b37a2d00.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.jnucmat.2026.157150": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.jnucmat.2026.157150",
+      "original_url": "https://doi.org/10.1016/j.jnucmat.2026.157150",
+      "title": "In situ microstructural and compositional study of yttrium oxide doped with chromium as a potential interdiffusion barrier coating for ATF fuel claddings",
+      "notes": [
+        "notes/crossref_In_situ_microstructural_and_compositional_stu_2d519ab180.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.55776/pat1641126": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.55776/pat1641126",
+      "original_url": "https://doi.org/10.55776/pat1641126",
+      "title": "https://doi.org/10.55776/pat1641126",
+      "notes": [
+        "notes/crossref_https_doi_org_10_55776_pat1641126_a6ecb1c61f.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7597664": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7597664",
+      "original_url": "https://doi.org/10.2139/ssrn.7597664",
+      "title": "Machine learning-assisted species identification of forensically important blow fly empty puparia using ATR-FTIR spectroscopy",
+      "notes": [
+        "notes/crossref_Machine_learning-assisted_species_identificat_8c83b25a58.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.64449/9781997499541-09": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.64449/9781997499541-09",
+      "original_url": "https://doi.org/10.64449/9781997499541-09",
+      "title": "Evaluating the Critical Role of Work - Integrated Learning in Shaping Auditing Knowledge and Skills",
+      "notes": [
+        "notes/crossref_Evaluating_the_Critical_Role_of_Work_-_Integr_0d84abf05a.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-09-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.lrp.2026.102695": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lrp.2026.102695",
+      "original_url": "https://doi.org/10.1016/j.lrp.2026.102695",
+      "title": "Status and Stretch: The Effect of Network Status on Collaboration with ‘Distant’ Partners",
+      "notes": [
+        "notes/crossref_Status_and_Stretch_The_Effect_of_Network_Stat_8d5e4b55e5.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3030/101301504": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3030/101301504",
+      "original_url": "https://doi.org/10.3030/101301504",
+      "title": "https://doi.org/10.3030/101301504",
+      "notes": [
+        "notes/crossref_https_doi_org_10_3030_101301504_2a7975d514.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.55776/esp1251426": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.55776/esp1251426",
+      "original_url": "https://doi.org/10.55776/esp1251426",
+      "title": "https://doi.org/10.55776/esp1251426",
+      "notes": [
+        "notes/crossref_https_doi_org_10_55776_esp1251426_04acd2be29.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110985": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110985",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110985",
+      "title": "Wettability Reversal of Oil-Wet Calcite by Nitrogen Nanobubbles: Experimental and Molecular Dynamics Simulation Study",
+      "notes": [
+        "notes/crossref_Wettability_Reversal_of_Oil-Wet_Calcite_by_Ni_23f03f9c81.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110988": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110988",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110988",
+      "title": "Octadecyltrimethylammonium Bromide Functionalized PP Membranes for Enhanced Bromine Absorption Performance",
+      "notes": [
+        "notes/crossref_Octadecyltrimethylammonium_Bromide_Functional_9f1b4f1ed5.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110984": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110984",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110984",
+      "title": "Experiment of energy barrier between micro-grooves on low surface tension and low temperature conditions",
+      "notes": [
+        "notes/crossref_Experiment_of_energy_barrier_between_micro-gr_ee5fdfd813.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010007/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010007/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010007/v2",
+      "title": "FoldX interface ΔΔG depends on which structure it starts from, and a learned predictor does not: a cautionary analysis on glutaryl-CoA dehydrogenase",
+      "notes": [
+        "notes/chemrxiv_FoldX_interface_G_depends_on_which_structure__5d13044207.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010224/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010224/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010224/v1",
+      "title": "Advancing Targeted Nanoparticle mRNA Delivery Using Machine Learning",
+      "notes": [
+        "notes/chemrxiv_Advancing_Targeted_Nanoparticle_mRNA_Delivery_f63035126b.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010212/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010212/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010212/v1",
+      "title": "FMS2Lib: A Machine Learning-Ready Tandem Mass Spectral Library for Nontargeted Analysis of Non-conventional PFAS",
+      "notes": [
+        "notes/chemrxiv_FMS2Lib_A_Machine_Learning-Ready_Tandem_Mass__457ae27a87.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010229/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010229/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010229/v1",
+      "title": "CAN it work? Using hydroxyethyl acrylate or methacrylate to turn epoxy-amine thermosets into covalent adaptable network materials.",
+      "notes": [
+        "notes/chemrxiv_CAN_it_work_Using_hydroxyethyl_acrylate_or_me_879f044db9.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010269/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010269/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010269/v1",
+      "title": "Commit: Automated Scale-Up Crystallisation DataFactory for model-based pharmaceutical process development: a data-driven, mechanistic and hybrid model case study",
+      "notes": [
+        "notes/chemrxiv_Commit_Automated_Scale-Up_Crystallisation_Dat_f9400c9655.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010254/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010254/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010254/v1",
+      "title": "UpKast: Method, Model, and Database for Large-Scale Cross-Solvent Determination of pKa Values",
+      "notes": [
+        "notes/chemrxiv_UpKast_Method_Model_and_Database_for_Large-Sc_ee73dfa5da.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010220/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010220/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010220/v1",
+      "title": "An alternative equation for effective nuclear charge that is applicable to all atoms",
+      "notes": [
+        "notes/chemrxiv_An_alternative_equation_for_effective_nuclear_668e4abcbd.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010221/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010221/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010221/v1",
+      "title": "Diverse Remote Difunctionalization of Enyne-type Propargylic Carbonates: Regio-, Chemo-, and Stereoselective Access to Highly Functionalized Multisubstituted 1,3-Dienes",
+      "notes": [
+        "notes/chemrxiv_Diverse_Remote_Difunctionalization_of_Enyne-t_d2d104792f.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010223/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010223/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010223/v1",
+      "title": "Resolving Month-Long Nanostructural Evolution in Degrading Anion Exchange Membranes",
+      "notes": [
+        "notes/chemrxiv_Resolving_Month-Long_Nanostructural_Evolution_bd6945bdec.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010086/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010086/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010086/v2",
+      "title": "Utilization of heuristic approaches and molecular modelling to visualise chemical reactivity in small student groups",
+      "notes": [
+        "notes/chemrxiv_Utilization_of_heuristic_approaches_and_molec_14c0952af5.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010275/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010275/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010275/v1",
+      "title": "Chromoselective Control for Aminoalkylation of CF3‑Alkenes through Low-Energy Photoredox Catalysis",
+      "notes": [
+        "notes/chemrxiv_Chromoselective_Control_for_Aminoalkylation_o_c6e4582fb9.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://github.com/zhangfeifan21/dmg-md": {
+      "type": "github",
+      "canonical_url": "https://github.com/zhangfeifan21/dmg-md",
+      "original_url": "https://github.com/zhangfeifan21/DMG-MD",
+      "title": "zhangfeifan21/DMG-MD",
+      "notes": [
+        "notes/github_zhangfeifan21_DMG-MD_a8a3b9eca3.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-12T06:44:55Z"
+    },
+    "https://github.com/t-0hmura/pdb2reaction": {
+      "type": "github",
+      "canonical_url": "https://github.com/t-0hmura/pdb2reaction",
+      "original_url": "https://github.com/t-0hmura/pdb2reaction",
+      "title": "t-0hmura/pdb2reaction",
+      "notes": [
+        "notes/github_t-0hmura_pdb2reaction_51ca0bf2c4.md"
+      ],
+      "added_at": "2026-10-12T12:41:12+00:00",
+      "last_requested_at": "2026-10-12T12:41:12+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-12T12:10:48Z"
     }
   }
 }
