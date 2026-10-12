@@ -1,7 +1,10 @@
 import unittest
 from datetime import datetime, timezone
-from unittest.mock import Mock, patch
+from unittest.mock import Mock, call, patch
 
+import requests
+
+from scripts import scan_providers as providers
 from scripts.scan_providers import search_profile
 
 NOW = datetime(2026, 10, 10, 12, tzinfo=timezone.utc)
@@ -110,6 +113,90 @@ class ScanProviderTests(unittest.TestCase):
             results = search_profile(profile, now=NOW)
         self.assertEqual([item["canonical_url"] for item in results], ["https://github.com/org/inside"])
         self.assertIn("pushed:>=2026-10-09T12:00:00Z", request.call_args.args[1]["q"])
+
+
+def _response(status=200, headers=None, text="", payload=None):
+    response = Mock(status_code=status, headers=headers or {}, text=text)
+    response.json.return_value = payload if payload is not None else {}
+    response.raise_for_status.side_effect = None if status < 400 else requests.HTTPError(f"{status} error")
+    return response
+
+
+class RequestResilienceTests(unittest.TestCase):
+    def setUp(self):
+        providers._last_request_at.clear()
+
+    def test_rate_limited_request_is_retried_after_retry_after_delay(self):
+        responses = [_response(429, {"Retry-After": "7"}), _response(200, payload={"ok": True})]
+        with patch("scripts.scan_providers.requests.get", side_effect=responses) as get, \
+                patch("scripts.scan_providers.time.sleep") as sleep:
+            result = providers._get_json("https://api.crossref.org/works", {})
+        self.assertEqual(result, {"ok": True})
+        self.assertEqual(get.call_count, 2)
+        self.assertIn(call(7.0), sleep.call_args_list)
+
+    def test_persistent_rate_limit_eventually_raises(self):
+        responses = [_response(429, {"Retry-After": "1"}) for _ in range(providers.MAX_ATTEMPTS)]
+        with patch("scripts.scan_providers.requests.get", side_effect=responses) as get, \
+                patch("scripts.scan_providers.time.sleep"):
+            with self.assertRaises(requests.HTTPError):
+                providers._get_json("https://api.crossref.org/works", {})
+        self.assertEqual(get.call_count, providers.MAX_ATTEMPTS)
+
+    def test_github_quota_403_is_retried_but_plain_403_is_not(self):
+        quota = _response(403, {"X-RateLimit-Remaining": "0"})
+        with patch("scripts.scan_providers.requests.get", side_effect=[quota, _response(200, payload={})]) as get, \
+                patch("scripts.scan_providers.time.sleep"):
+            providers._get_json("https://api.github.com/search/repositories", {})
+        self.assertEqual(get.call_count, 2)
+        with patch("scripts.scan_providers.requests.get", return_value=_response(403)) as get, \
+                patch("scripts.scan_providers.time.sleep"):
+            with self.assertRaises(requests.HTTPError):
+                providers._get_json("https://api.github.com/search/repositories", {})
+        self.assertEqual(get.call_count, 1)
+
+    def test_consecutive_arxiv_requests_are_spaced_at_least_three_seconds_apart(self):
+        clock = {"now": 100.0}
+        slept = []
+
+        def fake_sleep(seconds):
+            slept.append(seconds)
+            clock["now"] += seconds
+
+        with patch("scripts.scan_providers.requests.get", return_value=_response(200, text="<feed/>")), \
+                patch("scripts.scan_providers.time.monotonic", side_effect=lambda: clock["now"]), \
+                patch("scripts.scan_providers.time.sleep", side_effect=fake_sleep):
+            providers._get_text("https://export.arxiv.org/api/query", {})
+            providers._get_text("https://export.arxiv.org/api/query", {})
+        self.assertEqual(len(slept), 1)
+        self.assertGreaterEqual(slept[0], 3.0)
+
+    def test_github_token_is_sent_only_to_github(self):
+        with patch.dict("os.environ", {"GITHUB_TOKEN": "secret-token"}), \
+                patch("scripts.scan_providers.requests.get", return_value=_response(200, payload={})) as get, \
+                patch("scripts.scan_providers.time.sleep"):
+            providers._get_json("https://api.github.com/search/repositories", {})
+            providers._get_json("https://gitlab.com/api/v4/projects", {})
+        self.assertEqual(get.call_args_list[0].kwargs["headers"]["Authorization"], "Bearer secret-token")
+        self.assertNotIn("Authorization", get.call_args_list[1].kwargs["headers"])
+
+    def test_crossref_mailto_is_added_only_when_configured(self):
+        profile = {"provider": "crossref", "queries": ["catalysis"], "max_results": 3}
+        with patch("scripts.scan_providers._get_json", return_value={"message": {"items": []}}) as request:
+            with patch.dict("os.environ", {"CROSSREF_MAILTO": "owner@example.org"}):
+                search_profile(profile, now=NOW)
+            with patch.dict("os.environ", {}, clear=True):
+                search_profile(profile, now=NOW)
+        self.assertEqual(request.call_args_list[0].args[1]["mailto"], "owner@example.org")
+        self.assertNotIn("mailto", request.call_args_list[1].args[1])
+
+    def test_arxiv_error_entries_are_not_treated_as_papers(self):
+        feed = '''<feed xmlns="http://www.w3.org/2005/Atom"><entry>
+          <id>http://arxiv.org/api/errors#incorrect_id_format_for_1234</id><title>Error</title>
+          <summary>incorrect id format</summary><published>2026-10-10T11:00:00Z</published></entry></feed>'''
+        profile = {"provider": "arxiv", "queries": ["all:MLIP"], "max_results": 5}
+        with patch("scripts.scan_providers._get_text", return_value=feed):
+            self.assertEqual(search_profile(profile, now=NOW), [])
 
 
 if __name__ == "__main__":

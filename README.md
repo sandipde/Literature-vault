@@ -75,6 +75,10 @@ The hosted app is served from this repository's root on the `main` branch. To ve
 - **No note appears after submission:** check the repository's **Actions** tab for the issue workflow. Actions must be enabled and allowed to write contents and issues.
 - **Some metadata is missing:** the source may not expose that field through its public API. The original URL is still kept in the note.
 
+## Scanner Rate Limits
+
+The scanner spaces requests per host (arXiv at least three seconds apart, as its API terms ask) and retries `429`, `5xx` and quota-exhausted `403` responses up to three times, honouring `Retry-After`. The workflow passes its `GITHUB_TOKEN` so GitHub search uses the authenticated rate limit. To put Crossref and ChemRxiv lookups in Crossref's polite pool, add a repository variable named `CROSSREF_MAILTO` (Settings → Secrets and variables → Actions → Variables) holding a contact address. If any profile still fails, its error is shown as a warning on the scan step and the run is marked failed after successful results have been committed; the failed profile stays due and is retried on the next run.
+
 ## Run Tests Locally
 
 Install dependencies and run the offline regression suite:

@@ -34,7 +34,12 @@ jobs:
           python-version: "3.11"
       - run: pip install -r requirements.txt
       - name: Run due scan profiles
+        id: scan
         env:
+          # Authenticated GitHub search has a far higher rate limit than anonymous calls.
+          GITHUB_TOKEN: ${{ github.token }}
+          # Optional repository variable: a contact address puts Crossref requests in its polite pool.
+          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
           PROFILE_NAME: ${{ inputs.profile_name }}
           FORCE_SCAN: ${{ inputs.force }}
           MAX_RESULTS: ${{ inputs.max_results }}
@@ -53,3 +58,8 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+      - name: Fail if any scan profile failed
+        if: steps.scan.outputs.failed_profiles != '0'
+        run: |
+          echo "::error::${{ steps.scan.outputs.failed_profiles }} scan profile(s) failed; successful results were saved. See the warnings on the scan step."
+          exit 1

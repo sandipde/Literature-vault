@@ -1,4 +1,6 @@
 import math
+import os
+import time
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -10,17 +12,73 @@ from scripts import literature
 ATOM = "http://www.w3.org/2005/Atom"
 USER_AGENT = "LiteratureVault/1.0 (public metadata scan)"
 
+# Minimum seconds between requests to the same host. arXiv's API terms ask for at
+# most one request every three seconds; Crossref's shared pool throttles bursts.
+MIN_REQUEST_INTERVAL = {"export.arxiv.org": 3.0, "api.crossref.org": 1.0, "api.github.com": 2.0}
+RETRY_STATUSES = {429, 500, 502, 503, 504}
+MAX_ATTEMPTS = 3
+MAX_WAIT_SECONDS = 60
+_last_request_at = {}
+
+
+def _throttle(url):
+    host = urllib.parse.urlsplit(url).netloc
+    gap = MIN_REQUEST_INTERVAL.get(host, 0)
+    wait = _last_request_at.get(host, float("-inf")) + gap - time.monotonic()
+    if wait > 0:
+        time.sleep(wait)
+    _last_request_at[host] = time.monotonic()
+
+
+def _is_rate_limited(response):
+    if response.status_code in RETRY_STATUSES:
+        return True
+    # GitHub reports an exhausted search quota as 403 with no remaining requests.
+    return response.status_code == 403 and (
+        response.headers.get("Retry-After") or response.headers.get("X-RateLimit-Remaining") == "0"
+    )
+
+
+def _retry_delay(response, attempt):
+    try:
+        delay = float(response.headers.get("Retry-After", ""))
+    except ValueError:
+        delay = 5.0 * 2 ** (attempt - 1)
+    return max(1.0, min(delay, MAX_WAIT_SECONDS))
+
+
+def _request(url, params, headers):
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        _throttle(url)
+        try:
+            response = requests.get(url, params=params, timeout=30, headers=headers)
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == MAX_ATTEMPTS:
+                raise
+            time.sleep(5.0 * 2 ** (attempt - 1))
+            continue
+        if attempt < MAX_ATTEMPTS and _is_rate_limited(response):
+            time.sleep(_retry_delay(response, attempt))
+            continue
+        response.raise_for_status()
+        return response
+
+
+def _auth_headers(url):
+    # An optional token raises GitHub's search limit from 10 to 30 requests a minute.
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if token and urllib.parse.urlsplit(url).netloc == "api.github.com":
+        return {"Authorization": f"Bearer {token}"}
+    return {}
+
 
 def _get_json(url, params):
-    response = requests.get(url, params=params, timeout=30, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
-    response.raise_for_status()
-    return response.json()
+    headers = {"User-Agent": USER_AGENT, "Accept": "application/json", **_auth_headers(url)}
+    return _request(url, params, headers).json()
 
 
 def _get_text(url, params):
-    response = requests.get(url, params=params, timeout=30, headers={"User-Agent": USER_AGENT})
-    response.raise_for_status()
-    return response.text
+    return _request(url, params, {"User-Agent": USER_AGENT}).text
 
 
 def _parse_timestamp(value):
@@ -78,6 +136,9 @@ def _arxiv(profile, query):
     results = []
     for entry in root.findall(f"{{{ATOM}}}entry"):
         raw_url = (entry.findtext(f"{{{ATOM}}}id") or "").strip()
+        # arXiv reports query errors as a feed entry whose id is an /api/errors URL.
+        if "/abs/" not in raw_url:
+            continue
         arxiv_id = raw_url.split("/abs/")[-1].split("v")[0]
         if not arxiv_id:
             continue
@@ -108,6 +169,9 @@ def _crossref(profile, query):
     }
     if profile["provider"] == "chemrxiv":
         params["filter"] = f"prefix:10.26434,{params['filter']}"
+    mailto = os.environ.get("CROSSREF_MAILTO", "").strip()
+    if mailto:
+        params["mailto"] = mailto  # Crossref's "polite pool" has much more generous rate limits.
     data = _get_json("https://api.crossref.org/works", params).get("message", {}).get("items", [])
     results = []
     for item in data:
