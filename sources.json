@@ -755,6 +755,136 @@
       "last_requested_at": "2026-10-12T22:32:33+00:00",
       "published_at": "",
       "updated_at": "2026-10-12T22:20:46Z"
+    },
+    "https://doi.org/10.3997/2214-4609.202673020": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3997/2214-4609.202673020",
+      "original_url": "https://doi.org/10.3997/2214-4609.202673020",
+      "title": "Science vs Results - What We Learned from the Latest Drilling Campaigns at Maui Gas Field",
+      "notes": [
+        "notes/crossref_Science_vs_Results_-_What_We_Learned_from_the_f42f3aa76a.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1097/01.ede.0001280472.52565.1f": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1097/01.ede.0001280472.52565.1f",
+      "original_url": "https://doi.org/10.1097/01.ede.0001280472.52565.1f",
+      "title": "Association Between Urban Greenness and Machine Learned Physical Activity Measures: A Cross-Sectional Study Using UK Biobank",
+      "notes": [
+        "notes/crossref_Association_Between_Urban_Greenness_and_Machi_31d3acb7cc.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3997/2214-4609.202673017": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3997/2214-4609.202673017",
+      "original_url": "https://doi.org/10.3997/2214-4609.202673017",
+      "title": "Machine Learning Eruption Forecasting at Tungurahua Volcano: Towards Effusive-Explosive Seismic Precursor Recognition",
+      "notes": [
+        "notes/crossref_Machine_Learning_Eruption_Forecasting_at_Tung_14079202ef.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.cpc.2026.110458": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.cpc.2026.110458",
+      "original_url": "https://doi.org/10.1016/j.cpc.2026.110458",
+      "title": "Active learning of collinear magnetic Moment Tensor Potentials using the spin-MLIP package from soft-constrained spin-polarized DFT calculations: a case study of Fe–Pd",
+      "notes": [
+        "notes/crossref_Active_learning_of_collinear_magnetic_Moment__0a768a209c.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3390/ma19204298": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3390/ma19204298",
+      "original_url": "https://doi.org/10.3390/ma19204298",
+      "title": "A Dual-Medium Model-Based Method for Rapid Thermal Performance Analysis of TPMS Porous Heat Exchange Structures",
+      "notes": [
+        "notes/crossref_A_Dual-Medium_Model-Based_Method_for_Rapid_Th_48f2b178fa.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7602590": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7602590",
+      "original_url": "https://doi.org/10.2139/ssrn.7602590",
+      "title": "Rethinking Representativeness in Active Learning via Langevin Density Estimation",
+      "notes": [
+        "notes/crossref_Rethinking_Representativeness_in_Active_Learn_c3d1d2a186.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110950": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110950",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110950",
+      "title": "Shrimp-derived chitosan/activated carbon composites for methylene blue removal: effect of glutaraldehyde crosslinking",
+      "notes": [
+        "notes/crossref_Shrimp-derived_chitosan_activated_carbon_comp_e6e88ca580.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010295/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010295/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010295/v1",
+      "title": "Prediction of MOF Adsorption Isotherms and High-Throughput Screening Using a Physics-Informed Membranes Graph Neural Network",
+      "notes": [
+        "notes/chemrxiv_Prediction_of_MOF_Adsorption_Isotherms_and_Hi_332e33e018.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://github.com/autoatml/autoplex": {
+      "type": "github",
+      "canonical_url": "https://github.com/autoatml/autoplex",
+      "original_url": "https://github.com/autoatml/autoplex",
+      "title": "autoatml/autoplex",
+      "notes": [
+        "notes/github_autoatml_autoplex_d4fd3b7f4a.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-12T14:37:50Z"
+    },
+    "https://github.com/filipekstrm/mlip_destillation_development": {
+      "type": "github",
+      "canonical_url": "https://github.com/filipekstrm/mlip_destillation_development",
+      "original_url": "https://github.com/filipekstrm/mlip_destillation_development",
+      "title": "filipekstrm/mlip_destillation_development",
+      "notes": [
+        "notes/github_filipekstrm_mlip_destillation_development_311bf78e5b.md"
+      ],
+      "added_at": "2026-10-12T23:25:53+00:00",
+      "last_requested_at": "2026-10-12T23:25:53+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-12T17:05:47Z"
     }
   }
 }
