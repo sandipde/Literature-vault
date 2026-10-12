@@ -742,6 +742,19 @@
       "last_requested_at": "2026-10-12T22:26:34+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://github.com/learningcircuit/local-deep-research": {
+      "type": "github",
+      "canonical_url": "https://github.com/learningcircuit/local-deep-research",
+      "original_url": "https://github.com/LearningCircuit/local-deep-research",
+      "title": "LearningCircuit/local-deep-research",
+      "notes": [
+        "notes/138_LearningCircuit_local-deep-research.md"
+      ],
+      "added_at": "2026-10-12T22:32:33+00:00",
+      "last_requested_at": "2026-10-12T22:32:33+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-12T22:20:46Z"
     }
   }
 }
