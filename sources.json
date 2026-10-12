@@ -729,6 +729,19 @@
       "last_requested_at": "2026-10-12T22:05:18+00:00",
       "published_at": "2026-10-01",
       "updated_at": ""
+    },
+    "https://appflowy.com": {
+      "type": "web",
+      "canonical_url": "https://appflowy.com",
+      "original_url": "https://appflowy.com/",
+      "title": "Bring projects, wikis, and teams together with AI",
+      "notes": [
+        "notes/137_Bring_projects_wikis_and_teams_together_with_AI.md"
+      ],
+      "added_at": "2026-10-12T22:26:34+00:00",
+      "last_requested_at": "2026-10-12T22:26:34+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
