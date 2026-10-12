@@ -30,6 +30,12 @@ To install the unpacked extension, open `chrome://extensions`, enable **Develope
 
 Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; combine multiple filters by type, provider, and status. Saved sources default to most recently requested and can also be sorted by added date, publication date, last provider update, or title. Scan activity sorts by run time. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.
 
+## Personal Notes
+
+Open a saved note from **Results** to add your own rating (1-5), priority, status, tags, and comments. **Save personal notes** submits a `[Note metadata]` Issue; the page never writes repository files itself. The **Update Note Metadata** workflow applies it only when the author is a repository owner, member, or collaborator and the request passes validation (a note under `notes/`, rating 0-5, a known priority and status, at most 20 tags of 40 characters, comments up to 5,000 characters). It stores the values as `user_*` fields in the note's frontmatter, rewrites the note's `## Personal notes` section, comments with the outcome, and closes the Issue. Changes usually appear within a minute; reload the note to see them. The same browser token as for captures is enough: **Issues: read and write** and **Contents: read-only**.
+
+The note and your comments are committed to the repository and the Issue stays in its history, so treat them as visible to anyone who can see the repository. The issue-ingest workflow ignores these requests, and the Results page does not list them as pending references.
+
 ## Supported Sources
 
 | Source | Information collected when available |
@@ -73,6 +79,7 @@ The hosted app is served from this repository's root on the `main` branch. To ve
 - **Duplicate check unavailable:** confirm the token has repository **Contents: read-only** permission. Submission can continue; Actions will check again.
 - **Issue submission fails:** confirm the token is valid and has **Issues: read and write** permission for the configured repository.
 - **No note appears after submission:** check the repository's **Actions** tab for the issue workflow. Actions must be enabled and allowed to write contents and issues.
+- **Personal notes show "Save failed":** the page reports what GitHub returned. A 403 or 404 means the token cannot create Issues in the repository (it needs **Issues: read and write**); a 401 means the token is invalid or expired. If the request is submitted but the note does not change, open the Issue to read the workflow's comment, and check that the **Update Note Metadata** workflow is enabled in the **Actions** tab.
 - **Some metadata is missing:** the source may not expose that field through its public API. The original URL is still kept in the note.
 
 ## Scanner Rate Limits

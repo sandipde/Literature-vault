@@ -483,6 +483,11 @@
       margin-top: 0.5rem;
       min-height: 38px;
     }
+    .note-reader-save-status, .note-reader-save-error {
+      margin: 0.6rem 0 0;
+      font-size: 0.9rem;
+    }
+    .note-reader-save-error { color: #b42318; }
     @keyframes arrive { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
     @media (max-width: 760px) {
       .site-shell { width: min(100% - 32px, 1080px); padding-top: 22px; }
@@ -768,8 +773,19 @@
       const statusMatch = yaml.match(/^user_status:\s*(.+)$/m);
 
       const rating = ratingMatch ? ratingMatch[1].trim().replace(/['"]/g, '') : '';
+      // Notes updated by the metadata workflow store tags and comments as JSON values (valid YAML);
+      // older notes may still use YAML block lists and block scalars, handled below.
+      const jsonValue = fieldName => {
+        const line = yaml.match(new RegExp(`^${fieldName}:[ \\t]*(.+)$`, 'm'));
+        if (!line) return undefined;
+        try { return JSON.parse(line[1]); } catch { return undefined; }
+      };
+      const jsonTags = jsonValue('user_tags');
+      const jsonComments = jsonValue('user_comments');
       let tags = [];
-      if (tagsMatch) {
+      if (Array.isArray(jsonTags)) {
+        tags = jsonTags.map(tag => String(tag));
+      } else if (tagsMatch) {
         const block = tagsMatch[1] || tagsMatch[0].replace(/^user_tags:\s*\[|\]\s*$/g, '');
         if (block.includes('-')) {
           tags = block.split(/\n/).map(line => line.replace(/^-\s*/, '').trim()).filter(Boolean);
@@ -777,45 +793,16 @@
           tags = block.split(',').map(tag => tag.trim()).filter(Boolean);
         }
       }
-      const comments = commentsMatch ? commentsMatch[1].replace(/^\s{2}/gm, '').trim() : '';
+      const comments = typeof jsonComments === 'string'
+        ? jsonComments
+        : (commentsMatch ? commentsMatch[1].replace(/^\s{2}/gm, '').trim() : '');
       return {
         tags,
-        rating,
+        rating: rating === '0' ? '' : rating,
         comments,
         priority: priorityMatch ? priorityMatch[1].trim().replace(/['"]/g, '') : '',
         status: statusMatch ? statusMatch[1].trim().replace(/['"]/g, '') : ''
       };
-    }
-
-    function removeYamlField(frontmatterText, fieldName) {
-      const lines = frontmatterText.split(/\r?\n/);
-      const start = lines.findIndex(line => line.startsWith(`${fieldName}:`));
-      if (start === -1) return frontmatterText;
-      let end = start + 1;
-      while (end < lines.length) {
-        const nextLine = lines[end];
-        if (!nextLine || nextLine.startsWith(' ') || nextLine.startsWith('-')) {
-          end += 1;
-          continue;
-        }
-        break;
-      }
-      return lines.slice(0, start).concat(lines.slice(end)).join('\n');
-    }
-
-    function buildYamlBlock(fieldName, value) {
-      if (fieldName === 'user_tags') {
-        if (!Array.isArray(value) || !value.length) return 'user_tags: []';
-        return ['user_tags:','', ...value.map(tag => `  - ${tag}`)].join('\n');
-      }
-      if (fieldName === 'user_comments') {
-        if (!value || !String(value).trim()) return 'user_comments: ""';
-        const lines = String(value).split(/\r?\n/);
-        return ['user_comments: |', ...lines.map(line => `  ${line}`)].join('\n');
-      }
-      if (fieldName === 'user_priority') return `user_priority: ${String(value || '').trim() || 'normal'}`;
-      if (fieldName === 'user_status') return `user_status: ${String(value || '').trim() || 'to-read'}`;
-      return `user_rating: ${Number(value) || 0}`;
     }
 
     async function loadPersonalMeta(notePath) {
@@ -864,69 +851,41 @@
       });
     }
 
-    function updateNoteMetadataFile(notePath, { tags, rating, comments, priority, status }) {
+    function describeIssueError(status, owner, repo) {
+      if (status === 401) return 'GitHub rejected the saved token. Check that it is valid and has not expired, then save it again in Settings.';
+      if (status === 403 || status === 404) return `The saved token cannot create Issues in ${owner}/${repo}. Give it Issues: read and write access to that repository.`;
+      if (status === 410) return `Issues are disabled for ${owner}/${repo}. Enable them in the repository settings.`;
+      if (status === 422) return 'GitHub rejected the request. Try again, and shorten the comments if they are very long.';
+      return `Unable to submit the note update (${status}).`;
+    }
+
+    // The token only has Issues write access, so a note update is submitted as a marked Issue.
+    // The "Update Note Metadata" workflow validates it and commits the change to the note.
+    async function updateNoteMetadataFile(notePath, { tags, rating, comments, priority, status }) {
       const owner = localStorage.getItem('gh_owner');
       const repo = localStorage.getItem('gh_repo');
       const token = localStorage.getItem('gh_token');
-      const endpoint = `https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(notePath).replace(/%2F/g, '/')}?ref=main&_=${Date.now()}`;
-      return fetch(endpoint, { headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' } })
-        .then(response => {
-          if (!response.ok) throw new Error(`Unable to load note (${response.status})`);
-          return response.json();
-        })
-        .then(data => {
-          const text = atob(data.content.replace(/\n/g, ''));
-          const frontmatterMatch = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
-          let frontmatter = frontmatterMatch ? frontmatterMatch[1].trim() : '';
-          let body = frontmatterMatch ? text.slice(frontmatterMatch[0].length) : text;
-
-          const fields = ['user_tags', 'user_rating', 'user_comments', 'user_priority', 'user_status'];
-          fields.forEach(field => {
-            frontmatter = removeYamlField(frontmatter, field);
-          });
-
-          const blocks = [
-            buildYamlBlock('user_rating', rating || 0),
-            buildYamlBlock('user_priority', priority || 'normal'),
-            buildYamlBlock('user_status', status || 'to-read'),
-            buildYamlBlock('user_tags', Array.isArray(tags) ? tags : String(tags || '').split(',').map(tag => tag.trim()).filter(Boolean)),
-            buildYamlBlock('user_comments', comments || '')
-          ];
-          frontmatter = frontmatter.trim();
-          if (frontmatter) frontmatter = `${frontmatter}\n${blocks.join('\n')}\n`;
-          else frontmatter = blocks.join('\n');
-
-          const personalSection = [
-            '## Personal notes',
-            '',
-            `- **Rating:** ${rating ? `${rating}/5` : 'Not rated'}`,
-            `- **Priority:** ${priority || 'normal'}`,
-            `- **Status:** ${status || 'to-read'}`,
-            `- **Tags:** ${Array.isArray(tags) && tags.length ? tags.join(', ') : 'None'}`,
-            '',
-            comments ? `- **Comments:** ${comments}` : '- **Comments:** None',
-            ''
-          ].join('\n');
-
-          const noteBody = body.includes('## Personal notes')
-            ? body.replace(/## Personal notes[\s\S]*$/m, personalSection)
-            : `${body.trim()}\n\n${personalSection}`;
-
-          const nextContent = `---\n${frontmatter}\n---\n${noteBody.trim()}\n`;
-          return fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(notePath).replace(/%2F/g, '/')}`, {
-            method: 'PUT',
-            headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              message: `Update personal metadata for ${notePath}`,
-              sha: data.sha,
-              content: btoa(unescape(encodeURIComponent(nextContent)))
-            })
-          });
-        })
-        .then(response => {
-          if (!response.ok) throw new Error(`Unable to save note metadata (${response.status})`);
-          return response.json();
-        });
+      if (!owner || !repo || !token) throw new Error('Save the repository and token in Settings first.');
+      const payload = {
+        version: 1,
+        note: notePath,
+        rating: Number(rating) || 0,
+        priority: priority || 'normal',
+        status: status || 'to-read',
+        tags: Array.isArray(tags) ? tags : [],
+        comments: comments || ''
+      };
+      const json = JSON.stringify(payload, null, 2);
+      if (json.length > 20000) throw new Error('The personal notes are too long to submit (20 KB limit).');
+      const fence = String.fromCharCode(96).repeat(3);
+      const body = `<!-- literature-vault:note-metadata:v1 -->\n\nSubmitted from Literature Vault Personal Notes.\n\n${fence}json\n${json}\n${fence}\n`;
+      const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues`, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title: `[Note metadata] ${String(notePath).split('/').pop()}`, body })
+      });
+      if (!response.ok) throw new Error(describeIssueError(response.status, owner, repo));
+      return response.json();
     }
 
     function addPersonalMetadataEditor(notePath, title, markdownText) {
@@ -1002,26 +961,42 @@
       const saveButton = document.createElement('button');
       saveButton.type = 'button';
       saveButton.textContent = 'Save personal notes';
+      const showSaveMessage = (text, isError, link) => {
+        editor.querySelectorAll('.note-reader-save-error, .note-reader-save-status').forEach(element => element.remove());
+        const message = document.createElement('p');
+        message.className = isError ? 'note-reader-save-error' : 'note-reader-save-status';
+        message.textContent = text;
+        if (link) {
+          const anchor = document.createElement('a');
+          anchor.href = link.href;
+          anchor.target = '_blank';
+          anchor.rel = 'noopener';
+          anchor.textContent = link.label;
+          message.append(' ', anchor);
+        }
+        editor.append(message);
+      };
       saveButton.addEventListener('click', async () => {
         saveButton.disabled = true;
-        saveButton.textContent = 'Saving...';
+        saveButton.textContent = 'Submitting...';
         try {
           const nextTags = tagsInput.value.split(',').map(tag => tag.trim()).filter(Boolean);
           const nextRating = Number(ratingInput.value || 0);
           const nextComments = commentsInput.value.trim();
-          await updateNoteMetadataFile(notePath, {
+          const result = await updateNoteMetadataFile(notePath, {
             tags: nextTags,
-            rating: nextRating > 0 && nextRating <= 5 ? String(nextRating) : '',
+            rating: nextRating >= 1 && nextRating <= 5 ? Math.round(nextRating) : 0,
             comments: nextComments,
             priority: prioritySelect.value,
             status: statusSelect.value
           });
-          saveButton.textContent = 'Saved';
-          setTimeout(() => { saveButton.textContent = 'Save personal notes'; saveButton.disabled = false; }, 1200);
+          saveButton.textContent = 'Submitted';
+          showSaveMessage(`Update #${result.number} submitted. The note is updated by a workflow, so changes appear in about a minute.`, false, { href: result.html_url, label: 'View request' });
+          setTimeout(() => { saveButton.textContent = 'Save personal notes'; saveButton.disabled = false; }, 1500);
         } catch (error) {
           saveButton.textContent = 'Save failed';
+          showSaveMessage(error.message, true);
           setTimeout(() => { saveButton.textContent = 'Save personal notes'; saveButton.disabled = false; }, 1600);
-          noteReaderContent.insertAdjacentHTML('beforeend', `<p class="note-reader-save-error">${escapeHtml(error.message)}</p>`);
         }
       });
       editor.append(saveButton);
@@ -1193,6 +1168,9 @@
       renderResults();
     }
 
+    // Issues created by the app itself (settings and note updates) are not references.
+    const INTERNAL_ISSUE_MARKERS = ['<!-- literature-vault:scan-settings:v1 -->', '<!-- literature-vault:note-metadata:v1 -->'];
+
     async function loadResults() {
       const owner = localStorage.getItem('gh_owner');
       const repo = localStorage.getItem('gh_repo');
@@ -1224,7 +1202,7 @@
           updatedAt: record.updated_at || ''
         })).sort((first, second) => first.title.localeCompare(second.title));
 
-        pendingResults = (issues || []).filter(issue => !issue.pull_request).map(issue => {
+        pendingResults = (issues || []).filter(issue => !issue.pull_request && !INTERNAL_ISSUE_MARKERS.some(marker => (issue.body || '').includes(marker))).map(issue => {
           const url = extractSourceUrl(issue.body || '');
           if (!url) return null;
           const identity = sourceIdentity(url);
