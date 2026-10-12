@@ -1,6 +1,7 @@
 import hashlib
 import argparse
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -152,6 +153,14 @@ def main():
     print(f"Completed profiles: {len(result['completed'])}; notes added: {len(result['added_notes'])}; profile failures: {len(result['failed'])}")
     for profile in result["profile_runs"]:
         print(f"{profile['provider']} / {profile['name']}: {profile['status']} ({profile.get('notes_added', 0)} notes)")
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        for profile_id, error in result["failed"].items():
+            message = " ".join(f"{profile_id}: {error}".split())
+            print(f"::warning title=Scan profile failed::{message}")
+    output_path = os.environ.get("GITHUB_OUTPUT")
+    if output_path:
+        with open(output_path, "a", encoding="utf-8") as output:
+            output.write(f"failed_profiles={len(result['failed'])}\n")
     return result
 
 
