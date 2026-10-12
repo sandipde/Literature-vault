@@ -72,7 +72,7 @@ Scans use provider APIs (arXiv Atom, Crossref including the ChemRxiv DOI prefix,
 
 ## GitHub Pages
 
-The hosted app is served from this repository's root on the `main` branch. To verify or change its publishing settings, open **Settings → Pages** and select **Deploy from a branch**, branch `main`, folder `/(root)`. The expected site address is [https://sandipde.github.io/Literature-vault/](https://sandipde.github.io/Literature-vault/).
+The hosted app is published by the **Deploy Pages** workflow, which copies only the site's static files (`index.html`, `sw.js`, `manifest.json`, and the icons) and runs when one of them changes, not for every captured note or scan commit. In **Settings → Pages**, set **Source** to **GitHub Actions**. To redeploy without changing a file, run **Deploy Pages** from the **Actions** tab. Notes are not published on the site; the app links to them on GitHub. The expected site address is [https://sandipde.github.io/Literature-vault/](https://sandipde.github.io/Literature-vault/).
 
 ## Troubleshooting
 
