@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   process:
-    if: ${{ !contains(github.event.issue.body, '<!-- literature-vault:scan-settings:v1 -->') }}
+    if: ${{ !contains(github.event.issue.body, '<!-- literature-vault:scan-settings:v1 -->') && !contains(github.event.issue.body, '<!-- literature-vault:note-metadata:v1 -->') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write

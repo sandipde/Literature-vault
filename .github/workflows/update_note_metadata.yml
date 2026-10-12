@@ -1,0 +1,59 @@
+name: Update Note Metadata
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: literature-vault-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: ${{ contains(github.event.issue.body, '<!-- literature-vault:note-metadata:v1 -->') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate and apply note metadata
+        id: metadata
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR_ASSOCIATION: ${{ github.event.issue.author_association }}
+        run: python -m scripts.update_note_metadata
+
+      - name: Commit updated note
+        if: steps.metadata.outputs.result == 'applied'
+        env:
+          ISSUE_NUM: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add notes/
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: update personal notes from #${ISSUE_NUM}"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Report and close request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUM: ${{ github.event.issue.number }}
+          RESULT_MESSAGE: ${{ steps.metadata.outputs.message }}
+        run: |
+          gh issue comment "${ISSUE_NUM}" --body "${RESULT_MESSAGE}"
+          gh issue close "${ISSUE_NUM}"
