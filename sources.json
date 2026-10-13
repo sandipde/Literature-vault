@@ -1080,6 +1080,19 @@
       "last_requested_at": "2026-10-13T18:05:22+00:00",
       "published_at": "2021-09-20",
       "updated_at": ""
+    },
+    "https://pubs.acs.org/jctcce/article/22/9/4787/5087447/qNEP-A-Highly-Efficient-Neuroevolution-Potential": {
+      "type": "web",
+      "canonical_url": "https://pubs.acs.org/jctcce/article/22/9/4787/5087447/qNEP-A-Highly-Efficient-Neuroevolution-Potential",
+      "original_url": "https://pubs.acs.org/jctcce/article/22/9/4787/5087447/qNEP-A-Highly-Efficient-Neuroevolution-Potential",
+      "title": "qNEP: A Highly Efficient Neuroevolution Potential with Dynamic Charges for Large-Scale Atomistic Simulations",
+      "notes": [
+        "notes/140_qNEP_A_Highly_Efficient_Neuroevolution_Potential_w.md"
+      ],
+      "added_at": "2026-10-13T18:46:05+00:00",
+      "last_requested_at": "2026-10-13T18:46:05+00:00",
+      "published_at": "2026-05-12",
+      "updated_at": ""
     }
   }
 }
