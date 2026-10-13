@@ -1106,6 +1106,110 @@
       "last_requested_at": "2026-10-13T18:56:00+00:00",
       "published_at": "",
       "updated_at": "2026-10-12T15:02:12Z"
+    },
+    "https://doi.org/10.1021/acs.jctc.6c00579.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c00579.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c00579.s001",
+      "title": "Overcoming Sampling Limitations Using Machine-Learned Interatomic Potentials: The Case of Water-in-Salt Electrolytes",
+      "notes": [
+        "notes/crossref_Overcoming_Sampling_Limitations_Using_Machine_709a1ee7a8.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.chemmater.6c01051.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.chemmater.6c01051.s001",
+      "original_url": "https://doi.org/10.1021/acs.chemmater.6c01051.s001",
+      "title": "Machine Learning Interatomic Potentials for Modeling Solid-State Batteries",
+      "notes": [
+        "notes/crossref_Machine_Learning_Interatomic_Potentials_for_M_a7ed60c253.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15008812/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15008812/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15008812/v2",
+      "title": "Leveraging Machine Learning Interatomic Potentials for Fast and Accurate AMBER-Compatible Force Field Parameterization",
+      "notes": [
+        "notes/crossref_Leveraging_Machine_Learning_Interatomic_Poten_dd06c05f04.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c00756.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c00756.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c00756.s001",
+      "title": "Flexible On-the-Fly Active Learning for Molecular Infrared Spectra",
+      "notes": [
+        "notes/crossref_Flexible_On-the-Fly_Active_Learning_for_Molec_f92520b97e.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104390": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104390",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104390",
+      "title": "Electrostatics of a short open conducting cylindrical ring",
+      "notes": [
+        "notes/crossref_Electrostatics_of_a_short_open_conducting_cyl_dc226f5479.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110884": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110884",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110884",
+      "title": "Editorial Board",
+      "notes": [
+        "notes/crossref_Editorial_Board_2b209405a3.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010372/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010372/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010372/v1",
+      "title": "NEBwalk: A transparent and calculator-agnostic framework for reproducible nudged elastic band workflows with machine-learned potentials and firstprinciples calculators",
+      "notes": [
+        "notes/chemrxiv_NEBwalk_A_transparent_and_calculator-agnostic_48e20ec8ae.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010374/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010374/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010374/v1",
+      "title": "Modelling the Temperature Dependence of Activity Coefficients for Mixture Adsorption in Microporous Materials",
+      "notes": [
+        "notes/chemrxiv_Modelling_the_Temperature_Dependence_of_Activ_2dd3def57c.md"
+      ],
+      "added_at": "2026-10-13T21:42:05+00:00",
+      "last_requested_at": "2026-10-13T21:42:05+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
     }
   }
 }
