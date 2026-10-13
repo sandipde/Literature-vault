@@ -1067,6 +1067,19 @@
       "last_requested_at": "2026-10-13T12:25:46+00:00",
       "published_at": "",
       "updated_at": "2026-10-13T03:54:17Z"
+    },
+    "https://doi.org/10.1103/physrevb.104.104309": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/physrevb.104.104309",
+      "original_url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.104309",
+      "title": "Neuroevolution machine learning potentials: Combining high accuracy and low cost in atomistic simulations and application to heat transport",
+      "notes": [
+        "notes/139_Neuroevolution_machine_learning_potentials_Combini.md"
+      ],
+      "added_at": "2026-10-13T18:05:22+00:00",
+      "last_requested_at": "2026-10-13T18:05:22+00:00",
+      "published_at": "2021-09-20",
+      "updated_at": ""
     }
   }
 }
