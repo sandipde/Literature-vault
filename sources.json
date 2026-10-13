@@ -885,6 +885,188 @@
       "last_requested_at": "2026-10-12T23:25:53+00:00",
       "published_at": "",
       "updated_at": "2026-10-12T17:05:47Z"
+    },
+    "https://doi.org/10.26434/chemrxiv.15010329/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010329/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010329/v1",
+      "title": "Certifying the Kinetics of Machine-Learned Interatomic Potentials from Single-Point Energies",
+      "notes": [
+        "notes/crossref_Certifying_the_Kinetics_of_Machine-Learned_In_7ac57f84bb.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acsomega.6c04842": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acsomega.6c04842",
+      "original_url": "https://doi.org/10.1021/acsomega.6c04842",
+      "title": "Neural Constrained Charge Equilibration for Extracting Charge Transport Parameters from Machine Learned Interatomic Potentials",
+      "notes": [
+        "notes/crossref_Neural_Constrained_Charge_Equilibration_for_E_36bdf5d69e.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.24200/jonra.2026.2052.1242": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.24200/jonra.2026.2052.1242",
+      "original_url": "https://doi.org/10.24200/jonra.2026.2052.1242",
+      "title": "Exchange–Correlation Functional Screening and Development of a High Dimensional Neural Network Interatomic Potential for UO2",
+      "notes": [
+        "notes/crossref_Exchange_Correlation_Functional_Screening_and_e13a86a412.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2027-02-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1080/15512169.2026.2740814": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1080/15512169.2026.2740814",
+      "original_url": "https://doi.org/10.1080/15512169.2026.2740814",
+      "title": "Active Learning and Education 4.0: Insights from an International Relations Simulation",
+      "notes": [
+        "notes/crossref_Active_Learning_and_Education_4_0_Insights_fr_74215cda4d.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104389": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104389",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104389",
+      "title": "A comparison of collector plate materials for electrostatic capture of tire wear particles",
+      "notes": [
+        "notes/crossref_A_comparison_of_collector_plate_materials_for_424d3ebf0f.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110998": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110998",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110998",
+      "title": "Hierarchical photoacoustic catalyst by surface functionalizing carbon nitride with TiO2/CsPbBr3",
+      "notes": [
+        "notes/crossref_Hierarchical_photoacoustic_catalyst_by_surfac_20efe36263.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110992": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110992",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110992",
+      "title": "Atomic-Scale Insights into Corrosion-Resistant Stainless Steels via First-Principles Calculations: A Review",
+      "notes": [
+        "notes/crossref_Atomic-Scale_Insights_into_Corrosion-Resistan_4b23c9e0c9.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010362/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010362/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010362/v1",
+      "title": "Reaction-Level Machine Learning for Condition Optimization in Suzuki–Miyaura Cross-Coupling",
+      "notes": [
+        "notes/chemrxiv_Reaction-Level_Machine_Learning_for_Condition_7d06808010.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010344/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010344/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010344/v1",
+      "title": "A Cellular Sheaf Model for Aromaticity in Discrete Molecular Systems",
+      "notes": [
+        "notes/chemrxiv_A_Cellular_Sheaf_Model_for_Aromaticity_in_Dis_7aff7a9ed0.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010302/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010302/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010302/v1",
+      "title": "Machine learning prediction of bismuth recovery from literature data: publication-grouped validation, anchored calibration and chemical interpretation",
+      "notes": [
+        "notes/chemrxiv_Machine_learning_prediction_of_bismuth_recove_3244d7a182.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15005731/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15005731/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15005731/v2",
+      "title": "Realising a Poschenrieder dual-sector electrostatic analyser for charge-detection mass spectrometry",
+      "notes": [
+        "notes/chemrxiv_Realising_a_Poschenrieder_dual-sector_electro_c48b53d345.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010356/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010356/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010356/v1",
+      "title": "Molecular Control of Thermal Transport across PEG-Coated Gold–Water Interfaces",
+      "notes": [
+        "notes/chemrxiv_Molecular_Control_of_Thermal_Transport_across_3ee0ef2dd7.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://github.com/nickhine/lr_mlip_benchmark": {
+      "type": "github",
+      "canonical_url": "https://github.com/nickhine/lr_mlip_benchmark",
+      "original_url": "https://github.com/nickhine/lr_mlip_benchmark",
+      "title": "nickhine/lr_mlip_benchmark",
+      "notes": [
+        "notes/github_nickhine_lr_mlip_benchmark_6286124f1b.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-13T11:58:26Z"
+    },
+    "https://github.com/nusanyoma/quantum-mlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/nusanyoma/quantum-mlip",
+      "original_url": "https://github.com/nusanyoma/Quantum-MLIP",
+      "title": "nusanyoma/Quantum-MLIP",
+      "notes": [
+        "notes/github_nusanyoma_Quantum-MLIP_32dc301014.md"
+      ],
+      "added_at": "2026-10-13T12:25:46+00:00",
+      "last_requested_at": "2026-10-13T12:25:46+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-13T03:54:17Z"
     }
   }
 }
