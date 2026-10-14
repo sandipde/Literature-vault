@@ -1444,6 +1444,19 @@
       "last_requested_at": "2026-10-14T09:53:53+00:00",
       "published_at": "",
       "updated_at": "2026-10-14T01:31:29Z"
+    },
+    "https://doi.org/10.1103/physreva.111.032818": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/physreva.111.032818",
+      "original_url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.032818",
+      "title": "Repulsive interatomic potentials calculated at three levels of theory",
+      "notes": [
+        "notes/142_Repulsive_interatomic_potentials_calculated_at_thr.md"
+      ],
+      "added_at": "2026-10-14T14:39:08+00:00",
+      "last_requested_at": "2026-10-14T14:39:08+00:00",
+      "published_at": "2025-03-26",
+      "updated_at": ""
     }
   }
 }
