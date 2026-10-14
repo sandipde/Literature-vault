@@ -1210,6 +1210,240 @@
       "last_requested_at": "2026-10-13T21:42:05+00:00",
       "published_at": "2026-10-13",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.18393": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.18393",
+      "original_url": "https://arxiv.org/abs/2610.18393",
+      "title": "LunaTP: Enabling Efficient and Scalable Tensor Product for Equivariant MLIPs",
+      "notes": [
+        "notes/arxiv_2610.18393_LunaTP_Enabling_Efficient_and_Scalable_Tensor_bcb7924723.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.18854": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.18854",
+      "original_url": "https://arxiv.org/abs/2610.18854",
+      "title": "A hierarchy of exact lower bounds on the Laughlin spectral gap",
+      "notes": [
+        "notes/arxiv_2610.18854_A_hierarchy_of_exact_lower_bounds_on_the_Laug_bbdb573556.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.18853": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.18853",
+      "original_url": "https://arxiv.org/abs/2610.18853",
+      "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
+      "notes": [
+        "notes/arxiv_2610.18853_Two_Clocks_Why_Larger_Rollout_Batches_Learn_S_405cffb9d2.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.18851": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.18851",
+      "original_url": "https://arxiv.org/abs/2610.18851",
+      "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
+      "notes": [
+        "notes/arxiv_2610.18851_MFG_Multi-turn_Feedback_Guided_Molecular_Opti_f902be34b4.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.18511": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.18511",
+      "original_url": "https://arxiv.org/abs/2610.18511",
+      "title": "The Smart Buildings Challenge: Learning Foundation Models for Real-World Optimization at Scale",
+      "notes": [
+        "notes/arxiv_2610.18511_The_Smart_Buildings_Challenge_Learning_Founda_51f68644cb.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3847/1538-4357/aea098": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3847/1538-4357/aea098",
+      "original_url": "https://doi.org/10.3847/1538-4357/aea098",
+      "title": "A Universal Relation between Primordial Density-potential Cross-correlation Coefficient and Spin Factor Distribution",
+      "notes": [
+        "notes/crossref_A_Universal_Relation_between_Primordial_Densi_ce8443966c.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.4108/ew.14196": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.4108/ew.14196",
+      "original_url": "https://doi.org/10.4108/ew.14196",
+      "title": "Multiscale Digital-Twin Modeling of Energy-Storage Materials by Integrating First-Principles Calculations and Machine-Learning Interatomic Potentials",
+      "notes": [
+        "notes/crossref_Multiscale_Digital-Twin_Modeling_of_Energy-St_24f70f1976.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.est.6c07244.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.est.6c07244.s001",
+      "original_url": "https://doi.org/10.1021/acs.est.6c07244.s001",
+      "title": "Active Learning-Guided Optimization of Moisture Swing Adsorption for Direct Air Capture",
+      "notes": [
+        "notes/crossref_Active_Learning-Guided_Optimization_of_Moistu_4fd2e2c046.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110997": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110997",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110997",
+      "title": "Human Serum Albumin Adsorption on PVC and Polyurethane: Interfacial Affinity, Hydration, and Confinement Revealed by QCM-D and Coarse-Grained Molecular Dynamics",
+      "notes": [
+        "notes/crossref_Human_Serum_Albumin_Adsorption_on_PVC_and_Pol_0a8dfa2ac7.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010381/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010381/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010381/v1",
+      "title": "Gas-Conditioned Message Passing Graph Neural Network for Permeability Prediction in Polymeric Membranes",
+      "notes": [
+        "notes/chemrxiv_Gas-Conditioned_Message_Passing_Graph_Neural__8bcf5363a0.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010442/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010442/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010442/v1",
+      "title": "An Analytical Full-Dimensional Potential Energy Surface for the H + C3H8 Hydrogen Abstraction Reaction: Non-Equivalence of the Primary Hydrogens and Variational Transition State Theory Kinetics",
+      "notes": [
+        "notes/chemrxiv_An_Analytical_Full-Dimensional_Potential_Ener_80823b6754.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010454/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010454/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010454/v1",
+      "title": "Linear inductive bias boosts extrapolative molecular discovery by Bayesian active learning in the small-data limit",
+      "notes": [
+        "notes/chemrxiv_Linear_inductive_bias_boosts_extrapolative_mo_984502e901.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010439/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010439/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010439/v1",
+      "title": "Validation Design Governs the Apparent Predictive Performance of Machine Learning for PLGA Drug Release",
+      "notes": [
+        "notes/chemrxiv_Validation_Design_Governs_the_Apparent_Predic_d75a765ecf.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15004855/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15004855/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15004855/v2",
+      "title": "Efficient Long-Wavelength Through-Space Charge Transfer Thermally Activated Delayed Fluorescence in Conformationally Adaptive Emitters without Conformational Locking",
+      "notes": [
+        "notes/chemrxiv_Efficient_Long-Wavelength_Through-Space_Charg_5f77ab35b4.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010438/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010438/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010438/v1",
+      "title": "Electron Counting by Design: Antiferromagnetic Ribbons Double as Charge Reservoirs to Stabilize Hypervalent Selenium and Tellurium Chains",
+      "notes": [
+        "notes/chemrxiv_Electron_Counting_by_Design_Antiferromagnetic_d0d90ab645.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010463/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010463/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010463/v1",
+      "title": "Charge Donated by the Framework, Reactivity Expressed at the Metal: Tetrathiafulvalene-Programmed Nitrate Reduction to Ammonia",
+      "notes": [
+        "notes/chemrxiv_Charge_Donated_by_the_Framework_Reactivity_Ex_b5ca6a7556.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010363/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010363/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010363/v1",
+      "title": "Transforming Unidirectional CO2 to CO Reduction Catalysis into a Bidirectional One via Rational Ligand Engineering",
+      "notes": [
+        "notes/chemrxiv_Transforming_Unidirectional_CO2_to_CO_Reducti_fb682c784c.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://github.com/pillowsoprano/mlip-kinetics-energy-errors": {
+      "type": "github",
+      "canonical_url": "https://github.com/pillowsoprano/mlip-kinetics-energy-errors",
+      "original_url": "https://github.com/PillowSoprano/mlip-kinetics-energy-errors",
+      "title": "PillowSoprano/mlip-kinetics-energy-errors",
+      "notes": [
+        "notes/github_PillowSoprano_mlip-kinetics-energy-errors_81d5fa8306.md"
+      ],
+      "added_at": "2026-10-14T09:53:53+00:00",
+      "last_requested_at": "2026-10-14T09:53:53+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-14T01:31:29Z"
     }
   }
 }
