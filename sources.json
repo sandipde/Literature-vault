@@ -1457,6 +1457,97 @@
       "last_requested_at": "2026-10-14T14:39:08+00:00",
       "published_at": "2025-03-26",
       "updated_at": ""
+    },
+    "https://doi.org/10.2174/0115734099527526261007151436": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2174/0115734099527526261007151436",
+      "original_url": "https://doi.org/10.2174/0115734099527526261007151436",
+      "title": "NNGeoGVS: A Unified Equivariant Graph Neural Network Framework for Integrated Structure and Ligand-based Virtual Screening",
+      "notes": [
+        "notes/crossref_NNGeoGVS_A_Unified_Equivariant_Graph_Neural_N_b0c2e4f5b3.md"
+      ],
+      "added_at": "2026-10-14T20:24:05+00:00",
+      "last_requested_at": "2026-10-14T20:24:05+00:00",
+      "published_at": "2026-10-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104388": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104388",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104388",
+      "title": "A geometric decomposition of the Coulomb integral for uniform planar objects",
+      "notes": [
+        "notes/crossref_A_geometric_decomposition_of_the_Coulomb_inte_4ece5bfa6a.md"
+      ],
+      "added_at": "2026-10-14T20:24:05+00:00",
+      "last_requested_at": "2026-10-14T20:24:05+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111003": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111003",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111003",
+      "title": "TiO₂ Modified Bionic Slippery Liquid-Infused Microstructure Surfaces for Enhanced Drag Reduction, Anti-Icing and Anti-Biofouling Performance",
+      "notes": [
+        "notes/crossref_TiO_Modified_Bionic_Slippery_Liquid-Infused_M_d641f12fe6.md"
+      ],
+      "added_at": "2026-10-14T20:24:05+00:00",
+      "last_requested_at": "2026-10-14T20:24:05+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111006": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111006",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111006",
+      "title": "Influence of PyC interphase thickness on the mechanical properties of Cf/Al composites",
+      "notes": [
+        "notes/crossref_Influence_of_PyC_interphase_thickness_on_the__2d024fcc9d.md"
+      ],
+      "added_at": "2026-10-14T20:24:05+00:00",
+      "last_requested_at": "2026-10-14T20:24:05+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010470/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010470/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010470/v1",
+      "title": "Investigating the Antioxidant Potential of Annona muricata Leaves- An in silico Assisted in vitro Approach",
+      "notes": [
+        "notes/chemrxiv_Investigating_the_Antioxidant_Potential_of_An_806a0fdd40.md"
+      ],
+      "added_at": "2026-10-14T20:24:05+00:00",
+      "last_requested_at": "2026-10-14T20:24:05+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010469/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010469/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010469/v1",
+      "title": "Multiscale modelling of acrylate networks",
+      "notes": [
+        "notes/chemrxiv_Multiscale_modelling_of_acrylate_networks_03c4f20145.md"
+      ],
+      "added_at": "2026-10-14T20:24:05+00:00",
+      "last_requested_at": "2026-10-14T20:24:05+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://github.com/tobiasmarek/mlip-cuby-interface": {
+      "type": "github",
+      "canonical_url": "https://github.com/tobiasmarek/mlip-cuby-interface",
+      "original_url": "https://github.com/tobiasmarek/mlip-cuby-interface",
+      "title": "tobiasmarek/mlip-cuby-interface",
+      "notes": [
+        "notes/github_tobiasmarek_mlip-cuby-interface_5d939893ea.md"
+      ],
+      "added_at": "2026-10-14T20:24:05+00:00",
+      "last_requested_at": "2026-10-14T20:24:05+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-14T16:51:35Z"
     }
   }
 }
