@@ -1873,6 +1873,19 @@
       "last_requested_at": "2026-10-15T18:31:56+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://huggingface.co/collections/meta-models": {
+      "type": "huggingface_model",
+      "canonical_url": "https://huggingface.co/collections/meta-models",
+      "original_url": "https://huggingface.co/collections/meta-models/muse-spark-open",
+      "title": "Muse Spark Open - a meta-models Collection",
+      "notes": [
+        "notes/148_Muse_Spark_Open_-_a_meta-models_Collection.md"
+      ],
+      "added_at": "2026-10-15T18:35:19+00:00",
+      "last_requested_at": "2026-10-15T18:35:19+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
