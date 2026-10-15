@@ -1886,6 +1886,162 @@
       "last_requested_at": "2026-10-15T18:35:19+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7615936": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7615936",
+      "original_url": "https://doi.org/10.2139/ssrn.7615936",
+      "title": "ONRT Hull–Propeller–Rudder Interaction using Machine-Learned Actuator Line Propeller Model",
+      "notes": [
+        "notes/crossref_ONRT_Hull_Propeller_Rudder_Interaction_using__db2aae0bea.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.cej.2026.183130": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.cej.2026.183130",
+      "original_url": "https://doi.org/10.1016/j.cej.2026.183130",
+      "title": "Unveiling the atomic scale synthesis dynamics of lithium thiophosphate electrolytes via machine learning interatomic potentials",
+      "notes": [
+        "notes/crossref_Unveiling_the_atomic_scale_synthesis_dynamics_1a32be9291.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s10791-026-10593-0": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s10791-026-10593-0",
+      "original_url": "https://doi.org/10.1007/s10791-026-10593-0",
+      "title": "An explainable machine learning framework with trend-sensitive features for predicting high-potential merchants in mobile payment ecosystems",
+      "notes": [
+        "notes/crossref_An_explainable_machine_learning_framework_wit_ebbcde1889.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.55730/1300-0101.2944": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.55730/1300-0101.2944",
+      "original_url": "https://doi.org/10.55730/1300-0101.2944",
+      "title": "Stress–strain behavior of the high-entropy Cantor alloy CrMnFeCoNi using a deep neural network potential",
+      "notes": [
+        "notes/crossref_Stress_strain_behavior_of_the_high-entropy_Ca_9c9efb6e30.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1103/jljs-ldv5": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/jljs-ldv5",
+      "original_url": "https://doi.org/10.1103/jljs-ldv5",
+      "title": "Development and applications of an extended modified embedded-atom method interatomic potential for binary Ni-V alloys",
+      "notes": [
+        "notes/crossref_Development_and_applications_of_an_extended_m_91b15f5a40.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.66031/smarth.v2i2.715": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.66031/smarth.v2i2.715",
+      "original_url": "https://doi.org/10.66031/smarth.v2i2.715",
+      "title": "Active Learning: A Strategy to Improve the Quality of Mathematics Learning",
+      "notes": [
+        "notes/crossref_Active_Learning_A_Strategy_to_Improve_the_Qua_18ebf29ffc.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7615933": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7615933",
+      "original_url": "https://doi.org/10.2139/ssrn.7615933",
+      "title": "A MACHINE-LEARNING BENCHMARK FOR SOLAR FLARE FORECASTING USING SDO/HMI ACTIVE-REGION PARAMETERS",
+      "notes": [
+        "notes/crossref_A_MACHINE-LEARNING_BENCHMARK_FOR_SOLAR_FLARE__d58d58d422.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111028": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111028",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111028",
+      "title": "Retraction notice to \"Synthesis of thermochromic CdHgI4 thin film: Insight into the thickness-dependent structural, morphological, linear, and nonlinear spectroscopic properties\" [Surfaces and Interfaces 51 (2024) 104660]",
+      "notes": [
+        "notes/crossref_Retraction_notice_to_Synthesis_of_thermochrom_a8596fde41.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110990": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110990",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110990",
+      "title": "Pioneering Hydrothermal Functionalization of Polyester Textiles with Ti3AlC2 MAX Phase for Next-Generation Wearable Technologies",
+      "notes": [
+        "notes/crossref_Pioneering_Hydrothermal_Functionalization_of__ad6761d19a.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15009102/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15009102/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15009102/v2",
+      "title": "MaRs: A Universal Python Library for Steady-State and Time-Resolved EPR Simulations",
+      "notes": [
+        "notes/chemrxiv_MaRs_A_Universal_Python_Library_for_Steady-St_65c31693c5.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010515/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010515/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010515/v1",
+      "title": "Fe-dopant site occupancy in Co3O4: evidence of isovalent substitution and short-range association at octahedral sites",
+      "notes": [
+        "notes/chemrxiv_Fe-dopant_site_occupancy_in_Co3O4_evidence_of_f19bdc102d.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010507/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010507/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010507/v1",
+      "title": "Enantioselective [3+3] Formal Annulation of Anilines via Carbene Catalysis",
+      "notes": [
+        "notes/chemrxiv_Enantioselective_3_3_Formal_Annulation_of_Ani_390bd15540.md"
+      ],
+      "added_at": "2026-10-15T20:09:48+00:00",
+      "last_requested_at": "2026-10-15T20:09:48+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
     }
   }
 }
