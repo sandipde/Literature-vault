@@ -1548,6 +1548,279 @@
       "last_requested_at": "2026-10-14T20:24:05+00:00",
       "published_at": "",
       "updated_at": "2026-10-14T16:51:35Z"
+    },
+    "https://arxiv.org/abs/2610.20063": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.20063",
+      "original_url": "https://arxiv.org/abs/2610.20063",
+      "title": "Sorption Molecular Dynamics of Point Defects in 2D Materials with a Machine Learning Potential",
+      "notes": [
+        "notes/arxiv_2610.20063_Sorption_Molecular_Dynamics_of_Point_Defects__5604044b57.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.19919": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.19919",
+      "original_url": "https://arxiv.org/abs/2610.19919",
+      "title": "Beyond DFT electronic band structures via dual-space orbital learning",
+      "notes": [
+        "notes/arxiv_2610.19919_Beyond_DFT_electronic_band_structures_via_dua_d87d8a4453.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.20570": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.20570",
+      "original_url": "https://arxiv.org/abs/2610.20570",
+      "title": "Manacá-1B-Instruct-2: Reproducible Safety Alignment for a Native Brazilian-Portuguese LLM. Negative DPO Results, a Controlled Composition Scan, and a Silent Failure Mode of the LLM Judge",
+      "notes": [
+        "notes/arxiv_2610.20570_Manac_-1B-Instruct-2_Reproducible_Safety_Alig_c5ddd1b5ec.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.20543": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.20543",
+      "original_url": "https://arxiv.org/abs/2610.20543",
+      "title": "Reliability-Aware Multimodal Sentiment Prediction Under Local Modality Missingness",
+      "notes": [
+        "notes/arxiv_2610.20543_Reliability-Aware_Multimodal_Sentiment_Predic_049925e273.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.20536": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.20536",
+      "original_url": "https://arxiv.org/abs/2610.20536",
+      "title": "Intermediate memory costs of quantum channel synthesis with a protected subsystem",
+      "notes": [
+        "notes/arxiv_2610.20536_Intermediate_memory_costs_of_quantum_channel__648efde737.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1063/5.0347394": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1063/5.0347394",
+      "original_url": "https://doi.org/10.1063/5.0347394",
+      "title": "Machine-learned, finite temperature Fermi-operator expansions suitable for GPUs and AI-hardware",
+      "notes": [
+        "notes/crossref_Machine-learned_finite_temperature_Fermi-oper_97d3aa8f83.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7610441": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7610441",
+      "original_url": "https://doi.org/10.2139/ssrn.7610441",
+      "title": "The Descendant Standing Problem: Governing Learned Policies After Retrospective Warrant Failure",
+      "notes": [
+        "notes/crossref_The_Descendant_Standing_Problem_Governing_Lea_3220cb45c1.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7611982": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7611982",
+      "original_url": "https://doi.org/10.2139/ssrn.7611982",
+      "title": "Machine Learning in Asset Pricing",
+      "notes": [
+        "notes/crossref_Machine_Learning_in_Asset_Pricing_ccfcb5f1d9.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.jmgm.2026.109610": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.jmgm.2026.109610",
+      "original_url": "https://doi.org/10.1016/j.jmgm.2026.109610",
+      "title": "GeoSeq-EGNN: A Geometry-Sequence Fused Equivariant Graph Neural Network for Predicting Short Linear Motifs within Intrinsically Disordered Regions",
+      "notes": [
+        "notes/crossref_GeoSeq-EGNN_A_Geometry-Sequence_Fused_Equivar_124c176d3b.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.oceaneng.2026.128706": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.oceaneng.2026.128706",
+      "original_url": "https://doi.org/10.1016/j.oceaneng.2026.128706",
+      "title": "Deep residual physics-informed neural network for underwater electric potential reconstruction",
+      "notes": [
+        "notes/crossref_Deep_residual_physics-informed_neural_network_fb26f62b92.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.analchem.5c07805.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.analchem.5c07805.s001",
+      "original_url": "https://doi.org/10.1021/acs.analchem.5c07805.s001",
+      "title": "A Simulation-Driven Deep Learning Approach for Artifact-Resistant Raman Spectral Unmixing",
+      "notes": [
+        "notes/crossref_A_Simulation-Driven_Deep_Learning_Approach_fo_0fbed24f61.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.56557/ajocr/2026/v11i411233": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.56557/ajocr/2026/v11i411233",
+      "original_url": "https://doi.org/10.56557/ajocr/2026/v11i411233",
+      "title": "Machine Learning-assisted Antenna Design and Optimization: A Comprehensive Review of Surrogate Modeling, Active Learning, and Intelligent Optimization",
+      "notes": [
+        "notes/crossref_Machine_Learning-assisted_Antenna_Design_and__ddb4d02a20.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d5sm00208g/v1/review2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d5sm00208g/v1/review2",
+      "original_url": "https://doi.org/10.1039/d5sm00208g/v1/review2",
+      "title": "Review for \"Long-range order in two-dimensional systems with fluctuating active stresses\"",
+      "notes": [
+        "notes/crossref_Review_for_Long-range_order_in_two-dimensiona_3b5ac68e97.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2025-03-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d5sm00208g/v1/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d5sm00208g/v1/review1",
+      "original_url": "https://doi.org/10.1039/d5sm00208g/v1/review1",
+      "title": "Review for \"Long-range order in two-dimensional systems with fluctuating active stresses\"",
+      "notes": [
+        "notes/crossref_Review_for_Long-range_order_in_two-dimensiona_970e1833a5.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2025-03-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d5sm00208g/v2/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d5sm00208g/v2/review1",
+      "original_url": "https://doi.org/10.1039/d5sm00208g/v2/review1",
+      "title": "Review for \"Long-range order in two-dimensional systems with fluctuating active stresses\"",
+      "notes": [
+        "notes/crossref_Review_for_Long-range_order_in_two-dimensiona_17123fb2b2.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2025-06-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110896": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110896",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110896",
+      "title": "Engineering Copper-Doped Manganese Metal–Organic Frameworks for Multifunctional Environmental Remediation and Electrochemical Applications",
+      "notes": [
+        "notes/crossref_Engineering_Copper-Doped_Manganese_Metal_Orga_8c7c0dfb26.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010224/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010224/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010224/v2",
+      "title": "Advancing Targeted Nanoparticle mRNA Delivery Using Machine Learning",
+      "notes": [
+        "notes/chemrxiv_Advancing_Targeted_Nanoparticle_mRNA_Delivery_db0f525a9d.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010381/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010381/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010381/v2",
+      "title": "Gas-Conditioned Message Passing Graph Neural Network for Permeability Prediction in Polymeric Membranes",
+      "notes": [
+        "notes/chemrxiv_Gas-Conditioned_Message_Passing_Graph_Neural__6b106f412d.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15007616/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15007616/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15007616/v2",
+      "title": "Multilayer Multistate Reaction Coordinate Model for Nonadiabatic Dynamics in Open Quantum Systems",
+      "notes": [
+        "notes/chemrxiv_Multilayer_Multistate_Reaction_Coordinate_Mod_8100fc6d29.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010484/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010484/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010484/v1",
+      "title": "Galvanic Coupling Links Heterogeneous and Molecular Palladium Catalysis in Aerobic Alcohol Oxidation",
+      "notes": [
+        "notes/chemrxiv_Galvanic_Coupling_Links_Heterogeneous_and_Mol_8da304f2f2.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://github.com/albert-hzbn/face-mlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/albert-hzbn/face-mlip",
+      "original_url": "https://github.com/albert-hzbn/face-mlip",
+      "title": "albert-hzbn/face-mlip",
+      "notes": [
+        "notes/github_albert-hzbn_face-mlip_3c1e004245.md"
+      ],
+      "added_at": "2026-10-15T09:34:27+00:00",
+      "last_requested_at": "2026-10-15T09:34:27+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-15T09:34:17Z"
     }
   }
 }
