@@ -2068,6 +2068,175 @@
       "last_requested_at": "2026-10-16T07:02:43+00:00",
       "published_at": "2026-01-06",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.21771": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.21771",
+      "original_url": "https://arxiv.org/abs/2610.21771",
+      "title": "Hierarchical universal open structure dataset for atomistic modeling",
+      "notes": [
+        "notes/arxiv_2610.21771_Hierarchical_universal_open_structure_dataset_33cd464752.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.22361": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.22361",
+      "original_url": "https://arxiv.org/abs/2610.22361",
+      "title": "Band-Resolved Superconducting Gaps via the Thermal Hall Effect in CeRu2",
+      "notes": [
+        "notes/arxiv_2610.22361_Band-Resolved_Superconducting_Gaps_via_the_Th_0d4a821552.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.22360": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.22360",
+      "original_url": "https://arxiv.org/abs/2610.22360",
+      "title": "Grounding Generative Verification in 3D Content",
+      "notes": [
+        "notes/arxiv_2610.22360_Grounding_Generative_Verification_in_3D_Conte_c129d72a4b.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.22357": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.22357",
+      "original_url": "https://arxiv.org/abs/2610.22357",
+      "title": "Stability of Quantum LDPC States under Local Pauli Noise",
+      "notes": [
+        "notes/arxiv_2610.22357_Stability_of_Quantum_LDPC_States_under_Local__c318424ce3.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15004671/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15004671/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15004671/v2",
+      "title": "Whole-Enzyme Reactive Free-Energy Simulations with a Universal Machine Learning Interatomic Potential: Catalytic Mechanism and Mutational Effects of PETase",
+      "notes": [
+        "notes/crossref_Whole-Enzyme_Reactive_Free-Energy_Simulations_7d7f015302.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acscatal.6c03421.s005": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acscatal.6c03421.s005",
+      "original_url": "https://doi.org/10.1021/acscatal.6c03421.s005",
+      "title": "Coordination Engineering of Dual-Atom Catalysts for Overall Water Splitting: Mechanistic Insights from Constant-Potential First-Principles and Machine Learning",
+      "notes": [
+        "notes/crossref_Coordination_Engineering_of_Dual-Atom_Catalys_fe71f5febc.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.greeac.2026.100395": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.greeac.2026.100395",
+      "original_url": "https://doi.org/10.1016/j.greeac.2026.100395",
+      "title": "Prediction of Supercritical CO2 Solubility with a Thermodynamics-Conditioned Equivariant Graph Neural Network Model",
+      "notes": [
+        "notes/crossref_Prediction_of_Supercritical_CO2_Solubility_wi_850c7641c3.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/14697874261493865": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/14697874261493865",
+      "original_url": "https://doi.org/10.1177/14697874261493865",
+      "title": "Bridging Theory and Practice Through Field-Based Learning: Student Engagement and Competency Development in Higher Education",
+      "notes": [
+        "notes/crossref_Bridging_Theory_and_Practice_Through_Field-Ba_f3e3305131.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11133214/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11133214/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11133214/v1",
+      "title": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
+      "notes": [
+        "notes/crossref_Label-Efficient_Learning_for_Ground-Based_Sky_62e2fb9023.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104392": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104392",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104392",
+      "title": "Particle-field-charge coupling mechanism and its impact on surface flashover of tri-post insulators in C4F7N/CO2 DC GIL",
+      "notes": [
+        "notes/crossref_Particle-field-charge_coupling_mechanism_and__f226f430ba.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111027": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111027",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111027",
+      "title": "Retraction notice to \"Synergistic alginate/MgAl-LDH/polypyrrole interpenetrating network hydrogel for selective Pb(II) and rhodamine B removal: Mechanistic, kinetic and thermodynamic evaluation\" [Surfaces and Interfaces 87 (2026) 109021]",
+      "notes": [
+        "notes/crossref_Retraction_notice_to_Synergistic_alginate_MgA_775a5e3a8f.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010566/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010566/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010566/v1",
+      "title": "Machine Learning Identifies an Information-Sufficiency Regime for Critical-Mineral Recovery",
+      "notes": [
+        "notes/chemrxiv_Machine_Learning_Identifies_an_Information-Su_18a15ce459.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15009497/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15009497/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15009497/v2",
+      "title": "Directional Electric Fields at Designed MOF Sites: Implications for Electrostatic Preorganization and Catalysis",
+      "notes": [
+        "notes/chemrxiv_Directional_Electric_Fields_at_Designed_MOF_S_a04ff4f86e.md"
+      ],
+      "added_at": "2026-10-16T09:27:31+00:00",
+      "last_requested_at": "2026-10-16T09:27:31+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
     }
   }
 }
