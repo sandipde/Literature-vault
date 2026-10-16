@@ -2237,6 +2237,58 @@
       "last_requested_at": "2026-10-16T09:27:31+00:00",
       "published_at": "2026-10-16",
       "updated_at": ""
+    },
+    "https://doi.org/10.68512/npdc.ncpor.2021.08": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.68512/npdc.ncpor.2021.08",
+      "original_url": "https://doi.org/10.68512/npdc.ncpor.2021.08",
+      "title": "Role of long-range transported aerosols on earth",
+      "notes": [
+        "notes/crossref_Role_of_long-range_transported_aerosols_on_ea_feccc31a25.md"
+      ],
+      "added_at": "2026-10-16T19:47:39+00:00",
+      "last_requested_at": "2026-10-16T19:47:39+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110901": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110901",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110901",
+      "title": "Multiscale optoelectronic and materials performance of novel Cs3ZnX3 (X = F, Cl, Br and I) halide perovskites: DFT-guided device simulation and performance analysis",
+      "notes": [
+        "notes/crossref_Multiscale_optoelectronic_and_materials_perfo_c71351fcac.md"
+      ],
+      "added_at": "2026-10-16T19:47:39+00:00",
+      "last_requested_at": "2026-10-16T19:47:39+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110969": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110969",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110969",
+      "title": "From Spheres to Spheroids: A Predictive Blueprint for Strong Plasmon–Exciton Coupling",
+      "notes": [
+        "notes/crossref_From_Spheres_to_Spheroids_A_Predictive_Bluepr_3c619adf67.md"
+      ],
+      "added_at": "2026-10-16T19:47:39+00:00",
+      "last_requested_at": "2026-10-16T19:47:39+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010602/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010602/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010602/v1",
+      "title": "Conformational Control and Charge Separation Dynamics in Perylene Bisimide-based Donor-Acceptor Polymers",
+      "notes": [
+        "notes/chemrxiv_Conformational_Control_and_Charge_Separation__956681be83.md"
+      ],
+      "added_at": "2026-10-16T19:47:39+00:00",
+      "last_requested_at": "2026-10-16T19:47:39+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
     }
   }
 }
