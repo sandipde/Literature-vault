@@ -2289,6 +2289,19 @@
       "last_requested_at": "2026-10-16T19:47:39+00:00",
       "published_at": "2026-10-16",
       "updated_at": ""
+    },
+    "https://nature.com/articles/s41524-026-02277-6?error=cookies_not_supported&code=11517c62-cde5-42c8-9cb9-a65db7f1e8dc": {
+      "type": "web",
+      "canonical_url": "https://nature.com/articles/s41524-026-02277-6?error=cookies_not_supported&code=11517c62-cde5-42c8-9cb9-a65db7f1e8dc",
+      "original_url": "https://www.nature.com/articles/s41524-026-02277-6?error=cookies_not_supported&code=11517c62-cde5-42c8-9cb9-a65db7f1e8dc",
+      "title": "Deep learning-based prediction of self-energies from ab initio dynamical mean-field theory for real materials with minimal data sets",
+      "notes": [
+        "notes/153_Deep_learning-based_prediction_of_self-energies_fr.md"
+      ],
+      "added_at": "2026-10-16T20:00:59+00:00",
+      "last_requested_at": "2026-10-16T20:00:59+00:00",
+      "published_at": "2026-08-10",
+      "updated_at": ""
     }
   }
 }
