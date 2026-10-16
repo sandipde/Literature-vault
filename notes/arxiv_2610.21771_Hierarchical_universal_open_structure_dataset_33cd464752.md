@@ -6,7 +6,7 @@ canonical_url: https://arxiv.org/abs/2610.21771
 captured_by: auto-scanner
 date: '2026-10-16'
 captured_at: '2026-10-16T09:27:31+00:00'
-last_requested: '2026-10-16T09:27:31+00:00'
+last_requested: '2026-10-16T14:48:26+00:00'
 issue: scan:mlip-development-arxiv
 status: to-read
 authors:
