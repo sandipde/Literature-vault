@@ -2042,6 +2042,19 @@
       "last_requested_at": "2026-10-15T20:09:48+00:00",
       "published_at": "2026-10-15",
       "updated_at": ""
+    },
+    "https://github.com/nvidia/nvalchemi-toolkit-ops": {
+      "type": "github",
+      "canonical_url": "https://github.com/nvidia/nvalchemi-toolkit-ops",
+      "original_url": "https://github.com/NVIDIA/nvalchemi-toolkit-ops",
+      "title": "NVIDIA/nvalchemi-toolkit-ops",
+      "notes": [
+        "notes/149_NVIDIA_nvalchemi-toolkit-ops.md"
+      ],
+      "added_at": "2026-10-16T07:00:12+00:00",
+      "last_requested_at": "2026-10-16T07:00:12+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-13T19:40:53Z"
     }
   }
 }
