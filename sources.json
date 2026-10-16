@@ -2055,6 +2055,19 @@
       "last_requested_at": "2026-10-16T07:00:12+00:00",
       "published_at": "",
       "updated_at": "2026-10-13T19:40:53Z"
+    },
+    "https://doi.org/10.1073/pnas.2511227122": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1073/pnas.2511227122",
+      "original_url": "https://www.pnas.org/doi/10.1073/pnas.2511227122",
+      "title": "ZENN: A thermodynamics-inspired computational framework for heterogeneous data–driven modeling",
+      "notes": [
+        "notes/151_ZENN_A_thermodynamics-inspired_computational_frame.md"
+      ],
+      "added_at": "2026-10-16T07:02:43+00:00",
+      "last_requested_at": "2026-10-16T07:02:43+00:00",
+      "published_at": "2026-01-06",
+      "updated_at": ""
     }
   }
 }
