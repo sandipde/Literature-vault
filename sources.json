@@ -2315,6 +2315,19 @@
       "last_requested_at": "2026-10-17T08:42:39+00:00",
       "published_at": "",
       "updated_at": "2026-10-15T00:23:21Z"
+    },
+    "https://arxiv.org/abs/2610.00683": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.00683",
+      "original_url": "https://arxiv.org/abs/2610.00683",
+      "title": "Grand Canonical Generators",
+      "notes": [
+        "notes/156_Grand_Canonical_Generators.md"
+      ],
+      "added_at": "2026-10-17T08:44:46+00:00",
+      "last_requested_at": "2026-10-17T08:44:46+00:00",
+      "published_at": "2026-09-30",
+      "updated_at": "2026-10-06T14:08:53Z"
     }
   }
 }
