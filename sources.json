@@ -2393,6 +2393,136 @@
       "last_requested_at": "2026-10-17T08:55:02+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.2172/17312903": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2172/17312903",
+      "original_url": "https://doi.org/10.2172/17312903",
+      "title": "Machine-Learned Inverse Pulse Solver",
+      "notes": [
+        "notes/crossref_Machine-Learned_Inverse_Pulse_Solver_0c80becf5a.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2166/wpt.2026.512": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2166/wpt.2026.512",
+      "original_url": "https://doi.org/10.2166/wpt.2026.512",
+      "title": "Assessment of climate change impacts on hydropower potential in intermittent river basins using bootstrap aggregating machine learning method",
+      "notes": [
+        "notes/crossref_Assessment_of_climate_change_impacts_on_hydro_6ac00426e6.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.70675/7ff6eec3z659dz46a5za0d1zc694492e7887": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.70675/7ff6eec3z659dz46a5za0d1zc694492e7887",
+      "original_url": "https://doi.org/10.70675/7ff6eec3z659dz46a5za0d1zc694492e7887",
+      "title": "Deep Neural Network Compression Using Pruning and Low-Rank Approximations",
+      "notes": [
+        "notes/crossref_Deep_Neural_Network_Compression_Using_Pruning_cabfc048ae.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/2632-2153/aeb5a1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2632-2153/aeb5a1",
+      "original_url": "https://doi.org/10.1088/2632-2153/aeb5a1",
+      "title": "Learning to stabilize nonequilibrium phases of matter with active feedback using partial information",
+      "notes": [
+        "notes/crossref_Learning_to_stabilize_nonequilibrium_phases_o_958249c4bb.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/13835416261493309": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/13835416261493309",
+      "original_url": "https://doi.org/10.1177/13835416261493309",
+      "title": "Corrigendum to “Electric field and electric potential due to a finite cylindrical surface charge distribution considering a linearly variable surface charge density”",
+      "notes": [
+        "notes/crossref_Corrigendum_to_Electric_field_and_electric_po_1a6b90c1d6.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111036": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111036",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111036",
+      "title": "Preparation of Flame-Treated Silicone Rubber Superhydrophobic Anti-Icing Surface",
+      "notes": [
+        "notes/crossref_Preparation_of_Flame-Treated_Silicone_Rubber__d2f75ece33.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010593/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010593/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010593/v1",
+      "title": "Are Molecular Foundation Models Ready for Free Energy Simulations?",
+      "notes": [
+        "notes/chemrxiv_Are_Molecular_Foundation_Models_Ready_for_Fre_d7855f483c.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15007726/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15007726/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15007726/v2",
+      "title": "The Regularized Frozen Natural Orbital approach to CASPT2: extension to Restricted Active Space wave functions, different multiplicities and assessment of correlation effects",
+      "notes": [
+        "notes/chemrxiv_The_Regularized_Frozen_Natural_Orbital_approa_d5837042c8.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010614/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010614/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010614/v1",
+      "title": "Mineralisation behaviour during heterogeneous photo-Fenton treatment of amoxicillin in a rotating Fe2O3-impregnated disc reactor: the controlling role of oxidant stoichiometry",
+      "notes": [
+        "notes/chemrxiv_Mineralisation_behaviour_during_heterogeneous_691ca7aee1.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://github.com/jinukmoon/oh-my-mlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/jinukmoon/oh-my-mlip",
+      "original_url": "https://github.com/JinukMoon/oh-my-mlip",
+      "title": "JinukMoon/oh-my-mlip",
+      "notes": [
+        "notes/github_JinukMoon_oh-my-mlip_005a0a7e37.md"
+      ],
+      "added_at": "2026-10-17T08:58:51+00:00",
+      "last_requested_at": "2026-10-17T08:58:51+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-17T02:35:15Z"
     }
   }
 }
