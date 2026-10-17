@@ -2341,6 +2341,19 @@
       "last_requested_at": "2026-10-17T08:48:26+00:00",
       "published_at": "2012-01-02",
       "updated_at": ""
+    },
+    "https://github.com/tonyauyeung/scallop": {
+      "type": "github",
+      "canonical_url": "https://github.com/tonyauyeung/scallop",
+      "original_url": "https://github.com/tonyauyeung/scallop",
+      "title": "tonyauyeung/scallop",
+      "notes": [
+        "notes/158_tonyauyeung_scallop.md"
+      ],
+      "added_at": "2026-10-17T08:49:48+00:00",
+      "last_requested_at": "2026-10-17T08:49:48+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-15T23:25:29Z"
     }
   }
 }
