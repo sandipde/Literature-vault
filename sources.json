@@ -2523,6 +2523,110 @@
       "last_requested_at": "2026-10-17T08:58:51+00:00",
       "published_at": "",
       "updated_at": "2026-10-17T02:35:15Z"
+    },
+    "https://doi.org/10.2139/ssrn.7624238": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7624238",
+      "original_url": "https://doi.org/10.2139/ssrn.7624238",
+      "title": "Learned corrections and a second-order sensitivity model for subsonic full-potential flow: a matched-accuracy comparison",
+      "notes": [
+        "notes/crossref_Learned_corrections_and_a_second-order_sensit_8df65ae08c.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "2026-10-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115176": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115176",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115176",
+      "title": "A MACE interatomic potential for two dimensional and curved sp2 carbon: family level transfer benchmarks and a SOAP based structural novelty map",
+      "notes": [
+        "notes/crossref_A_MACE_interatomic_potential_for_two_dimensio_4787d893bf.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.65521/itsi-teee.v12i1.3877": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.65521/itsi-teee.v12i1.3877",
+      "original_url": "https://doi.org/10.65521/itsi-teee.v12i1.3877",
+      "title": "A Comprehensive Review of An Optimized Equivariant Split Attention Quantum Neural Network Based Recommendation System for Stock Market Prediction",
+      "notes": [
+        "notes/crossref_A_Comprehensive_Review_of_An_Optimized_Equiva_2679738e4d.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "2023-04-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.65521/ijacect.v12i1.3746": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.65521/ijacect.v12i1.3746",
+      "original_url": "https://doi.org/10.65521/ijacect.v12i1.3746",
+      "title": "A Survey of Methods and Architectures for An Optimized Equivariant Split Attention Quantum Neural Network Based Recommendation System for Stock Market Prediction",
+      "notes": [
+        "notes/crossref_A_Survey_of_Methods_and_Architectures_for_An__4426b55bd4.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "2023-05-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.lrp.2026.102694": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lrp.2026.102694",
+      "original_url": "https://doi.org/10.1016/j.lrp.2026.102694",
+      "title": "ECOSYSTEM GOVERNANCE FOR CIRCULARITY",
+      "notes": [
+        "notes/crossref_ECOSYSTEM_GOVERNANCE_FOR_CIRCULARITY_6d12965fd2.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111052": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111052",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111052",
+      "title": "Unraveling the potential of monolayer GeS and GeSe and their graphene van der Waals heterostructures as anode materials for multivalent metal-ion batteries",
+      "notes": [
+        "notes/crossref_Unraveling_the_potential_of_monolayer_GeS_and_e0546c4486.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111051": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111051",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111051",
+      "title": "Position-Dependent Local Spin Polarization in Al–WS₂ Heterostructures with Sulfur Vacancies",
+      "notes": [
+        "notes/crossref_Position-Dependent_Local_Spin_Polarization_in_cb165ad552.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://github.com/bloomdlwlrma/openqha-hessian": {
+      "type": "github",
+      "canonical_url": "https://github.com/bloomdlwlrma/openqha-hessian",
+      "original_url": "https://github.com/BloomDlwlrma/openQHA-Hessian",
+      "title": "BloomDlwlrma/openQHA-Hessian",
+      "notes": [
+        "notes/github_BloomDlwlrma_openQHA-Hessian_e55cf6a8f4.md"
+      ],
+      "added_at": "2026-10-17T18:59:38+00:00",
+      "last_requested_at": "2026-10-17T18:59:38+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-17T16:07:35Z"
     }
   }
 }
