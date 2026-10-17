@@ -2354,6 +2354,19 @@
       "last_requested_at": "2026-10-17T08:49:48+00:00",
       "published_at": "",
       "updated_at": "2026-10-15T23:25:29Z"
+    },
+    "https://llama.app": {
+      "type": "web",
+      "canonical_url": "https://llama.app",
+      "original_url": "https://llama.app/",
+      "title": "Llama · Your AI, on your computer",
+      "notes": [
+        "notes/159_Llama_Your_AI_on_your_computer.md"
+      ],
+      "added_at": "2026-10-17T08:53:12+00:00",
+      "last_requested_at": "2026-10-17T08:53:12+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
