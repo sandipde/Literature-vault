@@ -2302,6 +2302,19 @@
       "last_requested_at": "2026-10-16T20:00:59+00:00",
       "published_at": "2026-08-10",
       "updated_at": ""
+    },
+    "https://github.com/astroautomata/pysr": {
+      "type": "github",
+      "canonical_url": "https://github.com/astroautomata/pysr",
+      "original_url": "https://github.com/astroautomata/PySR",
+      "title": "astroautomata/PySR",
+      "notes": [
+        "notes/155_astroautomata_PySR.md"
+      ],
+      "added_at": "2026-10-17T08:42:39+00:00",
+      "last_requested_at": "2026-10-17T08:42:39+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-15T00:23:21Z"
     }
   }
 }
