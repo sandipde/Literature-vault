@@ -2367,6 +2367,19 @@
       "last_requested_at": "2026-10-17T08:53:12+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://huggingface.co/collections/openbmb": {
+      "type": "huggingface_model",
+      "canonical_url": "https://huggingface.co/collections/openbmb",
+      "original_url": "https://huggingface.co/collections/openbmb/minicpm-v-47",
+      "title": "MiniCPM-V 4.7 - a openbmb Collection",
+      "notes": [
+        "notes/160_MiniCPM-V_4_7_-_a_openbmb_Collection.md"
+      ],
+      "added_at": "2026-10-17T08:53:30+00:00",
+      "last_requested_at": "2026-10-17T08:53:30+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
