@@ -2380,6 +2380,19 @@
       "last_requested_at": "2026-10-17T08:53:30+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl": {
+      "type": "web",
+      "canonical_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+      "original_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/?utm_source=linkedin&utm_medium=organic_social&utm_campaign=general_2026_10_14&utm_content=post",
+      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "notes": [
+        "notes/161_Open_From_Data_Center_to_Desktop_NVIDIA_Expands_Ne.md"
+      ],
+      "added_at": "2026-10-17T08:55:02+00:00",
+      "last_requested_at": "2026-10-17T08:55:02+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
