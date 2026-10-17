@@ -2328,6 +2328,19 @@
       "last_requested_at": "2026-10-17T08:44:46+00:00",
       "published_at": "2026-09-30",
       "updated_at": "2026-10-06T14:08:53Z"
+    },
+    "https://historyofinformation.com/detail.php?id=3439": {
+      "type": "web",
+      "canonical_url": "https://historyofinformation.com/detail.php?id=3439",
+      "original_url": "https://www.historyofinformation.com/detail.php?id=3439&",
+      "title": "History of Information",
+      "notes": [
+        "notes/157_History_of_Information.md"
+      ],
+      "added_at": "2026-10-17T08:48:26+00:00",
+      "last_requested_at": "2026-10-17T08:48:26+00:00",
+      "published_at": "2012-01-02",
+      "updated_at": ""
     }
   }
 }
