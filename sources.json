@@ -2653,6 +2653,149 @@
       "last_requested_at": "2026-10-18T07:07:32+00:00",
       "published_at": "",
       "updated_at": "2026-10-17T23:50:24Z"
+    },
+    "https://doi.org/10.1016/j.commt.2026.100067": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commt.2026.100067",
+      "original_url": "https://doi.org/10.1016/j.commt.2026.100067",
+      "title": "Resolving the Al2O3 phase diagram to 600 GPa with a machine-learned potential: Anharmonic effects and shock melting",
+      "notes": [
+        "notes/crossref_Resolving_the_Al2O3_phase_diagram_to_600_GPa__5859ca590a.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.18260/jet.43.2.5": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.18260/jet.43.2.5",
+      "original_url": "https://doi.org/10.18260/jet.43.2.5",
+      "title": "A Hierarchical Framework of the Impact of End-User Machine Learning Tools on Applied Machine Learning Education",
+      "notes": [
+        "notes/crossref_A_Hierarchical_Framework_of_the_Impact_of_End_23ec4144c9.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.neunet.2026.109770": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.neunet.2026.109770",
+      "original_url": "https://doi.org/10.1016/j.neunet.2026.109770",
+      "title": "Equivariant Flow Matching for Molecular Docking Guided by Ligand–Protein Interactions",
+      "notes": [
+        "notes/crossref_Equivariant_Flow_Matching_for_Molecular_Docki_65513b1ed7.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acsami.6c12704": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acsami.6c12704",
+      "original_url": "https://doi.org/10.1021/acsami.6c12704",
+      "title": "Evaluating the Potential Cardiac Toxicity of Implant-Derived Metal Ions and Particles Using H9C2 and Stem Cell Model",
+      "notes": [
+        "notes/crossref_Evaluating_the_Potential_Cardiac_Toxicity_of__699a4b82c9.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.5430/jct.v15n4p65": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.5430/jct.v15n4p65",
+      "original_url": "https://doi.org/10.5430/jct.v15n4p65",
+      "title": "The Effectiveness of the 5Ps Model as an Active Learning Approach for Enhancing Learning Outcomes and Knowledge Construction among Thai Secondary Students",
+      "notes": [
+        "notes/crossref_The_Effectiveness_of_the_5Ps_Model_as_an_Acti_62fa34dc4e.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7624632": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7624632",
+      "original_url": "https://doi.org/10.2139/ssrn.7624632",
+      "title": "Uncertainty-aware active learning for probability-guided screening of high-entropy alloys with high corrosion potential",
+      "notes": [
+        "notes/crossref_Uncertainty-aware_active_learning_for_probabi_7da6467198.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104399": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104399",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104399",
+      "title": "A filterless nozzle-to-plate Faraday cup electrometer: design, computed and measured collection efficiency",
+      "notes": [
+        "notes/crossref_A_filterless_nozzle-to-plate_Faraday_cup_elec_45f9668593.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s43621-026-04973-1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s43621-026-04973-1",
+      "original_url": "https://doi.org/10.1007/s43621-026-04973-1",
+      "title": "Extending the operational range of hydrogen diesel RCCI mode through charge temperature and injection strategy optimization guided by coupled chemical kinetics model",
+      "notes": [
+        "notes/crossref_Extending_the_operational_range_of_hydrogen_d_1608a01964.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111062": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111062",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111062",
+      "title": "Engineering interfaces in group-11-chalcogenide heterostructures toward efficient Z-scheme solar water splitting",
+      "notes": [
+        "notes/crossref_Engineering_interfaces_in_group-11-chalcogeni_1bb14b9e49.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://github.com/fearcope/mlip-adsorption-and-thermochemistry": {
+      "type": "github",
+      "canonical_url": "https://github.com/fearcope/mlip-adsorption-and-thermochemistry",
+      "original_url": "https://github.com/Fearcope/mlip-adsorption-and-thermochemistry",
+      "title": "Fearcope/mlip-adsorption-and-thermochemistry",
+      "notes": [
+        "notes/github_Fearcope_mlip-adsorption-and-thermochemistry_2be829e438.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-18T03:31:51Z"
+    },
+    "https://github.com/nourollah/goal": {
+      "type": "github",
+      "canonical_url": "https://github.com/nourollah/goal",
+      "original_url": "https://github.com/Nourollah/GOAL",
+      "title": "Nourollah/GOAL",
+      "notes": [
+        "notes/github_Nourollah_GOAL_748195e9e6.md"
+      ],
+      "added_at": "2026-10-18T09:18:02+00:00",
+      "last_requested_at": "2026-10-18T09:18:02+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-17T23:07:32Z"
     }
   }
 }
