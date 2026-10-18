@@ -2822,6 +2822,19 @@
       "last_requested_at": "2026-10-18T20:35:01+00:00",
       "published_at": "2026-10-16",
       "updated_at": ""
+    },
+    "https://blogs.oracle.com/developers/whats-new-in-oracle-ai-agent-memory-graph-aware-retrieval-image-memory-and-enterprise-controls?source=%3Aad%3Aso%3Ali%3Aawr%3Aa_nas%3A%3ARC_DEVT260603P00041%3AMatt&SC=%3Aad%3Aso%3Ali%3Aawr%3Aa_nas%3A%3ARC_DEVT260603P00041%3AMatt": {
+      "type": "web",
+      "canonical_url": "https://blogs.oracle.com/developers/whats-new-in-oracle-ai-agent-memory-graph-aware-retrieval-image-memory-and-enterprise-controls?source=%3Aad%3Aso%3Ali%3Aawr%3Aa_nas%3A%3ARC_DEVT260603P00041%3AMatt&SC=%3Aad%3Aso%3Ali%3Aawr%3Aa_nas%3A%3ARC_DEVT260603P00041%3AMatt",
+      "original_url": "https://blogs.oracle.com/developers/whats-new-in-oracle-ai-agent-memory-graph-aware-retrieval-image-memory-and-enterprise-controls?source=:ad:so:li:awr:a_nas::RC_DEVT260603P00041:Matt&SC=:ad:so:li:awr:a_nas::RC_DEVT260603P00041:Matt",
+      "title": "What’s New in Oracle AI Agent Memory: Graph-Aware Retrieval, Image Memory, and Enterprise Controls | developers",
+      "notes": [
+        "notes/166_What_s_New_in_Oracle_AI_Agent_Memory_Graph-Aware_R.md"
+      ],
+      "added_at": "2026-10-18T21:14:44+00:00",
+      "last_requested_at": "2026-10-18T21:14:44+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
