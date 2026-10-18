@@ -2809,6 +2809,19 @@
       "last_requested_at": "2026-10-18T19:12:03+00:00",
       "published_at": "2026-12",
       "updated_at": ""
+    },
+    "https://nature.com/articles/s41893-026-01950-4.epdf?sharing_token=uW1foWciOXpQ1pWi4SMtrtRgN0jAjWel9jnR3ZoTv0Pel2iGTXKAZP00OIteeYRuXfJWmUI2pmWpYrKYFPP4_KAzysH4AUEudJ1oEwOprCHQgTUw5DpcAj1-L8K5E7TtcqxvVOCYyuz-3Kjoqvdwegakpt229_E6LlPKxYkYv8I%3D": {
+      "type": "web",
+      "canonical_url": "https://nature.com/articles/s41893-026-01950-4.epdf?sharing_token=uW1foWciOXpQ1pWi4SMtrtRgN0jAjWel9jnR3ZoTv0Pel2iGTXKAZP00OIteeYRuXfJWmUI2pmWpYrKYFPP4_KAzysH4AUEudJ1oEwOprCHQgTUw5DpcAj1-L8K5E7TtcqxvVOCYyuz-3Kjoqvdwegakpt229_E6LlPKxYkYv8I%3D",
+      "original_url": "https://www.nature.com/articles/s41893-026-01950-4.epdf?sharing_token=uW1foWciOXpQ1pWi4SMtrtRgN0jAjWel9jnR3ZoTv0Pel2iGTXKAZP00OIteeYRuXfJWmUI2pmWpYrKYFPP4_KAzysH4AUEudJ1oEwOprCHQgTUw5DpcAj1-L8K5E7TtcqxvVOCYyuz-3Kjoqvdwegakpt229_E6LlPKxYkYv8I%3D",
+      "title": "Artificial intelligence for life-cycle-aware sustainable materials discovery",
+      "notes": [
+        "notes/165_Artificial_intelligence_for_life-cycle-aware_susta.md"
+      ],
+      "added_at": "2026-10-18T20:35:01+00:00",
+      "last_requested_at": "2026-10-18T20:35:01+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": ""
     }
   }
 }
