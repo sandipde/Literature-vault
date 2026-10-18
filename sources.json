@@ -2627,6 +2627,19 @@
       "last_requested_at": "2026-10-17T18:59:38+00:00",
       "published_at": "",
       "updated_at": "2026-10-17T16:07:35Z"
+    },
+    "https://github.com/nmdl-mizo/mattergen-e-": {
+      "type": "github",
+      "canonical_url": "https://github.com/nmdl-mizo/mattergen-e-",
+      "original_url": "https://github.com/nmdl-mizo/mattergen-e-",
+      "title": "nmdl-mizo/mattergen-e-",
+      "notes": [
+        "notes/162_nmdl-mizo_mattergen-e-.md"
+      ],
+      "added_at": "2026-10-18T07:04:15+00:00",
+      "last_requested_at": "2026-10-18T07:04:15+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-07T09:20:34Z"
     }
   }
 }
