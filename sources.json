@@ -2796,6 +2796,19 @@
       "last_requested_at": "2026-10-18T09:18:02+00:00",
       "published_at": "",
       "updated_at": "2026-10-17T23:07:32Z"
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104401": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104401",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104401",
+      "title": "Alternating current electrothermal actuation for microvalve function in capillary transport systems",
+      "notes": [
+        "notes/crossref_Alternating_current_electrothermal_actuation__6de5ffe230.md"
+      ],
+      "added_at": "2026-10-18T19:12:03+00:00",
+      "last_requested_at": "2026-10-18T19:12:03+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
     }
   }
 }
