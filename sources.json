@@ -3056,6 +3056,240 @@
       "last_requested_at": "2026-10-19T10:27:53+00:00",
       "published_at": "",
       "updated_at": "2026-10-19T01:30:59Z"
+    },
+    "https://doi.org/10.1039/d6cp03121h": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp03121h",
+      "original_url": "https://doi.org/10.1039/d6cp03121h",
+      "title": "Janus BrClM (M = Ti, Zr, Hf) Monolayers: First-Principles Insights and a Restricted-Domain Machine-Learned Potential Analysis of Band Gaps, Surface Dipoles, and Optical Response Across the Group IV–B Series",
+      "notes": [
+        "notes/crossref_Janus_BrClM_M_Ti_Zr_Hf_Monolayers_First-Princ_00835961cd.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.64864/1b1780e9-947f-4d62-8d0d-de4e49a1f2bf": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.64864/1b1780e9-947f-4d62-8d0d-de4e49a1f2bf",
+      "original_url": "https://doi.org/10.64864/1b1780e9-947f-4d62-8d0d-de4e49a1f2bf",
+      "title": "Unleashing the Potential of Virtual Production in Higher Education: Lessons learned from the VPSN project",
+      "notes": [
+        "notes/crossref_Unleashing_the_Potential_of_Virtual_Productio_1fdd1bd7a3.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/tpami.2026.3744812": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/tpami.2026.3744812",
+      "original_url": "https://doi.org/10.1109/tpami.2026.3744812",
+      "title": "Learned Image Coding With Generative Reference of Conditional Latents",
+      "notes": [
+        "notes/crossref_Learned_Image_Coding_With_Generative_Referenc_7a0212381b.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1201/9781042047543-4": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1201/9781042047543-4",
+      "original_url": "https://doi.org/10.1201/9781042047543-4",
+      "title": "Revolutionizing Image Processing: The Power of Automated Machine Learning",
+      "notes": [
+        "notes/crossref_Revolutionizing_Image_Processing_The_Power_of_d51e59e672.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1201/9781042047543-12": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1201/9781042047543-12",
+      "original_url": "https://doi.org/10.1201/9781042047543-12",
+      "title": "Automated Machine Learning for Reinforcement Learning: Improving Efficiency, Scalability, and Generalization",
+      "notes": [
+        "notes/crossref_Automated_Machine_Learning_for_Reinforcement__fdb001fe02.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/ijcnn69854.2026.11728415": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/ijcnn69854.2026.11728415",
+      "original_url": "https://doi.org/10.1109/ijcnn69854.2026.11728415",
+      "title": "STENet: A Soft Translation-Equivariant Network for Time Series Forecasting",
+      "notes": [
+        "notes/crossref_STENet_A_Soft_Translation-Equivariant_Network_5c4463d1e9.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/ijcnn69854.2026.11728519": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/ijcnn69854.2026.11728519",
+      "original_url": "https://doi.org/10.1109/ijcnn69854.2026.11728519",
+      "title": "Category-Equivariant Neural Architectures for Human Activity Recognition",
+      "notes": [
+        "notes/crossref_Category-Equivariant_Neural_Architectures_for_80bf6ceb46.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/ijcnn69854.2026.11728451": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/ijcnn69854.2026.11728451",
+      "original_url": "https://doi.org/10.1109/ijcnn69854.2026.11728451",
+      "title": "Category-Equivariant Regularization for Few-Shot Multirate Time-Series Learning",
+      "notes": [
+        "notes/crossref_Category-Equivariant_Regularization_for_Few-S_2b43873143.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7621258": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7621258",
+      "original_url": "https://doi.org/10.2139/ssrn.7621258",
+      "title": "N. Thirugnanamuthu's MB-Universal Matrix: Global Economic &amp;amp; Tech Transition Model",
+      "notes": [
+        "notes/crossref_N_Thirugnanamuthu_s_MB-Universal_Matrix_Globa_429ed2b587.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.66816/pr6716186": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.66816/pr6716186",
+      "original_url": "https://doi.org/10.66816/pr6716186",
+      "title": "Potential for Recovery of Critical Materials from Wind Energy Facilities",
+      "notes": [
+        "notes/crossref_Potential_for_Recovery_of_Critical_Materials__b46415e632.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1103/cjlb-zsxj": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/cjlb-zsxj",
+      "original_url": "https://doi.org/10.1103/cjlb-zsxj",
+      "title": "Nonreciprocal universal photon blockade in a chiral cavity system based on the two-photon Jaynes-Cummings model",
+      "notes": [
+        "notes/crossref_Nonreciprocal_universal_photon_blockade_in_a__b1f8b3c67a.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7635624": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7635624",
+      "original_url": "https://doi.org/10.2139/ssrn.7635624",
+      "title": "SURFIELD: A physics-guided machine learning model for atomistic simulation of surfaces under electric fields",
+      "notes": [
+        "notes/crossref_SURFIELD_A_physics-guided_machine_learning_mo_8e4a1911f0.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.lrp.2026.102696": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lrp.2026.102696",
+      "original_url": "https://doi.org/10.1016/j.lrp.2026.102696",
+      "title": "A Design Science Approach to Scaling Platform Business Models",
+      "notes": [
+        "notes/crossref_A_Design_Science_Approach_to_Scaling_Platform_e6a800c1db.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.rsurfi.2026.101031": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.rsurfi.2026.101031",
+      "original_url": "https://doi.org/10.1016/j.rsurfi.2026.101031",
+      "title": "A Review of Next-Generation Coatings for Automotive Systems: From Corrosion Protection to Multifunctional Performance",
+      "notes": [
+        "notes/crossref_A_Review_of_Next-Generation_Coatings_for_Auto_00dbca93eb.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010670/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010670/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010670/v1",
+      "title": "Provenance records predict which multi-scale conclusions a foundation-potential release can change in SiGeC semiconductors",
+      "notes": [
+        "notes/chemrxiv_Provenance_records_predict_which_multi-scale__36eb3d2760.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15001271/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15001271/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15001271/v2",
+      "title": "Evaluating transfer across modalities in autonomous materials systems",
+      "notes": [
+        "notes/chemrxiv_Evaluating_transfer_across_modalities_in_auto_3dd0120dad.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010667/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010667/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010667/v1",
+      "title": "How the fruit fly connectome can help autonomous materials discovery",
+      "notes": [
+        "notes/chemrxiv_How_the_fruit_fly_connectome_can_help_autonom_e40c921b3c.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010673/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010673/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010673/v1",
+      "title": "TENKi: counting the value of borrowed knowledge to a materials campaign in measurements saved",
+      "notes": [
+        "notes/chemrxiv_TENKi_counting_the_value_of_borrowed_knowledg_0c0af25f9c.md"
+      ],
+      "added_at": "2026-10-19T21:19:36+00:00",
+      "last_requested_at": "2026-10-19T21:19:36+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
     }
   }
 }
