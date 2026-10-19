@@ -2835,6 +2835,227 @@
       "last_requested_at": "2026-10-18T21:14:44+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.64898/2026.10.15.759394": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.64898/2026.10.15.759394",
+      "original_url": "https://doi.org/10.64898/2026.10.15.759394",
+      "title": "RiboBridge couples RNA backbone generation to sequence design through a learned interaction topology",
+      "notes": [
+        "notes/crossref_RiboBridge_couples_RNA_backbone_generation_to_ab6257dfea.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.5817/casalc2026-1-12": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.5817/casalc2026-1-12",
+      "original_url": "https://doi.org/10.5817/casalc2026-1-12",
+      "title": "Lessons Learned: How to Write an ESP Book – English for Crisis Management",
+      "notes": [
+        "notes/crossref_Lessons_Learned_How_to_Write_an_ESP_Book_Engl_84d1fac155.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1111/1750-3841.71575": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1111/1750-3841.71575",
+      "original_url": "https://doi.org/10.1111/1750-3841.71575",
+      "title": "Exploring Potential Multi‐Target Inhibition Mechanisms of <i>Ganoderma lucidum</i> Against EBV‐Mediated DLBCL Using Integrative Bioinformatics, Machine Learning, and Network Pharmacology Approaches",
+      "notes": [
+        "notes/crossref_Exploring_Potential_Multi_Target_Inhibition_M_dd562d67e5.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.36499/jim.v22i2.15624": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.36499/jim.v22i2.15624",
+      "original_url": "https://doi.org/10.36499/jim.v22i2.15624",
+      "title": "AUTOMATED VISUAL INSPECTION PADA PRODUK CASTING MANUFACTURING MENGGUNAKAN DEEP CONVOLUTIONAL NEURAL NETWORK",
+      "notes": [
+        "notes/crossref_AUTOMATED_VISUAL_INSPECTION_PADA_PRODUK_CASTI_67b67d2d1f.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-09-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.51903/elkom.v19i1.3679": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.51903/elkom.v19i1.3679",
+      "original_url": "https://doi.org/10.51903/elkom.v19i1.3679",
+      "title": "Implementasi Convolutional Neural Network berbasis Transfer Learning untuk Klasifikasi Acute Lymphoblastic Leukemia",
+      "notes": [
+        "notes/crossref_Implementasi_Convolutional_Neural_Network_ber_dacad588d1.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-07-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.62441/actainnovations.vi.1902": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.62441/actainnovations.vi.1902",
+      "original_url": "https://doi.org/10.62441/actainnovations.vi.1902",
+      "title": "MACHINE LEARNING AND CONVOLUTIONAL TRANSFORMER NEURAL NETWORK FRAMEWORK FOR AUTOMATED HUNTINGTON'S BRAIN DISEASE DETECTION FROM MRI",
+      "notes": [
+        "notes/crossref_MACHINE_LEARNING_AND_CONVOLUTIONAL_TRANSFORME_c30dcd7a37.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115161": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115161",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115161",
+      "title": "Lattice thermal conductivity of Ti3C2 MXene via deep-learning potential",
+      "notes": [
+        "notes/crossref_Lattice_thermal_conductivity_of_Ti3C2_MXene_v_cb170477f0.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.63044/s26gil31": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.63044/s26gil31",
+      "original_url": "https://doi.org/10.63044/s26gil31",
+      "title": "Vcool: A Validated Analytical Model for Quantifying Local Cooling and Decarbonisation Potential of Urban Vegetation",
+      "notes": [
+        "notes/crossref_Vcool_A_Validated_Analytical_Model_for_Quanti_83f2dbb5c5.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-08-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.67620/sai.58b0008": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.67620/sai.58b0008",
+      "original_url": "https://doi.org/10.67620/sai.58b0008",
+      "title": "DEVELOPING THE CREATIVE POTENTIAL OF PRIMARY SCHOOL PUPILS: THEORETICAL APPROACHES, INTERNATIONAL EVIDENCE, AND A METHODOLOGICAL MODEL",
+      "notes": [
+        "notes/crossref_DEVELOPING_THE_CREATIVE_POTENTIAL_OF_PRIMARY__53f511f1ca.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-09-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.18230/tjye.2026.34.5.503": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.18230/tjye.2026.34.5.503",
+      "original_url": "https://doi.org/10.18230/tjye.2026.34.5.503",
+      "title": "Instructors' Perceptions and Teaching Practices Regarding Student Engagement in Online Active Learning Environments: The Case of Minerva Fully Active Learning Courses",
+      "notes": [
+        "notes/crossref_Instructors_Perceptions_and_Teaching_Practice_889420d091.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-09-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.56806/jh.v6i2.251": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.56806/jh.v6i2.251",
+      "original_url": "https://doi.org/10.56806/jh.v6i2.251",
+      "title": "Analysis of Active Learning Strategies in Learning the Qur’an and Hadith",
+      "notes": [
+        "notes/crossref_Analysis_of_Active_Learning_Strategies_in_Lea_a132de77f4.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2025-06-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11027924/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11027924/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11027924/v1",
+      "title": "Active learning-driven experimental design for torrefaction process optimization using multi-objective Gaussian process surrogates",
+      "notes": [
+        "notes/crossref_Active_learning-driven_experimental_design_fo_7c6b485e05.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.watres.2026.127174": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.watres.2026.127174",
+      "original_url": "https://doi.org/10.1016/j.watres.2026.127174",
+      "title": "Beyond External Oxidants: 222 nm Far−UVC Unlocks the Reactive Potential of Bicarbonate for Organic Micropollutant Degradation",
+      "notes": [
+        "notes/crossref_Beyond_External_Oxidants_222_nm_Far_UVC_Unloc_ddccae65a8.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111065": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111065",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111065",
+      "title": "Green Deep Eutectic Solvent–Functionalized Graphene Oxide for Enhanced Doxorubicin Loading and Folate-Receptor–Mediated Targeting: An Experimental and Simulation Study",
+      "notes": [
+        "notes/crossref_Green_Deep_Eutectic_Solvent_Functionalized_Gr_e4b5d19e38.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.110991": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.110991",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.110991",
+      "title": "Effect of ultrasonic cavitation abrasive peening on the surface mechanical and tribological characteristics of additively manufactured H13 tool steel",
+      "notes": [
+        "notes/crossref_Effect_of_ultrasonic_cavitation_abrasive_peen_d7c2527ebd.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://github.com/parity-lrx/chorus-mlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/parity-lrx/chorus-mlip",
+      "original_url": "https://github.com/Parity-LRX/CHORUS-MLIP",
+      "title": "Parity-LRX/CHORUS-MLIP",
+      "notes": [
+        "notes/github_Parity-LRX_CHORUS-MLIP_2b32cf975f.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-19T07:01:25Z"
+    },
+    "https://github.com/mana121/mliap_hdnnp": {
+      "type": "github",
+      "canonical_url": "https://github.com/mana121/mliap_hdnnp",
+      "original_url": "https://github.com/mana121/MLIAP_HDNNP",
+      "title": "mana121/MLIAP_HDNNP",
+      "notes": [
+        "notes/github_mana121_MLIAP_HDNNP_b176b2b0e8.md"
+      ],
+      "added_at": "2026-10-19T10:27:53+00:00",
+      "last_requested_at": "2026-10-19T10:27:53+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-19T01:30:59Z"
     }
   }
 }
