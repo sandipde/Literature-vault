@@ -3602,6 +3602,58 @@
       "last_requested_at": "2026-10-20T16:24:26+00:00",
       "published_at": "2026-10-14",
       "updated_at": ""
+    },
+    "https://doi.org/10.1137/1.9781611979145.ch1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1137/1.9781611979145.ch1",
+      "original_url": "https://doi.org/10.1137/1.9781611979145.ch1",
+      "title": "Chapter 1: What is machine learning?",
+      "notes": [
+        "notes/crossref_Chapter_1_What_is_machine_learning_9c9ae47790.md"
+      ],
+      "added_at": "2026-10-20T20:15:54+00:00",
+      "last_requested_at": "2026-10-20T20:15:54+00:00",
+      "published_at": "2026-10-31",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/uralcon71028.2026.11734700": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/uralcon71028.2026.11734700",
+      "original_url": "https://doi.org/10.1109/uralcon71028.2026.11734700",
+      "title": "Universal Laboratory Test Bench for Investigating Magnetic Properties and Power Losses in Soft Magnetic Materials",
+      "notes": [
+        "notes/crossref_Universal_Laboratory_Test_Bench_for_Investiga_f0bc828888.md"
+      ],
+      "added_at": "2026-10-20T20:15:54+00:00",
+      "last_requested_at": "2026-10-20T20:15:54+00:00",
+      "published_at": "2026-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111067": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111067",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111067",
+      "title": "Degradation-Resistant Endogenous MIL-155 MOF under Humidity and Physiological-Fluid Exposure",
+      "notes": [
+        "notes/crossref_Degradation-Resistant_Endogenous_MIL-155_MOF__ff8d425aac.md"
+      ],
+      "added_at": "2026-10-20T20:15:54+00:00",
+      "last_requested_at": "2026-10-20T20:15:54+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010707/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010707/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010707/v1",
+      "title": "From Catalytic Networks to Activity Landscapes: A Hierarchical Nonequilibrium Framework for Catalysis",
+      "notes": [
+        "notes/chemrxiv_From_Catalytic_Networks_to_Activity_Landscape_5b21388dde.md"
+      ],
+      "added_at": "2026-10-20T20:15:54+00:00",
+      "last_requested_at": "2026-10-20T20:15:54+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
     }
   }
 }
