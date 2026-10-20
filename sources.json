@@ -3316,6 +3316,279 @@
       "last_requested_at": "2026-10-20T09:33:31+00:00",
       "published_at": "2026-10-07",
       "updated_at": "2026-10-07T08:47:59Z"
+    },
+    "https://arxiv.org/abs/2610.26701": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.26701",
+      "original_url": "https://arxiv.org/abs/2610.26701",
+      "title": "Challenging Atomistic Foundation Models on Disordered Carbons",
+      "notes": [
+        "notes/arxiv_2610.26701_Challenging_Atomistic_Foundation_Models_on_Di_32518c605a.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.26301": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.26301",
+      "original_url": "https://arxiv.org/abs/2610.26301",
+      "title": "Machine Learning-Assisted Discovery of Carbon-Related Defect Formation Mechanisms in Diamond",
+      "notes": [
+        "notes/arxiv_2610.26301_Machine_Learning-Assisted_Discovery_of_Carbon_99cfe336e3.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.26861": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.26861",
+      "original_url": "https://arxiv.org/abs/2610.26861",
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "notes": [
+        "notes/arxiv_2610.26861_Can_It_Actually_Work_Synthesizing_Functional__0c8f0ea894.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.26854": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.26854",
+      "original_url": "https://arxiv.org/abs/2610.26854",
+      "title": "Physical Words: A Vocabulary for Structuring Latent Reasoning in Robot Manipulation",
+      "notes": [
+        "notes/arxiv_2610.26854_Physical_Words_A_Vocabulary_for_Structuring_L_22056e996a.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.26841": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.26841",
+      "original_url": "https://arxiv.org/abs/2610.26841",
+      "title": "Isolated zeros of the Riemann zeta function and zeros of linear combinations of Dirichlet $L$-functions",
+      "notes": [
+        "notes/arxiv_2610.26841_Isolated_zeros_of_the_Riemann_zeta_function_a_7734b8b749.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6cp03121h/v1/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp03121h/v1/review1",
+      "original_url": "https://doi.org/10.1039/d6cp03121h/v1/review1",
+      "title": "Review for \"Janus BrClM (M = Ti, Zr, Hf) Monolayers: First-Principles Insights and a Restricted-Domain Machine-Learned Potential Analysis of Band Gaps, Surface Dipoles, and Optical Response Across the Group IV–B Series\"",
+      "notes": [
+        "notes/crossref_Review_for_Janus_BrClM_M_Ti_Zr_Hf_Monolayers__1ceca05353.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-08-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6cp03121h/v1/review2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp03121h/v1/review2",
+      "original_url": "https://doi.org/10.1039/d6cp03121h/v1/review2",
+      "title": "Review for \"Janus BrClM (M = Ti, Zr, Hf) Monolayers: First-Principles Insights and a Restricted-Domain Machine-Learned Potential Analysis of Band Gaps, Surface Dipoles, and Optical Response Across the Group IV–B Series\"",
+      "notes": [
+        "notes/crossref_Review_for_Janus_BrClM_M_Ti_Zr_Hf_Monolayers__5ac48ebb56.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-09-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6cp03121h/v2/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp03121h/v2/review1",
+      "original_url": "https://doi.org/10.1039/d6cp03121h/v2/review1",
+      "title": "Review for \"Janus BrClM (M = Ti, Zr, Hf) Monolayers: First-Principles Insights and a Restricted-Domain Machine-Learned Potential Analysis of Band Gaps, Surface Dipoles, and Optical Response Across the Group IV–B Series\"",
+      "notes": [
+        "notes/crossref_Review_for_Janus_BrClM_M_Ti_Zr_Hf_Monolayers__26969db75b.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.mlwa.2026.101039": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.mlwa.2026.101039",
+      "original_url": "https://doi.org/10.1016/j.mlwa.2026.101039",
+      "title": "Temperature-Aware Learning of Current–Voltage Behavior in Schottky Diodes: From Classical Machine Learning to Neural Basis-Expansion Models under a Leave-One-Temperature-Out Validation Protocol",
+      "notes": [
+        "notes/crossref_Temperature-Aware_Learning_of_Current_Voltage_ef9b08d700.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.54254/2755-2721/2026.38025": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.54254/2755-2721/2026.38025",
+      "original_url": "https://doi.org/10.54254/2755-2721/2026.38025",
+      "title": "First-Principles Study of Band-Gap Evolution in Monolayer MoS₂ under Biaxial Strain",
+      "notes": [
+        "notes/crossref_First-Principles_Study_of_Band-Gap_Evolution__f8527e92a4.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/14697874261493889": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/14697874261493889",
+      "original_url": "https://doi.org/10.1177/14697874261493889",
+      "title": "Understanding the Effective Use of Explaining to Fictitious Others in Instructional Videos: A Process-Oriented Analysis of Learners with Higher and Lower Learning Performance",
+      "notes": [
+        "notes/crossref_Understanding_the_Effective_Use_of_Explaining_73abe2f4f8.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104397": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104397",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104397",
+      "title": "Electric field of rotating uniformly charged ball",
+      "notes": [
+        "notes/crossref_Electric_field_of_rotating_uniformly_charged__2eb02a7a00.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.51202/9783181024720-127": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.51202/9783181024720-127",
+      "original_url": "https://doi.org/10.51202/9783181024720-127",
+      "title": "Potential Analysis of Range Extended Two-Drive-Powertrains",
+      "notes": [
+        "notes/crossref_Potential_Analysis_of_Range_Extended_Two-Driv_98b3d415a0.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111061": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111061",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111061",
+      "title": "Humidity-Modulated NO2 Adsorption and Electronic Response on Ti2CCl2 MXene: A First-Principles Study",
+      "notes": [
+        "notes/crossref_Humidity-Modulated_NO2_Adsorption_and_Electro_423667906f.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010697/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010697/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010697/v1",
+      "title": "Cellulose-Derived Cu-N-C Hybrid for Potential-Regulated CO2-to-CH4 Electroreduction",
+      "notes": [
+        "notes/chemrxiv_Cellulose-Derived_Cu-N-C_Hybrid_for_Potential_dccf2fc31e.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010691/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010691/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010691/v1",
+      "title": "Grassmannian Density Learning for Physically Consistent Kohn–Sham Electronic Structure Prediction",
+      "notes": [
+        "notes/chemrxiv_Grassmannian_Density_Learning_for_Physically__9f062278eb.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010693/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010693/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010693/v1",
+      "title": "THz Calorimetry of Electrolyte Solutions Links Water’s H-Bond Network to Macroscopic Properties",
+      "notes": [
+        "notes/chemrxiv_THz_Calorimetry_of_Electrolyte_Solutions_Link_644905341f.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010701/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010701/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010701/v1",
+      "title": "The Ferenczy Dataset Revisited: How HIV Protease Inhibitors Created an Illusion of Universal Size Dependence in Ligand Binding",
+      "notes": [
+        "notes/chemrxiv_The_Ferenczy_Dataset_Revisited_How_HIV_Protea_cbec59a130.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010484/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010484/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010484/v2",
+      "title": "Galvanic Coupling Links Heterogeneous and Molecular Palladium Catalysis in Aerobic Alcohol Oxidation",
+      "notes": [
+        "notes/chemrxiv_Galvanic_Coupling_Links_Heterogeneous_and_Mol_1c25fd7f2a.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010687/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010687/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010687/v1",
+      "title": "Contact organization separates biological from crystal protein interfaces matched on area and disjoint in sequence",
+      "notes": [
+        "notes/chemrxiv_Contact_organization_separates_biological_fro_00fef624fd.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://github.com/zacway/tp-mlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/zacway/tp-mlip",
+      "original_url": "https://github.com/zacway/TP-MLIP",
+      "title": "zacway/TP-MLIP",
+      "notes": [
+        "notes/github_zacway_TP-MLIP_321e642bd5.md"
+      ],
+      "added_at": "2026-10-20T09:46:32+00:00",
+      "last_requested_at": "2026-10-20T09:46:32+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-20T08:44:08Z"
     }
   }
 }
