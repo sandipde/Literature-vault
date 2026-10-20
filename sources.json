@@ -3654,6 +3654,19 @@
       "last_requested_at": "2026-10-20T20:15:54+00:00",
       "published_at": "2026-10-20",
       "updated_at": ""
+    },
+    "https://crystaldevs.github.io/CRYSTALClear": {
+      "type": "web",
+      "canonical_url": "https://crystaldevs.github.io/CRYSTALClear",
+      "original_url": "https://crystaldevs.github.io/CRYSTALClear/",
+      "title": "CRYSTALClear — CRYSTALClear",
+      "notes": [
+        "notes/172_CRYSTALClear_CRYSTALClear.md"
+      ],
+      "added_at": "2026-10-20T21:41:02+00:00",
+      "last_requested_at": "2026-10-20T21:41:02+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
