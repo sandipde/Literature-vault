@@ -3303,6 +3303,19 @@
       "last_requested_at": "2026-10-20T09:27:47+00:00",
       "published_at": "",
       "updated_at": "2026-10-19T17:46:34Z"
+    },
+    "https://arxiv.org/abs/2610.09685": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.09685",
+      "original_url": "https://arxiv.org/abs/2610.09685",
+      "title": "How Good Is DFT for Solid-Liquid Interfaces? A Comparison With the Random-Phase Approximation for Water on Graphene",
+      "notes": [
+        "notes/169_How_Good_Is_DFT_for_Solid-Liquid_Interfaces_A_Comp.md"
+      ],
+      "added_at": "2026-10-20T09:33:31+00:00",
+      "last_requested_at": "2026-10-20T09:33:31+00:00",
+      "published_at": "2026-10-07",
+      "updated_at": "2026-10-07T08:47:59Z"
     }
   }
 }
