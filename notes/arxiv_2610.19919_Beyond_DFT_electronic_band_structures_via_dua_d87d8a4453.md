@@ -6,7 +6,7 @@ canonical_url: https://arxiv.org/abs/2610.19919
 captured_by: auto-scanner
 date: '2026-10-15'
 captured_at: '2026-10-15T09:34:27+00:00'
-last_requested: '2026-10-15T09:34:27+00:00'
+last_requested: '2026-10-20T09:32:08+00:00'
 issue: scan:arxiv-ml-atomistic
 status: to-read
 authors:
