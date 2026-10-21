@@ -3927,6 +3927,175 @@
       "last_requested_at": "2026-10-21T10:39:56+00:00",
       "published_at": "2026-10-15",
       "updated_at": "2026-10-15T11:37:40Z"
+    },
+    "https://doi.org/10.1038/d41586-026-03376-6": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1038/d41586-026-03376-6",
+      "original_url": "https://doi.org/10.1038/d41586-026-03376-6",
+      "title": "Scientists put a salt marsh in a giant wave-machine: here's what they learned",
+      "notes": [
+        "notes/crossref_Scientists_put_a_salt_marsh_in_a_giant_wave-m_e69e96b51c.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1063/1674-0068/cjcp2607071": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1063/1674-0068/cjcp2607071",
+      "original_url": "https://doi.org/10.1063/1674-0068/cjcp2607071",
+      "title": "Insights into Water Induced Surface Structures of In2O3 from Machine Learning Potential Based Molecular Dynamics Simulation",
+      "notes": [
+        "notes/crossref_Insights_into_Water_Induced_Surface_Structure_7977313811.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/tcomm.2026.3745135": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/tcomm.2026.3745135",
+      "original_url": "https://doi.org/10.1109/tcomm.2026.3745135",
+      "title": "Unlocking Symbol-Level Precoding Efficiency Through Tensor Equivariant Neural Network",
+      "notes": [
+        "notes/crossref_Unlocking_Symbol-Level_Precoding_Efficiency_T_3518043b09.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.jhazmat.2026.143988": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.jhazmat.2026.143988",
+      "original_url": "https://doi.org/10.1016/j.jhazmat.2026.143988",
+      "title": "Contrasting potential mediating roles of DOC and SOM in microplastic effects on soil heavy metals bioavailability: A meta-analysis and machine learning approach",
+      "notes": [
+        "notes/crossref_Contrasting_potential_mediating_roles_of_DOC__a7246f6af5.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.69557/ujrra.v5i4.321": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.69557/ujrra.v5i4.321",
+      "original_url": "https://doi.org/10.69557/ujrra.v5i4.321",
+      "title": "INVESTIGATION OF BINDING ENERGY AND MASSES OF HEAVY BARYONS IN THE QUARK–DIQUARK MODEL",
+      "notes": [
+        "notes/crossref_INVESTIGATION_OF_BINDING_ENERGY_AND_MASSES_OF_1dc08fd3ab.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.47772/ijriss.2026.100900697": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.47772/ijriss.2026.100900697",
+      "original_url": "https://doi.org/10.47772/ijriss.2026.100900697",
+      "title": "Learning Journals as a Tool For Developing Active Learning Among Early Childhood Education Students",
+      "notes": [
+        "notes/crossref_Learning_Journals_as_a_Tool_For_Developing_Ac_3265d711d6.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/jacs.6c16489.s004": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/jacs.6c16489.s004",
+      "original_url": "https://doi.org/10.1021/jacs.6c16489.s004",
+      "title": "Long-Range Conjugation-Sensitized Erbium(III) Shortwave-Infrared Emission in Porphyrin Molecular Wires",
+      "notes": [
+        "notes/crossref_Long-Range_Conjugation-Sensitized_Erbium_III__d07d020dcf.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/jacs.6c16489.s002": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/jacs.6c16489.s002",
+      "original_url": "https://doi.org/10.1021/jacs.6c16489.s002",
+      "title": "Long-Range Conjugation-Sensitized Erbium(III) Shortwave-Infrared Emission in Porphyrin Molecular Wires",
+      "notes": [
+        "notes/crossref_Long-Range_Conjugation-Sensitized_Erbium_III__c45dd292c4.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010772/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010772/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010772/v1",
+      "title": "Dynamic Anionic Speciation and Proton Transfer in Choline/Geranic Acid Mixtures Revealed by Machine-Learned Molecular Dynamics",
+      "notes": [
+        "notes/chemrxiv_Dynamic_Anionic_Speciation_and_Proton_Transfe_3b77ee55df.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010767/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010767/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010767/v1",
+      "title": "Toward Interpretable Graph-Based Machine Learning for Combustion Kinetic Model Generation",
+      "notes": [
+        "notes/chemrxiv_Toward_Interpretable_Graph-Based_Machine_Lear_72e16d7c73.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010773/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010773/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010773/v1",
+      "title": "Mechanical versus thermal amorphization of ZIF-4: from local rearrangements to network disorder",
+      "notes": [
+        "notes/chemrxiv_Mechanical_versus_thermal_amorphization_of_ZI_aa6527413b.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://github.com/nabkh/best-of-mlips": {
+      "type": "github",
+      "canonical_url": "https://github.com/nabkh/best-of-mlips",
+      "original_url": "https://github.com/NabKh/best-of-mlips",
+      "title": "NabKh/best-of-mlips",
+      "notes": [
+        "notes/github_NabKh_best-of-mlips_8b8330a79b.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-21T19:41:15Z"
+    },
+    "https://github.com/lanl/alf": {
+      "type": "github",
+      "canonical_url": "https://github.com/lanl/alf",
+      "original_url": "https://github.com/lanl/ALF",
+      "title": "lanl/ALF",
+      "notes": [
+        "notes/github_lanl_ALF_ebf09cbb9d.md"
+      ],
+      "added_at": "2026-10-21T20:26:15+00:00",
+      "last_requested_at": "2026-10-21T20:26:15+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-21T17:01:42Z"
     }
   }
 }
