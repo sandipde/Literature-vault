@@ -3914,6 +3914,19 @@
       "last_requested_at": "2026-10-21T09:47:36+00:00",
       "published_at": "2026-10-21",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.21718": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.21718",
+      "original_url": "https://arxiv.org/html/2610.21718v1",
+      "title": "Bond-informed search for ordered configurations in multi-principal element alloys",
+      "notes": [
+        "notes/173_Bond-informed_search_for_ordered_configurations_in.md"
+      ],
+      "added_at": "2026-10-21T10:39:56+00:00",
+      "last_requested_at": "2026-10-21T10:39:56+00:00",
+      "published_at": "2026-10-15",
+      "updated_at": "2026-10-15T11:37:40Z"
     }
   }
 }
