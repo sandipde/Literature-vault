@@ -3667,6 +3667,253 @@
       "last_requested_at": "2026-10-20T21:41:02+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.28619": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.28619",
+      "original_url": "https://arxiv.org/abs/2610.28619",
+      "title": "Adaptive Multi-Token Prediction: How far should we go?",
+      "notes": [
+        "notes/arxiv_2610.28619_Adaptive_Multi-Token_Prediction_How_far_shoul_b8b187e5a2.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.28611": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.28611",
+      "original_url": "https://arxiv.org/abs/2610.28611",
+      "title": "Semantic Observability for Autonomous Systems Diagnostics",
+      "notes": [
+        "notes/arxiv_2610.28611_Semantic_Observability_for_Autonomous_Systems_f40bb2a6bf.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.28607": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.28607",
+      "original_url": "https://arxiv.org/abs/2610.28607",
+      "title": "Benchmarking Arabic Dialects for Math Problems",
+      "notes": [
+        "notes/arxiv_2610.28607_Benchmarking_Arabic_Dialects_for_Math_Problem_c11ccc78fa.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.apsusc.2026.168654": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.apsusc.2026.168654",
+      "original_url": "https://doi.org/10.1016/j.apsusc.2026.168654",
+      "title": "Atomic-scale mechanisms of SiO2 plasma-enhanced chemical vapor deposition revealed by molecular dynamics with a machine-learning interatomic potential",
+      "notes": [
+        "notes/crossref_Atomic-scale_mechanisms_of_SiO2_plasma-enhanc_0da608a163.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11223831/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11223831/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11223831/v1",
+      "title": "Machine-learned potentials link vacancy-dependent copper transport to post-implantation profiles in silicon",
+      "notes": [
+        "notes/crossref_Machine-learned_potentials_link_vacancy-depen_86b515114b.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/mmm.2026.3739224": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/mmm.2026.3739224",
+      "original_url": "https://doi.org/10.1109/mmm.2026.3739224",
+      "title": "Hands-on Machine Learning for Magnetodielectric Composites Characterization: Best Practices and Lessons Learned",
+      "notes": [
+        "notes/crossref_Hands-on_Machine_Learning_for_Magnetodielectr_102758b0eb.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jcim.6c02468": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jcim.6c02468",
+      "original_url": "https://doi.org/10.1021/acs.jcim.6c02468",
+      "title": "Efficient and Accurate Ligand Strain Calculations in Solution with the AIMNet2 Neural Network Potential",
+      "notes": [
+        "notes/crossref_Efficient_and_Accurate_Ligand_Strain_Calculat_4feb7e4fdc.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.65521/mjret.v10i1.3961": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.65521/mjret.v10i1.3961",
+      "original_url": "https://doi.org/10.65521/mjret.v10i1.3961",
+      "title": "Deep Learning and Optimization Approaches in Reflection Equivariant Quantum Neural Networks Based Human Resources Recruitment System for Business Process Management: A Review",
+      "notes": [
+        "notes/crossref_Deep_Learning_and_Optimization_Approaches_in__cff436ed84.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2023-03-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.35957/algoritme.v7i1.15735": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.35957/algoritme.v7i1.15735",
+      "original_url": "https://doi.org/10.35957/algoritme.v7i1.15735",
+      "title": "Analisis Perbandingan Performa Hybrid Quantum-Classical Neural Network dan Convolutional Neural Network dalam Klasifikasi Citra",
+      "notes": [
+        "notes/crossref_Analisis_Perbandingan_Performa_Hybrid_Quantum_08eb6eef16.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1093/oxfordhb/9780198915560.013.0009": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1093/oxfordhb/9780198915560.013.0009",
+      "original_url": "https://doi.org/10.1093/oxfordhb/9780198915560.013.0009",
+      "title": "The Intellectual Preconditions for ‘Universal’ History in Greece",
+      "notes": [
+        "notes/crossref_The_Intellectual_Preconditions_for_Universal__fbf7838865.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3390/jcs10100556": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3390/jcs10100556",
+      "original_url": "https://doi.org/10.3390/jcs10100556",
+      "title": "Machine Learning Prediction of Mechanical Properties of Nano Fly Ash-Modified Natural Fibre-Reinforced Composites",
+      "notes": [
+        "notes/crossref_Machine_Learning_Prediction_of_Mechanical_Pro_0b2b9802d3.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1575/1912/73275": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1575/1912/73275",
+      "original_url": "https://doi.org/10.1575/1912/73275",
+      "title": "Long-range, low-frequency source localization across the Gulf Stream using a large aperture vertical array and bottom/surface interacting paths",
+      "notes": [
+        "notes/crossref_Long-range_low-frequency_source_localization__34f5993409.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ya00267f": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ya00267f",
+      "original_url": "https://doi.org/10.1039/d6ya00267f",
+      "title": "Defects and interfaces in perovskite catalysis: structure–activity relationships for sustainable energy and environmental applications",
+      "notes": [
+        "notes/crossref_Defects_and_interfaces_in_perovskite_catalysi_516daa38bf.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.rsurfi.2026.101032": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.rsurfi.2026.101032",
+      "original_url": "https://doi.org/10.1016/j.rsurfi.2026.101032",
+      "title": "Surfactants for Enhanced Oil Recovery: A Critical Review of Mechanisms, Performance, Reservoir Compatibility, and Field Applications",
+      "notes": [
+        "notes/crossref_Surfactants_for_Enhanced_Oil_Recovery_A_Criti_5dcb427de8.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111075": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111075",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111075",
+      "title": "Surface Engineering of Ti64 Alloy Using Ti-TaN Multilayer Coatings and Laser Surface Texturing under Simulated Body Fluid Conditions",
+      "notes": [
+        "notes/crossref_Surface_Engineering_of_Ti64_Alloy_Using_Ti-Ta_23e24de858.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010742/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010742/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010742/v1",
+      "title": "Machine Learning for Ionic Conductivity Prediction in Polymer Electrolytes: A Benchmark on Lithium Systems and a Feasibility Study on the Data-Scarce Multivalent (Mg, Zn, Na) Frontier",
+      "notes": [
+        "notes/chemrxiv_Machine_Learning_for_Ionic_Conductivity_Predi_ac2b779d9f.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010743/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010743/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010743/v1",
+      "title": "Quantum Coherence in Guest-Controlled Endohedral Fullerenes: Hierarchical Equations of Motion and a Neural-Network Model.",
+      "notes": [
+        "notes/chemrxiv_Quantum_Coherence_in_Guest-Controlled_Endohed_3b0b1ce4ed.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010747/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010747/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010747/v1",
+      "title": "Picking a Pucker: Excited-State Charge Redistribution Navigates the BN-Reshaped Conical-Intersection Landscape in Azaborine Photochemistry",
+      "notes": [
+        "notes/chemrxiv_Picking_a_Pucker_Excited-State_Charge_Redistr_ef92d6d6f8.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010754/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010754/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010754/v1",
+      "title": "A Novel Reactive Incipient Wetness Impregnation Assisted by H <sub>2</sub> O <sub>2</sub> for Vanadium Catalysts: the Case of V/Silicalite-1 zeolites in Oxidative Propane Dehydrogenation",
+      "notes": [
+        "notes/chemrxiv_A_Novel_Reactive_Incipient_Wetness_Impregnati_e945def822.md"
+      ],
+      "added_at": "2026-10-21T09:47:36+00:00",
+      "last_requested_at": "2026-10-21T09:47:36+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
     }
   }
 }
