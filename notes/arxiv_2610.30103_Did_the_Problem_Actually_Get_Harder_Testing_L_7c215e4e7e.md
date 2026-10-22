@@ -1,0 +1,60 @@
+---
+title: Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete
+  Problems Hardened by Adversarial Multi-Agent Rewriting
+type: arxiv
+source: https://arxiv.org/abs/2610.30103
+canonical_url: https://arxiv.org/abs/2610.30103
+captured_by: auto-scanner
+date: '2026-10-22'
+captured_at: '2026-10-22T09:48:39+00:00'
+last_requested: '2026-10-22T09:48:39+00:00'
+issue: scan:mlip-development-arxiv
+status: to-read
+authors:
+- Nurul Labib Sayeedi
+- Md. Faiyaz Abdullah Sayeedi
+- Zabir Al Nazi
+- Mahbub E Sobhani
+- Shubhashis Roy Dipta
+published: '2026-10-21'
+abstract: Many NP-complete (NPC) problems have a polynomial-time (P) twin that differs
+  in a single structural detail, such as 3- versus 2-colouring a graph. A model that
+  reasons rather than recalls should notice which side of this boundary a problem
+  falls on, yet existing benchmarks either fix the wording of each task or ignore
+  its complexity class, so they cannot separate the two. We introduce P2NPCBench,
+  a benchmark of 12 problem families in which every NPC problem is paired with a P
+  twin posed over the same surface. To remove the textbook cues that enable recall,
+  we build it with AgentGAN, an adversarial multi-agent framework in which a generator
+  rewrites each statement until a panel of frozen code models fails, while an executable
+  validity gate keeps every rewrite answer- and class-preserving. The result is 2,114
+  hardened statements with hand-verified reference human solvers. Evaluating 12 proprietary
+  and open-source models, we find that every model scores lower on NPC statements
+  than on their P twins (35.4% vs. 63.8% pass@1), and that 95.1% of model-family pairs
+  fail more often on the NPC side. A tenfold time limit raises NPC accuracy only from
+  28.5% to 31.9%, so failures stem from wrong or crashing programs rather than slow
+  ones. Hardening also narrows the class gap from 24.8 to 14.6 points, showing that
+  part of the apparent gap reflects familiarity with textbook phrasing rather than
+  complexity class.
+metadata_provider: arXiv
+metadata_status: complete
+provider_data:
+  arxiv_id: '2610.30103'
+  categories:
+  - cs.CL
+---
+
+# Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting
+
+- **Type:** arxiv
+- **Source:** https://arxiv.org/abs/2610.30103
+- **Captured by:** @auto-scanner
+- **Metadata:** complete (arXiv)
+- **Authors:** Nurul Labib Sayeedi, Md. Faiyaz Abdullah Sayeedi, Zabir Al Nazi, Mahbub E Sobhani, Shubhashis Roy Dipta
+- **Published:** 2026-10-21
+
+## Summary
+Many NP-complete (NPC) problems have a polynomial-time (P) twin that differs in a single structural detail, such as 3- versus 2-colouring a graph. A model that reasons rather than recalls should notice which side of this boundary a problem falls on, yet existing benchmarks either fix the wording of each task or ignore its complexity class, so they cannot separate the two. We introduce P2NPCBench, a benchmark of 12 problem families in which every NPC problem is paired with a P twin posed over the same surface. To remove the textbook cues that enable recall, we build it with AgentGAN, an adversarial multi-agent framework in which a generator rewrites each statement until a panel of frozen code models fails, while an executable validity gate keeps every rewrite answer- and class-preserving. The result is 2,114 hardened statements with hand-verified reference human solvers. Evaluating 12 proprietary and open-source models, we find that every model scores lower on NPC statements than on their P twins (35.4% vs. 63.8% pass@1), and that 95.1% of model-family pairs fail more often on the NPC side. A tenfold time limit raises NPC accuracy only from 28.5% to 31.9%, so failures stem from wrong or crashing programs rather than slow ones. Hardening also narrows the class gap from 24.8 to 14.6 points, showing that part of the apparent gap reflects familiarity with textbook phrasing rather than complexity class.
+
+## Provider details
+- **Arxiv Id:** 2610.30103
+- **Categories:** ["cs.CL"]

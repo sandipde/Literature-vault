@@ -1,0 +1,41 @@
+---
+title: Mapping Hydrogen Adsorption Environments in Pt-Diluted CoFeMoNiPt High-Entropy
+  Alloy via DFT and MLIP-Assisted Screening
+type: paper
+source: https://doi.org/10.1016/j.surfin.2026.111088
+canonical_url: https://doi.org/10.1016/j.surfin.2026.111088
+captured_by: auto-scanner
+date: '2026-10-22'
+captured_at: '2026-10-22T09:48:39+00:00'
+last_requested: '2026-10-22T09:48:39+00:00'
+issue: scan:mlip-development-crossref
+status: to-read
+authors:
+- Muhammad Atif Sattar
+- Muhammad Ali
+published: 2026-10
+abstract: ''
+metadata_provider: Crossref
+metadata_status: complete
+provider_data:
+  doi: 10.1016/j.surfin.2026.111088
+  journal: Surfaces and Interfaces
+  publisher: Elsevier BV
+  type: journal-article
+  subjects: []
+---
+
+# Mapping Hydrogen Adsorption Environments in Pt-Diluted CoFeMoNiPt High-Entropy Alloy via DFT and MLIP-Assisted Screening
+
+- **Type:** paper
+- **Source:** https://doi.org/10.1016/j.surfin.2026.111088
+- **Captured by:** @auto-scanner
+- **Metadata:** complete (Crossref)
+- **Authors:** Muhammad Atif Sattar, Muhammad Ali
+- **Published:** 2026-10
+
+## Provider details
+- **Doi:** 10.1016/j.surfin.2026.111088
+- **Journal:** Surfaces and Interfaces
+- **Publisher:** Elsevier BV
+- **Type:** journal-article

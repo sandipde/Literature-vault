@@ -4096,6 +4096,240 @@
       "last_requested_at": "2026-10-21T20:26:15+00:00",
       "published_at": "",
       "updated_at": "2026-10-21T17:01:42Z"
+    },
+    "https://arxiv.org/abs/2610.29634": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.29634",
+      "original_url": "https://arxiv.org/abs/2610.29634",
+      "title": "Symmetry-Based Parameter Efficient Low-Rank Fine-Tuning for High-Throughput Calculation of Lattice Thermal Conductivity",
+      "notes": [
+        "notes/arxiv_2610.29634_Symmetry-Based_Parameter_Efficient_Low-Rank_F_cd4e4b2708.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.30123": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.30123",
+      "original_url": "https://arxiv.org/abs/2610.30123",
+      "title": "Temporal Exploration and Rendezvous via Weisfeiler-Leman Colorings",
+      "notes": [
+        "notes/arxiv_2610.30123_Temporal_Exploration_and_Rendezvous_via_Weisf_255ea5b7fd.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.30104": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.30104",
+      "original_url": "https://arxiv.org/abs/2610.30104",
+      "title": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
+      "notes": [
+        "notes/arxiv_2610.30104_BatchBench_Benchmarking_AI_Robustness_to_Batc_645a111e17.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.30103": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.30103",
+      "original_url": "https://arxiv.org/abs/2610.30103",
+      "title": "Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting",
+      "notes": [
+        "notes/arxiv_2610.30103_Did_the_Problem_Actually_Get_Harder_Testing_L_7c215e4e7e.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010828/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010828/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010828/v1",
+      "title": "Accelerating Mechanistic Understanding and Prediction of Chemical Selectivity with Foundation Machine-Learned Interatomic Potentials",
+      "notes": [
+        "notes/crossref_Accelerating_Mechanistic_Understanding_and_Pr_6af28b155f.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.7717/peerj-cs.4140/table-6": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.7717/peerj-cs.4140/table-6",
+      "original_url": "https://doi.org/10.7717/peerj-cs.4140/table-6",
+      "title": "Table 6: Shallow neural network configurations.",
+      "notes": [
+        "notes/crossref_Table_6_Shallow_neural_network_configurations_65c28220f2.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.intermet.2026.109643": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.intermet.2026.109643",
+      "original_url": "https://doi.org/10.1016/j.intermet.2026.109643",
+      "title": "The TRIP-active composition domain in CoCrFeNiCu alloys: machine learning screening and atomistic mechanisms",
+      "notes": [
+        "notes/crossref_The_TRIP-active_composition_domain_in_CoCrFeN_d9adf7c6b6.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.58737/jpled.v6i1.950": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.58737/jpled.v6i1.950",
+      "original_url": "https://doi.org/10.58737/jpled.v6i1.950",
+      "title": "The Influence of the Every One is A Teacher Here Type Active Learning Strategy on IPAS Learning Outcomes",
+      "notes": [
+        "notes/crossref_The_Influence_of_the_Every_One_is_A_Teacher_H_8b2a46e194.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-03-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.30596/jppp.v7i1.31362": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.30596/jppp.v7i1.31362",
+      "original_url": "https://doi.org/10.30596/jppp.v7i1.31362",
+      "title": "Active Learning Management in Islamic Education: Implementation of Pjbl, PBL, and Inquiry to Improve the Quality of Learning and Internalize Islamic Values",
+      "notes": [
+        "notes/crossref_Active_Learning_Management_in_Islamic_Educati_9cd9a76f9c.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-07-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/jacs.6c16489.s003": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/jacs.6c16489.s003",
+      "original_url": "https://doi.org/10.1021/jacs.6c16489.s003",
+      "title": "Long-Range Conjugation-Sensitized Erbium(III) Shortwave-Infrared Emission in Porphyrin Molecular Wires",
+      "notes": [
+        "notes/crossref_Long-Range_Conjugation-Sensitized_Erbium_III__c75d4e4ac2.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111083": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111083",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111083",
+      "title": "Magnetically assisted fabrication of fluorosilane-modified Fe3O4/PDMS photothermal superhydrophobic coatings for anti-icing and solar-driven deicing",
+      "notes": [
+        "notes/crossref_Magnetically_assisted_fabrication_of_fluorosi_002ccdb67a.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111088": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111088",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111088",
+      "title": "Mapping Hydrogen Adsorption Environments in Pt-Diluted CoFeMoNiPt High-Entropy Alloy via DFT and MLIP-Assisted Screening",
+      "notes": [
+        "notes/crossref_Mapping_Hydrogen_Adsorption_Environments_in_P_ad4b2e3771.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010813/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010813/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010813/v1",
+      "title": "Flexible force field-based screening and machine learning predictions for CO2 sorption and diffusion in MOFs",
+      "notes": [
+        "notes/chemrxiv_Flexible_force_field-based_screening_and_mach_94d804b38a.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010806/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010806/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010806/v1",
+      "title": "Atomistic Origin of Transition-Metal Dissolution in Ni-Rich Cathodes: The Role of Oxygen Loss",
+      "notes": [
+        "notes/chemrxiv_Atomistic_Origin_of_Transition-Metal_Dissolut_e24fab6da8.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15007426/v3": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15007426/v3",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15007426/v3",
+      "title": "Effective Directionality in Electron-Transfer-Driven Reactions on Bifurcating Multidimensional Potential Energy Surfaces",
+      "notes": [
+        "notes/chemrxiv_Effective_Directionality_in_Electron-Transfer_d50e27302a.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010805/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010805/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010805/v1",
+      "title": "Benchmarking Time-Dependent Density Functional Theory Plus One Double (TDDFT-1D) for Potential Energy Surfaces",
+      "notes": [
+        "notes/chemrxiv_Benchmarking_Time-Dependent_Density_Functiona_3170482130.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010841/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010841/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010841/v1",
+      "title": "Temperature Range",
+      "notes": [
+        "notes/chemrxiv_Temperature_Range_968a288374.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010757/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010757/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010757/v1",
+      "title": "One-Pot Synthesis of Oxazolines from Carboxylic Acids and Amino Alcohols using Phosphorus(V) Catalysis",
+      "notes": [
+        "notes/chemrxiv_One-Pot_Synthesis_of_Oxazolines_from_Carboxyl_a46435f1ed.md"
+      ],
+      "added_at": "2026-10-22T09:48:39+00:00",
+      "last_requested_at": "2026-10-22T09:48:39+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": ""
     }
   }
 }
