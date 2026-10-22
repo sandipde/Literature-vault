@@ -4330,6 +4330,19 @@
       "last_requested_at": "2026-10-22T09:48:39+00:00",
       "published_at": "2026-10-21",
       "updated_at": ""
+    },
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676989": {
+      "type": "web",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676989",
+      "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13676989/",
+      "title": "AI‐EXAFS: Physics‐Informed Prediction of EXAFS from Atomic Structure - PMC",
+      "notes": [
+        "notes/175_AI_EXAFS_Physics_Informed_Prediction_of_EXAFS_from.md"
+      ],
+      "added_at": "2026-10-22T16:33:25+00:00",
+      "last_requested_at": "2026-10-22T16:33:25+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
