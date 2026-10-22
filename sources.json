@@ -4343,6 +4343,110 @@
       "last_requested_at": "2026-10-22T16:33:25+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.1371/journal.pone.0361139": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1371/journal.pone.0361139",
+      "original_url": "https://doi.org/10.1371/journal.pone.0361139",
+      "title": "CohAlign: Predicting the first-order noise susceptibility of gradients in equivariant quantum neural networks",
+      "notes": [
+        "notes/crossref_CohAlign_Predicting_the_first-order_noise_sus_4695a9bbb1.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/00375497261496451": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/00375497261496451",
+      "original_url": "https://doi.org/10.1177/00375497261496451",
+      "title": "Agent-based simulation of distributed edge learning for deep neural networks",
+      "notes": [
+        "notes/crossref_Agent-based_simulation_of_distributed_edge_le_68949bf5c3.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111087": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111087",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111087",
+      "title": "Octahedral SnTe Microstructures for Selective Electrochemical CO2 Reduction to Formic Acid",
+      "notes": [
+        "notes/crossref_Octahedral_SnTe_Microstructures_for_Selective_acc336cf72.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010876/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010876/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010876/v1",
+      "title": "Charge-Transfer-State Descriptors from Donor–Acceptor Interfaces Enable Improved Prediction of Indoor Organic Photovoltaic Efficiency",
+      "notes": [
+        "notes/chemrxiv_Charge-Transfer-State_Descriptors_from_Donor__13580d255e.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010484/v3": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010484/v3",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010484/v3",
+      "title": "Galvanic Coupling Links Heterogeneous and Molecular Palladium Catalysis in Aerobic Alcohol Oxidation",
+      "notes": [
+        "notes/chemrxiv_Galvanic_Coupling_Links_Heterogeneous_and_Mol_29f7d8bdc3.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010864/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010864/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010864/v1",
+      "title": "Homogeneous–Heterogeneous Hybrid Oxidation Catalysis Based on Multiple Adsorption Enabling Efficient Aerobic Amide Oxygenation",
+      "notes": [
+        "notes/chemrxiv_Homogeneous_Heterogeneous_Hybrid_Oxidation_Ca_2a3d497614.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://github.com/ye3t-equivariance/ye3t-methods": {
+      "type": "github",
+      "canonical_url": "https://github.com/ye3t-equivariance/ye3t-methods",
+      "original_url": "https://github.com/ye3t-equivariance/ye3t-methods",
+      "title": "ye3t-equivariance/ye3t-methods",
+      "notes": [
+        "notes/github_ye3t-equivariance_ye3t-methods_dfbd999447.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-22T17:45:47Z"
+    },
+    "https://github.com/joakimsj/metamlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/joakimsj/metamlip",
+      "original_url": "https://github.com/joakimsj/MetaMLIP",
+      "title": "joakimsj/MetaMLIP",
+      "notes": [
+        "notes/github_joakimsj_MetaMLIP_0541d50aa4.md"
+      ],
+      "added_at": "2026-10-22T20:23:01+00:00",
+      "last_requested_at": "2026-10-22T20:23:01+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-22T11:46:39Z"
     }
   }
 }
