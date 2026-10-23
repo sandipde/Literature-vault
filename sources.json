@@ -4447,6 +4447,253 @@
       "last_requested_at": "2026-10-22T20:23:01+00:00",
       "published_at": "",
       "updated_at": "2026-10-22T11:46:39Z"
+    },
+    "https://arxiv.org/abs/2610.31183": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.31183",
+      "original_url": "https://arxiv.org/abs/2610.31183",
+      "title": "Unconstrained learning of equivariant atomistic properties",
+      "notes": [
+        "notes/arxiv_2610.31183_Unconstrained_learning_of_equivariant_atomist_600d908a90.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.31633": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.31633",
+      "original_url": "https://arxiv.org/abs/2610.31633",
+      "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+      "notes": [
+        "notes/arxiv_2610.31633_BeNice_Closing_Looping_s_Inference-Memory_Gap_ea0459ce8c.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.31624": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.31624",
+      "original_url": "https://arxiv.org/abs/2610.31624",
+      "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+      "notes": [
+        "notes/arxiv_2610.31624_Questioning_Instrumental_Convergence_in_RLVR__68259bbe1b.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.31565": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.31565",
+      "original_url": "https://arxiv.org/abs/2610.31565",
+      "title": "Squaring-the-Sphere: Distortion-Free and Seamless Panorama Generation via CubeAtlas",
+      "notes": [
+        "notes/arxiv_2610.31565_Squaring-the-Sphere_Distortion-Free_and_Seaml_3064ec32f1.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7657722": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7657722",
+      "original_url": "https://doi.org/10.2139/ssrn.7657722",
+      "title": "What matters in learned pipelines for the traveling salesman problem with drone: search objective, start diversity, and learned priors",
+      "notes": [
+        "notes/crossref_What_matters_in_learned_pipelines_for_the_tra_1d09d91bfe.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11462321/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11462321/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11462321/v1",
+      "title": "Unsupervised multimodal brain MRI registration with complementary learned and structural descriptors.",
+      "notes": [
+        "notes/crossref_Unsupervised_multimodal_brain_MRI_registratio_ad5b691650.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.eti.2026.105294": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.eti.2026.105294",
+      "original_url": "https://doi.org/10.1016/j.eti.2026.105294",
+      "title": "Prediction of groundwater nitrogen metabolic potential based on fluorescence information: An integrated semi-supervised learning-automated machine learning approach",
+      "notes": [
+        "notes/crossref_Prediction_of_groundwater_nitrogen_metabolic__51f0d67a1b.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.camwa.2026.10.024": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.camwa.2026.10.024",
+      "original_url": "https://doi.org/10.1016/j.camwa.2026.10.024",
+      "title": "Equivariant deep neural networks under finite group for solving partial differential equations",
+      "notes": [
+        "notes/crossref_Equivariant_deep_neural_networks_under_finite_26eb1961c7.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/1402-4896/aeb836": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/1402-4896/aeb836",
+      "original_url": "https://doi.org/10.1088/1402-4896/aeb836",
+      "title": "Universal machine learning force fields for materials simulation: From model construction to complex-system applications",
+      "notes": [
+        "notes/crossref_Universal_machine_learning_force_fields_for_m_07483d9275.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/979-8-8688-3237-6_6": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/979-8-8688-3237-6_6",
+      "original_url": "https://doi.org/10.1007/979-8-8688-3237-6_6",
+      "title": "AI-Augmented Network Management: The Model Context Protocol As a Universal Integration Layer",
+      "notes": [
+        "notes/crossref_AI-Augmented_Network_Management_The_Model_Con_9302bb2ac7.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104398": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104398",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104398",
+      "title": "Surface charge deposition, spreading, and relaxation on PP non-woven fabrics and PMMA plates under corona discharge: Experimental and quantitative analysis",
+      "notes": [
+        "notes/crossref_Surface_charge_deposition_spreading_and_relax_5ac3bfc5e0.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1103/8sqq-6mym": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/8sqq-6mym",
+      "original_url": "https://doi.org/10.1103/8sqq-6mym",
+      "title": "Long-range assortativity",
+      "notes": [
+        "notes/crossref_Long-range_assortativity_cd598b93a3.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104396": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104396",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104396",
+      "title": "Critical assessment of the technology landscape on electrostatic spray coating for food safety and nutrition: Emerging trends, opportunities, and challenges",
+      "notes": [
+        "notes/crossref_Critical_assessment_of_the_technology_landsca_b37cb75cca.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111044": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111044",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111044",
+      "title": "Editorial Board",
+      "notes": [
+        "notes/crossref_Editorial_Board_e718c84e74.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111090": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111090",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111090",
+      "title": "Preparation and Performance Study of an Antibacterial, Hydrophilic, and Lubricious Coating on PVC Surfaces",
+      "notes": [
+        "notes/crossref_Preparation_and_Performance_Study_of_an_Antib_87a686b75d.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010767/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010767/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010767/v2",
+      "title": "Toward Interpretable Graph-Based Machine Learning for Combustion Kinetic Model Generation",
+      "notes": [
+        "notes/chemrxiv_Toward_Interpretable_Graph-Based_Machine_Lear_bbcddbae44.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010932/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010932/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010932/v1",
+      "title": "Machine-Learning-Guided Prediction and Statistical Analysis of Electronic Bandgaps in Double-Perovskite Oxides for Photovoltaic and Optoelectronic Design",
+      "notes": [
+        "notes/chemrxiv_Machine-Learning-Guided_Prediction_and_Statis_594dc374b0.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15009604/v3": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15009604/v3",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15009604/v3",
+      "title": "In-column Synthesis and Atomic-resolution Electron Microscopic Analysis of Metastable Reactive Nitrides",
+      "notes": [
+        "notes/chemrxiv_In-column_Synthesis_and_Atomic-resolution_Ele_9c9049ac6a.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "2026-10-22",
+      "updated_at": ""
+    },
+    "https://github.com/sumedhk0/polyframenet": {
+      "type": "github",
+      "canonical_url": "https://github.com/sumedhk0/polyframenet",
+      "original_url": "https://github.com/sumedhk0/PolyFrameNet",
+      "title": "sumedhk0/PolyFrameNet",
+      "notes": [
+        "notes/github_sumedhk0_PolyFrameNet_a12ec1fc66.md"
+      ],
+      "added_at": "2026-10-23T09:43:13+00:00",
+      "last_requested_at": "2026-10-23T09:43:13+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-23T00:24:30Z"
     }
   }
 }

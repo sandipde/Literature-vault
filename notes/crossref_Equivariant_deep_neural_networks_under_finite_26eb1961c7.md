@@ -1,0 +1,42 @@
+---
+title: Equivariant deep neural networks under finite group for solving partial differential
+  equations
+type: paper
+source: https://doi.org/10.1016/j.camwa.2026.10.024
+canonical_url: https://doi.org/10.1016/j.camwa.2026.10.024
+captured_by: auto-scanner
+date: '2026-10-23'
+captured_at: '2026-10-23T09:43:13+00:00'
+last_requested: '2026-10-23T09:43:13+00:00'
+issue: scan:mlip-development-crossref
+status: to-read
+authors:
+- Jie-Ying Li
+- Lei-Lei Guo
+- Zhi-Yong Zhang
+published: 2026-12
+abstract: ''
+metadata_provider: Crossref
+metadata_status: complete
+provider_data:
+  doi: 10.1016/j.camwa.2026.10.024
+  journal: Computers &amp; Mathematics with Applications
+  publisher: Elsevier BV
+  type: journal-article
+  subjects: []
+---
+
+# Equivariant deep neural networks under finite group for solving partial differential equations
+
+- **Type:** paper
+- **Source:** https://doi.org/10.1016/j.camwa.2026.10.024
+- **Captured by:** @auto-scanner
+- **Metadata:** complete (Crossref)
+- **Authors:** Jie-Ying Li, Lei-Lei Guo, Zhi-Yong Zhang
+- **Published:** 2026-12
+
+## Provider details
+- **Doi:** 10.1016/j.camwa.2026.10.024
+- **Journal:** Computers &amp; Mathematics with Applications
+- **Publisher:** Elsevier BV
+- **Type:** journal-article
