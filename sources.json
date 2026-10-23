@@ -4694,6 +4694,110 @@
       "last_requested_at": "2026-10-23T09:43:13+00:00",
       "published_at": "",
       "updated_at": "2026-10-23T00:24:30Z"
+    },
+    "https://doi.org/10.26434/chemrxiv.15010957/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010957/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010957/v1",
+      "title": "Factorised Cartesian Atomic Cluster Expansion for Low-Cost Machine-Learning Interatomic Potentials",
+      "notes": [
+        "notes/crossref_Factorised_Cartesian_Atomic_Cluster_Expansion_1d87c1dd3f.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7651198": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7651198",
+      "original_url": "https://doi.org/10.2139/ssrn.7651198",
+      "title": "Interatomic-Potential Dependence of Surface Elasticity in Silicon Nanobeams: A Molecular Dynamics Calibration under Bending and Free Vibration",
+      "notes": [
+        "notes/crossref_Interatomic-Potential_Dependence_of_Surface_E_9312045b92.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11280089/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11280089/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11280089/v1",
+      "title": "Physics-Coupled Task Allocation for Collaborative Robotic Welding of Dissimilar Steel Joints Using an α-Potential Game and a Physics-Informed Neural Network Surrogate",
+      "notes": [
+        "notes/crossref_Physics-Coupled_Task_Allocation_for_Collabora_c8b71403e2.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/14697874261493771": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/14697874261493771",
+      "original_url": "https://doi.org/10.1177/14697874261493771",
+      "title": "‘I Didn’t Sign Up for This!’ Expectation Violation and Student Dissatisfaction in Fully Asynchronous Online Learning",
+      "notes": [
+        "notes/crossref_I_Didn_t_Sign_Up_for_This_Expectation_Violati_fa0864dfc4.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.cclet.2026.113549": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.cclet.2026.113549",
+      "original_url": "https://doi.org/10.1016/j.cclet.2026.113549",
+      "title": "Higher-lying long-range charge-transfer assisted MR-TADF emitters enable high-efficiency OLEDs with narrowband emission",
+      "notes": [
+        "notes/crossref_Higher-lying_long-range_charge-transfer_assis_17b34311aa.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111031": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111031",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111031",
+      "title": "Growth process integration of PECVD carbon materials in the development of devices based on ALD and RF sputtering metal oxides",
+      "notes": [
+        "notes/crossref_Growth_process_integration_of_PECVD_carbon_ma_2cf21493f0.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010947/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010947/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010947/v1",
+      "title": "Reactive Machine-Learned Potentials Improve Predictions of Water Diffusion Behaviour in Defective Industrial Zeolite HY",
+      "notes": [
+        "notes/chemrxiv_Reactive_Machine-Learned_Potentials_Improve_P_b6327f964c.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010948/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010948/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010948/v1",
+      "title": "Image-Charge Barriers, Not Polaron Kinetics, Limit Charge Extraction at Ligand-Passivated CsPbI3 Interfaces",
+      "notes": [
+        "notes/chemrxiv_Image-Charge_Barriers_Not_Polaron_Kinetics_Li_846dcd7cb1.md"
+      ],
+      "added_at": "2026-10-23T20:11:01+00:00",
+      "last_requested_at": "2026-10-23T20:11:01+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
     }
   }
 }
