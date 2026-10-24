@@ -4798,6 +4798,162 @@
       "last_requested_at": "2026-10-23T20:11:01+00:00",
       "published_at": "2026-10-23",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115195": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115195",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115195",
+      "title": "Navigating compositional space in palladium hydride: benchmarking machine learning interatomic potentials",
+      "notes": [
+        "notes/crossref_Navigating_compositional_space_in_palladium_h_1f1a51d24c.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/2058-9565/aeb8ef": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2058-9565/aeb8ef",
+      "original_url": "https://doi.org/10.1088/2058-9565/aeb8ef",
+      "title": "Topology-Dependent Compilation Asymmetry in Equivariant Quantum Neural Networks: A Compile-Once-and-Relabel Solution",
+      "notes": [
+        "notes/crossref_Topology-Dependent_Compilation_Asymmetry_in_E_d6dfe96442.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6eb00136j": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6eb00136j",
+      "original_url": "https://doi.org/10.1039/d6eb00136j",
+      "title": "Toward Predictive Modeling of Li-Si Anode Interfaces: From Atomistic Mechanisms to Machine Learning Force Fields",
+      "notes": [
+        "notes/crossref_Toward_Predictive_Modeling_of_Li-Si_Anode_Int_87c3d6870f.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acscatal.5c07832.s006": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acscatal.5c07832.s006",
+      "original_url": "https://doi.org/10.1021/acscatal.5c07832.s006",
+      "title": "Generative Active Learning Discovers High-Performance O2 Reduction Catalysts for H2O2 Production",
+      "notes": [
+        "notes/crossref_Generative_Active_Learning_Discovers_High-Per_5a90d2fa76.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026-10-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/edssc70455.2026.11736353": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/edssc70455.2026.11736353",
+      "original_url": "https://doi.org/10.1109/edssc70455.2026.11736353",
+      "title": "A High Dynamic Range Flip-Chop Analog Counter with Feedback Charge Injection for SPAD Sensors",
+      "notes": [
+        "notes/crossref_A_High_Dynamic_Range_Flip-Chop_Analog_Counter_0e3029fad1.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111095": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111095",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111095",
+      "title": "Tuning Electronic Properties and Water-Induced Deformation in Graphene Nanoflakes via Controlled h-BN Domain Incorporation",
+      "notes": [
+        "notes/crossref_Tuning_Electronic_Properties_and_Water-Induce_204882ad04.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010977/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010977/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010977/v1",
+      "title": "Explainable Graph Neural Networks Reveal Molecular Features Associated with Umami Taste",
+      "notes": [
+        "notes/chemrxiv_Explainable_Graph_Neural_Networks_Reveal_Mole_44a73ce207.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15008135/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15008135/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15008135/v2",
+      "title": "Fragment-Grounded Neural Simulation of Electron Ionization Mass Spectra at Library Scale",
+      "notes": [
+        "notes/chemrxiv_Fragment-Grounded_Neural_Simulation_of_Electr_9bf1ac4975.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010950/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010950/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010950/v1",
+      "title": "Characterizing the Hydrophobic Contribution to Adsorption on Ligand-functionalized Surfaces",
+      "notes": [
+        "notes/chemrxiv_Characterizing_the_Hydrophobic_Contribution_t_82d4732a96.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": ""
+    },
+    "https://github.com/amirabbasi-physics/particledynamics.jl": {
+      "type": "github",
+      "canonical_url": "https://github.com/amirabbasi-physics/particledynamics.jl",
+      "original_url": "https://github.com/amirabbasi-physics/ParticleDynamics.jl",
+      "title": "amirabbasi-physics/ParticleDynamics.jl",
+      "notes": [
+        "notes/github_amirabbasi-physics_ParticleDynamics_jl_5c6db17b48.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-24T09:13:12Z"
+    },
+    "https://github.com/anshulk-cmu/ai4science__machine-learned-interatomic-potentials-mlips": {
+      "type": "github",
+      "canonical_url": "https://github.com/anshulk-cmu/ai4science__machine-learned-interatomic-potentials-mlips",
+      "original_url": "https://github.com/anshulk-cmu/AI4Science__Machine-learned-interatomic-potentials-MLIPs",
+      "title": "anshulk-cmu/AI4Science__Machine-learned-interatomic-potentials-MLIPs",
+      "notes": [
+        "notes/github_anshulk-cmu_AI4Science_Machine-learned-intera_f63b4bd54a.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-24T04:14:46Z"
+    },
+    "https://github.com/lipidl/lasp-pis": {
+      "type": "github",
+      "canonical_url": "https://github.com/lipidl/lasp-pis",
+      "original_url": "https://github.com/LipidL/LASP-PIS",
+      "title": "LipidL/LASP-PIS",
+      "notes": [
+        "notes/github_LipidL_LASP-PIS_08a220825c.md"
+      ],
+      "added_at": "2026-10-24T09:15:55+00:00",
+      "last_requested_at": "2026-10-24T09:15:55+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-24T07:21:11Z"
     }
   }
 }
