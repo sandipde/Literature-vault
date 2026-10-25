@@ -4993,6 +4993,162 @@
       "last_requested_at": "2026-10-24T19:12:45+00:00",
       "published_at": "2026-10",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.compgeo.2026.108768": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.compgeo.2026.108768",
+      "original_url": "https://doi.org/10.1016/j.compgeo.2026.108768",
+      "title": "Energy-based machine learning models for predicting soil liquefaction potential",
+      "notes": [
+        "notes/crossref_Energy-based_machine_learning_models_for_pred_4ec75852f2.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2027-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jpca.6c05120": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpca.6c05120",
+      "original_url": "https://doi.org/10.1021/acs.jpca.6c05120",
+      "title": "Directional Roaming in Formaldehyde Revealed by Dynamics Simulations on a Machine-Learnt Potential",
+      "notes": [
+        "notes/crossref_Directional_Roaming_in_Formaldehyde_Revealed__25fcbb1a46.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-10-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.hpb.2026.08.147": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.hpb.2026.08.147",
+      "original_url": "https://doi.org/10.1016/j.hpb.2026.08.147",
+      "title": "A Counterfactual, In-silico Machine Learning Framework to Identify the Best Potential Treatment for Hepatocellular Carcinoma",
+      "notes": [
+        "notes/crossref_A_Counterfactual_In-silico_Machine_Learning_F_a50bc3622d.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1145/3841358.3841363": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1145/3841358.3841363",
+      "original_url": "https://doi.org/10.1145/3841358.3841363",
+      "title": "Counterfactual Estimation of PM2.5 Reduction from Shifting Agricultural Biomass Burning Season: A Machine Learning Approach for Bangkok, Thailand",
+      "notes": [
+        "notes/crossref_Counterfactual_Estimation_of_PM2_5_Reduction__88185df6f5.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-07-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1145/3841358": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1145/3841358",
+      "original_url": "https://doi.org/10.1145/3841358",
+      "title": "Proceedings of the 9th International Conference on Machine Learning and Machine Intelligence",
+      "notes": [
+        "notes/crossref_Proceedings_of_the_9th_International_Conferen_86f57c42ec.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-07-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/2058-9565/aeb8ef/v1/review2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2058-9565/aeb8ef/v1/review2",
+      "original_url": "https://doi.org/10.1088/2058-9565/aeb8ef/v1/review2",
+      "title": "Review for \"Topology-Dependent Compilation Asymmetry in Equivariant Quantum Neural Networks: A Compile-Once-and-Relabel Solution\"",
+      "notes": [
+        "notes/crossref_Review_for_Topology-Dependent_Compilation_Asy_c08871545d.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-09-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/2058-9565/aeb8ef/v2/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2058-9565/aeb8ef/v2/review1",
+      "original_url": "https://doi.org/10.1088/2058-9565/aeb8ef/v2/review1",
+      "title": "Review for \"Topology-Dependent Compilation Asymmetry in Equivariant Quantum Neural Networks: A Compile-Once-and-Relabel Solution\"",
+      "notes": [
+        "notes/crossref_Review_for_Topology-Dependent_Compilation_Asy_2f6173c34d.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-09-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/2058-9565/aeb8ef/v1/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2058-9565/aeb8ef/v1/review1",
+      "original_url": "https://doi.org/10.1088/2058-9565/aeb8ef/v1/review1",
+      "title": "Review for \"Topology-Dependent Compilation Asymmetry in Equivariant Quantum Neural Networks: A Compile-Once-and-Relabel Solution\"",
+      "notes": [
+        "notes/crossref_Review_for_Topology-Dependent_Compilation_Asy_c927c5c847.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-07-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1111/2041-210x.70412/v2/review2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1111/2041-210x.70412/v2/review2",
+      "original_url": "https://doi.org/10.1111/2041-210x.70412/v2/review2",
+      "title": "Review for \"Vendi Information Gain for Active Learning and its Application to Ecology\"",
+      "notes": [
+        "notes/crossref_Review_for_Vendi_Information_Gain_for_Active__9f3a146988.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-02-08",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1111/2041-210x.70412/v2/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1111/2041-210x.70412/v2/review1",
+      "original_url": "https://doi.org/10.1111/2041-210x.70412/v2/review1",
+      "title": "Review for \"Vendi Information Gain for Active Learning and its Application to Ecology\"",
+      "notes": [
+        "notes/crossref_Review_for_Vendi_Information_Gain_for_Active__65a165cea7.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-01-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111104": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111104",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111104",
+      "title": "Plasma-Activated Nb2O5 Nanoparticles in Polyamide 6",
+      "notes": [
+        "notes/crossref_Plasma-Activated_Nb2O5_Nanoparticles_in_Polya_809e48aa7b.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.rsurfi.2026.101033": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.rsurfi.2026.101033",
+      "original_url": "https://doi.org/10.1016/j.rsurfi.2026.101033",
+      "title": "Surface modification of Ni-based single crystal superalloys by energy-intensive multifunction cavitation with synchrotron X-ray irradiation at SPring-8",
+      "notes": [
+        "notes/crossref_Surface_modification_of_Ni-based_single_cryst_5c26dfd766.md"
+      ],
+      "added_at": "2026-10-25T09:32:35+00:00",
+      "last_requested_at": "2026-10-25T09:32:35+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
     }
   }
 }
