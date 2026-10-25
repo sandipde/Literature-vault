@@ -5149,6 +5149,58 @@
       "last_requested_at": "2026-10-25T09:32:35+00:00",
       "published_at": "2026-10",
       "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jpca.6c05120.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpca.6c05120.s001",
+      "original_url": "https://doi.org/10.1021/acs.jpca.6c05120.s001",
+      "title": "Directional Roaming in Formaldehyde Revealed by Dynamics Simulations on a Machine-Learnt Potential",
+      "notes": [
+        "notes/crossref_Directional_Roaming_in_Formaldehyde_Revealed__3f5aa85ced.md"
+      ],
+      "added_at": "2026-10-25T19:25:49+00:00",
+      "last_requested_at": "2026-10-25T19:25:49+00:00",
+      "published_at": "2026-10-25",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7669069": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7669069",
+      "original_url": "https://doi.org/10.2139/ssrn.7669069",
+      "title": "Long-range 3D displacement monitoring of tall structures using a wireless ultra-wide-baseline stereo vision system",
+      "notes": [
+        "notes/crossref_Long-range_3D_displacement_monitoring_of_tall_5a72f3b2dd.md"
+      ],
+      "added_at": "2026-10-25T19:25:49+00:00",
+      "last_requested_at": "2026-10-25T19:25:49+00:00",
+      "published_at": "2026-10-25",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.microb.2026.100824": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.microb.2026.100824",
+      "original_url": "https://doi.org/10.1016/j.microb.2026.100824",
+      "title": "Development of EDIII-based subunit vaccine candidate for West Nile Virus, its evaluation for immunogenicity, neutralizing potential and cross-reactive antibody responses",
+      "notes": [
+        "notes/crossref_Development_of_EDIII-based_subunit_vaccine_ca_53f36f3fcf.md"
+      ],
+      "added_at": "2026-10-25T19:25:49+00:00",
+      "last_requested_at": "2026-10-25T19:25:49+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.53063/synsint.2026.63352": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.53063/synsint.2026.63352",
+      "original_url": "https://doi.org/10.53063/synsint.2026.63352",
+      "title": "From self-healing surfaces to living interfaces: A materials–cell biology perspective on next-generation biomaterials",
+      "notes": [
+        "notes/crossref_From_self-healing_surfaces_to_living_interfac_bfdb3c5769.md"
+      ],
+      "added_at": "2026-10-25T19:25:49+00:00",
+      "last_requested_at": "2026-10-25T19:25:49+00:00",
+      "published_at": "2026-09-28",
+      "updated_at": ""
     }
   }
 }
