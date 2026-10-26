@@ -5539,6 +5539,214 @@
       "last_requested_at": "2026-10-26T21:09:20+00:00",
       "published_at": "",
       "updated_at": "2026-10-26T09:51:25Z"
+    },
+    "https://doi.org/10.1049/icp.2026.3364": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1049/icp.2026.3364",
+      "original_url": "https://doi.org/10.1049/icp.2026.3364",
+      "title": "Applications of machine-learned state estimation in low-voltage grids",
+      "notes": [
+        "notes/crossref_Applications_of_machine-learned_state_estimat_7210fe84d2.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.5040/9781350865600": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.5040/9781350865600",
+      "original_url": "https://doi.org/10.5040/9781350865600",
+      "title": "Machine Learning – Modern Computer Vision &amp; Generative AI",
+      "notes": [
+        "notes/crossref_Machine_Learning_Modern_Computer_Vision_amp_G_d3f900e4ba.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2024",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jcim.6c01926.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jcim.6c01926.s001",
+      "original_url": "https://doi.org/10.1021/acs.jcim.6c01926.s001",
+      "title": "Predicting Protein Thermostability with Equivariant Graph Neural Networks and Contrastive Learning",
+      "notes": [
+        "notes/crossref_Predicting_Protein_Thermostability_with_Equiv_3d5e755727.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.ijhydene.2026.158251": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.ijhydene.2026.158251",
+      "original_url": "https://doi.org/10.1016/j.ijhydene.2026.158251",
+      "title": "Multi-layered deep neural network modeling of high-zeta-potential electroosmotic peristaltic transport and thermodynamic irreversibility in microfluidic devices",
+      "notes": [
+        "notes/crossref_Multi-layered_deep_neural_network_modeling_of_b4633489ce.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.electacta.2026.150283": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.electacta.2026.150283",
+      "original_url": "https://doi.org/10.1016/j.electacta.2026.150283",
+      "title": "Beyond sticky oxygen: Atomistic insights into pentafluorosulfanyl-based flexible imide anions as potential electrolyte-salt candidates",
+      "notes": [
+        "notes/crossref_Beyond_sticky_oxygen_Atomistic_insights_into__bf50bb60f3.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.24144/2414-0260.2026.2.15-18": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.24144/2414-0260.2026.2.15-18",
+      "original_url": "https://doi.org/10.24144/2414-0260.2026.2.15-18",
+      "title": "CALCULATION OF STRUCTURAL PARAMETERS OF PYROCHLORINE PHASES FROM PREDICTABLE INTERATOMIC DISTANCES",
+      "notes": [
+        "notes/crossref_CALCULATION_OF_STRUCTURAL_PARAMETERS_OF_PYROC_cabe14bc4a.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3897/jucs.168743": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3897/jucs.168743",
+      "original_url": "https://doi.org/10.3897/jucs.168743",
+      "title": "Model of Things (MoT): A Model-Driven Approach to Streamline Cloud-of-Things Application Development",
+      "notes": [
+        "notes/crossref_Model_of_Things_MoT_A_Model-Driven_Approach_t_eb41c27649.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.58532/nbennurv6b3332c8": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.58532/nbennurv6b3332c8",
+      "original_url": "https://doi.org/10.58532/nbennurv6b3332c8",
+      "title": "CONSTRUCTIVIST PEDAGOGY IN THE AGE OF ARTIFICIAL INTELLIGENCE: REIMAGINING SCIENCE EDUCATION THROUGH ACTIVE, EXPERIENTIAL AND PERSONALISED LEARNING",
+      "notes": [
+        "notes/crossref_CONSTRUCTIVIST_PEDAGOGY_IN_THE_AGE_OF_ARTIFIC_145fe5657d.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-08-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.4312/as/28332": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.4312/as/28332",
+      "original_url": "https://doi.org/10.4312/as/28332",
+      "title": "Kritični poslušalci podkastov",
+      "notes": [
+        "notes/crossref_Kriti_ni_poslu_alci_podkastov_518c9bcf2a.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3850/esrel2026061419_esrel26-p26126-cd": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3850/esrel2026061419_esrel26-p26126-cd",
+      "original_url": "https://doi.org/10.3850/esrel2026061419_esrel26-p26126-cd",
+      "title": "An Active-Learning Neural Network For Structural Reliability Analysis",
+      "notes": [
+        "notes/crossref_An_Active-Learning_Neural_Network_For_Structu_377690c18c.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.22541/essoar.15011073/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.22541/essoar.15011073/v1",
+      "original_url": "https://doi.org/10.22541/essoar.15011073/v1",
+      "title": "Long-Range Transported Aerosols Modulate Clouds, Radiation, and Precipitation over the Greenland Ice Sheet",
+      "notes": [
+        "notes/crossref_Long-Range_Transported_Aerosols_Modulate_Clou_ea6a7963c2.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111084": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111084",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111084",
+      "title": "Recent Advances in Superhydrophobic Surfaces for Drag reduction: Mechanisms, Fabrication, and Applications",
+      "notes": [
+        "notes/crossref_Recent_Advances_in_Superhydrophobic_Surfaces__57fade89a8.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111112": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111112",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111112",
+      "title": "Thickness-dependent structural evolution and electrical properties of Ba0.5Sr0.5TiO3/Bi(Mg2/3Nb1/3)O3 thin films",
+      "notes": [
+        "notes/crossref_Thickness-dependent_structural_evolution_and__97d014d29d.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011064/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011064/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011064/v1",
+      "title": "Ranking versus Absolute Accuracy in Matter–Light Simulation Cost Prediction",
+      "notes": [
+        "notes/chemrxiv_Ranking_versus_Absolute_Accuracy_in_Matter_Li_6c59b67956.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://github.com/stfc/aiida-mlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/stfc/aiida-mlip",
+      "original_url": "https://github.com/stfc/aiida-mlip",
+      "title": "stfc/aiida-mlip",
+      "notes": [
+        "notes/github_stfc_aiida-mlip_7b11d0b2e4.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-26T16:27:48Z"
+    },
+    "https://github.com/rogeriog/protocsp": {
+      "type": "github",
+      "canonical_url": "https://github.com/rogeriog/protocsp",
+      "original_url": "https://github.com/rogeriog/ProtoCSP",
+      "title": "rogeriog/ProtoCSP",
+      "notes": [
+        "notes/github_rogeriog_ProtoCSP_f76b0ea039.md"
+      ],
+      "added_at": "2026-10-26T21:17:55+00:00",
+      "last_requested_at": "2026-10-26T21:17:55+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-26T11:25:55Z"
     }
   }
 }
