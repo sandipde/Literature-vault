@@ -5526,6 +5526,19 @@
       "last_requested_at": "2026-10-26T10:43:25+00:00",
       "published_at": "2026-10-26",
       "updated_at": ""
+    },
+    "https://github.com/danielepessina/jaxgsa": {
+      "type": "github",
+      "canonical_url": "https://github.com/danielepessina/jaxgsa",
+      "original_url": "https://github.com/DanielePessina/jaxgsa",
+      "title": "DanielePessina/jaxgsa",
+      "notes": [
+        "notes/181_DanielePessina_jaxgsa.md"
+      ],
+      "added_at": "2026-10-26T21:09:20+00:00",
+      "last_requested_at": "2026-10-26T21:09:20+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-26T09:51:25Z"
     }
   }
 }
