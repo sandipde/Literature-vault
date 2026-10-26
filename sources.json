@@ -5214,6 +5214,19 @@
       "last_requested_at": "2026-10-26T09:25:25+00:00",
       "published_at": "",
       "updated_at": "2026-10-11T15:18:17Z"
+    },
+    "https://doi.org/10.1039/d6dd00292g/1364546/atomistic-modeling-of-chemical-disorder-in": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6dd00292g/1364546/atomistic-modeling-of-chemical-disorder-in",
+      "original_url": "https://pubs.rsc.org/dd/article/doi/10.1039/d6dd00292g/1364546/Atomistic-modeling-of-chemical-disorder-in",
+      "title": "Atomistic modeling of chemical disorder in materials: bridging conventional methods and AI-assisted approaches | Digital Discovery | The Royal Society of Chemistry",
+      "notes": [
+        "notes/180_Atomistic_modeling_of_chemical_disorder_in_materia.md"
+      ],
+      "added_at": "2026-10-26T09:50:21+00:00",
+      "last_requested_at": "2026-10-26T09:50:21+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
