@@ -6,6 +6,10 @@ source: https://arxiv.org/abs/2610.30103
 canonical_url: https://arxiv.org/abs/2610.30103
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [llm-reasoning, complexity-theory, adversarial-evaluation]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-arxiv
@@ -58,3 +62,9 @@ Many NP-complete (NPC) problems have a polynomial-time (P) twin that differs in 
 ## Provider details
 - **Arxiv Id:** 2610.30103
 - **Categories:** ["cs.CL"]
+
+## AI enrichment
+- **Concise summary:** The preprint evaluates language models on paired polynomial-time and NP-complete problems, including adversarially rewritten versions.
+- **Why it matters:** Paired tasks can help distinguish sensitivity to problem structure from apparent reasoning based on surface form.
+- **Caveat:** This is a preprint; the abstract does not establish how broadly the benchmark represents reasoning ability.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.30103); analysis based only on captured metadata, not independently verified full text.

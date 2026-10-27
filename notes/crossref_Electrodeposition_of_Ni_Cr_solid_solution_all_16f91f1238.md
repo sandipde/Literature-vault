@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [alloy-coatings, electrodeposition-process, deep-eutectic-solvents]
 title: Electrodeposition of Ni–Cr solid solution alloy coating on mild steel from
   ChCl-3EG deep eutectic solvents without any additives
 type: paper
@@ -42,3 +46,10 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title describes additive-free Ni-Cr alloy electrodeposition on mild steel from a choline-chloride/ethylene-glycol solvent.
+- **Why it matters:** A simpler deposition chemistry could be useful if coating composition and properties remain controllable.
+- **Caveat:** Title only; coating quality, corrosion behavior and process reproducibility cannot be inferred.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111105); analysis based only on captured metadata, not independently verified full text.

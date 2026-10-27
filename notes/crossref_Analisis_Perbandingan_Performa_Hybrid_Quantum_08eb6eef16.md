@@ -6,6 +6,10 @@ source: https://doi.org/10.35957/algoritme.v7i1.15735
 canonical_url: https://doi.org/10.35957/algoritme.v7i1.15735
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [quantum-classical-learning, medical-imaging, classification]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -56,3 +60,9 @@ Tantangan utama dalam penggunaan CNN konvensional untuk klasifikasi citra medis 
 - **Journal:** Jurnal Algoritme
 - **Publisher:** LPPM STMIK Global Informatika MDP
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The captured Spanish title identifies a comparison of a hybrid quantum-classical neural network and a convolutional network for image classification.
+- **Why it matters:** The comparison reflects interest in whether quantum-inspired architectures offer practical alternatives for image tasks.
+- **Caveat:** Only the title and brief captured description are available here; task details and comparative results are not established.
+- **Evidence:** [Captured source](https://doi.org/10.35957/algoritme.v7i1.15735); analysis based only on captured metadata, not independently verified full text.

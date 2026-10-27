@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [simulation-cost, ranking-metrics, quantum-dynamics]
 title: Ranking versus Absolute Accuracy in Matter–Light Simulation Cost Prediction
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15011064/v1
@@ -52,3 +56,10 @@ Ordering quantum-dynamical simulations by diﬃculty is not equivalent to pre-di
 - **Doi:** 10.26434/chemrxiv.15011064/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Matter-light simulation benchmarks show that strong difficulty rankings can coexist with poor absolute cost estimates and loose sufficient-step bounds.
+- **Why it matters:** Resource planning requires calibrated costs, whereas ranking may suffice only for prioritizing jobs.
+- **Caveat:** The preprint explicitly limits interpretation through censoring, unequal comparison populations and unavailable circuit domains; hardware-level conclusions are unsupported.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011064/v1); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [structural-reliability, active-learning, engineering-surrogates]
 title: An Active-Learning Neural Network For Structural Reliability Analysis
 type: paper
 source: https://doi.org/10.3850/esrel2026061419_esrel26-p26126-cd
@@ -37,3 +41,10 @@ provider_data:
 - **Journal:** 36th European Safety and Reliability Conference (ESREL 2026)
 - **Publisher:** Research Publishing Services
 - **Type:** proceedings-article
+
+## AI enrichment
+
+- **Concise summary:** The title proposes an active-learning neural network for structural reliability analysis.
+- **Why it matters:** Reliability estimation is a neighboring application where selective acquisition may reduce expensive evaluations.
+- **Caveat:** Title only; no acquisition rule, benchmark or performance is available, and no atomistic application is indicated.
+- **Evidence:** [Captured source](https://doi.org/10.3850/esrel2026061419_esrel26-p26126-cd); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [graphene-nanoflakes, boron-nitride, water-deformation]
 title: Tuning Electronic Properties and Water-Induced Deformation in Graphene Nanoflakes
   via Controlled h-BN Domain Incorporation
 type: paper
@@ -40,3 +44,10 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title examines incorporating h-BN domains into graphene nanoflakes to tune electronic properties and their deformation in water.
+- **Why it matters:** Joint electronic and structural responses could make domain engineering relevant to designing heterogeneous nanoscale interfaces.
+- **Caveat:** Title only; no abstract identifies the computational method, domain sizes or direction of the reported changes. An MLIP contribution is not established.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111095); analysis based only on captured metadata, not independently verified full text.

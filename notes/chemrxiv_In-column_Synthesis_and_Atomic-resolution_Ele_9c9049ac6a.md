@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15009604/v3
 canonical_url: https://doi.org/10.26434/chemrxiv.15009604/v3
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [nitrides, electron-microscopy, metastable-materials]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -67,3 +71,9 @@ Metastable and air-sensitive compounds are challenging to synthesize and charact
 - **Doi:** 10.26434/chemrxiv.15009604/v3
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint describes in-column synthesis and atomic-resolution electron microscopy of metastable reactive nitrides.
+- **Why it matters:** Pairing synthesis with high-resolution characterization can help investigate materials that are difficult to handle after formation.
+- **Caveat:** This is a preprint; the abstract does not establish which nitride phases or conditions are covered.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15009604/v3); analysis based only on captured metadata, not independently verified full text.

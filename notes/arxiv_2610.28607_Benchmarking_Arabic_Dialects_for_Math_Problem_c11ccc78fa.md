@@ -5,6 +5,10 @@ source: https://arxiv.org/abs/2610.28607
 canonical_url: https://arxiv.org/abs/2610.28607
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [arabic-language, math-benchmark, low-resource]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-arxiv
@@ -59,3 +63,9 @@ Mathematical reasoning remains underexplored for low-resource languages, includi
 ## Provider details
 - **Arxiv Id:** 2610.28607
 - **Categories:** ["cs.CL", "cs.AI"]
+
+## AI enrichment
+- **Concise summary:** The captured abstract introduces DAR-MGSM, a manually curated benchmark for mathematical reasoning in dialectal Arabic.
+- **Why it matters:** Language-specific evaluation can reveal reasoning gaps hidden by benchmarks concentrated on high-resource languages.
+- **Caveat:** This is a preprint; benchmark scope and results are described only in the captured abstract.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.28607); analysis based only on captured metadata, not independently verified full text.

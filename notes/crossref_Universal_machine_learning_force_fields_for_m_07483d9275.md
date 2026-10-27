@@ -6,6 +6,10 @@ source: https://doi.org/10.1088/1402-4896/aeb836
 canonical_url: https://doi.org/10.1088/1402-4896/aeb836
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [machine-learning-force-fields, materials-simulation, model-validation]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-crossref
@@ -59,3 +63,9 @@ Abstract Machine learning force fields (MLFFs) can achieve first-principles accu
 - **Journal:** Physica Scripta
 - **Publisher:** IOP Publishing
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract reviews machine-learning force fields from model construction to complex-system applications and frames their accuracy within validated domains.
+- **Why it matters:** Making the validation domain explicit is important when deciding whether a force field is suitable for a new simulation.
+- **Caveat:** The abstract makes broad review-level claims; the coverage and examples are not independently inspected.
+- **Evidence:** [Captured source](https://doi.org/10.1088/1402-4896/aeb836); analysis based only on captured metadata, not independently verified full text.

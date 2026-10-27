@@ -6,6 +6,10 @@ source: https://doi.org/10.3390/jcs10100556
 canonical_url: https://doi.org/10.3390/jcs10100556
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [composite-materials, mechanical-properties, machine-learning]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -54,3 +58,9 @@ In this study, machine learning (ML) algorithms viz., Random Forest, eXtreme Gra
 - **Journal:** Journal of Composites Science
 - **Publisher:** MDPI AG
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract reports using random forest, XGBoost, and LASSO to predict mechanical properties of nano-fly-ash-modified natural-fiber composites.
+- **Why it matters:** Predictive models could help organize experiments across composite formulations and multiple mechanical outcomes.
+- **Caveat:** The captured abstract does not establish the dataset size or performance beyond this study.
+- **Evidence:** [Captured source](https://doi.org/10.3390/jcs10100556); analysis based only on captured metadata, not independently verified full text.

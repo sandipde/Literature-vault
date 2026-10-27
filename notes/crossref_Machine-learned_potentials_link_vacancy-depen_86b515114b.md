@@ -6,6 +6,10 @@ source: https://doi.org/10.21203/rs.3.rs-11223831/v1
 canonical_url: https://doi.org/10.21203/rs.3.rs-11223831/v1
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [silicon, copper-transport, machine-learned-potentials]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -63,3 +67,9 @@ Abstract Copper contamination threatens silicon devices because mobile Cu can fo
 - **Doi:** 10.21203/rs.3.rs-11223831/v1
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The abstract combines DFT-informed implantation simulations and actively learned potentials to study vacancy-dependent copper transport in silicon.
+- **Why it matters:** Linking atomistic defect transport to post-implantation profiles targets a practical contamination problem in silicon devices.
+- **Caveat:** This is posted content; the captured abstract does not establish the predictive scope of the simulations.
+- **Evidence:** [Captured source](https://doi.org/10.21203/rs.3.rs-11223831/v1); analysis based only on captured metadata, not independently verified full text.

@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010773/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010773/v1
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [metal-organic-frameworks, amorphization, structural-disorder]
 captured_at: '2026-10-21T20:26:15+00:00'
 last_requested: '2026-10-21T20:26:15+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -58,3 +62,9 @@ There is mounting evidence that different amorphization routes can produce metal
 - **Doi:** 10.26434/chemrxiv.15010773/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint compares local rearrangements and network disorder in ZIF-4 amorphized mechanically versus thermally.
+- **Why it matters:** Different routes to glass formation may lead to distinct structures, so the comparison frames a useful materials-processing question.
+- **Caveat:** This is a preprint; the captured abstract does not support broader claims about all MOF glasses.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010773/v1); analysis based only on captured metadata, not independently verified full text.

@@ -5,6 +5,10 @@ source: https://arxiv.org/abs/2610.31633
 canonical_url: https://arxiv.org/abs/2610.31633
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [language-model-inference, kv-sharing, looped-architectures]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-arxiv
@@ -60,3 +64,9 @@ Looped architectures scale quality while keeping parameter count fixed by repeat
 ## Provider details
 - **Arxiv Id:** 2610.31633
 - **Categories:** ["cs.LG"]
+
+## AI enrichment
+- **Concise summary:** The preprint presents BeNice, a KV-sharing approach intended to reduce the inference-memory costs of looped language-model architectures.
+- **Why it matters:** Inference memory can limit the practical benefits of parameter-efficient recurrent designs.
+- **Caveat:** This is a preprint; claimed memory or quality trade-offs are not independently verified.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.31633); analysis based only on captured metadata, not independently verified full text.

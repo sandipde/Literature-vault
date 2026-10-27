@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15007426/v3
 canonical_url: https://doi.org/10.26434/chemrxiv.15007426/v3
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [electron-transfer, reaction-dynamics, potential-energy-surfaces]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -63,3 +67,9 @@ Electron transfer (ET) is microscopically reversible under a closed, finite, Her
 - **Doi:** 10.26434/chemrxiv.15007426/v3
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint examines how electron-transfer-driven reactions can be directional on bifurcating multidimensional potential-energy surfaces despite microscopic reversibility.
+- **Why it matters:** It addresses how reaction outcomes emerge from dynamics when multiple product pathways compete.
+- **Caveat:** This is a preprint; the abstract's mechanistic account is not independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15007426/v3); analysis based only on captured metadata, not independently verified full text.

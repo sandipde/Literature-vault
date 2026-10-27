@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [science-education, constructivist-pedagogy, scan-noise]
 title: 'CONSTRUCTIVIST PEDAGOGY IN THE AGE OF ARTIFICIAL INTELLIGENCE: REIMAGINING
   SCIENCE EDUCATION THROUGH ACTIVE, EXPERIENTIAL AND PERSONALISED LEARNING'
 type: paper
@@ -58,3 +62,10 @@ Science Education can be described as transaction of scientific knowledge in the
 - **Journal:** IIP Series
 - **Publisher:** Iterative International Publishers (IIP)
 - **Type:** book-chapter
+
+## AI enrichment
+
+- **Concise summary:** The chapter advocates experiential, constructivist science teaching and discusses teacher roles and assessment through a literature-based treatment.
+- **Why it matters:** It provides educational context for active learning, a term that also appears in computational acquisition methods.
+- **Caveat:** This is off-topic pedagogy rather than ML active learning; the abstract does not substantiate a specific AI system or comparative intervention.
+- **Evidence:** [Captured source](https://doi.org/10.58532/nbennurv6b3332c8); analysis based only on captured metadata, not independently verified full text.

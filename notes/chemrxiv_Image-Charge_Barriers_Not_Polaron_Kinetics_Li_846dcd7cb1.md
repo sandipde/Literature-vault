@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010948/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010948/v1
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [perovskites, charge-extraction, interface-chemistry]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -67,3 +71,9 @@ Charge extraction across inorganic perovskite–organic ligand interfaces repres
 - **Doi:** 10.26434/chemrxiv.15010948/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint argues that image-charge barriers, rather than polaron kinetics, limit charge extraction across ligand-passivated CsPbI3 interfaces.
+- **Why it matters:** Identifying the dominant interface bottleneck could guide design of perovskite optoelectronic contacts.
+- **Caveat:** This is a ChemRxiv preprint; the proposed mechanism and scope are not independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010948/v1); analysis based only on captured metadata, not independently verified full text.

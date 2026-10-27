@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010747/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010747/v1
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [photochemistry, excited-states, conical-intersections]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -58,3 +62,9 @@ Photoexcited benzene yields multiple isomers, whereas its BN isostere 1,2-azabor
 - **Doi:** 10.26434/chemrxiv.15010747/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The abstract links excited-state charge redistribution and ring-puckering conical intersections to product selectivity in azaborine photochemistry.
+- **Why it matters:** It highlights how subtle electronic structure and nuclear motion can shape competing photochemical pathways.
+- **Caveat:** This is a ChemRxiv preprint; the mechanistic interpretation is summarized from its abstract only.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010747/v1); analysis based only on captured metadata, not independently verified full text.

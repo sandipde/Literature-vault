@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [mlip-tooling, pairwise-interactions, python]
 title: LipidL/LASP-PIS
 type: github
 source: https://github.com/LipidL/LASP-PIS
@@ -45,3 +49,10 @@ Pairwise interaction solver for a wide range of machine learning interatomic pot
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-24T07:21:11Z
+
+## AI enrichment
+
+- **Concise summary:** The repository description advertises a Python pairwise-interaction solver intended to work with multiple learned interatomic potentials.
+- **Why it matters:** A common interaction-analysis layer could make comparisons across potential families easier to organize.
+- **Caveat:** Title/description only; repository code, supported models, correctness and maintenance were not checked. Captured activity counters do not validate the implementation.
+- **Evidence:** [Captured source](https://github.com/LipidL/LASP-PIS); analysis based only on captured metadata, not independently verified full text.

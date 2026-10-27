@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [cell-fate, attractor-landscapes, transcriptomic-models]
 title: 'Attractor Landscapes and Network Dynamics of iPSC-Derived Neural Stem Cell
   Plasticity: A Complexity-Theoretic Benchmark of Cell-Fate Transitions'
 type: paper
@@ -63,3 +67,10 @@ Cell fate decisions are often studied as static transcriptomic snapshots even th
 - **Doi:** 10.20944/preprints202610.2330.v1
 - **Publisher:** MDPI AG
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A neural differentiation study combines transcriptomic state modeling, attractor analysis and predictive models to propose candidate regulators of cell-state changes.
+- **Why it matters:** Multiple dynamical representations may generate testable hypotheses beyond static cell labels.
+- **Caveat:** This off-topic biological preprint uses two sampled time points; inferred trajectories and steering candidates are not observed causal interventions.
+- **Evidence:** [Captured source](https://doi.org/10.20944/preprints202610.2330.v1); analysis based only on captured metadata, not independently verified full text.

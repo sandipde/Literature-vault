@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [quantum-channels, entropy-contraction, functional-inequalities]
 title: Complete entropy contraction from conditional hyperboundedness
 type: arxiv
 source: https://arxiv.org/abs/2610.35863
@@ -46,3 +50,10 @@ For finite-dimensional quantum channels compatible with a faithful conditional e
 ## Provider details
 - **Arxiv Id:** 2610.35863
 - **Categories:** ["quant-ph", "math.FA", "math.OA"]
+
+## AI enrichment
+
+- **Concise summary:** The preprint derives relative-entropy contraction from conditional hyperboundedness and GNS contraction, including complete versions under auxiliary-system bounds.
+- **Why it matters:** Such implications can connect accessible norm estimates to quantitative quantum mixing guarantees.
+- **Caveat:** The stated results depend on finite-dimensional and compatibility or symmetry assumptions; proofs and constants were not checked.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.35863); analysis based only on captured metadata, not independently verified full text.

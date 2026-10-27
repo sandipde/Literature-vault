@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [prodrug-design, bioactivation-prediction, molecular-ml]
 title: '<b>PCAN-PIE: A Machine Learning Tool for Prioritizing Prodrug Candidates by
   Predicted Bioactivation</b>'
 type: chemrxiv
@@ -62,3 +66,10 @@ Prodrug design enhances critical drug properties by creating drug derivatives wi
 - **Doi:** 10.26434/chemrxiv-2025-pn8qg/v3
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** PCAN-PIE prioritizes prodrugs by predicted release of their intended active ingredient and reports a small prospective candidate-selection test.
+- **Why it matters:** Modeling activation separately from other drug properties targets a concrete bottleneck in prodrug design.
+- **Caveat:** This versioned preprint's four-candidate campaign is limited evidence; activation prediction does not establish safety, efficacy or general metabolic coverage.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv-2025-pn8qg/v3); analysis based only on captured metadata, not independently verified full text.

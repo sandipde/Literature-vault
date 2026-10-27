@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [nmr-descriptors, chemical-space, organic-mixtures]
 title: Universal mapping of the structural space by 20 NMR-verifiable C,H,O-atomic
   units
 type: chemrxiv
@@ -71,3 +75,10 @@ Heterogeneous mixtures of organic molecules in natural ecosystems1–3 and green
 - **Doi:** 10.26434/chemrxiv.15011097/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A proposed set of twenty carbon-centered units links C/H/O molecular environments to NMR measurements for comparing complex organic mixtures.
+- **Why it matters:** Measurable coarse structural descriptors can be useful when identifying every individual mixture component is impractical.
+- **Caveat:** The preprint's universality is restricted to its C/H/O representation; these descriptors do not uniquely identify complete molecular structures.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011097/v1); analysis based only on captured metadata, not independently verified full text.

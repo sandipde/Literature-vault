@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [mixture-of-experts, composition-routing, mlip-benchmarking]
 title: anshulk-cmu/AI4Science__Machine-learned-interatomic-potentials-MLIPs
 type: github
 source: https://github.com/anshulk-cmu/AI4Science__Machine-learned-interatomic-potentials-MLIPs
@@ -44,3 +48,10 @@ Local-composition routing for mixture-of-experts interatomic potentials, benchma
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-24T04:14:46Z
+
+## AI enrichment
+
+- **Concise summary:** The description proposes local-composition routing for mixture-of-experts potentials and mentions comparison with UMA on OMol25.
+- **Why it matters:** Composition-aware specialization is a plausible way to explore tradeoffs between broad model coverage and locally tailored predictions.
+- **Caveat:** Title/description only; no benchmark results, routing details or code were inspected, and the captured license field is empty. The comparison mention does not establish an advantage over UMA.
+- **Evidence:** [Captured source](https://github.com/anshulk-cmu/AI4Science__Machine-learned-interatomic-potentials-MLIPs); analysis based only on captured metadata, not independently verified full text.

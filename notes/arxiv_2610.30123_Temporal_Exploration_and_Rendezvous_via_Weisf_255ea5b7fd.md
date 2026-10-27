@@ -5,6 +5,10 @@ source: https://arxiv.org/abs/2610.30123
 canonical_url: https://arxiv.org/abs/2610.30123
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [temporal-graphs, graph-coloring, exploration-algorithms]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-arxiv
@@ -62,3 +66,9 @@ Temporal graphs are graphs whose edge relation changes in discrete time steps. T
 ## Provider details
 - **Arxiv Id:** 2610.30123
 - **Categories:** ["cs.DS", "cs.CC", "cs.DM", "math.CO"]
+
+## AI enrichment
+- **Concise summary:** The preprint studies temporal graph exploration and rendezvous using Weisfeiler-Leman colorings.
+- **Why it matters:** It brings graph-structural tools to algorithms where edges and paths change over discrete time steps.
+- **Caveat:** This is a preprint; the abstract's stated results and assumptions are not independently verified.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.30123); analysis based only on captured metadata, not independently verified full text.

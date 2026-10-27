@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.apsusc.2026.168654
 canonical_url: https://doi.org/10.1016/j.apsusc.2026.168654
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [silica-deposition, molecular-dynamics, machine-learned-potentials]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -45,3 +49,9 @@ provider_data:
 - **Journal:** Applied Surface Science
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title describes molecular-dynamics study of atomic-scale mechanisms in plasma-enhanced chemical vapor deposition of silica using a machine-learning interatomic potential.
+- **Why it matters:** Atomistic models can help frame process-level questions about how deposited films form.
+- **Caveat:** Title only; no abstract was captured, so methods and findings beyond the stated topic are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.apsusc.2026.168654); analysis based only on captured metadata, not independently verified full text.

@@ -5,6 +5,10 @@ source: https://github.com/ye3t-equivariance/ye3t-methods
 canonical_url: https://github.com/ye3t-equivariance/ye3t-methods
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [equivariance, interatomic-potentials, quantum-operators]
 captured_at: '2026-10-22T20:23:01+00:00'
 last_requested: '2026-10-22T20:23:01+00:00'
 issue: scan:mlip-development-github
@@ -45,3 +49,9 @@ Applications of YE3T equivariance including machine-learned interatomic potentia
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-22T17:45:47Z
+
+## AI enrichment
+- **Concise summary:** The repository description lists applications of YE3T equivariance to machine-learned interatomic potentials and quantum-operator learning.
+- **Why it matters:** Equivariant representations encode transformation structure that is important in physical modeling.
+- **Caveat:** Repository description only; examples and implementation behavior are not independently checked.
+- **Evidence:** [Captured source](https://github.com/ye3t-equivariance/ye3t-methods); analysis based only on captured metadata, not independently verified full text.

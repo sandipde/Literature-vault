@@ -6,6 +6,10 @@ source: https://doi.org/10.1177/14697874261493771
 canonical_url: https://doi.org/10.1177/14697874261493771
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [online-learning, student-expectations, teacher-education]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-crossref
@@ -58,3 +62,9 @@ A cohort of Australian higher education providers offer initial teacher educatio
 - **Journal:** Active Learning in Higher Education
 - **Publisher:** SAGE Publications
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract examines expectation violation and student dissatisfaction in fully asynchronous online teacher-education courses.
+- **Why it matters:** Understanding mismatched expectations can inform course design and communication in online learning.
+- **Caveat:** The captured abstract describes a cohort context; findings should not be generalized to all online courses.
+- **Evidence:** [Captured source](https://doi.org/10.1177/14697874261493771); analysis based only on captured metadata, not independently verified full text.

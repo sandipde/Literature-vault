@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [hardfacing-coatings, wear-resistance, microstructure-properties]
 title: Microstructure and wear performance of NiCr-B hardfacing on AISI 316L(N) stainless
   steel via Ar + CO <sub>2</sub> shielded cold metal transfer
 type: paper
@@ -64,3 +68,10 @@ Hardfacing deposits of ER NiCr-B alloy were fabricated in single and double laye
 - **Journal:** Tribology - Materials, Surfaces &amp; Interfaces
 - **Publisher:** SAGE Publications
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** NiCr-B hardfacing tests relate layer-dependent precipitate content and hardness to wear under ambient and vacuum conditions.
+- **Why it matters:** The study connects processing, microstructure and environment-dependent degradation rather than treating hardness as a complete wear predictor.
+- **Caveat:** The captured results apply to the specified deposition and test conditions; long-term service performance and independent reproducibility are not established.
+- **Evidence:** [Captured source](https://doi.org/10.1177/17515831261500706); analysis based only on captured metadata, not independently verified full text.

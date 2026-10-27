@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [quantum-compilation, peer-review, version-record]
 title: 'Review for "Topology-Dependent Compilation Asymmetry in Equivariant Quantum
   Neural Networks: A Compile-Once-and-Relabel Solution"'
 type: paper
@@ -35,3 +39,10 @@ provider_data:
 - **Doi:** 10.1088/2058-9565/aeb8ef/v1/review1
 - **Publisher:** IOP Publishing
 - **Type:** peer-review
+
+## AI enrichment
+
+- **Concise summary:** The captured record is v1/review1 for the topology-dependent quantum-compilation paper.
+- **Why it matters:** Retaining the version marker can support later reconstruction of the paper's review history.
+- **Caveat:** Title only; no review content establishes the reviewer's conclusions. This duplicate-title family also contains v1/review2 and v2/review1, all attached to the same parent article rather than distinct studies.
+- **Evidence:** [Captured source](https://doi.org/10.1088/2058-9565/aeb8ef/v1/review1); analysis based only on captured metadata, not independently verified full text.

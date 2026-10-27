@@ -5,6 +5,10 @@ source: https://github.com/joakimsj/MetaMLIP
 canonical_url: https://github.com/joakimsj/metamlip
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [active-learning, interatomic-potentials, metadynamics]
 captured_at: '2026-10-22T20:23:01+00:00'
 last_requested: '2026-10-22T20:23:01+00:00'
 issue: scan:mlip-development-github
@@ -46,3 +50,9 @@ This repository contains an active learning workflow for training machine learni
 - **Forks:** 0
 - **Open Issues:** 2
 - **Pushed At:** 2026-10-22T11:46:39Z
+
+## AI enrichment
+- **Concise summary:** The repository description identifies an active-learning workflow for training interatomic potentials using metadynamics to sample reactive trajectories.
+- **Why it matters:** Sampling strategy is central to building potentials that cover reactive atomistic configurations.
+- **Caveat:** Repository description only; implementation and current status are not independently reviewed.
+- **Evidence:** [Captured source](https://github.com/joakimsj/MetaMLIP); analysis based only on captured metadata, not independently verified full text.

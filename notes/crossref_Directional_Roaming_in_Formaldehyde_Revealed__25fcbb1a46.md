@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [reactive-dynamics, formaldehyde, delta-learning]
 title: Directional Roaming in Formaldehyde Revealed by Dynamics Simulations on a Machine-Learnt
   Potential
 type: paper
@@ -58,3 +62,10 @@ Abstract The photodissociation study of formaldehyde (HCHO) is a benchmark for u
 Chemistry A
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The abstract describes active and delta learning for accelerated formaldehyde dissociation dynamics. It reports oxygen-centered roaming with directional structure and two hydrogen-abstraction pathways.
+- **Why it matters:** Learned reactive surfaces could connect electronic-structure accuracy to trajectory ensembles large enough to investigate uncommon reaction pathways.
+- **Caveat:** Accuracy and priority claims are reported by the authors and were not checked. The same-title .s001 component is a related supporting record, not independent corroboration or a distinct discovery.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jpca.6c05120); analysis based only on captured metadata, not independently verified full text.

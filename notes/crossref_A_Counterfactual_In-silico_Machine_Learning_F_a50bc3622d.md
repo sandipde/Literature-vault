@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [counterfactual-learning, liver-cancer, scan-noise]
 title: A Counterfactual, In-silico Machine Learning Framework to Identify the Best
   Potential Treatment for Hepatocellular Carcinoma
 type: paper
@@ -47,3 +51,10 @@ provider_data:
 - **Journal:** HPB
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title proposes counterfactual machine learning to compare potential treatments for hepatocellular carcinoma.
+- **Why it matters:** Comparing hypothetical interventions is an important methodological problem, but this clinical topic has no evident MLIP connection.
+- **Caveat:** Title only; no abstract establishes causal assumptions, clinical validation or treatment benefit. This is likely off-topic scan noise, not treatment guidance.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.hpb.2026.08.147); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [dirac-operators, stark-localization, spectral-asymptotics]
 title: Localization and eigenvalue asymptotics for long-range discrete Dirac operators
   with Stark potential
 type: paper
@@ -57,3 +61,10 @@ We study long-range discrete Dirac operators with Stark potential, extending the
 - **Journal:** Communications in Contemporary Mathematics
 - **Publisher:** World Scientific Pub Co Pte Ltd
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The paper extends discrete Stark-localization analysis to spinorial Dirac models, distinguishing local confinement mechanisms from long-range power-law localization.
+- **Why it matters:** Matrix-valued lattice structure changes the available localization mechanisms while retaining deterministic confinement.
+- **Caveat:** The mathematical claims are summarized from the abstract; hypotheses and proofs were not checked, and no direct materials application is established.
+- **Evidence:** [Captured source](https://doi.org/10.1142/s0219199726500847); analysis based only on captured metadata, not independently verified full text.

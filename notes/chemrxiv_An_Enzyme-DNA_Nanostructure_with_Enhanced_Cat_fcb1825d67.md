@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [enzyme-nanostructures, dna-functionalization, antimicrobial-catalysis]
 title: An Enzyme-DNA Nanostructure with Enhanced Catalysis Accelerates MRSA Wound
   Healing
 type: chemrxiv
@@ -66,3 +70,10 @@ Antibiotic-resistant wound infections are a growing clinical challenge, as bacte
 - **Doi:** 10.26434/chemrxiv.15011011/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** DNA grafting onto lactoperoxidase is reported to improve catalytic activity and proteolytic stability, with antibacterial and wound-healing results in laboratory and mouse models.
+- **Why it matters:** Surface modification that improves rather than sacrifices enzyme activity could broaden catalytic biomaterial design.
+- **Caveat:** This is a preprint with preclinical evidence; neither human efficacy nor general clinical safety follows from the captured abstract.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011011/v1); analysis based only on captured metadata, not independently verified full text.

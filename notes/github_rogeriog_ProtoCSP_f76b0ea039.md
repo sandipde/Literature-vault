@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [crystal-structure-search, prototype-transmutation, alloy-discovery]
 title: rogeriog/ProtoCSP
 type: github
 source: https://github.com/rogeriog/ProtoCSP
@@ -47,3 +51,10 @@ Accelerated discovery of solid solutions, high-entropy alloys, and complex cryst
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-26T11:25:55Z
+
+## AI enrichment
+
+- **Concise summary:** ProtoCSP advertises prototype transmutation and learned-potential validation for discovering solid solutions, high-entropy alloys and complex crystals.
+- **Why it matters:** Reusing known structural motifs can make large candidate searches more tractable.
+- **Caveat:** Description only; validation procedures, search completeness and discovery claims were not tested.
+- **Evidence:** [Captured source](https://github.com/rogeriog/ProtoCSP); analysis based only on captured metadata, not independently verified full text.

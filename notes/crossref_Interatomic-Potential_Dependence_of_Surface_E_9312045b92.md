@@ -6,6 +6,10 @@ source: https://doi.org/10.2139/ssrn.7651198
 canonical_url: https://doi.org/10.2139/ssrn.7651198
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [silicon-nanobeams, surface-elasticity, potential-calibration]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-crossref
@@ -58,3 +62,9 @@ Surface elasticity plays an important role in the size-dependent mechanical beha
 - **Doi:** 10.2139/ssrn.7651198
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The abstract studies how interatomic-potential choice affects surface-elasticity characterization in bent and freely vibrating silicon nanobeams.
+- **Why it matters:** Potential sensitivity matters when connecting atomistic simulations to continuum-scale mechanical behavior.
+- **Caveat:** This is posted content; the captured abstract does not establish which potentials are reliable beyond the studied case.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7651198); analysis based only on captured metadata, not independently verified full text.

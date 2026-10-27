@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [charged-sprays, droplet-splashing, agricultural-flows]
 title: 'Electrostatic suppression of spray splashing on foliage: a lamella-scale model
   for charged agricultural sprays'
 type: paper
@@ -38,3 +42,10 @@ provider_data:
 - **Journal:** Journal of Electrostatics
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title proposes a lamella-scale account of how charged agricultural sprays may suppress splashing on leaves.
+- **Why it matters:** Reduced splashing could matter for spray retention, but this is a continuum interfacial-flow topic.
+- **Caveat:** Title only; no mechanism validation or application benefit is captured, and the connection to atomistic modeling is weak.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.elstat.2026.104406); analysis based only on captured metadata, not independently verified full text.

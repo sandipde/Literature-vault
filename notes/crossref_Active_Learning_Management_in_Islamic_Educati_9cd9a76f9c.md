@@ -6,6 +6,10 @@ source: https://doi.org/10.30596/jppp.v7i1.31362
 canonical_url: https://doi.org/10.30596/jppp.v7i1.31362
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [islamic-education, active-learning, pedagogy]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-crossref
@@ -36,3 +40,9 @@ provider_data:
 - **Journal:** Jurnal Penelitian, Pendidikan dan Pengajaran: JPPP
 - **Publisher:** Universitas Muhammadiyah Sumatera Utara
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title describes implementation of project-based, problem-based, and inquiry learning in Islamic education.
+- **Why it matters:** It concerns how classroom formats are used to combine active participation with values-oriented teaching.
+- **Caveat:** Title only; no abstract was captured, so the study design and outcomes are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.30596/jppp.v7i1.31362); analysis based only on captured metadata, not independently verified full text.

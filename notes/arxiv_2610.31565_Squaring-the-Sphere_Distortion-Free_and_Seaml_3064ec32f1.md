@@ -6,6 +6,10 @@ source: https://arxiv.org/abs/2610.31565
 canonical_url: https://arxiv.org/abs/2610.31565
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [panorama-generation, spherical-imaging, cubeatlas]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-arxiv
@@ -62,3 +66,9 @@ Generating 360-degree panoramas requires both local perspective fidelity and glo
 ## Provider details
 - **Arxiv Id:** 2610.31565
 - **Categories:** ["cs.CV"]
+
+## AI enrichment
+- **Concise summary:** The preprint proposes CubeAtlas for generating 360-degree panoramas while balancing local perspective fidelity and continuity over the sphere.
+- **Why it matters:** Panorama generation must reconcile projection distortion with seamless global structure.
+- **Caveat:** This is a preprint; reported visual quality and comparisons are not independently evaluated here.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.31565); analysis based only on captured metadata, not independently verified full text.

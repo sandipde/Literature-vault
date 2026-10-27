@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [quantum-compilation, equivariance, graph-symmetry]
 title: 'Topology-Dependent Compilation Asymmetry in Equivariant Quantum Neural Networks:
   A Compile-Once-and-Relabel Solution'
 type: paper
@@ -64,3 +68,10 @@ Abstract Equivariant quantum neural networks are designed to preserve symmetries
 - **Journal:** Quantum Science and Technology
 - **Publisher:** IOP Publishing
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The captured abstract distinguishes ideal quantum-model equivariance from symmetry of compiled circuit costs. It reports topology-sensitive routing differences and proposes compiling once before relabeling symmetry-related inputs.
+- **Why it matters:** Symmetry-aware algorithms may need deployment-level audits, not just mathematical invariance checks.
+- **Caveat:** Reported results concern specified ansatz families and a simulator target, not a universal hardware guarantee. Three same-title peer-review records added on October 25 belong to this DOI's version family and are not independent studies.
+- **Evidence:** [Captured source](https://doi.org/10.1088/2058-9565/aeb8ef); analysis based only on captured metadata, not independently verified full text.

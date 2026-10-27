@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [power-grids, state-estimation, applied-ml]
 title: Applications of machine-learned state estimation in low-voltage grids
 type: paper
 source: https://doi.org/10.1049/icp.2026.3364
@@ -39,3 +43,10 @@ provider_data:
 - **Journal:** IET Conference Proceedings
 - **Publisher:** Institution of Engineering and Technology (IET)
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title addresses machine-learned state estimation for low-voltage electrical grids.
+- **Why it matters:** It points to an engineering inference problem, but not one directly about atomic interactions.
+- **Caveat:** Title only; methods and outcomes are unknown, and the item is peripheral to the vault's atomistic focus.
+- **Evidence:** [Captured source](https://doi.org/10.1049/icp.2026.3364); analysis based only on captured metadata, not independently verified full text.

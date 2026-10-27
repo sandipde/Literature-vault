@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [air-quality, regional-pollution, sensor-networks]
 title: Highly similar urban and rural air quality in West Bengal, India as revealed
   by statewide sensor network
 type: chemrxiv
@@ -63,3 +67,10 @@ The Indo-Gangetic Plain (IGP) suffers from some of the highest air pollution lev
 - **Doi:** 10.26434/chemrxiv.15011030/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A statewide sensor study reports small urban-rural pollution differences in West Bengal and argues for regional airshed management.
+- **Why it matters:** Similar exposure across settlement types would challenge a narrowly city-focused pollution strategy.
+- **Caveat:** This environmental preprint is peripheral to atomistic modeling; sensor calibration, spatial sampling and causal source attribution cannot be assessed here.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011030/v1); analysis based only on captured metadata, not independently verified full text.

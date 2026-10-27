@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [long-range-interactions, fourier-operators, environment-screening]
 title: When do machine-learning potentials need a configuration-dependent kernel?
   Learning long-range interactions with Fourier neural operators
 type: chemrxiv
@@ -63,3 +67,10 @@ Long-range interactions in machine-learning interatomic potentials are commonly 
 - **Doi:** 10.26434/chemrxiv.15011048/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** MACE-based Fourier neural operators learn long-range coupling, with nonlinear configuration-dependent kernels outperforming fixed kernels when the screening environment varies.
+- **Why it matters:** The distinction identifies a physical reason to add model complexity rather than choosing a flexible kernel by default.
+- **Caveat:** The preprint's necessity argument concerns its modeled screening setup; reported synthetic and first-principles tests do not establish universal superiority.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011048/v1); analysis based only on captured metadata, not independently verified full text.

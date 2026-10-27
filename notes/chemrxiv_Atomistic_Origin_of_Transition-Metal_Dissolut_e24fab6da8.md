@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010806/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010806/v1
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [lithium-ion-batteries, cathode-degradation, transition-metal-dissolution]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -62,3 +66,9 @@ High-voltage operation of Ni-rich cathodes accelerates degradation through surfa
 - **Doi:** 10.26434/chemrxiv.15010806/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint examines how oxygen loss relates to transition-metal dissolution in Ni-rich cathodes during high-voltage operation.
+- **Why it matters:** Understanding coupled degradation processes can inform hypotheses about cathode stability and lifetime.
+- **Caveat:** This is a ChemRxiv preprint; the abstract does not independently establish a causal mechanism.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010806/v1); analysis based only on captured metadata, not independently verified full text.

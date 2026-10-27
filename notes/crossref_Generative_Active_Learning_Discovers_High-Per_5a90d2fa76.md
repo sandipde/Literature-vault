@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [active-learning, catalyst-discovery, hydrogen-peroxide]
 title: Generative Active Learning Discovers High-Performance O2 Reduction Catalysts
   for H2O2 Production
 type: paper
@@ -35,3 +39,10 @@ provider_data:
 - **Doi:** 10.1021/acscatal.5c07832.s006
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** component
+
+## AI enrichment
+
+- **Concise summary:** The title associates generative active learning with finding oxygen-reduction catalysts for hydrogen-peroxide production.
+- **Why it matters:** Coupling candidate generation with selective evaluation could be a useful catalyst-search pattern to investigate.
+- **Caveat:** Title only; the captured provider type is component and the DOI ends in .s006, indicating a likely supporting item rather than an independent paper. The performance claim and any relationship to a parent study require checking.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acscatal.5c07832.s006); analysis based only on captured metadata, not independently verified full text.

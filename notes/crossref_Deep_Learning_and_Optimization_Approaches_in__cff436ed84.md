@@ -7,6 +7,10 @@ source: https://doi.org/10.65521/mjret.v10i1.3961
 canonical_url: https://doi.org/10.65521/mjret.v10i1.3961
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [recruitment, neural-networks, optimization]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -61,3 +65,9 @@ The rapid advancement of artificial intelligence and quantum computing has signi
 - **Journal:** Multidisciplinary Journal of Research in Engineering and Technology
 - **Publisher:** Researcher Connect Innovation and Impact Private Limited and MRI
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract describes a review of deep-learning and optimization approaches in a recruitment system for business-process management.
+- **Why it matters:** It sits at the intersection of automated decision support and organizational hiring, where evaluation and governance are consequential.
+- **Caveat:** The title and abstract are broad; no specific recruitment outcomes or validation claims are independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.65521/mjret.v10i1.3961); analysis based only on captured metadata, not independently verified full text.

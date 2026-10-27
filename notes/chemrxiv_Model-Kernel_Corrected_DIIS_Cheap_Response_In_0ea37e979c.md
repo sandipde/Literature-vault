@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [scf-convergence, electronic-structure, response-kernels]
 title: 'Model-Kernel Corrected DIIS: Cheap Response Information for the Roothaan Step'
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15011121/v1
@@ -61,3 +65,10 @@ Nearly all Kohn–Sham density functional theory (DFT) and Hartree–Fock calcul
 - **Doi:** 10.26434/chemrxiv.15011121/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** MK-DIIS adds an approximate Coulomb-response correction to the SCF diagonalization step, reporting fewer Fock builds with little extra runtime.
+- **Why it matters:** A correction that leaves Fock construction unchanged could be easier to integrate into existing electronic-structure software.
+- **Caveat:** Preprint benchmarks are unverified; savings depend on screening, exchange treatment and the delayed-start handling of open-shell cases.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011121/v1); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [molecular-motors, upconversion-particles, photon-budgets]
 title: '<b>The infinitesimal machine surgeon: prospects for upconversion nanoparticles
   driving molecular motors/nanomachines</b>'
 type: chemrxiv
@@ -56,3 +60,10 @@ The concept of the “infinitesimal machine surgeon” was envisaged by Feynman 
 - **Doi:** 10.26434/chemrxiv.15008974/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A perspective considers upconversion nanoparticles as light converters for activating molecular motors in tissue and outlines photon-budget constraints.
+- **Why it matters:** Accounting for light delivery and tissue limits is essential before extrapolating molecular motion to biological interventions.
+- **Caveat:** This versioned preprint is prospective, not a demonstration of a tissue-operating molecular surgeon; simplified optical calculations leave substantial uncertainty.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15008974/v2); analysis based only on captured metadata, not independently verified full text.

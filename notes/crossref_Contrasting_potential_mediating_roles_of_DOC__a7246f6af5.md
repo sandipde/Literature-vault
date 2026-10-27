@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.jhazmat.2026.143988
 canonical_url: https://doi.org/10.1016/j.jhazmat.2026.143988
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [microplastics, soil-chemistry, meta-analysis]
 captured_at: '2026-10-21T20:26:15+00:00'
 last_requested: '2026-10-21T20:26:15+00:00'
 issue: scan:mlip-development-crossref
@@ -43,3 +47,9 @@ provider_data:
 - **Journal:** Journal of Hazardous Materials
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title identifies a meta-analysis and machine-learning study of dissolved organic carbon and soil organic matter as possible mediators of microplastic effects on heavy-metal bioavailability.
+- **Why it matters:** It brings together environmental variables that may help organize complex soil-contaminant interactions.
+- **Caveat:** Title only; no abstract was captured, so the analysis and conclusions cannot be assessed.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.jhazmat.2026.143988); analysis based only on captured metadata, not independently verified full text.

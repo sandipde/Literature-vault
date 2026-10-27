@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [niobium-oxide, polymer-composites, plasma-treatment]
 title: Plasma-Activated Nb2O5 Nanoparticles in Polyamide 6
 type: paper
 source: https://doi.org/10.1016/j.surfin.2026.111104
@@ -41,3 +45,10 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title concerns plasma-activated niobium-oxide nanoparticles in a polyamide-6 matrix.
+- **Why it matters:** Surface treatment at an inorganic-polymer interface could be a useful materials-design variable to investigate.
+- **Caveat:** Title only; no abstract gives treatment conditions, interfacial mechanisms or property changes. No improvement or MLIP use can be inferred.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111104); analysis based only on captured metadata, not independently verified full text.

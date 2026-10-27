@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [active-learning, potential-fine-tuning, mechanical-retention]
 title: Retention-constrained fine-tuning of a pre-trained aluminium MACE potential
   for non-equilibrium defect dynamics and plasticity
 type: arxiv
@@ -61,3 +65,10 @@ Adapting a pre-trained machine-learning interatomic potential for non-equilibriu
 ## Provider details
 - **Arxiv Id:** 2610.35653
 - **Categories:** ["cond-mat.mtrl-sci"]
+
+## AI enrichment
+
+- **Concise summary:** The study fine-tunes an aluminium MACE potential for defect behavior while using relative-energy anchoring and acceptance gates to retain tested bulk responses.
+- **Why it matters:** Treating retention as an explicit constraint addresses the risk that specialization damages already useful material properties.
+- **Caveat:** Preprint evidence concerns one starting potential and selected aluminium tests; reported force-error improvements are modest and broader transfer is unproven.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.35653); analysis based only on captured metadata, not independently verified full text.

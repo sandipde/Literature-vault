@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [ferrite-materials, zinc-substitution, antibacterial-surfaces]
 title: Regulating the Structural and Surface Characteristics of SnFe2O4 by Zn Substitution
   for Enhanced Antibacterial Activity
 type: paper
@@ -42,3 +46,10 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title links zinc substitution in SnFe2O4 to structural and surface changes intended to improve antibacterial activity.
+- **Why it matters:** This could offer a composition-surface-function case study, although the connection to learned atomistic models is indirect.
+- **Caveat:** Title only; no abstract establishes the mechanism, test conditions or magnitude of the claimed improvement. No efficacy conclusion is justified from this capture.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111100); analysis based only on captured metadata, not independently verified full text.

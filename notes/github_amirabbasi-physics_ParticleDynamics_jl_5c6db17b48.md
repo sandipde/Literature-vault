@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [julia, gpu-simulation, mlip-integration]
 title: amirabbasi-physics/ParticleDynamics.jl
 type: github
 source: https://github.com/amirabbasi-physics/ParticleDynamics.jl
@@ -45,3 +49,10 @@ GPU-native Julia package for particle-based simulations with CUDA, including int
 - **Forks:** 1
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-24T09:13:12Z
+
+## AI enrichment
+
+- **Concise summary:** The repository description presents CUDA-based particle simulation in Julia with advertised MACE and Orb integrations.
+- **Why it matters:** Bringing learned forces into a GPU-native simulation stack could reduce friction between model evaluation and dynamics workflows.
+- **Caveat:** Title/description only; integration coverage, numerical stability, speed and usability were not tested or inferred from the repository's star count.
+- **Evidence:** [Captured source](https://github.com/amirabbasi-physics/ParticleDynamics.jl); analysis based only on captured metadata, not independently verified full text.

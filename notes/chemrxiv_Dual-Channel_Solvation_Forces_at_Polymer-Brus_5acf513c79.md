@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [polymer-brushes, solvation-forces, interfacial-ordering]
 title: Dual-Channel Solvation Forces at Polymer-Brush Interfaces
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15011061/v1
@@ -47,3 +51,10 @@ Integrating statistical-mechanical pole theory with molecular dynamics simulatio
 - **Doi:** 10.26434/chemrxiv.15011061/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Statistical-mechanical theory and molecular dynamics distinguish oscillatory liquid-correlation forces from an additional attraction associated with solvent freezing at ordered polymer brushes.
+- **Why it matters:** Brush ordering may change the mechanism of surface forces, not merely their magnitude.
+- **Caveat:** The preprint's parameter-free prediction claim is not independently checked, and applicability beyond the studied interfaces is unclear.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011061/v1); analysis based only on captured metadata, not independently verified full text.

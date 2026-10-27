@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [alkali-ion-storage, first-principles, boride-monolayers]
 title: Planar Hypercoordinate FeB3 Monolayer for Universal Alkali-Ion Storage with
   Ultrahigh Capacity and Ultralow Diffusion Barriers
 type: paper
@@ -58,3 +62,10 @@ Developing a single anode host capable of high-capacity and fast storage of Li, 
 - **Journal:** Materials
 - **Publisher:** MDPI AG
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** First-principles calculations propose planar FeB3 as a metallic host with favorable adsorption and low calculated migration barriers for lithium, sodium and potassium.
+- **Why it matters:** A common host for several alkali ions is an interesting computational design target.
+- **Caveat:** Calculated capacities and surface diffusion barriers are not measured cell performance; synthesis, cycling and electrolyte compatibility remain unestablished here.
+- **Evidence:** [Captured source](https://doi.org/10.3390/ma19214493); analysis based only on captured metadata, not independently verified full text.

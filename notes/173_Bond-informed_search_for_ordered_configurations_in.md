@@ -6,6 +6,10 @@ source: https://arxiv.org/html/2610.21718v1
 canonical_url: https://arxiv.org/abs/2610.21718
 captured_by: sandipde
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [alloy-ordering, monte-carlo, interatomic-models]
 captured_at: '2026-10-21T10:39:56+00:00'
 last_requested: '2026-10-21T10:39:56+00:00'
 issue: '173'
@@ -61,3 +65,9 @@ Ordered configurations in multi-principal element alloys (MPEAs) control their l
 - **Categories:** ["cond-mat.mtrl-sci"]
 - **Primary Category:** cond-mat.mtrl-sci
 - **Updated:** 2026-10-15T11:37:40Z
+
+## AI enrichment
+- **Concise summary:** The abstract describes MECx, which uses a bond-count-stratified surrogate to guide searches for ordered configurations in multi-principal element alloys.
+- **Why it matters:** The approach targets the cost of exploring large alloy configuration spaces with repeated first-principles calculations.
+- **Caveat:** This is a preprint abstract; reported comparisons and transfer behavior are not independently verified here.
+- **Evidence:** [Captured source](https://arxiv.org/html/2610.21718v1); analysis based only on captured metadata, not independently verified full text.

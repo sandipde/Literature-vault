@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [graph-neural-networks, molecular-attribution, taste-prediction]
 title: Explainable Graph Neural Networks Reveal Molecular Features Associated with
   Umami Taste
 type: chemrxiv
@@ -61,3 +65,10 @@ Umami is one of the five basic tastes, and understanding the relationship betwee
 - **Doi:** 10.26434/chemrxiv.15010977/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A molecular graph model combines scaffold-disjoint umami prediction with atom-level attribution. The abstract suggests that a functional group's molecular surroundings matter more than its presence alone.
+- **Why it matters:** Context-sensitive explanations could help distinguish useful structure-property hypotheses from simple functional-group counting.
+- **Caveat:** ChemRxiv v1 preprint with only 74 positive compounds in the captured description; attribution is not evidence of a causal taste mechanism. This is molecular-property modeling, not an interatomic potential.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010977/v1); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [lithium-silicon, battery-interfaces, machine-learning-force-fields]
 title: 'Toward Predictive Modeling of Li-Si Anode Interfaces: From Atomistic Mechanisms
   to Machine Learning Force Fields'
 type: paper
@@ -45,3 +49,10 @@ Silicon (Si) offers transformative potential for next-generation lithium-ion bat
 - **Journal:** EES Batteries
 - **Publisher:** Royal Society of Chemistry (RSC)
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title connects atomistic mechanisms at lithium-silicon anode interfaces with machine-learning force fields. The short captured abstract supplies silicon-capacity motivation rather than methodological details.
+- **Why it matters:** Interface modeling is a useful place to ask whether learned force fields represent chemically changing battery environments.
+- **Caveat:** The abstract is truncated before substantive methods or results; the title alone supports the force-field scope, not any demonstrated predictive accuracy.
+- **Evidence:** [Captured source](https://doi.org/10.1039/d6eb00136j); analysis based only on captured metadata, not independently verified full text.

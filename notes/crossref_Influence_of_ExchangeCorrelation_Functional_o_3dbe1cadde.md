@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [reference-functionals, borosilicate-glasses, potential-accuracy]
 title: 'Influence of ExchangeCorrelation Functional on Machine-Learned Interatomic
   Potentials Accuracy: A Systematic Study of Borosilicate Glasses'
 type: paper
@@ -35,3 +39,10 @@ provider_data:
 - **Doi:** 10.1021/acs.jctc.6c01609.s001
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** component
+
+## AI enrichment
+
+- **Concise summary:** The title examines how exchange-correlation functional choice affects learned interatomic-potential accuracy for borosilicate glasses.
+- **Why it matters:** Training labels inherit the approximations of the electronic-structure reference, even if a model reproduces them closely.
+- **Caveat:** Title only from a .s001 component; no functional ranking, error metric or glass-property validation is available.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jctc.6c01609.s001); analysis based only on captured metadata, not independently verified full text.

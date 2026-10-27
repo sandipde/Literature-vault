@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [microfluidic-transport, neural-surrogates, electroosmotic-flow]
 title: Multi-layered deep neural network modeling of high-zeta-potential electroosmotic
   peristaltic transport and thermodynamic irreversibility in microfluidic devices
 type: paper
@@ -43,3 +47,10 @@ provider_data:
 - **Journal:** International Journal of Hydrogen Energy
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title combines deep-network modeling with electroosmotic peristaltic transport and thermodynamic irreversibility in microfluidics.
+- **Why it matters:** Surrogate modeling could accelerate parameter exploration in coupled transport problems.
+- **Caveat:** Title only; neither training data nor physical validation is captured, and the subject is continuum rather than atomistic modeling.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.ijhydene.2026.158251); analysis based only on captured metadata, not independently verified full text.

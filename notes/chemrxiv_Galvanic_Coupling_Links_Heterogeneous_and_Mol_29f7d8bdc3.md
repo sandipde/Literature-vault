@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010484/v3
 canonical_url: https://doi.org/10.26434/chemrxiv.15010484/v3
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [palladium-catalysis, aerobic-oxidation, galvanic-coupling]
 captured_at: '2026-10-22T20:23:01+00:00'
 last_requested: '2026-10-22T20:23:01+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -58,3 +62,9 @@ Thermochemical catalytic reactions often consist of coupled electrochemical half
 - **Doi:** 10.26434/chemrxiv.15010484/v3
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint connects heterogeneous and molecular palladium catalysis through galvanic coupling during aerobic alcohol oxidation.
+- **Why it matters:** The proposed link emphasizes how coupled electrochemical steps may shape catalytic reaction pathways.
+- **Caveat:** This is a ChemRxiv preprint; the captured abstract's mechanistic claims are not independently validated.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010484/v3); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [nickel-superalloys, surface-modification, cavitation-treatment]
 title: Surface modification of Ni-based single crystal superalloys by energy-intensive
   multifunction cavitation with synchrotron X-ray irradiation at SPring-8
 type: paper
@@ -42,3 +46,10 @@ provider_data:
 - **Journal:** Results in Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title concerns cavitation-based surface modification of nickel single-crystal superalloys and mentions synchrotron X-ray irradiation at SPring-8.
+- **Why it matters:** Linking a treatment to surface-structure characterization could motivate questions about how processing changes alloy interfaces.
+- **Caveat:** Title only; no abstract clarifies the role of irradiation, the observed surface changes or property outcomes. No atomistic simulation or learned potential is established.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.rsurfi.2026.101033); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [classical-potentials, silicon, benchmarking]
 title: 'Four decades of classical interatomic potentials for silicon: Benchmarking
   thermal, defect and mechanical performance for tribology, wear and machining'
 type: paper
@@ -43,3 +47,10 @@ provider_data:
 - **Journal:** Computational Materials Science
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title presents a comparison of classical silicon potentials across thermal, defect and mechanical behavior relevant to wear and machining.
+- **Why it matters:** Such a benchmark could provide physically motivated baselines when deciding whether a learned potential adds useful capability.
+- **Caveat:** Title only; no abstract, potential rankings or benchmark protocols were captured. The recorded publication month is January 2027, distinct from this note's git-added date.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.commatsci.2026.115190); analysis based only on captured metadata, not independently verified full text.

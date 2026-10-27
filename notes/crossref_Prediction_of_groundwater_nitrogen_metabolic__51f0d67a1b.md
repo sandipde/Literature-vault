@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.eti.2026.105294
 canonical_url: https://doi.org/10.1016/j.eti.2026.105294
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [groundwater, nitrogen-cycling, semi-supervised-learning]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-crossref
@@ -43,3 +47,9 @@ provider_data:
 - **Journal:** Environmental Technology &amp; Innovation
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title describes predicting groundwater nitrogen-metabolic potential from fluorescence information using semi-supervised and automated machine learning.
+- **Why it matters:** Water-quality indicators could support screening of microbial nutrient-cycling potential.
+- **Caveat:** Title only; no abstract was captured, so measurements, validation, and findings are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.eti.2026.105294); analysis based only on captured metadata, not independently verified full text.

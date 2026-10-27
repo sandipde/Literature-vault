@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010957/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010957/v1
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [atomic-cluster-expansion, interatomic-potentials, computational-cost]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-crossref
@@ -58,3 +62,9 @@ Machine-learning interatomic potentials can reach the accuracy of density functi
 - **Doi:** 10.26434/chemrxiv.15010957/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint presents a factorised Cartesian atomic cluster expansion intended as a lower-cost machine-learning interatomic potential.
+- **Why it matters:** Reducing computational expense while retaining useful accuracy is a central challenge for atomistic simulation.
+- **Caveat:** This is a ChemRxiv preprint; cost and accuracy claims are not independently verified here.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010957/v1); analysis based only on captured metadata, not independently verified full text.

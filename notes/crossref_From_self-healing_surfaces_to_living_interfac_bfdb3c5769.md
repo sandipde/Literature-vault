@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [self-healing-materials, biointerfaces, functional-recovery]
 title: 'From self-healing surfaces to living interfaces: A materials–cell biology
   perspective on next-generation biomaterials'
 type: paper
@@ -65,3 +69,10 @@ Self-healing surfaces are undergoing a fundamental transition from passive mater
 - **Journal:** Synthesis and Sintering
 - **Publisher:** Synsint Research Group
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** This perspective separates mechanical crack repair from restoration of biological interface function. It proposes evaluating healing across chemical, structural and cellular dimensions.
+- **Why it matters:** A repaired material may still present a different environment to cells, so multidimensional recovery criteria could sharpen biomaterial evaluation.
+- **Caveat:** The abstract outlines a conceptual framework and roadmap, not a demonstrated universal healing technology. Relevance to atomistic modeling is indirect and no learned force field is described.
+- **Evidence:** [Captured source](https://doi.org/10.53063/synsint.2026.63352); analysis based only on captured metadata, not independently verified full text.

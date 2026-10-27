@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [electron-localization, spin-resolved, materials-screening]
 title: 'WISP: Learning spin-resolved electron localization from atomic environments'
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15011092/v1
@@ -51,3 +55,10 @@ The electron localization function (ELF) reveals bonding and interstitial locali
 - **Doi:** 10.26434/chemrxiv.15011092/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** WISP predicts spin-resolved electron localization from atomic environments and site moments, enforcing spin-channel exchange through paired network evaluations.
+- **Why it matters:** Fast localization estimates could prioritize magnetic or electride candidates for more expensive electronic-structure calculations.
+- **Caveat:** The preprint evaluates a fixed PBE-derived dataset; agreement with those labels does not establish accuracy outside that electronic-structure reference.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011092/v1); analysis based only on captured metadata, not independently verified full text.

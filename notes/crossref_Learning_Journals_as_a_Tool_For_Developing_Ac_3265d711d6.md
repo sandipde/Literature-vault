@@ -6,6 +6,10 @@ source: https://doi.org/10.47772/ijriss.2026.100900697
 canonical_url: https://doi.org/10.47772/ijriss.2026.100900697
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [education, reflective-learning, early-childhood]
 captured_at: '2026-10-21T20:26:15+00:00'
 last_requested: '2026-10-21T20:26:15+00:00'
 issue: scan:mlip-development-crossref
@@ -63,3 +67,9 @@ The study was conducted to evaluate the effectiveness of using learning journals
 - **Journal:** International Journal of Research and Innovation in Social Science
 - **Publisher:** RSIS International
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract describes evaluating learning journals as a tool for active learning among early-childhood education students.
+- **Why it matters:** Reflective journals are a classroom practice whose impact can be examined within teacher training.
+- **Caveat:** The captured abstract gives limited study context; outcomes should not be generalized beyond the described setting.
+- **Evidence:** [Captured source](https://doi.org/10.47772/ijriss.2026.100900697); analysis based only on captured metadata, not independently verified full text.

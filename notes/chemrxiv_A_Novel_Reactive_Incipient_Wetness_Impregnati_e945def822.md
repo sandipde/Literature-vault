@@ -7,6 +7,10 @@ source: https://doi.org/10.26434/chemrxiv.15010754/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010754/v1
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [zeolites, vanadium-catalysts, impregnation]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -67,3 +71,9 @@ Metal deposition in zeolites is often interpreted using concepts developed for r
 - **Doi:** 10.26434/chemrxiv.15010754/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The captured title and abstract describe peroxide-assisted reactive incipient-wetness impregnation of vanadium catalysts in silicalite-1 for oxidative propane dehydrogenation.
+- **Why it matters:** The work focuses on how deposition within microporous supports may differ from conventional open-surface catalyst preparation.
+- **Caveat:** This is a ChemRxiv preprint; the abstract does not independently establish catalyst structure or performance.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010754/v1); analysis based only on captured metadata, not independently verified full text.

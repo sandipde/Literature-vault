@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [oxide-thin-films, thickness-effects, electrical-properties]
 title: Thickness-dependent structural evolution and electrical properties of Ba0.5Sr0.5TiO3/Bi(Mg2/3Nb1/3)O3
   thin films
 type: paper
@@ -41,3 +45,10 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title links thickness-dependent structural changes to electrical behavior in mixed titanate/niobate oxide thin films.
+- **Why it matters:** Thickness can couple film structure to functional response, making it an important design variable.
+- **Caveat:** Title only; no trend direction, mechanism or measurement conditions are available.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111112); analysis based only on captured metadata, not independently verified full text.

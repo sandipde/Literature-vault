@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [peptide-stapling, molecular-recognition, biosensor-interfaces]
 title: 'Peptide Stapling: A Strategy for Enhanced Molecular Recognition of C-Reactive
   Protein'
 type: chemrxiv
@@ -65,3 +69,10 @@ In our previous studies, we identified three linear CRP‑binding peptides (P2, 
 - **Doi:** 10.26434/chemrxiv.15011054/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The study combines calculations and characterization to evaluate a stapled CRP-binding peptide as a more stable recognition element on electrodes.
+- **Why it matters:** Conformational constraints may improve recognition under proteolytic conditions relevant to sensor operation.
+- **Caveat:** The preprint's computational affinity comparisons do not alone establish binding constants or clinical sensor performance.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011054/v1); analysis based only on captured metadata, not independently verified full text.

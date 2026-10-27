@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010864/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010864/v1
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [catalysis, amide-oxygenation, adsorption]
 captured_at: '2026-10-22T20:23:01+00:00'
 last_requested: '2026-10-22T20:23:01+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -66,3 +70,9 @@ Homogeneous–heterogeneous combined catalysts, such as immobilized homogeneous 
 - **Doi:** 10.26434/chemrxiv.15010864/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint describes a homogeneous-heterogeneous hybrid oxidation catalyst based on multiple adsorption for aerobic amide oxygenation.
+- **Why it matters:** Combining molecular and surface catalytic motifs is one strategy for controlling adsorption and reaction steps.
+- **Caveat:** This is a ChemRxiv preprint; efficiency and mechanistic claims are not independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010864/v1); analysis based only on captured metadata, not independently verified full text.

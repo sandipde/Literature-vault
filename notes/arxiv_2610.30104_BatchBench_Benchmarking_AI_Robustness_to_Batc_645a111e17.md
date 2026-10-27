@@ -6,6 +6,10 @@ source: https://arxiv.org/abs/2610.30104
 canonical_url: https://arxiv.org/abs/2610.30104
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [biomedical-imaging, batch-effects, domain-shift]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-arxiv
@@ -49,3 +53,9 @@ Despite recent advances, current AI systems remain highly susceptible to domain 
 ## Provider details
 - **Arxiv Id:** 2610.30104
 - **Categories:** ["cs.LG", "cs.AI"]
+
+## AI enrichment
+- **Concise summary:** The preprint introduces BatchBench to evaluate AI robustness to batch effects and domain shifts in biomedical images.
+- **Why it matters:** Dataset and acquisition shifts can complicate the transfer of image-analysis systems across laboratories and experiments.
+- **Caveat:** This is a preprint; the captured abstract does not establish benchmark coverage or model performance.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.30104); analysis based only on captured metadata, not independently verified full text.

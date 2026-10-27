@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [biotribological-coatings, electrochemical-corrosion, additive-manufacturing]
 title: In Vitro Electrochemical Corrosion and Biotribological Behavior of Flame-Sprayed
   Single and Bilayer Coatings on SLM-Fabricated CoCrWMo Alloy
 type: paper
@@ -39,3 +43,10 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title compares corrosion and biotribological behavior of single and bilayer flame-sprayed coatings on additively manufactured CoCrWMo alloy.
+- **Why it matters:** Considering wear alongside corrosion is relevant when coatings face coupled mechanical and chemical stresses.
+- **Caveat:** Title only; no coating rankings or quantitative outcomes are captured, and in vitro tests would not alone establish implant performance.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111106); analysis based only on captured metadata, not independently verified full text.

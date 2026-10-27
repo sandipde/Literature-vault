@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [agentic-search, context-reranking, evidence-retrieval]
 title: 'ACARE: Agent-Context-Aware Reranker for Iterative Search'
 type: arxiv
 source: https://arxiv.org/abs/2610.35840
@@ -52,3 +56,10 @@ In agentic search, a document can match an agent-generated sub-query without hel
 ## Provider details
 - **Arxiv Id:** 2610.35840
 - **Categories:** ["cs.IR"]
+
+## AI enrichment
+
+- **Concise summary:** ACARe reranks search documents using the agent's broader task context rather than only the immediate sub-query, with reported retrieval and search-effort gains.
+- **Why it matters:** Context-sensitive ranking could reduce retrieval drift when a plausible local query no longer serves the original question.
+- **Caveat:** Preprint results are not independently checked; the abstract promises a future model, data and code release rather than confirming availability.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.35840); analysis based only on captured metadata, not independently verified full text.

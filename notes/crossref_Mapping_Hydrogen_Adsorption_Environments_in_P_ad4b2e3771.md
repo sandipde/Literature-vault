@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.surfin.2026.111088
 canonical_url: https://doi.org/10.1016/j.surfin.2026.111088
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [hydrogen-adsorption, high-entropy-alloys, machine-learned-potentials]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-crossref
@@ -39,3 +43,9 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title describes DFT and machine-learning-potential-assisted screening of hydrogen adsorption environments in a Pt-diluted CoFeMoNiPt alloy.
+- **Why it matters:** Mapping chemically varied adsorption sites may help interpret hydrogen interactions with compositionally complex surfaces.
+- **Caveat:** Title only; no abstract was captured, so screening methods and conclusions are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111088); analysis based only on captured metadata, not independently verified full text.

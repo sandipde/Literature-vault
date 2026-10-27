@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [crystal-structure-search, halide-candidates, uncertainty-limits]
 title: Predicted structural models for NaSbBr4 and LiSbBr4 from a prototype-transplant
   search with machine-learned potentials and DFT
 type: chemrxiv
@@ -70,3 +74,10 @@ Many ternary halides studied for solid-state batteries have no reported crystal 
 - **Doi:** 10.26434/chemrxiv.15011026/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Prototype transplantation, a MACE screen and DFT checks yield proposed NaSbBr4 and LiSbBr4 structures with small computed stability margins.
+- **Why it matters:** The study makes the distinction between generating structural candidates and establishing real phases unusually explicit.
+- **Caveat:** The preprint reports reference-method errors comparable to stability margins and a failed control; nothing was synthesized, and electrolyte suitability or long-range ion diffusion was not demonstrated.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011026/v1); analysis based only on captured metadata, not independently verified full text.

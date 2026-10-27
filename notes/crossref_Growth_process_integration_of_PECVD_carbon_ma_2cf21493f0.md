@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.surfin.2026.111031
 canonical_url: https://doi.org/10.1016/j.surfin.2026.111031
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [pecvd, carbon-materials, device-integration]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-crossref
@@ -47,3 +51,9 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title concerns integrating PECVD carbon-material growth with devices based on ALD and RF-sputtered metal oxides.
+- **Why it matters:** Process integration is important when combining material layers made by different deposition methods.
+- **Caveat:** Title only; no abstract was captured, so the specific integration approach and results are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111031); analysis based only on captured metadata, not independently verified full text.

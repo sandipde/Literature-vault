@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [podcast-learning, media-literacy, scan-noise]
 title: Kritični poslušalci podkastov
 type: paper
 source: https://doi.org/10.4312/as/28332
@@ -56,3 +60,10 @@ Podkasti so priljubljen vir priložnostnega učenja, vendar so procesi, kako pos
 - **Journal:** Studies in Adult Education and Learning
 - **Publisher:** University of Ljubljana
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** A Slovenian listener survey links active podcast-listening strategies with retention and source checking, while finding weaker relationships with trust.
+- **Why it matters:** Information engagement and information credibility are distinct outcomes, even when both involve active listening.
+- **Caveat:** This off-topic education study is cross-sectional, so associations do not demonstrate causal effects; the interpretation comes from the captured Slovenian abstract.
+- **Evidence:** [Captured source](https://doi.org/10.4312/as/28332); analysis based only on captured metadata, not independently verified full text.

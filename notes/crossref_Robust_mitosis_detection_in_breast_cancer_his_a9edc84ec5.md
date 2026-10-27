@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [histopathology-images, mitosis-detection, convolutional-networks]
 title: Robust mitosis detection in breast cancer histopathology images using convolutional
   neural network
 type: paper
@@ -44,3 +48,10 @@ provider_data:
 - **Journal:** Neural Computing and Applications
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title applies convolutional networks to mitosis detection in breast-cancer histopathology images.
+- **Why it matters:** It is an image-analysis application rather than a method for molecular or materials simulation.
+- **Caveat:** Title only; the adjective robust is unsupported by captured results, and clinical validity cannot be inferred.
+- **Evidence:** [Captured source](https://doi.org/10.1007/s00521-026-12479-0); analysis based only on captured metadata, not independently verified full text.

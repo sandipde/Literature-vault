@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010828/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010828/v1
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [reaction-selectivity, machine-learned-potentials, mechanistic-chemistry]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-crossref
@@ -70,3 +74,9 @@ Selectivity in chemical reactions is often dictated by small energetic differenc
 - **Doi:** 10.26434/chemrxiv.15010828/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The abstract presents foundation machine-learned interatomic potentials as a tool for predicting chemical selectivity and understanding reaction mechanisms.
+- **Why it matters:** Small transition-state energy differences make selectivity a demanding target for computational chemistry.
+- **Caveat:** This is posted preprint content; no accuracy claims are independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010828/v1); analysis based only on captured metadata, not independently verified full text.

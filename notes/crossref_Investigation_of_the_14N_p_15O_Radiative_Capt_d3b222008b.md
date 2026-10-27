@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [nuclear-reactions, potential-model, scan-noise]
 title: Investigation of the 14N(p,γ)15O Radiative Capture Reaction Using the Potential
   Model
 type: paper
@@ -40,3 +44,10 @@ provider_data:
 - **Journal:** Iranian Journal of Science
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title studies nitrogen-proton radiative capture with a potential model.
+- **Why it matters:** It marks a terminology collision: nuclear potential models need not be machine-learning interatomic potentials.
+- **Caveat:** Title only; no reaction-rate results are captured, and the topic is outside the intended atomistic-ML scope.
+- **Evidence:** [Captured source](https://doi.org/10.1007/s40995-026-02074-2); analysis based only on captured metadata, not independently verified full text.

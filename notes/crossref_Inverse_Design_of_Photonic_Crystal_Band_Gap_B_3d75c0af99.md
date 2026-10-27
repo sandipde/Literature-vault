@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [photonic-crystals, inverse-design, neural-surrogates]
 title: Inverse Design of Photonic Crystal Band Gap Based on BP Neural Network
 type: paper
 source: https://doi.org/10.54254/2755-2721/2027.38307
@@ -53,3 +57,10 @@ To address the problems of heavy computational cost and time-consuming parameter
 - **Journal:** Applied and Computational Engineering
 - **Publisher:** EWA Publishing
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** A small neural network maps relative photonic band-gap width to a geometric parameter using a limited simulated two-dimensional crystal dataset.
+- **Why it matters:** A lightweight inverse surrogate may be useful for tightly constrained design families.
+- **Caveat:** This is photonic rather than atomistic modeling; a one-input inverse map and a small dataset do not establish uniqueness or broad design generality.
+- **Evidence:** [Captured source](https://doi.org/10.54254/2755-2721/2027.38307); analysis based only on captured metadata, not independently verified full text.

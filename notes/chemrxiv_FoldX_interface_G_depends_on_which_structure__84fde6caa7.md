@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [protein-interfaces, structure-sensitivity, variant-interpretation]
 title: 'FoldX interface ΔΔG depends on which structure it starts from, and a learned
   predictor does not: a cautionary analysis on glutaryl-CoA dehydrogenase'
 type: chemrxiv
@@ -65,3 +69,10 @@ FoldX and related methods are widely used to interpret missense variants, and th
 - **Doi:** 10.26434/chemrxiv.15010007/v3
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A glutaryl-CoA dehydrogenase analysis reports that FoldX interface mutation scores shift with starting structure more than distant-site scores or a learned comparison predictor.
+- **Why it matters:** Structural sensitivity can undermine a seemingly decisive single-number mutation interpretation near an interface.
+- **Caveat:** This versioned preprint examines a limited protein and snapshot set; low sensitivity of a learned predictor does not establish accuracy.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010007/v3); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [mutation-effects, kinase-benchmarks, mechanistic-stratification]
 title: 'Mechanistic homogeneity, not model sophistication, sets the ceiling for mutation-effect
   prediction: a five-family FGFR benchmark against deep mutational scanning'
 type: chemrxiv
@@ -59,3 +63,10 @@ Which computational features can predict the functional consequences of kinase m
 - **Doi:** 10.26434/chemrxiv.15011103/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** An FGFR mutation benchmark compares physical, docking and learned features and reports that predictive usefulness varies with phenotype and mechanistic subgroup.
+- **Why it matters:** Stratified evaluation may reveal useful local signals and failure modes hidden by pooled performance metrics.
+- **Caveat:** The preprint's broad claim of a prediction ceiling exceeds what this single benchmark alone can establish; proposed predictions are not validated outcomes.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011103/v1); analysis based only on captured metadata, not independently verified full text.

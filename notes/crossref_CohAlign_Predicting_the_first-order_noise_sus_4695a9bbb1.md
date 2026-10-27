@@ -6,6 +6,10 @@ source: https://doi.org/10.1371/journal.pone.0361139
 canonical_url: https://doi.org/10.1371/journal.pone.0361139
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [quantum-neural-networks, noise-sensitivity, gradient-analysis]
 captured_at: '2026-10-22T20:23:01+00:00'
 last_requested: '2026-10-22T20:23:01+00:00'
 issue: scan:mlip-development-crossref
@@ -56,3 +60,9 @@ Quantum neural networks learn by following gradients, and on real hardware those
 - **Journal:** PLOS One
 - **Publisher:** Public Library of Science (PLoS)
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract introduces CohAlign to predict first-order noise susceptibility of gradients in equivariant quantum neural networks.
+- **Why it matters:** Estimating gradient degradation could help assess trainability before detailed noisy-hardware experiments.
+- **Caveat:** The captured abstract does not establish predictive accuracy on hardware or across model families.
+- **Evidence:** [Captured source](https://doi.org/10.1371/journal.pone.0361139); analysis based only on captured metadata, not independently verified full text.

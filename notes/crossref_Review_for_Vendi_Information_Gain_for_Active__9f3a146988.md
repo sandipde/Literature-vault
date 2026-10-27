@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [active-learning, peer-review, ecology]
 title: Review for "Vendi Information Gain for Active Learning and its Application
   to Ecology"
 type: paper
@@ -35,3 +39,10 @@ provider_data:
 - **Doi:** 10.1111/2041-210x.70412/v2/review2
 - **Publisher:** Wiley
 - **Type:** peer-review
+
+## AI enrichment
+
+- **Concise summary:** The record identifies v2/review2 associated with the ecology-focused Vendi information-gain paper.
+- **Why it matters:** A separate review identifier preserves provenance while allowing readers to distinguish commentary from the underlying method.
+- **Caveat:** Title only; no review text or algorithmic evidence was captured. Its same-title v2/review1 counterpart belongs to the same parent DOI family and is not independent research; any transfer to MLIP sampling remains speculative.
+- **Evidence:** [Captured source](https://doi.org/10.1111/2041-210x.70412/v2/review2); analysis based only on captured metadata, not independently verified full text.

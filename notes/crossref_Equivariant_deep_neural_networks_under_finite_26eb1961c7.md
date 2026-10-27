@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.camwa.2026.10.024
 canonical_url: https://doi.org/10.1016/j.camwa.2026.10.024
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [equivariant-networks, partial-differential-equations, symmetry]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-crossref
@@ -40,3 +44,9 @@ provider_data:
 - **Journal:** Computers &amp; Mathematics with Applications
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title describes finite-group-equivariant deep neural networks for solving partial differential equations.
+- **Why it matters:** Symmetry-aware architectures can encode invariances that are relevant to physical equation-solving tasks.
+- **Caveat:** Title only; no abstract was captured, so the equations and reported results are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.camwa.2026.10.024); analysis based only on captured metadata, not independently verified full text.

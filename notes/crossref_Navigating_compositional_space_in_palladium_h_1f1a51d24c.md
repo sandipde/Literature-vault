@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [mlip-benchmarking, palladium-hydride, composition-transfer]
 title: 'Navigating compositional space in palladium hydride: benchmarking machine
   learning interatomic potentials'
 type: paper
@@ -41,3 +45,10 @@ provider_data:
 - **Journal:** Computational Materials Science
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title proposes benchmarking learned interatomic potentials over the compositional space of palladium hydride.
+- **Why it matters:** Composition-dependent tests could expose transferability failures hidden by aggregate errors at a single stoichiometry.
+- **Caveat:** Title only; no abstract, model identities or benchmark outcomes were captured. The listed January 2027 publication date is not the git-added date.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.commatsci.2026.115195); analysis based only on captured metadata, not independently verified full text.

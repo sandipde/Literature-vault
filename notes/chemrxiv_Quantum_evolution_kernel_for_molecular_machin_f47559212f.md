@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [quantum-kernels, molecular-properties, neutral-atom-arrays]
 title: Quantum evolution kernel for molecular machine learning on programmable neutral-atom
   arrays
 type: chemrxiv
@@ -64,3 +68,10 @@ Neutral-atom quantum processors can embed molecular graphs natively through the 
 - **Doi:** 10.26434/chemrxiv.15011111/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** ChemQEK encodes chemical descriptors into neutral-atom evolution kernels and pools observables across settings for molecular-property regression.
+- **Why it matters:** Chemically informed encoding may matter as much as the quantum substrate when designing molecular kernels.
+- **Caveat:** The preprint evaluates noiseless emulation; the abstract does not establish hardware performance or superiority over strong classical alternatives.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011111/v1); analysis based only on captured metadata, not independently verified full text.

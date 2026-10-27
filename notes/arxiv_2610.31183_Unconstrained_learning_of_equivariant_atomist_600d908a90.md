@@ -5,6 +5,10 @@ source: https://arxiv.org/abs/2610.31183
 canonical_url: https://arxiv.org/abs/2610.31183
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [equivariant-learning, atomistic-properties, interatomic-potentials]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:arxiv-mlips
@@ -65,3 +69,9 @@ Machine-learned interatomic potentials based on graph neural networks (GNNs) hav
 ## Provider details
 - **Arxiv Id:** 2610.31183
 - **Categories:** ["physics.chem-ph"]
+
+## AI enrichment
+- **Concise summary:** The preprint studies unconstrained learning of equivariant atomistic properties beyond the usual potential-energy-focused setting.
+- **Why it matters:** Extending equivariant models to other atomistic quantities may broaden data-driven tools for computational chemistry and materials research.
+- **Caveat:** This is a preprint; the abstract does not establish which properties or systems are covered in detail.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.31183); analysis based only on captured metadata, not independently verified full text.

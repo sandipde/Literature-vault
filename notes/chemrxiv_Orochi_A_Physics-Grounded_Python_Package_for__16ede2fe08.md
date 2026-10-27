@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [pair-distribution, total-scattering, structural-refinement]
 title: 'Orochi: A Physics-Grounded Python Package for Pair Distribution Function Analysis
   of Crystalline and Low-Dimensional Materials'
 type: chemrxiv
@@ -78,3 +82,10 @@ Atomic pair distribution function (PDF) analysis from X-ray total scattering is 
 - **Doi:** 10.26434/chemrxiv.15010802/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Orochi presents a Python workflow joining total-scattering reduction and pair-distribution modeling with shared parameters and dimensionality-aware structural calculations.
+- **Why it matters:** Joint optimization of measurement and structure parameters could reduce errors introduced by disconnected analysis tools.
+- **Caveat:** This versioned software preprint describes capabilities rather than independently reproduced accuracy, usability or performance.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010802/v2); analysis based only on captured metadata, not independently verified full text.

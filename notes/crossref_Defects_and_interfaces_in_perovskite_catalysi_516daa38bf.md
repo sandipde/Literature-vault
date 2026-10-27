@@ -6,6 +6,10 @@ source: https://doi.org/10.1039/d6ya00267f
 canonical_url: https://doi.org/10.1039/d6ya00267f
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [perovskites, catalysis, structure-property-relations]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -47,3 +51,9 @@ A comprehensive study on perovskite catalysis elucidates the interplay of compos
 - **Journal:** Energy Advances
 - **Publisher:** Royal Society of Chemistry (RSC)
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The captured abstract discusses how composition, structural distortion, and electronic states relate to perovskite catalytic behavior.
+- **Why it matters:** Connecting defects and interfaces with activity is central to designing catalysts for energy and environmental applications.
+- **Caveat:** The abstract describes a broad study; specific systems and evidence are not independently checked.
+- **Evidence:** [Captured source](https://doi.org/10.1039/d6ya00267f); analysis based only on captured metadata, not independently verified full text.

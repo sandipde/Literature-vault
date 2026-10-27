@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [conference-proceedings, machine-learning, scan-noise]
 title: Proceedings of the 9th International Conference on Machine Learning and Machine
   Intelligence
 type: paper
@@ -35,3 +39,10 @@ provider_data:
 - **Doi:** 10.1145/3841358
 - **Publisher:** ACM
 - **Type:** proceedings
+
+## AI enrichment
+
+- **Concise summary:** This record identifies a conference proceedings volume on machine learning and machine intelligence rather than an individual research contribution.
+- **Why it matters:** Volume-level provenance can help locate included papers, but it should not be counted as evidence for a specific scientific result.
+- **Caveat:** Title only; no abstract or table of contents was captured. The Bangkok PM2.5 note has this proceedings title as its venue and a child DOI; the two are related container/article records, not independent findings, and the volume is likely scan noise for MLIPs.
+- **Evidence:** [Captured source](https://doi.org/10.1145/3841358); analysis based only on captured metadata, not independently verified full text.

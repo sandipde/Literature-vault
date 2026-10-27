@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010757/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010757/v1
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [oxazolines, phosphorus-catalysis, synthesis]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -48,3 +52,9 @@ Oxazolines are important heterocycles for a range of industrial applications, an
 - **Doi:** 10.26434/chemrxiv.15010757/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint describes one-pot oxazoline synthesis from carboxylic acids and amino alcohols using phosphorus(V) catalysis.
+- **Why it matters:** Direct synthesis from accessible starting materials is relevant to streamlining access to useful heterocycles.
+- **Caveat:** This is a preprint; the abstract does not establish substrate scope or practical advantages.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010757/v1); analysis based only on captured metadata, not independently verified full text.

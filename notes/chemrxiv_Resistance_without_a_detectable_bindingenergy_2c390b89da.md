@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [kinase-dynamics, drug-resistance, sidechain-contacts]
 title: 'Resistance without a detectable bindingenergy penalty: distinct dynamic defects
   of gatekeeper and molecular-brake mutations in FGFR1–erdafitinib recognition'
 type: chemrxiv
@@ -60,3 +64,10 @@ The backbone Cα–Cα distance widely used to report kinase molecular-brake sta
 - **Doi:** 10.26434/chemrxiv.15011002/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Replicated FGFR1 simulations distinguish mutation-dependent contact dynamics despite finding no resolvable binding-energy penalty with the tested endpoint methods.
+- **Why it matters:** Dynamic contact measures may expose resistance-relevant changes that backbone distances and average energies miss.
+- **Caveat:** Failure to detect an energy difference is not proof of equal affinity; the preprint's proposed kinetic mechanism still needs direct testing.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011002/v1); analysis based only on captured metadata, not independently verified full text.

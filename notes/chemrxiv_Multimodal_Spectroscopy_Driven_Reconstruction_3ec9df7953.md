@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [spectroscopic-inference, molecular-geometry, conditional-diffusion]
 title: Multimodal Spectroscopy–Driven Reconstruction of Three-Dimensional Molecular
   Structures via Conditional Diffusion Model
 type: chemrxiv
@@ -71,3 +75,10 @@ Three-dimensional (3D) molecular structures underpin molecular function and dyna
 - **Doi:** 10.26434/chemrxiv.15011037/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** SpecDiffMol combines topology inference and equivariant diffusion to reconstruct molecular geometry from formulae and multiple spectroscopic modalities.
+- **Why it matters:** Combining complementary measurements could constrain structure generation more strongly than any individual spectrum.
+- **Caveat:** The preprint relies substantially on theoretical spectra and a described experimental example; broad experimental robustness and priority claims are unverified.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011037/v1); analysis based only on captured metadata, not independently verified full text.

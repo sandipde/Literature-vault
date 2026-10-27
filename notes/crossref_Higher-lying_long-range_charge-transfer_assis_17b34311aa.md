@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.cclet.2026.113549
 canonical_url: https://doi.org/10.1016/j.cclet.2026.113549
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [oleds, charge-transfer, thermally-activated-delayed-fluorescence]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-crossref
@@ -50,3 +54,9 @@ provider_data:
 - **Journal:** Chinese Chemical Letters
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title describes higher-lying long-range charge-transfer-assisted emitters for narrowband OLED emission.
+- **Why it matters:** Narrowband emission and efficiency are linked design goals for display and lighting materials.
+- **Caveat:** Title only; no abstract was captured, so emitter design and performance are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.cclet.2026.113549); analysis based only on captured metadata, not independently verified full text.

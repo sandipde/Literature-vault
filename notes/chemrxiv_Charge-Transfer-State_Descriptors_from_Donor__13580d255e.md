@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010876/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010876/v1
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [organic-photovoltaics, charge-transfer, materials-descriptors]
 captured_at: '2026-10-22T20:23:01+00:00'
 last_requested: '2026-10-22T20:23:01+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -54,3 +58,9 @@ Organic photovoltaic (OPV) devices have attracted significant attention as light
 - **Doi:** 10.26434/chemrxiv.15010876/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint investigates charge-transfer-state descriptors at donor-acceptor interfaces for predicting indoor organic photovoltaic efficiency.
+- **Why it matters:** Interface-level descriptors may help connect molecular design and device performance in low-light photovoltaics.
+- **Caveat:** This is a ChemRxiv preprint; the claimed prediction improvement is not independently assessed here.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010876/v1); analysis based only on captured metadata, not independently verified full text.

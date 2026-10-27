@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [agent-harness, plugin-architecture]
 title: pi-harness/pi-harness
 type: github
 source: https://github.com/pi-harness/pi-harness
@@ -47,3 +51,10 @@ Plugin-first harness for Pi built on Cordis
 - **Created At:** 2026-08-30T01:03:56Z
 - **Pushed At:** 2026-10-11T15:18:17Z
 - **Default Branch:** main
+
+## AI enrichment
+
+- **Concise summary:** The repository describes a plugin-first harness for Pi built on Cordis.
+- **Why it matters:** A modular harness could separate agent orchestration from replaceable integrations.
+- **Caveat:** Description only; implementation quality and capabilities cannot be assessed from the captured metadata.
+- **Evidence:** [Captured source](https://github.com/pi-harness/pi-harness); analysis based only on captured metadata, not independently verified full text.

@@ -6,6 +6,10 @@ source: https://doi.org/10.21203/rs.3.rs-11462321/v1
 canonical_url: https://doi.org/10.21203/rs.3.rs-11462321/v1
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [brain-mri, image-registration, multimodal-learning]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-crossref
@@ -57,3 +61,9 @@ Abstract Deformable registration of T1- and T2-weighted brain magnetic resonance
 - **Doi:** 10.21203/rs.3.rs-11462321/v1
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The abstract studies unsupervised registration of T1- and T2-weighted brain MRI using learned and structural descriptors.
+- **Why it matters:** Aligning complementary image contrasts is a foundational step for multimodal neuroimaging analysis.
+- **Caveat:** This is posted content; the captured abstract does not establish clinical validity or generalization.
+- **Evidence:** [Captured source](https://doi.org/10.21203/rs.3.rs-11462321/v1); analysis based only on captured metadata, not independently verified full text.

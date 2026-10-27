@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [thermal-expansion, high-entropy-diborides, learned-potentials]
 title: 'Origin of thermal-expansion anomalies in Mo-containing high-entropy diborides:
   A machine-learning interatomic potential study of MoB2 and (Mo,Nb,Zr,Ta,Ti)B2'
 type: paper
@@ -39,3 +43,10 @@ provider_data:
 - **Journal:** Materials &amp; Design
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title uses learned interatomic potentials to investigate thermal-expansion anomalies in Mo-containing diborides.
+- **Why it matters:** Linking composition to unusual thermal response is a useful target for atomistic simulations of complex ceramics.
+- **Caveat:** Title only; the proposed origin, validation data and temperature range are not captured.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.matdes.2026.117371); analysis based only on captured metadata, not independently verified full text.

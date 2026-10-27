@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [nonadiabatic-dynamics, learned-surfaces, oxygen-collisions]
 title: Electronically Nonadiabatic Dynamics of O2 + O Collisions on Sixteen New Machine-Learned
   3A Global Potential Energy Surfaces
 type: paper
@@ -35,3 +39,10 @@ provider_data:
 - **Doi:** 10.1021/acs.jctc.6c01449.s002
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** component
+
+## AI enrichment
+
+- **Concise summary:** This record names a study of nonadiabatic oxygen collisions using sixteen machine-learned global surfaces.
+- **Why it matters:** Coupled-surface modeling could connect learned energy landscapes to electronic transitions.
+- **Caveat:** Title only; this .s002 component shares its title and parent DOI with the .s001 note, so the pair should not be counted as independent scientific findings.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jctc.6c01449.s002); analysis based only on captured metadata, not independently verified full text.

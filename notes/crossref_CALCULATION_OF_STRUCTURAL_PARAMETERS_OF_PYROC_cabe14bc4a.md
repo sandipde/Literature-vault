@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [pyrochlore-structures, bond-distances, refinement-models]
 title: CALCULATION OF STRUCTURAL PARAMETERS OF PYROCHLORINE PHASES FROM PREDICTABLE
   INTERATOMIC DISTANCES
 type: paper
@@ -57,3 +61,10 @@ Pyrochlores with the general formula A2B2X6Y (space group Fd-3m) form one of the
 - **Journal:** Scientific Bulletin of the Uzhhorod University. Series «Chemistry»
 - **Publisher:** Uzhhorod National University
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** Analytical relations estimate pyrochlore lattice and anion-position parameters from measured or predicted interatomic distances.
+- **Why it matters:** Distance-based starting models could help constrain refinements when weak oxygen scattering makes positional parameters uncertain.
+- **Caveat:** The abstract itself makes reliability conditional on the input distances; agreement with selected published structures does not remove that dependence.
+- **Evidence:** [Captured source](https://doi.org/10.24144/2414-0260.2026.2.15-18); analysis based only on captured metadata, not independently verified full text.

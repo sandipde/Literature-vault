@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [tribology-education, finite-differences, bearing-simulation]
 title: 'A Python-Based Learning Tool for Hydrodynamic Journal Bearing: From Reynolds
   Equation to Simulation'
 type: paper
@@ -56,3 +60,10 @@ Journal bearing analysis is fundamental to machine element design, yet the compl
 - **Journal:** ROTASI
 - **Publisher:** Institute of Research and Community Services Diponegoro University (LPPM UNDIP)
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** A Python teaching tool solves a steady journal-bearing Reynolds equation by finite differences and visualizes pressure and derived mechanical quantities.
+- **Why it matters:** An accessible implementation could connect governing equations to engineering intuition without proprietary software.
+- **Caveat:** This is continuum tribology education, not ML active learning; reported numerical realism is not an independently checked validation.
+- **Evidence:** [Captured source](https://doi.org/10.14710/rotasi.28.2.68-86); analysis based only on captured metadata, not independently verified full text.

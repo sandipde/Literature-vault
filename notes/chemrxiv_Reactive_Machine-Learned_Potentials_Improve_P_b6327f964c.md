@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010947/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010947/v1
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [zeolites, water-diffusion, reactive-potentials]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -59,3 +63,9 @@ Dealuminated HY (USY) zeolites are of major industrial catalytic importance, and
 - **Doi:** 10.26434/chemrxiv.15010947/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint uses reactive machine-learned potentials to study water diffusion in defective industrial zeolite HY.
+- **Why it matters:** Modeling defects such as extraframework aluminum and silanol groups is relevant to understanding transport in dealuminated zeolites.
+- **Caveat:** This is a ChemRxiv preprint; the abstract's performance claims are not independently assessed.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010947/v1); analysis based only on captured metadata, not independently verified full text.

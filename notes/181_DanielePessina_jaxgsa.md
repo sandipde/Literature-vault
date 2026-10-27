@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [sensitivity-analysis, differentiable-computing]
 title: DanielePessina/jaxgsa
 type: github
 source: https://github.com/DanielePessina/jaxgsa
@@ -60,3 +64,10 @@ Global sensitivity analysis in JAX: Sobol, Morris, PCE, Shapley and ten more met
 - **Created At:** 2026-03-06T13:47:22Z
 - **Pushed At:** 2026-10-26T09:51:25Z
 - **Default Branch:** master
+
+## AI enrichment
+
+- **Concise summary:** The repository advertises vectorized, differentiable global sensitivity analysis in JAX, including Sobol, Morris, PCE and Shapley methods.
+- **Why it matters:** A common implementation could make sensitivity checks easier to integrate into differentiable scientific workflows.
+- **Caveat:** Description only; numerical correctness, supported estimators and performance were not tested.
+- **Evidence:** [Captured source](https://github.com/DanielePessina/jaxgsa); analysis based only on captured metadata, not independently verified full text.

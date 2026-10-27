@@ -5,6 +5,10 @@ source: https://arxiv.org/abs/2610.28619
 canonical_url: https://arxiv.org/abs/2610.28619
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [language-model-inference, speculative-decoding, adaptive-computation]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-arxiv
@@ -61,3 +65,9 @@ Multi-token prediction (MTP) can accelerate language-model decoding by drafting 
 ## Provider details
 - **Arxiv Id:** 2610.28619
 - **Categories:** ["cs.AI", "cs.LG", "eess.SY"]
+
+## AI enrichment
+- **Concise summary:** The abstract studies adapting the speculative decoding horizon in multi-token prediction as context-dependent draft quality changes.
+- **Why it matters:** Choosing draft length dynamically is a practical algorithmic lever for balancing inference speed and verification cost.
+- **Caveat:** This is a preprint; the captured abstract alone does not establish general speedups or deployment behavior.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.28619); analysis based only on captured metadata, not independently verified full text.

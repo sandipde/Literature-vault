@@ -6,6 +6,10 @@ source: https://doi.org/10.58737/jpled.v6i1.950
 canonical_url: https://doi.org/10.58737/jpled.v6i1.950
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [active-learning, classroom-strategy, learning-outcomes]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-crossref
@@ -61,3 +65,9 @@ The effectiveness of learning activities in the classroom greatly influences stu
 - **Journal:** Journal of Practice Learning and Educational Development
 - **Publisher:** GAES (Global Action and Education for Society)
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract describes a study of the "Every One is a Teacher Here" active-learning strategy and IPAS learning outcomes.
+- **Why it matters:** Classroom strategies are meaningful only when considered alongside how learning outcomes are evaluated.
+- **Caveat:** The captured abstract provides limited context; findings should not be generalized beyond the reported study.
+- **Evidence:** [Captured source](https://doi.org/10.58737/jpled.v6i1.950); analysis based only on captured metadata, not independently verified full text.

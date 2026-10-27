@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010813/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010813/v1
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [metal-organic-frameworks, carbon-dioxide, adsorption-and-diffusion]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -61,3 +65,9 @@ Machine learning offers an efficient route for screening metal–organic framewo
 - **Doi:** 10.26434/chemrxiv.15010813/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint pairs flexible force-field screening with machine learning to study CO2 sorption and diffusion in metal-organic frameworks.
+- **Why it matters:** Accounting for framework flexibility addresses a modeling choice that can affect predicted adsorption and transport.
+- **Caveat:** This is a ChemRxiv preprint; the captured abstract does not establish transferability across MOF families.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010813/v1); analysis based only on captured metadata, not independently verified full text.

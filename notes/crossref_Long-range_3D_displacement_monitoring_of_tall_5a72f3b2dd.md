@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [stereo-vision, structural-monitoring, scan-noise]
 title: Long-range 3D displacement monitoring of tall structures using a wireless ultra-wide-baseline
   stereo vision system
 type: paper
@@ -58,3 +62,10 @@ Long-range three-dimensional (3D) displacement monitoring of tall structures req
 - **Doi:** 10.2139/ssrn.7669069
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract describes synchronized wireless cameras that transmit tracked image coordinates for remote three-dimensional structural monitoring. It reports field tests in which a wider stereo baseline improved depth sensitivity.
+- **Why it matters:** Local feature processing and remote reconstruction could help manage communication constraints in large-scale infrastructure monitoring.
+- **Caveat:** This is posted content associated with SSRN; measurement claims and generalization beyond the reported installations were not verified. The civil-engineering topic is off-topic for MLIPs.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7669069); analysis based only on captured metadata, not independently verified full text.

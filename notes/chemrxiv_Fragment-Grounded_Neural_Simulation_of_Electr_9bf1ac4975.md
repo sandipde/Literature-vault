@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [mass-spectrometry, molecular-fragmentation, spectrum-prediction]
 title: Fragment-Grounded Neural Simulation of Electron Ionization Mass Spectra at
   Library Scale
 type: chemrxiv
@@ -57,3 +61,10 @@ Electron ionization mass spectrometry (EI-MS) is a sensitive, reproducible analy
 - **Doi:** 10.26434/chemrxiv.15008135/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract describes predicting electron-ionization spectra by enumerating molecular fragments and learning their intensities. It reports improved scaffold-split retrieval while retaining a candidate structural explanation for each peak.
+- **Why it matters:** Explicit fragment grounding may make spectral-library expansion more interpretable than unconstrained peak prediction.
+- **Caveat:** This is a ChemRxiv v2 preprint and the captured abstract ends mid-sentence; speed and retrieval comparisons are author claims, not independently validated results. The version suffix identifies a revision, not a separate discovery.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15008135/v2); analysis based only on captured metadata, not independently verified full text.

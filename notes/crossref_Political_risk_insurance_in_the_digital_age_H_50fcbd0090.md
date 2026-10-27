@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [political-risk, investor-reactions, scan-noise]
 title: 'Political risk insurance in the digital age: How CPA moderates negative investor
   reactions following head of government attacks on social media'
 type: paper
@@ -42,3 +46,10 @@ provider_data:
 - **Journal:** Long Range Planning
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title studies investor responses to government leaders' social-media attacks and a moderating role labeled CPA.
+- **Why it matters:** Its inclusion signals likely search noise rather than a contribution to materials or agent research.
+- **Caveat:** Title only; CPA is not expanded in the captured title, and the study's methods and findings are unavailable.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.lrp.2026.102697); analysis based only on captured metadata, not independently verified full text.

@@ -6,6 +6,10 @@ source: https://doi.org/10.21203/rs.3.rs-11280089/v1
 canonical_url: https://doi.org/10.21203/rs.3.rs-11280089/v1
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [robotic-welding, task-allocation, physics-informed-learning]
 captured_at: '2026-10-23T20:11:01+00:00'
 last_requested: '2026-10-23T20:11:01+00:00'
 issue: scan:mlip-development-crossref
@@ -63,3 +67,9 @@ Abstract Collaborative robotic welding of dissimilar steel joints involves coupl
 - **Doi:** 10.21203/rs.3.rs-11280089/v1
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint describes physics-coupled task allocation for collaborative robotic welding, using a potential game and a physics-informed neural-network surrogate.
+- **Why it matters:** Coordinating assignments with process physics may be important when robotic tasks interact through thermal effects and energy use.
+- **Caveat:** This is posted preprint content; the captured abstract does not establish deployment performance.
+- **Evidence:** [Captured source](https://doi.org/10.21203/rs.3.rs-11280089/v1); analysis based only on captured metadata, not independently verified full text.

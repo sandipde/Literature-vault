@@ -5,6 +5,10 @@ source: https://doi.org/10.1016/j.surfin.2026.111044
 canonical_url: https://doi.org/10.1016/j.surfin.2026.111044
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [editorial-board, journal-metadata, scan-noise]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-crossref
@@ -35,3 +39,9 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The captured record is titled "Editorial Board" and appears to be journal front matter rather than a research article.
+- **Why it matters:** Recognizing editorial metadata as non-research content helps separate it from substantive literature in the collection.
+- **Caveat:** Title only; no abstract or scholarly claim was captured, so this may be scan noise.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111044); analysis based only on captured metadata, not independently verified full text.

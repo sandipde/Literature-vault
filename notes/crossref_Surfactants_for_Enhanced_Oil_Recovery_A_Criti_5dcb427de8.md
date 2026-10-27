@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.rsurfi.2026.101032
 canonical_url: https://doi.org/10.1016/j.rsurfi.2026.101032
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [surfactants, oil-recovery, review]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -41,3 +45,9 @@ provider_data:
 - **Journal:** Results in Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title identifies a critical review of surfactant mechanisms, performance, reservoir compatibility, and field applications in enhanced oil recovery.
+- **Why it matters:** It brings formulation and reservoir constraints together as practical considerations for recovery strategies.
+- **Caveat:** Title only; no abstract was captured, so review scope and conclusions are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.rsurfi.2026.101032); analysis based only on captured metadata, not independently verified full text.

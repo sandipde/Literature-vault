@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [electrostatic-filtration, face-masks, scan-noise]
 title: Electrostatic contribution to the particle filtration efficiency of face masks
   and its degradation by wetting and disinfectant alcohol
 type: paper
@@ -39,3 +43,10 @@ provider_data:
 - **Journal:** Journal of Electrostatics
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title concerns how wetting and disinfectant alcohol affect the electrostatic contribution to mask filtration.
+- **Why it matters:** Separating charge-mediated filtration from other effects could clarify durability questions, but the topic is peripheral to atomistic model development.
+- **Caveat:** Title only; no abstract or quantitative evidence was captured. Do not infer mask-reuse recommendations from this record; likely off-topic scan noise.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.elstat.2026.104404); analysis based only on captured metadata, not independently verified full text.

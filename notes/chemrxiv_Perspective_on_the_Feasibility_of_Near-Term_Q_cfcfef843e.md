@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [quantum-simulation, catalyst-models, active-spaces]
 title: Perspective on the Feasibility of Near-Term Quantum Simulation for Industrially
   Relevant Catalyst Materials
 type: chemrxiv
@@ -60,3 +64,10 @@ Quantum simulation has been proposed as a route to treating strongly correlated 
 - **Doi:** 10.26434/chemrxiv.15011047/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A catalyst-focused resource assessment argues that fragmentation and active-space reduction make selected zeolite models more approachable for near-term quantum simulation.
+- **Why it matters:** Explicit model-reduction trade-offs offer a more practical feasibility lens than full-system qubit counts alone.
+- **Caveat:** This preprint perspective provides resource estimates, not demonstrated quantum advantage or validated noisy-hardware chemistry.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15011047/v1); analysis based only on captured metadata, not independently verified full text.

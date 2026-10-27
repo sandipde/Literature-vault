@@ -30,6 +30,16 @@ To install the unpacked extension, open `chrome://extensions`, enable **Develope
 
 Open **Results** in the Pages app to browse saved sources or recent scan activity. Search across titles, URLs, providers, and profile names; combine multiple filters by type, provider, and status. Saved sources default to most recently requested and can also be sorted by added date, publication date, last provider update, or title. Scan activity sorts by run time. Open a source or its saved note directly from a result row. Use **Refresh** to reload the current repository indexes.
 
+## Daily Newsletters and AI Enrichment
+
+Read the [latest catch-up edition](newsletters/2026-10-28.md) or browse the [daily newsletter archive](newsletters/). The first batch covers **187 notes added October 21-27, 2026**, with one retrospective edition per UTC day and an October 28 overview. Coverage is based on the Git commit that first added each note, not the paper's publication date or a file's local modification time.
+
+Selected notes retain their original source metadata and summaries and gain a separate `## AI enrichment` section with a concise summary, editorial relevance, evidence limitations, and a source link. Frontmatter fields `enriched_on`, `enrichment_method`, `enrichment_category`, and `enrichment_tags` identify the enrichment separately from provider metadata and your `user_*` fields. These topic tags do not replace personal tags or automatically change the Results page's filters.
+
+This batch uses **LLM analysis of captured metadata**, not independently verified web research or full-text review. Performance figures remain source claims; sparse descriptions, possible scan noise, and apparent duplicate/version records are flagged rather than silently discarded. Original records remain intact.
+
+For the next edition, pull updates and compare newly added notes against the previous edition's `baseline_commit`, using Git's added-file history (`--diff-filter=A -- notes`) so editorial updates do not count as new captures. Record the new baseline, exact UTC coverage, generation date, and note count in each edition. Link every covered note and its original source, and keep editorial interpretation distinct from verified evidence. The first batch's baseline is `7d56e5d`; notes added after it belong to the next batch. These editions are an on-demand editorial pass; no recurring newsletter job has been configured.
+
 ## Personal Notes
 
 Open a saved note from **Results** to add your own rating (1-5), priority, status, tags, and comments. **Save personal notes** submits a `[Note metadata]` Issue; the page never writes repository files itself. The **Update Note Metadata** workflow applies it only when the author is a repository owner, member, or collaborator and the request passes validation (a note under `notes/`, rating 0-5, a known priority and status, at most 20 tags of 40 characters, comments up to 5,000 characters). It stores the values as `user_*` fields in the note's frontmatter, rewrites the note's `## Personal notes` section, comments with the outcome, and closes the Issue. Changes usually appear within a minute; reload the note to see them. The same browser token as for captures is enough: **Issues: read and write** and **Contents: read-only**.

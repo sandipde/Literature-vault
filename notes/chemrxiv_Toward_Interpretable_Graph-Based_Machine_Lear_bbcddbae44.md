@@ -6,6 +6,10 @@ source: https://doi.org/10.26434/chemrxiv.15010767/v2
 canonical_url: https://doi.org/10.26434/chemrxiv.15010767/v2
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [combustion-chemistry, graph-neural-networks, version-update]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -59,3 +63,9 @@ This work presents an atom-conserving and interpretable graph neural network (GN
 - **Doi:** 10.26434/chemrxiv.15010767/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** This v2 preprint record describes an atom-conserving graph neural network for interpretable combustion kinetic model generation, also captured as v1 on October 21.
+- **Why it matters:** Preserving atom balance in graph-based reaction proposals addresses a basic chemical constraint while supporting model generation.
+- **Caveat:** This is a versioned preprint capture; it is retained separately from v1, and its claims are not independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010767/v2); analysis based only on captured metadata, not independently verified full text.

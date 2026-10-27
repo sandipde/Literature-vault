@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [work-agents, agent-evaluation, runtime-harnesses]
 title: 'Work Agents: Systems, Capabilities, and Optimization'
 type: arxiv
 source: https://arxiv.org/abs/2610.35845
@@ -68,3 +72,10 @@ As foundation models evolve from information generation to digital work executio
 ## Provider details
 - **Arxiv Id:** 2610.35845
 - **Categories:** ["cs.LG"]
+
+## AI enrichment
+
+- **Concise summary:** This paper organizes work agents around models, runtime harnesses, stateful workspaces and verifiable outcomes, proposing dimensions for working conditions and capability families.
+- **Why it matters:** Outcome-centered evaluation is a useful counterweight to judging agents solely by isolated model benchmarks.
+- **Caveat:** The captured preprint abstract describes a conceptual framework, not evidence that a particular agent achieves reliable sustained work.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.35845); analysis based only on captured metadata, not independently verified full text.

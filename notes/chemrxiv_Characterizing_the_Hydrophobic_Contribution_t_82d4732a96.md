@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [surface-hydrophobicity, adsorption, molecular-dynamics]
 title: Characterizing the Hydrophobic Contribution to Adsorption on Ligand-functionalized
   Surfaces
 type: chemrxiv
@@ -70,3 +74,10 @@ The hydrophobicity of functionalized surfaces is critical, as these surfaces are
 - **Doi:** 10.26434/chemrxiv.15010950/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The captured abstract describes simulations that use local water-removal free energies to characterize ligand-functionalized surfaces. It reports that ligand-cluster environments track protein adsorption more usefully than whole-surface averages.
+- **Why it matters:** Local hydration could offer a more actionable interface-design descriptor than treating a chemically heterogeneous surface as uniform.
+- **Caveat:** This is a ChemRxiv v1 preprint; the reported experimental agreement and sampling adequacy have not been independently assessed.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010950/v1); analysis based only on captured metadata, not independently verified full text.

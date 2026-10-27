@@ -6,6 +6,10 @@ source: https://doi.org/10.1575/1912/73275
 canonical_url: https://doi.org/10.1575/1912/73275
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [underwater-acoustics, source-localization, gulf-stream]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -57,3 +61,9 @@ In late April of 2023, a pair of acoustic transceivers (SIO N and SIO E) were de
 - **Doi:** 10.1575/1912/73275
 - **Publisher:** MBLWHOI Library
 - **Type:** dissertation
+
+## AI enrichment
+- **Concise summary:** The abstract describes long-range, low-frequency acoustic source localization across the Gulf Stream using a large-aperture vertical array and interacting paths.
+- **Why it matters:** The topic concerns how ocean structure and propagation paths affect remote acoustic measurements.
+- **Caveat:** This record is a dissertation; the captured abstract gives only a brief description of the deployment and method.
+- **Evidence:** [Captured source](https://doi.org/10.1575/1912/73275); analysis based only on captured metadata, not independently verified full text.

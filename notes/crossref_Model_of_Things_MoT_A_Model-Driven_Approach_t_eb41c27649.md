@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [model-driven-engineering, cloud-iot, low-code]
 title: 'Model of Things (MoT): A Model-Driven Approach to Streamline Cloud-of-Things
   Application Development'
 type: paper
@@ -63,3 +67,10 @@ The convergence of Cloud Computing and the Internet of Things (IoT) underpins mo
 - **Journal:** JUCS - Journal of Universal Computer Science
 - **Publisher:** Pensoft Publishers
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** Model of Things combines a UML profile and transformation pipeline to generate Cloud-of-Things application components with user-supplied deployment configuration.
+- **Why it matters:** Explicit models may reduce integration effort in heterogeneous cloud and device systems.
+- **Caveat:** This is off-topic software engineering; one case study and twelve participants support feasibility, not broad productivity or deployment reliability claims.
+- **Evidence:** [Captured source](https://doi.org/10.3897/jucs.168743); analysis based only on captured metadata, not independently verified full text.

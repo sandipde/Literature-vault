@@ -7,6 +7,10 @@ source: https://doi.org/10.26434/chemrxiv.15010742/v1
 canonical_url: https://doi.org/10.26434/chemrxiv.15010742/v1
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [polymer-electrolytes, ionic-conductivity, materials-ml]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-chemrxiv
@@ -62,3 +66,9 @@ Solid and gel polymer electrolytes are central to safer, more flexible batteries
 - **Doi:** 10.26434/chemrxiv.15010742/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint benchmarks machine-learning prediction of ionic conductivity in lithium polymer electrolytes and explores data-scarce multivalent and sodium systems.
+- **Why it matters:** It addresses how far composition- and processing-based prediction may extend beyond better-studied lithium materials.
+- **Caveat:** This is a ChemRxiv preprint; the abstract does not establish model reliability outside the reported data.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010742/v1); analysis based only on captured metadata, not independently verified full text.

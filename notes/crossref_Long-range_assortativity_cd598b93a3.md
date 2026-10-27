@@ -5,6 +5,10 @@ source: https://doi.org/10.1103/8sqq-6mym
 canonical_url: https://doi.org/10.1103/8sqq-6mym
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [network-science, assortativity, graph-theory]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-crossref
@@ -38,3 +42,9 @@ provider_data:
 - **Journal:** Physical Review E
 - **Publisher:** American Physical Society (APS)
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The captured title identifies a paper on long-range assortativity, a topic in network structure.
+- **Why it matters:** Extending assortativity concepts across longer graph distances can characterize patterns missed by nearest-neighbor measures.
+- **Caveat:** Title only; no abstract was captured, so the definition and results are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1103/8sqq-6mym); analysis based only on captured metadata, not independently verified full text.

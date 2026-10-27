@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [thermal-switching, layered-materials, phonon-engineering]
 title: High-efficiency solid-state electrochemical thermal switching through phonon
   engineering of 2D materials
 type: arxiv
@@ -52,3 +56,10 @@ Reversible solid-state thermal switches with large thermal contrasts remain rare
 ## Provider details
 - **Arxiv Id:** 2610.35547
 - **Categories:** ["cond-mat.mtrl-sci"]
+
+## AI enrichment
+
+- **Concise summary:** A computational screen using universal potentials and DFT identifies lithiated zirconium disulfide as a candidate for strongly switchable cross-plane heat transport.
+- **Why it matters:** Intercalation offers a possible route to thermal control through changes in lattice stiffness and phonon scattering.
+- **Caveat:** The preprint describes simulations and device modeling, not demonstrated device efficiency or experimental switching durability.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.35547); analysis based only on captured metadata, not independently verified full text.

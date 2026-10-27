@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [battery-materials, lithium-adsorption, local-transferability]
 title: 'Machine-learning interatomic potentials for battery materials: Defect-dependent
   lithium adsorption and local transferability on graphene'
 type: paper
@@ -39,3 +43,10 @@ provider_data:
 - **Journal:** Computational Materials Science
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title examines defect-dependent lithium adsorption on graphene as a test of local transferability in learned interatomic potentials.
+- **Why it matters:** Defects can expose gaps between average model accuracy and the local environments relevant to battery chemistry.
+- **Caveat:** Title only; no adsorption energies, defect coverage or transferability results are captured.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.commatsci.2026.115133); analysis based only on captured metadata, not independently verified full text.

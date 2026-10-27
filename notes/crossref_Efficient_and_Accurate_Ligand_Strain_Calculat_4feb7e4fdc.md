@@ -6,6 +6,10 @@ source: https://doi.org/10.1021/acs.jcim.6c02468
 canonical_url: https://doi.org/10.1021/acs.jcim.6c02468
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [ligand-strain, neural-network-potentials, molecular-modeling]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -63,3 +67,9 @@ Abstract Conformational strain, the energy a ligand pays to adopt its bound conf
 and Modeling
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract presents AIMNet2-based ligand strain calculations in solution as an alternative to estimates referenced to a single gas-phase minimum.
+- **Why it matters:** More context-aware strain estimates could inform computational interpretation of ligand binding and conformation.
+- **Caveat:** The captured abstract does not establish how broadly the method generalizes across ligand classes or binding sites.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jcim.6c02468); analysis based only on captured metadata, not independently verified full text.

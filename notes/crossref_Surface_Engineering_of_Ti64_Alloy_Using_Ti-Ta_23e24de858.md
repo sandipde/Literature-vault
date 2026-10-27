@@ -6,6 +6,10 @@ source: https://doi.org/10.1016/j.surfin.2026.111075
 canonical_url: https://doi.org/10.1016/j.surfin.2026.111075
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [titanium-alloy, surface-coatings, biomaterials]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -43,3 +47,9 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The title describes Ti-TaN multilayer coatings and laser texturing of Ti64 alloy assessed under simulated body-fluid conditions.
+- **Why it matters:** Surface modification is a route to tailoring how engineering alloys interact with biological environments.
+- **Caveat:** Title only; no abstract was captured, so test methods and results are unknown.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111075); analysis based only on captured metadata, not independently verified full text.

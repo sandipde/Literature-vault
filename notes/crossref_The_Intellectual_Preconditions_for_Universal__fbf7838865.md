@@ -5,6 +5,10 @@ source: https://doi.org/10.1093/oxfordhb/9780198915560.013.0009
 canonical_url: https://doi.org/10.1093/oxfordhb/9780198915560.013.0009
 captured_by: auto-scanner
 date: '2026-10-21'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [ancient-greece, historiography, intellectual-history]
 captured_at: '2026-10-21T09:47:36+00:00'
 last_requested: '2026-10-21T09:47:36+00:00'
 issue: scan:mlip-development-crossref
@@ -54,3 +58,9 @@ Abstract Although universal history did not exist before Ephorus, the Greeks fro
 - **Journal:** The Oxford Handbook of Universal History Writing
 - **Publisher:** Oxford University Press
 - **Type:** book-chapter
+
+## AI enrichment
+- **Concise summary:** The captured abstract examines early Greek forms of universalizing thought and the intellectual preconditions for universal history.
+- **Why it matters:** It frames historiography as a development with precursors rather than a practice that appeared fully formed.
+- **Caveat:** This is a book chapter; the available abstract does not support a fuller account of its historical argument.
+- **Evidence:** [Captured source](https://doi.org/10.1093/oxfordhb/9780198915560.013.0009); analysis based only on captured metadata, not independently verified full text.

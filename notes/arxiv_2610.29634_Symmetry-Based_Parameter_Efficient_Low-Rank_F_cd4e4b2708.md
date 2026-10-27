@@ -6,6 +6,10 @@ source: https://arxiv.org/abs/2610.29634
 canonical_url: https://arxiv.org/abs/2610.29634
 captured_by: auto-scanner
 date: '2026-10-22'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [lattice-thermal-conductivity, low-rank-fine-tuning, materials-ml]
 captured_at: '2026-10-22T09:48:39+00:00'
 last_requested: '2026-10-22T09:48:39+00:00'
 issue: scan:mlip-development-arxiv
@@ -61,3 +65,9 @@ Accurate and efficient prediction of lattice thermal conductivity (LTC) is essen
 ## Provider details
 - **Arxiv Id:** 2610.29634
 - **Categories:** ["cond-mat.mtrl-sci"]
+
+## AI enrichment
+- **Concise summary:** The preprint studies symmetry-based low-rank fine-tuning to accelerate high-throughput lattice thermal-conductivity calculations.
+- **Why it matters:** Efficient prediction of thermal transport can support screening of materials for energy and device applications.
+- **Caveat:** This is a preprint; the captured abstract does not establish accuracy or throughput beyond its stated scope.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.29634); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [atomistic-descriptors, radial-angular, interpretable-models]
 title: 'RACE: A Modular and Interpretable RadialAngular Correlation Descriptor for
   Atomistic Machine Learning'
 type: paper
@@ -35,3 +39,10 @@ provider_data:
 - **Doi:** 10.1021/acs.jctc.6c01111.s001
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** component
+
+## AI enrichment
+
+- **Concise summary:** RACE is described in the title as a modular radial-angular correlation descriptor for atomistic machine learning.
+- **Why it matters:** Explicit descriptor structure could aid interpretation of which local geometric information a model uses.
+- **Caveat:** Title only from a .s001 component; interpretability, expressiveness and predictive accuracy are claims without captured supporting results.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jctc.6c01111.s001); analysis based only on captured metadata, not independently verified full text.

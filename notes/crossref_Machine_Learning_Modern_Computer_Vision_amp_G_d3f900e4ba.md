@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [computer-vision, generative-ai, broad-reference]
 title: Machine Learning – Modern Computer Vision &amp; Generative AI
 type: paper
 source: https://doi.org/10.5040/9781350865600
@@ -35,3 +39,10 @@ provider_data:
 - **Journal:** Machine Learning – Modern Computer Vision &amp; Generative AI
 - **Publisher:** Packt
 - **Type:** other
+
+## AI enrichment
+
+- **Concise summary:** The title identifies a broad machine-learning resource covering computer vision and generative AI.
+- **Why it matters:** It may offer general background, but the captured record provides no specific atomistic modeling connection.
+- **Caveat:** Title only and a generic record type; content, depth and relevance cannot be assessed.
+- **Evidence:** [Captured source](https://doi.org/10.5040/9781350865600); analysis based only on captured metadata, not independently verified full text.

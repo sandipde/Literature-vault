@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [aiida-workflows, potential-integration, reproducible-simulation]
 title: stfc/aiida-mlip
 type: github
 source: https://github.com/stfc/aiida-mlip
@@ -48,3 +52,10 @@ machine learning interatomic potentials aiida plugin
 - **Forks:** 14
 - **Open Issues:** 70
 - **Pushed At:** 2026-10-26T16:27:48Z
+
+## AI enrichment
+
+- **Concise summary:** The repository describes an AiiDA plugin for machine-learning interatomic potentials.
+- **Why it matters:** Workflow integration could help organize repeatable learned-potential calculations and their provenance.
+- **Caveat:** Description only; supported models, provenance coverage and operational maturity cannot be assessed.
+- **Evidence:** [Captured source](https://github.com/stfc/aiida-mlip); analysis based only on captured metadata, not independently verified full text.

@@ -6,6 +6,10 @@ source: https://doi.org/10.2139/ssrn.7657722
 canonical_url: https://doi.org/10.2139/ssrn.7657722
 captured_by: auto-scanner
 date: '2026-10-23'
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [traveling-salesperson, learned-heuristics, algorithm-evaluation]
 captured_at: '2026-10-23T09:43:13+00:00'
 last_requested: '2026-10-23T09:43:13+00:00'
 issue: scan:mlip-development-crossref
@@ -62,3 +66,9 @@ Learned construction policies for the traveling salesman problem with drone (TSP
 - **Doi:** 10.2139/ssrn.7657722
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The abstract uses a controlled design to examine search objectives, start diversity, and learned priors in learned construction policies for the traveling-salesperson problem with a drone.
+- **Why it matters:** Isolating pipeline components helps clarify what contributes to solution quality in learned heuristics.
+- **Caveat:** This is posted content; the abstract's study findings are not independently evaluated.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7657722); analysis based only on captured metadata, not independently verified full text.

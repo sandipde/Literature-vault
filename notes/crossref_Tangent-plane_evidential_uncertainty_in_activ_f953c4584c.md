@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [magnetic-potentials, evidential-uncertainty, active-learning]
 title: Tangent-plane evidential uncertainty in active learning for magnetic interatomic
   potentials
 type: paper
@@ -40,3 +44,10 @@ provider_data:
 - **Journal:** Physical Review Materials
 - **Publisher:** American Physical Society (APS)
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The title proposes tangent-plane evidential uncertainty for active learning of magnetic interatomic potentials.
+- **Why it matters:** Uncertainty representations tailored to magnetic degrees of freedom may help target informative configurations.
+- **Caveat:** Title only; calibration, acquisition efficiency and the meaning of the tangent-plane construction cannot be assessed.
+- **Evidence:** [Captured source](https://doi.org/10.1103/9hcx-wmmm); analysis based only on captured metadata, not independently verified full text.
