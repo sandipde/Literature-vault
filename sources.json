@@ -5955,6 +5955,149 @@
       "last_requested_at": "2026-10-27T10:10:23+00:00",
       "published_at": "",
       "updated_at": "2026-10-27T04:35:59Z"
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01609.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01609.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01609.s001",
+      "title": "Influence of ExchangeCorrelation Functional on Machine-Learned Interatomic Potentials Accuracy: A Systematic Study of Borosilicate Glasses",
+      "notes": [
+        "notes/crossref_Influence_of_ExchangeCorrelation_Functional_o_3dbe1cadde.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01449.s002": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01449.s002",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01449.s002",
+      "title": "Electronically Nonadiabatic Dynamics of O2 + O Collisions on Sixteen New Machine-Learned 3A Global Potential Energy Surfaces",
+      "notes": [
+        "notes/crossref_Electronically_Nonadiabatic_Dynamics_of_O2_O__7692bf877a.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01449.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01449.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01449.s001",
+      "title": "Electronically Nonadiabatic Dynamics of O2 + O Collisions on Sixteen New Machine-Learned 3A Global Potential Energy Surfaces",
+      "notes": [
+        "notes/crossref_Electronically_Nonadiabatic_Dynamics_of_O2_O__2b383c02a7.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acsomega.6c08242.s002": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acsomega.6c08242.s002",
+      "original_url": "https://doi.org/10.1021/acsomega.6c08242.s002",
+      "title": "pdb2reaction: End-to-End Reaction-Path Elucidation from PDB Structures Using Machine-Learning Interatomic Potentials",
+      "notes": [
+        "notes/crossref_pdb2reaction_End-to-End_Reaction-Path_Elucida_417deb542d.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acsomega.6c08242.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acsomega.6c08242.s001",
+      "original_url": "https://doi.org/10.1021/acsomega.6c08242.s001",
+      "title": "pdb2reaction: End-to-End Reaction-Path Elucidation from PDB Structures Using Machine-Learning Interatomic Potentials",
+      "notes": [
+        "notes/crossref_pdb2reaction_End-to-End_Reaction-Path_Elucida_b9510d8a1b.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01330.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01330.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01330.s001",
+      "title": "Enerzyme: An Efficient Reactive Neural Network Potential Training Framework for Enzyme Cluster Models with Application to Methyltransferases",
+      "notes": [
+        "notes/crossref_Enerzyme_An_Efficient_Reactive_Neural_Network_a82870e8c0.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1103/9hcx-wmmm": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/9hcx-wmmm",
+      "original_url": "https://doi.org/10.1103/9hcx-wmmm",
+      "title": "Tangent-plane evidential uncertainty in active learning for magnetic interatomic potentials",
+      "notes": [
+        "notes/crossref_Tangent-plane_evidential_uncertainty_in_activ_f953c4584c.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01111.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01111.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01111.s001",
+      "title": "RACE: A Modular and Interpretable RadialAngular Correlation Descriptor for Atomistic Machine Learning",
+      "notes": [
+        "notes/crossref_RACE_A_Modular_and_Interpretable_RadialAngula_eade5c7e7a.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1080/15475441.2026.2745142": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1080/15475441.2026.2745142",
+      "original_url": "https://doi.org/10.1080/15475441.2026.2745142",
+      "title": "Actively seeking variability: effects of active learning and talker variability on novel word learning in adults",
+      "notes": [
+        "notes/crossref_Actively_seeking_variability_effects_of_activ_cee54a5d0a.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011111/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011111/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011111/v1",
+      "title": "Quantum evolution kernel for molecular machine learning on programmable neutral-atom arrays",
+      "notes": [
+        "notes/chemrxiv_Quantum_evolution_kernel_for_molecular_machin_f47559212f.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011121/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011121/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011121/v1",
+      "title": "Model-Kernel Corrected DIIS: Cheap Response Information for the Roothaan Step",
+      "notes": [
+        "notes/chemrxiv_Model-Kernel_Corrected_DIIS_Cheap_Response_In_0ea37e979c.md"
+      ],
+      "added_at": "2026-10-27T21:06:03+00:00",
+      "last_requested_at": "2026-10-27T21:06:03+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
     }
   }
 }
