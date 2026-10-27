@@ -5747,6 +5747,214 @@
       "last_requested_at": "2026-10-26T21:17:55+00:00",
       "published_at": "",
       "updated_at": "2026-10-26T11:25:55Z"
+    },
+    "https://arxiv.org/abs/2610.35653": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.35653",
+      "original_url": "https://arxiv.org/abs/2610.35653",
+      "title": "Retention-constrained fine-tuning of a pre-trained aluminium MACE potential for non-equilibrium defect dynamics and plasticity",
+      "notes": [
+        "notes/arxiv_2610.35653_Retention-constrained_fine-tuning_of_a_pre-tr_8463989937.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.35547": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.35547",
+      "original_url": "https://arxiv.org/abs/2610.35547",
+      "title": "High-efficiency solid-state electrochemical thermal switching through phonon engineering of 2D materials",
+      "notes": [
+        "notes/arxiv_2610.35547_High-efficiency_solid-state_electrochemical_t_c4f7a26600.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.35164": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.35164",
+      "original_url": "https://arxiv.org/abs/2610.35164",
+      "title": "Accelerating SO(2)-Equivariant Materials Models through Low-Precision Emulation",
+      "notes": [
+        "notes/arxiv_2610.35164_Accelerating_SO_2_-Equivariant_Materials_Mode_026b1ca6a3.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.35863": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.35863",
+      "original_url": "https://arxiv.org/abs/2610.35863",
+      "title": "Complete entropy contraction from conditional hyperboundedness",
+      "notes": [
+        "notes/arxiv_2610.35863_Complete_entropy_contraction_from_conditional_60a80a89df.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.35845": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.35845",
+      "original_url": "https://arxiv.org/abs/2610.35845",
+      "title": "Work Agents: Systems, Capabilities, and Optimization",
+      "notes": [
+        "notes/arxiv_2610.35845_Work_Agents_Systems_Capabilities_and_Optimiza_217a3baef0.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.35840": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.35840",
+      "original_url": "https://arxiv.org/abs/2610.35840",
+      "title": "ACARE: Agent-Context-Aware Reranker for Iterative Search",
+      "notes": [
+        "notes/arxiv_2610.35840_ACARE_Agent-Context-Aware_Reranker_for_Iterat_63b4f963cf.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.matdes.2026.117371": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.matdes.2026.117371",
+      "original_url": "https://doi.org/10.1016/j.matdes.2026.117371",
+      "title": "Origin of thermal-expansion anomalies in Mo-containing high-entropy diborides: A machine-learning interatomic potential study of MoB2 and (Mo,Nb,Zr,Ta,Ti)B2",
+      "notes": [
+        "notes/crossref_Origin_of_thermal-expansion_anomalies_in_Mo-c_deb6b2c5f8.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115133": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115133",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115133",
+      "title": "Machine-learning interatomic potentials for battery materials: Defect-dependent lithium adsorption and local transferability on graphene",
+      "notes": [
+        "notes/crossref_Machine-learning_interatomic_potentials_for_b_2a3d566f98.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.54254/2755-2721/2027.38307": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.54254/2755-2721/2027.38307",
+      "original_url": "https://doi.org/10.54254/2755-2721/2027.38307",
+      "title": "Inverse Design of Photonic Crystal Band Gap Based on BP Neural Network",
+      "notes": [
+        "notes/crossref_Inverse_Design_of_Photonic_Crystal_Band_Gap_B_3d75c0af99.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.lrp.2026.102697": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lrp.2026.102697",
+      "original_url": "https://doi.org/10.1016/j.lrp.2026.102697",
+      "title": "Political risk insurance in the digital age: How CPA moderates negative investor reactions following head of government attacks on social media",
+      "notes": [
+        "notes/crossref_Political_risk_insurance_in_the_digital_age_H_50fcbd0090.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104406": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104406",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104406",
+      "title": "Electrostatic suppression of spray splashing on foliage: a lamella-scale model for charged agricultural sprays",
+      "notes": [
+        "notes/crossref_Electrostatic_suppression_of_spray_splashing__389fd1cdcc.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/17515831261500706": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/17515831261500706",
+      "original_url": "https://doi.org/10.1177/17515831261500706",
+      "title": "Microstructure and wear performance of NiCr-B hardfacing on AISI 316L(N) stainless steel via Ar + CO <sub>2</sub> shielded cold metal transfer",
+      "notes": [
+        "notes/crossref_Microstructure_and_wear_performance_of_NiCr-B_08d4afdc23.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011097/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011097/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011097/v1",
+      "title": "Universal mapping of the structural space by 20 NMR-verifiable C,H,O-atomic units",
+      "notes": [
+        "notes/chemrxiv_Universal_mapping_of_the_structural_space_by__49b54872ff.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011103/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011103/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011103/v1",
+      "title": "Mechanistic homogeneity, not model sophistication, sets the ceiling for mutation-effect prediction: a five-family FGFR benchmark against deep mutational scanning",
+      "notes": [
+        "notes/chemrxiv_Mechanistic_homogeneity_not_model_sophisticat_0b8e5a7922.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011092/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011092/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011092/v1",
+      "title": "WISP: Learning spin-resolved electron localization from atomic environments",
+      "notes": [
+        "notes/chemrxiv_WISP_Learning_spin-resolved_electron_localiza_d9883de204.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://github.com/emainas/mlip": {
+      "type": "github",
+      "canonical_url": "https://github.com/emainas/mlip",
+      "original_url": "https://github.com/emainas/mlip",
+      "title": "emainas/mlip",
+      "notes": [
+        "notes/github_emainas_mlip_f49987ddf8.md"
+      ],
+      "added_at": "2026-10-27T10:10:23+00:00",
+      "last_requested_at": "2026-10-27T10:10:23+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-27T04:35:59Z"
     }
   }
 }

@@ -1,0 +1,44 @@
+---
+title: 'Political risk insurance in the digital age: How CPA moderates negative investor
+  reactions following head of government attacks on social media'
+type: paper
+source: https://doi.org/10.1016/j.lrp.2026.102697
+canonical_url: https://doi.org/10.1016/j.lrp.2026.102697
+captured_by: auto-scanner
+date: '2026-10-27'
+captured_at: '2026-10-27T10:10:23+00:00'
+last_requested: '2026-10-27T10:10:23+00:00'
+issue: scan:mlip-development-crossref
+status: to-read
+authors:
+- Michael Etter
+- Patricia Klopf
+- Anita E. Gerstbauer
+- Thomas Lindner
+- Phillip C. Nell
+published: 2026-10
+abstract: ''
+metadata_provider: Crossref
+metadata_status: complete
+provider_data:
+  doi: 10.1016/j.lrp.2026.102697
+  journal: Long Range Planning
+  publisher: Elsevier BV
+  type: journal-article
+  subjects: []
+---
+
+# Political risk insurance in the digital age: How CPA moderates negative investor reactions following head of government attacks on social media
+
+- **Type:** paper
+- **Source:** https://doi.org/10.1016/j.lrp.2026.102697
+- **Captured by:** @auto-scanner
+- **Metadata:** complete (Crossref)
+- **Authors:** Michael Etter, Patricia Klopf, Anita E. Gerstbauer, Thomas Lindner, Phillip C. Nell
+- **Published:** 2026-10
+
+## Provider details
+- **Doi:** 10.1016/j.lrp.2026.102697
+- **Journal:** Long Range Planning
+- **Publisher:** Elsevier BV
+- **Type:** journal-article
