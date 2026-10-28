@@ -45,5 +45,5 @@ Metadata lookup did not return additional public information.
 
 - **Concise summary:** Sieve is a hierarchical molecular-graph regressor that predicts from matching local environments and falls back when training support is insufficient.
 - **Why it matters:** Explicit support-aware backoff offers an interpretable comparison point for learned molecular property predictors.
-- **Caveat:** Recovered README evidence only; this is regression, not a generative model for amorphous structures, and predictive quality has not been independently verified.
-- **Evidence:** [Captured source and retrieved README](https://github.com/craabreu/sieve), retrieved 2026-10-28.
+- **Caveat:** The original capture has no abstract or provider description because its API request hit a rate limit. The recovered README describes regression; its expanded project name differs from the saved title. Predictive quality has not been independently verified.
+- **Evidence:** [Captured source and retrieved README](https://github.com/craabreu/sieve), rechecked 2026-10-28. Method details come from the public README, not code execution or benchmark reproduction.
