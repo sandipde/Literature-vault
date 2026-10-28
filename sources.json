@@ -6124,6 +6124,240 @@
       "last_requested_at": "2026-10-28T08:14:53+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.37597": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.37597",
+      "original_url": "https://arxiv.org/abs/2610.37597",
+      "title": "The Acridine Polymorph Landscape: Characterization and Selective Control by Additives",
+      "notes": [
+        "notes/arxiv_2610.37597_The_Acridine_Polymorph_Landscape_Characteriza_b10edcbe79.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.37152": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.37152",
+      "original_url": "https://arxiv.org/abs/2610.37152",
+      "title": "Cu intercalation and field-driven filament formation in vertically aligned MoS$_2$ memristors",
+      "notes": [
+        "notes/arxiv_2610.37152_Cu_intercalation_and_field-driven_filament_fo_bb5b916d46.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.37121": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.37121",
+      "original_url": "https://arxiv.org/abs/2610.37121",
+      "title": "Prospector: learning a compact graph traversal policy for scientific reasoning",
+      "notes": [
+        "notes/arxiv_2610.37121_Prospector_learning_a_compact_graph_traversal_fca77c032c.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.37661": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.37661",
+      "original_url": "https://arxiv.org/abs/2610.37661",
+      "title": "The Spatially-Resolved Recent Star Formation History of the M81 Disk",
+      "notes": [
+        "notes/arxiv_2610.37661_The_Spatially-Resolved_Recent_Star_Formation__849068d4ac.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.37660": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.37660",
+      "original_url": "https://arxiv.org/abs/2610.37660",
+      "title": "Optimal quantum discrimination at Liouvillian exceptional points",
+      "notes": [
+        "notes/arxiv_2610.37660_Optimal_quantum_discrimination_at_Liouvillian_7b66df1eef.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.37658": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.37658",
+      "original_url": "https://arxiv.org/abs/2610.37658",
+      "title": "When Should We Intervene at Test Time?",
+      "notes": [
+        "notes/arxiv_2610.37658_When_Should_We_Intervene_at_Test_Time_a78e58d228.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1017/9781009698566.004": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1017/9781009698566.004",
+      "original_url": "https://doi.org/10.1017/9781009698566.004",
+      "title": "Equivariant Topology",
+      "notes": [
+        "notes/crossref_Equivariant_Topology_212bd884f4.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1017/9781009698566.008": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1017/9781009698566.008",
+      "original_url": "https://doi.org/10.1017/9781009698566.008",
+      "title": "Equivariant Principal ∞-Bundles",
+      "notes": [
+        "notes/crossref_Equivariant_Principal_-Bundles_9a1c701517.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.teln.2026.09.018": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.teln.2026.09.018",
+      "original_url": "https://doi.org/10.1016/j.teln.2026.09.018",
+      "title": "Active learning in bachelor's degree in nursing: The role of theme cards as artefacts in mental health preparation",
+      "notes": [
+        "notes/crossref_Active_learning_in_bachelor_s_degree_in_nursi_9e675bf11e.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acsomega.6c06841.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acsomega.6c06841.s001",
+      "original_url": "https://doi.org/10.1021/acsomega.6c06841.s001",
+      "title": "Intramolecular Long-Range Photoinduced Electron Transfer Using Way of a Step--Conjugated Polymer",
+      "notes": [
+        "notes/crossref_Intramolecular_Long-Range_Photoinduced_Electr_26d5f1e0a0.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111126": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111126",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111126",
+      "title": "Influence of Synthesis Protocol towards Structural and Functional Properties in Ternary CNT Photoanodes",
+      "notes": [
+        "notes/crossref_Influence_of_Synthesis_Protocol_towards_Struc_0daaf8c497.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111140": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111140",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111140",
+      "title": "VCSEL Photothermal Surface Modulation of WO3 Photoanodes for Enhanced Photoelectrochemical Water Oxidation",
+      "notes": [
+        "notes/crossref_VCSEL_Photothermal_Surface_Modulation_of_WO3__f1bf454398.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011171/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011171/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011171/v1",
+      "title": "Mobilis: an open-source toolkit for charge transport in organic semiconductors, from crystal structures to temperaturedependent mobilities with dynamic disorder and active learning",
+      "notes": [
+        "notes/chemrxiv_Mobilis_an_open-source_toolkit_for_charge_tra_0e8aaba654.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011173/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011173/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011173/v1",
+      "title": "Neural quantum states for non-Markovian open quantum dynamics in bosonic environments",
+      "notes": [
+        "notes/chemrxiv_Neural_quantum_states_for_non-Markovian_open__6a273896a3.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011158/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011158/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011158/v1",
+      "title": "Reactive dye adsorption and recovery using a PVA/TiO2 film containing Saccharum spontaneum flower-fibre cellulose: kinetic model discrimination beyond pseudo-second-order",
+      "notes": [
+        "notes/chemrxiv_Reactive_dye_adsorption_and_recovery_using_a__dc3d8de1f4.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011164/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011164/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011164/v1",
+      "title": "Spectro-Electrochemical Decoding of Metals, Alloys, and Buried Interfaces",
+      "notes": [
+        "notes/chemrxiv_Spectro-Electrochemical_Decoding_of_Metals_Al_5ddb0f430e.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011181/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011181/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011181/v1",
+      "title": "Ni/TiO <sub>2</sub> Interfaces Enhance Benzaldehyde Selectivity in the Photocatalytic Dehydrogenation of Benzyl Alcohol",
+      "notes": [
+        "notes/chemrxiv_Ni_TiO_sub_2_sub_Interfaces_Enhance_Benzaldeh_32d7a62125.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011157/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011157/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011157/v1",
+      "title": "Small-data pH-resolved kernel modelling of flotation collectors",
+      "notes": [
+        "notes/chemrxiv_Small-data_pH-resolved_kernel_modelling_of_fl_3fa04fc591.md"
+      ],
+      "added_at": "2026-10-28T10:56:07+00:00",
+      "last_requested_at": "2026-10-28T10:56:07+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
     }
   }
 }
