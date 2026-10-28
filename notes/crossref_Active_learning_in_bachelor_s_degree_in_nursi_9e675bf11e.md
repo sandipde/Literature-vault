@@ -17,6 +17,12 @@ published: 2026-10
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [nursing-education, active-learning, theme-cards]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1016/j.teln.2026.09.018
   journal: Teaching and Learning in Nursing
@@ -39,3 +45,17 @@ provider_data:
 - **Journal:** Teaching and Learning in Nursing
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Consulted source:** https://doi.org/10.1016/j.teln.2026.09.018
+- **Outcome:** The public publisher route exposed the article title but not an abstract or additional study details.
+- **Limitations:** This remains a title-only record and appears unrelated to the vault's core materials focus; no findings or practical outcomes can be inferred from the title.
+
+## AI enrichment
+
+- **Concise summary:** The title indicates a study of theme cards as learning artefacts in mental-health preparation for nursing students, but the captured record contains no abstract.
+- **Why it matters:** If relevant to a broader teaching collection, the topic may concern structured active-learning preparation; the available evidence is insufficient to say how the cards were used or whether they helped.
+- **Caveat:** Title-only and likely an off-topic scan match. No study design, results, or participant details were recovered.
+- **Evidence:** [Captured DOI record](https://doi.org/10.1016/j.teln.2026.09.018); publisher landing page checked, but no abstract was available to support claims beyond the title.

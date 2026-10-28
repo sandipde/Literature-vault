@@ -42,6 +42,10 @@ abstract: Reactive dyes are difficult to remove from textile effluent, and adsor
   80 °C, and the film could be reused.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [wastewater-treatment, adsorption-kinetics, model-selection]
 provider_data:
   doi: 10.26434/chemrxiv.15011158/v1
   journal: ''
@@ -66,3 +70,10 @@ Reactive dyes are difficult to remove from textile effluent, and adsorbents made
 - **Doi:** 10.26434/chemrxiv.15011158/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** This preprint tests a cellulose/PVA/TiO2 film for reactive-dye removal and compares adsorption models. The authors report modest batch removal and favor a fast-plus-slow uptake description; pseudo-second-order kinetics receive little support after excluding the definitional origin point.
+- **Why it matters:** Explicit model discrimination and sampling-limit analysis are useful checks against choosing familiar kinetic equations by default.
+- **Caveat:** The removal rates and model rankings are author-reported laboratory results, not evidence of treatment at scale. The authors also note that their sparse sampling design cannot resolve the form of a slow second phase.
+- **Evidence:** [Captured ChemRxiv abstract](https://doi.org/10.26434/chemrxiv.15011158/v1); analysis based only on captured metadata, not independently verified full text.

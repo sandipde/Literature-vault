@@ -37,6 +37,10 @@ abstract: Polymorphism in molecular crystals presents a major challenge for cont
   additive-controlled crystallization.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [molecular-crystals, polymorphism, additive-control]
 provider_data:
   arxiv_id: '2610.37597'
   categories:
@@ -58,3 +62,10 @@ Polymorphism in molecular crystals presents a major challenge for controlling cr
 ## Provider details
 - **Arxiv Id:** 2610.37597
 - **Categories:** ["cond-mat.mtrl-sci"]
+
+## AI enrichment
+
+- **Concise summary:** This preprint combines crystallization experiments, crystal-structure prediction, a fine-tuned interatomic potential, and anharmonic free-energy calculations to map acridine polymorph stability. The authors report resolving form VIII and relating additive preferences to defect energies and structural similarity.
+- **Why it matters:** The work links polymorph identification and thermodynamic modeling to additive-directed crystallization, a practical challenge in molecular materials.
+- **Caveat:** Findings are from a preprint abstract; the reported structures and stability relationships are not independently validated here. The proposed additive correlations do not by themselves establish general predictive rules.
+- **Evidence:** [Captured arXiv abstract](https://arxiv.org/abs/2610.37597); analysis based only on captured metadata, not independently verified full text.

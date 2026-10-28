@@ -38,6 +38,10 @@ abstract: 'Scientific reasoning in specialized engineering fields depends on kno
   its traversal to unseen graphs that stay with their owners.'
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [knowledge-graphs, scientific-reasoning, evidence-traversal]
 provider_data:
   arxiv_id: '2610.37121'
   categories:
@@ -62,3 +66,10 @@ Scientific reasoning in specialized engineering fields depends on knowledge scat
 ## Provider details
 - **Arxiv Id:** 2610.37121
 - **Categories:** ["cs.AI", "cond-mat.mtrl-sci", "cs.CL", "cs.LG"]
+
+## AI enrichment
+
+- **Concise summary:** Prospector learns to traverse a domain knowledge graph one step at a time, using prior discoveries to guide its next evidence lookup and constructing a checkable answer chain. The abstract reports transfer to three other fields after training on semiconductor literature.
+- **Why it matters:** Iterative evidence-seeking may avoid committing too early to a fixed context and could help keep private domain graphs on their owners' hardware.
+- **Caveat:** This is a preprint; transfer, speed, and cost results are author-reported and depend on the tested graphs and baselines. No full-text or benchmark review was performed.
+- **Evidence:** [Captured arXiv abstract](https://arxiv.org/abs/2610.37121); analysis based only on captured metadata, not independently verified full text.

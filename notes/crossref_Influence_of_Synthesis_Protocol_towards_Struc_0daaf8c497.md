@@ -19,6 +19,12 @@ published: 2026-10
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [carbon-nanotubes, photoanodes, synthesis-effects]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1016/j.surfin.2026.111126
   journal: Surfaces and Interfaces
@@ -41,3 +47,17 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Consulted source:** https://doi.org/10.1016/j.surfin.2026.111126
+- **Outcome:** The public publisher route exposed the article title but not an abstract or further study details.
+- **Limitations:** This is a title-only materials record. The title suggests a synthesis-protocol comparison for ternary carbon-nanotube photoanodes, but gives no basis for describing methods or results.
+
+## AI enrichment
+
+- **Concise summary:** The title indicates a study relating synthesis protocol to structural and functional properties of ternary CNT photoanodes; no abstract was captured or recovered.
+- **Why it matters:** Synthesis-dependent structure and function can matter when comparing photoelectrode preparation routes, but this record does not show which variables or outcomes were tested.
+- **Caveat:** Title-only; scanner relevance to the vault's atomistic focus is uncertain. No performance or mechanistic claims are supported.
+- **Evidence:** [Captured DOI record](https://doi.org/10.1016/j.surfin.2026.111126); publisher landing route checked, but no abstract was available.

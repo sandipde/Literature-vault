@@ -45,6 +45,10 @@ abstract: The selective conversion of alcohols to carbonyls (ketones and aldehyd
   and product selectivity for targeted chemical synthesis.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [photocatalysis, surface-coatings, benzyl-alcohol]
 provider_data:
   doi: 10.26434/chemrxiv.15011181/v1
   journal: ''
@@ -69,3 +73,10 @@ The selective conversion of alcohols to carbonyls (ketones and aldehydes) plays 
 - **Doi:** 10.26434/chemrxiv.15011181/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract describes CdS/TiO2/Ni photocatalysts for converting benzyl alcohol to benzaldehyde and hydrogen. It reports that TiO2 coating changes surface-site behavior and extends catalyst lifetime, while thicker coatings trade lower initial activity for stability.
+- **Why it matters:** The work highlights that protective layers can alter both durability and active-site chemistry, so coating thickness is a selectivity and activity choice as well as a stability choice.
+- **Caveat:** This is a ChemRxiv preprint. The reported selectivity, lifetime, and proposed surface mechanism are author-reported and were not independently verified.
+- **Evidence:** [Captured ChemRxiv abstract](https://doi.org/10.26434/chemrxiv.15011181/v1); analysis based only on captured metadata, not independently verified full text.

@@ -35,6 +35,10 @@ abstract: 'Small, heterogeneous datasets are common in chemometrics, yet their p
   and validation protocol for more honest claims.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [chemometrics, flotation-collectors, small-data-validation]
 provider_data:
   doi: 10.26434/chemrxiv.15011157/v1
   journal: ''
@@ -59,3 +63,10 @@ Small, heterogeneous datasets are common in chemometrics, yet their predictive c
 - **Doi:** 10.26434/chemrxiv.15011157/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The authors model pH-dependent flotation-collector recovery from a small literature-assembled dataset. Although leave-one-molecule-out scores for labels and maxima are reported as promising, curve prediction and held-out-congener results are weak, limiting claims to ranking training-like compounds.
+- **Why it matters:** The gap between pooled metrics and per-molecule or held-out performance illustrates why small chemical datasets need validation splits that reflect the intended use.
+- **Caveat:** This is a ChemRxiv preprint with only 19 collectors and six held-out congeners; the reported scores and protocol were not independently reproduced.
+- **Evidence:** [Captured ChemRxiv abstract](https://doi.org/10.26434/chemrxiv.15011157/v1); analysis based only on captured metadata, not independently verified full text.

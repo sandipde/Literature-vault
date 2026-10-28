@@ -42,6 +42,10 @@ abstract: Metal-electrolyte interfaces govern corrosion, catalysis, energy-conve
   chemical history of electrochemical interfaces.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [operando-spectroscopy, corrosion, buried-interfaces]
 provider_data:
   doi: 10.26434/chemrxiv.15011164/v1
   journal: ''
@@ -66,3 +70,10 @@ Metal-electrolyte interfaces govern corrosion, catalysis, energy-conversion and 
 - **Doi:** 10.26434/chemrxiv.15011164/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The authors introduce an operando optical method that uses a transparent gel to spatially separate dissolved species during corrosion, then tracks them by UV-visible spectroscopy. The abstract describes Cu/Ni model systems, a Cu-coated Ni interface, and a ternary alloy.
+- **Why it matters:** Layer-resolved, time-dependent dissolution signals could complement electrochemical currents that combine contributions from multiple constituents.
+- **Caveat:** This is a ChemRxiv preprint and a platform demonstration in the described systems. Detection limits and mechanistic interpretations are author-reported, not independently tested here.
+- **Evidence:** [Captured ChemRxiv abstract](https://doi.org/10.26434/chemrxiv.15011164/v1); analysis based only on captured metadata, not independently verified full text.

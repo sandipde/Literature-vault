@@ -40,6 +40,10 @@ abstract: Test-time adaptation helps a deployed model respond to changing inputs
   predictions available to later batches.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [test-time-adaptation, active-labeling, model-selection]
 provider_data:
   arxiv_id: '2610.37658'
   categories:
@@ -61,3 +65,10 @@ Test-time adaptation helps a deployed model respond to changing inputs, but the 
 ## Provider details
 - **Arxiv Id:** 2610.37658
 - **Categories:** ["cs.LG"]
+
+## AI enrichment
+
+- **Concise summary:** PORTAL selects among fixed prediction rules by obtaining labels that compare all candidates on the same inputs, then stops when more feedback is unlikely to change the choice or justify its cost. The authors report that this can avoid batch-specific failures from test-time adaptation.
+- **Why it matters:** Choosing when to adapt, rather than relying on average accuracy, makes label budgets and failure risks explicit under changing data.
+- **Caveat:** This is a preprint abstract's account of experiments. The method depends on the available candidate rules and a continuing supply of labels; gains and failure prevention are not independently verified.
+- **Evidence:** [Captured arXiv abstract](https://arxiv.org/abs/2610.37658); analysis based only on captured metadata, not independently verified full text.

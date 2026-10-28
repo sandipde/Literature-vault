@@ -37,6 +37,10 @@ abstract: 'Computing a charge mobility for an organic semiconductor involves a c
   Zenodo (doi:10.5281/zenodo.23593488).'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [organic-semiconductors, charge-transport, active-learning]
 provider_data:
   doi: 10.26434/chemrxiv.15011171/v1
   journal: ''
@@ -61,3 +65,10 @@ Computing a charge mobility for an organic semiconductor involves a chain of ste
 - **Doi:** 10.26434/chemrxiv.15011171/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Mobilis is presented as a workflow for organic-semiconductor charge transport, from crystal or MD structures through electronic couplings, dynamic disorder, and hopping or transient-localization models. The authors report using Gaussian-process active learning to reduce pentacene dimer calculations while estimating coupling fluctuations.
+- **Why it matters:** A unified workflow could make assumptions and handoffs between structure, electronic-structure calculations, and transport models easier to compare.
+- **Caveat:** This is a ChemRxiv preprint. The reported sampling efficiency and test coverage are author claims; the package, supported code paths, and benchmarks were not independently inspected or run.
+- **Evidence:** [Captured ChemRxiv abstract](https://doi.org/10.26434/chemrxiv.15011171/v1); analysis based only on captured metadata, not independently verified full text or software.

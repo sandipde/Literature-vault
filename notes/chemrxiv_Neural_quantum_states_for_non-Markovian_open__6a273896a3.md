@@ -35,6 +35,10 @@ abstract: Condensed-phase quantum dynamics are strongly shaped by vibrational, s
   NQS propagation.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [non-markovian-dynamics, neural-quantum-states, open-quantum-systems]
 provider_data:
   doi: 10.26434/chemrxiv.15011173/v1
   journal: ''
@@ -59,3 +63,10 @@ Condensed-phase quantum dynamics are strongly shaped by vibrational, solvent, an
 - **Doi:** 10.26434/chemrxiv.15011173/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The authors apply a complex-valued neural quantum state to a dissipaton-embedded master equation for bosonic environments, using filtering to focus representation capacity on relevant configurations. Their abstract reports weak-coupling hydrogen-transfer agreement but localized reduced-density-tensor errors at stronger coupling.
+- **Why it matters:** The reported failure mode warns that a good global variational residual may not protect chemically important observables.
+- **Caveat:** This is a ChemRxiv preprint; the comparisons and error analysis are author-reported. No full-text review or independent numerical reproduction was performed.
+- **Evidence:** [Captured ChemRxiv abstract](https://doi.org/10.26434/chemrxiv.15011173/v1); analysis based only on captured metadata, not independently verified full text.

@@ -29,6 +29,10 @@ abstract: Central to non-Hermitian sensing is the question of whether exceptiona
   superconducting qubits, and trapped ions.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [exceptional-points, quantum-sensing, quantum-fisher-information]
 provider_data:
   arxiv_id: '2610.37660'
   categories:
@@ -52,3 +56,10 @@ Central to non-Hermitian sensing is the question of whether exceptional points (
 ## Provider details
 - **Arxiv Id:** 2610.37660
 - **Categories:** ["quant-ph", "math-ph", "physics.optics"]
+
+## AI enrichment
+
+- **Concise summary:** For finite-dimensional Lindblad systems with a unique steady state and nonzero relaxation gap, the authors find no exceptional-point advantage in the scaling of observation time with perturbation strength. They also report shorter detection times for selected perturbations that raise the quantum Fisher information rate.
+- **Why it matters:** The distinction between asymptotic scaling and a finite-accuracy advantage tempers broad claims that exceptional points automatically improve sensing.
+- **Caveat:** This is a specialized theoretical preprint outside the vault's core materials focus. Results are limited to the stated models and assumptions and are not independently checked.
+- **Evidence:** [Captured arXiv abstract](https://arxiv.org/abs/2610.37660); analysis based only on captured metadata, not independently verified full text.

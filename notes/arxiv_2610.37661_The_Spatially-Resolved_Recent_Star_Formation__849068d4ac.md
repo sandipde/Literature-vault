@@ -38,6 +38,10 @@ abstract: The nearby M81 galaxy---a tidally interacting $L^*$ spiral disk---offe
   resolved across large areas of its disk.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [m81-galaxy, star-formation, astronomy]
 provider_data:
   arxiv_id: '2610.37661'
   categories:
@@ -59,3 +63,10 @@ The nearby M81 galaxy---a tidally interacting $L^*$ spiral disk---offers a uniqu
 ## Provider details
 - **Arxiv Id:** 2610.37661
 - **Categories:** ["astro-ph.GA"]
+
+## AI enrichment
+
+- **Concise summary:** Using archival Hubble photometry and color-magnitude diagram fitting, the authors map recent star formation across M81 and report an east-west asymmetry, a largely steady recent global history, and evidence favoring an older M81-M82 pericenter passage.
+- **Why it matters:** The record illustrates how spatially resolved histories can test galaxy-interaction timelines and expose structure obscured in integrated indicators.
+- **Caveat:** This astronomy preprint is likely an off-topic scan match. All numerical and interpretive claims are author-reported from the abstract and are not independently verified.
+- **Evidence:** [Captured arXiv abstract](https://arxiv.org/abs/2610.37661); analysis based only on captured metadata, not independently verified full text.

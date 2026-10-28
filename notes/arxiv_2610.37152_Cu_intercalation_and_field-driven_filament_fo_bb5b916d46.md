@@ -31,6 +31,10 @@ abstract: Vertically-aligned MoS$_2$ films paired with a Cu top electrode have b
   for maximizing switching speed and endurance.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [molybdenum-disulfide, copper-intercalation, memristors]
 provider_data:
   arxiv_id: '2610.37152'
   categories:
@@ -53,3 +57,10 @@ Vertically-aligned MoS$_2$ films paired with a Cu top electrode have been used a
 ## Provider details
 - **Arxiv Id:** 2610.37152
 - **Categories:** ["cond-mat.mes-hall", "cond-mat.mtrl-sci"]
+
+## AI enrichment
+
+- **Concise summary:** The authors combine a DFT-fitted machine-learning force field with kinetic Monte Carlo to model copper intercalation and field-driven filament formation in MoS2 memristors. Their abstract identifies a stable MoS2Cu0.11 configuration and reports agreement between simulated switching and available experiments.
+- **Why it matters:** Connecting atomic-scale filament structure to device-level switching can help frame materials choices for memristor speed and endurance.
+- **Caveat:** This is a computational preprint. The structure, metallicity, and agreement with experiments are author-reported; they were not independently checked or reproduced.
+- **Evidence:** [Captured arXiv abstract](https://arxiv.org/abs/2610.37152); analysis based only on captured metadata, not independently verified full text.
