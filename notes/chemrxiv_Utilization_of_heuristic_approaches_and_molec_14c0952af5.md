@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [chemistry-education, molecular-modeling, conceptual-learning]
 title: Utilization of heuristic approaches and molecular modelling to visualise chemical
   reactivity in small student groups
 type: chemrxiv
@@ -57,3 +61,9 @@ According to current psychometric analyses, a vast majority of novices in univer
 - **Doi:** 10.26434/chemrxiv.15010086/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Eight Diels-Alder molecular-modeling tasks are proposed as a heuristic lesson for developing conceptual understanding of chemical reactivity. Interviews and pre/post tests in a university course are reported as evidence of improvement.
+- **Why it matters:** Modeling can support reasoning about reactivity rather than serve only as an algorithmic exercise.
+- **Caveat:** The v2 abstract is unverified and does not establish a controlled causal comparison; it also mixes undergraduate framing with a third-year master's-course evaluation.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010086/v2); analysis based only on captured metadata, not independently verified full text.

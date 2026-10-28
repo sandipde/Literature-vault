@@ -14,6 +14,10 @@ published: ''
 abstract: Code for automated fitting of machine learned interatomic potentials.
 metadata_provider: GitHub
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [automated-fitting, potential-workflows, simulation-software]
 provider_data:
   description: Code for automated fitting of machine learned interatomic potentials.
   language: Python
@@ -51,3 +55,10 @@ Code for automated fitting of machine learned interatomic potentials.
 - **Forks:** 28
 - **Open Issues:** 48
 - **Pushed At:** 2026-10-12T14:37:50Z
+
+## AI enrichment
+
+- **Concise summary:** Autoplex is described as code for automated fitting of machine-learned interatomic potentials.
+- **Why it matters:** Workflow automation is a separate practical layer from potential architecture, potentially relevant when organizing repeatable fitting campaigns.
+- **Caveat:** The brief description does not establish supported model families, sampling strategies, reference calculators, or validated automation coverage.
+- **Evidence:** [Captured source](https://github.com/autoatml/autoplex); analysis based only on captured metadata, not independently verified full text.

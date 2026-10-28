@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [dynamical-mean-field-theory, electronic-correlations, self-energy, transfer-learning]
 title: Deep learning-based prediction of self-energies from ab initio dynamical mean-field
   theory for real materials with minimal data sets
 type: web
@@ -100,3 +104,9 @@ Density-functional theory (DFT) has been the workhorse of first-principles calcu
 - **Topics:** ["Machine Learning in Materials Science", "Advanced Chemical Physics Studies", "Physics of Superconductivity and Magnetism"]
 - **Open Access:** {"is_oa": true, "oa_status": "gold", "oa_url": "https://doi.org/10.1038/s41524-026-02277-6", "any_repository_has_fulltext": true}
 - **Cited By Count:** 1
+
+## AI enrichment
+- **Concise summary:** Deep-learning models predict DFT+DMFT electronic self-energies from noninteracting Green's functions, starting with SrVO3 and transferring to related perovskites. The abstract reports small-data learning and transfer to compositions whose self-energies were not used for training.
+- **Why it matters:** This targets the electronic-correlation calculation itself, addressing a limitation that cannot be repaired merely by fitting a force field more accurately to ordinary DFT labels.
+- **Caveat:** Transferability and computational savings are unverified abstract claims for selected materials; this electronic surrogate is not an interatomic force model.
+- **Evidence:** [Captured source](https://www.nature.com/articles/s41524-026-02277-6?error=cookies_not_supported&code=11517c62-cde5-42c8-9cb9-a65db7f1e8dc); analysis based only on captured metadata, not independently verified full text.

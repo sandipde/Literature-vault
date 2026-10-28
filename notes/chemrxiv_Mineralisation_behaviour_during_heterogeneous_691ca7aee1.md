@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [photo-fenton, oxidant-stoichiometry, carbon-balance, wastewater-treatment]
 title: 'Mineralisation behaviour during heterogeneous photo-Fenton treatment of amoxicillin
   in a rotating Fe2O3-impregnated disc reactor: the controlling role of oxidant stoichiometry'
 type: chemrxiv
@@ -64,3 +68,9 @@ Conventional biological treatment does not remove antibiotic residues, and in Jo
 - **Doi:** 10.26434/chemrxiv.15010614/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A rotating Fe2O3-disc photo-Fenton study of amoxicillin argues that supplied peroxide stoichiometry capped mineralisation far below apparent carbon-removal measurements.
+- **Why it matters:** The mass-balance argument is a useful safeguard against interpreting pollutant disappearance or anomalous carbon readings as complete mineralisation.
+- **Caveat:** The v1 abstract reports seven runs and internally inconsistent carbon outcomes; it does not resolve the measurement discrepancy or establish practical treatment efficacy.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010614/v1); analysis based only on captured metadata, not independently verified full text.

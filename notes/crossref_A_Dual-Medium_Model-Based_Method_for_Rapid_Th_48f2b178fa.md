@@ -39,6 +39,10 @@ abstract: The triply periodic minimal surface (TPMS) structure demonstrates sign
   and performance assessment of TPMS-based active heat transfer structures.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [porous-heat-exchangers, homogenization, thermal-modeling]
 provider_data:
   doi: 10.3390/ma19204298
   journal: Materials
@@ -64,3 +68,10 @@ The triply periodic minimal surface (TPMS) structure demonstrates significant po
 - **Journal:** Materials
 - **Publisher:** MDPI AG
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** A dual-medium approximation represents TPMS heat exchangers as homogenized conductive solids coexisting with Darcy-Forchheimer fluid channels. Numerical examples report roughly 22-fold faster thermal analysis than conventional CFD.
+- **Why it matters:** Separating equivalent conduction from empirically modeled convection offers a practical route to screening complex porous geometries without resolving every channel.
+- **Caveat:** Speed and accuracy depend on the tested geometries and correlations; this is continuum heat-transfer modeling, not atomistic simulation.
+- **Evidence:** [Captured source](https://doi.org/10.3390/ma19204298); analysis based only on captured metadata, not independently verified full text.

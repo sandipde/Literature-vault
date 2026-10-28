@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Atomistic chemistry and materials
 enrichment_tags: [superhydrophobic-surfaces, drag-reduction, surface-fabrication]
@@ -55,3 +57,9 @@ provider_data:
 - **Why it matters:** Surface design connects wetting behavior to macroscopic flow performance.
 - **Caveat:** Title only; this broad surface-engineering review has no captured atomistic method or quantified performance evidence.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111084); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.surfin.2026.111084) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [raman-spectroscopy, spectral-unmixing, simulation-training, supplementary-material]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: A Simulation-Driven Deep Learning Approach for Artifact-Resistant Raman Spectral
   Unmixing
 type: paper
@@ -35,3 +41,15 @@ provider_data:
 - **Doi:** 10.1021/acs.analchem.5c07805.s001
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** component
+
+## Source recovery
+- **Checked on:** 2026-10-28
+- **Sources attempted:** https://doi.org/10.1021/acs.analchem.5c07805.s001 ; https://api.openalex.org/works/https://doi.org/10.1021/acs.analchem.5c07805.s001 ; https://api.crossref.org/works/10.1021%2Facs.analchem.5c07805.s001
+- **Outcome:** The original component DOI redirected to an ACS supplementary PDF that returned HTTP 403. OpenAlex returned 404 and the Crossref helper failed certificate validation.
+- **Limitations:** No abstract or supplementary content was recovered; the component is not interchangeable with a verified main-article record.
+
+## AI enrichment
+- **Concise summary:** The title describes simulation-driven deep learning for Raman spectral unmixing resistant to artifacts; the captured DOI is a supplementary component.
+- **Why it matters:** Robust unmixing would be relevant to extracting chemical signals from overlapping spectra, but this record only identifies that research direction.
+- **Caveat:** Title-only metadata cannot establish model architecture, artifact types, datasets, or accuracy, and the recovery attempts did not resolve those gaps.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acs.analchem.5c07805.s001); analysis based only on captured metadata, not independently verified full text.

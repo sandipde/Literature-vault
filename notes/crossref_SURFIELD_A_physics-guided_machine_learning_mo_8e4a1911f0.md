@@ -32,6 +32,10 @@ abstract: External electric fields influence surface diffusion, field evaporatio
   approach to modelling the surface-normal electric-field response of metallic surfaces.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [electric-field-response, metallic-surfaces, response-theory]
 provider_data:
   doi: 10.2139/ssrn.7635624
   journal: ''
@@ -56,3 +60,10 @@ External electric fields influence surface diffusion, field evaporation and nano
 - **Doi:** 10.2139/ssrn.7635624
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** SURFIELD learns local dipoles, polarizabilities, and zero-field energies, then uses response theory to construct field-dependent forces. Directional SOAP encodes orientation, with lithium and tungsten surfaces as the stated tests.
+- **Why it matters:** Explicit response quantities offer a structured way to extend surface potentials beyond a single zero-field energy landscape.
+- **Caveat:** Linear-response validity and the reported 389-fold speedup apply to investigated fields and benchmark conditions, not arbitrary fields or materials.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7635624); analysis based only on captured metadata, not independently verified full text.

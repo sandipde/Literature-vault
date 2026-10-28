@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [hypervalent-chains, chalcogenides, antiferromagnetism, electron-counting]
 title: 'Electron Counting by Design: Antiferromagnetic Ribbons Double as Charge Reservoirs
   to Stabilize Hypervalent Selenium and Tellurium Chains'
 type: chemrxiv
@@ -63,3 +67,9 @@ Linear chains of hypervalently bonded chalcogen atoms are attractive building bl
 - **Doi:** 10.26434/chemrxiv.15010438/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Mixed Cu/Fe ribbons are proposed as charge reservoirs stabilizing extended Se/Te chains in an Ibam structure, supported by diffraction, magnetic measurements, and electronic-structure calculations.
+- **Why it matters:** Aliovalent cation mixing provides a chemical route to tuning chain electron count while retaining magnetic ribbons, connecting synthesis to potential topological band features.
+- **Caveat:** The v1 preprint locates calculated Dirac crossings about 0.4 eV below the Fermi level; the abstract does not demonstrate accessible topological transport.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010438/v1); analysis based only on captured metadata, not independently verified full text.

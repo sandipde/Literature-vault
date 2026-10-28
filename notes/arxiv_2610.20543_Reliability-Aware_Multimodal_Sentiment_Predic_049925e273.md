@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [multimodal-sentiment, missing-data, evaluation-leakage]
 title: Reliability-Aware Multimodal Sentiment Prediction Under Local Modality Missingness
 type: arxiv
 source: https://arxiv.org/abs/2610.20543
@@ -58,3 +62,9 @@ Multimodal sentiment models are usually evaluated on complete utterances, yet st
 ## Provider details
 - **Arxiv Id:** 2610.20543
 - **Categories:** ["cs.CV"]
+
+## AI enrichment
+- **Concise summary:** RM-Net models contiguous missing spans in text, audio, and video using quality-gated modality contributions and fuses its outputs with a text expert.
+- **Why it matters:** Its explicit disclosure that the held-out split was inspected is a useful evaluation warning, though sentiment prediction is peripheral to atomistic materials research.
+- **Caveat:** The preprint's reported macro-F1 scores are not blind-test results; validation-based explanation metrics also do not establish causal interpretability.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.20543); analysis based only on captured metadata, not independently verified full text.

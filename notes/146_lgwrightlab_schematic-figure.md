@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [agent-skills, scientific-figures, vector-graphics]
 title: lgwrightlab/schematic-figure
 type: github
 source: https://github.com/lgwrightlab/schematic-figure
@@ -57,3 +61,9 @@ Skill for AI agents that draws publication-quality scientific schematic figures 
 - **Created At:** 2026-10-14T13:52:56Z
 - **Pushed At:** 2026-10-14T13:53:14Z
 - **Default Branch:** main
+
+## AI enrichment
+- **Concise summary:** This repository describes an AI-agent skill for drawing scientific schematic figures as vector code.
+- **Why it matters:** Code-based schematics could make research illustrations editable and reproducible alongside an agent-assisted writing workflow.
+- **Caveat:** Limited repository metadata does not verify publication quality, supported drawing formats, or scientific correctness of generated figures.
+- **Evidence:** [Captured source](https://github.com/lgwrightlab/schematic-figure); analysis based only on captured metadata, not independently verified full text.

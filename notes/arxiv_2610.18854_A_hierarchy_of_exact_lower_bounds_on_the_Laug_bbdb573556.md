@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [spectral-gaps, semidefinite-programming, rigorous-certification]
 title: A hierarchy of exact lower bounds on the Laughlin spectral gap
 type: arxiv
 source: https://arxiv.org/abs/2610.18854
@@ -56,3 +60,9 @@ We develop a bootstrap approach to deriving lower bounds on the spectral gap of 
 ## Provider details
 - **Arxiv Id:** 2610.18854
 - **Categories:** ["cond-mat.str-el"]
+
+## AI enrichment
+- **Concise summary:** The authors derive lower bounds for the Laughlin spectral gap using an analytic decomposition and finite semidefinite programs, then describe rational-feasibility and rank-stability algorithms for rigorous certification.
+- **Why it matters:** Converting solver output into exact feasible points could bridge numerical evidence and proof beyond this particular quantum Hamiltonian.
+- **Caveat:** The captured preprint abstract is not a checked proof; numerical precision, exact certification, and the thermodynamic-limit argument are distinct claims requiring scrutiny.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.18854); analysis based only on captured metadata, not independently verified full text.

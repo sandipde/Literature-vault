@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [claude-code, scientific-illustration, svg]
 title: wheresryan22/anatomy
 type: github
 source: https://github.com/wheresryan22/anatomy
@@ -51,3 +55,9 @@ A Claude Code skill that turns a technical idea into a detailed, interactive iso
 - **Created At:** 2026-10-08T10:12:49Z
 - **Pushed At:** 2026-10-10T15:44:30Z
 - **Default Branch:** main
+
+## AI enrichment
+- **Concise summary:** Anatomy is a Claude Code skill for turning technical concepts into interactive isometric machine illustrations using SVG and optional WebGL or 3D elements.
+- **Why it matters:** It could support technical communication around simulation workflows without being a scientific simulation or structure-generation method itself.
+- **Caveat:** The repository description establishes intended functionality, not visual fidelity, scientific accuracy, or successful execution.
+- **Evidence:** [Captured source](https://github.com/wheresryan22/anatomy); analysis based only on captured metadata, not independently verified full text.

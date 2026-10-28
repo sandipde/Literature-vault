@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [foundation-potentials, mace, molecular-dynamics, transfer-learning]
 title: A foundation model for atomistic materials chemistry
 type: web
 source: https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267
@@ -166,3 +170,9 @@ Atomistic simulations of matter, especially those that leverage first-principles
 - **Topics:** ["Machine Learning in Materials Science", "Advanced Chemical Physics Studies", "Advanced Physical and Chemical Molecular Interactions"]
 - **Open Access:** {"is_oa": true, "oa_status": "green", "oa_url": "https://eprints.ncl.ac.uk/fulltext.aspx?url=308921/67C96B1B-C1EB-4DD4-AF31-B72591B20FA7.pdf&pub_id=308921", "any_repository_has_fulltext": true}
 - **Cited By Count:** 323
+
+## AI enrichment
+- **Concise summary:** MACE-MP-0 is presented as a general-purpose force-field foundation model trained on public data, with demonstrations spanning solids, fluids, interfaces, reactions, and a small protein. Application-specific fine-tuning is proposed when out-of-the-box predictions are insufficient.
+- **Why it matters:** A reusable starting potential can reduce the cost of constructing a separate atomistic model for every system.
+- **Caveat:** The abstract explicitly mixes qualitative and quantitative successes; broad stable dynamics do not guarantee accurate energetics or chemistry for an arbitrary application.
+- **Evidence:** [Captured source](https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267); analysis based only on captured metadata, not independently verified full text.

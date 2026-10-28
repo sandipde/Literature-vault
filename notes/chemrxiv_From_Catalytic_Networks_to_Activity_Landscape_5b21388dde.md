@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [nonequilibrium-catalysis, kinetic-networks, activity-landscapes, active-learning]
 title: 'From Catalytic Networks to Activity Landscapes: A Hierarchical Nonequilibrium
   Framework for Catalysis'
 type: chemrxiv
@@ -60,3 +64,9 @@ Catalysis is commonly described in terms of free-energy profiles, elementary ste
 - **Doi:** 10.26434/chemrxiv.15010707/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A hierarchical catalysis framework connects rate constants and catalyst populations to nonequilibrium steady-state currents and activity landscapes, illustrated with a Suzuki–Miyaura model and Gaussian-process surrogate.
+- **Why it matters:** It treats catalytic capacity as operating-condition dependent while retaining turnover frequency as an observable, providing a landscape view for catalyst-design exploration.
+- **Caveat:** The v1 preprint uses a literature-inspired model and proposed active-learning workflow; the abstract does not establish prospective experimental optimization.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010707/v1); analysis based only on captured metadata, not independently verified full text.

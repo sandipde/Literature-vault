@@ -33,6 +33,10 @@ abstract: Designing ribonucleic acid (RNA) molecules with prescribed structures 
   backbone generation and sequence design.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [rna-design, interaction-topology, sequence-decoding]
 provider_data:
   doi: 10.64898/2026.10.15.759394
   journal: ''
@@ -57,3 +61,10 @@ Designing ribonucleic acid (RNA) molecules with prescribed structures and functi
 - **Doi:** 10.64898/2026.10.15.759394
 - **Publisher:** openRxiv
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** RiboBridge infers probabilistic residue-pair topology from RNA backbone geometry and passes it as attention biases to sequence decoding. The abstract reports better joint refolding validity and interventions showing that aligned pair states matter.
+- **Why it matters:** A learned relational interface can connect geometry-first generation to sequence design more explicitly than independent residue predictions.
+- **Caveat:** Refolding validity is computational evidence rather than demonstrated RNA function, and the reported gains remain preprint claims.
+- **Evidence:** [Captured source](https://doi.org/10.64898/2026.10.15.759394); analysis based only on captured metadata, not independently verified full text.

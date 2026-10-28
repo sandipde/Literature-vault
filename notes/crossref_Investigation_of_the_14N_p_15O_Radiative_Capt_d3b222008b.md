@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Other and possible scan noise
 enrichment_tags: [nuclear-reactions, potential-model, scan-noise]
 title: Investigation of the 14N(p,γ)15O Radiative Capture Reaction Using the Potential
@@ -47,7 +49,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title studies nitrogen-proton radiative capture with a potential model.
+- **Concise summary:** A publisher description identifies nitrogen-14 proton capture into oxygen-15 studied with a Gaussian potential model over 0.01–1.5 MeV. This is a short description, not a complete abstract.
 - **Why it matters:** It marks a terminology collision: nuclear potential models need not be machine-learning interatomic potentials.
-- **Caveat:** Title only; no reaction-rate results are captured, and the topic is outside the intended atomistic-ML scope.
-- **Evidence:** [Captured source](https://doi.org/10.1007/s40995-026-02074-2); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** No complete abstract or reaction-rate results recovered; the description does not validate predictions. Nuclear potential modeling is outside the intended atomistic-ML scope.
+- **Evidence:** [Publisher description](https://doi.org/10.1007/s40995-026-02074-2).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1007%2Fs40995-026-02074-2) returned metadata without an abstract; [publisher via DOI](https://doi.org/10.1007/s40995-026-02074-2) returned a description fragment. [Direct publisher retry](https://link.springer.com/article/10.1007/s40995-026-02074-2) returned HTTP 406.
+
+Recovered details: a Gaussian potential model treats radiative capture over 0.01–1.5 MeV.
+
+Limitations: description fragment only, not a complete abstract; results remain unverified. Original captured metadata retained.

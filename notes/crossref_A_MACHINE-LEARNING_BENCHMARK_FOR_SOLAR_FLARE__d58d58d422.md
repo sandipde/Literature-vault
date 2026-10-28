@@ -40,6 +40,10 @@ abstract: Solar-flare forecasting is a rare-event classification problem in whic
   evaluation materially constrains claims of state-of-the-art performance.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [solar-flares, temporal-validation, rare-event-classification]
 provider_data:
   doi: 10.2139/ssrn.7615933
   journal: ''
@@ -64,3 +68,10 @@ Solar-flare forecasting is a rare-event classification problem in which measured
 - **Doi:** 10.2139/ssrn.7615933
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** This solar-flare forecasting benchmark compares five classifiers under active-region-separated, future-time testing with validation-frozen thresholds. Linear SVM and logistic regression remain competitive, with wide uncertainty from only 32 test regions.
+- **Why it matters:** Grouped temporal evaluation illustrates how experimental design can temper apparent gains from more complex models, although the application is outside atomistic literature.
+- **Caveat:** This is a posted benchmark for one recent solar-cycle dataset; record counts are not counts of independent active regions.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7615933); analysis based only on captured metadata, not independently verified full text.

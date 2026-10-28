@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [repulsive-potentials, radiation-damage, ion-implantation, screening-functions]
 title: Repulsive interatomic potentials calculated at three levels of theory
 type: paper
 source: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.032818
@@ -77,3 +81,9 @@ The high-energy repulsive interaction between nuclei at distances much smaller t
 - **Issue:** 3
 - **Type:** journal-article
 - **License:** [{"start": {"date-parts": [[2025, 3, 26]], "date-time": "2025-03-26T00:00:00Z", "timestamp": 1742947200000}, "content-version": "vor", "delay-in-days": 0, "URL": "https://creativecommons.org/licenses/by/4.0/"}]
+
+## AI enrichment
+- **Concise summary:** The authors compare ZBL repulsive pair potentials with MP2 and DFT calculations allowing electronic density relaxation, and fit screening functions for element pairs up to atomic number 92. They also test ion-implantation profiles in crystalline silicon.
+- **Why it matters:** Short-distance repulsion is a distinct regime from ordinary bonding, making these references useful when assessing collision-safe atomistic models.
+- **Caveat:** The reported percent-level agreement is abstract-level evidence for specified high-energy regimes, not universal accuracy; channeling profiles can also depend on attractive interactions.
+- **Evidence:** [Captured source](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.032818); analysis based only on captured metadata, not independently verified full text.

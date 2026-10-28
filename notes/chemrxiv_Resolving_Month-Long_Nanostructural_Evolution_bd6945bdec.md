@@ -38,6 +38,10 @@ abstract: Chemical degradation reshapes the hydrated ion-transport channels of a
   membrane durability that complements conventional characterization of phase separation.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [anion-exchange-membranes, kinetic-monte-carlo, percolation]
 provider_data:
   doi: 10.26434/chemrxiv.15010223/v1
   journal: ''
@@ -62,3 +66,10 @@ Chemical degradation reshapes the hydrated ion-transport channels of anion excha
 - **Doi:** 10.26434/chemrxiv.15010223/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Calibrated kinetic Monte Carlo models follow month-long degradation of a PPO-TEA membrane, predicting narrowed and fragmented water channels despite an almost unchanged ionomer peak. Loss of network percolation is linked to conductivity decay.
+- **Why it matters:** A persistent phase-separation length scale can conceal transport-network failure, motivating connectivity-sensitive durability measurements.
+- **Caveat:** The structural trajectories are model predictions calibrated to selected experiments, not direct observations of every degradation step; this is preprint evidence.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010223/v1); analysis based only on captured metadata, not independently verified full text.

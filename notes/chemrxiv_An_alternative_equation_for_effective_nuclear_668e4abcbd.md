@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [effective-nuclear-charge, ionization-energies, chemical-education]
 title: An alternative equation for effective nuclear charge that is applicable to
   all atoms
 type: chemrxiv
@@ -66,3 +70,9 @@ Although the advent of ionization energies predated Slater’s rule, there was u
 - **Doi:** 10.26434/chemrxiv.15010220/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The study proposes an effective-nuclear-charge equation based on average ionization energies and compares periodic trends with estimates derived from Slater's rules for the first 30 elements.
+- **Why it matters:** It is primarily an atomic-property and teaching-method comparison, not a materials-generative model or a force-field contribution.
+- **Caveat:** The v1 preprint abstract repeats passages and asserts accuracy without captured independent error analysis; its curricular recommendation is an author interpretation.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010220/v1); analysis based only on captured metadata, not independently verified full text.

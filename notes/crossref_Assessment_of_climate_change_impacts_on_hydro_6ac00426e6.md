@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [hydropower, climate-projections, ensemble-learning]
 title: Assessment of climate change impacts on hydropower potential in intermittent
   river basins using bootstrap aggregating machine learning method
 type: paper
@@ -58,3 +62,9 @@ ABSTRACT Devastating environmental effects of relying too much on fossil fuels i
 - **Journal:** Water Practice &amp; Technology
 - **Publisher:** IWA Publishing
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** A bootstrap-aggregating model estimates hydropower duration curves and cease-to-flow behavior for intermittent river basins, including Antalya projections under RCP 4.5 for 2025-2055.
+- **Why it matters:** Intermittent flow and changing precipitation make energy availability a distributional planning problem rather than a fixed generating capacity.
+- **Caveat:** The reported error and model superiority are unverified and scenario-specific; “potential” here refers to hydropower resources, not atomic interactions.
+- **Evidence:** [Captured source](https://doi.org/10.2166/wpt.2026.512); analysis based only on captured metadata, not independently verified full text.

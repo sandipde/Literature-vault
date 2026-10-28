@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Atomistic chemistry and materials
 enrichment_tags: [oxide-thin-films, thickness-effects, electrical-properties]
@@ -52,3 +54,9 @@ provider_data:
 - **Why it matters:** Thickness can couple film structure to functional response, making it an important design variable.
 - **Caveat:** Title only; no trend direction, mechanism or measurement conditions are available.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111112); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.surfin.2026.111112) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

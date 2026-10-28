@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [galvanic-coupling, palladium-catalysis, alcohol-oxidation]
 title: Galvanic Coupling Links Heterogeneous and Molecular Palladium Catalysis in
   Aerobic Alcohol Oxidation
 type: chemrxiv
@@ -58,3 +62,9 @@ Thermochemical catalytic reactions are often composed of coupled electrochemical
 - **Doi:** 10.26434/chemrxiv.15010484/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Oxygen reduction on palladium is proposed to drive Pd corrosion through galvanic coupling, supplying soluble Pd(II) complexes that catalyze benzyl-alcohol oxidation. Potential-control and sacrificial-anode experiments are reported as tests of this coupling.
+- **Why it matters:** The nominal heterogeneous catalyst may function as a source of a homogeneous active species, changing how reaction rates and catalyst stability should be interpreted.
+- **Caveat:** These ChemRxiv v1 mechanistic claims are unverified and specific to the described reaction; they do not establish that all aerobic palladium catalysis follows this pathway.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010484/v1); analysis based only on captured metadata, not independently verified full text.

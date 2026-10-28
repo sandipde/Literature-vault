@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [boltzmann-generators, flow-maps, generative-sampling]
 title: tonyauyeung/scallop
 type: github
 source: https://github.com/tonyauyeung/scallop
@@ -49,3 +53,9 @@ Official implementation of Scallop: "Few-Step Boltzmann Generators via Scalable 
 - **Created At:** 2026-10-12T16:13:26Z
 - **Pushed At:** 2026-10-15T23:25:29Z
 - **Default Branch:** main
+
+## AI enrichment
+- **Concise summary:** Scallop is identified as the official implementation of “Few-Step Boltzmann Generators via Scalable Likelihood Flow Maps.”
+- **Why it matters:** A likelihood-oriented flow-map implementation is potentially relevant to equilibrium sampling, a different task from fitting an interatomic force field.
+- **Caveat:** Only the implementation description is captured; target systems, sampling correctness, and few-step efficiency are not documented in this note.
+- **Evidence:** [Captured source](https://github.com/tonyauyeung/scallop); analysis based only on captured metadata, not independently verified full text.

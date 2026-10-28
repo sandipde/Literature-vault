@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [potential-energy-surfaces, hydrogen-abstraction, reaction-kinetics, tunneling]
 title: 'An Analytical Full-Dimensional Potential Energy Surface for the H + C3H8 Hydrogen
   Abstraction Reaction: Non-Equivalence of the Primary Hydrogens and Variational Transition
   State Theory Kinetics'
@@ -63,3 +67,9 @@ A new analytical full-dimensional potential energy surface, PES-2026, is reporte
 - **Doi:** 10.26434/chemrxiv.15010442/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** PES-2026 is an analytical valence-bond/molecular-mechanics surface for H abstraction from propane, resolving anti-primary, gauche-primary, and secondary channels. Variational transition-state calculations with tunneling use these distinct pathways to predict rates and isotope effects.
+- **Why it matters:** Treating the primary hydrogens as kinetically nonequivalent can change branching predictions even when barrier differences are small.
+- **Caveat:** This is a fitted analytical surface, not necessarily a machine-learned potential; ChemRxiv v1 accuracy claims are unverified and the abstract flags the muonium case as beyond harmonic treatment.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010442/v1); analysis based only on captured metadata, not independently verified full text.

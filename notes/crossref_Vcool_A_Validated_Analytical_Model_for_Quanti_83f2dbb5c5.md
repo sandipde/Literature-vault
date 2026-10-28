@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [urban-vegetation, local-cooling, analytical-models]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: 'Vcool: A Validated Analytical Model for Quantifying Local Cooling and Decarbonisation
   Potential of Urban Vegetation'
 type: paper
@@ -39,3 +45,15 @@ provider_data:
 - **Journal:** 2026 ASHRAE Annual Conference
 - **Publisher:** ASHRAE
 - **Type:** proceedings-article
+
+## Source recovery
+- **Checked on:** 2026-10-28
+- **Sources attempted:** https://api.openalex.org/works/https://doi.org/10.63044/s26gil31 ; https://api.crossref.org/works/10.63044%2Fs26gil31
+- **Outcome:** OpenAlex returned the conference-record title without an abstract; Crossref failed certificate validation.
+- **Limitations:** No model equations, validation data, or decarbonisation estimates were recovered.
+
+## AI enrichment
+- **Concise summary:** Vcool is titled as an analytical model for local cooling and decarbonisation potential of urban vegetation.
+- **Why it matters:** The application is urban environmental performance rather than atomic interactions; “potential” here refers to possible environmental benefit.
+- **Caveat:** The title's “validated” designation is not backed by captured validation details, and sparse metadata cannot establish predictive accuracy.
+- **Evidence:** [Captured source](https://doi.org/10.63044/s26gil31); analysis based only on captured metadata, not independently verified full text.

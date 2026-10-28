@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [network-pharmacology, molecular-docking, natural-products, computational-screening]
 title: Exploring Potential Multi‐Target Inhibition Mechanisms of <i>Ganoderma lucidum</i>
   Against EBV‐Mediated DLBCL Using Integrative Bioinformatics, Machine Learning, and
   Network Pharmacology Approaches
@@ -76,3 +80,9 @@ ABSTRACT Epstein–Barr virus (EBV)‐associated diffuse large B‐cell lymphoma
 - **Journal:** Journal of Food Science
 - **Publisher:** Wiley
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** An integrative computational screen of Ganoderma-associated compounds combines ADMET, transcriptomics, docking, ML, and molecular dynamics to nominate isorhamnetin and galangin against AKT1/BCL2.
+- **Why it matters:** It illustrates a multi-stage hypothesis-generation pipeline, where several computational readouts converge on candidate molecular interactions.
+- **Caveat:** Docking scores, predicted IC50 values, and stable simulated binding are not evidence of treatment efficacy; the abstract itself calls for in vitro and in vivo validation.
+- **Evidence:** [Captured source](https://doi.org/10.1111/1750-3841.71575); analysis based only on captured metadata, not independently verified full text.

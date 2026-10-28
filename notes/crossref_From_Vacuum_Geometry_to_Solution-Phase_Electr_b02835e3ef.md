@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [equivariant-networks, solvation-properties, delta-learning, hydration-free-energy]
 title: From Vacuum Geometry to Solution-Phase Electronic Properties and Thermodynamics
   via Equivariant Neural Networks
 type: chemrxiv
@@ -66,3 +70,9 @@ We introduce a general framework for predicting solution-phase quantum-mechanica
 - **Doi:** 10.26434/chemrxiv.15010245/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Equivariant networks predict implicit-water quantum properties from gas-phase geometries using paired Aquamarine data and direct or delta learning. Learned solution descriptors feed an interpretable hydration-free-energy regression within QUEDsol.
+- **Why it matters:** Cross-environment property prediction could avoid repeating solvent-specific calculations while retaining descriptors relevant to solution thermodynamics.
+- **Caveat:** This preprint's transfer and benchmark claims are unverified; using MACE or Allegro architectures does not make these property predictors validated molecular-dynamics force fields.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010245/v1); analysis based only on captured metadata, not independently verified full text.

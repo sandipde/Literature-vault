@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [metal-organic-frameworks, vibrational-stark-effect, field-orientation, electrostatic-catalysis]
 title: 'Directional Electric Fields at Designed MOF Sites: Implications for Electrostatic
   Preorganization and Catalysis'
 type: chemrxiv
@@ -62,3 +66,9 @@ Enzymes achieve their enormous catalytic power in part through electrostatic pre
 - **Doi:** 10.26434/chemrxiv.15009497/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Carbonyl and nitrile Stark probes at a constrained PCN-521 site are used to separate electric-field orientation from magnitude in a rigid MOF environment.
+- **Why it matters:** The geometric comparison cautions against interpreting catalytic electrostatics using field strength alone when the relevant bond or transition-state dipole is misaligned.
+- **Caveat:** The v2 preprint describes a controlled probe experiment; extension to flexible enzymes, electrodes, or droplets is an implication rather than a directly established result here.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15009497/v2); analysis based only on captured metadata, not independently verified full text.

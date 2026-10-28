@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [academic-publishing, submission-burden, portable-peer-review]
 title: 'Before the Science Begins: The Non‐Scientific Chasm in Academic Publishing'
 type: paper
 source: https://doi.org/10.1002/leap.2088
@@ -49,3 +53,9 @@ Key Points A systematic audit of six leading journals identifies 301 documented 
 - **Journal:** Learned Publishing
 - **Publisher:** Wiley
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** An audit of six journals identifies 301 submission requirements, including 36 conflicting mandatory values, and proposes format-neutral submission and portable review.
+- **Why it matters:** Administrative incompatibility can consume research effort independently of scientific quality, making this relevant to scholarly workflow rather than atomistic methods.
+- **Caveat:** The 24-million-hour global burden is an estimate extrapolated from an audit; assumptions and representativeness are not available in the captured key points.
+- **Evidence:** [Captured source](https://doi.org/10.1002/leap.2088); analysis based only on captured metadata, not independently verified full text.

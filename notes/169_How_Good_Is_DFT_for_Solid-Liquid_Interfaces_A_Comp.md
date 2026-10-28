@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [graphene-water, random-phase-approximation, functional-benchmarking, interfacial-dynamics]
 title: How Good Is DFT for Solid-Liquid Interfaces? A Comparison With the Random-Phase
   Approximation for Water on Graphene
 type: arxiv
@@ -69,3 +73,9 @@ Simulations of water at solid interfaces routinely disagree on basic properties,
 - **Categories:** ["physics.chem-ph", "cond-mat.mes-hall"]
 - **Primary Category:** physics.chem-ph
 - **Updated:** 2026-10-07T08:47:59Z
+
+## AI enrichment
+- **Concise summary:** DFT- and RPA-trained machine-learned potentials enable multi-observable benchmarking of graphene–water interfaces, comparing structure, wettability, friction, and vibrational spectra.
+- **Why it matters:** The reported failure of functional-family rankings and greater difficulty of dynamical observables caution against selecting a reference method from structural agreement alone.
+- **Caveat:** This arXiv preprint uses RPA as its reference; its six recommended functionals are starting points for dispersion-dominated interfaces, not universally validated choices.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.09685); analysis based only on captured metadata, not independently verified full text.

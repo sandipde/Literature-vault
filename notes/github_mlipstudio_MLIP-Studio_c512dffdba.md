@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [interactive-benchmarking, atomistic-simulation, mlip-platforms]
 title: mlipstudio/MLIP-Studio
 type: github
 source: https://github.com/mlipstudio/MLIP-Studio
@@ -52,3 +56,9 @@ A free and open platform for interactive benchmarking and simulations using mach
 - **Forks:** 1
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-10T13:16:29Z
+
+## AI enrichment
+- **Concise summary:** MLIP-Studio presents a free, open platform for interactive benchmarking and simulations using machine-learning interatomic potentials.
+- **Why it matters:** A common interactive interface could make comparing model behavior easier than managing separate simulation scripts for each potential.
+- **Caveat:** Limited repository metadata does not establish supported models, benchmark comparability, simulation correctness, or deployment requirements; it is a platform rather than a newly trained potential.
+- **Evidence:** [Captured source](https://github.com/mlipstudio/MLIP-Studio); analysis based only on captured metadata, not independently verified full text.

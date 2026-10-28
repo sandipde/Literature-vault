@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [molybdenum-disulfide, strain-engineering, band-gaps, density-functional-theory]
 title: First-Principles Study of Band-Gap Evolution in Monolayer MoS₂ under Biaxial
   Strain
 type: paper
@@ -61,3 +65,9 @@ Two-dimensional transition-metal dichalcogenides have become important candidate
 - **Journal:** Applied and Computational Engineering
 - **Publisher:** EWA Publishing
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** PBE/PAW calculations in Quantum ESPRESSO map monolayer 1H-MoS2 electronic gaps under biaxial strain from -6% to +8%. The abstract reports tensile gap reduction and a shift toward a Gamma-K indirect gap, with near-degenerate direct and indirect gaps around zero strain.
+- **Why it matters:** Tracking both competing gap types is more informative for strain-engineering transitions than reporting only the minimum gap.
+- **Caveat:** The numerical relation is unverified and specific to the stated DFT setup; it is not an experimental or higher-level quasiparticle-gap benchmark.
+- **Evidence:** [Captured source](https://doi.org/10.54254/2755-2721/2026.38025); analysis based only on captured metadata, not independently verified full text.

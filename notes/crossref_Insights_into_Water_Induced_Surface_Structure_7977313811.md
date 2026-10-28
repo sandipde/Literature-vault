@@ -7,6 +7,8 @@ canonical_url: https://doi.org/10.1063/1674-0068/cjcp2607071
 captured_by: auto-scanner
 date: '2026-10-21'
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Atomistic chemistry and materials
 enrichment_tags: [indium-oxide, water-surfaces, molecular-dynamics]
@@ -46,3 +48,9 @@ provider_data:
 - **Why it matters:** Water-surface structure is relevant to understanding oxide interfaces and their chemical environments.
 - **Caveat:** Title only; no abstract was captured, so the modeled conditions and findings are unknown.
 - **Evidence:** [Captured source](https://doi.org/10.1063/1674-0068/cjcp2607071); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1063%2F1674-0068%2Fcjcp2607071) returned bibliographic metadata without an abstract; [publisher via DOI](https://doi.org/10.1063/1674-0068/cjcp2607071) failed because the remote connection closed.
+
+Limitations: no abstract recovered; publisher retrieval failed. Title confirmation is not evidence of methods or results. Original captured metadata retained.

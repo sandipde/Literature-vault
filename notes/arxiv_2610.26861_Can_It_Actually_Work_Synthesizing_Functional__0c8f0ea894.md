@@ -33,6 +33,10 @@ abstract: 'While LLM agents can generate visually plausible CAD assemblies, thes
   human intent into working mechanisms.'
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [cad-agents, physical-simulation, functional-verification]
 provider_data:
   arxiv_id: '2610.26861'
   categories:
@@ -56,3 +60,10 @@ While LLM agents can generate visually plausible CAD assemblies, these designs o
 ## Provider details
 - **Arxiv Id:** 2610.26861
 - **Categories:** ["cs.CV", "cs.CL", "cs.GR"]
+
+## AI enrichment
+
+- **Concise summary:** FunCAD-Harness translates underspecified mechanism requirements into candidate-specific simulation tests and iterative revisions. FunCADBench covers 46 mechanism families with interdependent operations.
+- **Why it matters:** Functional testing can reject visually convincing but mechanically ineffective agent-generated designs.
+- **Caveat:** Simulated success is not manufacturing or real-world validation, and the captured preprint gives no independently checked effect size.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.26861); analysis based only on captured metadata, not independently verified full text.

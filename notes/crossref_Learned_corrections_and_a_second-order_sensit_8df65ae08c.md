@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [reduced-order-models, matched-accuracy, sensitivity-analysis, fluid-mechanics]
 title: 'Learned corrections and a second-order sensitivity model for subsonic full-potential
   flow: a matched-accuracy comparison'
 type: paper
@@ -67,3 +71,9 @@ Learned operator surrogates are often reported to be faster than classical solve
 - **Doi:** 10.2139/ssrn.7624238
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A quadratic sensitivity-based reduced-order model is compared with learned corrections and classical methods for subsonic full-potential flow at matched accuracy. Within a small wall-shape family it often meets prescribed targets while the tested learned corrections perform poorly.
+- **Why it matters:** Runtime comparisons are more meaningful when both classical and learned alternatives must satisfy the same physical and numerical acceptance rules.
+- **Caveat:** The SSRN preprint explicitly restricts results to its shape family and finite domain; failures increase near the higher-Mach, larger-slope regime, and no shock-flow conclusion follows.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7624238); analysis based only on captured metadata, not independently verified full text.

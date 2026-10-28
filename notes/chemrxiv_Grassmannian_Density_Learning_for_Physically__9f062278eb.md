@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [electronic-structure-learning, grassmann-manifolds, orbital-rotations, physical-constraints]
 title: Grassmannian Density Learning for Physically Consistent Kohn–Sham Electronic
   Structure Prediction
 type: chemrxiv
@@ -71,3 +75,9 @@ Deep-learning electronic-structure models show great potential to accelerate fir
 - **Doi:** 10.26434/chemrxiv.15010691/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** GeoK predicts occupied-virtual orbital-rotation generators as coordinates on the manifold of admissible Kohn-Sham electronic states. This representation aims to remove Hamiltonian redundancy while avoiding unphysical unconstrained density predictions.
+- **Why it matters:** Encoding admissibility in the prediction space can be more reliable than asking a network to learn constraints implicitly.
+- **Caveat:** The preprint's benchmark gains are unverified; a valid electronic state is not necessarily the correct self-consistent solution, and this is not an interatomic force-field model.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010691/v1); analysis based only on captured metadata, not independently verified full text.

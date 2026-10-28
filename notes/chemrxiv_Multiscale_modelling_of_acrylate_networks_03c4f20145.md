@@ -32,6 +32,10 @@ abstract: A systematic exploration of combining micro-to meso-to macro-scale mod
   graph measures are computed, with improved accuracy for the new CCM.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [polymer-networks, multiscale-modeling, clustered-graphs]
 provider_data:
   doi: 10.26434/chemrxiv.15010469/v1
   journal: ''
@@ -56,3 +60,10 @@ A systematic exploration of combining micro-to meso-to macro-scale models of cro
 - **Doi:** 10.26434/chemrxiv.15010469/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The study connects population-balance kinetics, molecular dynamics, and random-graph models for crosslinking HDDA networks. It attributes important kinetic discrepancies to initiation assumptions and finds a clustered configuration model better represents MD-derived neighborhoods.
+- **Why it matters:** Explicit local cycles and connectivity can bridge reaction histories to network-scale property predictors more faithfully than a degree-only graph.
+- **Caveat:** These preprint model comparisons concern specific acrylate conditions; computed graph predictors are not independently validated macroscopic properties.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010469/v1); analysis based only on captured metadata, not independently verified full text.

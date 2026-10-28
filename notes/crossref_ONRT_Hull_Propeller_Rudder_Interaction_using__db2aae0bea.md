@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [marine-hydrodynamics, learned-surrogates, actuator-line-models]
 title: ONRT Hull–Propeller–Rudder Interaction using Machine-Learned Actuator Line
   Propeller Model
 type: paper
@@ -58,3 +62,9 @@ A machine-learned actuator line model (ML-ALM) is developed and validated for ma
 - **Doi:** 10.2139/ssrn.7615936
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A neural actuator-line propeller model trained on oblique-flow simulations is tested on unseen conditions and hull-rudder interactions, with reported speedups relative to blade-resolved simulations.
+- **Why it matters:** It illustrates physics-surrogate tradeoffs at engineering scale, including timestep and grid savings beyond inference cost.
+- **Caveat:** The preprint's accuracy and fivefold speedup are unverified; the abstract notes spurious force unsteadiness and imperfect upstream-flow modulation, and this is not atomistic modeling.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7615936); analysis based only on captured metadata, not independently verified full text.

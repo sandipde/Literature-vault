@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [implant-degradation, cobalt-chromium, biocompatibility, cardiac-models]
 title: Evaluating the Potential Cardiac Toxicity of Implant-Derived Metal Ions and
   Particles Using H9C2 and Stem Cell Model
 type: paper
@@ -73,3 +77,9 @@ Abstract Total hip replacement (THR) remains a widely performed orthopedic proce
 - **Journal:** ACS Applied Materials &amp; Interfaces
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** CoCrMo particles and metal ions are studied in H9C2 cells, stem-cell-derived cardiomyocytes, and mice, with reported cytotoxicity, altered calcium handling, and cardiac inflammation markers.
+- **Why it matters:** The work connects alloy degradation products to systemic biocompatibility questions beyond local implant wear.
+- **Caveat:** Cell and mouse exposure results do not establish clinical cardiac risk for individual implant recipients; dose relevance and long-term human outcomes are not captured.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acsami.6c12704); analysis based only on captured metadata, not independently verified full text.

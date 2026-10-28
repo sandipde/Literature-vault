@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [political-risk, investor-reactions, scan-noise]
@@ -53,3 +55,9 @@ provider_data:
 - **Why it matters:** Its inclusion signals likely search noise rather than a contribution to materials or agent research.
 - **Caveat:** Title only; CPA is not expanded in the captured title, and the study's methods and findings are unavailable.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.lrp.2026.102697); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.lrp.2026.102697) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

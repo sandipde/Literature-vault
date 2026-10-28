@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [bayesian-active-learning, gaussian-processes, extrapolation, small-data]
 title: Linear inductive bias boosts extrapolative molecular discovery by Bayesian
   active learning in the small-data limit
 type: chemrxiv
@@ -52,3 +56,9 @@ Bayesian active learning is widely used for molecular discovery, yet surrogate s
 - **Doi:** 10.26434/chemrxiv.15010454/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Across ten molecular and polymer datasets, the authors benchmark Gaussian-process surrogates initialized only with below-median property examples. Explicit linear kernels or linear components help early extrapolative discovery, while their advantage weakens as the task becomes interpolative.
+- **Why it matters:** Surrogate selection should reflect the discovery regime rather than assume the most flexible stationary kernel is always preferable.
+- **Caveat:** ChemRxiv v1 findings are unverified and depend on deliberately restricted initialization; they do not show linear models dominate at every campaign stage.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010454/v1); analysis based only on captured metadata, not independently verified full text.

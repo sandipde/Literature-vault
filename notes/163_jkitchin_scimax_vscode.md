@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: Other and possible scan noise
+enrichment_tags: [scientific-writing, vscode, reproducible-workflows]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 title: jkitchin/scimax_vscode
 type: github
 source: https://github.com/jkitchin/scimax_vscode/releases/tag/v0.9.0
@@ -47,3 +53,15 @@ you know what this is.
 - **Created At:** 2026-01-11T01:35:19Z
 - **Pushed At:** 2026-10-17T23:50:24Z
 - **Default Branch:** main
+
+## Source recovery
+- **Retrieval date:** 2026-10-28.
+- **Retrieved sources:** https://github.com/jkitchin/scimax_vscode/releases/tag/v0.9.0 and https://github.com/jkitchin/scimax_vscode
+- **Outcome:** The README identifies a scientific-computing environment for VS Code inspired by Emacs Scimax. The exact v0.9.0 release notes list a kill ring, project progress reporting, Gantt exports, and Quarto editing support.
+- **Limitations:** This replaces the informational gap left by the captured “you know what this is” description with public documentation, not installation tests; current README features may differ from the tagged release.
+
+## AI enrichment
+- **Concise summary:** Scimax brings a scientific authoring and organization environment to VS Code; the captured v0.9.0 release adds Quarto editing and richer project-tracking features.
+- **Why it matters:** Combining executable-document editing with task organization could support reproducible research work without moving between separate authoring and planning tools.
+- **Caveat:** Recovery used release notes and the current README, not runtime verification; current agent-skill documentation should not be assumed to describe v0.9.0.
+- **Evidence:** [Captured source](https://github.com/jkitchin/scimax_vscode/releases/tag/v0.9.0); [Retrieved release](https://github.com/jkitchin/scimax_vscode/releases/tag/v0.9.0) and [README](https://github.com/jkitchin/scimax_vscode); analysis uses captured metadata and retrieved public documentation.

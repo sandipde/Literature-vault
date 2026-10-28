@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [robot-manipulation, latent-reasoning, visuotactile-learning]
 title: 'Physical Words: A Vocabulary for Structuring Latent Reasoning in Robot Manipulation'
 type: arxiv
 source: https://arxiv.org/abs/2610.26854
@@ -63,3 +67,9 @@ Multimodal reasoning provides robotic foundation models with predictive context 
 ## Provider details
 - **Arxiv Id:** 2610.26854
 - **Categories:** ["cs.RO"]
+
+## AI enrichment
+- **Concise summary:** PhysWord aligns action-word hidden states with future-observation latents to structure multimodal reasoning before robot action generation.
+- **Why it matters:** Semantic anchors for continuous physical dynamics offer an interesting agent representation, but the “atomic” actions here are motion primitives, not atomistic chemistry.
+- **Caveat:** The arXiv abstract's UniVTAC and LIBERO-Long success rates and real-world generalization claims are unverified and do not establish autonomous laboratory performance.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.26854); analysis based only on captured metadata, not independently verified full text.

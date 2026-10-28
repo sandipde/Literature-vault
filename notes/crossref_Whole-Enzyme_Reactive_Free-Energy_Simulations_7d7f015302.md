@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [enzyme-reactions, free-energy-barriers, universal-potentials, petase]
 title: 'Whole-Enzyme Reactive Free-Energy Simulations with a Universal Machine Learning
   Interatomic Potential: Catalytic Mechanism and Mutational Effects of PETase'
 type: chemrxiv
@@ -61,3 +65,9 @@ Universal machine learning interatomic potentials (uMLIPs) have emerged as power
 - **Doi:** 10.26434/chemrxiv.15004671/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The preprint uses pretrained PFP for an approximately 20,000-atom PETase reactive domain without multiscale partitioning or system-specific fine-tuning, reporting umbrella-sampled acylation/deacylation pathways and mutation effects.
+- **Why it matters:** A partition-free treatment could explore coupling between active-site reactions and distal electrostatics without choosing a separate reactive region.
+- **Caveat:** Claims are unverified; the reported 20.5 +/- 0.3 kcal/mol barrier lies above the cited experimental-inference range of 18.0-18.7 kcal/mol despite the abstract's agreement wording, so numerical uncertainty is not total model error.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15004671/v2); analysis based only on captured metadata, not independently verified full text.

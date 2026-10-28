@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [microgrooves, surface-tension, interfacial-barriers]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: Experiment of energy barrier between micro-grooves on low surface tension and
   low temperature conditions
 type: paper
@@ -43,3 +49,14 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+- **Retrieval date:** 2026-10-28.
+- **Sources:** https://doi.org/10.1016/j.surfin.2026.110984 returned an Elsevier redirect page. https://api.openalex.org/works/https://doi.org/10.1016/j.surfin.2026.110984?select=id,doi,title,abstract_inverted_index returned the matching title with a null abstract.
+- **Outcome and limitations:** No abstract or experimental description was recovered.
+
+## AI enrichment
+- **Concise summary:** The title reports an experimental investigation of energy barriers between microgrooves under low-surface-tension and low-temperature conditions.
+- **Why it matters:** Geometric surface barriers may be relevant to controlling interfacial motion, but the available title does not identify the measured process.
+- **Caveat:** Limited metadata cannot establish liquids, groove geometry, barrier definition, temperature range, or results; this should not be treated as an atomistic reaction-barrier study.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.110984); analysis based only on captured metadata, not independently verified full text.

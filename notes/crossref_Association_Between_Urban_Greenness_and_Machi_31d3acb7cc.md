@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [urban-greenness, physical-activity, epidemiology]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: 'Association Between Urban Greenness and Machine Learned Physical Activity
   Measures: A Cross-Sectional Study Using UK Biobank'
 type: paper
@@ -41,3 +47,15 @@ provider_data:
 - **Journal:** Epidemiology
 - **Publisher:** Ovid Technologies (Wolters Kluwer Health)
 - **Type:** journal-article
+
+## Source recovery
+- **Checked on:** 2026-10-28
+- **Sources attempted:** https://api.openalex.org/works/https://doi.org/10.1097/01.ede.0001280472.52565.1f ; https://api.crossref.org/works/10.1097%2F01.ede.0001280472.52565.1f
+- **Outcome:** OpenAlex returned bibliographic identity but no abstract; the Crossref helper failed certificate validation.
+- **Limitations:** No association estimates, confounder adjustments, or physical-activity model details were recovered.
+
+## AI enrichment
+- **Concise summary:** The title describes a UK Biobank cross-sectional study relating urban greenness to machine-learned physical-activity measures.
+- **Why it matters:** This appears to be epidemiology selected by broad ML terms rather than an atomistic or materials-methods reference.
+- **Caveat:** Only title-level evidence is available; neither the direction of association nor causality can be inferred.
+- **Evidence:** [Captured source](https://doi.org/10.1097/01.ede.0001280472.52565.1f); analysis based only on captured metadata, not independently verified full text.

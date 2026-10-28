@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [electrochemical-potentials, battery-digital-twins, active-learning, multiscale-modeling]
 title: Multiscale Digital-Twin Modeling of Energy-Storage Materials by Integrating
   First-Principles Calculations and Machine-Learning Interatomic Potentials
 type: paper
@@ -64,3 +68,9 @@ Conventional modeling of energy-storage materials is constrained by the computat
 - **Journal:** EAI Endorsed Transactions on Energy Web
 - **Publisher:** European Alliance for Innovation n.o.
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** FP-EMLP conditions an equivariant potential on electrochemical state with charge projection and long-range electrostatics, then transfers predicted material properties into a battery digital twin. The abstract reports improvements spanning atomistic errors, label budgets, state estimates, and degradation-aware control.
+- **Why it matters:** Linking atomistic state dependence to continuum and control models addresses a real disconnect between materials simulation and online battery decisions.
+- **Caveat:** The many numerical claims are unverified, and the abstract does not identify enough chemistry, validation splits, or deployment evidence to establish generality across battery systems.
+- **Evidence:** [Captured source](https://doi.org/10.4108/ew.14196); analysis based only on captured metadata, not independently verified full text.

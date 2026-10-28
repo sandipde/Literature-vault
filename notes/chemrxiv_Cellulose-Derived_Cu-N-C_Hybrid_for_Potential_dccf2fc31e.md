@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [carbon-dioxide-electroreduction, copper-phthalocyanine, biomass-carbon, methane-selectivity]
 title: Cellulose-Derived Cu-N-C Hybrid for Potential-Regulated CO2-to-CH4 Electroreduction
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15010697/v1
@@ -69,3 +73,9 @@ Electrochemical CO2 reduction to methane (CH4) offers a promising route for carb
 - **Doi:** 10.26434/chemrxiv.15010697/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A copper-phthalocyanine/biomass-carbon hybrid is reported for CO2-to-methane electroreduction, with characterization and DFT used to interpret support coupling and potential-dependent selectivity.
+- **Why it matters:** The competition between methane production and hydrogen evolution highlights why catalyst-support design must be evaluated within an operating-potential window.
+- **Caveat:** The v1 preprint's 67.9% selectivity, high partial current, and over-49-hour stability are reported results, not independently verified performance or industrial-scale evidence.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010697/v1); analysis based only on captured metadata, not independently verified full text.

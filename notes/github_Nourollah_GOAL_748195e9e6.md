@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [mlip-training, atomistic-frameworks, python]
 title: Nourollah/GOAL
 type: github
 source: https://github.com/Nourollah/GOAL
@@ -45,3 +49,9 @@ GOAL (General Open Atomistic Laboratory) is a Python framework for training mach
 - **Forks:** 1
 - **Open Issues:** 6
 - **Pushed At:** 2026-10-17T23:07:32Z
+
+## AI enrichment
+- **Concise summary:** GOAL, the General Open Atomistic Laboratory, is a Python framework for training machine-learning interatomic potentials on atomistic systems.
+- **Why it matters:** It is training infrastructure for learned interactions, not evidence that a specific transferable potential or generative structure model has been produced.
+- **Caveat:** The captured description does not identify supported architectures, datasets, or accuracy and scaling benchmarks.
+- **Evidence:** [Captured source](https://github.com/Nourollah/GOAL); analysis based only on captured metadata, not independently verified full text.

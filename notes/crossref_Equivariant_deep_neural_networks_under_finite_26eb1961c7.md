@@ -7,6 +7,8 @@ canonical_url: https://doi.org/10.1016/j.camwa.2026.10.024
 captured_by: auto-scanner
 date: '2026-10-23'
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Mathematics and algorithms
 enrichment_tags: [equivariant-networks, partial-differential-equations, symmetry]
@@ -50,3 +52,9 @@ provider_data:
 - **Why it matters:** Symmetry-aware architectures can encode invariances that are relevant to physical equation-solving tasks.
 - **Caveat:** Title only; no abstract was captured, so the equations and reported results are unknown.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.camwa.2026.10.024); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.camwa.2026.10.024) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

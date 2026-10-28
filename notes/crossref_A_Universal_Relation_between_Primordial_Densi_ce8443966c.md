@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [cosmology, dark-matter-halos, primordial-spin]
 title: A Universal Relation between Primordial Density-potential Cross-correlation
   Coefficient and Spin Factor Distribution
 type: paper
@@ -61,3 +65,9 @@ Abstract Recent studies have revealed that the key properties of visible galaxie
 - **Journal:** The Astrophysical Journal
 - **Publisher:** American Astronomical Society
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** A heuristic relation connects the mean and variance of a primordial spin factor to an initial density-potential cross-correlation coefficient, with tests on cosmological simulations. The authors discuss inferring early-universe information from galaxy-size distributions.
+- **Why it matters:** Linking observable galaxy properties to initial-condition statistics is a cosmology inference problem, not an interatomic-potential result despite the word “potential.”
+- **Caveat:** The claimed universality is unverified and tested within the stated cosmologies and smoothing scales; reconstructing early-universe physics remains a proposed application.
+- **Evidence:** [Captured source](https://doi.org/10.3847/1538-4357/aea098); analysis based only on captured metadata, not independently verified full text.

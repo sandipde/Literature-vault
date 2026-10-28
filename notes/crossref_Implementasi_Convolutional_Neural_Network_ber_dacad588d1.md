@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [medical-image-classification, transfer-learning, efficientnet]
 title: Implementasi Convolutional Neural Network berbasis Transfer Learning untuk
   Klasifikasi Acute Lymphoblastic Leukemia
 type: paper
@@ -59,3 +63,9 @@ Leukemia is a cancer that originates in human blood cells. The most common type 
 - **Journal:** Elkom: Jurnal Elektronika dan Komputer
 - **Publisher:** Universitas Sains dan Teknologi Komputer
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** An EfficientNet-B3 transfer-learning classifier is trained on 3,527 blood-cell images to distinguish acute lymphoblastic leukemia from HEM images, with reported test accuracy of 96%.
+- **Why it matters:** This is a biomedical imaging application of pretrained networks, not evidence about transferring interatomic models.
+- **Caveat:** Reported metrics and epidemiological framing are unverified; the abstract does not establish patient-level split independence, external validation, or clinical diagnostic utility.
+- **Evidence:** [Captured source](https://doi.org/10.51903/elkom.v19i1.3679); analysis based only on captured metadata, not independently verified full text.

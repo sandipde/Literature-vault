@@ -7,7 +7,9 @@ canonical_url: https://doi.org/10.1109/tcomm.2026.3745135
 captured_by: auto-scanner
 date: '2026-10-21'
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Mathematics and algorithms
 enrichment_tags: [wireless-communications, precoding, equivariant-networks]
 captured_at: '2026-10-21T20:26:15+00:00'
@@ -50,7 +52,15 @@ provider_data:
 - **Type:** journal-article
 
 ## AI enrichment
-- **Concise summary:** The title describes a tensor-equivariant neural network for symbol-level precoding in wireless communications.
+- **Concise summary:** The indexed abstract describes a low-inference-cost deep-learning approach to symbol-level precoding that exploits closed-form solution structure and tensor equivariance, rather than a materials-modeling application.
 - **Why it matters:** Equivariance is a possible way to encode structure in communication optimization models rather than learn every transformation separately.
-- **Caveat:** Title only; no abstract was captured, so the proposed method and reported efficiency are not known.
-- **Evidence:** [Captured source](https://doi.org/10.1109/tcomm.2026.3745135); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** OpenAlex indexed abstract only; publisher full text and efficiency claims were not independently validated.
+- **Evidence:** [Indexed abstract](https://api.openalex.org/works/https://doi.org/10.1109/tcomm.2026.3745135).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1109%2Ftcomm.2026.3745135) returned metadata without an abstract; [OpenAlex](https://api.openalex.org/works/https://doi.org/10.1109/tcomm.2026.3745135) returned the indexed abstract.
+
+Recovered details: a deep-learning precoding design exploits closed-form solution structure and tensor equivariance to reduce inference complexity.
+
+Limitations: indexed abstract, not publisher full-text or efficiency verification. Original captured metadata retained.

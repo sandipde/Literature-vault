@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [polymer-membranes, gas-permeability, message-passing, cross-species-transfer]
 title: Gas-Conditioned Message Passing Graph Neural Network for Permeability Prediction
   in Polymeric Membranes
 type: chemrxiv
@@ -77,3 +81,9 @@ Designing polymeric membranes for diverse gas-separation applications remains a 
 - **Doi:** 10.26434/chemrxiv.15010381/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** GC-MPNN combines monomer graphs with gas descriptors to predict polymer permeability, evaluating transfer through leave-one-gas-out splits and additional hydrocarbon gases.
+- **Why it matters:** Conditioning on gas properties explicitly tests transfer between penetrants rather than fitting separate models for each gas.
+- **Caveat:** The v2 abstract reports weaker zero-shot CO2 prediction; the approximately 0.95 R2 after adding test-gas labels is adaptation performance, not untouched-gas generalization.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010381/v2); analysis based only on captured metadata, not independently verified full text.

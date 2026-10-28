@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [hessian-learning, mace, active-learning, openqha]
 title: BloomDlwlrma/openQHA-Hessian
 type: github
 source: https://github.com/BloomDlwlrma/openQHA-Hessian
@@ -44,3 +48,9 @@ openQHA Extension: Active Hessian Learning Framework Instance for Machine-Learne
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-17T16:07:35Z
+
+## AI enrichment
+- **Concise summary:** OpenQHA-Hessian is described as an active Hessian-learning extension for machine-learned interatomic potentials, with MACE as the named model instance.
+- **Why it matters:** Targeting second derivatives addresses information beyond energies and forces, potentially relevant when evaluating curvature-sensitive properties.
+- **Caveat:** The repository description does not specify the Hessian acquisition rule, training data, or demonstrated phonon or thermodynamic accuracy.
+- **Evidence:** [Captured source](https://github.com/BloomDlwlrma/openQHA-Hessian); analysis based only on captured metadata, not independently verified full text.

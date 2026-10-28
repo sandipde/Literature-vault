@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [cuby4, mlip-interface, potential-evaluation]
 title: tobiasmarek/mlip-cuby-interface
 type: github
 source: https://github.com/tobiasmarek/mlip-cuby-interface
@@ -44,3 +48,9 @@ Unified Cuby4 interface for evaluating Machine Learning Interatomic Potentials (
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-14T16:51:35Z
+
+## AI enrichment
+- **Concise summary:** Mlip-cuby-interface is described as a unified Cuby4 interface for evaluating machine-learning interatomic potentials.
+- **Why it matters:** A common evaluation interface can reduce integration friction between potential implementations and existing computational workflows.
+- **Caveat:** The description gives no supported-model list, unit conventions, or cross-backend consistency tests; an interface is not a new potential.
+- **Evidence:** [Captured source](https://github.com/tobiasmarek/mlip-cuby-interface); analysis based only on captured metadata, not independently verified full text.

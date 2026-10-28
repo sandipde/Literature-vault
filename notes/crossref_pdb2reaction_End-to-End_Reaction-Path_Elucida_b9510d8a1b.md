@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: ML interatomic potentials
 enrichment_tags: [reaction-paths, protein-structures, learned-potentials]
 title: 'pdb2reaction: End-to-End Reaction-Path Elucidation from PDB Structures Using
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** This record names a workflow that uses learned potentials to investigate reaction paths starting from PDB structures.
+- **Concise summary:** Parent article only: pdb2reaction is described as an open-source command-line pipeline from a curated PDB through active-site extraction, path search, transition-state refinement, IRC validation and thermochemistry using one ML interatomic-potential backend.
 - **Why it matters:** Such workflow integration could make structural models more actionable for reactive calculations.
-- **Caveat:** Title only; this .s001 component shares its title and parent DOI with the .s002 note, so the pair should not be treated as independent findings, and no reaction-path validation is captured.
-- **Evidence:** [Captured source](https://doi.org/10.1021/acsomega.6c08242.s001); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** No component abstract recovered; .s001/.s002 remain companion records, not independent studies. Parent details do not validate component contents or end-to-end capability; supporting files/full paper were not assessed.
+- **Evidence:** [Parent abstract](https://api.crossref.org/works/10.1021/acsomega.6c08242).
+
+## Source recovery
+
+Checked 2026-10-28. [Component Crossref](https://api.crossref.org/works/10.1021%2Facsomega.6c08242.s001) returned metadata without an abstract; [component publisher](https://doi.org/10.1021/acsomega.6c08242.s001) returned HTTP 403; [parent Crossref](https://api.crossref.org/works/10.1021/acsomega.6c08242) returned the parent abstract.
+
+Recovered parent details: a curated-PDB-to-reaction-analysis pipeline automates path search, transition states, IRC checks and thermochemistry with an MLIP backend.
+
+Limitations: no component abstract recovered; parent details are not component evidence. Original captured metadata retained.

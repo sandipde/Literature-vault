@@ -32,6 +32,10 @@ abstract: 'This study aims to analyze active learning strategies in learning the
   and relevant approach in Al-Qur’an Al-Hadith education.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [religious-education, classroom-pedagogy, terminology-collision]
 provider_data:
   doi: 10.56806/jh.v6i2.251
   journal: 'JURNAL HURRIAH: Jurnal Evaluasi Pendidikan dan Penelitian'
@@ -57,3 +61,10 @@ This study aims to analyze active learning strategies in learning the Qur'an and
 - **Journal:** JURNAL HURRIAH: Jurnal Evaluasi Pendidikan dan Penelitian
 - **Publisher:** Yayasan Pendidikan dan Kemanusiaan Aceh
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** This library-based qualitative review discusses group discussion, projects, case studies, and digital media in Qur'an and Hadith education.
+- **Why it matters:** It is an active-classroom-learning record, not a machine-learning acquisition strategy, and should not be mistaken for an atomistic active-learning paper.
+- **Caveat:** The abstract presents a literature synthesis and implementation challenges rather than measured intervention effects.
+- **Evidence:** [Captured source](https://doi.org/10.56806/jh.v6i2.251); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [rare-event-kinetics, rate-certification, reactive-paths, energy-errors]
 title: Certifying the Kinetics of Machine-Learned Interatomic Potentials from Single-Point
   Energies
 type: chemrxiv
@@ -59,3 +63,9 @@ Machine-learned interatomic potentials are validated by force errors on equilibr
 - **Doi:** 10.26434/chemrxiv.15010329/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The authors derive kinetic bounds based on reactive-current leverage and single-point energy errors, arguing that equilibrium force errors poorly certify activated rates. Alanine-dipeptide and Li3OCl examples motivate reference- and model-path sampling.
+- **Why it matters:** Labeling transition-relevant configurations can improve rates even when aggregate force error rises, challenging common MLIP selection criteria.
+- **Caveat:** This preprint's certification claims rely on stated dynamical assumptions; the abstract reports systematic underestimation in Li3OCl, so estimated intervals should not be treated as universally validated bounds.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010329/v1); analysis based only on captured metadata, not independently verified full text.

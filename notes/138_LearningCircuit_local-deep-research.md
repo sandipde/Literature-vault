@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [local-llms, deep-research, literature-retrieval, self-hosting]
 title: LearningCircuit/local-deep-research
 type: github
 source: https://github.com/LearningCircuit/local-deep-research
@@ -72,3 +76,9 @@ provider_data:
 - **Created At:** 2025-02-09T15:41:32Z
 - **Pushed At:** 2026-10-12T22:20:46Z
 - **Default Branch:** main
+
+## AI enrichment
+- **Concise summary:** Local Deep Research advertises local and cloud language-model support alongside searches across sources such as arXiv, PubMed, and private documents.
+- **Why it matters:** Combining literature search and private-document retrieval in a self-hosted workflow could help connect a research vault to broader evidence gathering.
+- **Caveat:** The approximately 95% SimpleQA score and local/encrypted claims are repository-description assertions; configuration, privacy boundaries, and benchmark conditions are not established here.
+- **Evidence:** [Captured source](https://github.com/LearningCircuit/local-deep-research); analysis based only on captured metadata, not independently verified full text.

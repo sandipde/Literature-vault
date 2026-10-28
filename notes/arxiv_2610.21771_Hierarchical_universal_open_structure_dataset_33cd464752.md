@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [training-datasets, structural-diversity, coresets, dataset-deduplication]
 title: Hierarchical universal open structure dataset for atomistic modeling
 type: arxiv
 source: https://arxiv.org/abs/2610.21771
@@ -58,3 +62,9 @@ Atomic-scale simulations have been transformed by machine-learning models that p
 ## Provider details
 - **Arxiv Id:** 2610.21771
 - **Categories:** ["physics.chem-ph"]
+
+## AI enrichment
+- **Concise summary:** A hierarchical subsampling protocol uses an “ecumetric” derived from several universal MLIP representations to organize nearly 1.7 billion structures into MAD-COSMO. Its most diverse 2^24 members form the MAD-CORE coreset.
+- **Why it matters:** Reducing duplicate and correlated structures could make foundation-model training and coverage analysis more informative than simply accumulating larger datasets.
+- **Caveat:** The preprint's scale and usefulness are unverified; structural consolidation does not by itself reconcile heterogeneous electronic-structure labels or eliminate representation bias.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.21771); analysis based only on captured metadata, not independently verified full text.

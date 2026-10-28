@@ -30,6 +30,10 @@ abstract: The Size‑Independent Enthalpic Efficiency (SIHE) metric normalizes b
   SIHE should not be used as a general metric for enthalpic efficiency.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [ligand-binding, dataset-stratification, enthalpic-efficiency]
 provider_data:
   doi: 10.26434/chemrxiv.15010701/v1
   journal: ''
@@ -54,3 +58,10 @@ The Size‑Independent Enthalpic Efficiency (SIHE) metric normalizes binding ent
 - **Doi:** 10.26434/chemrxiv.15010701/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A cleaned and stratified reanalysis argues that HIV-protease inhibitors drive the apparent universal size dependence in the Ferenczy binding dataset. The abstract challenges SIHE as a general enthalpic-efficiency metric.
+- **Why it matters:** Pooling mechanistically distinct target families can manufacture a normalization problem and then make a corrective metric appear useful.
+- **Caveat:** The critique and structural explanation are preprint claims; cleaning choices, statistical assumptions, and metric definitions have not been independently reviewed.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010701/v1); analysis based only on captured metadata, not independently verified full text.

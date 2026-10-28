@@ -30,6 +30,10 @@ abstract: Machine learning interatomic potentials (MLIPs) can now reproduce the 
   cost.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [charged-defects, multifidelity-learning, charge-embeddings]
 provider_data:
   doi: 10.1103/tzwd-cl3y
   journal: PRX Energy
@@ -72,3 +76,10 @@ Machine learning interatomic potentials (MLIPs) can now reproduce the energy, fo
 - **Issue:** 4
 - **Type:** journal-article
 - **License:** [{"start": {"date-parts": [[2026, 10, 8]], "date-time": "2026-10-08T00:00:00Z", "timestamp": 1791417600000}, "content-version": "vor", "delay-in-days": 0, "URL": "https://creativecommons.org/licenses/by/4.0/"}]
+
+## AI enrichment
+
+- **Concise summary:** The captured abstract combines global defect-charge embeddings with semilocal and hybrid-functional training data to model charged defects in Sb2Se3. It reports improved defect configurations and thermodynamics relative to existing foundation MLIPs.
+- **Why it matters:** Charge state and reference-data fidelity are explicit design choices here, not problems solved merely by increasing a neutral bulk training set.
+- **Caveat:** Reported agreement is material- and reference-dependent; transferability and cost claims have not been independently checked.
+- **Evidence:** [Captured source](https://journals.aps.org/prxenergy/abstract/10.1103/tzwd-cl3y); analysis based only on captured metadata, not independently verified full text.

@@ -35,6 +35,10 @@ abstract: The financial markets of the twenty-first century present highly compl
   foundation for advancing quantum-enhanced financial intelligence systems.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [financial-forecasting, quantum-networks, survey]
 provider_data:
   doi: 10.65521/ijacect.v12i1.3746
   journal: International Journal on Advanced Computer Engineering and Communication
@@ -61,3 +65,10 @@ The financial markets of the twenty-first century present highly complex and dyn
 - **Journal:** International Journal on Advanced Computer Engineering and Communication Technology
 - **Publisher:** Researcher Connect Innovation and Impact Private Limited and MRI
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** This survey discusses quantum neural networks, equivariance, and split attention for stock-market prediction and recommendation systems. It highlights hardware noise, interpretability, and limited deployment validation.
+- **Why it matters:** The equivariance terminology overlaps with scientific ML, but the financial application makes this a likely topic-filtering false positive.
+- **Caveat:** A survey's architectural discussion does not establish a demonstrated quantum advantage or reliable investment performance.
+- **Evidence:** [Captured source](https://doi.org/10.65521/ijacect.v12i1.3746); analysis based only on captured metadata, not independently verified full text.

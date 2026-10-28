@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [reaction-networks, carbon-dioxide-hydrogenation, kinetic-modeling, copper-catalysis]
 title: Data-driven massive reaction networks reveal mechanistic pathways underlying
   catalytic CO2 hydrogenation
 type: web
@@ -107,3 +111,9 @@ Heterogeneous catalytic pathways for clean energy conversion involve thousands o
 - **Topics:** ["Catalysts for Methane Reforming", "CO2 Reduction Techniques and Catalysts", "Machine Learning in Materials Science"]
 - **Open Access:** {"is_oa": true, "oa_status": "gold", "oa_url": "https://www.nature.com/articles/s41467-026-77080-4_reference.pdf", "any_repository_has_fulltext": false}
 - **Cited By Count:** 0
+
+## AI enrichment
+- **Concise summary:** DFT, learned activation barriers, and reaction enumeration expand a copper-catalyzed CO2 hydrogenation network to 9,389 elementary reactions, highlighting inter-species hydrogen transfer and molecular-H2 hydrogenation.
+- **Why it matters:** The record illustrates how network completeness can change predicted catalytic rates and pathways, rather than merely refining parameters within a small hand-selected mechanism.
+- **Caveat:** The captured abstract reports a 40-fold rate change and agreement with experimental trends; neither the kinetic assumptions nor those comparisons have been independently checked.
+- **Evidence:** [Captured source](https://www.nature.com/articles/s41467-026-77080-4?error=cookies_not_supported&code=d2060206-7615-491d-bb8c-696dcd28c726); analysis based only on captured metadata, not independently verified full text.

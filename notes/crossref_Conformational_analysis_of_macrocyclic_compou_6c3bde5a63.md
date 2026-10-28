@@ -27,6 +27,10 @@ abstract: Macrocyclic compounds play a vital role in many chemical and biologica
   of complex macrocyclic systems.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [macrocycles, delta-learning, conformational-sampling]
 provider_data:
   doi: 10.26434/chemrxiv-2025-bktvd
   journal: ''
@@ -51,3 +55,10 @@ Macrocyclic compounds play a vital role in many chemical and biological systems,
 - **Doi:** 10.26434/chemrxiv-2025-bktvd
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A NequIP-like potential learns the energy correction between omegaB97XD3 and GFN1-xTB for macrocycles. Coupling it to CREST metadynamics reportedly recovers conformers close to gas-phase DFT-optimized crystal-derived structures.
+- **Why it matters:** Delta learning offers a focused route from inexpensive baseline energetics to higher-level conformational ranking and optimization.
+- **Caveat:** This preprint's gas-phase conformer agreement does not establish solution populations or generalization to arbitrary macrocyclic chemistry.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv-2025-bktvd); analysis based only on captured metadata, not independently verified full text.

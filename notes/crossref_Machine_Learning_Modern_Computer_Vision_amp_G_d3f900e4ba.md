@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Other and possible scan noise
 enrichment_tags: [computer-vision, generative-ai, broad-reference]
 title: Machine Learning – Modern Computer Vision &amp; Generative AI
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title identifies a broad machine-learning resource covering computer vision and generative AI.
+- **Concise summary:** The publisher describes an instructional course covering computer vision and generative AI. Only a short course-description fragment was accessible; no research abstract or experimental findings were recovered.
 - **Why it matters:** It may offer general background, but the captured record provides no specific atomistic modeling connection.
-- **Caveat:** Title only and a generic record type; content, depth and relevance cannot be assessed.
-- **Evidence:** [Captured source](https://doi.org/10.5040/9781350865600); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** Short course-description fragment only; course depth and atomistic relevance remain unassessed. No research abstract recovered.
+- **Evidence:** [Publisher description](https://doi.org/10.5040/9781350865600).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.5040%2F9781350865600) returned metadata without an abstract; [publisher via DOI](https://doi.org/10.5040/9781350865600) returned a description fragment.
+
+Recovered details: this is an instructional course on computer vision and generative AI.
+
+Limitations: fragment only, not a complete research abstract or evidence of methods/results. Original captured metadata retained.

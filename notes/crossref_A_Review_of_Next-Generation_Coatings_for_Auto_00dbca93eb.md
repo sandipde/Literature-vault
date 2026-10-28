@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [automotive-coatings, corrosion-protection, multifunctional-materials]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 title: 'A Review of Next-Generation Coatings for Automotive Systems: From Corrosion
   Protection to Multifunctional Performance'
 type: paper
@@ -39,3 +45,15 @@ provider_data:
 - **Journal:** Results in Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+- **Retrieval date:** 2026-10-28.
+- **Sources:** https://doi.org/10.1016/j.rsurfi.2026.101031 returned an Elsevier redirect page. Exact-DOI abstract data were retrieved at https://api.openalex.org/works/https://doi.org/10.1016/j.rsurfi.2026.101031?select=id,doi,title,abstract_inverted_index.
+- **Outcome:** The abstract describes a Web of Science literature review spanning metallic, polymeric, ceramic, nanostructured, smart, and multifunctional automotive coatings. It emphasizes heterogeneous testing, chromium-free conversion-coating challenges, electrified-vehicle requirements, and gaps in scale-up and long-term validation.
+- **Limitations:** Local literature helper attempts at the DOI, Crossref, and OpenAlex failed certificate verification; the web-fetch fallback recovered the indexed abstract, not publisher full text or review tables.
+
+## AI enrichment
+- **Concise summary:** The recovered review abstract surveys coatings beyond corrosion barriers toward multifunctional automotive applications, including thermal and electrical requirements for electrified vehicles.
+- **Why it matters:** It frames coating selection as a coupled processing, durability, and system-performance problem rather than a single laboratory corrosion metric.
+- **Caveat:** Indexed abstract evidence does not verify review coverage; heterogeneous test conditions explicitly prevent treating reported values as head-to-head comparisons.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.rsurfi.2026.101031); [Recovered OpenAlex abstract](https://api.openalex.org/works/https://doi.org/10.1016/j.rsurfi.2026.101031?select=id,doi,title,abstract_inverted_index); analysis uses captured metadata and retrieved public abstract evidence, not independently verified full text.

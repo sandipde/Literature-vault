@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [metal-organic-frameworks, copper-doping, environmental-remediation, electrochemistry]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: Engineering Copper-Doped Manganese Metal–Organic Frameworks for Multifunctional
   Environmental Remediation and Electrochemical Applications
 type: paper
@@ -42,3 +48,14 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+- **Retrieval date:** 2026-10-28.
+- **Sources:** https://doi.org/10.1016/j.surfin.2026.110896 returned an Elsevier redirect page. https://api.openalex.org/works/https://doi.org/10.1016/j.surfin.2026.110896?select=id,doi,title,abstract_inverted_index returned the matching title but a null abstract.
+- **Outcome and limitations:** No substantive scientific description was recovered; material composition beyond the title and application-specific results remain unknown.
+
+## AI enrichment
+- **Concise summary:** The title proposes copper-doped manganese metal-organic frameworks for environmental remediation and electrochemical applications.
+- **Why it matters:** It points to multifunctional framework design spanning chemical treatment and electrochemical use.
+- **Caveat:** Limited title-only metadata cannot identify framework topology, pollutant targets, electrochemical role, dopant effects, or measured performance.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.110896); analysis based only on captured metadata, not independently verified full text.

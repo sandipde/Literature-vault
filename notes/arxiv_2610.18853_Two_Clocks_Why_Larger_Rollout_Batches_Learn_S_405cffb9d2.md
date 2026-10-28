@@ -37,6 +37,10 @@ abstract: 'Reinforcement learning with verifiable rewards (RLVR) relies on costl
   available at: https://github.com/WinstonLiyt/two-clocks-rlvr.'
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [reinforcement-learning, batch-scaling, training-stability]
 provider_data:
   arxiv_id: '2610.18853'
   categories:
@@ -59,3 +63,10 @@ Reinforcement learning with verifiable rewards (RLVR) relies on costly model-gen
 ## Provider details
 - **Arxiv Id:** 2610.18853
 - **Categories:** ["cs.LG", "cs.AI"]
+
+## AI enrichment
+
+- **Concise summary:** The two-clock framework separates RLVR sample efficiency from the sample count preceding training collapse. It argues that square-root learning-rate scaling preserves first-order drift but loses progress through curvature as rollout batches grow.
+- **Why it matters:** Throughput-oriented batch increases may change optimization efficiency even when a familiar scaling rule appears to preserve learning dynamics.
+- **Caveat:** The local quadratic analysis and reported GRPO experiments are preprint evidence, not a guarantee for other algorithms or reward structures.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.18853); analysis based only on captured metadata, not independently verified full text.

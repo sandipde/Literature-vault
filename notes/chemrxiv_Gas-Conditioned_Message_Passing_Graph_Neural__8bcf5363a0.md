@@ -53,6 +53,10 @@ abstract: Designing polymeric membranes for diverse gas-separation applications 
   from known gas species and extend them to previously unseen gases.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [polymer-membranes, gas-permeability, graph-neural-networks]
 provider_data:
   doi: 10.26434/chemrxiv.15010381/v1
   journal: ''
@@ -77,3 +81,10 @@ Designing polymeric membranes for diverse gas-separation applications remains a 
 - **Doi:** 10.26434/chemrxiv.15010381/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** GC-MPNN fuses polymer monomer graphs with gas descriptors to predict membrane permeability, testing transfer with leave-one-gas-out validation. The abstract reports poorer zero-shot CO2 prediction and improvements after adding labeled samples.
+- **Why it matters:** Holding out entire gases tests a more relevant transfer question than randomly splitting familiar polymer-gas pairs.
+- **Caveat:** Active-learning results no longer represent zero-shot gas transfer, and reported correlations on hydrocarbons are not interchangeable with absolute prediction accuracy.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010381/v1); analysis based only on captured metadata, not independently verified full text.

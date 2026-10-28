@@ -24,6 +24,12 @@ published: 2026-10
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [far-uvc, bicarbonate, micropollutant-degradation]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1016/j.watres.2026.127174
   journal: Water Research
@@ -46,3 +52,17 @@ provider_data:
 - **Journal:** Water Research
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Attempted sources:** https://doi.org/10.1016/j.watres.2026.127174 ; https://api.crossref.org/works/10.1016%2Fj.watres.2026.127174 ; https://api.openalex.org/works/https://doi.org/10.1016/j.watres.2026.127174?select=doi,title,abstract_inverted_index
+- **Outcome:** The DOI yielded an Elsevier redirect shell; the Crossref excerpt was bibliographic. Exact-DOI OpenAlex confirmed the title with a null abstract.
+- **Limitations:** No degradation rates, reactive-species identification, or water-matrix conditions were recovered.
+
+## AI enrichment
+
+- **Concise summary:** The title proposes using 222 nm far-UVC to activate bicarbonate's reactivity for organic-micropollutant degradation without external oxidants.
+- **Why it matters:** It points to a potentially different role for background water constituents than treating bicarbonate only as an inhibitor or matrix component.
+- **Caveat:** Limited title-only metadata cannot establish the reaction mechanism, energy efficiency, byproducts, or treatment safety.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.watres.2026.127174); analysis based only on captured metadata, not independently verified full text.

@@ -35,6 +35,10 @@ abstract: 'Foundation models for atomistic simulations offer broadly applicable 
   calculations.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [free-energy, enhanced-sampling, foundation-potentials]
 provider_data:
   doi: 10.26434/chemrxiv.15010593/v1
   journal: ''
@@ -59,3 +63,10 @@ Foundation models for atomistic simulations offer broadly applicable potentialen
 - **Doi:** 10.26434/chemrxiv.15010593/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract assesses molecular foundation potentials in metadynamics and umbrella sampling, reporting stronger results for simple gas-phase profiles than for solvated multidimensional landscapes.
+- **Why it matters:** Rare-region force biases can distort populations and barriers even when near-equilibrium regression metrics look good.
+- **Caveat:** The preprint also flags sampling and reference-data limitations, so observed discrepancies cannot automatically be attributed only to the potentials.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010593/v1); analysis based only on captured metadata, not independently verified full text.

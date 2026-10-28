@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [economic-modeling, transition-matrices, negative-results]
 title: 'N. Thirugnanamuthu''s MB-Universal Matrix: Global Economic &amp;amp; Tech
   Transition Model'
 type: paper
@@ -53,3 +57,9 @@ We present the MB-Universal Matrix, a matrix framework for modelling how global 
 - **Doi:** 10.2139/ssrn.7621258
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A stochastic matrix-and-tensor framework is proposed for global indicators, with a ridge VAR test on seventeen annual transitions showing essentially no forecasting gain over a mean baseline.
+- **Why it matters:** The explicit negative empirical result usefully separates formal mathematical properties from predictive usefulness.
+- **Caveat:** This SSRN preprint's mathematical and statistical claims are unverified; short aggregate time series and sensitivity to COVID-era observations limit economic interpretation.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7621258); analysis based only on captured metadata, not independently verified full text.

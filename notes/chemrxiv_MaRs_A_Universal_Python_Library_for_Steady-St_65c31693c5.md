@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [epr-simulation, spin-dynamics, liouville-space, spectral-fitting]
 title: 'MaRs: A Universal Python Library for Steady-State and Time-Resolved EPR Simulations'
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15009102/v2
@@ -64,3 +68,9 @@ MaRs is an open-source Python library for the simulation and fitting of electron
 - **Doi:** 10.26434/chemrxiv.15009102/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** MaRs is a PyTorch-based EPR simulation and fitting library supporting continuous-wave and field–time spectra with rate-equation, Liouville-space, Lindblad, and Bloch–Redfield treatments.
+- **Why it matters:** Exposing multiple relaxation descriptions in one fitting environment could help separate population-only approximations from coherence-sensitive spin dynamics.
+- **Caveat:** The v2 preprint's agreement with established packages is reported rather than checked here; using PyTorch does not itself make this a learned force field or generative model.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15009102/v2); analysis based only on captured metadata, not independently verified full text.

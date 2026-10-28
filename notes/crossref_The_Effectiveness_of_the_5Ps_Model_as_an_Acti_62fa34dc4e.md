@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [classroom-learning, educational-intervention, scan-noise]
 title: The Effectiveness of the 5Ps Model as an Active Learning Approach for Enhancing
   Learning Outcomes and Knowledge Construction among Thai Secondary Students
 type: paper
@@ -61,3 +65,9 @@ To move beyond passive knowledge transfer, instructional design must enable lear
 - **Journal:** Journal of Curriculum and Teaching
 - **Publisher:** Sciedu Press
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The 5Ps instructional model is evaluated with 102 Thai Grade 8 students using achievement tests, knowledge-construction assessments, and interviews.
+- **Why it matters:** “Active learning” here means student engagement and social knowledge construction, not adaptive selection of labels or scientific experiments.
+- **Caveat:** The abstract reports pre/post improvements but does not establish a randomized controlled comparison or relevance to computational active learning.
+- **Evidence:** [Captured source](https://doi.org/10.5430/jct.v15n4p65); analysis based only on captured metadata, not independently verified full text.

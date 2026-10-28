@@ -40,6 +40,10 @@ abstract: 'Introduction: Virtual screening (VS) is a widely used computational s
   datasets.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [virtual-screening, equivariant-graphs, protein-ligand-features]
 provider_data:
   doi: 10.2174/0115734099527526261007151436
   journal: Current Computer-Aided Drug Design
@@ -65,3 +69,10 @@ Introduction: Virtual screening (VS) is a widely used computational strategy in 
 - **Journal:** Current Computer-Aided Drug Design
 - **Publisher:** Bentham Science Publishers Ltd.
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** NNGeoGVS combines ligand topology and protein-site geometry through a multi-branch equivariant graph framework with late fusion. The abstract reports enrichment and classification results on DUD-E and LIT-PCBA.
+- **Why it matters:** Combining complementary ligand and site representations targets a practical gap between ligand-only and structure-based screening.
+- **Caveat:** The large difference between reported benchmark ROC-AUC values cautions against universal performance claims; activity prediction is not experimental hit confirmation.
+- **Evidence:** [Captured source](https://doi.org/10.2174/0115734099527526261007151436); analysis based only on captured metadata, not independently verified full text.

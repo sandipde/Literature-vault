@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [microfluidic-transport, neural-surrogates, electroosmotic-flow]
@@ -54,3 +56,9 @@ provider_data:
 - **Why it matters:** Surrogate modeling could accelerate parameter exploration in coupled transport problems.
 - **Caveat:** Title only; neither training data nor physical validation is captured, and the subject is continuum rather than atomistic modeling.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.ijhydene.2026.158251); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.ijhydene.2026.158251) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

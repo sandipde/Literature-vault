@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [delayed-fluorescence, charge-transfer, conformational-dynamics, oleds]
 title: Efficient Long-Wavelength Through-Space Charge Transfer Thermally Activated
   Delayed Fluorescence in Conformationally Adaptive Emitters without Conformational
   Locking
@@ -73,3 +77,9 @@ Through-space charge-transfer thermally activated delayed fluorescence (TSCT-TAD
 - **Doi:** 10.26434/chemrxiv.15004855/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Conformationally mobile donor-linker-acceptor emitters exhibit orange-to-red through-space charge-transfer TADF without permanent locking. Spectroscopy and calculations connect accessible conformers and excited-state relaxation to emission, with OLED efficiencies reported up to 14.9%.
+- **Why it matters:** Conformational flexibility may be a usable design variable for long-wavelength emitters rather than exclusively a source of loss.
+- **Caveat:** This is ChemRxiv v2 abstract evidence, not verified device data; fluid-solution relaxation differs from rigid-host behavior and should not be conflated.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15004855/v2); analysis based only on captured metadata, not independently verified full text.

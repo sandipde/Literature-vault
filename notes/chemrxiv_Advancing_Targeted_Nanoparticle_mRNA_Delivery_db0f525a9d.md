@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [nanoparticle-delivery, mrna, multi-objective-design]
 title: Advancing Targeted Nanoparticle mRNA Delivery Using Machine Learning
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15010224/v2
@@ -60,3 +64,9 @@ Effective delivery remains a major barrier to translating nucleic acid therapeut
 - **Doi:** 10.26434/chemrxiv.15010224/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** This overview discusses ML-assisted nanoparticle mRNA delivery across receptor targeting, antibody and payload design, and nanoparticle-property prediction.
+- **Why it matters:** It makes clear that delivery optimization spans carrier chemistry, biological targeting, and manufacturability rather than a single predictive objective.
+- **Caveat:** This versioned ChemRxiv overview proposes design principles and dataset needs; it does not demonstrate a clinically validated delivery system.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010224/v2); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [ai-governance, learning-provenance, policy-lineage, support-logic]
 title: 'The Descendant Standing Problem: Governing Learned Policies After Retrospective
   Warrant Failure'
 type: paper
@@ -68,3 +72,9 @@ Adaptive and agentic AI systems increasingly learn from outputs that are themsel
 - **Doi:** 10.2139/ssrn.7610441
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The paper formalizes how a learned policy's governing justification should be reassessed when an upstream governance decision later loses warrant. It separates causal learning lineage, recorded provenance, and current justificatory support using finite support structures and three-valued re-derivation.
+- **Why it matters:** Correcting an invalid source decision need not automatically repair the models, evidence selection, or thresholds downstream of it.
+- **Caveat:** This is a conditional formal framework and synthetic lineage case, not a validated operational remediation system; its correctness theorem depends on extensive audit and soundness premises.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7610441); analysis based only on captured metadata, not independently verified full text.

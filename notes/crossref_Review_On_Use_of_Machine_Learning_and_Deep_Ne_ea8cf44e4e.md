@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [network-anomaly-detection, machine-learning-review, cybersecurity-literature]
 title: Review On Use of Machine Learning and Deep Neural Network for Network Anomaly
   Detection
 type: paper
@@ -49,3 +53,9 @@ Cyber-attacks have become a significant concern for society, affecting industrie
 - **Journal:** Vidhyayana
 - **Publisher:** Vedant Knowledge Systems Private Limited
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** This review discusses machine learning and deep neural networks for detecting anomalous network traffic as a security-support task.
+- **Why it matters:** It is network-security literature rather than atomistic modeling, illustrating a broad machine-learning scan hit with little domain overlap.
+- **Caveat:** The captured abstract is largely motivational and provides no datasets, model comparisons, false-positive rates, or verified detection improvements.
+- **Evidence:** [Captured source](https://doi.org/10.58213/eqfy7h39); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [asset-pricing, financial-forecasting, machine-learning-survey]
 title: Machine Learning in Asset Pricing
 type: paper
 source: https://doi.org/10.2139/ssrn.7611982
@@ -53,3 +57,9 @@ This survey reviews selected machine learning methods in asset pricing in two pa
 - **Doi:** 10.2139/ssrn.7611982
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** This survey covers ML for aggregate stock-return prediction, cross-sectional returns, and portfolio estimation, including regularization and LLM-derived signals.
+- **Why it matters:** It is a finance reference rather than a materials application; broad ML terminology likely explains its inclusion in a scientific scan.
+- **Caveat:** The SSRN record's favorable assessment of predictability is an unverified survey conclusion, not an assurance of investment returns or transfer to scientific datasets.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7611982); analysis based only on captured metadata, not independently verified full text.

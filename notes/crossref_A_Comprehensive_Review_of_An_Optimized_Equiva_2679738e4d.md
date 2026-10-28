@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [financial-forecasting, quantum-neural-networks, scan-noise]
 title: A Comprehensive Review of An Optimized Equivariant Split Attention Quantum
   Neural Network Based Recommendation System for Stock Market Prediction
 type: paper
@@ -58,3 +62,9 @@ The rapid evolution of financial technology has driven the adoption of advanced 
 - **Journal:** ITSI Transactions on Electrical and Electronics Engineering
 - **Publisher:** Researcher Connect Innovation and Impact Private Limited and MRI
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** The abstract discusses a stock-market recommendation framework combining quantum neural networks, equivariant representations, and split attention, alongside optimization and claimed benchmark improvements.
+- **Why it matters:** It illustrates that an equivariance keyword can retrieve financial forecasting rather than atomistic modeling.
+- **Caveat:** The title calls this a review while the abstract describes a proposed framework and results; no numerical evidence is captured to verify superiority, financial returns, or hardware practicality.
+- **Evidence:** [Captured source](https://doi.org/10.65521/itsi-teee.v12i1.3877); analysis based only on captured metadata, not independently verified full text.

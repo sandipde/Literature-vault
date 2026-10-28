@@ -29,6 +29,10 @@ abstract: Penelitian ini menggunakan metode Deep Convolutional Neural Network (C
   di industri.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [visual-inspection, casting-defects, convolutional-networks]
 provider_data:
   doi: 10.36499/jim.v22i2.15624
   journal: Jurnal  Ilmiah Momentum
@@ -54,3 +58,10 @@ Penelitian ini menggunakan metode Deep Convolutional Neural Network (CNN) untuk 
 - **Journal:** Jurnal  Ilmiah Momentum
 - **Publisher:** Fakultas Teknik Universitas Wahid Hasyim
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The Indonesian abstract compares AlexNet with a developed CNN architecture for classifying metal-casting images using 6,633 preprocessed images. It reports 99.25% accuracy for AlexNet versus 89.07% for the alternative.
+- **Why it matters:** This is a manufacturing-inspection application rather than atomistic modeling, useful only if the reading scope includes vision-based quality control.
+- **Caveat:** The capture does not establish independent production-line testing, leakage controls, or robustness to new casting conditions.
+- **Evidence:** [Captured source](https://doi.org/10.36499/jim.v22i2.15624); analysis based only on captured metadata, not independently verified full text.

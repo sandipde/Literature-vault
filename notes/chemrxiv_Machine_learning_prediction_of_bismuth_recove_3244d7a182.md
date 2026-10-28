@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [literature-data, grouped-validation, bismuth-recovery, local-calibration]
 title: 'Machine learning prediction of bismuth recovery from literature data: publication-grouped
   validation, anchored calibration and chemical interpretation'
 type: chemrxiv
@@ -56,3 +60,9 @@ Machine learning models trained on published leaching data often report high acc
 - **Doi:** 10.26434/chemrxiv.15010302/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Models of bismuth recovery lose most apparent predictive power when validation holds out publications instead of randomly splitting runs. A few measurements from a new study improve local calibration, while within-study ranking remains more promising than absolute transfer.
+- **Why it matters:** Publication identity can encode hidden experimental conditions, making random-split accuracy a poor guide to performance on a new feedstock or laboratory.
+- **Caveat:** The preprint's calibration and ranking results are unverified; the grouped-validation interval includes negative R2 and does not support universal zero-shot prediction.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010302/v1); analysis based only on captured metadata, not independently verified full text.

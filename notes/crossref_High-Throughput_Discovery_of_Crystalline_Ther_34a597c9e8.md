@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: ML interatomic potentials
 enrichment_tags: [thermal-insulators, high-throughput, materials-screening]
 title: High-Throughput Discovery of Crystalline Thermal Insulators Using Machine-Learning
@@ -48,7 +50,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title proposes high-throughput screening of crystalline thermal insulators using machine-learning interatomic potentials.
+- **Concise summary:** Only a truncated indexed teaser was recovered: low lattice thermal conductivity motivates crystalline materials for thermal barriers and thermoelectrics. The teaser does not disclose the discovery workflow or results.
 - **Why it matters:** Learned potentials could make thermal-property searches affordable across more candidate crystals.
-- **Caveat:** Title only; candidate identities, transport calculations and validation are not provided.
-- **Evidence:** [Captured source](https://doi.org/10.32604/icces.2026.013943); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** Truncated teaser only, not a recovered complete abstract. Candidate identities, calculations and validation remain unavailable.
+- **Evidence:** [Indexed teaser](https://api.openalex.org/works/https://doi.org/10.32604/icces.2026.013943).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.32604%2Ficces.2026.013943) returned metadata without an abstract; [OpenAlex](https://api.openalex.org/works/https://doi.org/10.32604/icces.2026.013943) returned a truncated promotional teaser.
+
+Recovered details: low thermal conductivity is presented as relevant to thermal barriers and thermoelectrics.
+
+Limitations: not a recovered complete abstract; methods and performance remain unknown. Original captured metadata retained.

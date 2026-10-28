@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [neuroevolution, dynamic-charges, long-range-electrostatics, gpumd]
 title: 'qNEP: A Highly Efficient Neuroevolution Potential with Dynamic Charges for
   Large-Scale Atomistic Simulations'
 type: web
@@ -107,3 +111,9 @@ High Resolution Image Download MS PowerPoint Slide Although electrostatics can b
 - **Topics:** ["Machine Learning in Materials Science", "Advanced Chemical Physics Studies", "Advanced Physical and Chemical Molecular Interactions"]
 - **Open Access:** {"is_oa": true, "oa_status": "hybrid", "oa_url": "https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.6c00146?ref=article_openPDF", "any_repository_has_fulltext": true}
 - **Cited By Count:** 14
+
+## AI enrichment
+- **Concise summary:** qNEP augments neuroevolution potentials with environment-dependent neural partial charges and consistent forces and virials, enabling polarization and electrostatic-response calculations in GPUMD.
+- **Why it matters:** Treating charge derivatives explicitly links an efficient local potential architecture to dielectric response, infrared spectra, and field coupling rather than energy prediction alone.
+- **Caveat:** Million-atom, nanosecond scalability and accuracy are reported claims; the captured abstract includes scraping and encoding artifacts and does not provide benchmark settings.
+- **Evidence:** [Captured source](https://pubs.acs.org/jctcce/article/22/9/4787/5087447/qNEP-A-Highly-Efficient-Neuroevolution-Potential); analysis based only on captured metadata, not independently verified full text.

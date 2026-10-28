@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Mathematics and algorithms
 enrichment_tags: [quantum-compilation, peer-review, version-record]
@@ -46,3 +48,9 @@ provider_data:
 - **Why it matters:** A version-specific review identifier may help trace evaluation history separately from the research article.
 - **Caveat:** Title only; no review text was captured, so neither the reviewer's judgment nor technical criticisms are known. This shares a title and parent DOI with v1/review1 and v1/review2; it is a related version-family record, not an independent paper.
 - **Evidence:** [Captured source](https://doi.org/10.1088/2058-9565/aeb8ef/v2/review1); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1088%2F2058-9565%2Faeb8ef%2Fv2%2Freview1) returned bibliographic metadata without an abstract; [review source](https://doi.org/10.1088/2058-9565/aeb8ef/v2/review1) exceeded the redirect limit.
+
+Limitations: no review text or abstract recovered; peer-review metadata is not a main-article abstract. Original captured metadata retained.

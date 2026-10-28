@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [photoredox-catalysis, wavelength-control, aminoalkylation]
 title: Chromoselective Control for Aminoalkylation of CF3‑Alkenes through Low-Energy
   Photoredox Catalysis
 type: chemrxiv
@@ -64,3 +68,9 @@ Recent advances in chromoselective photoredox catalysis have demonstrated that l
 - **Doi:** 10.26434/chemrxiv.15010275/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** With a ruthenium photocatalyst, blue versus red irradiation selects difunctionalization versus monofunctionalization of CF3-alkenes with N-arylglycines. The abstract links the switch to wavelength-dependent excitation of intermediates using photoelectrochemistry and TD-DFT.
+- **Why it matters:** Wavelength offers a reaction-selection variable without changing the nominal catalyst and reagent system.
+- **Caveat:** The preprint's mechanistic assignment and selectivity claims are unverified; substrate scope and generality beyond the described system are not established by the abstract.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010275/v1); analysis based only on captured metadata, not independently verified full text.

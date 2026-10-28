@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [superconductivity, thermal-hall-effect, multiband-materials]
 title: Band-Resolved Superconducting Gaps via the Thermal Hall Effect in CeRu2
 type: arxiv
 source: https://arxiv.org/abs/2610.22361
@@ -53,3 +57,9 @@ Standard bulk probes of multiband superconductors cannot assign pairing gaps to 
 ## Provider details
 - **Arxiv Id:** 2610.22361
 - **Categories:** ["cond-mat.supr-con", "cond-mat.str-el"]
+
+## AI enrichment
+- **Concise summary:** Thermal Hall transport, constrained by heat-capacity and magnetotransport information, is used to assign distinct superconducting gaps to electron and hole sheets in CeRu2. A low-field sign reversal is interpreted as locating the larger gap on heavy Ce 4f electron sheets.
+- **Why it matters:** Combining probes may resolve band assignments that bulk gap measurements alone leave ambiguous.
+- **Caveat:** This preprint abstract does not independently establish the transport model or uniqueness of the interpretation; the conclusion concerns CeRu2 rather than all multiband superconductors.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.22361); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: Other and possible scan noise
+enrichment_tags: [information-history, annotated-timelines]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 title: History of Information
 type: web
 source: https://www.historyofinformation.com/detail.php?id=3439&
@@ -60,3 +66,15 @@ An interactive, illustrated timeline of historic moments
 - **Topics:** ["Media, Journalism, and Communication History", "History of Computing Technologies", "Media, Communication, and Education"]
 - **Open Access:** {"is_oa": false, "oa_status": "closed", "oa_url": null, "any_repository_has_fulltext": false}
 - **Cited By Count:** 1
+
+## Source recovery
+- **Retrieval date:** 2026-10-28.
+- **Retrieved source:** https://www.historyofinformation.com/detail.php?id=3439&
+- **Outcome:** The captured description characterized the overall website rather than this entry. The retrieved page specifically discusses Plato's Phaedrus, dated approximately 370 BCE, and Socrates's account of an Egyptian writing myth, emphasizing concerns about memory and the appearance of understanding.
+- **Limitations:** This is the timeline site's presentation of an ancient dialogue, not an independently checked historical interpretation or edition.
+
+## AI enrichment
+- **Concise summary:** The specific recovered entry discusses the critique of writing in Plato's Phaedrus, where external records can encourage apparent knowledge without understanding.
+- **Why it matters:** It offers historical context for debates about external knowledge aids, though it is peripheral to technical atomistic modeling and does not directly study AI.
+- **Caveat:** Recovery resolves the generic website description but does not independently verify the dialogue's dating, translation, or interpretation; the captured citation count is not evidence of this entry's scholarly significance.
+- **Evidence:** [Captured source](https://www.historyofinformation.com/detail.php?id=3439&); [Retrieved timeline entry](https://www.historyofinformation.com/detail.php?id=3439&); analysis uses captured metadata and retrieved public page evidence, not an independently checked primary edition.

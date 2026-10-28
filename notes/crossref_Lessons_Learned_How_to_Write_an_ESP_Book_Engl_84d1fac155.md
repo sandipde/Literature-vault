@@ -34,6 +34,10 @@ abstract: Abstract Developing a professional English coursebook for Crisis Manag
   that bridge the gap between university learning and professional practice.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [language-education, coursebook-design, scan-noise]
 provider_data:
   doi: 10.5817/casalc2026-1-12
   journal: CASALC Review
@@ -59,3 +63,10 @@ Abstract Developing a professional English coursebook for Crisis Management stud
 - **Journal:** CASALC Review
 - **Publisher:** Masaryk University Press
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** The article reflects on creating and piloting an English-for-Crisis-Management coursebook, including authentic tasks and project-based Job Labs.
+- **Why it matters:** This is professional-language pedagogy rather than learned models or materials science, making it a clear scope-filtering candidate.
+- **Caveat:** The reflective development account does not independently establish comparative learning gains or broad classroom effectiveness.
+- **Evidence:** [Captured source](https://doi.org/10.5817/casalc2026-1-12); analysis based only on captured metadata, not independently verified full text.

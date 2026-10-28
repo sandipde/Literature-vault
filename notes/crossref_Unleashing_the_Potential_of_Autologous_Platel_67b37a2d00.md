@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [bone-regeneration, platelet-concentrates, biomaterials-review]
 title: 'Unleashing the Potential of Autologous Platelet Concentrates in Bone Regeneration:
   A Focus on Their Synergy With Biomaterials'
 type: paper
@@ -61,3 +65,9 @@ ABSTRACT Bone defects present significant clinical challenges worldwide, as conv
 - **Journal:** Advanced Healthcare Materials
 - **Publisher:** Wiley
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** This narrative review surveys autologous platelet concentrates combined with biomaterials to provide structural support and modulate growth-factor release for bone regeneration.
+- **Why it matters:** It concerns regenerative biomaterial combinations, not atomic potentials despite the title keyword, and distinguishes translational promise from clinical proof.
+- **Caveat:** The abstract explicitly notes uncertain clinical superiority for many combinations; preclinical plausibility should not be read as established treatment effectiveness.
+- **Evidence:** [Captured source](https://doi.org/10.1002/adhm.71821); analysis based only on captured metadata, not independently verified full text.

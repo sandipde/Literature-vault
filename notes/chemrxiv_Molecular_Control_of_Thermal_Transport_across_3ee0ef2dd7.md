@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [interfacial-heat-transfer, peg-coatings, molecular-dynamics, hydration]
 title: Molecular Control of Thermal Transport across PEG-Coated Gold–Water Interfaces
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15010356/v1
@@ -64,3 +68,9 @@ Understanding heat transport across polymer-coated surfaces is important for the
 - **Doi:** 10.26434/chemrxiv.15010356/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Nonequilibrium simulations decompose heat resistance across PEG-coated Au-water interfaces into metal-polymer, polymer-layer, and polymer-water contributions. Methyl termination raises resistance relative to polar or charged terminations, with chain length and coverage providing additional controls.
+- **Why it matters:** Separating resistance contributions connects chemical surface design to the actual transport bottleneck instead of relying on vibrational overlap alone.
+- **Caveat:** ChemRxiv v1 simulation trends are unverified and force-field dependent; no experimental confirmation or learned-potential methodology is established in the abstract.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010356/v1); analysis based only on captured metadata, not independently verified full text.

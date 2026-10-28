@@ -24,6 +24,12 @@ published: 2026-10
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: ML interatomic potentials
+enrichment_tags: [alumina, high-pressure-phases, anharmonicity]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1016/j.commt.2026.100067
   journal: Computational Materials Today
@@ -46,3 +52,18 @@ provider_data:
 - **Journal:** Computational Materials Today
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Attempted source:** https://doi.org/10.1016/j.commt.2026.100067 returned an Elsevier redirect shell.
+- **Retrieved source:** https://api.openalex.org/works/https://doi.org/10.1016/j.commt.2026.100067?select=doi,title,abstract_inverted_index
+- **Outcome:** The exact-DOI abstract describes a SCAN-level Deep Potential with active-learning configuration screening to suppress unphysical liquid clustering. It uses nonequilibrium thermodynamic integration for solid boundaries and reports a shock-melting region of 416.4-507.9 GPa.
+- **Limitations:** Indexed abstract only; phase free energies, screening bias, and comparisons with measurements were not independently checked.
+
+## AI enrichment
+
+- **Concise summary:** The recovered abstract uses a learned Al2O3 potential to compute high-pressure melting curves and anharmonic solid-phase boundaries up to 600 GPa.
+- **Why it matters:** Explicit anharmonic sampling can change phase-boundary predictions that quasiharmonic approximations miss under extreme conditions.
+- **Caveat:** The phase diagram inherits the SCAN reference and model-training domain; reported agreement with sound-speed measurements is not independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.commt.2026.100067); [recovered OpenAlex abstract](https://api.openalex.org/works/https://doi.org/10.1016/j.commt.2026.100067?select=doi,title,abstract_inverted_index), retrieved 2026-10-28; no independent full-text verification.

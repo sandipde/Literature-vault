@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [reaction-optimization, suzuki-coupling, held-out-validation, ranking-baselines]
 title: Reaction-Level Machine Learning for Condition Optimization in Suzuki–Miyaura
   Cross-Coupling
 type: chemrxiv
@@ -61,3 +65,9 @@ Selecting the ligand, base and solvent for a Suzuki–Miyaura coupling remains l
 - **Doi:** 10.26434/chemrxiv.15010362/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Models trained on Suzuki-Miyaura high-throughput screens retain some condition-ranking ability on held-out reactions but generally fail to transfer exact yields. A simple condition-average ranker matches trained-model ranking within overlapping confidence intervals.
+- **Why it matters:** Reaction-level splits and no-learning baselines distinguish transferable chemistry from merely rediscovering broadly favorable conditions.
+- **Caveat:** The ChemRxiv v1 results are unverified and limited to the described quinoline-coupling dataset; high classification accuracy can reflect low-yield class imbalance rather than useful optimization.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010362/v1); analysis based only on captured metadata, not independently verified full text.

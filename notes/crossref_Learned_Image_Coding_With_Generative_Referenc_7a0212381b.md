@@ -20,6 +20,12 @@ published: '2026'
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [image-compression, conditional-latents, generative-references]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1109/tpami.2026.3744812
   journal: IEEE Transactions on Pattern Analysis and Machine Intelligence
@@ -42,3 +48,18 @@ provider_data:
 - **Journal:** IEEE Transactions on Pattern Analysis and Machine Intelligence
 - **Publisher:** Institute of Electrical and Electronics Engineers (IEEE)
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Attempted source:** https://doi.org/10.1109/tpami.2026.3744812 yielded no usable IEEE page content.
+- **Retrieved source:** https://api.openalex.org/works/https://doi.org/10.1109/tpami.2026.3744812?select=doi,title,abstract_inverted_index
+- **Outcome:** The exact-DOI indexed abstract describes learned compression using external-image references in conditional latent maps. Reference sources include local retrieval, web search, and diffusion generation; it reports gains up to 1.5 dB PSNR with about 0.005 bits/pixel overhead.
+- **Limitations:** Indexed abstract only; coding comparisons, synchronization, and reference-acquisition costs were not independently tested.
+
+## AI enrichment
+
+- **Concise summary:** GRCL uses semantically related external images to construct conditional latent references for image compression, synchronizing generation between encoder and decoder.
+- **Why it matters:** Retrieval and generation become compression-side information rather than merely tools for synthesizing the final image.
+- **Caveat:** Reported peak PSNR gains depend on datasets and baselines; this is image coding, not atomistic or amorphous-material generation.
+- **Evidence:** [Captured source](https://doi.org/10.1109/tpami.2026.3744812); [recovered OpenAlex abstract](https://api.openalex.org/works/https://doi.org/10.1109/tpami.2026.3744812?select=doi,title,abstract_inverted_index), retrieved 2026-10-28; no independent full-text verification.

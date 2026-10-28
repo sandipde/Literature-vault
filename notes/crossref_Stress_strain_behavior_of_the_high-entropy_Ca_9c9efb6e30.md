@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [cantor-alloy, tensile-deformation, neural-potentials, high-entropy-alloys]
 title: Stress–strain behavior of the high-entropy Cantor alloy CrMnFeCoNi using a
   deep neural network potential
 type: paper
@@ -58,3 +62,9 @@ Machine learning interatomic potentials (MLIPs) provide an efficient approach to
 - **Journal:** Turkish Journal of Physics
 - **Publisher:** The Scientific and Technological Research Council of Turkey (TUBITAK-ULAKBIM) - DIGITAL COMMONS JOURNALS
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** An AIMD-trained neural potential for CrMnFeCoNi is compared with DFT and a classical MEAM model for stress-strain behavior, elastic constants, and deformation.
+- **Why it matters:** Mechanical-response tests assess behavior beyond aggregate training errors and could reveal consequences of potential choice in complex alloys.
+- **Caveat:** The exceptionally tiny reported energy RMSE of 7.39 x 10^-6 meV/atom warrants unit and split checking; all accuracy and tensile claims are unverified, and maximum strain alone does not establish general reliability.
+- **Evidence:** [Captured source](https://doi.org/10.55730/1300-0101.2944); analysis based only on captured metadata, not independently verified full text.

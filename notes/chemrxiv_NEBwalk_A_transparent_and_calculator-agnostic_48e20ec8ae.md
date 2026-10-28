@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [nudged-elastic-band, reproducible-workflows, transition-states, dft-validation]
 title: 'NEBwalk: A transparent and calculator-agnostic framework for reproducible
   nudged elastic band workflows with machine-learned potentials and firstprinciples
   calculators'
@@ -70,3 +74,9 @@ The nudged elastic band (NEB) method is established, but a reproducible transiti
 - **Doi:** 10.26434/chemrxiv.15010372/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** NEBwalk wraps ASE-based NEB calculations in restartable, provenance-aware workflows linking MLIP screening with first-principles checks and optional MACE fine-tuning. Its audit distinguishes reconfirmed cases from historical records lacking sufficient surviving artifacts.
+- **Why it matters:** Calculator isolation, restart behavior, and explicit failure handling can matter as much as optimizer choice for reproducible barrier calculations.
+- **Caveat:** The preprint does not claim a new NEB algorithm; tiny implementation differences and literature-scale comparisons do not establish universal physical accuracy or validate the seven excluded historical cases.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010372/v1); analysis based only on captured metadata, not independently verified full text.

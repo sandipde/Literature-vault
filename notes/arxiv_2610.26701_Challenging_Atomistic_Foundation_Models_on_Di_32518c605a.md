@@ -34,6 +34,10 @@ abstract: Foundation machine-learned interatomic potentials (MLIPs) promise broa
   experimentally realistic structures.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [disordered-carbon, foundation-potentials, dynamical-validation]
 provider_data:
   arxiv_id: '2610.26701'
   categories:
@@ -57,3 +61,10 @@ Foundation machine-learned interatomic potentials (MLIPs) promise broad transfer
 ## Provider details
 - **Arxiv Id:** 2610.26701
 - **Categories:** ["physics.chem-ph", "cond-mat.mtrl-sci", "physics.comp-ph"]
+
+## AI enrichment
+
+- **Concise summary:** Six foundation MLIPs are screened on disordered carbon, with four tested through melt-quench-anneal dynamics. The abstract reports extrapolation failures missed by energy/force errors and identifies MACE-MH-1 as the most consistently robust tested model.
+- **Why it matters:** This directly motivates validating trajectories and pore statistics for amorphous or nanoporous carbon rather than relying on near-reference regression metrics.
+- **Caveat:** Structure formation here uses force-field-driven dynamics, not a learned generative structure model; the preprint's comparative ranking is domain-specific.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.26701); analysis based only on captured metadata, not independently verified full text.

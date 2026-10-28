@@ -27,6 +27,10 @@ abstract: An efficient preparation of highly enantioenriched cyclic compounds fr
   methodology.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [carbene-catalysis, annulation, chiral-lactams]
 provider_data:
   doi: 10.26434/chemrxiv.15010507/v1
   journal: ''
@@ -51,3 +55,10 @@ An efficient preparation of highly enantioenriched cyclic compounds from readily
 - **Doi:** 10.26434/chemrxiv.15010507/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** An NHC-catalyzed formal [3+3] annulation couples anilines with alpha-bromocinnamic aldehyde-derived acyl-azolium precursors to form chiral lactams. The abstract reports yields up to 98% and enantiomeric ratios up to 97:3.
+- **Why it matters:** Combining accessible reactants with stereocontrolled ring construction could simplify access to chiral lactam scaffolds.
+- **Caveat:** Peak yields and selectivities do not describe the entire substrate scope; scalability and derivatization claims remain unverified preprint evidence.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010507/v1); analysis based only on captured metadata, not independently verified full text.

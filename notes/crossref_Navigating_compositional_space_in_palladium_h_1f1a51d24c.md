@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: ML interatomic potentials
 enrichment_tags: [mlip-benchmarking, palladium-hydride, composition-transfer]
@@ -52,3 +54,9 @@ provider_data:
 - **Why it matters:** Composition-dependent tests could expose transferability failures hidden by aggregate errors at a single stoichiometry.
 - **Caveat:** Title only; no abstract, model identities or benchmark outcomes were captured. The listed January 2027 publication date is not the git-added date.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.commatsci.2026.115195); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.commatsci.2026.115195) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

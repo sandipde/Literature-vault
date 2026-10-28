@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [grouped-validation, domain-generalization, drug-release, data-leakage]
 title: Validation Design Governs the Apparent Predictive Performance of Machine Learning
   for PLGA Drug Release
 type: chemrxiv
@@ -64,3 +68,9 @@ Reliable generalization is essential for machine-learning models intended to pre
 - **Doi:** 10.26434/chemrxiv.15010439/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A LightGBM study of PLGA release data compares observation-, formulation-, and study-level splits, reporting a large performance decline as experimental-domain separation increases.
+- **Why it matters:** Shared study conditions can create hidden dependencies even after separating formulations, a directly transferable concern for multi-laboratory materials datasets.
+- **Caveat:** This v1 preprint reports one public dataset and one modeling framework; split sensitivity does not quantify the generalization of every drug-release model.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010439/v1); analysis based only on captured metadata, not independently verified full text.

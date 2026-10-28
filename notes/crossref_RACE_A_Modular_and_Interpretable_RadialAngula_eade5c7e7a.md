@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: ML interatomic potentials
 enrichment_tags: [atomistic-descriptors, radial-angular, interpretable-models]
 title: 'RACE: A Modular and Interpretable RadialAngular Correlation Descriptor for
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** RACE is described in the title as a modular radial-angular correlation descriptor for atomistic machine learning.
+- **Concise summary:** Parent article only: RACE combines radial distributions, angular distributions and a joint radial-angular map in a modular descriptor, with interchangeable chemical-identity weighting schemes.
 - **Why it matters:** Explicit descriptor structure could aid interpretation of which local geometric information a model uses.
-- **Caveat:** Title only from a .s001 component; interpretability, expressiveness and predictive accuracy are claims without captured supporting results.
-- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jctc.6c01111.s001); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** No .s001 component abstract recovered; parent details do not establish supporting-file contents or independently validate accuracy. Supporting files/full paper were not assessed.
+- **Evidence:** [Parent abstract](https://api.crossref.org/works/10.1021/acs.jctc.6c01111).
+
+## Source recovery
+
+Checked 2026-10-28. [Component Crossref](https://api.crossref.org/works/10.1021%2Facs.jctc.6c01111.s001) returned metadata without an abstract; [component publisher](https://doi.org/10.1021/acs.jctc.6c01111.s001) returned HTTP 403; [parent Crossref](https://api.crossref.org/works/10.1021/acs.jctc.6c01111) returned the parent abstract.
+
+Recovered parent details: RACE explicitly combines radial, angular and joint radial-angular information with modular chemical weighting.
+
+Limitations: no component abstract recovered; parent details are not component evidence. Original captured metadata retained.

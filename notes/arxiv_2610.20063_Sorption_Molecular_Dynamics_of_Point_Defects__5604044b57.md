@@ -43,6 +43,10 @@ abstract: Defect engineering is a crucial tool for tuning and tailoring the prop
   cost of DFT-based MD.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [point-defects, sorption, two-dimensional-materials]
 provider_data:
   arxiv_id: '2610.20063'
   categories:
@@ -64,3 +68,10 @@ Defect engineering is a crucial tool for tuning and tailoring the properties of 
 ## Provider details
 - **Arxiv Id:** 2610.20063
 - **Categories:** ["cond-mat.mtrl-sci"]
+
+## AI enrichment
+
+- **Concise summary:** The preprint uses MACE molecular dynamics on 17,624 ADAQ defect structures to compare adsorption and absorption trends at 0 K and 300 K. It reports qualitative agreement with earlier DFT trends.
+- **Why it matters:** A large defect-screening workflow provides a task-specific test of MLIP usefulness beyond aggregate force errors.
+- **Caveat:** Qualitative prescreening is not quantitative defect validation; the abstract explicitly retains a role for first-principles checks.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.20063); analysis based only on captured metadata, not independently verified full text.

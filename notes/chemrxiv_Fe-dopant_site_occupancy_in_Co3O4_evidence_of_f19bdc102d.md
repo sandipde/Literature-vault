@@ -40,6 +40,10 @@ abstract: Understanding how dopant site occupancy influences the behavior of spi
   electronic, and magnetic properties of Co3O4 spinels.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [spinel-oxides, dopant-occupancy, xanes]
 provider_data:
   doi: 10.26434/chemrxiv.15010515/v1
   journal: ''
@@ -64,3 +68,10 @@ Understanding how dopant site occupancy influences the behavior of spinel oxides
 - **Doi:** 10.26434/chemrxiv.15010515/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** DFT+U and Co K-edge XANES are combined to study Fe incorporation in Co3O4. The abstract favors isovalent octahedral substitution and short-range dopant association, with corresponding magnetic and spectral changes.
+- **Why it matters:** Dopant location and pairing may matter as much as nominal concentration when interpreting oxide properties.
+- **Caveat:** The preprint explicitly treats calculated spectral changes qualitatively because of theoretical limitations; site assignments are not independently verified here.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010515/v1); analysis based only on captured metadata, not independently verified full text.

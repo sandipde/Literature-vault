@@ -34,6 +34,10 @@ abstract: 'Thermochemical catalytic reactions are often composed of coupled elec
   catalysis.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [galvanic-coupling, palladium-corrosion, alcohol-oxidation]
 provider_data:
   doi: 10.26434/chemrxiv.15010484/v2
   journal: ''
@@ -58,3 +62,10 @@ Thermochemical catalytic reactions are often composed of coupled electrochemical
 - **Doi:** 10.26434/chemrxiv.15010484/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract argues that oxygen reduction on palladium drives corrosion, generating soluble Pd(II) complexes that catalyze benzyl-alcohol oxidation. Potential-control and sacrificial-anode experiments are described as tests of this galvanic link.
+- **Why it matters:** Apparent heterogeneous turnover may depend on electrochemically generated molecular catalysts, changing how active phases and rate controls are interpreted.
+- **Caveat:** This is the captured v2 preprint account; catalyst speciation and mechanistic exclusivity have not been independently examined.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010484/v2); analysis based only on captured metadata, not independently verified full text.

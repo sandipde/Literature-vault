@@ -42,6 +42,10 @@ abstract: Advances in protein structure prediction have created opportunities fo
   and reveal gaps in activity, target awareness and generalization.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [molecular-generation, drug-discovery, benchmarking]
 provider_data:
   doi: 10.1038/s41467-026-78105-8
   journal: Nature Communications
@@ -105,3 +109,10 @@ Advances in protein structure prediction have created opportunities for structur
 - **Topics:** ["Computational Drug Discovery Methods", "Protein Degradation and Inhibitors", "Machine Learning in Materials Science"]
 - **Open Access:** {"is_oa": true, "oa_status": "gold", "oa_url": "https://www.nature.com/articles/s41467-026-78105-8_reference.pdf", "any_repository_has_fulltext": false}
 - **Cited By Count:** 0
+
+## AI enrichment
+
+- **Concise summary:** MolGenBench evaluates 17 structure-based molecular generation methods across de novo design and lead optimization. The abstract reports gaps in activity, target awareness, generalization, and structural risk despite improvements in conformations.
+- **Why it matters:** It distinguishes geometrically plausible molecules from useful bioactive candidates, a valuable warning when selecting generative-model metrics.
+- **Caveat:** The captured benchmark account does not independently establish experimental activity or explain all dataset biases.
+- **Evidence:** [Captured source](https://www.nature.com/articles/s41467-026-78105-8?error=cookies_not_supported&code=7b3c8552-fdb9-40bf-a674-e32216ea1623); analysis based only on captured metadata, not independently verified full text.

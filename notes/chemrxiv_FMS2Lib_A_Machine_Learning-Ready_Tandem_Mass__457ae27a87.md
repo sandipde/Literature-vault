@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [mass-spectrometry, pfas, spectral-library, molecular-annotation]
 title: 'FMS2Lib: A Machine Learning-Ready Tandem Mass Spectral Library for Nontargeted
   Analysis of Non-conventional PFAS'
 type: chemrxiv
@@ -62,3 +66,9 @@ Nontargeted identification of non-conventional per- and polyfluoroalkyl substanc
 - **Doi:** 10.26434/chemrxiv.15010212/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** FMS2Lib is reported as an experimental tandem-mass-spectral library of 34,686 fluorinated drug-like compounds for training non-conventional PFAS identification models.
+- **Why it matters:** Domain-specific spectra address a plausible generalization gap when models trained mainly on nonfluorinated chemistry are applied to environmental fluorinated compounds.
+- **Caveat:** The v1 abstract reports improved formula prediction and structure annotation but supplies no error rates or independent confirmation of the identified environmental species.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010212/v1); analysis based only on captured metadata, not independently verified full text.

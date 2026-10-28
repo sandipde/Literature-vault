@@ -6,7 +6,9 @@ canonical_url: https://doi.org/10.1038/d41586-026-03376-6
 captured_by: auto-scanner
 date: '2026-10-21'
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Other and possible scan noise
 enrichment_tags: [salt-marsh, wave-flume, coastal-science]
 captured_at: '2026-10-21T20:26:15+00:00'
@@ -43,7 +45,15 @@ provider_data:
 - **Type:** journal-article
 
 ## AI enrichment
-- **Concise summary:** The title identifies a report about placing a salt marsh in a wave machine and describing what researchers learned.
+- **Concise summary:** The publisher's podcast description says an experiment examines salt-marsh coastal protection against major storms and also discusses evidence about Denisovan appearance. This is a news/audio description, not a research abstract.
 - **Why it matters:** Experimental wave exposure can offer a way to study how coastal vegetation interacts with energetic conditions.
-- **Caveat:** Title only; no abstract was captured, so the experiment and findings are not known.
-- **Evidence:** [Captured source](https://doi.org/10.1038/d41586-026-03376-6); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** Podcast description only, not a research abstract or independent validation of the experiment.
+- **Evidence:** [Publisher description](https://doi.org/10.1038/d41586-026-03376-6).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1038%2Fd41586-026-03376-6) returned metadata without an abstract; [publisher via DOI](https://doi.org/10.1038/d41586-026-03376-6) returned the podcast description.
+
+Recovered details: the episode covers salt-marsh storm protection and evidence about Denisovan appearance.
+
+Limitations: news/audio description, not a complete research abstract or validated methods/results. Original captured metadata retained.

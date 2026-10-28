@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [aromaticity, cellular-sheaves, molecular-topology, spectral-descriptors]
 title: A Cellular Sheaf Model for Aromaticity in Discrete Molecular Systems
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15010344/v1
@@ -57,3 +61,9 @@ Aromaticity underpins molecular stability in fields ranging from pharmaceuticals
 - **Doi:** 10.26434/chemrxiv.15010344/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A parameter-free cellular-sheaf representation derives a frontier eigengap from connectivity and electron count as a proxy for molecular electronic gaps and aromatic character. The abstract reports stronger explained variance for hydrocarbon than heteroaromatic datasets.
+- **Why it matters:** A topology-only screening descriptor could cheaply prioritize molecules before electronic-structure calculations while exposing how much chemistry connectivity alone captures.
+- **Caveat:** The ChemRxiv v1 results and runtime comparison are unverified; the reported 21.7% variance for heteroaromatics limits any claim of a general HOMO-LUMO predictor.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010344/v1); analysis based only on captured metadata, not independently verified full text.

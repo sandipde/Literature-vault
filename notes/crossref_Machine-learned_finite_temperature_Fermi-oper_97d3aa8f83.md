@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [fermi-operator-expansion, density-matrices, gpu-computing, finite-temperature]
 title: Machine-learned, finite temperature Fermi-operator expansions suitable for
   GPUs and AI-hardware
 type: paper
@@ -60,3 +64,9 @@ We present several finite-temperature recursive Fermi–operator expansion schem
 - **Journal:** The Journal of Chemical Physics
 - **Publisher:** AIP Publishing
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** Learned recursive coefficients extend SP2 Fermi-operator expansions to finite temperature and electronic entropy, using affine Hamiltonian rescaling across temperatures and chemical potentials. The method replaces explicit diagonalization with matrix-multiplication kernels.
+- **Why it matters:** Reformulating electronic-structure work for dense matrix hardware can accelerate a solver kernel independently of any force-field surrogate.
+- **Caveat:** Reported speedups are unverified and concern small-to-moderate matrices on specified accelerator classes; they do not imply an order-of-magnitude speedup for an entire self-consistent calculation.
+- **Evidence:** [Captured source](https://doi.org/10.1063/5.0347394); analysis based only on captured metadata, not independently verified full text.

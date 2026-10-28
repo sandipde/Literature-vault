@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Other and possible scan noise
 enrichment_tags: [west-nile-virus, vaccine-research, scan-noise]
 title: Development of EDIII-based subunit vaccine candidate for West Nile Virus, its
@@ -52,7 +54,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title describes an EDIII-based West Nile vaccine candidate and evaluation of immune and antibody responses.
+- **Concise summary:** The indexed abstract describes recombinant production, purification and refolding of flaviviral envelope-domain III antigens toward subunit vaccine candidates. It is not evidence about interatomic potentials.
 - **Why it matters:** Distinguishing immunogenicity, neutralization and cross-reactivity could matter when interpreting candidate-vaccine evidence.
-- **Caveat:** Title only; no abstract establishes protective efficacy, safety or clinical readiness. No MLIP relevance is evident, so this is likely off-topic scan noise.
-- **Evidence:** [Captured source](https://doi.org/10.1016/j.microb.2026.100824); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** Indexed abstract only; no independent full-paper, protective-efficacy, safety or clinical-readiness validation. Off-topic for MLIPs.
+- **Evidence:** [Indexed abstract](https://api.openalex.org/works/https://doi.org/10.1016/j.microb.2026.100824).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.microb.2026.100824) returned bibliographic metadata without an abstract; [OpenAlex](https://api.openalex.org/works/https://doi.org/10.1016/j.microb.2026.100824) returned the indexed abstract.
+
+Recovered details: recombinant antigen production, purification and refolding support the candidate-vaccine development workflow.
+
+Limitations: indexed abstract, not publisher full-text or clinical validation. Original captured metadata retained.

@@ -33,6 +33,10 @@ abstract: Equivariant machine learning interatomic potentials (MLIPs) promise at
   equivariant MLIPs.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [tensor-products, gpu-kernels, equivariant-networks]
 provider_data:
   arxiv_id: '2610.18393'
   categories:
@@ -55,3 +59,10 @@ Equivariant machine learning interatomic potentials (MLIPs) promise atomistic si
 ## Provider details
 - **Arxiv Id:** 2610.18393
 - **Categories:** ["cs.DC", "cs.LG"]
+
+## AI enrichment
+
+- **Concise summary:** LunaTP reorganizes Clebsch-Gordan tensor-product execution using node-centric parallelism and reuse, including higher-order derivatives. The abstract reports large kernel and smaller end-to-end training gains on an H100.
+- **Why it matters:** Accelerating the equivariant primitive without changing its mathematics could reduce a shared computational bottleneck across MLIP architectures.
+- **Caveat:** Preprint speedups are workload- and baseline-dependent; peak kernel gains should not be read as universal simulation speedups.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.18393); analysis based only on captured metadata, not independently verified full text.

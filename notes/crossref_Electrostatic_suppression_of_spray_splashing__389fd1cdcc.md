@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [charged-sprays, droplet-splashing, agricultural-flows]
@@ -49,3 +51,9 @@ provider_data:
 - **Why it matters:** Reduced splashing could matter for spray retention, but this is a continuum interfacial-flow topic.
 - **Caveat:** Title only; no mechanism validation or application benefit is captured, and the connection to atomistic modeling is weak.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.elstat.2026.104406); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.elstat.2026.104406) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

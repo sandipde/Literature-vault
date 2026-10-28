@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [composition-generation, in-context-learning, inverse-design, elpasolites]
 title: General-purpose LLMs as constrained crystal composition generators
 type: web
 source: https://www.nature.com/articles/s41524-026-02339-9?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20261009&utm_content=10.1038/s41524-026-02339-9
@@ -99,3 +103,9 @@ The targeted discovery of inorganic materials remains challenging due to the vas
 - **Topics:** ["Machine Learning in Materials Science", "Computational Drug Discovery Methods", "Crystal Structures and Properties"]
 - **Open Access:** {"is_oa": true, "oa_status": "gold", "oa_url": "https://www.nature.com/articles/s41524-026-02339-9.pdf", "any_repository_has_fulltext": true}
 - **Cited By Count:** 0
+
+## AI enrichment
+- **Concise summary:** An iterative prompt-and-response framework uses general-purpose LLMs to propose crystal compositions, reporting recovery of an average 96% of low-energy elpasolites in a target region.
+- **Why it matters:** The study tests whether in-context learning can cover a constrained composition space without task-specific model training; it is composition generation, not atomic force-field learning.
+- **Caveat:** The captured performance concerns an elpasolite benchmark and does not establish transfer to amorphous structures or unrestricted inorganic design.
+- **Evidence:** [Captured source](https://www.nature.com/articles/s41524-026-02339-9?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20261009&utm_content=10.1038/s41524-026-02339-9); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [adaptable-networks, epoxy-thermosets, polymer-reprocessing]
 title: CAN it work? Using hydroxyethyl acrylate or methacrylate to turn epoxy-amine
   thermosets into covalent adaptable network materials.
 type: chemrxiv
@@ -64,3 +68,9 @@ Epoxy-amine thermosets can be converted into covalent adaptable networks (CANs) 
 - **Doi:** 10.26434/chemrxiv.15010229/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** The study tests commodity HEA and HEMA additives for converting epoxy-amine thermosets into reprocessable covalent adaptable networks. It reports catalyst-dependent incorporation, predominantly via condensation releasing ethylene glycol, and a tradeoff between reprocessability and glass-transition temperature.
+- **Why it matters:** Practical formulations must balance processability with network stiffness and aging, rather than optimize relaxation behavior alone.
+- **Caveat:** ChemRxiv v1 findings are unverified and formulation-specific; thermal aging changed moduli and glass transitions, complicating repeated-processing comparisons.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010229/v1); analysis based only on captured metadata, not independently verified full text.

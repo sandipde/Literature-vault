@@ -48,6 +48,10 @@ abstract: 'The decisive challenge in nitrate-to-ammonia electrosynthesis is not 
   metal-dependent multielectron catalysis.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [covalent-organic-frameworks, nitrate-reduction, metal-selectivity]
 provider_data:
   doi: 10.26434/chemrxiv.15010463/v1
   journal: ''
@@ -72,3 +76,10 @@ The decisive challenge in nitrate-to-ammonia electrosynthesis is not simply supp
 - **Doi:** 10.26434/chemrxiv.15010463/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** TU-420 combines tetrathiafulvalene donors and bipyridine metal-binding units to compare Fe- and Cu-directed nitrate reduction. The abstract links stronger ammonia selectivity for Fe to the energetics of partially reduced nitrogen intermediates rather than cathodic current alone.
+- **Why it matters:** Separating framework electron donation from metal-site reaction selectivity offers a more discriminating catalyst-design principle than maximizing electron consumption.
+- **Caveat:** Faradaic efficiencies and mechanistic assignments are preprint claims under specified conditions; durability and broader applicability are not established here.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010463/v1); analysis based only on captured metadata, not independently verified full text.

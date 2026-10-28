@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [crystal-generation, diffusion-models, oxidation-states, charge-neutrality]
 title: 'OxiGen: Oxidation-State-Aware Crystal Generation'
 type: arxiv
 source: https://arxiv.org/abs/2610.08296
@@ -57,3 +61,9 @@ Generative models have the potential to accelerate inorganic materials discovery
 - **Categories:** ["cs.LG", "cond-mat.mtrl-sci"]
 - **Primary Category:** cs.LG
 - **Updated:** 2026-10-06T13:01:35Z
+
+## AI enrichment
+- **Concise summary:** OxiGen represents oxidation states explicitly in a crystal diffusion model and uses finite-state-automaton inference to enforce global charge neutrality.
+- **Why it matters:** Moving beyond merely valid charge assignments toward experimentally observed oxidation-state distributions offers a chemically informed constraint for generative crystal design, not a force-field model.
+- **Caveat:** The arXiv abstract reports superior stability, uniqueness, and novelty rates without captured benchmark details or independent verification.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.08296); analysis based only on captured metadata, not independently verified full text.

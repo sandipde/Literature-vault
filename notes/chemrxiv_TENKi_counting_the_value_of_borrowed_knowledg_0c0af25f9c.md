@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [knowledge-transfer, active-learning, ranking-priors, compute-budgets]
 title: 'TENKi: counting the value of borrowed knowledge to a materials campaign in
   measurements saved'
 type: chemrxiv
@@ -64,3 +68,9 @@ Materials campaigns draw on data of very different cost: a band gap costs almost
 - **Doi:** 10.26434/chemrxiv.15010673/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** TENKi measures how donor rankings reduce the queries needed to reach a target ranking quality, learning trust in the donor as results arrive. Band-gap and Al-Mg-Si studies compare query policies and report route-dependent savings.
+- **Why it matters:** Expressing transfer value as evaluations saved makes it actionable for choosing between cheap models and costly calculations.
+- **Caveat:** The preprint's savings are unverified and depend on transfer direction and chemical coverage; the abstract itself reports no saving for an alloy-missing archived ordering at fixed trust.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010673/v1); analysis based only on captured metadata, not independently verified full text.

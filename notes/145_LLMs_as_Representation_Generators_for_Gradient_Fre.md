@@ -37,6 +37,10 @@ abstract: 'ABSTRACT Scientific optimization problems are often characterized by 
   are costly, and gradients are unavailable.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [gradient-free-optimization, control-policies, battery-charging]
 provider_data:
   doi: 10.1002/advs.78012
   journal: Advanced Science
@@ -87,3 +91,10 @@ ABSTRACT Scientific optimization problems are often characterized by slow, expen
 - **Publisher:** Wiley
 - **Type:** journal-article
 - **License:** [{"start": {"date-parts": [[2026, 10, 11]], "date-time": "2026-10-11T00:00:00Z", "timestamp": 1791676800000}, "content-version": "vor", "delay-in-days": 0, "URL": "http://creativecommons.org/licenses/by/4.0/"}, {"start": {"date-parts": [[2026, 10, 11]], "date-time": "2026-10-11T00:00:00Z", "timestamp": 1791676800000}, "content-version": "tdm", "delay-in-days": 0, "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"}]
+
+## AI enrichment
+
+- **Concise summary:** P2O uses LLM-generated policy structures with gradient-free parameter search, while P2P directly generates complete charging policies. The abstract reports roughly 4.2% better battery state of health over a selected baseline.
+- **Why it matters:** The central intervention is expanding the policy representation, offering an alternative to optimizing parameters inside a fixed functional family.
+- **Caveat:** Battery-health gains depend on the stated scenarios and evaluation budgets; experimental deployment and broader superiority are not established by this capture.
+- **Evidence:** [Captured source](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.78012); analysis based only on captured metadata, not independently verified full text.

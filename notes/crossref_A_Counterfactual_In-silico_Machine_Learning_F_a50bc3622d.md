@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [counterfactual-learning, liver-cancer, scan-noise]
@@ -58,3 +60,9 @@ provider_data:
 - **Why it matters:** Comparing hypothetical interventions is an important methodological problem, but this clinical topic has no evident MLIP connection.
 - **Caveat:** Title only; no abstract establishes causal assumptions, clinical validation or treatment benefit. This is likely off-topic scan noise, not treatment guidance.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.hpb.2026.08.147); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.hpb.2026.08.147) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

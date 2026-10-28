@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [air-pollution, counterfactual-learning, scan-noise]
@@ -50,3 +52,9 @@ provider_data:
 - **Why it matters:** Hypothetical timing changes could inform environmental analysis if weather and confounding factors are handled adequately.
 - **Caveat:** Title only; no abstract supports a causal reduction claim or identifies controls. Likely off-topic for MLIPs; the separate conference-proceedings record is its containing volume, not another experimental result.
 - **Evidence:** [Captured source](https://doi.org/10.1145/3841358.3841363); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1145%2F3841358.3841363) returned bibliographic metadata without an abstract; [publisher via DOI](https://doi.org/10.1145/3841358.3841363) returned HTTP 403.
+
+Limitations: no abstract recovered; publisher access blocked. Title confirmation is not evidence of methods or results. Original captured metadata retained.

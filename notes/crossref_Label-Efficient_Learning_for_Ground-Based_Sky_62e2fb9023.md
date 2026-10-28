@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [label-efficiency, active-learning, pseudo-labeling, image-classification]
 title: 'Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark
   of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD'
 type: paper
@@ -65,3 +69,9 @@ Abstract Accurate ground-based cloud classification is important for atmospheric
 - **Doi:** 10.21203/rs.3.rs-11133214/v1
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A frozen pretrained ResNet50 benchmarks supervised sampling, uncertainty-based active learning, and pseudo-labeling on ground-based cloud images over five seeds and multiple label budgets. Transfer learning is strong, with only modest or inconsistent additional gains from the other strategies.
+- **Why it matters:** A strong pretrained baseline can explain much of apparent label efficiency, so acquisition complexity needs a demonstrated marginal benefit.
+- **Caveat:** The preprint's findings are unverified and tied to GCD and a frozen backbone; reliable pseudo-labels are biased toward easy groups and need not improve difficult-class coverage.
+- **Evidence:** [Captured source](https://doi.org/10.21203/rs.3.rs-11133214/v1); analysis based only on captured metadata, not independently verified full text.

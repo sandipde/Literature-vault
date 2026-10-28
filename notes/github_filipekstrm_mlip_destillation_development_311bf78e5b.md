@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [model-distillation, structure-relaxation, efficient-potentials]
 title: filipekstrm/mlip_destillation_development
 type: github
 source: https://github.com/filipekstrm/mlip_destillation_development
@@ -44,3 +48,9 @@ Distillation of machine learning interatomic potentials for relaxation of materi
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-12T17:05:47Z
+
+## AI enrichment
+- **Concise summary:** The repository description concerns distilling machine-learning interatomic potentials for materials relaxation.
+- **Why it matters:** Relaxation-focused distillation could prioritize a practical structural task rather than preserve every aspect of a larger model.
+- **Caveat:** Limited metadata does not specify teacher/student models, training objectives, speedups, or relaxation accuracy; the development-oriented name is not evidence of a finished validated tool.
+- **Evidence:** [Captured source](https://github.com/filipekstrm/mlip_destillation_development); analysis based only on captured metadata, not independently verified full text.

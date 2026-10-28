@@ -30,6 +30,10 @@ abstract: We introduce Grand Canonical Generators (GCG), a generative framework 
   Monte Carlo.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [boltzmann-generators, grand-canonical-ensemble, adsorption]
 provider_data:
   arxiv_id: '2610.00683'
   categories:
@@ -57,3 +61,10 @@ We introduce Grand Canonical Generators (GCG), a generative framework that exten
 - **Categories:** ["cs.LG", "stat.ML"]
 - **Primary Category:** cs.LG
 - **Updated:** 2026-10-06T14:08:53Z
+
+## AI enrichment
+
+- **Concise summary:** Grand Canonical Generators sample particle counts and configurations either jointly or through a factorized particle-number and canonical-density model. The abstract reports tests on a Lennard-Jones fluid and methane adsorption in a zeolite with importance-sampling correction.
+- **Why it matters:** Variable particle number directly addresses adsorption ensembles that fixed-size configuration generators cannot represent without additional machinery.
+- **Caveat:** This preprint's examples do not establish amorphous-solid generation, and reported ensemble accuracy has not been independently checked.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.00683); analysis based only on captured metadata, not independently verified full text.

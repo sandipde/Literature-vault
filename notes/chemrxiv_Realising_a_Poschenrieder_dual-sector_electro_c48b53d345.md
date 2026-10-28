@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [charge-detection, mass-spectrometry, electrostatic-analyser, biomolecular-assemblies]
 title: Realising a Poschenrieder dual-sector electrostatic analyser for charge-detection
   mass spectrometry
 type: chemrxiv
@@ -70,3 +74,9 @@ Megadalton biomolecular assemblies, including viral vectors, synthetic nanoparti
 - **Doi:** 10.26434/chemrxiv.15005731/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A dual-sector electrostatic analyser is presented for single-ion charge-detection mass spectrometry, with protein standards and empty versus genome-containing viral capsids as demonstrations.
+- **Why it matters:** Continuous closed trajectories offer an instrumental route to measuring heterogeneous megadalton assemblies beyond conventional ensemble mass analysis.
+- **Caveat:** The v2 preprint identifies charge-detection noise as the prototype's main limitation; improved resolution through miniaturisation remains prospective.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15005731/v2); analysis based only on captured metadata, not independently verified full text.

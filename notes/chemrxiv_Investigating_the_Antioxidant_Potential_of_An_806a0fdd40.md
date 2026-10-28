@@ -30,6 +30,10 @@ abstract: Annona muricata is traditionally used in the treatment of various infe
   based scaffolds can act as potent XO inhibitors.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [antioxidant-assays, molecular-docking, phytochemicals]
 provider_data:
   doi: 10.26434/chemrxiv.15010470/v1
   journal: ''
@@ -54,3 +58,10 @@ Annona muricata is traditionally used in the treatment of various infectious and
 - **Doi:** 10.26434/chemrxiv.15010470/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract combines DPPH scavenging assays of Annona muricata leaf extracts with docking of selected phytochemicals and campesterol-like compounds to xanthine oxidase.
+- **Why it matters:** It is useful to separate extract-level antioxidant measurements from target-specific computational hypotheses when assessing this screening workflow.
+- **Caveat:** Docking scores and extract assays do not establish clinical benefit or direct xanthine-oxidase inhibition by the proposed scaffolds; this is preprint evidence.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010470/v1); analysis based only on captured metadata, not independently verified full text.

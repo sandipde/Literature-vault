@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [electronic-structure, orbital-learning, band-energies, delta-learning]
 title: Beyond DFT electronic band structures via dual-space orbital learning
 type: arxiv
 source: https://arxiv.org/abs/2610.19919
@@ -61,3 +65,9 @@ Accurate electronic band structures are essential for predicting material proper
 ## Provider details
 - **Arxiv Id:** 2610.19919
 - **Categories:** ["cs.LG", "cond-mat.mtrl-sci"]
+
+## AI enrichment
+- **Concise summary:** O-kRystal learns momentum- and spin-resolved corrections to PBE band energies from real- and reciprocal-space orbital information, targeting HSE06 and demonstrating a separate GW application.
+- **Why it matters:** Retaining orbital information may support higher-fidelity band predictions beyond scalar energy corrections; this is electronic-structure learning, not an interatomic force field.
+- **Caveat:** The arXiv abstract's 0.171 ± 0.009 eV error is restricted to states within 5 eV of the band-edge midpoint, and its correlated-material benchmark contains only six systems.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.19919); analysis based only on captured metadata, not independently verified full text.

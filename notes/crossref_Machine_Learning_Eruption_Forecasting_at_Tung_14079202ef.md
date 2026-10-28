@@ -17,6 +17,12 @@ published: '2026'
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: Other and possible scan noise
+enrichment_tags: [eruption-forecasting, seismic-features, random-forests]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.3997/2214-4609.202673017
   journal: 'EAGE Exploration Workshop: Unlocking New Zealand’s Upstream Potential'
@@ -39,3 +45,17 @@ provider_data:
 - **Journal:** EAGE Exploration Workshop: Unlocking New Zealand’s Upstream Potential
 - **Publisher:** European Association of Geoscientists & Engineers
 - **Type:** proceedings-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Retrieved sources:** https://doi.org/10.3997/2214-4609.202673017 ; https://www.earthdoc.org/content/papers/10.3997/2214-4609.202673017
+- **Outcome:** The conference abstract describes ten-minute seismic streams, overlapping two-day feature windows, and a 200-classifier random-forest ensemble trained with leave-one-out validation on 28 explosive eruptions at Tungurahua. Effusive-event alerts are used to explore eruption-style discrimination.
+- **Limitations:** Results are explicitly preliminary; no numerical AUC or independent validation was recovered.
+
+## AI enrichment
+
+- **Concise summary:** The recovered abstract transfers a seismic-precursor framework from Whakaari to Tungurahua, using random forests to study explosive and effusive eruption signals.
+- **Why it matters:** Interpreting apparent false positives against a second event class can reveal whether a predictor detects a broader physical process than its labels imply.
+- **Caveat:** This is off-topic geophysical forecasting, and preliminary overlapping-window results do not establish deployment reliability.
+- **Evidence:** [Captured source](https://doi.org/10.3997/2214-4609.202673017); [recovered conference abstract](https://www.earthdoc.org/content/papers/10.3997/2214-4609.202673017), retrieved 2026-10-28; no independent full-text verification.

@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: ML interatomic potentials
 enrichment_tags: [reactive-potentials, enzyme-clusters, potential-training]
 title: 'Enerzyme: An Efficient Reactive Neural Network Potential Training Framework
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** Enerzyme is presented in the title as a reactive neural-potential training framework for enzyme clusters, with a methyltransferase application.
+- **Concise summary:** Parent article only: Enerzyme is an integrated framework for training neural-network potentials for enzyme-reaction mechanistic studies with quantum-mechanical cluster models, addressing large systems and environmental polarization.
 - **Why it matters:** Enzyme-cluster potentials could help extend learned force models toward chemically reactive biological environments.
-- **Caveat:** Title only; this is a .s001 component record, not a captured main-paper abstract, and the claimed efficiency cannot be evaluated.
-- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jctc.6c01330.s001); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** No .s001 component abstract recovered; parent details do not establish supporting-file contents or independently validate efficiency. Supporting files/full paper were not assessed.
+- **Evidence:** [Parent abstract](https://api.crossref.org/works/10.1021/acs.jctc.6c01330).
+
+## Source recovery
+
+Checked 2026-10-28. [Component Crossref](https://api.crossref.org/works/10.1021%2Facs.jctc.6c01330.s001) returned metadata without an abstract; [component publisher](https://doi.org/10.1021/acs.jctc.6c01330.s001) returned HTTP 403; [parent Crossref](https://api.crossref.org/works/10.1021/acs.jctc.6c01330) returned the parent abstract.
+
+Recovered parent details: neural potentials trained on QM enzyme-cluster models address computational cost, system size and environmental polarization.
+
+Limitations: no component abstract recovered; parent details are not component evidence. Supporting files/full paper were not assessed. Original captured metadata retained.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [evolutionary-monte-carlo, catalyst-segregation, reactive-environments]
 title: Machine learning-accelerated evolutionary Monte Carlo for rapid phase exploration
   of compositionally complex materials in reactive environments
 type: paper
@@ -58,3 +62,9 @@ Compositionally complex materials, e.g. high-entropy alloys/oxides, have long be
 - **Doi:** 10.26434/chemrxiv-2025-l9gnz/v4
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** An evolutionary Monte Carlo method is paired with fine-tuned machine-learning potentials to explore bulk mixing and surface segregation in compositionally complex catalysts under reactive conditions.
+- **Why it matters:** Coupling phase exploration to the reaction environment addresses a more realistic catalyst-design question than screening isolated bulk compositions.
+- **Caveat:** This is a versioned ChemRxiv preprint; the captured abstract does not quantify computational savings or establish generality across arbitrary catalysts.
+- **Evidence:** [Captured source](https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-l9gnz/v4); analysis based only on captured metadata, not independently verified full text.

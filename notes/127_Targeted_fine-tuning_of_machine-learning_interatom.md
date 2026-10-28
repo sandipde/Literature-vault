@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [fine-tuning, phonons, phase-transitions, regularization]
 title: Targeted fine-tuning of machine-learning interatomic potentials for phonons
   and phase transitions
 type: web
@@ -100,3 +104,9 @@ Machine-learning interatomic potentials are widely used as computationally effic
 - **Topics:** ["Machine Learning in Materials Science", "Advanced Chemical Physics Studies", "Model Reduction and Neural Networks"]
 - **Open Access:** {"is_oa": true, "oa_status": "gold", "oa_url": "https://www.nature.com/articles/s41524-026-02338-w_reference.pdf", "any_repository_has_fulltext": false}
 - **Cited By Count:** 0
+
+## AI enrichment
+- **Concise summary:** The study compares MLIP adaptation strategies for phonons and related thermal and elastic properties across 53 materials. Its L2-TSP strategy combines regularization toward a pretrained model with selective early-layer fine-tuning, reporting improvements with as few as ten material-specific structures.
+- **Why it matters:** The distinction between matching harmonic phonons and recovering unstable modes makes phase-transition behavior a useful stress test beyond a single phonon-error metric.
+- **Caveat:** Reported advantages are unverified abstract-level results for the MACE architecture and selected materials; model-agnostic software does not establish architecture-independent performance.
+- **Evidence:** [Captured source](https://www.nature.com/articles/s41524-026-02338-w); analysis based only on captured metadata, not independently verified full text.

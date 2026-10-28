@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [multireference-theory, natural-orbitals, correlation-energy, orbital-truncation]
 title: 'The Regularized Frozen Natural Orbital approach to CASPT2: extension to Restricted
   Active Space wave functions, different multiplicities and assessment of correlation
   effects'
@@ -65,3 +69,9 @@ The frozen natural orbital (FNO) method is a well-known approximation that signi
 - **Doi:** 10.26434/chemrxiv.15007726/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Regularized frozen natural orbitals extend perturbation-theory cost reduction to restricted-active-space wavefunctions and different charge and spin states. A level shift stabilizes orbital deletion, with vertical-excitation tests reporting retained correlation energy and reduced runtime.
+- **Why it matters:** Controlled virtual-space reduction can make larger multireference calculations practical without replacing the underlying electronic-structure method with a learned surrogate.
+- **Caveat:** ChemRxiv v2 results are unverified; external correlation contributions show larger deviations, and analytic gradients and nonadiabatic couplings are described as future work.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15007726/v2); analysis based only on captured metadata, not independently verified full text.

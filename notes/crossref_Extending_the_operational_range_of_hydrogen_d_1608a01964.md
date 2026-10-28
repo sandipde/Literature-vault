@@ -19,6 +19,12 @@ published: '2026-10-18'
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [combustion-kinetics, hydrogen-diesel, injection-optimization]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1007/s43621-026-04973-1
   journal: Discover Sustainability
@@ -41,3 +47,18 @@ provider_data:
 - **Journal:** Discover Sustainability
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Attempted source:** https://doi.org/10.1007/s43621-026-04973-1 returned HTTP 406 at the publisher.
+- **Retrieved source:** https://api.openalex.org/works/https://doi.org/10.1007/s43621-026-04973-1?select=doi,title,abstract_inverted_index
+- **Outcome:** The exact-DOI indexed abstract describes a detailed chemical-kinetics combustion model, attributing high-hydrogen misfire to cool-flame suppression through OH consumption. Raising charge temperature to 340 K or using twin-pulse injection is reported to restore stable operation.
+- **Limitations:** Indexed abstract only; engine validation and emissions measurements were not independently inspected.
+
+## AI enrichment
+
+- **Concise summary:** The recovered abstract links hydrogen-diesel RCCI operating limits to chemical kinetics and tests temperature and injection changes as remedies for modeled misfire.
+- **Why it matters:** Mechanistic radical chemistry can make control optimization more interpretable than adjusting injection schedules by response trends alone.
+- **Caveat:** Reported operating and emissions benefits are source claims for selected conditions, not verified general engine-design rules.
+- **Evidence:** [Captured source](https://doi.org/10.1007/s43621-026-04973-1); [recovered OpenAlex abstract](https://api.openalex.org/works/https://doi.org/10.1007/s43621-026-04973-1?select=doi,title,abstract_inverted_index), retrieved 2026-10-28; no independent full-text verification.

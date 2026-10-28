@@ -42,6 +42,10 @@ abstract: 'Multi-scale simulations of semiconductor alloys rest on foundation in
   a lookup.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [workflow-provenance, model-releases, semiconductor-alloys]
 provider_data:
   doi: 10.26434/chemrxiv.15010670/v1
   journal: ''
@@ -66,3 +70,10 @@ Multi-scale simulations of semiconductor alloys rest on foundation interatomic p
 - **Doi:** 10.26434/chemrxiv.15010670/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A SiGeC campaign uses provenance and decision margins to select recomputations when replacing MACE-MP-0 with MACE-MPA-0. The abstract reports a small threshold reversal despite larger energetic shifts and a substantial GPU recomputation cost.
+- **Why it matters:** Tracking which decisions depend on changed predictions can make model upgrades auditable without assuming either that every conclusion changes or that none do.
+- **Caveat:** The preprint's small number of settled decisions and nonzero miss-rate bound limit generalization; stable verdicts do not imply stable magnitudes.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010670/v1); analysis based only on captured metadata, not independently verified full text.

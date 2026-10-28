@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Atomistic chemistry and materials
 enrichment_tags: [protein-thermostability, equivariant-networks, contrastive-learning]
 title: Predicting Protein Thermostability with Equivariant Graph Neural Networks and
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title combines equivariant graph networks and contrastive learning for protein thermostability prediction.
+- **Concise summary:** Parent article only: ECL-Net predicts thermostability changes from single mutations by integrating sequence/evolutionary information and structural microenvironments.
 - **Why it matters:** Geometric symmetry and representation learning may be complementary for structure-based protein-property models.
-- **Caveat:** Title only from a .s001 component; datasets, baselines and experimental validation are not captured.
-- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jcim.6c01926.s001); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** No .s001 component abstract recovered; parent details do not establish supporting-file contents or independently validate performance. Supporting files/full paper were not assessed.
+- **Evidence:** [Parent abstract](https://api.crossref.org/works/10.1021/acs.jcim.6c01926).
+
+## Source recovery
+
+Checked 2026-10-28. [Component Crossref](https://api.crossref.org/works/10.1021%2Facs.jcim.6c01926.s001) returned metadata without an abstract; [component publisher](https://doi.org/10.1021/acs.jcim.6c01926.s001) returned HTTP 403; [parent Crossref](https://api.crossref.org/works/10.1021/acs.jcim.6c01926) returned the parent abstract.
+
+Recovered parent details: ECL-Net integrates evolutionary and structural information for mutation-dependent thermostability prediction.
+
+Limitations: no component abstract recovered; parent details are not component evidence. Original captured metadata retained.

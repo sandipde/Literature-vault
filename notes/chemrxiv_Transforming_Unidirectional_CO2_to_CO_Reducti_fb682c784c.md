@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [bidirectional-electrocatalysis, cobalt-complexes, redox-ligands, carbon-dioxide]
 title: Transforming Unidirectional CO2 to CO Reduction Catalysis into a Bidirectional
   One via Rational Ligand Engineering
 type: chemrxiv
@@ -73,3 +77,9 @@ Developing molecular catalysts capable of bidirectional CO2/CO conversion is cru
 - **Doi:** 10.26434/chemrxiv.15010363/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A cobalt complex with redox-non-innocent PAP ligands is reported to catalyze both CO2 reduction and CO oxidation through cooperative metal–ligand electron redistribution.
+- **Why it matters:** Ligand-centered charge storage provides a design strategy for accessing bidirectional chemistry without relying only on costly changes in metal oxidation state.
+- **Caveat:** The v1 preprint's 0.27 V overpotential, approximately 30 s−1 turnover, and 85% Faradaic efficiency are unverified reported values, not evidence of a complete carbon-neutral process.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010363/v1); analysis based only on captured metadata, not independently verified full text.

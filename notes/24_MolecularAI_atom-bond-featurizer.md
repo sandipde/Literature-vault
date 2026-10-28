@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [molecular-descriptors, atom-features, bond-features, cheminformatics]
 title: MolecularAI/atom-bond-featurizer
 type: github
 source: https://github.com/MolecularAI/atom-bond-featurizer
@@ -55,3 +59,9 @@ A Python package for the calculation of features and descriptors for atoms and b
 - **Created At:** 2026-03-18T07:36:13Z
 - **Pushed At:** 2026-06-29T15:59:07Z
 - **Default Branch:** main
+
+## AI enrichment
+- **Concise summary:** Atom-bond-featurizer is a Python package for computing atom and bond descriptors in molecules.
+- **Why it matters:** A dedicated featurization layer can provide reusable inputs to molecular-learning pipelines without being a predictive model itself.
+- **Caveat:** The captured description does not enumerate descriptors, supported chemical representations, or validation coverage.
+- **Evidence:** [Captured source](https://github.com/MolecularAI/atom-bond-featurizer); analysis based only on captured metadata, not independently verified full text.

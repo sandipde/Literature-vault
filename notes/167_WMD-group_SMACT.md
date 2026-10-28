@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [materials-design, materials-informatics, python-tools]
 title: WMD-group/SMACT
 type: github
 source: https://github.com/WMD-group/SMACT
@@ -55,3 +59,9 @@ Python package to aid materials design and informatics
 - **Created At:** 2013-11-04T17:12:56Z
 - **Pushed At:** 2026-10-19T17:46:34Z
 - **Default Branch:** master
+
+## AI enrichment
+- **Concise summary:** SMACT is described as a Python package supporting materials design and informatics.
+- **Why it matters:** It is a candidate component for a materials-screening workflow rather than a paper proposing a single predictive model.
+- **Caveat:** Limited repository metadata does not specify supported chemical constraints, algorithms, or validation; no force-field or generative capability is established by this description.
+- **Evidence:** [Captured source](https://github.com/WMD-group/SMACT); analysis based only on captured metadata, not independently verified full text.

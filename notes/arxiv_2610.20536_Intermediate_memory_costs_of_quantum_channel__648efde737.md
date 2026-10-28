@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [quantum-channels, memory-complexity, noncommutative-graphs]
 title: Intermediate memory costs of quantum channel synthesis with a protected subsystem
 type: arxiv
 source: https://arxiv.org/abs/2610.20536
@@ -54,3 +58,9 @@ A quantum memory can preserve a subsystem perfectly while discarding information
 ## Provider details
 - **Arxiv Id:** 2610.20536
 - **Categories:** ["quant-ph"]
+
+## AI enrichment
+- **Concise summary:** The paper characterizes intermediate memory requirements for synthesizing quantum channels while preserving a subsystem, relating exact feasibility to noncommutative graph containment. It also distinguishes exact synthesis from approximation and compares quantum and classical programming in a trine-task family.
+- **Why it matters:** Preserving information locally can still leave insufficient memory for a later operation, so subsystem fidelity alone is not a complete resource criterion.
+- **Caveat:** These are unverified preprint results under specific graph and resource assumptions, including the absence of free shared randomness in the stated classical comparison.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.20536); analysis based only on captured metadata, not independently verified full text.

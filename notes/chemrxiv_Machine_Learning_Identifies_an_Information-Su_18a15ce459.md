@@ -36,6 +36,10 @@ abstract: The recovery of critical minerals from spent lithium-ion batteries is 
   more transferable datadriven frameworks for battery resource recovery.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [critical-minerals, battery-recycling, descriptor-selection]
 provider_data:
   doi: 10.26434/chemrxiv.15010566/v1
   journal: ''
@@ -60,3 +64,10 @@ The recovery of critical minerals from spent lithium-ion batteries is governed b
 - **Doi:** 10.26434/chemrxiv.15010566/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** An interpretable model of 814 literature observations finds five descriptors retaining 98.3% of the full model's predictive performance for deep-eutectic-solvent mineral recovery. Temperature and target-metal identity are reported as least replaceable.
+- **Why it matters:** A compact information core could guide consistent experimental reporting and prioritize measurements across heterogeneous recycling studies.
+- **Caveat:** Information sufficiency is relative to this curated dataset and validation design, not proof that omitted chemistry is universally irrelevant.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010566/v1); analysis based only on captured metadata, not independently verified full text.

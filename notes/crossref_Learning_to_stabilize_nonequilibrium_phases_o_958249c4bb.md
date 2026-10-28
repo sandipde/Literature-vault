@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [reinforcement-learning, quantum-control, entanglement, nonequilibrium-phases]
 title: Learning to stabilize nonequilibrium phases of matter with active feedback
   using partial information
 type: paper
@@ -56,3 +60,9 @@ Abstract Recent advances in quantum computing experiments have enabled new pathw
 - **Journal:** Machine Learning: Science and Technology
 - **Publisher:** IOP Publishing
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** Reinforcement-learning agents use partial information and active feedback to suppress entanglement spreading in stabilizer circuits of up to 128 qubits.
+- **Why it matters:** The reported information threshold and bottleneck strategies connect control policy design to nonequilibrium many-body behavior rather than passive state prediction.
+- **Caveat:** Results concern a specified circuit setting and simulated control strategies; the abstract does not establish hardware implementation or general control of arbitrary quantum matter.
+- **Evidence:** [Captured source](https://doi.org/10.1088/2632-2153/aeb5a1); analysis based only on captured metadata, not independently verified full text.

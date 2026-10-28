@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [molecular-optimization, reinforcement-learning, multi-turn-feedback]
 title: 'MFG: Multi-turn Feedback Guided Molecular Optimization'
 type: arxiv
 source: https://arxiv.org/abs/2610.18851
@@ -58,3 +62,9 @@ Multi-objective molecular optimization is a critical process in drug discovery t
 ## Provider details
 - **Arxiv Id:** 2610.18851
 - **Categories:** ["cs.AI", "cs.LG", "q-bio.QM"]
+
+## AI enrichment
+- **Concise summary:** MFG trains a molecular-optimization LLM with multi-turn reinforcement learning, using property-improvement and similarity feedback to guide successive modifications.
+- **Why it matters:** Explicitly training the use of feedback targets an important gap between single-shot molecule proposals and iterative design under competing objectives.
+- **Caveat:** The preprint reports 81.50% versus 70.81% average similarity-constrained success over ten tasks; these computational metrics do not establish experimental drug performance.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.18851); analysis based only on captured metadata, not independently verified full text.

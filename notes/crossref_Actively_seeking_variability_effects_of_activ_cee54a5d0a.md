@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [word-learning, talker-variability, scan-noise]
@@ -50,3 +52,9 @@ provider_data:
 - **Why it matters:** It illustrates how a shared phrase can retrieve human-learning research outside the intended computational domain.
 - **Caveat:** Title only; no abstract or results are captured, and this appears off-topic for ML interatomic potentials.
 - **Evidence:** [Captured source](https://doi.org/10.1080/15475441.2026.2745142); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1080%2F15475441.2026.2745142) returned bibliographic metadata without an abstract; [publisher via DOI](https://doi.org/10.1080/15475441.2026.2745142) returned HTTP 403.
+
+Limitations: no abstract recovered; publisher access blocked. Title confirmation is not evidence of methods or results. Original captured metadata retained.

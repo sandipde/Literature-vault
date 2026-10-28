@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [quantum-error-correction, conditional-mutual-information, local-noise, phase-stability]
 title: Stability of Quantum LDPC States under Local Pauli Noise
 type: arxiv
 source: https://arxiv.org/abs/2610.22357
@@ -60,3 +64,9 @@ Quantum low-density parity-check (qLDPC) codes have a canonical mixed state---th
 ## Provider details
 - **Arxiv Id:** 2610.22357
 - **Categories:** ["quant-ph"]
+
+## AI enrichment
+- **Concise summary:** The paper states exponential conditional-mutual-information decay bounds for qLDPC code-projector states under weak and strong local Pauli noise, with different geometric conditions.
+- **Why it matters:** Linking correlation decay to mixed-state stability connects quantum coding theory to many-body information diagnostics.
+- **Caveat:** The arXiv claims are theorem-level statements with assumptions: strong-noise buffers must support no logical operator, and recovery-channel conclusions require lattice geometry; proofs were not checked.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.22357); analysis based only on captured metadata, not independently verified full text.

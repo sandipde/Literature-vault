@@ -39,6 +39,10 @@ abstract: Recent advances in multimodal large language models (MLLMs) and 3D gen
   reliable verification feedback.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [three-dimensional-verification, multimodal-reasoning, counterfactual-data]
 provider_data:
   arxiv_id: '2610.22360'
   categories:
@@ -60,3 +64,10 @@ Recent advances in multimodal large language models (MLLMs) and 3D generation ha
 ## Provider details
 - **Arxiv Id:** 2610.22360
 - **Categories:** ["cs.CV"]
+
+## AI enrichment
+
+- **Concise summary:** 3DVerifierBench tests factual decisions and rejection explanations across ten 3D tasks, alongside a multi-view pipeline producing 14,126 training examples. The abstract explores candidate selection and human-guided refinement as uses of verification feedback.
+- **Why it matters:** Explicitly binding facts to 3D targets separates task compliance from visual plausibility, a useful design principle for generative systems.
+- **Caveat:** Oracle selection and human-guided results are upper-bound or assisted settings, not autonomous verifier performance; all figures remain preprint claims.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.22360); analysis based only on captured metadata, not independently verified full text.

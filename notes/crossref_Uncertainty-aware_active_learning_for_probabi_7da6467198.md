@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [high-entropy-alloys, corrosion-screening, uncertainty-aware-search, active-learning]
 title: Uncertainty-aware active learning for probability-guided screening of high-entropy
   alloys with high corrosion potential
 type: paper
@@ -64,3 +68,9 @@ High-entropy alloy screening is difficult because available corrosion datasets a
 - **Doi:** 10.2139/ssrn.7624632
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** An uncertainty-aware alloy-screening loop combines predicted corrosion potential, target probability, diversity, and extrapolation risk with experimental feedback. The abstract reports localized enrichment of promising compositions despite nonmonotonic regression accuracy.
+- **Why it matters:** Discovery success and global prediction metrics can diverge, so a campaign should be judged by measured candidates as well as held-out regression scores.
+- **Caveat:** The SSRN preprint reports few experimental rounds and unverified outcomes; a more positive corrosion potential alone does not establish universally superior corrosion resistance.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7624632); analysis based only on captured metadata, not independently verified full text.

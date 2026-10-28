@@ -41,6 +41,10 @@ abstract: Herein, we report the first catalytic heterodifunctionalization and ho
   heterodifunctionalization process.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [palladium-catalysis, diene-synthesis, stereoselectivity]
 provider_data:
   doi: 10.26434/chemrxiv.15010221/v1
   journal: ''
@@ -65,3 +69,10 @@ Herein, we report the first catalytic heterodifunctionalization and homodifuncti
 - **Doi:** 10.26434/chemrxiv.15010221/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract describes palladium-catalyzed remote difunctionalization of enyne-type propargylic derivatives to substituted 1,3-dienes. It reports nucleophile-dependent stereodivergence when switching oxygen to sulfur nucleophiles.
+- **Why it matters:** Modular nucleophile selection could make a single reaction platform useful for accessing differently functionalized and stereochemically distinct diene building blocks.
+- **Caveat:** Scope, selectivity, and proposed palladium intermediates are preprint-level claims, not independently checked reaction outcomes.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010221/v1); analysis based only on captured metadata, not independently verified full text.

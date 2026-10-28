@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [mxenes, lattice-thermal-conductivity, deep-learning-potentials]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: Lattice thermal conductivity of Ti3C2 MXene via deep-learning potential
 type: paper
 source: https://doi.org/10.1016/j.commatsci.2026.115161
@@ -37,3 +43,15 @@ provider_data:
 - **Journal:** Computational Materials Science
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+- **Checked on:** 2026-10-28
+- **Sources attempted:** https://api.openalex.org/works/https://doi.org/10.1016/j.commatsci.2026.115161 ; https://api.crossref.org/works/10.1016%2Fj.commatsci.2026.115161
+- **Outcome:** OpenAlex confirmed the title without an abstract; Crossref failed certificate validation.
+- **Limitations:** No potential architecture, surface termination, transport method, or conductivity results were recovered; the captured future issue date is preserved.
+
+## AI enrichment
+- **Concise summary:** The title concerns lattice thermal conductivity of Ti3C2 MXene calculated using a deep-learning potential.
+- **Why it matters:** Learned potentials could support transport sampling for two-dimensional materials, but the useful question is observable accuracy rather than model naming alone.
+- **Caveat:** Title-only metadata gives no conductivity value, convergence study, or scope of the modeled MXene surface chemistry.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.commatsci.2026.115161); analysis based only on captured metadata, not independently verified full text.

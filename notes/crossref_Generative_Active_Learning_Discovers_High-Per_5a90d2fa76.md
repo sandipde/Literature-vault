@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Atomistic chemistry and materials
 enrichment_tags: [active-learning, catalyst-discovery, hydrogen-peroxide]
 title: Generative Active Learning Discovers High-Performance O2 Reduction Catalysts
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title associates generative active learning with finding oxygen-reduction catalysts for hydrogen-peroxide production.
+- **Concise summary:** Parent article only: the catalyst-discovery abstract motivates generative models as an alternative to high-throughput screening and discusses practical limitations of heterogeneous-catalyst generation.
 - **Why it matters:** Coupling candidate generation with selective evaluation could be a useful catalyst-search pattern to investigate.
-- **Caveat:** Title only; the captured provider type is component and the DOI ends in .s006, indicating a likely supporting item rather than an independent paper. The performance claim and any relationship to a parent study require checking.
-- **Evidence:** [Captured source](https://doi.org/10.1021/acscatal.5c07832.s006); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** The .s006 record remains a supporting component, not an independent paper. No component abstract recovered; parent details do not validate component contents or performance. Supporting files/full paper were not assessed.
+- **Evidence:** [Parent abstract](https://api.crossref.org/works/10.1021/acscatal.5c07832).
+
+## Source recovery
+
+Checked 2026-10-28. [Component Crossref](https://api.crossref.org/works/10.1021%2Facscatal.5c07832.s006) returned metadata without an abstract; [component publisher](https://doi.org/10.1021/acscatal.5c07832.s006) returned HTTP 403; [parent Crossref](https://api.crossref.org/works/10.1021/acscatal.5c07832) returned the parent abstract.
+
+Recovered parent details: generative catalyst discovery is contrasted with screening, alongside limitations of practical catalyst generation.
+
+Limitations: no component abstract recovered; parent details are not component evidence. Supporting files/full paper were not assessed. Original captured metadata retained.

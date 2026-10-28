@@ -14,6 +14,10 @@ published: ''
 abstract: 'List of interesting reads '
 metadata_provider: GitHub
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [literature-curation, issue-links, repository-metadata]
 provider_data:
   description: 'List of interesting reads '
   language: Python
@@ -46,3 +50,10 @@ List of interesting reads
 - **Created At:** 2026-10-09T20:17:56Z
 - **Pushed At:** 2026-10-11T09:44:23Z
 - **Default Branch:** main
+
+## AI enrichment
+
+- **Concise summary:** This capture points to an issue-event anchor in Literature-vault, while its metadata describes the repository as a list of interesting reads.
+- **Why it matters:** Recognizing repository-level metadata on an issue link prevents treating a curation-system reference as a distinct scientific contribution.
+- **Caveat:** The short description does not identify the issue's subject or event content; it may be a self-referential capture rather than useful literature.
+- **Evidence:** [Captured source](https://github.com/sandipde/Literature-vault/issues/24#event-32978431738); analysis based only on captured metadata, not independently verified full text.

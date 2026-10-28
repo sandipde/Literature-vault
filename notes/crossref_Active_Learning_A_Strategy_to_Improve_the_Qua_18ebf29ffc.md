@@ -36,6 +36,10 @@ abstract: Active learning is often associated with increased student participati
   future empirical investigation.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [mathematics-education, classroom-engagement, terminology-collision]
 provider_data:
   doi: 10.66031/smarth.v2i2.715
   journal: 'SMARTH: Journal of Mathematics  Education and Learning'
@@ -61,3 +65,10 @@ Active learning is often associated with increased student participation, yet it
 - **Journal:** SMARTH: Journal of Mathematics  Education and Learning
 - **Publisher:** CV. Ihsan Cahaya Pustaka
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** This conceptual review connects purposeful mathematical activities, student engagement, and teacher facilitation to mathematics-learning quality.
+- **Why it matters:** Its active learning is a pedagogical orientation, not uncertainty-driven training-data acquisition, making the terminology an important scan-noise distinction.
+- **Caveat:** The proposed framework is conceptual rather than an empirical causal demonstration of classroom outcomes.
+- **Evidence:** [Captured source](https://doi.org/10.66031/smarth.v2i2.715); analysis based only on captured metadata, not independently verified full text.

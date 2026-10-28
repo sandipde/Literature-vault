@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [symbolic-regression, equation-discovery, evolutionary-algorithms]
 title: astroautomata/PySR
 type: github
 source: https://github.com/astroautomata/PySR
@@ -63,3 +67,9 @@ Symbolic Learning in Python and Julia
 - **Created At:** 2020-09-14T11:16:09Z
 - **Pushed At:** 2026-10-15T00:23:21Z
 - **Default Branch:** master
+
+## AI enrichment
+- **Concise summary:** PySR is a Python/Julia symbolic-learning project whose captured topics emphasize symbolic regression, equation discovery, and evolutionary algorithms.
+- **Why it matters:** Searching for explicit equations offers an interpretable complement to black-box models when analyzing scientific datasets.
+- **Caveat:** The short description and topic labels do not establish search operators, numerical robustness, or performance on any materials dataset.
+- **Evidence:** [Captured source](https://github.com/astroautomata/PySR); analysis based only on captured metadata, not independently verified full text.

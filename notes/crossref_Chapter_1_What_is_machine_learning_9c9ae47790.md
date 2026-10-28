@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [machine-learning-basics, regression, classification]
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
 title: 'Chapter 1: What is machine learning?'
 type: paper
 source: https://doi.org/10.1137/1.9781611979145.ch1
@@ -35,3 +41,15 @@ provider_data:
 - **Journal:** A First Course in Machine Learning
 - **Publisher:** Society for Industrial and Applied Mathematics
 - **Type:** book-chapter
+
+## Source recovery
+- **Retrieved on:** 2026-10-28
+- **Source:** https://api.openalex.org/works/https://doi.org/10.1137/1.9781611979145.ch1
+- **Outcome:** Exact-DOI lookup recovered an introductory passage framing learning as predicting an output from an input, contrasting continuous-valued house-price regression with discrete-label image classification.
+- **Limitations:** This indexed excerpt is not the full chapter. Its online date differs from the original captured publication date, which is preserved.
+
+## AI enrichment
+- **Concise summary:** This opening chapter introduces input–output learning through the distinction between regression and classification.
+- **Why it matters:** It is foundational teaching material for interpreting prediction tasks, not evidence for a new scientific ML method.
+- **Caveat:** Recovery supplies only an introductory excerpt and cannot establish the chapter's broader treatment or resolve edition/publication timing.
+- **Evidence:** [Captured source](https://doi.org/10.1137/1.9781611979145.ch1); [recovered excerpt](https://api.openalex.org/works/https://doi.org/10.1137/1.9781611979145.ch1), retrieved 2026-10-28. Analysis uses captured metadata and public indexed text, not independently verified full text.

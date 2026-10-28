@@ -25,6 +25,10 @@ abstract: Published experimental and Configurational-Bias Monte Carlo (CBMC) dat
   prevail at 200 K.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [mixture-adsorption, activity-coefficients, microporous-materials]
 provider_data:
   doi: 10.26434/chemrxiv.15010374/v1
   journal: ''
@@ -49,3 +53,10 @@ Published experimental and Configurational-Bias Monte Carlo (CBMC) data on mixtu
 - **Doi:** 10.26434/chemrxiv.15010374/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** A temperature-dependent NRTL model is adapted to mixture adsorption in MOFs and zeolites. The abstract describes three guest-host comparisons and stronger CO2/CH4 nonideality in IRMOF-1 at 200 K than at 300 K.
+- **Why it matters:** Treating adsorption nonideality as temperature-dependent can prevent extrapolating an apparently ideal high-temperature mixture into the wrong low-temperature regime.
+- **Caveat:** Agreement for three combinations is limited preprint evidence, not universal transferability of the fitted parameters.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010374/v1); analysis based only on captured metadata, not independently verified full text.

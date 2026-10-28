@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [protein-interfaces, contact-descriptors, validation-design]
 title: Contact organization separates biological from crystal protein interfaces matched
   on area and disjoint in sequence
 type: chemrxiv
@@ -56,3 +60,9 @@ Interface area can dominate discrimination between physiological protein interfa
 - **Doi:** 10.26434/chemrxiv.15010687/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Normalized contact descriptors distinguish biological protein interfaces from crystal contacts after matching interface area and separating sequence clusters. Hydrophobic contact density is the main post hoc contributor on an independently curated 80-interface panel.
+- **Why it matters:** Controlling obvious geometric and sequence confounders makes the remaining descriptor signal more interpretable than an unadjusted classification score.
+- **Caveat:** The preprint explicitly limits inference to EPPIC-derived labels; chain size remained unmatched, and the reported AUCs are not independently verified.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010687/v1); analysis based only on captured metadata, not independently verified full text.

@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Mathematics and algorithms
 enrichment_tags: [active-learning, peer-review, ecology]
@@ -46,3 +48,9 @@ provider_data:
 - **Why it matters:** The parent title points toward acquisition-criterion research, potentially of methodological interest beyond its ecological application.
 - **Caveat:** Title only; no review or parent-paper abstract was captured, so the criterion and review conclusions cannot be reconstructed. This is paired with same-title v2/review2 under the same DOI family, not a separate algorithm paper; MLIP relevance is unestablished.
 - **Evidence:** [Captured source](https://doi.org/10.1111/2041-210x.70412/v2/review1); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1111%2F2041-210x.70412%2Fv2%2Freview1) returned bibliographic metadata without an abstract; [review source](https://doi.org/10.1111/2041-210x.70412/v2/review1) exceeded the redirect limit.
+
+Limitations: no review text or abstract recovered; peer-review metadata is not a main-article abstract. Original captured metadata retained.

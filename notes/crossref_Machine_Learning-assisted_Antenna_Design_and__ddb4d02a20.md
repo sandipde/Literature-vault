@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [surrogate-optimization, active-learning, antenna-design, simulation-efficiency]
 title: 'Machine Learning-assisted Antenna Design and Optimization: A Comprehensive
   Review of Surrogate Modeling, Active Learning, and Intelligent Optimization'
 type: paper
@@ -65,3 +69,9 @@ The rapid development of wireless communication systems has created an increasin
 - **Journal:** Asian Journal of Current Research
 - **Publisher:** IK Press
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** This review surveys antenna optimization from metaheuristics to ML surrogates, hybrid search, and active selection of costly electromagnetic simulations.
+- **Why it matters:** Its data-efficiency framing has methodological parallels to computational materials screening even though the application is microstrip antenna design.
+- **Caveat:** The abstract presents a review and future needs, not a single validated optimizer or a quantified universal reduction in simulation cost.
+- **Evidence:** [Captured source](https://doi.org/10.56557/ajocr/2026/v11i411233); analysis based only on captured metadata, not independently verified full text.

@@ -15,6 +15,10 @@ abstract: Machine-learning interatomic potentials (HDNNP/n2p2) for Si/graphene i
   graphene and bulk Si.
 metadata_provider: GitHub
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [silicon-graphene, hdnnp, interface-potentials]
 provider_data:
   description: Machine-learning interatomic potentials (HDNNP/n2p2) for Si/graphene
     interfaces, graphene and bulk Si.
@@ -55,3 +59,10 @@ Machine-learning interatomic potentials (HDNNP/n2p2) for Si/graphene interfaces,
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-19T01:30:59Z
+
+## AI enrichment
+
+- **Concise summary:** The repository describes HDNNP/n2p2 interatomic potentials for silicon/graphene interfaces, graphene, and bulk silicon.
+- **Why it matters:** Including the interface explicitly matters because a potential suitable for either bulk component need not represent their combined environments.
+- **Caveat:** The description does not establish interface registry coverage, training reference quality, model availability, or quantitative validation.
+- **Evidence:** [Captured source](https://github.com/mana121/MLIAP_HDNNP); analysis based only on captured metadata, not independently verified full text.

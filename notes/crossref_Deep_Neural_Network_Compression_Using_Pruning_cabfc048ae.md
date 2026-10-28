@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [network-compression, tensor-decomposition, structured-pruning, low-rank-methods]
 title: Deep Neural Network Compression Using Pruning and Low-Rank Approximations
 type: paper
 source: https://doi.org/10.70675/7ff6eec3z659dz46a5za0d1zc694492e7887
@@ -60,3 +64,9 @@ Compression des réseaux de neurones profonds par élagage et approximations de 
 - **Doi:** 10.70675/7ff6eec3z659dz46a5za0d1zc694492e7887
 - **Publisher:** Agence Bibliographique de l'Enseignement Supérieur
 - **Type:** dissertation
+
+## AI enrichment
+- **Concise summary:** The French thesis abstract presents five compression approaches spanning spectral filter pruning, tensor-factorization/pruning hybrids, coupled factorization of similar filters, and decoupling of matrix-valued multivariate functions.
+- **Why it matters:** It connects structured removal and low-rank representation as complementary ways to reduce model complexity while preserving tensor organization.
+- **Caveat:** The captured dissertation abstract provides no numerical compression ratios or accuracy tradeoffs, and does not establish applicability to equivariant atomistic architectures.
+- **Evidence:** [Captured source](https://doi.org/10.70675/7ff6eec3z659dz46a5za0d1zc694492e7887); analysis based only on captured metadata, not independently verified full text.

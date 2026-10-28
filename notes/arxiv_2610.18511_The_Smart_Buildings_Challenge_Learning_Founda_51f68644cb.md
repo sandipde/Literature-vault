@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [building-control, policy-transfer, energy-optimization]
 title: 'The Smart Buildings Challenge: Learning Foundation Models for Real-World Optimization
   at Scale'
 type: arxiv
@@ -66,3 +70,9 @@ Buildings cause nearly 40\% of carbon emissions in the US. Of total building emi
 ## Provider details
 - **Arxiv Id:** 2610.18511
 - **Categories:** ["cs.AI"]
+
+## AI enrichment
+- **Concise summary:** The Smart Buildings Challenge proposes training control policies on simulated buildings and testing transfer to unseen buildings with different layouts, weather, materials, and HVAC systems.
+- **Why it matters:** Separating training buildings from evaluation buildings makes cross-site adaptation, rather than one-building optimization, the central benchmark.
+- **Caveat:** This preprint describes a challenge and intended impact, not demonstrated real-building energy savings; it is outside atomistic foundation-potential research.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.18511); analysis based only on captured metadata, not independently verified full text.

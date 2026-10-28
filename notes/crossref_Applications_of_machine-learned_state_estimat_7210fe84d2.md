@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Other and possible scan noise
 enrichment_tags: [power-grids, state-estimation, applied-ml]
 title: Applications of machine-learned state estimation in low-voltage grids
@@ -46,7 +48,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title addresses machine-learned state estimation for low-voltage electrical grids.
+- **Concise summary:** The indexed abstract describes machine-learned state estimation for low-voltage grids, integrated with heterogeneous data sources and deployed in Austrian pilots for variable tariffs, operational envelopes and optimized setpoints.
 - **Why it matters:** It points to an engineering inference problem, but not one directly about atomic interactions.
-- **Caveat:** Title only; methods and outcomes are unknown, and the item is peripheral to the vault's atomistic focus.
-- **Evidence:** [Captured source](https://doi.org/10.1049/icp.2026.3364); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** OpenAlex indexed abstract only; publisher full text and field-study outcomes were not independently validated. Peripheral to atomistic modeling.
+- **Evidence:** [Indexed abstract](https://api.openalex.org/works/https://doi.org/10.1049/icp.2026.3364).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1049%2Ficp.2026.3364) returned bibliographic metadata without an abstract; [OpenAlex](https://api.openalex.org/works/https://doi.org/10.1049/icp.2026.3364) returned the indexed abstract.
+
+Recovered details: modular state estimation supports tariffs, operational envelopes and grid-optimal setpoints in Austrian low-voltage-grid pilots.
+
+Limitations: indexed abstract, not publisher full-text verification. Original captured metadata retained.

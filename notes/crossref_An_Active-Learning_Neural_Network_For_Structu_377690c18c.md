@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [structural-reliability, active-learning, engineering-surrogates]
@@ -48,3 +50,9 @@ provider_data:
 - **Why it matters:** Reliability estimation is a neighboring application where selective acquisition may reduce expensive evaluations.
 - **Caveat:** Title only; no acquisition rule, benchmark or performance is available, and no atomistic application is indicated.
 - **Evidence:** [Captured source](https://doi.org/10.3850/esrel2026061419_esrel26-p26126-cd); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.3850%2Fesrel2026061419_esrel26-p26126-cd) returned bibliographic metadata without an abstract.
+
+Limitations: no abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or performance. Original captured metadata retained.

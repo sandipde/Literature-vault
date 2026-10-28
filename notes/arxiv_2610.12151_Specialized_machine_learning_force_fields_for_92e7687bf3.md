@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [specialized-potentials, materials-dynamics, observable-validation, nonlocal-interactions]
 title: Specialized machine learning force fields for materials dynamics
 type: arxiv
 source: https://arxiv.org/abs/2610.12151
@@ -55,3 +59,9 @@ Machine learning interatomic potentials (MLIPs) are transforming atomistic simul
 ## Provider details
 - **Arxiv Id:** 2610.12151
 - **Categories:** ["cond-mat.mtrl-sci"]
+
+## AI enrichment
+- **Concise summary:** This review examines physics-driven specialization of ML force fields for electrified interfaces, open systems, multiphase evolution, and fracture, emphasizing training coverage and architecture costs.
+- **Why it matters:** Its observable-specific validation framing helps distinguish broad near-equilibrium transferability from the demands of reactive and strongly driven materials dynamics.
+- **Caveat:** The arXiv review abstract outlines a framework and roadmap, not a new universally validated potential or a quantitative head-to-head benchmark.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.12151); analysis based only on captured metadata, not independently verified full text.

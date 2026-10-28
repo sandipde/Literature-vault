@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [experiential-education, field-based-learning, student-engagement]
 title: 'Bridging Theory and Practice Through Field-Based Learning: Student Engagement
   and Competency Development in Higher Education'
 type: paper
@@ -55,3 +59,9 @@ This study addresses the limited empirical evidence on how field-based learning,
 - **Journal:** Active Learning in Higher Education
 - **Publisher:** SAGE Publications
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** An action-research study in a Taiwanese management course combines field visits, interviews, preparation, and reflection, reporting improved motivation and self-perceived competencies among 39 students.
+- **Why it matters:** It concerns connecting classroom theory with organizational experience, not machine-learning transfer or atomistic simulation.
+- **Caveat:** The abstract does not establish a randomized control comparison; self-perceived competencies and course satisfaction are not direct evidence of durable professional performance.
+- **Evidence:** [Captured source](https://doi.org/10.1177/14697874261493865); analysis based only on captured metadata, not independently verified full text.

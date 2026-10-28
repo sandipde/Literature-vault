@@ -32,6 +32,10 @@ abstract: 'The acid dissociation constant, commonly written as p K a , plays a k
   and models can be found on Zenodo: doi:10.5281/zenodo.23239570'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [pka-prediction, solvent-effects, surrogate-models]
 provider_data:
   doi: 10.26434/chemrxiv.15010254/v1
   journal: ''
@@ -56,3 +60,10 @@ The acid dissociation constant, commonly written as p K a , plays a key role in 
 - **Doi:** 10.26434/chemrxiv.15010254/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** UpKast combines solvation-free-energy calculations with experimental data to estimate pKa for about 3,000 acids and bases in 29 solvents. A surrogate learns these computed values for faster prediction.
+- **Why it matters:** Expanding solvent coverage addresses a practical limitation of acidity databases concentrated in a few common media.
+- **Caveat:** Computed estimates are not new measurements; surrogate errors inherit reference-method uncertainty, and broad any-solvent applicability remains an aspiration in the captured preprint.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010254/v1); analysis based only on captured metadata, not independently verified full text.

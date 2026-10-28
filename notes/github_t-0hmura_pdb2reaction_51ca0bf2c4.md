@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [reaction-path-modeling, protein-structures, atomistic-workflows]
 title: t-0hmura/pdb2reaction
 type: github
 source: https://github.com/t-0hmura/pdb2reaction
@@ -53,3 +57,9 @@ End-to-end Reaction-Path Modeling from PDB Structures Using Machine-Learning Int
 - **Forks:** 4
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-12T12:10:48Z
+
+## AI enrichment
+- **Concise summary:** pdb2reaction describes an end-to-end route from PDB structures to reaction-path modeling with machine-learning interatomic potentials.
+- **Why it matters:** Connecting structural inputs to reactive simulations could reduce workflow preparation effort for biomolecular chemistry.
+- **Caveat:** Limited repository metadata does not establish how paths are constructed, supported potentials, protonation handling, or reaction-barrier accuracy.
+- **Evidence:** [Captured source](https://github.com/t-0hmura/pdb2reaction); analysis based only on captured metadata, not independently verified full text.

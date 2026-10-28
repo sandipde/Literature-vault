@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [sustainable-materials, life-cycle-assessment, materials-discovery]
 title: Artificial intelligence for life-cycle-aware sustainable materials discovery
 type: web
 source: https://www.nature.com/articles/s41893-026-01950-4.epdf?sharing_token=uW1foWciOXpQ1pWi4SMtrtRgN0jAjWel9jnR3ZoTv0Pel2iGTXKAZP00OIteeYRuXfJWmUI2pmWpYrKYFPP4_KAzysH4AUEudJ1oEwOprCHQgTUw5DpcAj1-L8K5E7TtcqxvVOCYyuz-3Kjoqvdwegakpt229_E6LlPKxYkYv8I%3D
@@ -94,3 +98,9 @@ Artificial intelligence has accelerated the discovery of new materials, offering
 - **Topics:** ["Machine Learning in Materials Science", "Material Selection and Properties", "Environmental Impact and Sustainability"]
 - **Open Access:** {"is_oa": false, "oa_status": "closed", "oa_url": null, "any_repository_has_fulltext": false}
 - **Cited By Count:** 0
+
+## AI enrichment
+- **Concise summary:** This Perspective argues for incorporating manufacturing scale, environmental burden, product behavior, and end-of-life considerations into AI-driven materials discovery.
+- **Why it matters:** It reframes discovery objectives so functional performance is not optimized independently of downstream sustainability constraints.
+- **Caveat:** The abstract describes a proposed roadmap rather than a validated discovery algorithm or quantified environmental improvement.
+- **Evidence:** [Captured source](https://www.nature.com/articles/s41893-026-01950-4.epdf?sharing_token=uW1foWciOXpQ1pWi4SMtrtRgN0jAjWel9jnR3ZoTv0Pel2iGTXKAZP00OIteeYRuXfJWmUI2pmWpYrKYFPP4_KAzysH4AUEudJ1oEwOprCHQgTUw5DpcAj1-L8K5E7TtcqxvVOCYyuz-3Kjoqvdwegakpt229_E6LlPKxYkYv8I%3D); analysis based only on captured metadata, not independently verified full text.

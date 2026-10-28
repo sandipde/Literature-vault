@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [autonomous-laboratories, connectome-models, instrument-control, edge-inference]
 title: How the fruit fly connectome can help autonomous materials discovery
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15010667/v1
@@ -61,3 +65,9 @@ Autonomous laboratories for two-dimensional semiconductors pair a recipe planner
 - **Doi:** 10.26434/chemrxiv.15010667/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** Connectome-inspired models are evaluated as low-latency instrument reflex layers for Raman-based materials workflows, beneath a slower recipe planner.
+- **Why it matters:** Local stopping decisions address a different autonomy bottleneck from recipe selection, and the reported matched-shuffle results distinguish architectural value from specific biological wiring.
+- **Caveat:** The v1 study uses simulated streams and irradiation data anchored in published spectra; its abstract explicitly does not claim recipe planning or a unique advantage of exact synaptic maps.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010667/v1); analysis based only on captured metadata, not independently verified full text.

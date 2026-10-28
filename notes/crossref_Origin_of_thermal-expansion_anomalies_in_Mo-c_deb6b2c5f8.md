@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: ML interatomic potentials
 enrichment_tags: [thermal-expansion, high-entropy-diborides, learned-potentials]
@@ -50,3 +52,9 @@ provider_data:
 - **Why it matters:** Linking composition to unusual thermal response is a useful target for atomistic simulations of complex ceramics.
 - **Caveat:** Title only; the proposed origin, validation data and temperature range are not captured.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.matdes.2026.117371); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.matdes.2026.117371) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

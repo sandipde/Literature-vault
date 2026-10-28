@@ -1,5 +1,7 @@
 ---
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [electrostatic-filtration, face-masks, scan-noise]
@@ -50,3 +52,9 @@ provider_data:
 - **Why it matters:** Separating charge-mediated filtration from other effects could clarify durability questions, but the topic is peripheral to atomistic model development.
 - **Caveat:** Title only; no abstract or quantitative evidence was captured. Do not infer mask-reuse recommendations from this record; likely off-topic scan noise.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.elstat.2026.104404); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.elstat.2026.104404) returned bibliographic metadata without an abstract.
+
+Limitations: no complete abstract recovered; publisher HTML yielded no usable abstract metadata. Title confirmation is not evidence of methods or results. Original captured metadata retained.

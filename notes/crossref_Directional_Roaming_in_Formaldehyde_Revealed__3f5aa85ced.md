@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: ML interatomic potentials
 enrichment_tags: [reactive-dynamics, formaldehyde, supporting-material]
 title: Directional Roaming in Formaldehyde Revealed by Dynamics Simulations on a Machine-Learnt
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** This component record repeats the title of the formaldehyde roaming study using a learned potential.
+- **Concise summary:** Parent article only: the formaldehyde photodissociation study combines active and delta machine learning for coupled-cluster-level reaction modeling, using accelerated dynamics to examine roaming-hydrogen directionality. This is not a recovered component abstract.
 - **Why it matters:** Keeping the supporting record identifiable could help future readers locate methodological details without treating it as another study.
-- **Caveat:** Title only; no abstract was captured. The .s001 DOI and component type flag a likely supporting-material duplicate-title pair with 10.1021/acs.jpca.6c05120; its contents were not inspected, and both records are retained.
-- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jpca.6c05120.s001); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** The .s001 supporting-information component remains without its own recovered abstract; parent findings are not component evidence. Supporting files/full paper were not assessed; both records retained.
+- **Evidence:** [Parent abstract](https://api.crossref.org/works/10.1021/acs.jpca.6c05120).
+
+## Source recovery
+
+Checked 2026-10-28. [Component Crossref](https://api.crossref.org/works/10.1021%2Facs.jpca.6c05120.s001) returned metadata without an abstract; [component publisher](https://doi.org/10.1021/acs.jpca.6c05120.s001) returned HTTP 403; [parent Crossref](https://api.crossref.org/works/10.1021/acs.jpca.6c05120) returned the parent abstract.
+
+Recovered parent details: active/delta learning and accelerated dynamics probe directional roaming in formaldehyde photodissociation.
+
+Limitations: no component abstract recovered; parent details do not establish supporting-file contents. Original captured metadata retained.

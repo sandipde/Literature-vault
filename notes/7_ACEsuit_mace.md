@@ -13,6 +13,10 @@ abstract: MACE - Fast and accurate machine learning interatomic potentials with 
   order equivariant message passing.
 metadata_provider: GitHub
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [equivariant-networks, message-passing, mace]
 provider_data:
   description: MACE - Fast and accurate machine learning interatomic potentials with
     higher order equivariant message passing.
@@ -47,3 +51,10 @@ MACE - Fast and accurate machine learning interatomic potentials with higher ord
 - **Created At:** 2022-06-21T18:44:34Z
 - **Pushed At:** 2026-10-09T11:19:03Z
 - **Default Branch:** develop
+
+## AI enrichment
+
+- **Concise summary:** MACE is described as a machine-learning interatomic-potential package using higher-order equivariant message passing.
+- **Why it matters:** The repository is an implementation entry point for exploring many-body equivariant representations rather than a standalone claim about any particular material.
+- **Caveat:** The short captured description does not identify a model checkpoint, training domain, or independently measured accuracy and speed.
+- **Evidence:** [Captured source](https://github.com/acesuit/mace); analysis based only on captured metadata, not independently verified full text.

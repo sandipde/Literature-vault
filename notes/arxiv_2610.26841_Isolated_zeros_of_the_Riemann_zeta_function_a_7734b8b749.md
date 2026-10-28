@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [analytic-number-theory, zeta-zeros, dirichlet-functions]
 title: Isolated zeros of the Riemann zeta function and zeros of linear combinations
   of Dirichlet $L$-functions
 type: arxiv
@@ -52,3 +56,9 @@ Let $0 < γ_1\leq γ_2\leq \cdots$ be the ordinates of the non-trivial zeros of 
 ## Provider details
 - **Arxiv Id:** 2610.26841
 - **Categories:** ["math.NT"]
+
+## AI enrichment
+- **Concise summary:** The authors claim unconditional positive proportions of isolated zeta zeros, including more than 50.87% at the stated isolation threshold. They apply refined zero-spacing arguments to zeros of linear combinations of two primitive Dirichlet L-functions.
+- **Why it matters:** Quantitative spacing information can strengthen critical-line results for related functions without assuming the Riemann hypothesis.
+- **Caveat:** This is a preprint abstract, not a verified proof; the proportions depend on isolation thresholds and the L-function combination has explicit conductor and parity restrictions.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.26841); analysis based only on captured metadata, not independently verified full text.

@@ -15,6 +15,10 @@ abstract: Cross-neighbour Hermitian density operators for equivariant machine-le
   interatomic potentials
 metadata_provider: GitHub
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [hermitian-density-operators, equivariant-potentials, cross-neighbor-features]
 provider_data:
   description: Cross-neighbour Hermitian density operators for equivariant machine-learned
     interatomic potentials
@@ -50,3 +54,10 @@ Cross-neighbour Hermitian density operators for equivariant machine-learned inte
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-19T07:01:25Z
+
+## AI enrichment
+
+- **Concise summary:** CHORUS-MLIP is described as using cross-neighbour Hermitian density operators for equivariant machine-learned interatomic potentials.
+- **Why it matters:** Cross-neighbor operator features identify a representation-design direction to compare with other equivariant many-body descriptors.
+- **Caveat:** The short repository description does not define the operators, prove symmetry properties, or provide verified accuracy and scaling results.
+- **Evidence:** [Captured source](https://github.com/Parity-LRX/CHORUS-MLIP); analysis based only on captured metadata, not independently verified full text.

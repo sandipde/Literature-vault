@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: ML interatomic potentials
 enrichment_tags: [reference-functionals, borosilicate-glasses, potential-accuracy]
 title: 'Influence of ExchangeCorrelation Functional on Machine-Learned Interatomic
@@ -42,7 +44,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title examines how exchange-correlation functional choice affects learned interatomic-potential accuracy for borosilicate glasses.
+- **Concise summary:** Parent article only: the recovered abstract emphasizes exchange-correlation functional choice as an important uncertainty when fitting interatomic potentials to DFT reference energies and forces.
 - **Why it matters:** Training labels inherit the approximations of the electronic-structure reference, even if a model reproduces them closely.
-- **Caveat:** Title only from a .s001 component; no functional ranking, error metric or glass-property validation is available.
-- **Evidence:** [Captured source](https://doi.org/10.1021/acs.jctc.6c01609.s001); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** No .s001 component abstract recovered; parent details do not establish supporting-file contents or independently validate functional rankings. Supporting files/full paper were not assessed.
+- **Evidence:** [Parent abstract](https://api.crossref.org/works/10.1021/acs.jctc.6c01609).
+
+## Source recovery
+
+Checked 2026-10-28. [Component Crossref](https://api.crossref.org/works/10.1021%2Facs.jctc.6c01609.s001) returned metadata without an abstract; [component publisher](https://doi.org/10.1021/acs.jctc.6c01609.s001) returned HTTP 403; [parent Crossref](https://api.crossref.org/works/10.1021/acs.jctc.6c01609) returned the parent abstract.
+
+Recovered parent details: DFT functional choice affects the reference labels used for learned interatomic potentials.
+
+Limitations: no component abstract recovered; parent details are not component evidence. Supporting files/full paper were not assessed. Original captured metadata retained.

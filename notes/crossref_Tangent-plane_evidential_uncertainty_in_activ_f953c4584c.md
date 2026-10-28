@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: ML interatomic potentials
 enrichment_tags: [magnetic-potentials, evidential-uncertainty, active-learning]
 title: Tangent-plane evidential uncertainty in active learning for magnetic interatomic
@@ -47,7 +49,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title proposes tangent-plane evidential uncertainty for active learning of magnetic interatomic potentials.
+- **Concise summary:** Publisher metadata describes a single-model equivariant evidential approach to spin-lattice potentials, defining projected-spin-force uncertainty in each spin's tangent plane. The abstract reports active-learning tests on bulk BiFeO3 and monolayer CrTe2 against random sampling and a model committee.
 - **Why it matters:** Uncertainty representations tailored to magnetic degrees of freedom may help target informative configurations.
-- **Caveat:** Title only; calibration, acquisition efficiency and the meaning of the tangent-plane construction cannot be assessed.
-- **Evidence:** [Captured source](https://doi.org/10.1103/9hcx-wmmm); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** Public abstract in publisher metadata only; full paper and uncertainty/performance claims were not independently validated.
+- **Evidence:** [Publisher abstract metadata](https://doi.org/10.1103/9hcx-wmmm).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1103%2F9hcx-wmmm) returned bibliographic metadata without an abstract; [publisher via DOI](https://doi.org/10.1103/9hcx-wmmm) returned the abstract in page metadata.
+
+Recovered details: tangent-plane projected-spin-force uncertainty supports single-model active learning of magnetic potentials, tested on BiFeO3 and CrTe2.
+
+Limitations: public abstract only; full paper and reported comparisons were not independently validated. Original captured metadata retained.

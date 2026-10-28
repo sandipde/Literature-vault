@@ -39,6 +39,10 @@ abstract: 'Brazilian Portuguese remains underserved by open-source language mode
   produce every reported number are publicly released.'
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [portuguese-models, safety-alignment, evaluation-bias]
 provider_data:
   arxiv_id: '2610.20570'
   categories:
@@ -60,3 +64,10 @@ Brazilian Portuguese remains underserved by open-source language models, and the
 ## Provider details
 - **Arxiv Id:** 2610.20570
 - **Categories:** ["cs.CL"]
+
+## AI enrichment
+
+- **Concise summary:** This Brazilian-Portuguese alignment study reports unsuccessful DPO attempts, iterative safety SFT, and a nonmonotonic relationship between general-data mixing and over-refusal. It also identifies judge refusals that silently reduce evaluation sample sizes.
+- **Why it matters:** Negative training results and missing judge scores expose failure modes that favorable aggregate safety percentages can conceal.
+- **Caveat:** Preprint comparisons depend on the chosen Portuguese benchmarks, baselines, and judge behavior; reported confidence intervals were not independently recomputed.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.20570); analysis based only on captured metadata, not independently verified full text.

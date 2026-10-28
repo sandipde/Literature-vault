@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [instructional-videos, self-regulated-learning, educational-psychology]
 title: 'Understanding the Effective Use of Explaining to Fictitious Others in Instructional
   Videos: A Process-Oriented Analysis of Learners with Higher and Lower Learning Performance'
 type: paper
@@ -65,3 +69,9 @@ Instructional videos are becoming an increasingly popular learning tool, appeali
 - **Journal:** Active Learning in Higher Education
 - **Publisher:** SAGE Publications
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** This study examines how explaining to fictitious others during video-based learning relates to attention, preparation behavior, explanation quality, and learning outcomes.
+- **Why it matters:** It is educational-process research; neither “active learning” nor “explaining” here denotes an ML acquisition function or model-explanation method.
+- **Caveat:** Groups are formed by a post-hoc median split of test scores, so reported process differences should not be read as proof of causal learning mechanisms.
+- **Evidence:** [Captured source](https://doi.org/10.1177/14697874261493889); analysis based only on captured metadata, not independently verified full text.

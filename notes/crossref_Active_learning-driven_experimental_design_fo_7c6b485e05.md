@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [active-learning, gaussian-processes, multi-objective-optimization, torrefaction]
 title: Active learning-driven experimental design for torrefaction process optimization
   using multi-objective Gaussian process surrogates
 type: paper
@@ -58,3 +62,9 @@ Abstract Data-driven optimization of biomass torrefaction is constrained by the 
 - **Doi:** 10.21203/rs.3.rs-11027924/v1
 - **Publisher:** Springer Science and Business Media LLC
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** A torrefaction optimization preprint fits Gaussian-process surrogates to 486 observations and recommends diverse batches using a weighted uncertainty/improvement acquisition function.
+- **Why it matters:** It illustrates uncertainty-aware experiment design with explicit trade-offs between mass yield and heating value rather than a single best-point search.
+- **Caveat:** Cross-validation and recommended points are described, not prospective confirmation that the proposed batch improves a real process; the acquisition weights are study-specific choices.
+- **Evidence:** [Captured source](https://doi.org/10.21203/rs.3.rs-11027924/v1); analysis based only on captured metadata, not independently verified full text.

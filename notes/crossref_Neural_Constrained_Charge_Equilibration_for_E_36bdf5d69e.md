@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [charge-equilibration, charge-transport, diabatic-states, electronic-coupling]
 title: Neural Constrained Charge Equilibration for Extracting Charge Transport Parameters
   from Machine Learned Interatomic Potentials
 type: paper
@@ -56,3 +60,9 @@ Abstract Machine-learned interatomic potentials (MLIPs) continue to gain popular
 - **Journal:** ACS Omega
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** Neural constrained charge equilibration extracts charge-transport information from AimNet2 and OrbMol-V2, estimating electronic couplings, reorganization energies, and free-energy differences after calibration.
+- **Why it matters:** It extends the use of learned atomic models beyond energy/force prediction toward parameters needed for organic charge-transport calculations.
+- **Caveat:** The abstract describes model systems and polyethylene hole transport; compatibility with two models and calibration dependence do not establish universal transport accuracy.
+- **Evidence:** [Captured source](https://doi.org/10.1021/acsomega.6c04842); analysis based only on captured metadata, not independently verified full text.

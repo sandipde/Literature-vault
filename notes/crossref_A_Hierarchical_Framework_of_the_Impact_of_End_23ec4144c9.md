@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [machine-learning-education, course-design, abstraction-hierarchies]
 title: A Hierarchical Framework of the Impact of End-User Machine Learning Tools on
   Applied Machine Learning Education
 type: paper
@@ -46,3 +50,9 @@ This exploratory study presents an abstraction hierarchy model as a preliminary 
 - **Journal:** ASEE Journal of Engineering Technology
 - **Publisher:** American Society for Engineering Education
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** This exploratory study proposes an abstraction hierarchy for assessing information and functions in applied machine-learning classroom projects.
+- **Why it matters:** It may help organize course-design decisions around end-user tools, but it does not describe a new materials-learning algorithm.
+- **Caveat:** The short captured abstract gives limited metadata and explicitly calls the framework preliminary; learning gains or validated pedagogical outcomes are not specified.
+- **Evidence:** [Captured source](https://doi.org/10.18260/jet.43.2.5); analysis based only on captured metadata, not independently verified full text.

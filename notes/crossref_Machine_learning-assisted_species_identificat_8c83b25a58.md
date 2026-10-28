@@ -48,6 +48,10 @@ abstract: In forensic entomology, accurately identifying empty fly puparia remai
   species identification of empty fly puparia and its application to forensic entomology.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [forensic-entomology, infrared-spectroscopy, species-classification]
 provider_data:
   doi: 10.2139/ssrn.7597664
   journal: ''
@@ -72,3 +76,10 @@ In forensic entomology, accurately identifying empty fly puparia remains challen
 - **Doi:** 10.2139/ssrn.7597664
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** ATR-FTIR fingerprints and classifiers identify empty puparia from four blow-fly species across controlled storage and cleaning conditions. The abstract reports external testing on independently collected weathered specimens.
+- **Why it matters:** Preservation-aware spectral classification is a concrete analytical-chemistry application, although outside the vault's core atomistic themes.
+- **Caveat:** High reported accuracies are restricted to the sampled species and handling conditions; the posted results do not establish universal forensic identification.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7597664); analysis based only on captured metadata, not independently verified full text.

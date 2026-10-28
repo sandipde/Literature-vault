@@ -7,7 +7,9 @@ canonical_url: https://doi.org/10.1016/j.eti.2026.105294
 captured_by: auto-scanner
 date: '2026-10-23'
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: recovered
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Other and possible scan noise
 enrichment_tags: [groundwater, nitrogen-cycling, semi-supervised-learning]
 captured_at: '2026-10-23T09:43:13+00:00'
@@ -49,7 +51,15 @@ provider_data:
 - **Type:** journal-article
 
 ## AI enrichment
-- **Concise summary:** The title describes predicting groundwater nitrogen-metabolic potential from fluorescence information using semi-supervised and automated machine learning.
+- **Concise summary:** The indexed abstract combines three-dimensional fluorescence spectroscopy with automated machine learning to estimate groundwater nitrogen-metabolic potential, addressing the gap between routine water-quality monitoring and pathway-specific metagenomic measurements.
 - **Why it matters:** Water-quality indicators could support screening of microbial nutrient-cycling potential.
-- **Caveat:** Title only; no abstract was captured, so measurements, validation, and findings are unknown.
-- **Evidence:** [Captured source](https://doi.org/10.1016/j.eti.2026.105294); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** OpenAlex indexed abstract only; publisher full text and predictive claims were not independently validated.
+- **Evidence:** [Indexed abstract](https://api.openalex.org/works/https://doi.org/10.1016/j.eti.2026.105294).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.eti.2026.105294) returned metadata without an abstract; [OpenAlex](https://api.openalex.org/works/https://doi.org/10.1016/j.eti.2026.105294) returned the indexed abstract.
+
+Recovered details: fluorescence spectroscopy and automated ML estimate pathway-related groundwater nitrogen-metabolic potential.
+
+Limitations: indexed abstract, not publisher full-text or performance verification. Original captured metadata retained.

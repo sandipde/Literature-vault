@@ -1,6 +1,8 @@
 ---
 enriched_on: '2026-10-28'
-enrichment_method: llm-captured-metadata
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
+enrichment_method: llm-public-source-recovery
 enrichment_category: Other and possible scan noise
 enrichment_tags: [histopathology-images, mitosis-detection, convolutional-networks]
 title: Robust mitosis detection in breast cancer histopathology images using convolutional
@@ -51,7 +53,15 @@ provider_data:
 
 ## AI enrichment
 
-- **Concise summary:** The title applies convolutional networks to mitosis detection in breast-cancer histopathology images.
+- **Concise summary:** The publisher description frames mitotic-figure detection in breast-cancer histology as the application. This short introductory fragment does not establish architecture, datasets or detection performance.
 - **Why it matters:** It is an image-analysis application rather than a method for molecular or materials simulation.
-- **Caveat:** Title only; the adjective robust is unsupported by captured results, and clinical validity cannot be inferred.
-- **Evidence:** [Captured source](https://doi.org/10.1007/s00521-026-12479-0); analysis based only on captured metadata, not independently verified full text.
+- **Caveat:** Description fragment only; no complete abstract, robustness evidence or clinical validation recovered.
+- **Evidence:** [Publisher description](https://doi.org/10.1007/s00521-026-12479-0).
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1007%2Fs00521-026-12479-0) returned metadata without an abstract; [publisher via DOI](https://doi.org/10.1007/s00521-026-12479-0) returned a description fragment. [Direct publisher retry](https://link.springer.com/article/10.1007/s00521-026-12479-0) returned HTTP 406.
+
+Recovered details: mitotic-figure detection in breast-cancer histology is the application.
+
+Limitations: no complete abstract or performance results recovered; clinical validity cannot be inferred. Original captured metadata retained.

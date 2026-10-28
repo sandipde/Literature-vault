@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [online-education, instructor-interviews, active-learning-pedagogy]
 title: 'Instructors'' Perceptions and Teaching Practices Regarding Student Engagement
   in Online Active Learning Environments: The Case of Minerva Fully Active Learning
   Courses'
@@ -64,3 +68,9 @@ This study examined instructors' perceptions and teaching practices regarding st
 - **Journal:** The Korea Association of Yeolin Education
 - **Publisher:** The Korea Association of Yeolin Education
 - **Type:** journal-article
+
+## AI enrichment
+- **Concise summary:** Interviews with six instructors in Minerva-linked fully active-learning courses identify changing teaching practices, multidimensional engagement strategies, and collaboration costs.
+- **Why it matters:** It clarifies another pedagogical use of “active learning,” distinct from selecting informative labels for machine learning.
+- **Caveat:** Qualitative instructor perceptions in one course context do not establish causal student-outcome improvements or broad generalizability.
+- **Evidence:** [Captured source](https://doi.org/10.18230/tjye.2026.34.5.503); analysis based only on captured metadata, not independently verified full text.

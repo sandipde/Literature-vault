@@ -17,6 +17,12 @@ published: 2026-10
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [graphene-oxide, drug-loading, deep-eutectic-solvents]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1016/j.surfin.2026.111065
   journal: Surfaces and Interfaces
@@ -39,3 +45,17 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Attempted sources:** https://doi.org/10.1016/j.surfin.2026.111065 ; https://api.openalex.org/works/https://doi.org/10.1016/j.surfin.2026.111065?select=doi,title,abstract_inverted_index
+- **Outcome:** The DOI returned an Elsevier redirect shell; exact-DOI OpenAlex confirmed the title with a null abstract.
+- **Limitations:** No solvent formulation, loading data, simulation details, or biological outcomes were recovered.
+
+## AI enrichment
+
+- **Concise summary:** The title describes deep-eutectic-solvent-functionalized graphene oxide for doxorubicin loading and folate-receptor targeting, combining experiments and simulation.
+- **Why it matters:** It connects carrier-surface chemistry with both drug association and targeting, two distinct delivery-design requirements.
+- **Caveat:** Limited title-only metadata cannot substantiate enhanced delivery, environmental credentials, selectivity, or biological safety.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111065); analysis based only on captured metadata, not independently verified full text.

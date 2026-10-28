@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [active-learning, density-estimation, langevin-methods, sample-diversity]
 title: Rethinking Representativeness in Active Learning via Langevin Density Estimation
 type: paper
 source: https://doi.org/10.2139/ssrn.7602590
@@ -56,3 +60,9 @@ Although deep learning has achieved remarkable success in various fields, most o
 - **Doi:** 10.2139/ssrn.7602590
 - **Publisher:** Elsevier BV
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** LEAD estimates unlabeled-feature density with a Langevin-based method to score representativeness, combining it with distance to the nearest labeled sample for diversity.
+- **Why it matters:** Explicitly balancing dense-region coverage with unexplored regions makes the acquisition tradeoff more interpretable than a similarity heuristic alone.
+- **Caveat:** The SSRN preprint abstract lacks datasets, numerical gains, and density-estimation costs; its superiority and relevance to atomistic active learning remain unverified.
+- **Evidence:** [Captured source](https://doi.org/10.2139/ssrn.7602590); analysis based only on captured metadata, not independently verified full text.

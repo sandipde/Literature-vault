@@ -41,6 +41,10 @@ abstract: Traditional entropy-based methods—such as cross-entropy loss in clas
   problems involving complex, heterogeneous datasets.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [heterogeneous-data, zentropy, energy-landscapes]
 provider_data:
   doi: 10.1073/pnas.2511227122
   journal: Proceedings of the National Academy of Sciences
@@ -83,3 +87,10 @@ Traditional entropy-based methods—such as cross-entropy loss in classification
 - **Issue:** 1
 - **Type:** journal-article
 - **License:** [{"start": {"date-parts": [[2026, 1, 2]], "date-time": "2026-01-02T00:00:00Z", "timestamp": 1767312000000}, "content-version": "vor", "delay-in-days": 0, "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"}]
+
+## AI enrichment
+
+- **Concise summary:** ZENN learns energy and intrinsic-entropy components to represent heterogeneous datasets using a zentropy-inspired neural architecture. The abstract connects classification experiments to reconstruction of the Fe3Pt Helmholtz-energy landscape.
+- **Why it matters:** Learning heterogeneity explicitly may link multisource statistical modeling to thermodynamic derivative prediction, rather than merely borrowing physical terminology.
+- **Caveat:** Reported robustness, generalization, and high-order derivative quality are abstract-level claims without independently examined comparisons.
+- **Evidence:** [Captured source](https://www.pnas.org/doi/10.1073/pnas.2511227122); analysis based only on captured metadata, not independently verified full text.

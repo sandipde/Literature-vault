@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [materials-informatics, property-prediction]
 title: ppdebreuck/modnet
 type: github
 source: https://github.com/ppdebreuck/modnet
@@ -50,3 +54,9 @@ MODNet: a framework for machine learning materials properties
 - **Created At:** 2020-03-13T07:39:21Z
 - **Pushed At:** 2025-05-02T11:38:28Z
 - **Default Branch:** master
+
+## AI enrichment
+- **Concise summary:** MODNet is described as a framework for machine-learning prediction of materials properties.
+- **Why it matters:** It is a candidate property-modeling tool to compare with atomistic simulation approaches, not evidence of an energy-and-force potential or a structure generator.
+- **Caveat:** The short repository description provides limited metadata; architectures, supported properties, data requirements, and predictive accuracy are not established here.
+- **Evidence:** [Captured source](https://github.com/ppdebreuck/modnet); analysis based only on captured metadata, not independently verified full text.

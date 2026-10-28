@@ -6,6 +6,8 @@ canonical_url: https://doi.org/10.1016/j.surfin.2026.111044
 captured_by: auto-scanner
 date: '2026-10-23'
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [editorial-board, journal-metadata, scan-noise]
@@ -45,3 +47,9 @@ provider_data:
 - **Why it matters:** Recognizing editorial metadata as non-research content helps separate it from substantive literature in the collection.
 - **Caveat:** Title only; no abstract or scholarly claim was captured, so this may be scan noise.
 - **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111044); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.1016%2Fj.surfin.2026.111044) returned bibliographic metadata without an abstract.
+
+Limitations: no abstract recovered; publisher HTML yielded no usable abstract metadata. An editorial-board record does not establish research findings. Original captured metadata retained.

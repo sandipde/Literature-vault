@@ -19,6 +19,12 @@ published: 2026-10
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [liquid-infused-surfaces, titania, antifouling]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 provider_data:
   doi: 10.1016/j.surfin.2026.111003
   journal: Surfaces and Interfaces
@@ -41,3 +47,17 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-28.
+- **Attempted sources:** https://doi.org/10.1016/j.surfin.2026.111003 ; https://api.openalex.org/works/https://doi.org/10.1016/j.surfin.2026.111003?select=doi,title,abstract_inverted_index
+- **Outcome:** The DOI returned an Elsevier redirect shell; exact-DOI OpenAlex confirmed the title with a null abstract.
+- **Limitations:** No fabrication conditions, lubricant retention, or performance measurements were recovered.
+
+## AI enrichment
+
+- **Concise summary:** The title describes TiO2-modified bioinspired liquid-infused microstructured surfaces aimed at drag reduction, anti-icing, and anti-biofouling.
+- **Why it matters:** Combining several surface functions raises useful questions about whether a single coating can sustain performance across different exposure conditions.
+- **Caveat:** Limited title-only metadata does not establish durability, comparative improvements, or whether the three functions were tested under compatible conditions.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111003); analysis based only on captured metadata, not independently verified full text.

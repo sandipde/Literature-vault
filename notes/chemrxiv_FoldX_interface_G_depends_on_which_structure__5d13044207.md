@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [protein-stability, structural-uncertainty, variant-interpretation]
 title: 'FoldX interface ΔΔG depends on which structure it starts from, and a learned
   predictor does not: a cautionary analysis on glutaryl-CoA dehydrogenase'
 type: chemrxiv
@@ -65,3 +69,9 @@ FoldX and related methods are widely used to interpret missense variants, and th
 - **Doi:** 10.26434/chemrxiv.15010007/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** In glutaryl-CoA dehydrogenase, FoldX variant effects shift more between crystal and relaxed structures at subunit interfaces than at distant sites. A learned interface predictor changes much less on the same small comparison panel.
+- **Why it matters:** A single structural input can create misleading precision precisely for borderline interface variants where interpretation is consequential.
+- **Caveat:** The v2 preprint tests one protein and only eighteen variants across the alternative structures; reduced predictor sensitivity is not evidence that the learned values are more accurate.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010007/v2); analysis based only on captured metadata, not independently verified full text.

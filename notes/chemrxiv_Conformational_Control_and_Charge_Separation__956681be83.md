@@ -48,6 +48,10 @@ abstract: The development of organic electronic materials is fundamentally influ
   and stabilization dynamics.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [donor-acceptor-polymers, charge-separation, molecular-conformation]
 provider_data:
   doi: 10.26434/chemrxiv.15010602/v1
   journal: ''
@@ -72,3 +76,10 @@ The development of organic electronic materials is fundamentally influenced by t
 - **Doi:** 10.26434/chemrxiv.15010602/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** Four perylene-bisimide donor-acceptor polymers vary hanging versus linear configurations and spacer length. Transient absorption and AFM are used to connect conformation, charge separation, and surface organization.
+- **Why it matters:** Spatial arrangement provides an additional electronic-material design variable beyond selecting donor and acceptor chemical identities.
+- **Caveat:** The preprint's correlations do not isolate every structural variable or establish device-level performance.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010602/v1); analysis based only on captured metadata, not independently verified full text.

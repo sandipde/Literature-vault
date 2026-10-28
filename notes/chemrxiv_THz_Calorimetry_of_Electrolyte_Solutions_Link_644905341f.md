@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [electrolyte-solutions, terahertz-spectroscopy, hydrogen-bonding, dimensionality-reduction]
 title: THz Calorimetry of Electrolyte Solutions Links Water’s H-Bond Network to Macroscopic
   Properties
 type: chemrxiv
@@ -56,3 +60,9 @@ Understanding the macroscopic properties of aqueous electrolyte solutions over t
 - **Doi:** 10.26434/chemrxiv.15010693/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** THz calorimetry and dimensionality reduction relate a small set of spectroscopic markers to thermodynamic and transport properties across nineteen electrolytes.
+- **Why it matters:** Connecting water-network signatures to macroscopic behavior could provide compact, physically motivated inputs for solution-property modeling.
+- **Caveat:** The v1 abstract's detailed multipole-model examples are CsI and LiCl; the suggested ML direction is not itself a demonstrated general-purpose predictive model.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15010693/v1); analysis based only on captured metadata, not independently verified full text.

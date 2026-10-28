@@ -6,6 +6,8 @@ canonical_url: https://doi.org/10.7717/peerj-cs.4140/table-6
 captured_by: auto-scanner
 date: '2026-10-22'
 enriched_on: '2026-10-28'
+recovery_status: partial
+recovery_checked_on: '2026-10-28'
 enrichment_method: llm-captured-metadata
 enrichment_category: Other and possible scan noise
 enrichment_tags: [neural-networks, model-configuration, supplemental-table]
@@ -44,3 +46,9 @@ provider_data:
 - **Why it matters:** Configuration details can matter when interpreting a study's model comparisons, but this appears to be a table record rather than a standalone article.
 - **Caveat:** Title and component metadata only; the parent study and table contents are not captured here.
 - **Evidence:** [Captured source](https://doi.org/10.7717/peerj-cs.4140/table-6); analysis based only on captured metadata, not independently verified full text.
+
+## Source recovery
+
+Checked 2026-10-28. [Crossref](https://api.crossref.org/works/10.7717%2Fpeerj-cs.4140%2Ftable-6) returned bibliographic metadata without an abstract; [table source](https://doi.org/10.7717/peerj-cs.4140/table-6) returned HTTP 403.
+
+Limitations: no abstract or table contents recovered; table-level metadata is not a main-article abstract. Original captured metadata retained.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: AI agents and retrieval
+enrichment_tags: [scientific-ideation, multi-agent-systems, reinforcement-learning, literature-retrieval]
 title: 'IdeaScientist: Orchestrating Agents for Grounded Scientific Ideation'
 type: arxiv
 source: https://arxiv.org/abs/2610.04074v1
@@ -74,3 +78,9 @@ Despite rapid progress in automating scientific research, generating promising a
 - **Categories:** ["cs.CL"]
 - **Primary Category:** cs.CL
 - **Updated:** 2026-10-02T21:35:55Z
+
+## AI enrichment
+- **Concise summary:** IdeaScientist separates scientific ideation into reinforcement-trained gap finding, innovation, and report writing, using a 2.77-million-idea retrieval corpus. Its temporally restricted evaluation compares proposals with directions later pursued in human papers.
+- **Why it matters:** Cross-domain analogy and explicit gap finding offer a more structured literature-to-proposal workflow than asking one model to invent an entire project.
+- **Caveat:** This is a captured preprint abstract; reported novelty gains and model comparisons are unverified, and agreement with later papers does not establish experimental feasibility.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.04074v1); analysis based only on captured metadata, not independently verified full text.

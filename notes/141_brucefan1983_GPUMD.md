@@ -14,6 +14,10 @@ published: ''
 abstract: Graphics Processing Units Molecular Dynamics
 metadata_provider: GitHub
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [molecular-dynamics, gpu-computing, simulation-software]
 provider_data:
   description: Graphics Processing Units Molecular Dynamics
   language: Cuda
@@ -62,3 +66,10 @@ Graphics Processing Units Molecular Dynamics
 - **Created At:** 2017-07-14T15:32:56Z
 - **Pushed At:** 2026-10-12T15:02:12Z
 - **Default Branch:** master
+
+## AI enrichment
+
+- **Concise summary:** The repository description identifies GPUMD as Graphics Processing Units Molecular Dynamics. The capture provides repository metadata rather than a technical account of its algorithms.
+- **Why it matters:** A GPU-oriented simulation engine is a practical execution-layer resource to track separately from potential-training methods.
+- **Caveat:** Sparse descriptive metadata does not establish supported potentials, transport capabilities, accuracy, or installation requirements.
+- **Evidence:** [Captured source](https://github.com/brucefan1983/GPUMD); analysis based only on captured metadata, not independently verified full text.

@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [multi-fidelity-learning, autonomous-discovery, transfer-certification]
 title: Evaluating transfer across modalities in autonomous materials systems
 type: chemrxiv
 source: https://doi.org/10.26434/chemrxiv.15001271/v2
@@ -60,3 +64,9 @@ A power device needs a wide-gap semiconductor and a heat-treated Al–Mg–Si al
 - **Doi:** 10.26434/chemrxiv.15001271/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+- **Concise summary:** PEGKi evaluates whether relative candidate rankings and margins transfer between disagreeing information sources, issuing route-specific robustness certificates or refusals. Tests use archived band gaps and an Al-Mg-Si campaign with DFT and molecular-dynamics queries.
+- **Why it matters:** Selecting which source to trust before spending compute could be more useful than forcing incompatible numerical values onto one scale.
+- **Caveat:** The v2 preprint's transfer and routing results are unverified and domain-specific; a ranking certificate is not a guarantee of absolute property accuracy.
+- **Evidence:** [Captured source](https://doi.org/10.26434/chemrxiv.15001271/v2); analysis based only on captured metadata, not independently verified full text.

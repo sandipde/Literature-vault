@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [chalcogenide-heterostructures, interface-engineering, solar-water-splitting]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: Engineering interfaces in group-11-chalcogenide heterostructures toward efficient
   Z-scheme solar water splitting
 type: paper
@@ -40,3 +46,15 @@ provider_data:
 - **Journal:** Surfaces and Interfaces
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+- **Checked on:** 2026-10-28
+- **Sources attempted:** https://api.openalex.org/works/https://doi.org/10.1016/j.surfin.2026.111062 ; https://api.crossref.org/works/10.1016%2Fj.surfin.2026.111062
+- **Outcome:** OpenAlex returned the article identity without an abstract; Crossref failed certificate validation.
+- **Limitations:** No heterostructure compositions, interface calculations, or water-splitting measurements were recovered.
+
+## AI enrichment
+- **Concise summary:** The title concerns interface engineering in group-11 chalcogenide heterostructures for Z-scheme solar water splitting.
+- **Why it matters:** Interface design is central to the intended charge-separation strategy, making this a potentially relevant photocatalytic-materials reference.
+- **Caveat:** Sparse title-only metadata does not establish a working Z-scheme mechanism, efficiency, or experimental versus computational scope.
+- **Evidence:** [Captured source](https://doi.org/10.1016/j.surfin.2026.111062); analysis based only on captured metadata, not independently verified full text.

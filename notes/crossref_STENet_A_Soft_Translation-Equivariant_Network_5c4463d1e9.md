@@ -1,4 +1,10 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [time-series, translation-equivariance, forecasting]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-28'
 title: 'STENet: A Soft Translation-Equivariant Network for Time Series Forecasting'
 type: paper
 source: https://doi.org/10.1109/ijcnn69854.2026.11728415
@@ -39,3 +45,15 @@ provider_data:
 - **Journal:** 2026 International Joint Conference on Neural Networks (IJCNN)
 - **Publisher:** IEEE
 - **Type:** proceedings-article
+
+## Source recovery
+- **Checked on:** 2026-10-28
+- **Sources attempted:** https://api.openalex.org/works/https://doi.org/10.1109/ijcnn69854.2026.11728415 ; https://api.crossref.org/works/10.1109%2Fijcnn69854.2026.11728415
+- **Outcome:** OpenAlex returned the conference-paper identity without an abstract; Crossref failed certificate validation.
+- **Limitations:** No definition of soft equivariance, benchmark datasets, or forecasting results were recovered.
+
+## AI enrichment
+- **Concise summary:** STENet is titled as a soft translation-equivariant network for time-series forecasting.
+- **Why it matters:** Translation-aware forecasting may be a useful general modeling idea, but temporal shifts should not be confused with spatial symmetries of atomic systems.
+- **Caveat:** Title-only evidence cannot establish how the symmetry is relaxed or whether the approach improves forecasts.
+- **Evidence:** [Captured source](https://doi.org/10.1109/ijcnn69854.2026.11728415); analysis based only on captured metadata, not independently verified full text.

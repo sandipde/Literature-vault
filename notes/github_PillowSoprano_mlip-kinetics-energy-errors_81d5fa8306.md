@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [kinetic-certification, energy-errors, research-code]
 title: PillowSoprano/mlip-kinetics-energy-errors
 type: github
 source: https://github.com/PillowSoprano/mlip-kinetics-energy-errors
@@ -45,3 +49,9 @@ Code and data for: Certifying the kinetics of machine-learned interatomic potent
 - **Forks:** 0
 - **Open Issues:** 0
 - **Pushed At:** 2026-10-14T01:31:29Z
+
+## AI enrichment
+- **Concise summary:** This repository supplies code and data for work on certifying MLIP kinetics from single-point energy information.
+- **Why it matters:** It is an implementation lead for investigating whether energetically important transition regions expose errors hidden by standard force metrics.
+- **Caveat:** Limited repository metadata does not establish code completeness, reproducibility, certified assumptions, or agreement with the associated paper; no implementation was run.
+- **Evidence:** [Captured source](https://github.com/PillowSoprano/mlip-kinetics-energy-errors); analysis based only on captured metadata, not independently verified full text.

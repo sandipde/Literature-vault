@@ -1,4 +1,8 @@
 ---
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: ML interatomic potentials
+enrichment_tags: [diamond-defects, fine-tuning, migration-barriers, reaction-pathways]
 title: Machine Learning-Assisted Discovery of Carbon-Related Defect Formation Mechanisms
   in Diamond
 type: arxiv
@@ -53,3 +57,9 @@ Diamond is an important host material for functional defects such as solid-state
 ## Provider details
 - **Arxiv Id:** 2610.26301
 - **Categories:** ["cond-mat.mtrl-sci"]
+
+## AI enrichment
+- **Concise summary:** A universal ML potential is fine-tuned on a small DFT dataset to study neutral carbon-defect migration and complex formation in diamond, including a reported 1.84 eV mono-interstitial barrier.
+- **Why it matters:** Targeted adaptation offers a route from a general potential to specific kinetically controlled defect pathways relevant to defect-host materials.
+- **Caveat:** The preprint concerns neutral defects; extrapolated pathways beyond training data and barrier accuracy require validation not available in the captured abstract.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.26301); analysis based only on captured metadata, not independently verified full text.

@@ -31,6 +31,10 @@ abstract: 'This article examines the development of primary school pupils’ cre
   basis for designing creative tasks and formative assessment in primary education.'
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Other and possible scan noise
+enrichment_tags: [primary-education, creativity, terminology-collision]
 provider_data:
   doi: 10.67620/sai.58b0008
   journal: Science and Innovation
@@ -56,3 +60,10 @@ This article examines the development of primary school pupils’ creative poten
 - **Journal:** Science and Innovation
 - **Publisher:** Science and Innovation LLC
 - **Type:** journal-article
+
+## AI enrichment
+
+- **Concise summary:** This education article synthesizes 18 sources into a conceptual progression for creative thinking and formative assessment in Grades 1-4.
+- **Why it matters:** Creative potential here concerns pupil development, not potential-energy models; recognizing that distinction removes a likely keyword-scan false positive.
+- **Caveat:** The framework still requires classroom validation, and the abstract explicitly warns that PISA findings are not direct evidence about primary pupils.
+- **Evidence:** [Captured source](https://doi.org/10.67620/sai.58b0008); analysis based only on captured metadata, not independently verified full text.
