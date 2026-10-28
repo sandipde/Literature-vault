@@ -6098,6 +6098,32 @@
       "last_requested_at": "2026-10-27T21:06:03+00:00",
       "published_at": "2026-10-27",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.32905": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.32905",
+      "original_url": "https://arxiv.org/abs/2610.32905",
+      "title": "Combining Simulations and Spectroscopy to Design Protective Coatings on Sulfide Solid Electrolytes",
+      "notes": [
+        "notes/182_Combining_Simulations_and_Spectroscopy_to_Design_P.md"
+      ],
+      "added_at": "2026-10-28T06:46:40+00:00",
+      "last_requested_at": "2026-10-28T06:46:40+00:00",
+      "published_at": "2026-10-23",
+      "updated_at": "2026-10-23T17:08:40Z"
+    },
+    "https://github.com/craabreu/sieve": {
+      "type": "github",
+      "canonical_url": "https://github.com/craabreu/sieve",
+      "original_url": "https://github.com/craabreu/sieve",
+      "title": "GitHub - craabreu/sieve: Support-gated Inference over Enriched Vertex Environments · GitHub",
+      "notes": [
+        "notes/185_GitHub_-_craabreu_sieve_Support-gated_Inference_ov.md"
+      ],
+      "added_at": "2026-10-28T08:14:53+00:00",
+      "last_requested_at": "2026-10-28T08:14:53+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
