@@ -43,6 +43,10 @@ abstract: Sulfide solid electrolytes are attractive for all-solid-state batterie
   chain lengths offer the best balance between moisture protection and ionic conductivity.
 metadata_provider: arXiv
 metadata_status: complete
+enriched_on: '2026-10-28'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [solid-electrolytes, protective-coatings, machine-learning-potentials]
 provider_data:
   arxiv_id: '2610.32905'
   categories:
@@ -69,3 +73,10 @@ Sulfide solid electrolytes are attractive for all-solid-state batteries because 
 - **Categories:** ["cond-mat.mtrl-sci"]
 - **Primary Category:** cond-mat.mtrl-sci
 - **Updated:** 2026-10-23T17:08:40Z
+
+## AI enrichment
+
+- **Concise summary:** The authors combine a fine-tuned PET-MAD potential with spectroscopy to study molecular protection of sulfide electrolytes. They report that intermediate chain lengths balance moisture exclusion against lithium-ion transport.
+- **Why it matters:** The study connects coating chemistry and morphology to competing protection and conductivity requirements in battery interfaces.
+- **Caveat:** Captured preprint abstract only; reported conductivity retention and coating thresholds have not been independently validated.
+- **Evidence:** [Captured source](https://arxiv.org/abs/2610.32905); analysis based only on captured metadata, not independently verified full text.
