@@ -6358,6 +6358,123 @@
       "last_requested_at": "2026-10-28T10:56:07+00:00",
       "published_at": "2026-10-28",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.mineng.2026.111009": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.mineng.2026.111009",
+      "original_url": "https://doi.org/10.1016/j.mineng.2026.111009",
+      "title": "A physics-consistent equivariant graph neural network surrogate for power draw and the collision-energy environment of a vertical stirred media mill",
+      "notes": [
+        "notes/crossref_A_physics-consistent_equivariant_graph_neural_8d9e3d1778.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115182": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115182",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115182",
+      "title": "Fast and transferable interatomic potential for alloys, compounds, and hydrides in the Fe–Cr–Ni–Ti–H system",
+      "notes": [
+        "notes/crossref_Fast_and_transferable_interatomic_potential_f_6f23491bd9.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/jacs.6c07432.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/jacs.6c07432.s001",
+      "original_url": "https://doi.org/10.1021/jacs.6c07432.s001",
+      "title": "The Shear-Bond Descriptor and Universal Machine-Learning Potential Enable Large-Scale Discovery of Negative Thermal Expansion Materials",
+      "notes": [
+        "notes/crossref_The_Shear-Bond_Descriptor_and_Universal_Machi_dd33e8e68c.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.ifacol.2026.10.032": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.ifacol.2026.10.032",
+      "original_url": "https://doi.org/10.1016/j.ifacol.2026.10.032",
+      "title": "An Integrated Experiential and Active Learning Approach to Teaching Simulation-Driven Design",
+      "notes": [
+        "notes/crossref_An_Integrated_Experiential_and_Active_Learnin_98b6e1ae91.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.nanolett.6c03267.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.nanolett.6c03267.s001",
+      "original_url": "https://doi.org/10.1021/acs.nanolett.6c03267.s001",
+      "title": "Magnetism beyond the Monolayer: Long-Range Order in an Interfacial Phase of CoBr2",
+      "notes": [
+        "notes/crossref_Magnetism_beyond_the_Monolayer_Long-Range_Ord_d865f7c506.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011187/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011187/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011187/v1",
+      "title": "Autonomous discovery of reaction networks from active-learning-driven reactive molecular dynamics",
+      "notes": [
+        "notes/chemrxiv_Autonomous_discovery_of_reaction_networks_fro_1cf194252c.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011121/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011121/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011121/v2",
+      "title": "Model-Kernel Corrected DIIS: Cheap Response Information for the Roothaan Step",
+      "notes": [
+        "notes/chemrxiv_Model-Kernel_Corrected_DIIS_Cheap_Response_In_e176f599b4.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15007046/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15007046/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15007046/v2",
+      "title": "Mitigating Catalyst Leaching and Deactivation in Heterogeneous Hydrogen-Bonding/Tertiary Amine Chiral Organocatalysts",
+      "notes": [
+        "notes/chemrxiv_Mitigating_Catalyst_Leaching_and_Deactivation_2c4b19b4e8.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://github.com/bracerino/umlip-interactive": {
+      "type": "github",
+      "canonical_url": "https://github.com/bracerino/umlip-interactive",
+      "original_url": "https://github.com/bracerino/uMLIP-Interactive",
+      "title": "bracerino/uMLIP-Interactive",
+      "notes": [
+        "notes/github_bracerino_uMLIP-Interactive_dd7e057a88.md"
+      ],
+      "added_at": "2026-10-28T21:29:02+00:00",
+      "last_requested_at": "2026-10-28T21:29:02+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-28T12:55:12Z"
     }
   }
 }
