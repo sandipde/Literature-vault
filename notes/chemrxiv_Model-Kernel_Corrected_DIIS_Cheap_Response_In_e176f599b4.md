@@ -37,6 +37,10 @@ abstract: Nearly all Kohn–Sham density functional theory (DFT) and Hartree–F
   codes and combined with other convergence aids.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-29'
+enrichment_method: llm-captured-metadata
+enrichment_category: Mathematics and algorithms
+enrichment_tags: [scf-convergence, diis, density-functional-theory, hartree-fock]
 provider_data:
   doi: 10.26434/chemrxiv.15011121/v2
   journal: ''
@@ -61,3 +65,10 @@ Nearly all Kohn–Sham density functional theory (DFT) and Hartree–Fock calcul
 - **Doi:** 10.26434/chemrxiv.15011121/v2
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract proposes correcting DIIS's Roothaan step with an inexpensive model of Coulomb response, aiming to reduce charge-sloshing-related self-consistent-field iterations without extra Fock builds.
+- **Why it matters:** If validated in broader workloads, a low-overhead convergence improvement could benefit routine DFT and Hartree–Fock calculations, especially as molecular systems grow.
+- **Caveat:** This is a ChemRxiv version 2 preprint. The reported Fock-build reductions, runtime overhead, scaling, and convergence behavior are author-reported; they were not independently benchmarked or reproduced.
+- **Evidence:** Captured Crossref title, abstract, and provider metadata; [ChemRxiv record](https://doi.org/10.26434/chemrxiv.15011121/v2). The analysis uses captured metadata only, not full text.

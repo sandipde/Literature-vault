@@ -16,6 +16,12 @@ published: '2026'
 abstract: ''
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-29'
+enrichment_method: llm-captured-metadata-and-public-source-checks
+enrichment_category: Other and possible scan noise
+enrichment_tags: [simulation-education, active-learning, engineering-design]
+recovery_status: unavailable
+recovery_checked_on: '2026-10-29'
 provider_data:
   doi: 10.1016/j.ifacol.2026.10.032
   journal: IFAC-PapersOnLine
@@ -38,3 +44,17 @@ provider_data:
 - **Journal:** IFAC-PapersOnLine
 - **Publisher:** Elsevier BV
 - **Type:** journal-article
+
+## Source recovery
+
+- **Checked on:** 2026-10-29.
+- **Attempted source:** https://doi.org/10.1016/j.ifacol.2026.10.032
+- **Outcome:** The DOI resolver reached an Elsevier redirect page exposing the article title and identifier, but no abstract or substantive article text was available in the retrieved content.
+- **Limitations:** No study design, participants, teaching outcomes, or evaluation results could be recovered.
+
+## AI enrichment
+
+- **Concise summary:** The title describes an experiential and active-learning approach to simulation-driven design education; the captured record provides no abstract or details of its implementation.
+- **Why it matters:** It may be relevant to teaching simulation-based engineering, although it does not appear to concern machine learning or atomistic simulation methods.
+- **Caveat:** Title-only and likely off-topic for this MLIP-focused scanner. No educational intervention or effectiveness claim can be assessed from the available metadata.
+- **Evidence:** Captured Crossref title and provider metadata; [publisher DOI record](https://doi.org/10.1016/j.ifacol.2026.10.032), whose retrieved redirect page exposed no abstract. No full-text review was performed.

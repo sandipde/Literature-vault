@@ -30,6 +30,10 @@ abstract: Reaction networks underlie complex chemical systems such as combustion
   also unveils novel species such as an isomer of the key intermediate HPMTF.
 metadata_provider: Crossref
 metadata_status: complete
+enriched_on: '2026-10-29'
+enrichment_method: llm-captured-metadata
+enrichment_category: Atomistic chemistry and materials
+enrichment_tags: [reactive-md, active-learning, reaction-networks, llm-agents]
 provider_data:
   doi: 10.26434/chemrxiv.15011187/v1
   journal: ''
@@ -54,3 +58,10 @@ Reaction networks underlie complex chemical systems such as combustion, catalysi
 - **Doi:** 10.26434/chemrxiv.15011187/v1
 - **Publisher:** American Chemical Society (ACS)
 - **Type:** posted-content
+
+## AI enrichment
+
+- **Concise summary:** The abstract describes an active-learning nanoreactor workflow that automates reaction extraction and transition-state search, applied to dimethyl-sulfide oxidation to expand a reaction network.
+- **Why it matters:** It connects adaptive simulation with agent-assisted analysis, a potentially useful route for exploring reactive systems whose pathways are too numerous for manual enumeration.
+- **Caveat:** This is a ChemRxiv version 1 preprint. The reported simulation duration, calculation count, network size, and newly identified species are author-reported; no full-text review or independent reproduction was performed.
+- **Evidence:** Captured Crossref title, abstract, and provider metadata; [ChemRxiv record](https://doi.org/10.26434/chemrxiv.15011187/v1). The analysis uses captured metadata only, not full text.
