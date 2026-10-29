@@ -6683,6 +6683,45 @@
       "last_requested_at": "2026-10-29T11:14:56+00:00",
       "published_at": "2026-10-29",
       "updated_at": ""
+    },
+    "https://doi.org/10.1063/5.0356115": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1063/5.0356115",
+      "original_url": "https://doi.org/10.1063/5.0356115",
+      "title": "Atomic-scale simulation of a bismuth liquid-metal ion source using a universal machine-learning interatomic potential",
+      "notes": [
+        "notes/crossref_Atomic-scale_simulation_of_a_bismuth_liquid-m_9213966a12.md"
+      ],
+      "added_at": "2026-10-29T21:30:21+00:00",
+      "last_requested_at": "2026-10-29T21:30:21+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011258/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011258/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011258/v2",
+      "title": "Correcting the Liquid Densities of Universal Machine-Learning Interatomic Potentials Using Local-Number-Density Repulsion",
+      "notes": [
+        "notes/crossref_Correcting_the_Liquid_Densities_of_Universal__4694f932e3.md"
+      ],
+      "added_at": "2026-10-29T21:30:21+00:00",
+      "last_requested_at": "2026-10-29T21:30:21+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jpclett.6c02241.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpclett.6c02241.s001",
+      "original_url": "https://doi.org/10.1021/acs.jpclett.6c02241.s001",
+      "title": "Transferable Atom-Pair Graph Neural Network for Few-Shot Reconstruction of Rigid Homobilayer Sliding Potential-Energy Surfaces",
+      "notes": [
+        "notes/crossref_Transferable_Atom-Pair_Graph_Neural_Network_f_6aec4fbb2d.md"
+      ],
+      "added_at": "2026-10-29T21:30:21+00:00",
+      "last_requested_at": "2026-10-29T21:30:21+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
     }
   }
 }
