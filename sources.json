@@ -6891,6 +6891,19 @@
       "last_requested_at": "2026-10-30T11:12:17+00:00",
       "published_at": "",
       "updated_at": "2026-10-30T07:21:40.788Z"
+    },
+    "https://ag-salinga.zivgitlabpages.uni-muenster.de/fastatomstruct/examples/mace.html": {
+      "type": "web",
+      "canonical_url": "https://ag-salinga.zivgitlabpages.uni-muenster.de/fastatomstruct/examples/mace.html",
+      "original_url": "https://ag-salinga.zivgitlabpages.uni-muenster.de/fastatomstruct/examples/mace.html",
+      "title": "Machine-learning potentials with MACE — fastatomstruct 2.1.0 documentation",
+      "notes": [
+        "notes/190_Machine-learning_potentials_with_MACE_fastatomstru.md"
+      ],
+      "added_at": "2026-10-30T11:13:44+00:00",
+      "last_requested_at": "2026-10-30T11:13:44+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
