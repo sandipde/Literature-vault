@@ -6904,6 +6904,19 @@
       "last_requested_at": "2026-10-30T11:13:44+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2609.40060": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2609.40060",
+      "original_url": "https://arxiv.org/abs/2609.40060",
+      "title": "A latent-space extrapolation grade built into graph atomic cluster expansion foundation potentials",
+      "notes": [
+        "notes/191_A_latent-space_extrapolation_grade_built_into_grap.md"
+      ],
+      "added_at": "2026-10-30T11:14:21+00:00",
+      "last_requested_at": "2026-10-30T11:14:21+00:00",
+      "published_at": "2026-09-30",
+      "updated_at": "2026-09-30T16:21:09Z"
     }
   }
 }
