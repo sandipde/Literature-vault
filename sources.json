@@ -6722,6 +6722,162 @@
       "last_requested_at": "2026-10-29T21:30:21+00:00",
       "published_at": "2026-10-29",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.40126": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.40126",
+      "original_url": "https://arxiv.org/abs/2610.40126",
+      "title": "Does System Size Matter in Uncertainty Quantification for Machine Learning Interatomic Potentials?",
+      "notes": [
+        "notes/arxiv_2610.40126_Does_System_Size_Matter_in_Uncertainty_Quanti_7fca3bfc88.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.40648": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.40648",
+      "original_url": "https://arxiv.org/abs/2610.40648",
+      "title": "Light-Cone Friedel Oscillations: a Window into van Hove Superconductivity",
+      "notes": [
+        "notes/arxiv_2610.40648_Light-Cone_Friedel_Oscillations_a_Window_into_4aae8f584e.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.40638": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.40638",
+      "original_url": "https://arxiv.org/abs/2610.40638",
+      "title": "Entanglement diagnostics of stochastic-resetting steady states: theory and measurement on superconducting qubits",
+      "notes": [
+        "notes/arxiv_2610.40638_Entanglement_diagnostics_of_stochastic-resett_6f8e6f6965.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.40621": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.40621",
+      "original_url": "https://arxiv.org/abs/2610.40621",
+      "title": "Generalizing Density Functional Theory with a Particle-Hole Expansion",
+      "notes": [
+        "notes/arxiv_2610.40621_Generalizing_Density_Functional_Theory_with_a_9ba6d623e6.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.40445": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.40445",
+      "original_url": "https://arxiv.org/abs/2610.40445",
+      "title": "ML-COHP: predicting bond descriptors using latent space of a universal interatomic potentials",
+      "notes": [
+        "notes/arxiv_2610.40445_ML-COHP_predicting_bond_descriptors_using_lat_98495f445a.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011308/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011308/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011308/v1",
+      "title": "Accuracy, Reliability, and Efficiency of a MACE Machine-Learning Interatomic Potential for Aspirin: A Reproducible Benchmark for Molecular Simulation",
+      "notes": [
+        "notes/crossref_Accuracy_Reliability_and_Efficiency_of_a_MACE_c375623bc5.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104409": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104409",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104409",
+      "title": "Optimized synergistic degradation of tetracycline by corona discharge and microelectrolysis using based on response surface methodology",
+      "notes": [
+        "notes/crossref_Optimized_synergistic_degradation_of_tetracyc_4f168683fb.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.5040/9781978741775.ch-005": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.5040/9781978741775.ch-005",
+      "original_url": "https://doi.org/10.5040/9781978741775.ch-005",
+      "title": "“Long Range Propositions”",
+      "notes": [
+        "notes/crossref_Long_Range_Propositions_4adb175cac.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2018",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jpclett.6c02938.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpclett.6c02938.s001",
+      "original_url": "https://doi.org/10.1021/acs.jpclett.6c02938.s001",
+      "title": "Predictive Description of Condensed-Phase Hyperfine Coupling Constants Relies on Dielectric Screening of Long-Range Exchange",
+      "notes": [
+        "notes/crossref_Predictive_Description_of_Condensed-Phase_Hyp_e89ca76b46.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/17515831261503756": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/17515831261503756",
+      "original_url": "https://doi.org/10.1177/17515831261503756",
+      "title": "Innovative method to modify an APS-formed lamellar ceramic coating into a fully dense and columnar microstructure",
+      "notes": [
+        "notes/crossref_Innovative_method_to_modify_an_APS-formed_lam_29ffa39c59.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/17515831261501903": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/17515831261501903",
+      "original_url": "https://doi.org/10.1177/17515831261501903",
+      "title": "Avocado oil-based GNPs/TiO <sub>2</sub> hybrid nanocutting fluid for sustainable machining of AISI 1045 steel under MQL-CNC milling",
+      "notes": [
+        "notes/crossref_Avocado_oil-based_GNPs_TiO_sub_2_sub_hybrid_n_a060e80003.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-29",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011319/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011319/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011319/v1",
+      "title": "Temperature Mediated Balance of Singlet Fission and Symmetry-Breaking Charge-Transfer in a Polycrystalline Perylene Bisimide Thin Film",
+      "notes": [
+        "notes/chemrxiv_Temperature_Mediated_Balance_of_Singlet_Fissi_3d37c35b23.md"
+      ],
+      "added_at": "2026-10-30T11:09:08+00:00",
+      "last_requested_at": "2026-10-30T11:09:08+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": ""
     }
   }
 }
