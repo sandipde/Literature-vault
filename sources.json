@@ -6917,6 +6917,58 @@
       "last_requested_at": "2026-10-30T11:14:21+00:00",
       "published_at": "2026-09-30",
       "updated_at": "2026-09-30T16:21:09Z"
+    },
+    "https://doi.org/10.2139/ssrn.7664978": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7664978",
+      "original_url": "https://doi.org/10.2139/ssrn.7664978",
+      "title": "Label-Efficient Patient Prioritization from Pairwise Preferences: A Simulation-Based Evaluation of Learning-to-Rank and Active-Learning Strategies",
+      "notes": [
+        "notes/crossref_Label-Efficient_Patient_Prioritization_from_P_8f3aa1d888.md"
+      ],
+      "added_at": "2026-10-30T21:20:44+00:00",
+      "last_requested_at": "2026-10-30T21:20:44+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111158": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111158",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111158",
+      "title": "Graphitic Carbon Nitride Monolayers as Promising Electrochemical Sensing Materials for 5-Fluorouracil: A Density Functional Theory Perspective",
+      "notes": [
+        "notes/crossref_Graphitic_Carbon_Nitride_Monolayers_as_Promis_c226c8ade3.md"
+      ],
+      "added_at": "2026-10-30T21:20:44+00:00",
+      "last_requested_at": "2026-10-30T21:20:44+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111161": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111161",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111161",
+      "title": "First‑principles calculations on sodium‑storage performance of boron‑nitrogen co‑doped γ‑graphyne anode materials",
+      "notes": [
+        "notes/crossref_First_principles_calculations_on_sodium_stora_fc9179a878.md"
+      ],
+      "added_at": "2026-10-30T21:20:44+00:00",
+      "last_requested_at": "2026-10-30T21:20:44+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://github.com/sania934/mlip-project": {
+      "type": "github",
+      "canonical_url": "https://github.com/sania934/mlip-project",
+      "original_url": "https://github.com/sania934/MLIP-project",
+      "title": "sania934/MLIP-project",
+      "notes": [
+        "notes/github_sania934_MLIP-project_71085d041f.md"
+      ],
+      "added_at": "2026-10-30T21:20:44+00:00",
+      "last_requested_at": "2026-10-30T21:20:44+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-30T11:12:52Z"
     }
   }
 }
