@@ -1,0 +1,46 @@
+---
+title: el-oso/PureAtomistic.jl
+type: github
+source: https://github.com/el-oso/PureAtomistic.jl
+canonical_url: https://github.com/el-oso/pureatomistic.jl
+captured_by: auto-scanner
+date: '2026-10-31'
+captured_at: '2026-10-31T10:41:48+00:00'
+last_requested: '2026-10-31T10:41:48+00:00'
+issue: scan:mlip-development-github
+status: to-read
+authors: []
+published: ''
+abstract: Pure-Julia machine-learned interatomic potentials (MACE) and molecular dynamics
+metadata_provider: GitHub
+metadata_status: complete
+provider_data:
+  description: Pure-Julia machine-learned interatomic potentials (MACE) and molecular
+    dynamics
+  language: Julia
+  topics: []
+  license: MIT
+  stars: 0
+  forks: 0
+  open_issues: 0
+  pushed_at: '2026-10-31T07:59:36Z'
+---
+
+# el-oso/PureAtomistic.jl
+
+- **Type:** github
+- **Source:** https://github.com/el-oso/PureAtomistic.jl
+- **Captured by:** @auto-scanner
+- **Metadata:** complete (GitHub)
+
+## Summary
+Pure-Julia machine-learned interatomic potentials (MACE) and molecular dynamics
+
+## Provider details
+- **Description:** Pure-Julia machine-learned interatomic potentials (MACE) and molecular dynamics
+- **Language:** Julia
+- **License:** MIT
+- **Stars:** 0
+- **Forks:** 0
+- **Open Issues:** 0
+- **Pushed At:** 2026-10-31T07:59:36Z

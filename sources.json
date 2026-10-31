@@ -6982,6 +6982,97 @@
       "last_requested_at": "2026-10-31T10:23:28+00:00",
       "published_at": "2026-10-26",
       "updated_at": ""
+    },
+    "https://doi.org/10.1007/s44498-026-00198-7": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s44498-026-00198-7",
+      "original_url": "https://doi.org/10.1007/s44498-026-00198-7",
+      "title": "Characterising the Swiss window stock and retrofit potential using machine-learning",
+      "notes": [
+        "notes/crossref_Characterising_the_Swiss_window_stock_and_ret_c5ce6a6d8a.md"
+      ],
+      "added_at": "2026-10-31T10:41:48+00:00",
+      "last_requested_at": "2026-10-31T10:41:48+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1002/adom.72006": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1002/adom.72006",
+      "original_url": "https://doi.org/10.1002/adom.72006",
+      "title": "Photodiode and Photomultiplication Organic Photodetectors: A Comprehensive Review of Materials, Working Mechanisms and Potential Applications",
+      "notes": [
+        "notes/crossref_Photodiode_and_Photomultiplication_Organic_Ph_69529eb7e8.md"
+      ],
+      "added_at": "2026-10-31T10:41:48+00:00",
+      "last_requested_at": "2026-10-31T10:41:48+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/access.2026.3748459": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/access.2026.3748459",
+      "original_url": "https://doi.org/10.1109/access.2026.3748459",
+      "title": "Learning Functional Specifications from Stateful Control Programs through Active Model Learning",
+      "notes": [
+        "notes/crossref_Learning_Functional_Specifications_from_State_b6fe9a1ab3.md"
+      ],
+      "added_at": "2026-10-31T10:41:48+00:00",
+      "last_requested_at": "2026-10-31T10:41:48+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104395": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104395",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104395",
+      "title": "Electrode arrangement-independent characterization of high-resistivity dust based on extended voltage response measurements",
+      "notes": [
+        "notes/crossref_Electrode_arrangement-independent_characteriz_8df7b8b692.md"
+      ],
+      "added_at": "2026-10-31T10:41:48+00:00",
+      "last_requested_at": "2026-10-31T10:41:48+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011181/v3": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011181/v3",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011181/v3",
+      "title": "Ni/TiO <sub>2</sub> Interfaces Enhance Benzaldehyde Selectivity in the Photocatalytic Dehydrogenation of Benzyl Alcohol",
+      "notes": [
+        "notes/chemrxiv_Ni_TiO_sub_2_sub_Interfaces_Enhance_Benzaldeh_e5e76a977c.md"
+      ],
+      "added_at": "2026-10-31T10:41:48+00:00",
+      "last_requested_at": "2026-10-31T10:41:48+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": ""
+    },
+    "https://github.com/el-oso/pureatomistic.jl": {
+      "type": "github",
+      "canonical_url": "https://github.com/el-oso/pureatomistic.jl",
+      "original_url": "https://github.com/el-oso/PureAtomistic.jl",
+      "title": "el-oso/PureAtomistic.jl",
+      "notes": [
+        "notes/github_el-oso_PureAtomistic_jl_af0f54275b.md"
+      ],
+      "added_at": "2026-10-31T10:41:48+00:00",
+      "last_requested_at": "2026-10-31T10:41:48+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-31T07:59:36Z"
+    },
+    "https://github.com/sirmarcel/tasd4mlip-archive": {
+      "type": "github",
+      "canonical_url": "https://github.com/sirmarcel/tasd4mlip-archive",
+      "original_url": "https://github.com/sirmarcel/tasd4mlip-archive",
+      "title": "sirmarcel/tasd4mlip-archive",
+      "notes": [
+        "notes/github_sirmarcel_tasd4mlip-archive_2057a51fd8.md"
+      ],
+      "added_at": "2026-10-31T10:41:48+00:00",
+      "last_requested_at": "2026-10-31T10:41:48+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-31T10:09:11Z"
     }
   }
 }
