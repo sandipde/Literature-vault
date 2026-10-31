@@ -6969,6 +6969,19 @@
       "last_requested_at": "2026-10-30T21:20:44+00:00",
       "published_at": "",
       "updated_at": "2026-10-30T11:12:52Z"
+    },
+    "https://pubmed.ncbi.nlm.nih.gov/42933987": {
+      "type": "web",
+      "canonical_url": "https://pubmed.ncbi.nlm.nih.gov/42933987",
+      "original_url": "https://pubmed.ncbi.nlm.nih.gov/42933987/",
+      "title": "Simple Descriptors for Predicting Fischer-Tropsch Selectivity and Activity Trends",
+      "notes": [
+        "notes/192_Simple_Descriptors_for_Predicting_Fischer-Tropsch_.md"
+      ],
+      "added_at": "2026-10-31T10:23:28+00:00",
+      "last_requested_at": "2026-10-31T10:23:28+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": ""
     }
   }
 }
