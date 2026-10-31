@@ -7073,6 +7073,19 @@
       "last_requested_at": "2026-10-31T10:41:48+00:00",
       "published_at": "",
       "updated_at": "2026-10-31T10:09:11Z"
+    },
+    "https://github.com/sammccallum/lfm": {
+      "type": "github",
+      "canonical_url": "https://github.com/sammccallum/lfm",
+      "original_url": "https://github.com/sammccallum/lfm",
+      "title": "sammccallum/lfm",
+      "notes": [
+        "notes/193_sammccallum_lfm.md"
+      ],
+      "added_at": "2026-10-31T12:26:18+00:00",
+      "last_requested_at": "2026-10-31T12:26:18+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-06T06:36:27Z"
     }
   }
 }
