@@ -7086,6 +7086,19 @@
       "last_requested_at": "2026-10-31T12:26:18+00:00",
       "published_at": "",
       "updated_at": "2026-10-06T06:36:27Z"
+    },
+    "https://github.com/angus-e-mcmillan/hexsketch": {
+      "type": "github",
+      "canonical_url": "https://github.com/angus-e-mcmillan/hexsketch",
+      "original_url": "https://github.com/angus-e-mcmillan/HexSketch",
+      "title": "angus-e-mcmillan/HexSketch",
+      "notes": [
+        "notes/194_angus-e-mcmillan_HexSketch.md"
+      ],
+      "added_at": "2026-10-31T20:11:16+00:00",
+      "last_requested_at": "2026-10-31T20:11:16+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-29T21:06:18Z"
     }
   }
 }
