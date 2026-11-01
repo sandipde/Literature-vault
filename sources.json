@@ -7099,6 +7099,149 @@
       "last_requested_at": "2026-10-31T20:11:16+00:00",
       "published_at": "",
       "updated_at": "2026-10-29T21:06:18Z"
+    },
+    "https://doi.org/10.1016/j.lmot.2026.102382": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lmot.2026.102382",
+      "original_url": "https://doi.org/10.1016/j.lmot.2026.102382",
+      "title": "Reducing learned helplessness through a motivational strategy intervention: Associations with EFL learners' learned helplessness and academic achievement in a quasi-experimental classroom study",
+      "notes": [
+        "notes/crossref_Reducing_learned_helplessness_through_a_motiv_9d1aa8eaaf.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.66977/xsci.2611.0003": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.66977/xsci.2611.0003",
+      "original_url": "https://doi.org/10.66977/xsci.2611.0003",
+      "title": "The Second Homogenization: Learned Commensuration and What Is Proper to Artificial Intelligence",
+      "notes": [
+        "notes/crossref_The_Second_Homogenization_Learned_Commensurat_47545211c1.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.22541/essoar.15011376/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.22541/essoar.15011376/v1",
+      "original_url": "https://doi.org/10.22541/essoar.15011376/v1",
+      "title": "Physics-informed neural network for three-dimensional ionospheric electron density modeling",
+      "notes": [
+        "notes/crossref_Physics-informed_neural_network_for_three-dim_1f4037c2f8.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.22541/essoar.15011385/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.22541/essoar.15011385/v1",
+      "original_url": "https://doi.org/10.22541/essoar.15011385/v1",
+      "title": "A BAYESIAN PHYSICS-DRIVEN NEURAL NETWORK FOR ELASTIC LOG PREDICTION VIA CROSS-BASIN TRANSFER LEARNING",
+      "notes": [
+        "notes/crossref_A_BAYESIAN_PHYSICS-DRIVEN_NEURAL_NETWORK_FOR__474ef95e20.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.rineng.2026.113893": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.rineng.2026.113893",
+      "original_url": "https://doi.org/10.1016/j.rineng.2026.113893",
+      "title": "Industrial Waste Glass Powders for Microwave-Sintered Vitrification of Simulated Radioactive Sludge: Composition-Dependent Network Evolution, Chemical Durability and Atomistic Insights",
+      "notes": [
+        "notes/crossref_Industrial_Waste_Glass_Powders_for_Microwave-_bc22c8b233.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.5220/0015310500004985": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.5220/0015310500004985",
+      "original_url": "https://doi.org/10.5220/0015310500004985",
+      "title": "Explainability-Aware Active Learning for Recommender Systems",
+      "notes": [
+        "notes/crossref_Explainability-Aware_Active_Learning_for_Reco_cd39b5576b.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104412": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104412",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104412",
+      "title": "Cold atmospheric plasma-induced surface charge and multi-spectral optical enhancement in bio-derived photosensitizers: Experimental and theoretical study",
+      "notes": [
+        "notes/crossref_Cold_atmospheric_plasma-induced_surface_charg_2cee7eeff9.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.optmat.2026.118644": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.optmat.2026.118644",
+      "original_url": "https://doi.org/10.1016/j.optmat.2026.118644",
+      "title": "TiO2/RGO Thin Films for Efficient UV Photocatalytic Degradation of Methylene Blue: Insights into Charge Transfer and Reactive Species",
+      "notes": [
+        "notes/crossref_TiO2_RGO_Thin_Films_for_Efficient_UV_Photocat_3b6cce1a63.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111175": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111175",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111175",
+      "title": "The selenium induced restoration of the Si(111) surface by the 7x7 to “1x1” phase transition",
+      "notes": [
+        "notes/crossref_The_selenium_induced_restoration_of_the_Si_11_a828a26dce.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111178": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111178",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111178",
+      "title": "Saraca asoca Leaf-Extract-Assisted Synthesis of Al-Doped Hydroxyapatite Nanocomposite for Fluoride Adsorption: Performance, Regeneration, and Real-Water Evaluation",
+      "notes": [
+        "notes/crossref_Saraca_asoca_Leaf-Extract-Assisted_Synthesis__2764db21f7.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111176": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111176",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111176",
+      "title": "Nanocrystalline Magnetic Iron-Oxide-Based Aerogels: Synthesis, Structure, and Advanced Characterization",
+      "notes": [
+        "notes/crossref_Nanocrystalline_Magnetic_Iron-Oxide-Based_Aer_9e17af0773.md"
+      ],
+      "added_at": "2026-11-01T11:37:28+00:00",
+      "last_requested_at": "2026-11-01T11:37:28+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
     }
   }
 }
