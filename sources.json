@@ -7242,6 +7242,19 @@
       "last_requested_at": "2026-11-01T11:37:28+00:00",
       "published_at": "2026-10",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111182": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111182",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111182",
+      "title": "Cobalt-Doped CuO Photocathodes with Improved Surface Morphology for Effective Photoelectrochemical Hydrogen Production: Performance Assessment",
+      "notes": [
+        "notes/crossref_Cobalt-Doped_CuO_Photocathodes_with_Improved__3924008834.md"
+      ],
+      "added_at": "2026-11-01T20:56:14+00:00",
+      "last_requested_at": "2026-11-01T20:56:14+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
     }
   }
 }
