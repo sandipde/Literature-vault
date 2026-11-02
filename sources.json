@@ -7606,6 +7606,19 @@
       "last_requested_at": "2026-11-02T16:52:34+00:00",
       "published_at": "",
       "updated_at": "2026-11-02T15:35:05Z"
+    },
+    "https://github.com/paulsonlab/beacon": {
+      "type": "github",
+      "canonical_url": "https://github.com/paulsonlab/beacon",
+      "original_url": "https://github.com/PaulsonLab/BEACON",
+      "title": "PaulsonLab/BEACON",
+      "notes": [
+        "notes/196_PaulsonLab_BEACON.md"
+      ],
+      "added_at": "2026-11-02T18:10:42+00:00",
+      "last_requested_at": "2026-11-02T18:10:42+00:00",
+      "published_at": "",
+      "updated_at": "2026-10-12T04:16:57Z"
     }
   }
 }
