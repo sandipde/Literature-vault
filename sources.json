@@ -7593,6 +7593,19 @@
       "last_requested_at": "2026-11-02T13:02:05+00:00",
       "published_at": "",
       "updated_at": "2026-11-01T23:45:09Z"
+    },
+    "https://github.com/huggingface/paperswithcode": {
+      "type": "github",
+      "canonical_url": "https://github.com/huggingface/paperswithcode",
+      "original_url": "https://github.com/huggingface/paperswithcode",
+      "title": "huggingface/paperswithcode",
+      "notes": [
+        "notes/195_huggingface_paperswithcode.md"
+      ],
+      "added_at": "2026-11-02T16:52:34+00:00",
+      "last_requested_at": "2026-11-02T16:52:34+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-02T15:35:05Z"
     }
   }
 }
