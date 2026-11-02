@@ -7619,6 +7619,149 @@
       "last_requested_at": "2026-11-02T18:10:42+00:00",
       "published_at": "",
       "updated_at": "2026-10-12T04:16:57Z"
+    },
+    "https://doi.org/10.1063/5.0344922": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1063/5.0344922",
+      "original_url": "https://doi.org/10.1063/5.0344922",
+      "title": "A systematic framework for constructing reactive machine learning interatomic potentials",
+      "notes": [
+        "notes/crossref_A_systematic_framework_for_constructing_react_673fd91a29.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026-12-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.46427/gold2026.36088": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.46427/gold2026.36088",
+      "original_url": "https://doi.org/10.46427/gold2026.36088",
+      "title": "Data Resources and Machine Learning Approaches to Identify Lithium and Other Critical Mineral Potential in U.S. Geothermal Waters",
+      "notes": [
+        "notes/crossref_Data_Resources_and_Machine_Learning_Approache_2da37f203a.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.46427/gold2026.35868": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.46427/gold2026.35868",
+      "original_url": "https://doi.org/10.46427/gold2026.35868",
+      "title": "Predictive Modeling of Carbon Dioxide Removal Potential via Enhanced Rock Weathering in Agricultural Soils Using Machine Learning",
+      "notes": [
+        "notes/crossref_Predictive_Modeling_of_Carbon_Dioxide_Removal_80072f73d9.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.neunet.2026.109859": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.neunet.2026.109859",
+      "original_url": "https://doi.org/10.1016/j.neunet.2026.109859",
+      "title": "High-Order Neural Network Extended State-Observer with Nuclear Application",
+      "notes": [
+        "notes/crossref_High-Order_Neural_Network_Extended_State-Obse_41b99e68bc.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.4050/sm-2005-ihss-1753": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.4050/sm-2005-ihss-1753",
+      "original_url": "https://doi.org/10.4050/sm-2005-ihss-1753",
+      "title": "Apache Cooperative Project Office AH-64D Aircraft Safety Model \"Potential Cumulative Risk Model\"",
+      "notes": [
+        "notes/crossref_Apache_Cooperative_Project_Office_AH-64D_Airc_9bdcaa6fe6.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2005-09-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.mechmat.2026.105912": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.mechmat.2026.105912",
+      "original_url": "https://doi.org/10.1016/j.mechmat.2026.105912",
+      "title": "Coupled Effects of Model Size and Nanoscale Helium Bubbles on Micro-jetting and Micro-spallation in Shocked Copper",
+      "notes": [
+        "notes/crossref_Coupled_Effects_of_Model_Size_and_Nanoscale_H_408d062d8a.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.64972/dea.2023.v2i2.3619d": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.64972/dea.2023.v2i2.3619d",
+      "original_url": "https://doi.org/10.64972/dea.2023.v2i2.3619d:119-133",
+      "title": "SchNet-AL: Data-Driven Atomistic Representation and Uncertainty-Calibrated Active Learning for Sodium-Ion Cathode Screening",
+      "notes": [
+        "notes/crossref_SchNet-AL_Data-Driven_Atomistic_Representatio_3e6257e3aa.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2023-06-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111183": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111183",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111183",
+      "title": "Multi-carbazole groups in isomeric hole transport materials to achieve efficient and stable perovskite solar cells",
+      "notes": [
+        "notes/crossref_Multi-carbazole_groups_in_isomeric_hole_trans_4f3b944d8f.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011524/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011524/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011524/v1",
+      "title": "Materials Property Prediction with a Site-Resolved Three-Dimensional Voxel Convolution Neural Network",
+      "notes": [
+        "notes/chemrxiv_Materials_Property_Prediction_with_a_Site-Res_7677b87ddc.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010344/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010344/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010344/v2",
+      "title": "A Cellular Sheaf Model for Aromaticity in Discrete Molecular Systems",
+      "notes": [
+        "notes/chemrxiv_A_Cellular_Sheaf_Model_for_Aromaticity_in_Dis_d74170ca83.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011526/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011526/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011526/v1",
+      "title": "Negative effects of oxygen and halogen species on charge extraction in perovskite solar cells with fullerene electron transport layers",
+      "notes": [
+        "notes/chemrxiv_Negative_effects_of_oxygen_and_halogen_specie_d002f12f0c.md"
+      ],
+      "added_at": "2026-11-02T23:46:24+00:00",
+      "last_requested_at": "2026-11-02T23:46:24+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
     }
   }
 }
