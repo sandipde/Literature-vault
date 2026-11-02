@@ -7255,6 +7255,344 @@
       "last_requested_at": "2026-11-01T20:56:14+00:00",
       "published_at": "2026-11",
       "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011459/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011459/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011459/v1",
+      "title": "TS Second Opinion: catching, repairing and triaging mirror-image errors in machine-learned transition states",
+      "notes": [
+        "notes/crossref_TS_Second_Opinion_catching_repairing_and_tria_7b86090123.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.37514/wln-j.2000.25.4.01": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.37514/wln-j.2000.25.4.01",
+      "original_url": "https://doi.org/10.37514/wln-j.2000.25.4.01",
+      "title": "Looking backward and forward: What I learned in college",
+      "notes": [
+        "notes/crossref_Looking_backward_and_forward_What_I_learned_i_a8f42c9398.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2000",
+      "updated_at": ""
+    },
+    "https://doi.org/10.54364/aaiml.2026.65344": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.54364/aaiml.2026.65344",
+      "original_url": "https://doi.org/10.54364/aaiml.2026.65344",
+      "title": "Machine Learning for Ranking in Search Systems: A Scoping Review",
+      "notes": [
+        "notes/crossref_Machine_Learning_for_Ranking_in_Search_System_63a848a747.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.54364/aaiml.2026.65341": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.54364/aaiml.2026.65341",
+      "original_url": "https://doi.org/10.54364/aaiml.2026.65341",
+      "title": "Calibration-Aware Hybrid Machine Learning and Deep Learning Ensemble for Cardiovascular Disease Prediction",
+      "notes": [
+        "notes/crossref_Calibration-Aware_Hybrid_Machine_Learning_and_1492fd9951.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.54364/aaiml.2026.65351": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.54364/aaiml.2026.65351",
+      "original_url": "https://doi.org/10.54364/aaiml.2026.65351",
+      "title": "An Intelligent Speech Analytics Framework for Depression Detection: Comparative Assessment of Machine Learning Architectures",
+      "notes": [
+        "notes/crossref_An_Intelligent_Speech_Analytics_Framework_for_89f5bf2a59.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s00521-026-12541-x": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s00521-026-12541-x",
+      "original_url": "https://doi.org/10.1007/s00521-026-12541-x",
+      "title": "An adaptive edge enhanced neural network for multistage diabetic retinopathy classification",
+      "notes": [
+        "notes/crossref_An_adaptive_edge_enhanced_neural_network_for__881e3f9df5.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s00521-026-12595-x": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s00521-026-12595-x",
+      "original_url": "https://doi.org/10.1007/s00521-026-12595-x",
+      "title": "Topology-aware volatility forecasting in emerging markets: a Quantum Topological Microstructure Graph Neural Network (QTMS-GNN) approach",
+      "notes": [
+        "notes/crossref_Topology-aware_volatility_forecasting_in_emer_448d6e01b1.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.conbuildmat.2026.148723": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2026.148723",
+      "original_url": "https://doi.org/10.1016/j.conbuildmat.2026.148723",
+      "title": "Macro-meso dynamic damage model and fracture mechanisms of pre-cracked red sandstone under freeze-thaw cycles",
+      "notes": [
+        "notes/crossref_Macro-meso_dynamic_damage_model_and_fracture__6de2e272bd.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.5937/jre2601105m": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.5937/jre2601105m",
+      "original_url": "https://doi.org/10.5937/jre2601105m",
+      "title": "Regenerative tourism as a model for local ecosystem restoration: Potential applications in Serbia",
+      "notes": [
+        "notes/crossref_Regenerative_tourism_as_a_model_for_local_eco_35668a97b3.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1063/5.0352559": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1063/5.0352559",
+      "original_url": "https://doi.org/10.1063/5.0352559",
+      "title": "Two-state resonance narrowing model and verification of organic molecule emission spectra",
+      "notes": [
+        "notes/crossref_Two-state_resonance_narrowing_model_and_verif_7333928484.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-07",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010667/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010667/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010667/v2",
+      "title": "How the fruit fly mushroom body can help autonomous materials discovery",
+      "notes": [
+        "notes/crossref_How_the_fruit_fly_mushroom_body_can_help_auto_03e54fb56e.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.12681/eadd/62937": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.12681/eadd/62937",
+      "original_url": "https://doi.org/10.12681/eadd/62937",
+      "title": "Reliability analysis and Bayesian updating in structural engineering using active learning",
+      "notes": [
+        "notes/crossref_Reliability_analysis_and_Bayesian_updating_in_67445bf561.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104407": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104407",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104407",
+      "title": "Effect of millimeter-to-centimeter electrode spacing on ionic-wind velocity characteristics of a wire-plate AC-DBCD plasma actuator",
+      "notes": [
+        "notes/crossref_Effect_of_millimeter-to-centimeter_electrode__991828a0f0.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011478/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011478/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011478/v1",
+      "title": "Radial Kernel Attention for Long-Range Modeling in Polymer Machine Learning Force Fields",
+      "notes": [
+        "notes/crossref_Radial_Kernel_Attention_for_Long-Range_Modeli_dfaff2a3ed.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111187": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111187",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111187",
+      "title": "MXene Materials for Electronic Devices: Synthesis, Properties, and Emerging Applications",
+      "notes": [
+        "notes/crossref_MXene_Materials_for_Electronic_Devices_Synthe_5f69c72e43.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011461/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011461/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011461/v1",
+      "title": "Electrical Double Layers Shape the Kinetics of Heterogeneous Thermochemical Catalysis",
+      "notes": [
+        "notes/crossref_Electrical_Double_Layers_Shape_the_Kinetics_o_75ede72478.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011431/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011431/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011431/v1",
+      "title": "Machine learning–driven inverse design of nanofiltration membranes for selective Mg2+/Na+ separation",
+      "notes": [
+        "notes/chemrxiv_Machine_learning_driven_inverse_design_of_nan_3c04e17448.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011499/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011499/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011499/v1",
+      "title": "Construction of a Curated Literature Dataset and Machine Learning-Guided Exploration of Supported Metal Catalysts for Low- to Intermediate-Temperature Reverse Water–Gas Shift Reaction",
+      "notes": [
+        "notes/chemrxiv_Construction_of_a_Curated_Literature_Dataset__9907ab28c8.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011474/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011474/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011474/v1",
+      "title": "SolviScope: An Interaction-Aware Graph Neural Network for Solvent Ranking of Small Organic Molecules in Pure and Multicomponent Solvent Systems",
+      "notes": [
+        "notes/chemrxiv_SolviScope_An_Interaction-Aware_Graph_Neural__c85df0b562.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011426/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011426/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011426/v1",
+      "title": "Polarization Is Required to Model Electrostatic Preorganization: The Case of Chorismate Mutase",
+      "notes": [
+        "notes/chemrxiv_Polarization_Is_Required_to_Model_Electrostat_d986afb553.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011505/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011505/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011505/v1",
+      "title": "Beyond single numbers: how to choose host materials for deep-blue TADF OLEDs",
+      "notes": [
+        "notes/chemrxiv_Beyond_single_numbers_how_to_choose_host_mate_f4a272ca46.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011507/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011507/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011507/v1",
+      "title": "A Coupled Chemo-Mechanical and Life-Cycle Framework for Oyster-Shell-Derived Cementitious Materials in Aggressive Infrastructure Environments",
+      "notes": [
+        "notes/chemrxiv_A_Coupled_Chemo-Mechanical_and_Life-Cycle_Fra_09e4f0efb3.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011506/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011506/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011506/v1",
+      "title": "Impedance, admittance or current–voltage? What each measurement really tells about charge transport in deepblue hosts",
+      "notes": [
+        "notes/chemrxiv_Impedance_admittance_or_current_voltage_What__99dd8e48b8.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15009549/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15009549/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15009549/v2",
+      "title": "Three-dimensional fluorescence lifetime imaging of a molecular rotor at complex interfaces of grease",
+      "notes": [
+        "notes/chemrxiv_Three-dimensional_fluorescence_lifetime_imagi_57a9ce848f.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011493/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011493/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011493/v1",
+      "title": "Influence of divalent cations on the adsorption of DNA origami nanostructures at TiO2 surfaces",
+      "notes": [
+        "notes/chemrxiv_Influence_of_divalent_cations_on_the_adsorpti_19872cf0f2.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://github.com/byungwoongyoo/mlip-cpu-bench-2026": {
+      "type": "github",
+      "canonical_url": "https://github.com/byungwoongyoo/mlip-cpu-bench-2026",
+      "original_url": "https://github.com/ByungwoongYoo/mlip-cpu-bench-2026",
+      "title": "ByungwoongYoo/mlip-cpu-bench-2026",
+      "notes": [
+        "notes/github_ByungwoongYoo_mlip-cpu-bench-2026_fe6122ff78.md"
+      ],
+      "added_at": "2026-11-02T13:02:05+00:00",
+      "last_requested_at": "2026-11-02T13:02:05+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-01T23:45:09Z"
     }
   }
 }
