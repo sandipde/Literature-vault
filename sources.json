@@ -7983,6 +7983,123 @@
       "last_requested_at": "2026-11-03T12:34:47+00:00",
       "published_at": "2026-11-03",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.matdes.2026.117424": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.matdes.2026.117424",
+      "original_url": "https://doi.org/10.1016/j.matdes.2026.117424",
+      "title": "A high-dimensional neural network potential for finite-temperature phenomena in NiTi martensite",
+      "notes": [
+        "notes/crossref_A_high-dimensional_neural_network_potential_f_26f43851f3.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.rineng.2026.113931": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.rineng.2026.113931",
+      "original_url": "https://doi.org/10.1016/j.rineng.2026.113931",
+      "title": "Adaptive Neuro-Fuzzy Reinforcement Learning for Active Vibration Damping of Intelligent Systems: A Simulation Study",
+      "notes": [
+        "notes/crossref_Adaptive_Neuro-Fuzzy_Reinforcement_Learning_f_d63e9b107f.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-10988843/v2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-10988843/v2",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-10988843/v2",
+      "title": "Defect-Tolerant and Long-Range Acoustic Communication in Plugged and Abandoned Wells",
+      "notes": [
+        "notes/crossref_Defect-Tolerant_and_Long-Range_Acoustic_Commu_b8ac391338.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104402": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104402",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104402",
+      "title": "Hybrid electrostatic–ionic wind system for efficient dust removal from photovoltaic panels",
+      "notes": [
+        "notes/crossref_Hybrid_electrostatic_ionic_wind_system_for_ef_cc88b98b0f.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011593/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011593/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011593/v1",
+      "title": "Automated Static and Dynamic Contact-Angle Analysis with Machine Learning",
+      "notes": [
+        "notes/chemrxiv_Automated_Static_and_Dynamic_Contact-Angle_An_f22fc1f3e7.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011624/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011624/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011624/v1",
+      "title": "Artificial Intelligence and Machine Learning Model Implementation for UC Irvine Dataset 322",
+      "notes": [
+        "notes/chemrxiv_Artificial_Intelligence_and_Machine_Learning__4cf5619b56.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011591/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011591/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011591/v1",
+      "title": "Evaluating the Dimensionality of Molecular Ensembles Using Deep Neural Network Stochastic Autoencoders",
+      "notes": [
+        "notes/chemrxiv_Evaluating_the_Dimensionality_of_Molecular_En_69856cc8d6.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011598/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011598/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011598/v1",
+      "title": "Examining Copper Lead Surface Alloys as Potential Catalysts for the Electrochemical Carbon Dioxide Reduction",
+      "notes": [
+        "notes/chemrxiv_Examining_Copper_Lead_Surface_Alloys_as_Poten_8567873f47.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011623/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011623/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011623/v1",
+      "title": "Bridging the Literature-to-Laboratory Gap with Language Models and Active Learning for Reaction Feasibility Prediction and Autonomous Exploration",
+      "notes": [
+        "notes/chemrxiv_Bridging_the_Literature-to-Laboratory_Gap_wit_3a138fe1e1.md"
+      ],
+      "added_at": "2026-11-03T22:11:07+00:00",
+      "last_requested_at": "2026-11-03T22:11:07+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
     }
   }
 }
