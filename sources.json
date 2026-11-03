@@ -7762,6 +7762,227 @@
       "last_requested_at": "2026-11-02T23:46:24+00:00",
       "published_at": "2026-11-02",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.03499": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.03499",
+      "original_url": "https://arxiv.org/abs/2611.03499",
+      "title": "Shadow Molecular Dynamics for General Nonlinear Flexible-Charge Models",
+      "notes": [
+        "notes/arxiv_2611.03499_Shadow_Molecular_Dynamics_for_General_Nonline_22e2ed1043.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.03276": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.03276",
+      "original_url": "https://arxiv.org/abs/2611.03276",
+      "title": "FACTO: fast atom-centered tensor operator for accurate and efficient foundational machine-learned interatomic potentials",
+      "notes": [
+        "notes/arxiv_2611.03276_FACTO_fast_atom-centered_tensor_operator_for__92f014eaa7.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.03154": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.03154",
+      "original_url": "https://arxiv.org/abs/2611.03154",
+      "title": "PaddleMaterials: An End-to-End Deep Learning Toolkit for Materials Science",
+      "notes": [
+        "notes/arxiv_2611.03154_PaddleMaterials_An_End-to-End_Deep_Learning_T_5d2095969e.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.03646": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.03646",
+      "original_url": "https://arxiv.org/abs/2611.03646",
+      "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
+      "notes": [
+        "notes/arxiv_2611.03646_EgoActionBench_Benchmarking_Dense_Action_Capt_67a9f988c3.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.03641": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.03641",
+      "original_url": "https://arxiv.org/abs/2611.03641",
+      "title": "From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles",
+      "notes": [
+        "notes/arxiv_2611.03641_From_Natural_Language_to_Exact_Cover_A_Neuro-_31a10dde7f.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.03639": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.03639",
+      "original_url": "https://arxiv.org/abs/2611.03639",
+      "title": "Quantum channel tomography: optimal bounds in the near-boundary regime",
+      "notes": [
+        "notes/arxiv_2611.03639_Quantum_channel_tomography_optimal_bounds_in__c3bc21a3c4.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.03506": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.03506",
+      "original_url": "https://arxiv.org/abs/2611.03506",
+      "title": "Polariton tweezers",
+      "notes": [
+        "notes/arxiv_2611.03506_Polariton_tweezers_bf44714daa.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.29363/nanoge.matsusfall.2026.211": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.211",
+      "original_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.211",
+      "title": "Benchmarking Foundation Machine-Learned Interatomic Potentials for Oxygen Ion Transport in YSZ/GDC Interdiffusion Layers",
+      "notes": [
+        "notes/crossref_Benchmarking_Foundation_Machine-Learned_Inter_27e83ace84.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-07-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.29363/nanoge.matsusfall.2026.227": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.227",
+      "original_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.227",
+      "title": "Photoelectrochemical water splitting on hematite: Mechanistic insights from machine-learning-interatomic-potentials MD and microkinetic modeling",
+      "notes": [
+        "notes/crossref_Photoelectrochemical_water_splitting_on_hemat_fd564d49ac.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-07-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.29363/nanoge.matsusfall.2026.022": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.022",
+      "original_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.022",
+      "title": "From Lattice Fluctuations to Ion Migration: The Dynamics of Halide Perovskites from Machine Learning Potential",
+      "notes": [
+        "notes/crossref_From_Lattice_Fluctuations_to_Ion_Migration_Th_a2c4356cce.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-07-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.7717/peerj-cs.4157/supp-3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.7717/peerj-cs.4157/supp-3",
+      "original_url": "https://doi.org/10.7717/peerj-cs.4157/supp-3",
+      "title": "Supplemental Information 3: Core neural network building blocks for the ASAG models.",
+      "notes": [
+        "notes/crossref_Supplemental_Information_3_Core_neural_networ_3b9ec0d243.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1145/3799682.3840820": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1145/3799682.3840820",
+      "original_url": "https://doi.org/10.1145/3799682.3840820",
+      "title": "Equivariant Graph Neural ODEs for Modeling Physical Dynamics",
+      "notes": [
+        "notes/crossref_Equivariant_Graph_Neural_ODEs_for_Modeling_Ph_f5f94e3dff.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-07",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1515/9783111128238-012": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1515/9783111128238-012",
+      "original_url": "https://doi.org/10.1515/9783111128238-012",
+      "title": "Public Finance Management and Health: Optimising the Potential for Effective Public Spending Towards Universal Health Coverage",
+      "notes": [
+        "notes/crossref_Public_Finance_Management_and_Health_Optimisi_2bdcc8f881.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2025-09-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.29363/nanoge.matsusfall.2026.208": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.208",
+      "original_url": "https://doi.org/10.29363/nanoge.matsusfall.2026.208",
+      "title": "Interfaces, surfaces, and defects in photoelectrochemical energy materials",
+      "notes": [
+        "notes/crossref_Interfaces_surfaces_and_defects_in_photoelect_e9158551db.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-07-22",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15008444/v3": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15008444/v3",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15008444/v3",
+      "title": "Interpretable Machine Learning Disentangles Pore Confinement Across Multiple Zr-MOF CO2 Capture Targets",
+      "notes": [
+        "notes/chemrxiv_Interpretable_Machine_Learning_Disentangles_P_076808378c.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011539/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011539/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011539/v1",
+      "title": "An Audited Open Record of Three Deep-Blue TADF Host Materials with Benchmark Tasks for Machine Learning",
+      "notes": [
+        "notes/chemrxiv_An_Audited_Open_Record_of_Three_Deep-Blue_TAD_85351bc4b5.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011587/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011587/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011587/v1",
+      "title": "Ensemble Molecular Surface Electrostatic Potential Descriptors as Informative Features for Active Learning",
+      "notes": [
+        "notes/chemrxiv_Ensemble_Molecular_Surface_Electrostatic_Pote_f493ffaef9.md"
+      ],
+      "added_at": "2026-11-03T12:34:47+00:00",
+      "last_requested_at": "2026-11-03T12:34:47+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
     }
   }
 }
