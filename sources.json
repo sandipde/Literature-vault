@@ -8100,6 +8100,188 @@
       "last_requested_at": "2026-11-03T22:11:07+00:00",
       "published_at": "2026-11-03",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.05376": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.05376",
+      "original_url": "https://arxiv.org/abs/2611.05376",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "notes": [
+        "notes/arxiv_2611.05376_From_Autonomous_Agents_to_Cognitive_Symbionts_ba30d0a56b.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.05361": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.05361",
+      "original_url": "https://arxiv.org/abs/2611.05361",
+      "title": "Visibility-Aware Reference Generation for Benchmarking Visual 3D Reconstruction in Vegetation-Rich Environments",
+      "notes": [
+        "notes/arxiv_2611.05361_Visibility-Aware_Reference_Generation_for_Ben_e50621435c.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.05359": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.05359",
+      "original_url": "https://arxiv.org/abs/2611.05359",
+      "title": "GSCV++: Lightweight 3D Gaussian Splatting Sequence Compression via Standard Video Codecs",
+      "notes": [
+        "notes/arxiv_2611.05359_GSCV_Lightweight_3D_Gaussian_Splatting_Sequen_0620432b2c.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.scriptamat.2026.117663": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.scriptamat.2026.117663",
+      "original_url": "https://doi.org/10.1016/j.scriptamat.2026.117663",
+      "title": "Accuracy and Uncertainty Quantification of Phase Diagrams Calculated from Universal Machine Learning Interatomic Potentials",
+      "notes": [
+        "notes/crossref_Accuracy_and_Uncertainty_Quantification_of_Ph_1f4e435a74.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.ijoes.2026.101543": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.ijoes.2026.101543",
+      "original_url": "https://doi.org/10.1016/j.ijoes.2026.101543",
+      "title": "Simulation-Based Identification of Corrosion-Induced Damage in Grounding Grids Using Surface Potential Distributions and a BP Neural Network",
+      "notes": [
+        "notes/crossref_Simulation-Based_Identification_of_Corrosion-_921db12853.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.31234/osf.io/urhq7_v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.31234/osf.io/urhq7_v1",
+      "original_url": "https://doi.org/10.31234/osf.io/urhq7_v1",
+      "title": "Perceptual learning in humans: an active, top-down guided process",
+      "notes": [
+        "notes/crossref_Perceptual_learning_in_humans_an_active_top-d_90fcc3fbba.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-03",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01678": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01678",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01678",
+      "title": "DEGAUSS-3p: A Three-Site Water Model from Soft Gaussian-Charge Electrostatics and a Rare-Gas-Informed Double-Exponential Potential",
+      "notes": [
+        "notes/crossref_DEGAUSS-3p_A_Three-Site_Water_Model_from_Soft_72ff9cfe61.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104414": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104414",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104414",
+      "title": "Electrohydrodynamic intensification of acetic acid mass transfer across a planar ethyl acetate/water interface",
+      "notes": [
+        "notes/crossref_Electrohydrodynamic_intensification_of_acetic_fe52169895.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111210": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111210",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111210",
+      "title": "1-Octadecanol Composite Phase Change Materials Containing Physically Surface-Modified Expanded Graphite for Water-Based Solar Thermal Storage Tanks",
+      "notes": [
+        "notes/crossref_1-Octadecanol_Composite_Phase_Change_Material_e9a5544433.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011661/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011661/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011661/v1",
+      "title": "A Machine Learning Approach to logBB Prediction Combining Molecular Docking and Quantum-Chemical Descriptors",
+      "notes": [
+        "notes/chemrxiv_A_Machine_Learning_Approach_to_logBB_Predicti_9ebed64889.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011649/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011649/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011649/v1",
+      "title": "A Latent Ability Model for Benchmarking Molecular Representations",
+      "notes": [
+        "notes/chemrxiv_A_Latent_Ability_Model_for_Benchmarking_Molec_12583c84d0.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011643/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011643/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011643/v1",
+      "title": "EnGOAT: An Energy–Geometry Analysis Toolkit for Free-Energy Surfaces of Mobile Species in Crystalline Materials",
+      "notes": [
+        "notes/chemrxiv_EnGOAT_An_Energy_Geometry_Analysis_Toolkit_fo_450781ca26.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011658/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011658/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011658/v1",
+      "title": "Uncovering Heterogeneous Energetic Trajectories in NiFe Oxygen Evolution Electrocatalysis through Integrated Raman, Electrochemical and Microkinetic Analysis",
+      "notes": [
+        "notes/chemrxiv_Uncovering_Heterogeneous_Energetic_Trajectori_905cc56ffb.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011659/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011659/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011659/v1",
+      "title": "Structure Determination of Surface Sites in Heterogeneous Olefin Metathesis Catalysts from 95Mo NMR Signatures",
+      "notes": [
+        "notes/chemrxiv_Structure_Determination_of_Surface_Sites_in_H_d9d9219bd6.md"
+      ],
+      "added_at": "2026-11-04T12:44:30+00:00",
+      "last_requested_at": "2026-11-04T12:44:30+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
     }
   }
 }
