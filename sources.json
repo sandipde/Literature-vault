@@ -8282,6 +8282,32 @@
       "last_requested_at": "2026-11-04T12:44:30+00:00",
       "published_at": "2026-11-04",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.teln.2026.10.011": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.teln.2026.10.011",
+      "original_url": "https://doi.org/10.1016/j.teln.2026.10.011",
+      "title": "From presentation to discussion: Adapting Pecha Kucha for active learning in undergraduate nursing education",
+      "notes": [
+        "notes/crossref_From_presentation_to_discussion_Adapting_Pech_559911839b.md"
+      ],
+      "added_at": "2026-11-04T22:22:35+00:00",
+      "last_requested_at": "2026-11-04T22:22:35+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011672/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011672/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011672/v1",
+      "title": "Adsorbate Resonance-Assisted Hydrogen Bonding across Solid Interfaces",
+      "notes": [
+        "notes/chemrxiv_Adsorbate_Resonance-Assisted_Hydrogen_Bonding_2297fc2f5c.md"
+      ],
+      "added_at": "2026-11-04T22:22:35+00:00",
+      "last_requested_at": "2026-11-04T22:22:35+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
     }
   }
 }
