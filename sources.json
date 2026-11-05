@@ -8607,6 +8607,19 @@
       "last_requested_at": "2026-11-05T20:59:05+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://daenuprobst.github.io/flodr": {
+      "type": "web",
+      "canonical_url": "https://daenuprobst.github.io/flodr",
+      "original_url": "https://daenuprobst.github.io/flodr/",
+      "title": "FloDR",
+      "notes": [
+        "notes/202_FloDR.md"
+      ],
+      "added_at": "2026-11-05T20:59:40+00:00",
+      "last_requested_at": "2026-11-05T20:59:40+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
