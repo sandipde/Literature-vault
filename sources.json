@@ -8568,6 +8568,19 @@
       "last_requested_at": "2026-11-05T12:53:59+00:00",
       "published_at": "2026-11-05",
       "updated_at": ""
+    },
+    "https://github.com/general-molecular-simulations/so3lr": {
+      "type": "github",
+      "canonical_url": "https://github.com/general-molecular-simulations/so3lr",
+      "original_url": "https://github.com/general-molecular-simulations/so3lr",
+      "title": "general-molecular-simulations/so3lr",
+      "notes": [
+        "notes/198_general-molecular-simulations_so3lr.md"
+      ],
+      "added_at": "2026-11-05T15:47:56+00:00",
+      "last_requested_at": "2026-11-05T15:47:56+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-05T10:02:32Z"
     }
   }
 }
