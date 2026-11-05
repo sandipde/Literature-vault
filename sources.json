@@ -8620,6 +8620,45 @@
       "last_requested_at": "2026-11-05T20:59:40+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.1063/5.0345011": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1063/5.0345011",
+      "original_url": "https://doi.org/10.1063/5.0345011",
+      "title": "Interaction embedding via factorized linear models for multi-element machine learning interatomic potentials",
+      "notes": [
+        "notes/crossref_Interaction_embedding_via_factorized_linear_m_7b2ea69304.md"
+      ],
+      "added_at": "2026-11-05T22:29:27+00:00",
+      "last_requested_at": "2026-11-05T22:29:27+00:00",
+      "published_at": "2026-11-07",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/978-3-031-48344-8_68": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/978-3-031-48344-8_68",
+      "original_url": "https://doi.org/10.1007/978-3-031-48344-8_68",
+      "title": "Age Universal Religious Orientation Scale",
+      "notes": [
+        "notes/crossref_Age_Universal_Religious_Orientation_Scale_189221f7bd.md"
+      ],
+      "added_at": "2026-11-05T22:29:27+00:00",
+      "last_requested_at": "2026-11-05T22:29:27+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.colsurfa.2026.142279": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.colsurfa.2026.142279",
+      "original_url": "https://doi.org/10.1016/j.colsurfa.2026.142279",
+      "title": "Spatial Programming of Catalysis and Molecular Adsorption in Three-Compartment Alginate Beads",
+      "notes": [
+        "notes/crossref_Spatial_Programming_of_Catalysis_and_Molecula_f38cdde7ab.md"
+      ],
+      "added_at": "2026-11-05T22:29:27+00:00",
+      "last_requested_at": "2026-11-05T22:29:27+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
     }
   }
 }
