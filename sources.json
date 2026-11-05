@@ -8581,6 +8581,19 @@
       "last_requested_at": "2026-11-05T15:47:56+00:00",
       "published_at": "",
       "updated_at": "2026-11-05T10:02:32Z"
+    },
+    "https://kitchingroup.cheme.cmu.edu/s26-06643/intro.html": {
+      "type": "web",
+      "canonical_url": "https://kitchingroup.cheme.cmu.edu/s26-06643/intro.html",
+      "original_url": "https://kitchingroup.cheme.cmu.edu/s26-06643/intro.html#vscode://vscode.git/clone?url=https://github.com/jkitchin/s26-06643.git",
+      "title": "Creating Scientific Software with AI Coding Agents — 06-643: Creating Scientific Software with AI Coding Agents",
+      "notes": [
+        "notes/200_Creating_Scientific_Software_with_AI_Coding_Agents.md"
+      ],
+      "added_at": "2026-11-05T15:55:42+00:00",
+      "last_requested_at": "2026-11-05T15:55:42+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
