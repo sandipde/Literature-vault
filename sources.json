@@ -8308,6 +8308,266 @@
       "last_requested_at": "2026-11-04T22:22:35+00:00",
       "published_at": "2026-11-04",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.06779": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.06779",
+      "original_url": "https://arxiv.org/abs/2611.06779",
+      "title": "Machine Learning the Complete Active-Space Wavefunction Reconstruction",
+      "notes": [
+        "notes/arxiv_2611.06779_Machine_Learning_the_Complete_Active-Space_Wa_6069f8fc74.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.06575": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.06575",
+      "original_url": "https://arxiv.org/abs/2611.06575",
+      "title": "Exact periodic electrostatics for latent-charge machine-learning potentials",
+      "notes": [
+        "notes/arxiv_2611.06575_Exact_periodic_electrostatics_for_latent-char_3137944660.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.06918": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.06918",
+      "original_url": "https://arxiv.org/abs/2611.06918",
+      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "notes": [
+        "notes/arxiv_2611.06918_From_Pixels_to_Actions_-_Towards_Native_Visio_0d5b6973a7.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.06911": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.06911",
+      "original_url": "https://arxiv.org/abs/2611.06911",
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "notes": [
+        "notes/arxiv_2611.06911_BEAKER_An_Expert-Curated_Benchmark_for_Embodi_bb83383282.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.06910": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.06910",
+      "original_url": "https://arxiv.org/abs/2611.06910",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "notes": [
+        "notes/arxiv_2611.06910_FrontierPhysics_Evaluating_Agents_for_End-to-_18b453b044.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1201/9781042002818-3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1201/9781042002818-3",
+      "original_url": "https://doi.org/10.1201/9781042002818-3",
+      "title": "Classical Machine Learning Essentials for Quantum Machine Learning",
+      "notes": [
+        "notes/crossref_Classical_Machine_Learning_Essentials_for_Qua_52f8a56436.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.37278/insearch.v21i2.956": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.37278/insearch.v21i2.956",
+      "original_url": "https://doi.org/10.37278/insearch.v21i2.956",
+      "title": "Deep Neural Network untuk Klasifikasi Influenza",
+      "notes": [
+        "notes/crossref_Deep_Neural_Network_untuk_Klasifikasi_Influen_d1b0730ec5.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2022-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.37278/insearch.v22i1.955": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.37278/insearch.v22i1.955",
+      "original_url": "https://doi.org/10.37278/insearch.v22i1.955",
+      "title": "Prediksi Penyakit Paru Menggunakan Algoritma Deep Neural Network",
+      "notes": [
+        "notes/crossref_Prediksi_Penyakit_Paru_Menggunakan_Algoritma__de823ca02a.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2022-06-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s10916-026-02485-z": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s10916-026-02485-z",
+      "original_url": "https://doi.org/10.1007/s10916-026-02485-z",
+      "title": "Can Retrieval-Augmented Generation Improve the Potential of the LLMs in Diabetes Health Management? An Assessment Based on Health Management Tasks and Question Complexity",
+      "notes": [
+        "notes/crossref_Can_Retrieval-Augmented_Generation_Improve_th_d169e8914e.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.ecns.2026.102106": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.ecns.2026.102106",
+      "original_url": "https://doi.org/10.1016/j.ecns.2026.102106",
+      "title": "Beyond learning outcomes: Simulation-based nursing education and competency development in Saudi Arabia",
+      "notes": [
+        "notes/crossref_Beyond_learning_outcomes_Simulation-based_nur_5dedf9d553.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1115/msec2026-182806": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1115/msec2026-182806",
+      "original_url": "https://doi.org/10.1115/msec2026-182806",
+      "title": "Learning to Disassemble: Safety-Aware Simulation-Based Reinforcement Learning for Robotic Re-Manufacturing",
+      "notes": [
+        "notes/crossref_Learning_to_Disassemble_Safety-Aware_Simulati_e0952cf50a.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-06-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104417": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104417",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104417",
+      "title": "Corrigendum to “Power characteristics of a classical Wimshurst machine” [J. Electrost. 138 (2025) 104189]",
+      "notes": [
+        "notes/crossref_Corrigendum_to_Power_characteristics_of_a_cla_3481876632.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011705/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011705/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011705/v1",
+      "title": "Where machine learning for enantioselectivity on polysaccharide chiral stationary phases actually fails: a leave-one-paper-out reappraisal of 10,525 enantiomer pairs",
+      "notes": [
+        "notes/chemrxiv_Where_machine_learning_for_enantioselectivity_2d77d2600c.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011713/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011713/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011713/v1",
+      "title": "Integrating classical similarity and multitask neural representations",
+      "notes": [
+        "notes/chemrxiv_Integrating_classical_similarity_and_multitas_0a507e2314.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011675/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011675/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011675/v1",
+      "title": "The Limited Contribution of Structural Information Relative to Language-Model Signal in Data-Limited Cryptic Pocket Prediction",
+      "notes": [
+        "notes/chemrxiv_The_Limited_Contribution_of_Structural_Inform_6927a5b527.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-04",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011689/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011689/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011689/v1",
+      "title": "Physics-Guided Learning with Calibrated Uncertainty for Molecular Thermodynamics Beyond Observed Chemical Space",
+      "notes": [
+        "notes/chemrxiv_Physics-Guided_Learning_with_Calibrated_Uncer_e7837874a0.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011720/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011720/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011720/v1",
+      "title": "Recombination-zone position, not charge balance, sets the efficiency ceiling of deep-blue TADF host OLEDs",
+      "notes": [
+        "notes/chemrxiv_Recombination-zone_position_not_charge_balanc_ee80df3506.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011711/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011711/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011711/v1",
+      "title": "LigandFF: an open-source implementation of rule-based atom typing, charge assignment and parameter assignment by analogy",
+      "notes": [
+        "notes/chemrxiv_LigandFF_an_open-source_implementation_of_rul_e53e9c2000.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15007724/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15007724/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15007724/v2",
+      "title": "Ultrafast Charge Separation Controlled by Aromatic Guests in a Perylene Dimer",
+      "notes": [
+        "notes/chemrxiv_Ultrafast_Charge_Separation_Controlled_by_Aro_7450e8a6de.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011698/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011698/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011698/v1",
+      "title": "X-Ray Diffraction Model for Spiral-Growth-Driven Defects in Layered Thin Films",
+      "notes": [
+        "notes/chemrxiv_X-Ray_Diffraction_Model_for_Spiral-Growth-Dri_7e513d943a.md"
+      ],
+      "added_at": "2026-11-05T12:53:59+00:00",
+      "last_requested_at": "2026-11-05T12:53:59+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
     }
   }
 }
