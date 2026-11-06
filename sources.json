@@ -8893,6 +8893,58 @@
       "last_requested_at": "2026-11-06T12:40:38+00:00",
       "published_at": "",
       "updated_at": "2026-11-06T09:42:02Z"
+    },
+    "https://doi.org/10.1016/j.cej.2026.183974": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.cej.2026.183974",
+      "original_url": "https://doi.org/10.1016/j.cej.2026.183974",
+      "title": "MACE-MAX: A fine-tuned machine learning interatomic potential for high-throughput screening and experimental validation of high-entropy M2AlC MAX phases",
+      "notes": [
+        "notes/crossref_MACE-MAX_A_fine-tuned_machine_learning_intera_f989ff59cc.md"
+      ],
+      "added_at": "2026-11-06T21:55:12+00:00",
+      "last_requested_at": "2026-11-06T21:55:12+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1103/1hpf-4f7f": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/1hpf-4f7f",
+      "original_url": "https://doi.org/10.1103/1hpf-4f7f",
+      "title": "Cubic-equivariant neural density functional theory for three-dimensional lattice fluids",
+      "notes": [
+        "notes/crossref_Cubic-equivariant_neural_density_functional_t_51b3e0a3c7.md"
+      ],
+      "added_at": "2026-11-06T21:55:12+00:00",
+      "last_requested_at": "2026-11-06T21:55:12+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.optmat.2026.118672": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.optmat.2026.118672",
+      "original_url": "https://doi.org/10.1016/j.optmat.2026.118672",
+      "title": "A Universal Deposited-Dose-Based Model for Predicting Proton-Induced Optical Signature Degradation of Space White Paint",
+      "notes": [
+        "notes/crossref_A_Universal_Deposited-Dose-Based_Model_for_Pr_64ab5142cb.md"
+      ],
+      "added_at": "2026-11-06T21:55:12+00:00",
+      "last_requested_at": "2026-11-06T21:55:12+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111225": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111225",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111225",
+      "title": "Black Sesame Seed-Assisted Combustion Synthesis of Cu3Bi4V2O14/g-C3N4 Nanocomposites for Enhanced Photocatalytic Dye Degradation",
+      "notes": [
+        "notes/crossref_Black_Sesame_Seed-Assisted_Combustion_Synthes_9846ab6678.md"
+      ],
+      "added_at": "2026-11-06T21:55:12+00:00",
+      "last_requested_at": "2026-11-06T21:55:12+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
     }
   }
 }
