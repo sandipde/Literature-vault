@@ -8659,6 +8659,240 @@
       "last_requested_at": "2026-11-05T22:29:27+00:00",
       "published_at": "2026-11",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.08487": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.08487",
+      "original_url": "https://arxiv.org/abs/2611.08487",
+      "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+      "notes": [
+        "notes/arxiv_2611.08487_User_Embeddings_are_Superpositions_of_Interpr_c4d15db29b.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.08485": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.08485",
+      "original_url": "https://arxiv.org/abs/2611.08485",
+      "title": "Where and Why is Grounded Reasoning Useful?",
+      "notes": [
+        "notes/arxiv_2611.08485_Where_and_Why_is_Grounded_Reasoning_Useful_be2195d062.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.08479": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.08479",
+      "original_url": "https://arxiv.org/abs/2611.08479",
+      "title": "Flat-band systems: A platform to realize the moments of Quantum Metric",
+      "notes": [
+        "notes/arxiv_2611.08479_Flat-band_systems_A_platform_to_realize_the_m_cd939c43c1.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011775/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011775/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011775/v1",
+      "title": "Accurate and Rapid Vibrational Spectra of Molecular Crystals from Machine-Learned Interatomic Potentials",
+      "notes": [
+        "notes/crossref_Accurate_and_Rapid_Vibrational_Spectra_of_Mol_f51347f361.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115227": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115227",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115227",
+      "title": "A unified machine-learning interatomic potential for thermal properties of As-doped and B-doped silicon systems",
+      "notes": [
+        "notes/crossref_A_unified_machine-learning_interatomic_potent_76552a7b5f.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011777/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011777/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011777/v1",
+      "title": "Applicability Domain of Universal Machine Learning Interatomic Potentials at Solid-State Battery Interfaces",
+      "notes": [
+        "notes/crossref_Applicability_Domain_of_Universal_Machine_Lea_0ceb2ae1ad.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.jcp.2026.115567": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.jcp.2026.115567",
+      "original_url": "https://doi.org/10.1016/j.jcp.2026.115567",
+      "title": "Numerical Approach for On-the-Fly Active Flow Control via Flow Map Learning Method",
+      "notes": [
+        "notes/crossref_Numerical_Approach_for_On-the-Fly_Active_Flow_de315da3ba.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1017/9781009093118.011": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1017/9781009093118.011",
+      "original_url": "https://doi.org/10.1017/9781009093118.011",
+      "title": "Simulation in Tabular Models",
+      "notes": [
+        "notes/crossref_Simulation_in_Tabular_Models_c456bbeaa5.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-12-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1017/9781009093118.012": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1017/9781009093118.012",
+      "original_url": "https://doi.org/10.1017/9781009093118.012",
+      "title": "Simulation with Function Approximation",
+      "notes": [
+        "notes/crossref_Simulation_with_Function_Approximation_92eb5ea940.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-12-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104413": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104413",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104413",
+      "title": "Weakly nonlinear dynamics of binary Poiseuille flow under localized time-dependent electric forcing",
+      "notes": [
+        "notes/crossref_Weakly_nonlinear_dynamics_of_binary_Poiseuill_e1db170240.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104415": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104415",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104415",
+      "title": "A measurement model for unipolar corona aerosol chargers: consistency conditions, zone-resolved electrostatic loss and detection limits",
+      "notes": [
+        "notes/crossref_A_measurement_model_for_unipolar_corona_aeros_4261ff47f0.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111221": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111221",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111221",
+      "title": "Dynamic Humic-Goethite Interfaces Reshape the Heme-Pocket Water Network of Horseradish Peroxidase",
+      "notes": [
+        "notes/crossref_Dynamic_Humic-Goethite_Interfaces_Reshape_the_fa02a50c2a.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111220": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111220",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111220",
+      "title": "Heterostructured Cu-Mo-S-Se nanocomposites for enhanced piezo-photocatalytic degradation of tetracycline hydrochloride",
+      "notes": [
+        "notes/crossref_Heterostructured_Cu-Mo-S-Se_nanocomposites_fo_93dcf9420c.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011276/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011276/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011276/v2",
+      "title": "Machine Learning for NMR Observables Sensitive to Nuclear Quantum Effects",
+      "notes": [
+        "notes/chemrxiv_Machine_Learning_for_NMR_Observables_Sensitiv_4902e69a0d.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011790/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011790/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011790/v1",
+      "title": "Training of Neural Network Machine Learning Potentials for Activation Barrier Calculations in Predicting Growth Modes of Deposited Metals",
+      "notes": [
+        "notes/chemrxiv_Training_of_Neural_Network_Machine_Learning_P_935b6bbfea.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15008898/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15008898/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15008898/v2",
+      "title": "All-Dielectric Metasurfaces in Fundamentals, Materials, and Emerging Applications",
+      "notes": [
+        "notes/chemrxiv_All-Dielectric_Metasurfaces_in_Fundamentals_M_f3d82f23de.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011770/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011770/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011770/v1",
+      "title": "Active Learning for Fragment-Based Kinase Inhibitor Discovery using Docking",
+      "notes": [
+        "notes/chemrxiv_Active_Learning_for_Fragment-Based_Kinase_Inh_d1ac5ee2a4.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://github.com/hyjwpk/mlip-distill": {
+      "type": "github",
+      "canonical_url": "https://github.com/hyjwpk/mlip-distill",
+      "original_url": "https://github.com/hyjwpk/MLIP-Distill",
+      "title": "hyjwpk/MLIP-Distill",
+      "notes": [
+        "notes/github_hyjwpk_MLIP-Distill_460ab2ff9f.md"
+      ],
+      "added_at": "2026-11-06T12:40:38+00:00",
+      "last_requested_at": "2026-11-06T12:40:38+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-06T09:42:02Z"
     }
   }
 }
