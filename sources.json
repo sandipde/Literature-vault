@@ -9023,6 +9023,45 @@
       "last_requested_at": "2026-11-07T11:27:09+00:00",
       "published_at": "2026-11-06",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.micromeso.2026.114447": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.micromeso.2026.114447",
+      "original_url": "https://doi.org/10.1016/j.micromeso.2026.114447",
+      "title": "Molecular dynamics simulation of gas diffusion in metal-organic frameworks based on a classical force field and machine-learned interatomic potential",
+      "notes": [
+        "notes/crossref_Molecular_dynamics_simulation_of_gas_diffusio_b53f541ee6.md"
+      ],
+      "added_at": "2026-11-07T20:38:26+00:00",
+      "last_requested_at": "2026-11-07T20:38:26+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21105/joss.11133": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21105/joss.11133",
+      "original_url": "https://doi.org/10.21105/joss.11133",
+      "title": "ASSYST: A Python package for automated generation of training data for machine learning interatomic potentials",
+      "notes": [
+        "notes/crossref_ASSYST_A_Python_package_for_automated_generat_b6a063171b.md"
+      ],
+      "added_at": "2026-11-07T20:38:26+00:00",
+      "last_requested_at": "2026-11-07T20:38:26+00:00",
+      "published_at": "2026-11-07",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111237": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111237",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111237",
+      "title": "Enhanced organic gas sensor performance through dual engineering of silica: physical surface area control and chemical silanol activation",
+      "notes": [
+        "notes/crossref_Enhanced_organic_gas_sensor_performance_throu_7e538dc572.md"
+      ],
+      "added_at": "2026-11-07T20:38:26+00:00",
+      "last_requested_at": "2026-11-07T20:38:26+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
     }
   }
 }
