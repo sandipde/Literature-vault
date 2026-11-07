@@ -8945,6 +8945,84 @@
       "last_requested_at": "2026-11-06T21:55:12+00:00",
       "published_at": "2026-11",
       "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jproteome.6c00685.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jproteome.6c00685.s001",
+      "original_url": "https://doi.org/10.1021/acs.jproteome.6c00685.s001",
+      "title": "Evaluating a Lightweight Neural Network for Aggregate Isotope Distribution Prediction",
+      "notes": [
+        "notes/crossref_Evaluating_a_Lightweight_Neural_Network_for_A_32cd0ed1e3.md"
+      ],
+      "added_at": "2026-11-07T11:27:09+00:00",
+      "last_requested_at": "2026-11-07T11:27:09+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.neunet.2026.109862": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.neunet.2026.109862",
+      "original_url": "https://doi.org/10.1016/j.neunet.2026.109862",
+      "title": "A Collaborative Network of Bi-Mamba and CAFS for Multi-Task Classification of Unilateral Lower Limb",
+      "notes": [
+        "notes/crossref_A_Collaborative_Network_of_Bi-Mamba_and_CAFS__0de5e0fe67.md"
+      ],
+      "added_at": "2026-11-07T11:27:09+00:00",
+      "last_requested_at": "2026-11-07T11:27:09+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1038/s41524-026-02385-3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1038/s41524-026-02385-3",
+      "original_url": "https://doi.org/10.1038/s41524-026-02385-3",
+      "title": "Uncovering universal and system-specific mechanisms of glass formation across covalent, ionic, and metallic networks via SHAP-integrated machine learning",
+      "notes": [
+        "notes/crossref_Uncovering_universal_and_system-specific_mech_1c6b979da2.md"
+      ],
+      "added_at": "2026-11-07T11:27:09+00:00",
+      "last_requested_at": "2026-11-07T11:27:09+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1214/25-aihp1601": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1214/25-aihp1601",
+      "original_url": "https://doi.org/10.1214/25-aihp1601",
+      "title": "The polynomial growth of the infinite long-range percolation cluster",
+      "notes": [
+        "notes/crossref_The_polynomial_growth_of_the_infinite_long-ra_850fc59cf2.md"
+      ],
+      "added_at": "2026-11-07T11:27:09+00:00",
+      "last_requested_at": "2026-11-07T11:27:09+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111222": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111222",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111222",
+      "title": "Structural and Optical Properties of Gd3+-Doped Sm2Ti2O7 Pyrochlore based Phosphor Nanomaterials",
+      "notes": [
+        "notes/crossref_Structural_and_Optical_Properties_of_Gd3_-Dop_61a1654e3b.md"
+      ],
+      "added_at": "2026-11-07T11:27:09+00:00",
+      "last_requested_at": "2026-11-07T11:27:09+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011793/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011793/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011793/v1",
+      "title": "Advanced High-Throughput Characterization of Nanoporous Materials using Pore Graphs",
+      "notes": [
+        "notes/chemrxiv_Advanced_High-Throughput_Characterization_of__bd31f0c8eb.md"
+      ],
+      "added_at": "2026-11-07T11:27:09+00:00",
+      "last_requested_at": "2026-11-07T11:27:09+00:00",
+      "published_at": "2026-11-06",
+      "updated_at": ""
     }
   }
 }
