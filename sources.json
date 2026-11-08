@@ -9179,6 +9179,32 @@
       "last_requested_at": "2026-11-08T15:32:47+00:00",
       "published_at": "",
       "updated_at": "2026-11-08T02:53:24Z"
+    },
+    "https://doi.org/10.1080/03610918.2026.2757043": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1080/03610918.2026.2757043",
+      "original_url": "https://doi.org/10.1080/03610918.2026.2757043",
+      "title": "Huntington’s disease detection using the cascaded convolutional neural network with generative adversarial network based augmentation",
+      "notes": [
+        "notes/crossref_Huntington_s_disease_detection_using_the_casc_3dcc6762d0.md"
+      ],
+      "added_at": "2026-11-08T20:56:20+00:00",
+      "last_requested_at": "2026-11-08T20:56:20+00:00",
+      "published_at": "2026-11-08",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011426/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011426/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011426/v2",
+      "title": "Polarization Is Required to Model Electrostatic Preorganization: The Case of Chorismate Mutase",
+      "notes": [
+        "notes/chemrxiv_Polarization_Is_Required_to_Model_Electrostat_fc4d1b4084.md"
+      ],
+      "added_at": "2026-11-08T20:56:20+00:00",
+      "last_requested_at": "2026-11-08T20:56:20+00:00",
+      "published_at": "2026-11-08",
+      "updated_at": ""
     }
   }
 }
