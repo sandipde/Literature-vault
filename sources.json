@@ -9062,6 +9062,97 @@
       "last_requested_at": "2026-11-07T20:38:26+00:00",
       "published_at": "2026-11",
       "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.cardfail.2026.10.006": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.cardfail.2026.10.006",
+      "original_url": "https://doi.org/10.1016/j.cardfail.2026.10.006",
+      "title": "Heart Failure Fellowship Recruiting Is Not a Spectator Sport: Lessons We Learned at a Bootcamp for Potential Trainees",
+      "notes": [
+        "notes/crossref_Heart_Failure_Fellowship_Recruiting_Is_Not_a__83d17bdf77.md"
+      ],
+      "added_at": "2026-11-08T11:39:05+00:00",
+      "last_requested_at": "2026-11-08T11:39:05+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.neunet.2026.109900": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.neunet.2026.109900",
+      "original_url": "https://doi.org/10.1016/j.neunet.2026.109900",
+      "title": "Event-based neuroadaptive fault-tolerant control based on multi-cluster reservoir echo state network",
+      "notes": [
+        "notes/crossref_Event-based_neuroadaptive_fault-tolerant_cont_e5efbaec39.md"
+      ],
+      "added_at": "2026-11-08T11:39:05+00:00",
+      "last_requested_at": "2026-11-08T11:39:05+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1051/0004-6361/202660365": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1051/0004-6361/202660365",
+      "original_url": "https://doi.org/10.1051/0004-6361/202660365",
+      "title": "Machine learning-based classification of type 1 active galactic nuclei",
+      "notes": [
+        "notes/crossref_Machine_learning-based_classification_of_type_5143cede9b.md"
+      ],
+      "added_at": "2026-11-08T11:39:05+00:00",
+      "last_requested_at": "2026-11-08T11:39:05+00:00",
+      "published_at": "2026-11-08",
+      "updated_at": ""
+    },
+    "https://doi.org/10.55670/fpll.futech.5.4.30": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.55670/fpll.futech.5.4.30",
+      "original_url": "https://doi.org/10.55670/fpll.futech.5.4.30",
+      "title": "Multi-objective reinforcement-learning simulation for co-optimizing resource circularity and environmental performance in circular manufacturing",
+      "notes": [
+        "notes/crossref_Multi-objective_reinforcement-learning_simula_1200a11ce1.md"
+      ],
+      "added_at": "2026-11-08T11:39:05+00:00",
+      "last_requested_at": "2026-11-08T11:39:05+00:00",
+      "published_at": "2026-11-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/s0167-8140(26)02726-x": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/s0167-8140(26)02726-x",
+      "original_url": "https://doi.org/10.1016/s0167-8140(26)02726-x",
+      "title": "5007 From Simulation to Gamification: A Multimodal Educational Ecosystem to Reinvent Radiation Oncology Learning",
+      "notes": [
+        "notes/crossref_5007_From_Simulation_to_Gamification_A_Multim_e6449208bf.md"
+      ],
+      "added_at": "2026-11-08T11:39:05+00:00",
+      "last_requested_at": "2026-11-08T11:39:05+00:00",
+      "published_at": "2026-05",
+      "updated_at": ""
+    },
+    "https://doi.org/10.32743/unitech.2026.151.10.23525": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.32743/unitech.2026.151.10.23525",
+      "original_url": "https://doi.org/10.32743/unitech.2026.151.10.23525",
+      "title": "Long‑range shooting precision: effects of muzzle velocity and BC variation in a 33XC sporting rifle",
+      "notes": [
+        "notes/crossref_Long_range_shooting_precision_effects_of_muzz_7009f2e486.md"
+      ],
+      "added_at": "2026-11-08T11:39:05+00:00",
+      "last_requested_at": "2026-11-08T11:39:05+00:00",
+      "published_at": "2026-10-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.46936/aps-196596/60018845": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.46936/aps-196596/60018845",
+      "original_url": "https://doi.org/10.46936/aps-196596/60018845",
+      "title": "https://doi.org/10.46936/aps-196596/60018845",
+      "notes": [
+        "notes/crossref_https_doi_org_10_46936_aps-196596_60018845_49e2c1ed95.md"
+      ],
+      "added_at": "2026-11-08T11:39:05+00:00",
+      "last_requested_at": "2026-11-08T11:39:05+00:00",
+      "published_at": "2026-11-07",
+      "updated_at": ""
     }
   }
 }
