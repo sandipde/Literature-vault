@@ -9153,6 +9153,19 @@
       "last_requested_at": "2026-11-08T11:39:05+00:00",
       "published_at": "2026-11-07",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.36193": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.36193",
+      "original_url": "https://arxiv.org/abs/2610.36193",
+      "title": "Learning the Chronology of Materials Discovery for Synthesizability Prediction",
+      "notes": [
+        "notes/205_Learning_the_Chronology_of_Materials_Discovery_for.md"
+      ],
+      "added_at": "2026-11-08T15:30:49+00:00",
+      "last_requested_at": "2026-11-08T15:30:49+00:00",
+      "published_at": "2026-10-26",
+      "updated_at": "2026-10-26T19:26:48Z"
     }
   }
 }
