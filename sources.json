@@ -9205,6 +9205,201 @@
       "last_requested_at": "2026-11-08T20:56:20+00:00",
       "published_at": "2026-11-08",
       "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6cp02396g": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp02396g",
+      "original_url": "https://doi.org/10.1039/d6cp02396g",
+      "title": "Machine-Learning Interatomic Potential-based Enhanced Sampling Simulations Reveal Dynamic Conformations and Small Molecule Activation on Au9 Nanocluster Confined in UiO-66-NH2 MOF",
+      "notes": [
+        "notes/crossref_Machine-Learning_Interatomic_Potential-based__84e9a66aff.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.52825/glass-europe.v4i.3544": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.52825/glass-europe.v4i.3544",
+      "original_url": "https://doi.org/10.52825/glass-europe.v4i.3544",
+      "title": "Beyond the First Coordination Shell: The Medium-Range Order Challenge for Machine-Learning Interatomic Potentials in Glasses",
+      "notes": [
+        "notes/crossref_Beyond_the_First_Coordination_Shell_The_Mediu_c519d66e9f.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s11356-026-38387-3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s11356-026-38387-3",
+      "original_url": "https://doi.org/10.1007/s11356-026-38387-3",
+      "title": "Groundwater potential mapping using remote sensing-GIS, AHP, machine learning, and its sensitivity analysis of Banas River Basin, Central India",
+      "notes": [
+        "notes/crossref_Groundwater_potential_mapping_using_remote_se_0f33252119.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.55123/jomlai.v4i4": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.55123/jomlai.v4i4",
+      "original_url": "https://doi.org/10.55123/jomlai.v4i4",
+      "title": "https://doi.org/10.55123/jomlai.v4i4",
+      "notes": [
+        "notes/crossref_https_doi_org_10_55123_jomlai_v4i4_b65ad8d323.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2025-12-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s00521-026-12529-7": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s00521-026-12529-7",
+      "original_url": "https://doi.org/10.1007/s00521-026-12529-7",
+      "title": "Lightweight cross-modal RGB-IR fusion network for real-time aerial surveillance",
+      "notes": [
+        "notes/crossref_Lightweight_cross-modal_RGB-IR_fusion_network_1043b1ea7e.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.18287/coj1728": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.18287/coj1728",
+      "original_url": "https://doi.org/10.18287/coj1728",
+      "title": "Comparative analysis of neural network models for detecting unmanned aerial vehicles",
+      "notes": [
+        "notes/crossref_Comparative_analysis_of_neural_network_models_0a3dfd0198.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-04-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.20944/preprints202611.0607.v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.20944/preprints202611.0607.v1",
+      "original_url": "https://doi.org/10.20944/preprints202611.0607.v1",
+      "title": "High-Pressure High-Temperature Transformation of Oganic and Heteroorganic Systems as a Universal Platform for Engineering Nanodiamond Materials with Tailored Quantum, Optical, Isotopic, and Biomedical Functionalities",
+      "notes": [
+        "notes/crossref_High-Pressure_High-Temperature_Transformation_328b2b692b.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1002/adma.75629": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1002/adma.75629",
+      "original_url": "https://doi.org/10.1002/adma.75629",
+      "title": "Discovery of Small‐Molecule Cryoprotectants Using Pretrained Language Model Representations",
+      "notes": [
+        "notes/crossref_Discovery_of_Small_Molecule_Cryoprotectants_U_97ee18f50d.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/14697874261500709": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/14697874261500709",
+      "original_url": "https://doi.org/10.1177/14697874261500709",
+      "title": "‘Entering a Forbidden Territory’: Co-Creation of Assessment Marking Criteria",
+      "notes": [
+        "notes/crossref_Entering_a_Forbidden_Territory_Co-Creation_of_98ab707b41.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.4102/hsag.v31i0.3316": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.4102/hsag.v31i0.3316",
+      "original_url": "https://doi.org/10.4102/hsag.v31i0.3316",
+      "title": "Discrepancies between simulation and clinical practice: Implications for self-directed learning in nursing education",
+      "notes": [
+        "notes/crossref_Discrepancies_between_simulation_and_clinical_c464a92452.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.35542/osf.io/arn3h": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.35542/osf.io/arn3h",
+      "original_url": "https://doi.org/10.35542/osf.io/arn3h",
+      "title": "Is Online Learning Killing Deep Learning? LMS-centred Online Learning Practices, Deep Approaches to Learning and PLE Development",
+      "notes": [
+        "notes/crossref_Is_Online_Learning_Killing_Deep_Learning_LMS-_7b3f6268e5.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/1361-6439/aebb3b/data1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/1361-6439/aebb3b/data1",
+      "original_url": "https://doi.org/10.1088/1361-6439/aebb3b/data1",
+      "title": "Hardware and Dye Spectra",
+      "notes": [
+        "notes/crossref_Hardware_and_Dye_Spectra_531a968cf3.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acsnano.6c15835": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acsnano.6c15835",
+      "original_url": "https://doi.org/10.1021/acsnano.6c15835",
+      "title": "Slit-Confined Self-Assembly of Cellulose Nanocrystals for Long-Range Ordered Cholesteric Architecture",
+      "notes": [
+        "notes/crossref_Slit-Confined_Self-Assembly_of_Cellulose_Nano_379b521f9c.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111249": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111249",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111249",
+      "title": "Amine-induced Specific Interaction Enables Highly Selective Depression for Serpentine in Sulfide Minerals Separation",
+      "notes": [
+        "notes/crossref_Amine-induced_Specific_Interaction_Enables_Hi_2b232e3e50.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1201/9781003784128-5": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1201/9781003784128-5",
+      "original_url": "https://doi.org/10.1201/9781003784128-5",
+      "title": "Heterogeneous Reactors",
+      "notes": [
+        "notes/crossref_Heterogeneous_Reactors_62eaa877a6.md"
+      ],
+      "added_at": "2026-11-09T13:33:43+00:00",
+      "last_requested_at": "2026-11-09T13:33:43+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
     }
   }
 }
