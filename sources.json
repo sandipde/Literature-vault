@@ -9413,6 +9413,175 @@
       "last_requested_at": "2026-11-10T00:03:16+00:00",
       "published_at": "",
       "updated_at": "2025-12-14T16:16:24Z"
+    },
+    "https://doi.org/10.1098/rsos.261178/v2/review2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1098/rsos.261178/v2/review2",
+      "original_url": "https://doi.org/10.1098/rsos.261178/v2/review2",
+      "title": "Review for \"Discovery of Potential ALK Inhibitors from Glycomis Phytochemicals via Integrated Machine Learning and Umbrella Sampling Approaches\"",
+      "notes": [
+        "notes/crossref_Review_for_Discovery_of_Potential_ALK_Inhibit_a73dd4a128.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-09-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1098/rsos.261178/v2/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1098/rsos.261178/v2/review1",
+      "original_url": "https://doi.org/10.1098/rsos.261178/v2/review1",
+      "title": "Review for \"Discovery of Potential ALK Inhibitors from Glycomis Phytochemicals via Integrated Machine Learning and Umbrella Sampling Approaches\"",
+      "notes": [
+        "notes/crossref_Review_for_Discovery_of_Potential_ALK_Inhibit_ef8f5f2bb7.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-08-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jcim.6c02468.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jcim.6c02468.s001",
+      "original_url": "https://doi.org/10.1021/acs.jcim.6c02468.s001",
+      "title": "Efficient and Accurate Ligand Strain Calculations in Solution with the AIMNet2 Neural Network Potential",
+      "notes": [
+        "notes/crossref_Efficient_and_Accurate_Ligand_Strain_Calculat_fcf9fbbaf0.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jcim.6c00178.s004": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jcim.6c00178.s004",
+      "original_url": "https://doi.org/10.1021/acs.jcim.6c00178.s004",
+      "title": "Reducing Data Requirements for SequenceProperty Prediction in Copolymer Compatibilizers via Deep Neural Network Tuning",
+      "notes": [
+        "notes/crossref_Reducing_Data_Requirements_for_SequenceProper_90b110cb11.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c02044": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c02044",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c02044",
+      "title": "Reweighting Free Energy Profiles with Universal Machine Learning Interatomic Potentials for Fast Consensus Building",
+      "notes": [
+        "notes/crossref_Reweighting_Free_Energy_Profiles_with_Univers_c0f556e02e.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.14251/jscm.2026.10.57": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.14251/jscm.2026.10.57",
+      "original_url": "https://doi.org/10.14251/jscm.2026.10.57",
+      "title": "Clinical Learning Environment and Neonatal Nursing Simulation Outcomes: Mediating Role of Learning Strategies",
+      "notes": [
+        "notes/crossref_Clinical_Learning_Environment_and_Neonatal_Nu_818c7ba085.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.inorgchem.6c03800.s002": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.inorgchem.6c03800.s002",
+      "original_url": "https://doi.org/10.1021/acs.inorgchem.6c03800.s002",
+      "title": "Local Ligand-Framework Evolution Prior to Long-Range Antiferromagnetic Ordering in NiPS3",
+      "notes": [
+        "notes/crossref_Local_Ligand-Framework_Evolution_Prior_to_Lon_2f4a8b7b9c.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.inorgchem.6c03800.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.inorgchem.6c03800.s001",
+      "original_url": "https://doi.org/10.1021/acs.inorgchem.6c03800.s001",
+      "title": "Local Ligand-Framework Evolution Prior to Long-Range Antiferromagnetic Ordering in NiPS3",
+      "notes": [
+        "notes/crossref_Local_Ligand-Framework_Evolution_Prior_to_Lon_6261a62a1a.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111254": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111254",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111254",
+      "title": "Regulation mechanism of SiC addition on the microstructure and thermal conductivity of enamel coatings on 3003 aluminum alloy",
+      "notes": [
+        "notes/crossref_Regulation_mechanism_of_SiC_addition_on_the_m_267b8276a8.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111253": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111253",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111253",
+      "title": "Thiourea-Based Surface Engineering: High-Efficiency Passivation for Dramatically Enhanced Luminescence and Stability in CsPbBr3 Perovskite Quantum Dots",
+      "notes": [
+        "notes/crossref_Thiourea-Based_Surface_Engineering_High-Effic_60136c3b4f.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111247": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111247",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111247",
+      "title": "Interfacial Cross-Linking Boosts Energy Storage in Polymer Dielectrics via Charge Suppression and Field Redistribution",
+      "notes": [
+        "notes/crossref_Interfacial_Cross-Linking_Boosts_Energy_Stora_ec39e3494c.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011851/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011851/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011851/v1",
+      "title": "From Cell to Pack: Experimental Validation of a Thermo-Electrochemical 4s4p Battery Model",
+      "notes": [
+        "notes/chemrxiv_From_Cell_to_Pack_Experimental_Validation_of__0701269df6.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011844/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011844/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011844/v1",
+      "title": "From Local Motifs to Long-Range Order: Adaptive Diffusion of the Complex Au–S Surface Reconstruction",
+      "notes": [
+        "notes/chemrxiv_From_Local_Motifs_to_Long-Range_Order_Adaptiv_d7c75ebfab.md"
+      ],
+      "added_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "published_at": "2026-11-09",
+      "updated_at": ""
     }
   }
 }
