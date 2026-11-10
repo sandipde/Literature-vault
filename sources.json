@@ -9582,6 +9582,240 @@
       "last_requested_at": "2026-11-10T00:31:39+00:00",
       "published_at": "2026-11-09",
       "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6cp02396g/v1/review3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp02396g/v1/review3",
+      "original_url": "https://doi.org/10.1039/d6cp02396g/v1/review3",
+      "title": "Review for \"Machine-Learning Interatomic Potential-based Enhanced Sampling Simulations Reveal Dynamic Conformations and Small Molecule Activation on Au9 Nanocluster Confined in UiO-66-NH2 MOF\"",
+      "notes": [
+        "notes/crossref_Review_for_Machine-Learning_Interatomic_Poten_e1e8b8bd74.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-08-07",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6cp02396g/v1/review2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp02396g/v1/review2",
+      "original_url": "https://doi.org/10.1039/d6cp02396g/v1/review2",
+      "title": "Review for \"Machine-Learning Interatomic Potential-based Enhanced Sampling Simulations Reveal Dynamic Conformations and Small Molecule Activation on Au9 Nanocluster Confined in UiO-66-NH2 MOF\"",
+      "notes": [
+        "notes/crossref_Review_for_Machine-Learning_Interatomic_Poten_310d051a2c.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-07-21",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6cp02396g/v2/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6cp02396g/v2/review1",
+      "original_url": "https://doi.org/10.1039/d6cp02396g/v2/review1",
+      "title": "Review for \"Machine-Learning Interatomic Potential-based Enhanced Sampling Simulations Reveal Dynamic Conformations and Small Molecule Activation on Au9 Nanocluster Confined in UiO-66-NH2 MOF\"",
+      "notes": [
+        "notes/crossref_Review_for_Machine-Learning_Interatomic_Poten_e5a3485ff6.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-10-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c00712": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c00712",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c00712",
+      "title": "Equivariant Interatomic Potentials without Tensor Products",
+      "notes": [
+        "notes/crossref_Equivariant_Interatomic_Potentials_without_Te_599e662e86.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011895/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011895/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011895/v1",
+      "title": "LearnM8: A Simple and Modular Molecular Active Learning Framework for any Oracle",
+      "notes": [
+        "notes/crossref_LearnM8_A_Simple_and_Modular_Molecular_Active_7a888c0d66.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111252": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111252",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111252",
+      "title": "Interfacial Electronic Structure Regulation in g-C3N5/BiFeO3 S-Scheme Heterojunction for Enhanced Piezocatalysis",
+      "notes": [
+        "notes/crossref_Interfacial_Electronic_Structure_Regulation_i_8fa0239cd0.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011901/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011901/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011901/v1",
+      "title": "Assessment of machine-learned vs. classical/quantum atomistic simulations for predicting palladium-hydrogen materials",
+      "notes": [
+        "notes/chemrxiv_Assessment_of_machine-learned_vs_classical_qu_f7b02ab96f.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011888/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011888/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011888/v1",
+      "title": "Assessment of honey samples from Nigerian markets using FTIR spectroscopy and machine learning",
+      "notes": [
+        "notes/chemrxiv_Assessment_of_honey_samples_from_Nigerian_mar_d769aada35.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011871/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011871/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011871/v1",
+      "title": "Assessing the predictive limits of machine learning on cyclic peptides",
+      "notes": [
+        "notes/chemrxiv_Assessing_the_predictive_limits_of_machine_le_1fcc4dbb07.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011624/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011624/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011624/v2",
+      "title": "Artificial Intelligence and Machine Learning Model Implementation for UC Irvine Dataset 322",
+      "notes": [
+        "notes/chemrxiv_Artificial_Intelligence_and_Machine_Learning__6d3a06836b.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011889/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011889/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011889/v1",
+      "title": "A neural surrogate for the natural-gas compressibility factor: reference-equation accuracy from synthetic training data alone, benchmarked on 2426 independent laboratory measurements",
+      "notes": [
+        "notes/chemrxiv_A_neural_surrogate_for_the_natural-gas_compre_5f7af8ceb7.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011908/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011908/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011908/v1",
+      "title": "End-to-End Learning from Experimental Data: Integrating the PC-SAFT Equation of State into Neural Networks Training for Improved Polymer Parameter Estimation",
+      "notes": [
+        "notes/chemrxiv_End-to-End_Learning_from_Experimental_Data_In_19b3edf7f9.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011905/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011905/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011905/v1",
+      "title": "Desalination LLM: Large Language Model Agents Design Efficient Graphene Membranes for Water Desalination",
+      "notes": [
+        "notes/chemrxiv_Desalination_LLM_Large_Language_Model_Agents__a158814af3.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011877/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011877/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011877/v1",
+      "title": "A General Strategy for Active Learning When Predicting Reaction Performance in a Target Domain",
+      "notes": [
+        "notes/chemrxiv_A_General_Strategy_for_Active_Learning_When_P_0e7454dad7.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011866/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011866/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011866/v1",
+      "title": "Adsorption fingerprints of proteins at fluid interfaces: a molecular dynamics study of Lysozyme at water/oil and water/air interfaces",
+      "notes": [
+        "notes/chemrxiv_Adsorption_fingerprints_of_proteins_at_fluid__2fbda10d0a.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011870/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011870/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011870/v1",
+      "title": "Intracellular fate of structurally heterogeneous carbon nitride structures in mammalian cells",
+      "notes": [
+        "notes/chemrxiv_Intracellular_fate_of_structurally_heterogene_263801cc7b.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://github.com/aamirmalik-dr/forcefield-active-learning": {
+      "type": "github",
+      "canonical_url": "https://github.com/aamirmalik-dr/forcefield-active-learning",
+      "original_url": "https://github.com/aamirmalik-dr/forcefield-active-learning",
+      "title": "aamirmalik-dr/forcefield-active-learning",
+      "notes": [
+        "notes/github_aamirmalik-dr_forcefield-active-learning_f668351f74.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-10T07:34:14Z"
+    },
+    "https://github.com/qundaoxu/mlip_auto_flow": {
+      "type": "github",
+      "canonical_url": "https://github.com/qundaoxu/mlip_auto_flow",
+      "original_url": "https://github.com/qundaoXu/mlip_auto_flow",
+      "title": "qundaoXu/mlip_auto_flow",
+      "notes": [
+        "notes/github_qundaoXu_mlip_auto_flow_abb461b17b.md"
+      ],
+      "added_at": "2026-11-10T13:12:34+00:00",
+      "last_requested_at": "2026-11-10T13:12:34+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-10T13:00:05Z"
     }
   }
 }
