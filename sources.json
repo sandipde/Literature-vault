@@ -9816,6 +9816,97 @@
       "last_requested_at": "2026-11-10T13:12:34+00:00",
       "published_at": "",
       "updated_at": "2026-11-10T13:00:05Z"
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01109.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01109.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01109.s001",
+      "title": "Convolutional Kernel-Embedded E(3)-Equivariant Networks (KEN): Overcoming Architectural Rigidity in Machine Learning Interatomic Potentials",
+      "notes": [
+        "notes/crossref_Convolutional_Kernel-Embedded_E_3_-Equivarian_a3cf4ade31.md"
+      ],
+      "added_at": "2026-11-10T22:07:17+00:00",
+      "last_requested_at": "2026-11-10T22:07:17+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01498.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01498.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01498.s001",
+      "title": "HGPR: A Hierarchical Gaussian Process Framework for Active-Learning Potentials",
+      "notes": [
+        "notes/crossref_HGPR_A_Hierarchical_Gaussian_Process_Framewor_cfb53802e8.md"
+      ],
+      "added_at": "2026-11-10T22:07:17+00:00",
+      "last_requested_at": "2026-11-10T22:07:17+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111260": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111260",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111260",
+      "title": "Nanoparticle Reinforced Conducting Polymer Composite Coatings for Bipolar Plate Performance Enhancement in Fuel Cells: Experimental and Statistical Analysis",
+      "notes": [
+        "notes/crossref_Nanoparticle_Reinforced_Conducting_Polymer_Co_89d163885f.md"
+      ],
+      "added_at": "2026-11-10T22:07:17+00:00",
+      "last_requested_at": "2026-11-10T22:07:17+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111258": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111258",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111258",
+      "title": "Elevated Seebeck coefficient under sunlight exposure in SnO2/PEDOT:PSS thermoelectric composite films",
+      "notes": [
+        "notes/crossref_Elevated_Seebeck_coefficient_under_sunlight_e_eab114807d.md"
+      ],
+      "added_at": "2026-11-10T22:07:17+00:00",
+      "last_requested_at": "2026-11-10T22:07:17+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111257": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111257",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111257",
+      "title": "Molecular dynamics study of the behaviour of Eu³⁺ ion exchange on kaolinite surfaces in the presence of K⁺ and Mg2+",
+      "notes": [
+        "notes/crossref_Molecular_dynamics_study_of_the_behaviour_of__9232a3244f.md"
+      ],
+      "added_at": "2026-11-10T22:07:17+00:00",
+      "last_requested_at": "2026-11-10T22:07:17+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv-2025-7wx80/v3": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv-2025-7wx80/v3",
+      "original_url": "https://doi.org/10.26434/chemrxiv-2025-7wx80/v3",
+      "title": "Unified Charge-Transfer Diagrams for Teaching Molecule-Surface Interactions",
+      "notes": [
+        "notes/chemrxiv_Unified_Charge-Transfer_Diagrams_for_Teaching_f8cb94662a.md"
+      ],
+      "added_at": "2026-11-10T22:07:17+00:00",
+      "last_requested_at": "2026-11-10T22:07:17+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011921/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011921/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011921/v1",
+      "title": "Controlled Oxidant Delivery Uncovers Selectivity Branching in Heterogeneous Epoxidation Catalysis",
+      "notes": [
+        "notes/chemrxiv_Controlled_Oxidant_Delivery_Uncovers_Selectiv_7dfec1f732.md"
+      ],
+      "added_at": "2026-11-10T22:07:17+00:00",
+      "last_requested_at": "2026-11-10T22:07:17+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
     }
   }
 }
