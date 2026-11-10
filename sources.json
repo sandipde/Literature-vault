@@ -9400,6 +9400,19 @@
       "last_requested_at": "2026-11-09T13:33:43+00:00",
       "published_at": "2026-11-09",
       "updated_at": ""
+    },
+    "https://github.com/hyxiaoge/nexus-chat": {
+      "type": "github",
+      "canonical_url": "https://github.com/hyxiaoge/nexus-chat",
+      "original_url": "https://github.com/HyxiaoGe/nexus-chat",
+      "title": "HyxiaoGe/nexus-chat",
+      "notes": [
+        "notes/210_HyxiaoGe_nexus-chat.md"
+      ],
+      "added_at": "2026-11-10T00:03:16+00:00",
+      "last_requested_at": "2026-11-10T00:03:16+00:00",
+      "published_at": "",
+      "updated_at": "2025-12-14T16:16:24Z"
     }
   }
 }
