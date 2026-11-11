@@ -10115,6 +10115,97 @@
       "last_requested_at": "2026-11-11T14:38:27+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://doi.org/10.2139/ssrn.7685238": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2139/ssrn.7685238",
+      "original_url": "https://doi.org/10.2139/ssrn.7685238",
+      "title": "Equivariant Graph-Neural-Network Interatomic Potentials For Radiation Damage And Plasma-Material Interactions In Refractory Wtacrv High-Entropy Alloy For Additive Manufacturing",
+      "notes": [
+        "notes/crossref_Equivariant_Graph-Neural-Network_Interatomic__8de105c5ad.md"
+      ],
+      "added_at": "2026-11-11T23:15:59+00:00",
+      "last_requested_at": "2026-11-11T23:15:59+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.nanolett.6c04287.s002": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.nanolett.6c04287.s002",
+      "original_url": "https://doi.org/10.1021/acs.nanolett.6c04287.s002",
+      "title": "Long-Range Single-Molecule Transport and Assembly at Liquid Nitrogen Temperatures",
+      "notes": [
+        "notes/crossref_Long-Range_Single-Molecule_Transport_and_Asse_b0e4720e23.md"
+      ],
+      "added_at": "2026-11-11T23:15:59+00:00",
+      "last_requested_at": "2026-11-11T23:15:59+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.nanolett.6c04287.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.nanolett.6c04287.s001",
+      "original_url": "https://doi.org/10.1021/acs.nanolett.6c04287.s001",
+      "title": "Long-Range Single-Molecule Transport and Assembly at Liquid Nitrogen Temperatures",
+      "notes": [
+        "notes/crossref_Long-Range_Single-Molecule_Transport_and_Asse_b17318e2c4.md"
+      ],
+      "added_at": "2026-11-11T23:15:59+00:00",
+      "last_requested_at": "2026-11-11T23:15:59+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.nanolett.6c04287.s003": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.nanolett.6c04287.s003",
+      "original_url": "https://doi.org/10.1021/acs.nanolett.6c04287.s003",
+      "title": "Long-Range Single-Molecule Transport and Assembly at Liquid Nitrogen Temperatures",
+      "notes": [
+        "notes/crossref_Long-Range_Single-Molecule_Transport_and_Asse_de05758184.md"
+      ],
+      "added_at": "2026-11-11T23:15:59+00:00",
+      "last_requested_at": "2026-11-11T23:15:59+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011980/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011980/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011980/v1",
+      "title": "Accelerating High-Pressure Simulations: Open-Source Implementation of the GOSTSHYP Model on GPUs",
+      "notes": [
+        "notes/chemrxiv_Accelerating_High-Pressure_Simulations_Open-S_acf48ebf9c.md"
+      ],
+      "added_at": "2026-11-11T23:15:59+00:00",
+      "last_requested_at": "2026-11-11T23:15:59+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://github.com/jonsnow-willow/rune": {
+      "type": "github",
+      "canonical_url": "https://github.com/jonsnow-willow/rune",
+      "original_url": "https://github.com/Jonsnow-willow/Rune",
+      "title": "Jonsnow-willow/Rune",
+      "notes": [
+        "notes/github_Jonsnow-willow_Rune_5ec63b26dc.md"
+      ],
+      "added_at": "2026-11-11T23:15:59+00:00",
+      "last_requested_at": "2026-11-11T23:15:59+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-11T20:04:06Z"
+    },
+    "https://github.com/singularity-sd/cluster-mlip-benchmark": {
+      "type": "github",
+      "canonical_url": "https://github.com/singularity-sd/cluster-mlip-benchmark",
+      "original_url": "https://github.com/singularity-sd/cluster-mlip-benchmark",
+      "title": "singularity-sd/cluster-mlip-benchmark",
+      "notes": [
+        "notes/github_singularity-sd_cluster-mlip-benchmark_432474f057.md"
+      ],
+      "added_at": "2026-11-11T23:15:59+00:00",
+      "last_requested_at": "2026-11-11T23:15:59+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-11T19:28:18Z"
     }
   }
 }
