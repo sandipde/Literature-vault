@@ -10102,6 +10102,19 @@
       "last_requested_at": "2026-11-11T12:22:55+00:00",
       "published_at": "",
       "updated_at": "2026-11-11T12:00:16Z"
+    },
+    "https://julschleinitz.github.io/ai4chemistry-bootcamp/lectures": {
+      "type": "web",
+      "canonical_url": "https://julschleinitz.github.io/ai4chemistry-bootcamp/lectures",
+      "original_url": "https://julschleinitz.github.io/ai4chemistry-bootcamp/lectures/",
+      "title": "Lectures · AI4Chemical Sciences Bootcamp",
+      "notes": [
+        "notes/212_Lectures_AI4Chemical_Sciences_Bootcamp.md"
+      ],
+      "added_at": "2026-11-11T14:38:27+00:00",
+      "last_requested_at": "2026-11-11T14:38:27+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
