@@ -9907,6 +9907,201 @@
       "last_requested_at": "2026-11-10T22:07:17+00:00",
       "published_at": "2026-11-10",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.14513": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.14513",
+      "original_url": "https://arxiv.org/abs/2611.14513",
+      "title": "Online Graph Coloring: Competitive Ratios Separating Randomized and Deterministic Algorithms",
+      "notes": [
+        "notes/arxiv_2611.14513_Online_Graph_Coloring_Competitive_Ratios_Sepa_a99af82a2f.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.14506": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.14506",
+      "original_url": "https://arxiv.org/abs/2611.14506",
+      "title": "Annular Counterexamples and Skew-Shape Block Identities",
+      "notes": [
+        "notes/arxiv_2611.14506_Annular_Counterexamples_and_Skew-Shape_Block__25403bd3f9.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.14505": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.14505",
+      "original_url": "https://arxiv.org/abs/2611.14505",
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "notes": [
+        "notes/arxiv_2611.14505_Continual-ARC_Measuring_Skill_Acquisition_ove_baab05ce60.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1177/14697874261498614": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1177/14697874261498614",
+      "original_url": "https://doi.org/10.1177/14697874261498614",
+      "title": "Generative AI in Mental Health Training: A Human Factors Approach to Active Learning and Pedagogical Innovation",
+      "notes": [
+        "notes/crossref_Generative_AI_in_Mental_Health_Training_A_Hum_59747e732e.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.31237/osf.io/a5mbz_v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.31237/osf.io/a5mbz_v1",
+      "original_url": "https://doi.org/10.31237/osf.io/a5mbz_v1",
+      "title": "A Study on Electrostatics and Its Hazards",
+      "notes": [
+        "notes/crossref_A_Study_on_Electrostatics_and_Its_Hazards_538155384d.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11517085/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11517085/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11517085/v1",
+      "title": "Decoupling the Pressure-Induced performance Gains in PEMFC stacks: Dominance of Charge-Transfer Resistance over a 10-200kPa Range",
+      "notes": [
+        "notes/crossref_Decoupling_the_Pressure-Induced_performance_G_27c9d3739b.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01315.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01315.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01315.s001",
+      "title": "P3MaZe: a Mass-Zero Constrained-Dynamics Formulation of ParticleMesh Electrostatics",
+      "notes": [
+        "notes/crossref_P3MaZe_a_Mass-Zero_Constrained-Dynamics_Formu_8e911a4029.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111264": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111264",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111264",
+      "title": "Nickel Substitution in Silverene for Dual-Functional Hydrogen Evolution and Oxygen Reduction Catalysis: Screening of Different Transition Metals",
+      "notes": [
+        "notes/crossref_Nickel_Substitution_in_Silverene_for_Dual-Fun_a74233b892.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111215": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111215",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111215",
+      "title": "Editorial Board",
+      "notes": [
+        "notes/crossref_Editorial_Board_a6b4a89fcc.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111149": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111149",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111149",
+      "title": "Phosphonate‑functionalized covalent organic frameworks for wastewater treatment: A critical review",
+      "notes": [
+        "notes/crossref_Phosphonate_functionalized_covalent_organic_f_232e5bb3a4.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011969/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011969/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011969/v1",
+      "title": "From Small-Data Conductivity Prediction to Bayesian Optimization of Electrolyte Formulations with a Tabular Foundation Model",
+      "notes": [
+        "notes/chemrxiv_From_Small-Data_Conductivity_Prediction_to_Ba_296e502c4d.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011951/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011951/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011951/v1",
+      "title": "Unlocking the promise of materials AI through application proxies and protected collaboration",
+      "notes": [
+        "notes/chemrxiv_Unlocking_the_promise_of_materials_AI_through_ab8e8b704f.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011976/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011976/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011976/v1",
+      "title": "Hessian- and Property-Aware Learning of Analytic Bond-Order Potentials",
+      "notes": [
+        "notes/chemrxiv_Hessian-_and_Property-Aware_Learning_of_Analy_89a9068887.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011952/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011952/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011952/v1",
+      "title": "Mixed-Valence Chemistry without Fractional Electrons in Variational 2-Electron Reduced Density Matrix Theory via Local Integer-Charge Constraints",
+      "notes": [
+        "notes/chemrxiv_Mixed-Valence_Chemistry_without_Fractional_El_09c8db213a.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://github.com/ericboittier/longrangebench": {
+      "type": "github",
+      "canonical_url": "https://github.com/ericboittier/longrangebench",
+      "original_url": "https://github.com/EricBoittier/LongRangeBench",
+      "title": "EricBoittier/LongRangeBench",
+      "notes": [
+        "notes/github_EricBoittier_LongRangeBench_798cdef5ad.md"
+      ],
+      "added_at": "2026-11-11T12:22:55+00:00",
+      "last_requested_at": "2026-11-11T12:22:55+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-11T12:00:16Z"
     }
   }
 }
