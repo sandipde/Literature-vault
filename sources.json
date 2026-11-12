@@ -10206,6 +10206,214 @@
       "last_requested_at": "2026-11-11T23:15:59+00:00",
       "published_at": "",
       "updated_at": "2026-11-11T19:28:18Z"
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01621": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01621",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01621",
+      "title": "A Charge-Consistent Long-Range Machine-Learned Interatomic Potential Compatible with Quantum Linear System Algorithms",
+      "notes": [
+        "notes/crossref_A_Charge-Consistent_Long-Range_Machine-Learne_766f98fbe8.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012033/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012033/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012033/v1",
+      "title": "Automated Construction of Data-Efficient Machine-Learned Force Fields for Polymers",
+      "notes": [
+        "notes/crossref_Automated_Construction_of_Data-Efficient_Mach_ba1934d950.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.47820/recima21.v7i11.9605": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.47820/recima21.v7i11.9605",
+      "original_url": "https://doi.org/10.47820/recima21.v7i11.9605",
+      "title": "ANÁLISE DO POTENCIAL EÓLICO EM PERNAMBUCO: UMA APLICAÇÃO DE ALGORITMOS DE &lt;i&gt;MACHINE LEARNING&lt;/i&gt; E &lt;i&gt;ENSEMBLE LEARNING&lt;/i&gt; PARA PREVISÃO DA VELOCIDADE DO VENTO",
+      "notes": [
+        "notes/crossref_AN_LISE_DO_POTENCIAL_E_LICO_EM_PERNAMBUCO_UMA_1d90c0de00.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012048/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012048/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012048/v1",
+      "title": "Multistate Potential Energy Surfaces from an Equivariant Core-Hamiltonian Correction to Semiempirical Configuration Interaction",
+      "notes": [
+        "notes/crossref_Multistate_Potential_Energy_Surfaces_from_an__a4c8c4db5d.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ta03615e": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ta03615e",
+      "original_url": "https://doi.org/10.1039/d6ta03615e",
+      "title": "Experimental validation of universal machine learning interatomic potentials for lithium-ion dynamics in solid electrolytes <i>via</i> <sup>7</sup> Li NMR",
+      "notes": [
+        "notes/crossref_Experimental_validation_of_universal_machine__b158b971ce.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3390/su182211524": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3390/su182211524",
+      "original_url": "https://doi.org/10.3390/su182211524",
+      "title": "A Sustainable Deep Reinforcement Learning Framework for Personalized Learning: Balancing Learning Gains, Resource Efficiency, and Educational Equity: A Simulation Study",
+      "notes": [
+        "notes/crossref_A_Sustainable_Deep_Reinforcement_Learning_Fra_ccc9758e30.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/jacs.6c20703.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/jacs.6c20703.s001",
+      "original_url": "https://doi.org/10.1021/jacs.6c20703.s001",
+      "title": "Extended Active Learning-Guided Design of Multicomponent Electrolytes with Opposing Cosolvent Properties for Aqueous Zinc-Ion Batteries",
+      "notes": [
+        "notes/crossref_Extended_Active_Learning-Guided_Design_of_Mul_96f7de5fcf.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104416": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104416",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104416",
+      "title": "Surface-charge-based analysis of electric field structure in quadrupolar dielectrophoretic cell separator",
+      "notes": [
+        "notes/crossref_Surface-charge-based_analysis_of_electric_fie_b0a2bb0d02.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15004005/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15004005/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15004005/v2",
+      "title": "Mechanistic Understanding of Proton Transport in Metal–Organic Frameworks via Universal Machine-Learned Potentials",
+      "notes": [
+        "notes/chemrxiv_Mechanistic_Understanding_of_Proton_Transport_811d76c46f.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012000/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012000/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012000/v1",
+      "title": "Vibronic Ground-State Symmetry Beyond Scalar-Potential Reduction in a Benzene-Cation Model",
+      "notes": [
+        "notes/chemrxiv_Vibronic_Ground-State_Symmetry_Beyond_Scalar-_e975565b84.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012060/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012060/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012060/v1",
+      "title": "Machine Learning-Driven High-Throughput Discovery of Energetic Materials Based on Regioisomeric Pyrazole Scaffolds",
+      "notes": [
+        "notes/chemrxiv_Machine_Learning-Driven_High-Throughput_Disco_8183f8dd3f.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012036/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012036/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012036/v1",
+      "title": "On-the-fly Neural Network based Kinetic Monte Carlo Simulations of NH3-SCR over Cu-CHA",
+      "notes": [
+        "notes/chemrxiv_On-the-fly_Neural_Network_based_Kinetic_Monte_2b539f7793.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012031/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012031/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012031/v1",
+      "title": "The Same Edit, a Different Outcome: Relational Learning for Cyclic Peptide Permeability",
+      "notes": [
+        "notes/chemrxiv_The_Same_Edit_a_Different_Outcome_Relational__513d89e996.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012032/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012032/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012032/v1",
+      "title": "Site-Dependent Promotion of CO Hydrogenation on Rh(211): Role of Impurity Stability and Step-Edge Charge Distribution",
+      "notes": [
+        "notes/chemrxiv_Site-Dependent_Promotion_of_CO_Hydrogenation__10e41580d9.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012039/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012039/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012039/v1",
+      "title": "How Effective is DFTB for Investigating Electrochemical Interfaces? A Study of Metal-Water Systems",
+      "notes": [
+        "notes/chemrxiv_How_Effective_is_DFTB_for_Investigating_Elect_fa58ce1d2a.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15006946/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15006946/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15006946/v2",
+      "title": "Hydrophilic Silica Surfaces Host a Hydrophobic-Like Two-Dimensional Water Network",
+      "notes": [
+        "notes/chemrxiv_Hydrophilic_Silica_Surfaces_Host_a_Hydrophobi_29bd1f1f24.md"
+      ],
+      "added_at": "2026-11-12T13:29:56+00:00",
+      "last_requested_at": "2026-11-12T13:29:56+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
     }
   }
 }
