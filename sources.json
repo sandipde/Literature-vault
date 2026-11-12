@@ -10427,6 +10427,123 @@
       "last_requested_at": "2026-11-12T20:29:42+00:00",
       "published_at": "",
       "updated_at": "2026-11-12T20:25:14Z"
+    },
+    "https://doi.org/10.1039/d6ta03615e/v1/review2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ta03615e/v1/review2",
+      "original_url": "https://doi.org/10.1039/d6ta03615e/v1/review2",
+      "title": "Review for \"Experimental Validation of Universal Machine Learning Interatomic Potentials for Lithium-Ion Dynamics in Solid Electrolytes via 7Li NMR\"",
+      "notes": [
+        "notes/crossref_Review_for_Experimental_Validation_of_Univers_38df90682b.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-05-25",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ta03615e/v2/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ta03615e/v2/review1",
+      "original_url": "https://doi.org/10.1039/d6ta03615e/v2/review1",
+      "title": "Review for \"Experimental Validation of Universal Machine Learning Interatomic Potentials for Lithium-Ion Dynamics in Solid Electrolytes via 7Li NMR\"",
+      "notes": [
+        "notes/crossref_Review_for_Experimental_Validation_of_Univers_0846c84991.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-09-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ta03615e/v1/review1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ta03615e/v1/review1",
+      "original_url": "https://doi.org/10.1039/d6ta03615e/v1/review1",
+      "title": "Review for \"Experimental Validation of Universal Machine Learning Interatomic Potentials for Lithium-Ion Dynamics in Solid Electrolytes via 7Li NMR\"",
+      "notes": [
+        "notes/crossref_Review_for_Experimental_Validation_of_Univers_4844923460.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-05-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ta03615e/v3/decision1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ta03615e/v3/decision1",
+      "original_url": "https://doi.org/10.1039/d6ta03615e/v3/decision1",
+      "title": "Decision letter for \"Experimental Validation of Universal Machine Learning Interatomic Potentials for Lithium-Ion Dynamics in Solid Electrolytes via 7Li NMR\"",
+      "notes": [
+        "notes/crossref_Decision_letter_for_Experimental_Validation_o_358b81f5d6.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-10-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ta03615e/v1/decision1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ta03615e/v1/decision1",
+      "original_url": "https://doi.org/10.1039/d6ta03615e/v1/decision1",
+      "title": "Decision letter for \"Experimental Validation of Universal Machine Learning Interatomic Potentials for Lithium-Ion Dynamics in Solid Electrolytes via 7Li NMR\"",
+      "notes": [
+        "notes/crossref_Decision_letter_for_Experimental_Validation_o_6bae440af2.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-06-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ta03615e/v2/decision1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ta03615e/v2/decision1",
+      "original_url": "https://doi.org/10.1039/d6ta03615e/v2/decision1",
+      "title": "Decision letter for \"Experimental Validation of Universal Machine Learning Interatomic Potentials for Lithium-Ion Dynamics in Solid Electrolytes via 7Li NMR\"",
+      "notes": [
+        "notes/crossref_Decision_letter_for_Experimental_Validation_o_ecea1b0ecd.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-09-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1117/12.3119148.c4282cd0-ac48-f111-a9b3-005056914f1c": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1117/12.3119148.c4282cd0-ac48-f111-a9b3-005056914f1c",
+      "original_url": "https://doi.org/10.1117/12.3119148.c4282cd0-ac48-f111-a9b3-005056914f1c",
+      "title": "https://doi.org/10.1117/12.3119148.c4282cd0-ac48-f111-a9b3-005056914f1c",
+      "notes": [
+        "notes/crossref_https_doi_org_10_1117_12_3119148_c4282cd0-ac4_db28ae1ffb.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.lrp.2026.102698": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lrp.2026.102698",
+      "original_url": "https://doi.org/10.1016/j.lrp.2026.102698",
+      "title": "How Digital Platform Disruptors Overcome the Liability of Ecosystem Integration through Trust and Asset Orchestration: A Case Study of Uber in Japan",
+      "notes": [
+        "notes/crossref_How_Digital_Platform_Disruptors_Overcome_the__1c9692ca87.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15009030/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15009030/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15009030/v2",
+      "title": "Local Chemistry of Na-Site Substitution in P2−NaxMn0.66Ni0.33O2 Cathodes for Na-ion Batteries. A First-Principles Study of Structural Fluctuations, Ion Mobility, and Charge Redistribution",
+      "notes": [
+        "notes/chemrxiv_Local_Chemistry_of_Na-Site_Substitution_in_P2_d800b7f41b.md"
+      ],
+      "added_at": "2026-11-12T22:32:09+00:00",
+      "last_requested_at": "2026-11-12T22:32:09+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
     }
   }
 }
