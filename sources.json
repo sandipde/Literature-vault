@@ -10414,6 +10414,19 @@
       "last_requested_at": "2026-11-12T13:29:56+00:00",
       "published_at": "2026-11-12",
       "updated_at": ""
+    },
+    "https://github.com/backnotprop/plannotator": {
+      "type": "github",
+      "canonical_url": "https://github.com/backnotprop/plannotator",
+      "original_url": "https://github.com/backnotprop/plannotator",
+      "title": "backnotprop/plannotator",
+      "notes": [
+        "notes/213_backnotprop_plannotator.md"
+      ],
+      "added_at": "2026-11-12T20:29:42+00:00",
+      "last_requested_at": "2026-11-12T20:29:42+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-12T20:25:14Z"
     }
   }
 }
