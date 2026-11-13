@@ -10544,6 +10544,188 @@
       "last_requested_at": "2026-11-12T22:32:09+00:00",
       "published_at": "2026-11-12",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.17196": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.17196",
+      "original_url": "https://arxiv.org/abs/2611.17196",
+      "title": "Physically Interpretable Basin Selection in Discrete-Variable Origami Design",
+      "notes": [
+        "notes/arxiv_2611.17196_Physically_Interpretable_Basin_Selection_in_D_94aa50625c.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.16792": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.16792",
+      "original_url": "https://arxiv.org/abs/2611.16792",
+      "title": "Systematic Evaluation of Training Data Generation Strategies for Machine Learning-Based Molecular and Materials Property Prediction",
+      "notes": [
+        "notes/arxiv_2611.16792_Systematic_Evaluation_of_Training_Data_Genera_54cf45c24f.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.17332": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.17332",
+      "original_url": "https://arxiv.org/abs/2611.17332",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "notes": [
+        "notes/arxiv_2611.17332_ArchSpace_Recording_Reviewing_and_Referencing_abf0569d23.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.17320": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.17320",
+      "original_url": "https://arxiv.org/abs/2611.17320",
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "notes": [
+        "notes/arxiv_2611.17320_Learning_When_Diffusion_Language_Models_Shoul_f96332f5aa.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.17317": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.17317",
+      "original_url": "https://arxiv.org/abs/2611.17317",
+      "title": "$C^{1,α}$ Regularity of $W^{2,2}$ $Q$-Valued Maps with Small Laplacian",
+      "notes": [
+        "notes/arxiv_2611.17317_C_1_Regularity_of_W_2_2_Q_-Valued_Maps_with_S_745e6b7b31.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.31235/osf.io/vn4ck": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.31235/osf.io/vn4ck",
+      "original_url": "https://doi.org/10.31235/osf.io/vn4ck",
+      "title": "Forecasting Cohort Fertility with a Simple Neural Network",
+      "notes": [
+        "notes/crossref_Forecasting_Cohort_Fertility_with_a_Simple_Ne_125c5a09d1.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.31235/osf.io/vn4ck_v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.31235/osf.io/vn4ck_v1",
+      "original_url": "https://doi.org/10.31235/osf.io/vn4ck_v1",
+      "title": "Forecasting Cohort Fertility with a Simple Neural Network",
+      "notes": [
+        "notes/crossref_Forecasting_Cohort_Fertility_with_a_Simple_Ne_fc376622bb.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/icpics70703.2026.11761910": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/icpics70703.2026.11761910",
+      "original_url": "https://doi.org/10.1109/icpics70703.2026.11761910",
+      "title": "A Federated Learning Method Based on HyperNetworks and Active Learning",
+      "notes": [
+        "notes/crossref_A_Federated_Learning_Method_Based_on_HyperNet_178917da6a.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-08",
+      "updated_at": ""
+    },
+    "https://doi.org/10.5539/jel.v16n1p170": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.5539/jel.v16n1p170",
+      "original_url": "https://doi.org/10.5539/jel.v16n1p170",
+      "title": "A Teacher Competency Enhancement Model for Technology-Enhanced Active Learning in Primary Schools",
+      "notes": [
+        "notes/crossref_A_Teacher_Competency_Enhancement_Model_for_Te_abdd62f353.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jpclett.6c02747.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpclett.6c02747.s001",
+      "original_url": "https://doi.org/10.1021/acs.jpclett.6c02747.s001",
+      "title": "Chirality-Induced Spin Selectivity in Photoinduced Charge-Separations of Cryptochrome: Potential Role in Magnetoreception",
+      "notes": [
+        "notes/crossref_Chirality-Induced_Spin_Selectivity_in_Photoin_b62b083471.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.58445/rars.4239": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.58445/rars.4239",
+      "original_url": "https://doi.org/10.58445/rars.4239",
+      "title": "LIFEBAND: A Long-Range, Low-Power Wearable for Real-Time Aquatic Distress Detection",
+      "notes": [
+        "notes/crossref_LIFEBAND_A_Long-Range_Low-Power_Wearable_for__8132357216.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.rsurfi.2026.101046": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.rsurfi.2026.101046",
+      "original_url": "https://doi.org/10.1016/j.rsurfi.2026.101046",
+      "title": "Sustainable Water Remediation via MOF-Derived Persulfate Activators: Mechanisms, Performance, and Future Directions for Bisphenol A Removal",
+      "notes": [
+        "notes/crossref_Sustainable_Water_Remediation_via_MOF-Derived_cb2280bf68.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012031/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012031/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012031/v2",
+      "title": "The Same Edit, a Different Outcome: Relational Learning for Cyclic Peptide Permeability",
+      "notes": [
+        "notes/chemrxiv_The_Same_Edit_a_Different_Outcome_Relational__30bcb132c1.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15006401/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15006401/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15006401/v2",
+      "title": "Photoswitchable Carbon Nanohoops with Light-Controlled Fullerene Recognition and Charge Transfer",
+      "notes": [
+        "notes/chemrxiv_Photoswitchable_Carbon_Nanohoops_with_Light-C_414609d7a2.md"
+      ],
+      "added_at": "2026-11-13T12:48:29+00:00",
+      "last_requested_at": "2026-11-13T12:48:29+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
     }
   }
 }
