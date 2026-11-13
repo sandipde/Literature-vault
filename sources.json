@@ -10726,6 +10726,58 @@
       "last_requested_at": "2026-11-13T12:48:29+00:00",
       "published_at": "2026-11-13",
       "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c02281": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c02281",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c02281",
+      "title": "Correction to “Protein-Based Determination of Model Redox Potentials for the High-Potential and Low-Potential Redox Transition of [4Fe-4S]-Cys4 Clusters Using Continuum Electrostatics”",
+      "notes": [
+        "notes/crossref_Correction_to_Protein-Based_Determination_of__0f9bb88246.md"
+      ],
+      "added_at": "2026-11-13T22:21:14+00:00",
+      "last_requested_at": "2026-11-13T22:21:14+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.7554/elife.110525.2.sa1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.7554/elife.110525.2.sa1",
+      "original_url": "https://doi.org/10.7554/elife.110525.2.sa1",
+      "title": "Reviewer #2 (Public review): A developmentally regulated long-range enhancer-promoter contact mediates human neural development",
+      "notes": [
+        "notes/crossref_Reviewer_2_Public_review_A_developmentally_re_ed8ba3a406.md"
+      ],
+      "added_at": "2026-11-13T22:21:14+00:00",
+      "last_requested_at": "2026-11-13T22:21:14+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s10853-026-14063-2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s10853-026-14063-2",
+      "original_url": "https://doi.org/10.1007/s10853-026-14063-2",
+      "title": "Isomeric heterogeneous interfaces in carbonized hydrochars for enhanced microwave absorption",
+      "notes": [
+        "notes/crossref_Isomeric_heterogeneous_interfaces_in_carboniz_544dfb6406.md"
+      ],
+      "added_at": "2026-11-13T22:21:14+00:00",
+      "last_requested_at": "2026-11-13T22:21:14+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012172/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012172/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012172/v1",
+      "title": "Predicting the Fourth Analogue: Learning Stereochemical Transfer in Cyclic-Peptide Permeability",
+      "notes": [
+        "notes/chemrxiv_Predicting_the_Fourth_Analogue_Learning_Stere_aa8ec3a75d.md"
+      ],
+      "added_at": "2026-11-13T22:21:14+00:00",
+      "last_requested_at": "2026-11-13T22:21:14+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
     }
   }
 }
