@@ -10778,6 +10778,240 @@
       "last_requested_at": "2026-11-13T22:21:14+00:00",
       "published_at": "2026-11-13",
       "updated_at": ""
+    },
+    "https://doi.org/10.1145/3858063.3858867": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1145/3858063.3858867",
+      "original_url": "https://doi.org/10.1145/3858063.3858867",
+      "title": "Machine-Learned Conditional Trading of TP2 Violations in SPY American Call Options",
+      "notes": [
+        "notes/crossref_Machine-Learned_Conditional_Trading_of_TP2_Vi_b5bb430205.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1002/leap.v40.1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1002/leap.v40.1",
+      "original_url": "https://doi.org/10.1002/leap.v40.1",
+      "title": "https://doi.org/10.1002/leap.v40.1",
+      "notes": [
+        "notes/crossref_https_doi_org_10_1002_leap_v40_1_901424252b.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1002/leap.2079": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1002/leap.2079",
+      "original_url": "https://doi.org/10.1002/leap.2079",
+      "title": "Issue Information",
+      "notes": [
+        "notes/crossref_Issue_Information_c8e264309a.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-10897801/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-10897801/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-10897801/v1",
+      "title": "Groundwater Potential Assessment Using Ann-Rks Machine Learning Based Models in Part of Aule Community, Akure, Nigeria",
+      "notes": [
+        "notes/crossref_Groundwater_Potential_Assessment_Using_Ann-Rk_f05d1dadec.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11376353/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11376353/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11376353/v1",
+      "title": "High Temperature Acetylene-to-Ethylene Hydrogenation over Pd: A Combined Experimental, Machine Learning Potential, and DFT Investigation",
+      "notes": [
+        "notes/crossref_High_Temperature_Acetylene-to-Ethylene_Hydrog_36d2d04a85.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1038/s41598-026-74354-1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1038/s41598-026-74354-1",
+      "original_url": "https://doi.org/10.1038/s41598-026-74354-1",
+      "title": "Machine learning-based image classification and estimation of hazelnuts with potential implications for marketing efficiency and producer income",
+      "notes": [
+        "notes/crossref_Machine_learning-based_image_classification_a_9203f2ce51.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.37528/ftte/9788673955247/symopis.2026.abs.en.26": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.37528/ftte/9788673955247/symopis.2026.abs.en.26",
+      "original_url": "https://doi.org/10.37528/ftte/9788673955247/symopis.2026.abs.en.26",
+      "title": "OPTIMIZATION OF ZEOLITE MICRONIZATION BY ARTIFICIAL NEURAL NETWORK MODELING",
+      "notes": [
+        "notes/crossref_OPTIMIZATION_OF_ZEOLITE_MICRONIZATION_BY_ARTI_e9b26ffe02.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-20",
+      "updated_at": ""
+    },
+    "https://doi.org/10.61365/kpj-25-10": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.61365/kpj-25-10",
+      "original_url": "https://doi.org/10.61365/kpj-25-10",
+      "title": "Developing Speaking Skills with Neural Network Technologies: An Experimental Study",
+      "notes": [
+        "notes/crossref_Developing_Speaking_Skills_with_Neural_Networ_29a3aad5e9.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2025-06-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2172/17428313": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2172/17428313",
+      "original_url": "https://doi.org/10.2172/17428313",
+      "title": "Orchestrating Interatomic Potentials for Predictive Molecular Dynamics of Materials",
+      "notes": [
+        "notes/crossref_Orchestrating_Interatomic_Potentials_for_Pred_ecfbb20143.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.jhazmat.2026.144224": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.jhazmat.2026.144224",
+      "original_url": "https://doi.org/10.1016/j.jhazmat.2026.144224",
+      "title": "Ultrashort-chain PFAS in a large drinking water reservoir: Occurrence, dynamics, potential sources, and risk prioritization",
+      "notes": [
+        "notes/crossref_Ultrashort-chain_PFAS_in_a_large_drinking_wat_aede0a223f.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.70315/uloap.ulche.2026.0101002": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.70315/uloap.ulche.2026.0101002",
+      "original_url": "https://doi.org/10.70315/uloap.ulche.2026.0101002",
+      "title": "Comparisons between Analytical Solution of the Diffusion Equation, Gaussian Model, Previous Work and Observed Concentrations",
+      "notes": [
+        "notes/crossref_Comparisons_between_Analytical_Solution_of_th_5076d9bdd3.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.31234/osf.io/8yuvm": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.31234/osf.io/8yuvm",
+      "original_url": "https://doi.org/10.31234/osf.io/8yuvm",
+      "title": "Effects of active learning and talker variability on preschoolers' novel word learning",
+      "notes": [
+        "notes/crossref_Effects_of_active_learning_and_talker_variabi_b07c051d79.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.31234/osf.io/8yuvm_v3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.31234/osf.io/8yuvm_v3",
+      "original_url": "https://doi.org/10.31234/osf.io/8yuvm_v3",
+      "title": "Effects of active learning and talker variability on preschoolers' novel word learning",
+      "notes": [
+        "notes/crossref_Effects_of_active_learning_and_talker_variabi_eee9dd6030.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.7554/elife.110525.2.sa2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.7554/elife.110525.2.sa2",
+      "original_url": "https://doi.org/10.7554/elife.110525.2.sa2",
+      "title": "Reviewer #1 (Public review): A developmentally regulated long-range enhancer-promoter contact mediates human neural development",
+      "notes": [
+        "notes/crossref_Reviewer_1_Public_review_A_developmentally_re_fb4e2c980a.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111288": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111288",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111288",
+      "title": "Expression of concern: Optimization of organic dyes photodegradation and investigation of the anticancer performance by copper oxide/graphene oxide nanocomposite Surfaces and Interfaces 50 (2024) 104482",
+      "notes": [
+        "notes/crossref_Expression_of_concern_Optimization_of_organic_0b42b3547e.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012162/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012162/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012162/v2",
+      "title": "Bayesian Optimization Outperforms Experts for Spectral Model Development",
+      "notes": [
+        "notes/chemrxiv_Bayesian_Optimization_Outperforms_Experts_for_117eac67b7.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012069/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012069/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012069/v2",
+      "title": "Improved Reproducibility of FT-ICR Mass Spectra for Organic Matter by Minimizing Electronic Noise Peaks and Low-abundance Peaks with Few Occurrences",
+      "notes": [
+        "notes/chemrxiv_Improved_Reproducibility_of_FT-ICR_Mass_Spect_cb7aa6fdd9.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15002568/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15002568/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15002568/v2",
+      "title": "Metal-Support interfaces in Pt1/γ-Al2O3 Single Atom Catalysts with Atomic-Level Precision",
+      "notes": [
+        "notes/chemrxiv_Metal-Support_interfaces_in_Pt1_-Al2O3_Single_5172ab58ca.md"
+      ],
+      "added_at": "2026-11-14T11:54:17+00:00",
+      "last_requested_at": "2026-11-14T11:54:17+00:00",
+      "published_at": "2026-11-13",
+      "updated_at": ""
     }
   }
 }
