@@ -11142,6 +11142,19 @@
       "last_requested_at": "2026-11-15T12:27:23+00:00",
       "published_at": "",
       "updated_at": "2026-11-15T12:26:03Z"
+    },
+    "https://github.com/owlgebra-ai/faiss": {
+      "type": "github",
+      "canonical_url": "https://github.com/owlgebra-ai/faiss",
+      "original_url": "https://github.com/owlgebra-ai/faiss/tree/main/contrib/o_means",
+      "title": "owlgebra-ai/faiss",
+      "notes": [
+        "notes/216_owlgebra-ai_faiss.md"
+      ],
+      "added_at": "2026-11-15T18:58:42+00:00",
+      "last_requested_at": "2026-11-15T18:58:42+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-13T01:55:21Z"
     }
   }
 }
