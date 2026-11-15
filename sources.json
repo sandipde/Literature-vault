@@ -11051,6 +11051,97 @@
       "last_requested_at": "2026-11-15T10:29:20+00:00",
       "published_at": "",
       "updated_at": "2026-11-14T21:48:16Z"
+    },
+    "https://doi.org/10.61955/ipzhot": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.61955/ipzhot",
+      "original_url": "https://doi.org/10.61955/ipzhot",
+      "title": "Comparative Evaluation of Machine Learning Algorithms for Fault Classification in Smart Grid Systems",
+      "notes": [
+        "notes/crossref_Comparative_Evaluation_of_Machine_Learning_Al_14efccdd10.md"
+      ],
+      "added_at": "2026-11-15T12:27:23+00:00",
+      "last_requested_at": "2026-11-15T12:27:23+00:00",
+      "published_at": "2026-11-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1038/s41524-026-02382-6": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1038/s41524-026-02382-6",
+      "original_url": "https://doi.org/10.1038/s41524-026-02382-6",
+      "title": "MatBind: a shared embedding space for multimodal materials characterization",
+      "notes": [
+        "notes/crossref_MatBind_a_shared_embedding_space_for_multimod_5879dd9571.md"
+      ],
+      "added_at": "2026-11-15T12:27:23+00:00",
+      "last_requested_at": "2026-11-15T12:27:23+00:00",
+      "published_at": "2026-11-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.2197/ipsjjip.34.1147": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.2197/ipsjjip.34.1147",
+      "original_url": "https://doi.org/10.2197/ipsjjip.34.1147",
+      "title": "Temporal Stability and Instructional Adaptability of a Web-based Gaming Simulation for Active Learning in Management Education",
+      "notes": [
+        "notes/crossref_Temporal_Stability_and_Instructional_Adaptabi_0439ad7d13.md"
+      ],
+      "added_at": "2026-11-15T12:27:23+00:00",
+      "last_requested_at": "2026-11-15T12:27:23+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104420": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104420",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104420",
+      "title": "Narrow MEMS-based tri-electrode electrostatic actuator with enhanced range and bidirectional motion using various dielectric spacer materials",
+      "notes": [
+        "notes/crossref_Narrow_MEMS-based_tri-electrode_electrostatic_581bb32501.md"
+      ],
+      "added_at": "2026-11-15T12:27:23+00:00",
+      "last_requested_at": "2026-11-15T12:27:23+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.micres.2026.128828": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.micres.2026.128828",
+      "original_url": "https://doi.org/10.1016/j.micres.2026.128828",
+      "title": "Harnessing the GutOrgan Axis: The Potential of Probiotics for Healthy Aging",
+      "notes": [
+        "notes/crossref_Harnessing_the_GutOrgan_Axis_The_Potential_of_68c45d6550.md"
+      ],
+      "added_at": "2026-11-15T12:27:23+00:00",
+      "last_requested_at": "2026-11-15T12:27:23+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111309": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111309",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111309",
+      "title": "Nanofiller Dispersion and Surface Functionalization Strategies for Enhancing UV Durability in Polymer Nanocomposites: A Review",
+      "notes": [
+        "notes/crossref_Nanofiller_Dispersion_and_Surface_Functionali_05e18ce473.md"
+      ],
+      "added_at": "2026-11-15T12:27:23+00:00",
+      "last_requested_at": "2026-11-15T12:27:23+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://github.com/qwuantabee/mlip-fidelity": {
+      "type": "github",
+      "canonical_url": "https://github.com/qwuantabee/mlip-fidelity",
+      "original_url": "https://github.com/Qwuantabee/mlip-fidelity",
+      "title": "Qwuantabee/mlip-fidelity",
+      "notes": [
+        "notes/github_Qwuantabee_mlip-fidelity_91658fab3a.md"
+      ],
+      "added_at": "2026-11-15T12:27:23+00:00",
+      "last_requested_at": "2026-11-15T12:27:23+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-15T12:26:03Z"
     }
   }
 }
