@@ -11194,6 +11194,305 @@
       "last_requested_at": "2026-11-15T21:26:40+00:00",
       "published_at": "2026-11",
       "updated_at": ""
+    },
+    "https://doi.org/10.1007/s42514-026-00295-w": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s42514-026-00295-w",
+      "original_url": "https://doi.org/10.1007/s42514-026-00295-w",
+      "title": "Dpaccel: accelerating the training of machine learning interatomic potentials with efficient data loading and distributed memory management",
+      "notes": [
+        "notes/crossref_Dpaccel_accelerating_the_training_of_machine__f40326a19f.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11443334/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11443334/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11443334/v1",
+      "title": "Physical Fidelity of Learned Nonlinear Vehicle Dynamics: Validation Selection, Observational Bias, and Architecture-Conditioned Inductive Bias",
+      "notes": [
+        "notes/crossref_Physical_Fidelity_of_Learned_Nonlinear_Vehicl_568b17efaa.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/979-8-8688-3159-1_23": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/979-8-8688-3159-1_23",
+      "original_url": "https://doi.org/10.1007/979-8-8688-3159-1_23",
+      "title": "25 Lessons I Learned After Two Decades in Cybersecurity",
+      "notes": [
+        "notes/crossref_25_Lessons_I_Learned_After_Two_Decades_in_Cyb_17053dadef.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.68033/ijaimda.1.2.28-42": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.68033/ijaimda.1.2.28-42",
+      "original_url": "https://doi.org/10.68033/ijaimda.1.2.28-42",
+      "title": "Explainable Artificial Intelligence and Machine Learning for Responsible Decision-Making: A Comparative Study of Model Accuracy, Transparency, and Fairness",
+      "notes": [
+        "notes/crossref_Explainable_Artificial_Intelligence_and_Machi_87cdf3cc9b.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.neunet.2026.109927": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.neunet.2026.109927",
+      "original_url": "https://doi.org/10.1016/j.neunet.2026.109927",
+      "title": "A Delay-Compensating Predictor Zeroing Neural Network with Predefined-Time Convergence for Chaotic System Synchronization with Communication Delay",
+      "notes": [
+        "notes/crossref_A_Delay-Compensating_Predictor_Zeroing_Neural_1b39effd81.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1364/ol.614358": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1364/ol.614358",
+      "original_url": "https://doi.org/10.1364/ol.614358",
+      "title": "Bayesian Neural Network-Driven Intelligent Three-Dimensional Constellation Hopping for Secure Optical Communications",
+      "notes": [
+        "notes/crossref_Bayesian_Neural_Network-Driven_Intelligent_Th_3a5eb1aa6b.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.12783/ballistics26/37594": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.12783/ballistics26/37594",
+      "original_url": "https://doi.org/10.12783/ballistics26/37594",
+      "title": "ADAPTIVE-WEIGHTED PHYSICS-INFORMED NEURAL NETWORK FOR MULTI-PHASE GUIDED PROJECTILE EXTERIOR BALLISTIC TRAJECTORY SOLVING",
+      "notes": [
+        "notes/crossref_ADAPTIVE-WEIGHTED_PHYSICS-INFORMED_NEURAL_NET_8d27b5bb1c.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.56278/pnu_po.305": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.56278/pnu_po.305",
+      "original_url": "https://doi.org/10.56278/pnu_po.305",
+      "title": "Universal Constructs in Selected Novels of Filipino Diaspora Writers: Towards a Model for Teaching Diaspora Novels",
+      "notes": [
+        "notes/crossref_Universal_Constructs_in_Selected_Novels_of_Fi_9b859fac9b.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.matdes.2026.117552": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.matdes.2026.117552",
+      "original_url": "https://doi.org/10.1016/j.matdes.2026.117552",
+      "title": "Atomic-scale investigation of edge dislocation–void interactions in a Ni-rich NiCrCoFe solid-solution model alloy",
+      "notes": [
+        "notes/crossref_Atomic-scale_investigation_of_edge_dislocatio_84348a7a43.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3390/engproc2026153021": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3390/engproc2026153021",
+      "original_url": "https://doi.org/10.3390/engproc2026153021",
+      "title": "A Hybrid Machine Learning and Monte Carlo Simulation Model for Educational Demand Forecasting in Ecuador",
+      "notes": [
+        "notes/crossref_A_Hybrid_Machine_Learning_and_Monte_Carlo_Sim_f1109766ec.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-09-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.15823/p.1976.13.7": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.15823/p.1976.13.7",
+      "original_url": "https://doi.org/10.15823/p.1976.13.7",
+      "title": "Изучение инструментального и активного осязания, внимания и научения",
+      "notes": [
+        "notes/crossref_reference_f6831965f0.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "1976",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1108/mlag-01-2026-0001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1108/mlag-01-2026-0001",
+      "original_url": "https://doi.org/10.1108/mlag-01-2026-0001",
+      "title": "Enhancing Plurigaussian simulation through neural truncation rules",
+      "notes": [
+        "notes/crossref_Enhancing_Plurigaussian_simulation_through_ne_55efc1c21f.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-12-14",
+      "updated_at": ""
+    },
+    "https://doi.org/10.12783/ballistics26/37615": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.12783/ballistics26/37615",
+      "original_url": "https://doi.org/10.12783/ballistics26/37615",
+      "title": "AERODYNAMIC HEATING STUDIES FOR LONG RANGE GUIDED ROCKET",
+      "notes": [
+        "notes/crossref_AERODYNAMIC_HEATING_STUDIES_FOR_LONG_RANGE_GU_cde0b9768f.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.oceaneng.2026.129401": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.oceaneng.2026.129401",
+      "original_url": "https://doi.org/10.1016/j.oceaneng.2026.129401",
+      "title": "Efficient prediction of marine propeller performance and long-range wake evolution using the corrected-PLLT–rVPM",
+      "notes": [
+        "notes/crossref_Efficient_prediction_of_marine_propeller_perf_02bc614fa5.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111313": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111313",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111313",
+      "title": "Structural Continuity and Permeability of Copper Inverse Opal Coatings: Insights from Neck-Size Statistics",
+      "notes": [
+        "notes/crossref_Structural_Continuity_and_Permeability_of_Cop_8259eba3f5.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111261": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111261",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111261",
+      "title": "Analysis of Cattaneo-Christov hypothesis in a EMHD micropolar nanofluid flow over a stretching sheet with relaxation, slip, and exponential space-based heat generation",
+      "notes": [
+        "notes/crossref_Analysis_of_Cattaneo-Christov_hypothesis_in_a_17569f28dc.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012212/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012212/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012212/v1",
+      "title": "Translational Potential of New Academic Synthetic Transformations: Lessons from the Aza Paternò–Büchi Reaction",
+      "notes": [
+        "notes/chemrxiv_Translational_Potential_of_New_Academic_Synth_47dc5e4931.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012261/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012261/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012261/v1",
+      "title": "Assessing the transfer-learning performance of foundation models for energetic materials property prediction under low-data conditions",
+      "notes": [
+        "notes/chemrxiv_Assessing_the_transfer-learning_performance_o_6083a857b9.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012222/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012222/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012222/v1",
+      "title": "Environmental Selection of Thymine over Uracil in Prebiotic Chemical Evolution: Insights from a Kinetic Monte Carlo Model",
+      "notes": [
+        "notes/chemrxiv_Environmental_Selection_of_Thymine_over_Uraci_8f6f362790.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15010001/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15010001/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15010001/v2",
+      "title": "Activationless Charge Transport in Heliobacterial Reaction Centers: Polarizable Cofactors Coupled to Strong Intraprotein Electric Fields",
+      "notes": [
+        "notes/chemrxiv_Activationless_Charge_Transport_in_Heliobacte_4be237736d.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012225/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012225/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012225/v1",
+      "title": "Binding of legacy and emerging PFAS to Na-and Ca-montmorillonite basal surfaces: roles of the exchangeable cation and layer-charge heterogeneity, with implications for vadose-zone leaching",
+      "notes": [
+        "notes/chemrxiv_Binding_of_legacy_and_emerging_PFAS_to_Na-and_42b3754b0c.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012217/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012217/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012217/v1",
+      "title": "Electrochemistry in air enabled by electric-field spillover at three-phase interfaces",
+      "notes": [
+        "notes/chemrxiv_Electrochemistry_in_air_enabled_by_electric-f_9a98be1214.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://github.com/sahmed73/mlip-finetuning-zddp": {
+      "type": "github",
+      "canonical_url": "https://github.com/sahmed73/mlip-finetuning-zddp",
+      "original_url": "https://github.com/sahmed73/MLIP-FineTuning-ZDDP",
+      "title": "sahmed73/MLIP-FineTuning-ZDDP",
+      "notes": [
+        "notes/github_sahmed73_MLIP-FineTuning-ZDDP_f4891a3db8.md"
+      ],
+      "added_at": "2026-11-16T13:18:51+00:00",
+      "last_requested_at": "2026-11-16T13:18:51+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-16T10:47:32Z"
     }
   }
 }
