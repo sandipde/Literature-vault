@@ -12039,6 +12039,19 @@
       "last_requested_at": "2026-11-17T14:04:00+00:00",
       "published_at": "2026-11-17",
       "updated_at": ""
+    },
+    "https://github.com/nvidia/cupotential": {
+      "type": "github",
+      "canonical_url": "https://github.com/nvidia/cupotential",
+      "original_url": "https://github.com/NVIDIA/cuPotential",
+      "title": "NVIDIA/cuPotential",
+      "notes": [
+        "notes/218_NVIDIA_cuPotential.md"
+      ],
+      "added_at": "2026-11-17T17:53:31+00:00",
+      "last_requested_at": "2026-11-17T17:53:31+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-15T03:36:44Z"
     }
   }
 }
