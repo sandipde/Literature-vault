@@ -12052,6 +12052,84 @@
       "last_requested_at": "2026-11-17T17:53:31+00:00",
       "published_at": "",
       "updated_at": "2026-11-15T03:36:44Z"
+    },
+    "https://doi.org/10.1088/2632-2153/aec366": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2632-2153/aec366",
+      "original_url": "https://doi.org/10.1088/2632-2153/aec366",
+      "title": "S-matrix constrained equivariant graph neural network for Hamiltonian inversion of Kagome and quasiperiodic non-Hermitian systems",
+      "notes": [
+        "notes/crossref_S-matrix_constrained_equivariant_graph_neural_a6f2cf6fe4.md"
+      ],
+      "added_at": "2026-11-17T23:42:53+00:00",
+      "last_requested_at": "2026-11-17T23:42:53+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1145/3829340.3842184": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1145/3829340.3842184",
+      "original_url": "https://doi.org/10.1145/3829340.3842184",
+      "title": "Rotation-Equivariant Neural Jacobian Fields for Generalizable 3D Mesh Deformations",
+      "notes": [
+        "notes/crossref_Rotation-Equivariant_Neural_Jacobian_Fields_f_b4909e7e41.md"
+      ],
+      "added_at": "2026-11-17T23:42:53+00:00",
+      "last_requested_at": "2026-11-17T23:42:53+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.chemmater.6c01853": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.chemmater.6c01853",
+      "original_url": "https://doi.org/10.1021/acs.chemmater.6c01853",
+      "title": "A Wrong Ground-State Structure of HfO2 Predicted by Machine-Learning Interatomic Potentials Based on the Perdew−Burke−Ernzerhof Functional",
+      "notes": [
+        "notes/crossref_A_Wrong_Ground-State_Structure_of_HfO2_Predic_36d1f910f2.md"
+      ],
+      "added_at": "2026-11-17T23:42:53+00:00",
+      "last_requested_at": "2026-11-17T23:42:53+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115250": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115250",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115250",
+      "title": "Structure and transport properties of MgCl₂–NaCl–KCl–NdCl₃ melts from deep potential molecular dynamics",
+      "notes": [
+        "notes/crossref_Structure_and_transport_properties_of_MgCl_Na_8658373283.md"
+      ],
+      "added_at": "2026-11-17T23:42:53+00:00",
+      "last_requested_at": "2026-11-17T23:42:53+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.elstat.2026.104422": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.elstat.2026.104422",
+      "original_url": "https://doi.org/10.1016/j.elstat.2026.104422",
+      "title": "A pulsed charge-pumping triboelectric nanogenerator with electrostatic oscillating switch for high-efficiency low-frequency energy harvesting and self-powered industrial monitoring",
+      "notes": [
+        "notes/crossref_A_pulsed_charge-pumping_triboelectric_nanogen_476e54ffcf.md"
+      ],
+      "added_at": "2026-11-17T23:42:53+00:00",
+      "last_requested_at": "2026-11-17T23:42:53+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.rsurfi.2026.101064": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.rsurfi.2026.101064",
+      "original_url": "https://doi.org/10.1016/j.rsurfi.2026.101064",
+      "title": "Advanced Adsorbent Materials for Carbon Dioxide Capture: Mechanisms, Performance, Challenges, and Future Perspectives",
+      "notes": [
+        "notes/crossref_Advanced_Adsorbent_Materials_for_Carbon_Dioxi_8a1a54aff3.md"
+      ],
+      "added_at": "2026-11-17T23:42:53+00:00",
+      "last_requested_at": "2026-11-17T23:42:53+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
     }
   }
 }
