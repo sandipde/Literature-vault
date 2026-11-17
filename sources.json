@@ -11714,6 +11714,331 @@
       "last_requested_at": "2026-11-17T00:38:12+00:00",
       "published_at": "2026-11-16",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.21489": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.21489",
+      "original_url": "https://arxiv.org/abs/2611.21489",
+      "title": "Local topology hallucinations in universal machine-learned interatomic potentials",
+      "notes": [
+        "notes/arxiv_2611.21489_Local_topology_hallucinations_in_universal_ma_2bc56da563.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.21147": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.21147",
+      "original_url": "https://arxiv.org/abs/2611.21147",
+      "title": "Large-scale Monte Carlo/Molecular Dynamics simulations with Atomic Cluster Expansion potentials in LAMMPS",
+      "notes": [
+        "notes/arxiv_2611.21147_Large-scale_Monte_Carlo_Molecular_Dynamics_si_bd46f85196.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.21599": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.21599",
+      "original_url": "https://arxiv.org/abs/2611.21599",
+      "title": "Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks",
+      "notes": [
+        "notes/arxiv_2611.21599_Hyperlyve_Parallelized_Enumeration_and_Exact__d1e93b6b10.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.21577": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.21577",
+      "original_url": "https://arxiv.org/abs/2611.21577",
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+      "notes": [
+        "notes/arxiv_2611.21577_When_Tool_Names_Are_Not_Identities_Measuring__02dd92c6ab.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.21568": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.21568",
+      "original_url": "https://arxiv.org/abs/2611.21568",
+      "title": "The Geoengineering Put: Ecological Debt, Termination Risk, and Asset Prices",
+      "notes": [
+        "notes/arxiv_2611.21568_The_Geoengineering_Put_Ecological_Debt_Termin_942819a18c.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11731108/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11731108/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11731108/v1",
+      "title": "Every Neural Network Is a Code: A Unified Theory of Implicit Coding in Neural Networks",
+      "notes": [
+        "notes/crossref_Every_Neural_Network_Is_a_Code_A_Unified_Theo_0bb7475d26.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1364/opticaopen.35015122.v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1364/opticaopen.35015122.v1",
+      "original_url": "https://doi.org/10.1364/opticaopen.35015122.v1",
+      "title": "Multi-output neural network surrogate for double- pulse femtosecond optothermal control of thin silicon films on fused silica",
+      "notes": [
+        "notes/crossref_Multi-output_neural_network_surrogate_for_dou_c005bcd364.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1142/9789819837670_0006": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1142/9789819837670_0006",
+      "original_url": "https://doi.org/10.1142/9789819837670_0006",
+      "title": "Universal Potentials",
+      "notes": [
+        "notes/crossref_Universal_Potentials_c8aab3f0af.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.65106/apubs.2026.3097": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.65106/apubs.2026.3097",
+      "original_url": "https://doi.org/10.65106/apubs.2026.3097",
+      "title": "Designing simulation-based learning for international healthcare students in preparation of work-integrated learning",
+      "notes": [
+        "notes/crossref_Designing_simulation-based_learning_for_inter_bd6139414d.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1142/9789819837670_0008": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1142/9789819837670_0008",
+      "original_url": "https://doi.org/10.1142/9789819837670_0008",
+      "title": "Active Learning and Self-Driving Labs",
+      "notes": [
+        "notes/crossref_Active_Learning_and_Self-Driving_Labs_973df2f4d1.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.lrp.2026.102699": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lrp.2026.102699",
+      "original_url": "https://doi.org/10.1016/j.lrp.2026.102699",
+      "title": "Open-System Orchestration as a Strategic Response to Paradoxical Demands in Social Enterprises",
+      "notes": [
+        "notes/crossref_Open-System_Orchestration_as_a_Strategic_Resp_912cd87b9d.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111329": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111329",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111329",
+      "title": "First-principles investigation of hydrogen adsorption on the Eu-doped ZrO2 surfaces as hydrogen storage materials",
+      "notes": [
+        "notes/crossref_First-principles_investigation_of_hydrogen_ad_10523bb299.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111317": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111317",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111317",
+      "title": "Recent advances in corrosion and protection of sintered NdFeB permanent magnet materials: A critical review",
+      "notes": [
+        "notes/crossref_Recent_advances_in_corrosion_and_protection_o_30c3c588f9.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111322": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111322",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111322",
+      "title": "Strain Induced Materials Simulations of Stable double Perovskite Hydrides for Photo-voltaic Absorber and Water Splitting Applications: DFT and AIMD Study",
+      "notes": [
+        "notes/crossref_Strain_Induced_Materials_Simulations_of_Stabl_022c6bdaf8.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012314/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012314/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012314/v1",
+      "title": "GPU-Accelerated Evaluation of MP2 Correlation Energy Densities for Machine Learning of Density Functionals",
+      "notes": [
+        "notes/chemrxiv_GPU-Accelerated_Evaluation_of_MP2_Correlation_ce082a0af3.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012296/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012296/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012296/v1",
+      "title": "Benchmarking the Predictive Performance and Computational Cost of Machine Learning Models for Functional Group Identification from Experimental Infrared Spectra",
+      "notes": [
+        "notes/chemrxiv_Benchmarking_the_Predictive_Performance_and_C_1ffb3bb6c5.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011867/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011867/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011867/v2",
+      "title": "MeCoBi: Fast and accurate 3D metal complex structures for structure-based machine learning",
+      "notes": [
+        "notes/chemrxiv_MeCoBi_Fast_and_accurate_3D_metal_complex_str_9d3c411232.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012010/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012010/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012010/v2",
+      "title": "<b>AnCore: A Six-Stage Structure-Based Virtual Screening Pipeline Integrating Two-Phase Redocking, Reciprocal Rank Fusion Consensus Scoring, and a Contact-Anchored Elastic-Network Pose-Persistence Heuristic</b>",
+      "notes": [
+        "notes/chemrxiv_b_AnCore_A_Six-Stage_Structure-Based_Virtual__c4773eed49.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012288/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012288/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012288/v1",
+      "title": "Oxidation and temperature limits of sharp ZrB2–SiC nose tips in hypersonic flight: a coupled screening model",
+      "notes": [
+        "notes/chemrxiv_Oxidation_and_temperature_limits_of_sharp_ZrB_e70ca7b556.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012310/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012310/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012310/v1",
+      "title": "Autonomous phase diagram mapping of polymer blends through SAXS-guided active learning",
+      "notes": [
+        "notes/chemrxiv_Autonomous_phase_diagram_mapping_of_polymer_b_a67f253490.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011092/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011092/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011092/v2",
+      "title": "WISP: Learning Spin-Resolved Electron Localization from Atomic Environments",
+      "notes": [
+        "notes/chemrxiv_WISP_Learning_Spin-Resolved_Electron_Localiza_a7a7ecc69a.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012326/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012326/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012326/v1",
+      "title": "PanJAK: predicting selectivity across the JAK family with deep learning",
+      "notes": [
+        "notes/chemrxiv_PanJAK_predicting_selectivity_across_the_JAK__d318f50f72.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012348/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012348/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012348/v1",
+      "title": "Spatial arrangement of bonds governs the thermodynamics of multivalent DNA origami interfaces",
+      "notes": [
+        "notes/chemrxiv_Spatial_arrangement_of_bonds_governs_the_ther_0544ab7f26.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012306/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012306/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012306/v1",
+      "title": "LLaMalysis: Language-guided inverse design of catalyst surfaces with targeted hydrogen adsorption energies",
+      "notes": [
+        "notes/chemrxiv_LLaMalysis_Language-guided_inverse_design_of__636f48a5c4.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012337/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012337/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012337/v1",
+      "title": "The Nature of Protein Hierarchies and Implications for Hierarchical Modelling: An AI-Assisted Computational Study with Statistical Mechanics, Information Theory and Unsupervised Learning",
+      "notes": [
+        "notes/chemrxiv_The_Nature_of_Protein_Hierarchies_and_Implica_ae519bf064.md"
+      ],
+      "added_at": "2026-11-17T14:04:00+00:00",
+      "last_requested_at": "2026-11-17T14:04:00+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
     }
   }
 }
