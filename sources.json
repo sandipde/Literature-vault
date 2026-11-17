@@ -11506,6 +11506,214 @@
       "last_requested_at": "2026-11-16T20:53:12+00:00",
       "published_at": "",
       "updated_at": "2026-11-16T11:09:20Z"
+    },
+    "https://doi.org/10.1088/2632-2153/aec2a3": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2632-2153/aec2a3",
+      "original_url": "https://doi.org/10.1088/2632-2153/aec2a3",
+      "title": "Machine-learned syndrome post-selection for reliable quantum error correction",
+      "notes": [
+        "notes/crossref_Machine-learned_syndrome_post-selection_for_r_81992aadf8.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.6060/ivkkt.20266911.4y": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.6060/ivkkt.20266911.4y",
+      "original_url": "https://doi.org/10.6060/ivkkt.20266911.4y",
+      "title": "ATOMISTIC SIMULATION OF FULLERITE POLYMERIZATION AT HIGH PRESSURES USING MACHINE-LEARNED POTENTIALS",
+      "notes": [
+        "notes/crossref_ATOMISTIC_SIMULATION_OF_FULLERITE_POLYMERIZAT_6ab5a03342.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-10-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.64898/2026.11.09.765240": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.64898/2026.11.09.765240",
+      "original_url": "https://doi.org/10.64898/2026.11.09.765240",
+      "title": "Machine Learning-Enhanced Mucosal Luminal Interface Metaproteomics Reveals Diagnostic Potential of Microbial Proteins in Pediatric Inflammatory Bowel Disease",
+      "notes": [
+        "notes/crossref_Machine_Learning-Enhanced_Mucosal_Luminal_Int_21d276e07a.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.51952/9781529256871.ch002": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.51952/9781529256871.ch002",
+      "original_url": "https://doi.org/10.51952/9781529256871.ch002",
+      "title": "Why Assemblage? Diagrammatics of Machine Learning",
+      "notes": [
+        "notes/crossref_Why_Assemblage_Diagrammatics_of_Machine_Learn_f5836c70e6.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-30",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.neunet.2026.109873": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.neunet.2026.109873",
+      "original_url": "https://doi.org/10.1016/j.neunet.2026.109873",
+      "title": "Oscillatory basal ganglia network to understand aberrant timing behaviors in Parkinson’s disease and Schizophrenia",
+      "notes": [
+        "notes/crossref_Oscillatory_basal_ganglia_network_to_understa_da0e034560.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2027-02",
+      "updated_at": ""
+    },
+    "https://doi.org/10.12783/ballistics26/37620": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.12783/ballistics26/37620",
+      "original_url": "https://doi.org/10.12783/ballistics26/37620",
+      "title": "A COMPARATIVE STUDY OF PHYSICS-BASED MODEL AND NEURAL NETWORK FOR THE 2SLG LAUNCHER",
+      "notes": [
+        "notes/crossref_A_COMPARATIVE_STUDY_OF_PHYSICS-BASED_MODEL_AN_f2733567f6.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.29327/1989232.26-770": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.29327/1989232.26-770",
+      "original_url": "https://doi.org/10.29327/1989232.26-770",
+      "title": "Stellar Parameter Estimation Using a Compact Residual Multitask Neural Network",
+      "notes": [
+        "notes/crossref_Stellar_Parameter_Estimation_Using_a_Compact__e0d766c681.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1002/adma.75705": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1002/adma.75705",
+      "original_url": "https://doi.org/10.1002/adma.75705",
+      "title": "Universal Thermally‐Driven Non‐Noble Metal Redistribution Strategy Boosts High‐Temperature CO <sub>2</sub> Electrolysis",
+      "notes": [
+        "notes/crossref_Universal_Thermally_Driven_Non_Noble_Metal_Re_88fc00b6ab.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3390/ma19224846": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3390/ma19224846",
+      "original_url": "https://doi.org/10.3390/ma19224846",
+      "title": "A Compression–Shear-Enhanced Nonlocal Macro–Meso-Scale Consistent Damage Model Considering Residual Shear Strength for Quasi-Brittle Materials",
+      "notes": [
+        "notes/crossref_A_Compression_Shear-Enhanced_Nonlocal_Macro_M_92f01ee76d.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.3390/higheredu5040137": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.3390/higheredu5040137",
+      "original_url": "https://doi.org/10.3390/higheredu5040137",
+      "title": "Integrating Simulation-Based Learning into Challenge-Based Learning Through the Experiential Learning Cycle: An Industrial Engineering Education Case",
+      "notes": [
+        "notes/crossref_Integrating_Simulation-Based_Learning_into_Ch_cba8e3b2c1.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-15",
+      "updated_at": ""
+    },
+    "https://doi.org/10.12783/ballistics26/37624": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.12783/ballistics26/37624",
+      "original_url": "https://doi.org/10.12783/ballistics26/37624",
+      "title": "LONG-RANGE 155 MM ARTILLERY PROPELLING CHARGE DEVELOPMENT WITH A NEW HIGH-ENERGY LOVA PROPELLANT COMPOSITION",
+      "notes": [
+        "notes/crossref_LONG-RANGE_155_MM_ARTILLERY_PROPELLING_CHARGE_96747242e7.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-01",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1103/zqg2-4fqh": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1103/zqg2-4fqh",
+      "original_url": "https://doi.org/10.1103/zqg2-4fqh",
+      "title": "From long-range order to disorder via quasi-long-range order in a spatially inhomogeneous polar flock",
+      "notes": [
+        "notes/crossref_From_long-range_order_to_disorder_via_quasi-l_446d0e5f7e.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s10955-026-03730-y": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s10955-026-03730-y",
+      "original_url": "https://doi.org/10.1007/s10955-026-03730-y",
+      "title": "Antiferromagnetic Long-Range Order in a Lattice Fermion Model",
+      "notes": [
+        "notes/crossref_Antiferromagnetic_Long-Range_Order_in_a_Latti_1dbbc0d678.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111307": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111307",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111307",
+      "title": "Biopolymer interfaces in tissue engineering: surface modification strategies and mechanistic design for cell adhesion",
+      "notes": [
+        "notes/crossref_Biopolymer_interfaces_in_tissue_engineering_s_44888d52e5.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.surfin.2026.111311": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.surfin.2026.111311",
+      "original_url": "https://doi.org/10.1016/j.surfin.2026.111311",
+      "title": "Multi-functional carbon black coatings: From synthesis and formulation to deposition strategies and emerging applications",
+      "notes": [
+        "notes/crossref_Multi-functional_carbon_black_coatings_From_s_391123465a.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011908/v3": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011908/v3",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011908/v3",
+      "title": "End-to-End Learning from Experimental Data: Integrating the PC-SAFT Equation of State into Neural Network Training for Improved Polymer Parameter Estimation",
+      "notes": [
+        "notes/chemrxiv_End-to-End_Learning_from_Experimental_Data_In_13dfc6d40e.md"
+      ],
+      "added_at": "2026-11-17T00:38:12+00:00",
+      "last_requested_at": "2026-11-17T00:38:12+00:00",
+      "published_at": "2026-11-16",
+      "updated_at": ""
     }
   }
 }
