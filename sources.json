@@ -12377,6 +12377,58 @@
       "last_requested_at": "2026-11-18T13:38:13+00:00",
       "published_at": "2026-11-18",
       "updated_at": ""
+    },
+    "https://doi.org/10.1109/mlsp68619.2026.11772592": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/mlsp68619.2026.11772592",
+      "original_url": "https://doi.org/10.1109/mlsp68619.2026.11772592",
+      "title": "Plug-And-Play Pet Reconstruction With Learned Flow-Matching Priors",
+      "notes": [
+        "notes/crossref_Plug-And-Play_Pet_Reconstruction_With_Learned_10d972e664.md"
+      ],
+      "added_at": "2026-11-18T23:14:47+00:00",
+      "last_requested_at": "2026-11-18T23:14:47+00:00",
+      "published_at": "2026-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.55640/ijdsml-06-02-17": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.55640/ijdsml-06-02-17",
+      "original_url": "https://doi.org/10.55640/ijdsml-06-02-17",
+      "title": "A Survey on Machine Learning Applications in Storage Quality Monitoring and Fault Detection",
+      "notes": [
+        "notes/crossref_A_Survey_on_Machine_Learning_Applications_in__11934963bb.md"
+      ],
+      "added_at": "2026-11-18T23:14:47+00:00",
+      "last_requested_at": "2026-11-18T23:14:47+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.identj.2026.110494": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.identj.2026.110494",
+      "original_url": "https://doi.org/10.1016/j.identj.2026.110494",
+      "title": "Modeling Liquid Effect on Color Adjustment Potential of Universal Composites",
+      "notes": [
+        "notes/crossref_Modeling_Liquid_Effect_on_Color_Adjustment_Po_d29bff2d8a.md"
+      ],
+      "added_at": "2026-11-18T23:14:47+00:00",
+      "last_requested_at": "2026-11-18T23:14:47+00:00",
+      "published_at": "2026-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012453/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012453/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012453/v1",
+      "title": "Using potential derivatives to reduce the cost of rectangular collocation: a general and versatile approach for computational vibrational spectroscopy without a potential energy surface",
+      "notes": [
+        "notes/chemrxiv_Using_potential_derivatives_to_reduce_the_cos_a45b83e10f.md"
+      ],
+      "added_at": "2026-11-18T23:14:47+00:00",
+      "last_requested_at": "2026-11-18T23:14:47+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
     }
   }
 }
