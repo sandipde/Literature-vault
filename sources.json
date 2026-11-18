@@ -12156,6 +12156,227 @@
       "last_requested_at": "2026-11-18T09:27:29+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.23231": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.23231",
+      "original_url": "https://arxiv.org/abs/2611.23231",
+      "title": "CFTs with Large Virasoro Primary Gaps",
+      "notes": [
+        "notes/arxiv_2611.23231_CFTs_with_Large_Virasoro_Primary_Gaps_e890195f2d.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.23221": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.23221",
+      "original_url": "https://arxiv.org/abs/2611.23221",
+      "title": "An inexact stochastic variance-reduced gradient method for constrained convex finite-sum optimization",
+      "notes": [
+        "notes/arxiv_2611.23221_An_inexact_stochastic_variance-reduced_gradie_01088defaa.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.23175": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.23175",
+      "original_url": "https://arxiv.org/abs/2611.23175",
+      "title": "Finding Patient Zero in Temporal Contact Networks: A Comparative Study",
+      "notes": [
+        "notes/arxiv_2611.23175_Finding_Patient_Zero_in_Temporal_Contact_Netw_33ac29d08b.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.ijhydene.2026.158600": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.ijhydene.2026.158600",
+      "original_url": "https://doi.org/10.1016/j.ijhydene.2026.158600",
+      "title": "Assessment of machine-learned vs. classical/quantum atomistic simulations for predicting palladium–hydrogen materials",
+      "notes": [
+        "notes/crossref_Assessment_of_machine-learned_vs_classical_qu_f342a79f16.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.59350/e1jvy-cn750": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.59350/e1jvy-cn750",
+      "original_url": "https://doi.org/10.59350/e1jvy-cn750",
+      "title": "Update: What we've learned in Generating Generosity",
+      "notes": [
+        "notes/crossref_Update_What_we_ve_learned_in_Generating_Gener_fb734e42c2.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1134/s0097807825604522": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1134/s0097807825604522",
+      "original_url": "https://doi.org/10.1134/s0097807825604522",
+      "title": "Groundwater Potential Zoning Using Advanced Machine Learning and Ensemble Learning Methods: A Case Study of the Zahrez Basin, Algeria",
+      "notes": [
+        "notes/crossref_Groundwater_Potential_Zoning_Using_Advanced_M_53984688e9.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-12",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/978-981-92-2012-0_20-1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/978-981-92-2012-0_20-1",
+      "original_url": "https://doi.org/10.1007/978-981-92-2012-0_20-1",
+      "title": "Interpretable Machine Learning",
+      "notes": [
+        "notes/crossref_Interpretable_Machine_Learning_e5b6cae61f.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2027",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1007/s42452-026-09892-4": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1007/s42452-026-09892-4",
+      "original_url": "https://doi.org/10.1007/s42452-026-09892-4",
+      "title": "A hybrid geospatial–machine learning framework for evaluating floating PV technical potential using satellite imagery",
+      "notes": [
+        "notes/crossref_A_hybrid_geospatial_machine_learning_framewor_1b4114753e.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012417/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012417/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012417/v1",
+      "title": "Understanding a Helix Reverse Path in Perfluoroalkanes from a Neural Network Potential",
+      "notes": [
+        "notes/crossref_Understanding_a_Helix_Reverse_Path_in_Perfluo_95bf888d4e.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.4324/9781003682974-7": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.4324/9781003682974-7",
+      "original_url": "https://doi.org/10.4324/9781003682974-7",
+      "title": "Leveraging Learning Analytics and Assessment Data to Evaluate Online Learning",
+      "notes": [
+        "notes/crossref_Leveraging_Learning_Analytics_and_Assessment__e8ede08691.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.4324/9781003682974-4": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.4324/9781003682974-4",
+      "original_url": "https://doi.org/10.4324/9781003682974-4",
+      "title": "Designing Engaging Opportunities in Project-Based Learning, Scenario-Based Learning, and Virtual Labs",
+      "notes": [
+        "notes/crossref_Designing_Engaging_Opportunities_in_Project-B_34d7d41000.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.4324/9781003682974-2": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.4324/9781003682974-2",
+      "original_url": "https://doi.org/10.4324/9781003682974-2",
+      "title": "Navigating Artificial Intelligence in Virtual Learning Spaces",
+      "notes": [
+        "notes/crossref_Navigating_Artificial_Intelligence_in_Virtual_c0e6a4dbb8.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.lrp.2026.102701": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.lrp.2026.102701",
+      "original_url": "https://doi.org/10.1016/j.lrp.2026.102701",
+      "title": "Geopolitical Shockwaves: SME Growth and Resilience in times of Political Instability",
+      "notes": [
+        "notes/crossref_Geopolitical_Shockwaves_SME_Growth_and_Resili_f528574476.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012428/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012428/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012428/v1",
+      "title": "AIMETRY: GEOMETRY-SENSITIVE 3D MOLECULAR REPRESENTATIONS FROM QUANTUM MECHANICAL LEARNED FEATURES",
+      "notes": [
+        "notes/chemrxiv_AIMETRY_GEOMETRY-SENSITIVE_3D_MOLECULAR_REPRE_ccee309593.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012411/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012411/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012411/v1",
+      "title": "The Hg + O → HgO Reaction on the Triplet Potential Energy Surface: A CCSD(T)/VTST Investigation",
+      "notes": [
+        "notes/chemrxiv_The_Hg_O_HgO_Reaction_on_the_Triplet_Potentia_c37b95f9b4.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012383/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012383/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012383/v1",
+      "title": "Analytical approach to population, polarization and coherence dynamics of chirality induced spin selectivity model",
+      "notes": [
+        "notes/chemrxiv_Analytical_approach_to_population_polarizatio_5274f42c8a.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012421/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012421/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012421/v1",
+      "title": "Cross-Facility Materials Discovery Platform: Integrating Heterogeneous Data and Automated Experimental Pipelines into High-Throughput Workflows",
+      "notes": [
+        "notes/chemrxiv_Cross-Facility_Materials_Discovery_Platform_I_c47e8ab944.md"
+      ],
+      "added_at": "2026-11-18T13:38:13+00:00",
+      "last_requested_at": "2026-11-18T13:38:13+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
     }
   }
 }
