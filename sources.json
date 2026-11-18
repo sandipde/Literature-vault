@@ -12130,6 +12130,19 @@
       "last_requested_at": "2026-11-17T23:42:53+00:00",
       "published_at": "2026-11",
       "updated_at": ""
+    },
+    "https://github.com/the-matter-lab/nahual": {
+      "type": "github",
+      "canonical_url": "https://github.com/the-matter-lab/nahual",
+      "original_url": "https://github.com/the-matter-lab/nahual",
+      "title": "New Reference",
+      "notes": [
+        "notes/219_New_Reference.md"
+      ],
+      "added_at": "2026-11-18T08:37:47+00:00",
+      "last_requested_at": "2026-11-18T08:37:47+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
