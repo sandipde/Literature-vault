@@ -12143,6 +12143,19 @@
       "last_requested_at": "2026-11-18T08:37:47+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://github.com/atomgptlab/scalingmat": {
+      "type": "github",
+      "canonical_url": "https://github.com/atomgptlab/scalingmat",
+      "original_url": "https://github.com/atomgptlab/scalingmat",
+      "title": "New Reference",
+      "notes": [
+        "notes/220_New_Reference.md"
+      ],
+      "added_at": "2026-11-18T09:27:29+00:00",
+      "last_requested_at": "2026-11-18T09:27:29+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
