@@ -1,0 +1,52 @@
+name: Close processed capture issues
+
+# One run. The cloud agent can push notes but cannot comment on or close issues.
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/close_processed_issues.yml
+
+permissions:
+  issues: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close the capture issues that were ingested
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          base="https://github.com/${GITHUB_REPOSITORY}/blob/main"
+          close() {
+            number="$1"
+            body="$2"
+            gh issue comment "${number}" --body "${body}"
+            gh issue close "${number}" --reason completed
+          }
+          close 214 "This source is already captured in [notes/crossref_Reweighting_Free_Energy_Profiles_with_Univers_c0f556e02e.md](${base}/notes/crossref_Reweighting_Free_Energy_Profiles_with_Univers_c0f556e02e.md)."
+          close 199 "This source is already captured in [notes/189_ag-salinga_fastatomstruct.md](${base}/notes/189_ag-salinga_fastatomstruct.md)."
+          close 143 "This source is already captured in [notes/191_A_latent-space_extrapolation_grade_built_into_grap.md](${base}/notes/191_A_latent-space_extrapolation_grade_built_into_grap.md)."
+          close 174 "Closed because this issue has no URL or DOI to capture."
+          close 211 "Captured in [notes/211_NVIDIA_nvalchemi-toolkit.md](${base}/notes/211_NVIDIA_nvalchemi-toolkit.md)."
+          close 209 "Captured in [notes/209_Awesome_MCP_Servers.md](${base}/notes/209_Awesome_MCP_Servers.md)."
+          close 207 "Captured in [notes/207_Orbitol_Crystal_Generation_on_Wyckoff_Orbits.md](${base}/notes/207_Orbitol_Crystal_Generation_on_Wyckoff_Orbits.md)."
+          close 206 "Captured in [notes/206_stases_orbitol.md](${base}/notes/206_stases_orbitol.md)."
+          close 204 "Captured in [notes/204_VAGOsolutions_SauerkrautLM-GLiNEREL-Knowledge-Grap.md](${base}/notes/204_VAGOsolutions_SauerkrautLM-GLiNEREL-Knowledge-Grap.md)."
+          close 203 "Captured in [notes/203_NVIDIA_auto-ontology.md](${base}/notes/203_NVIDIA_auto-ontology.md)."
+          close 197 "Captured in [notes/197_In_the_age_of_big_data_and_AI_do_we_still_need_che.md](${base}/notes/197_In_the_age_of_big_data_and_AI_do_we_still_need_che.md)."
+          close 188 "Captured in [notes/188_Atomistic_mechanisms_of_hard_carbon_formation_from.md](${base}/notes/188_Atomistic_mechanisms_of_hard_carbon_formation_from.md)."
+          close 187 "Captured in [notes/187_A_Systematic_Survey_and_Benchmark_of_Deep_Learning.md](${base}/notes/187_A_Systematic_Survey_and_Benchmark_of_Deep_Learning.md)."
+          close 186 "Captured in [notes/186_Zongru-Li_Survey-and-Benchmarks-of-DL-for-Molecula.md](${base}/notes/186_Zongru-Li_Survey-and-Benchmarks-of-DL-for-Molecula.md)."
+          close 184 "Captured in [notes/184_Colorfigures_skill.md](${base}/notes/184_Colorfigures_skill.md)."
+          close 183 "Captured in [notes/183_Draw_an_equation.md](${base}/notes/183_Draw_an_equation.md)."
+          close 178 "Captured in [notes/178_Scalable_long-range_machine_learning_interatomic_p.md](${base}/notes/178_Scalable_long-range_machine_learning_interatomic_p.md)."
+          close 177 "Captured in [notes/177_AM3GroupHub_deepmd-lr.md](${base}/notes/177_AM3GroupHub_deepmd-lr.md)."
+          close 176 "Captured in [notes/176_facebookresearch_fairchem.md](${base}/notes/176_facebookresearch_fairchem.md)."
+          close 164 "Captured in [notes/164_BoFlex_modular_Bayesian_optimization_for_autonomou.md](${base}/notes/164_BoFlex_modular_Bayesian_optimization_for_autonomou.md)."
+          close 154 "Captured in [notes/154_google-research_harness2.md](${base}/notes/154_google-research_harness2.md)."
+          close 150 "Captured in [notes/150_pycse_2_12.md](${base}/notes/150_pycse_2_12.md)."
+          close 136 "Captured in [notes/136_awesome-selfhosted_awesome-selfhosted.md](${base}/notes/136_awesome-selfhosted_awesome-selfhosted.md)."
+          close 133 "Captured in [notes/133_An_atlas_of_2D_crystals.md](${base}/notes/133_An_atlas_of_2D_crystals.md)."
