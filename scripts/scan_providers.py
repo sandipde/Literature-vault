@@ -147,11 +147,41 @@ def _crossref_words(text):
     return {_normalize_crossref_word(word) for word in re.findall(r"[A-Za-z0-9]+", text or "")}
 
 
+def _query_tokens(query):
+    return re.findall(r"[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*", query or "")
+
+
+def _is_distinctive_model_name(token):
+    key = re.sub(r"[^A-Za-z0-9]", "", token or "").lower()
+    if len(key) < 4 or key in _AMBIGUOUS_MODEL_NAMES:
+        return False
+    return any(character.isupper() for character in token) or any(character.isdigit() for character in token)
+
+
+def _is_alternative_name_list(query):
+    tokens = _query_tokens(query)
+    if len(tokens) < 4:
+        return False
+    cased = sum(1 for token in tokens if any(character.isupper() for character in token))
+    return cased * 2 >= len(tokens)
+
+
+def _distinctive_model_names(query):
+    names = []
+    for token in _query_tokens(query):
+        if _is_distinctive_model_name(token) and token not in names:
+            names.append(token)
+    return names
+
+
 def _crossref_matches_query(query, title, abstract="", subjects=None):
-    tokens = re.findall(r"[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*", query or "")
+    tokens = _query_tokens(query)
     if not tokens:
         return False
     haystack = _crossref_words(" ".join([title or "", abstract or "", " ".join(subjects or [])]))
+    required_names = [token for token in tokens if _is_distinctive_model_name(token)]
+    if required_names and not all(_normalize_crossref_word(token) in haystack for token in required_names):
+        return False
     cased = sum(1 for token in tokens if any(character.isupper() for character in token))
     # Model-family queries are alternative names ("MACE NequIP ..."), not phrases.
     if len(tokens) >= 4 and cased * 2 >= len(tokens):
@@ -358,6 +388,126 @@ def _huggingface(profile, query):
     return results
 
 
+_PROVIDER_SYNTAX = re.compile(r"\b(?:AND|OR|ANDNOT)\b|(?:^|\s)(?:all|cat|ti|abs|au):")
+_BROAD_MODEL_NAMES = {"mace", "allegro"}
+_DOMAIN_WORDS = {"interatomic", "atomistic", "potential", "mlip", "material", "molecular", "chemistry", "catalyst", "catalysis"}
+_FOCUSED_PHRASE_WORDS = {"learning", "model", "models", "materials", "material", "simulation", "potential", "potentials", "network", "networks", "using", "based"}
+
+
+def _uses_provider_syntax(query):
+    return bool(_PROVIDER_SYNTAX.search(query or ""))
+
+
+def _unique(items):
+    seen = []
+    for item in items:
+        if item and item not in seen:
+            seen.append(item)
+    return seen
+
+
+def plan_searches(provider, query):
+    """Turn one stored query into the searches that provider can actually run.
+
+    arXiv queries already use boolean syntax and are sent through unchanged.
+    A list of model names is OR on GitHub, one name per request on GitLab and
+    Hugging Face, and one "<name> interatomic potential" query on Crossref.
+    A plain phrase is quoted or reduced to its distinctive words instead of
+    requiring every word to occur together.
+    """
+    text = (query or "").strip()
+    if not text:
+        return []
+    if provider == "arxiv" or _uses_provider_syntax(text):
+        return [text]
+    if _is_alternative_name_list(text):
+        names = _distinctive_model_names(text)
+        if not names:
+            return [text]
+        if provider == "github":
+            qualifier = "(interatomic OR atomistic OR MLIP OR potential)"
+            groups = []
+            for start in range(0, len(names), 4):
+                alternatives = " OR ".join(names[start:start + 4])
+                groups.append(f"({alternatives}) {qualifier}")
+            return groups
+        if provider in {"gitlab", "huggingface_model", "huggingface_dataset", "huggingface_space"}:
+            return names
+        if provider in {"crossref", "chemrxiv"}:
+            return [f"{name} interatomic potential" for name in names]
+        return names
+    if provider == "github":
+        return [_github_phrase(text)]
+    if provider in {"gitlab", "huggingface_model", "huggingface_dataset", "huggingface_space"}:
+        return _focused_terms(text) or [text]
+    return [text]
+
+
+def _github_phrase(query):
+    hyphenated = [f'"{term}"' for term in re.findall(r"[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+", query)]
+    pieces = list(hyphenated)
+    lowered = query.lower()
+    if "interatomic" in lowered and "potential" in lowered:
+        pieces.append('"interatomic potential"')
+    if re.search(r"\bMLIP\b", query):
+        pieces.append("MLIP")
+    pieces = _unique(pieces)
+    if not pieces:
+        words = _query_tokens(query)
+        if len(words) <= 4:
+            return f'"{query.strip()}"'
+        return f'"{" ".join(words[:3])}"'
+    extras = [
+        token for token in _query_tokens(query)
+        if token.lower() not in _FOCUSED_PHRASE_WORDS
+        and token.lower() not in {"interatomic", "potential", "mlip", "machine", "active"}
+        and "-" not in token
+    ]
+    if len(_query_tokens(query)) > 4 and extras:
+        return f'({" OR ".join(pieces)}) {extras[0]}'
+    return " OR ".join(pieces)
+
+
+def _focused_terms(query):
+    hyphenated = re.findall(r"[A-Za-z0-9]+(?:-[A-Za-z0-9]+)+", query)
+    if hyphenated:
+        terms = list(hyphenated[:1])
+        if re.search(r"\binteratomic\b", query, re.IGNORECASE):
+            terms.append("interatomic")
+        return _unique(terms)
+    for token in _query_tokens(query):
+        if token.lower() in {"mlip", "interatomic", "equivariant", "chemrxiv"}:
+            return [token]
+    content = [token for token in _query_tokens(query) if token.lower() not in _FOCUSED_PHRASE_WORDS and len(token) >= 5]
+    return content[:1]
+
+
+def _item_words(item):
+    provider_data = item.get("provider_data") or {}
+    topics = provider_data.get("topics") or []
+    tags = provider_data.get("tags") or []
+    description = provider_data.get("description") or ""
+    return _crossref_words(" ".join([
+        item.get("title") or "",
+        item.get("abstract") or "",
+        description,
+        " ".join(topic for topic in topics if isinstance(topic, str)),
+        " ".join(tag for tag in tags if isinstance(tag, str)),
+    ]))
+
+
+def _planned_hit_is_relevant(planned_query, item):
+    tokens = _query_tokens(planned_query)
+    if len(tokens) != 1 or not _is_distinctive_model_name(tokens[0]):
+        return True
+    words = _item_words(item)
+    if _normalize_crossref_word(tokens[0]) not in words:
+        return False
+    if tokens[0].lower() in _BROAD_MODEL_NAMES and not (words & _DOMAIN_WORDS):
+        return False
+    return True
+
+
 SEARCHERS = {
     "arxiv": _arxiv,
     "crossref": _crossref,
@@ -382,14 +532,29 @@ def search_profile(profile, now=None):
     per_query_limit = max(1, math.ceil(profile["max_results"] / len(profile["queries"])))
     query_profile = {**profile, "max_results": per_query_limit, "_cutoff": cutoff, "_now": now}
     for query in profile["queries"]:
-        for item in searcher(query_profile, query)[:per_query_limit]:
-            observed_at = _parse_timestamp(item.get("_observed_at"))
-            if observed_at is None or observed_at < cutoff or observed_at > now:
-                continue
-            canonical_url = item["canonical_url"]
-            if canonical_url not in found:
-                found.add(canonical_url)
-                results.append(item)
+        planned = plan_searches(profile["provider"], query)
+        if not planned:
+            continue
+        share = max(1, math.ceil(per_query_limit / len(planned)))
+        for planned_query in planned:
+            # A name search can put an unrelated partial match first. Ask for a
+            # few extra rows and keep only hits that actually contain the name.
+            fetch_limit = share * 5 if len(_query_tokens(planned_query)) == 1 else share
+            narrowed = {**query_profile, "max_results": fetch_limit}
+            accepted = 0
+            for item in searcher(narrowed, planned_query):
+                if not _planned_hit_is_relevant(planned_query, item):
+                    continue
+                observed_at = _parse_timestamp(item.get("_observed_at"))
+                if observed_at is None or observed_at < cutoff or observed_at > now:
+                    continue
+                canonical_url = item["canonical_url"]
+                if canonical_url not in found:
+                    found.add(canonical_url)
+                    results.append(item)
+                    accepted += 1
+                if accepted >= share or len(results) >= profile["max_results"]:
+                    break
             if len(results) >= profile["max_results"]:
                 return results
     return results

@@ -5,7 +5,7 @@ from unittest.mock import Mock, call, patch
 import requests
 
 from scripts import scan_providers as providers
-from scripts.scan_providers import search_profile
+from scripts.scan_providers import plan_searches, search_profile
 
 NOW = datetime(2026, 10, 10, 12, tzinfo=timezone.utc)
 
@@ -80,6 +80,43 @@ class ScanProviderTests(unittest.TestCase):
         self.assertNotIn("https://doi.org/10.1000/dental", urls)
         self.assertNotIn("https://doi.org/10.1000/storage", urls)
         self.assertNotIn("https://doi.org/10.1000/ace", urls)
+
+    def test_provider_queries_are_rewritten_for_each_search_api(self):
+        names = "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim"
+        self.assertEqual(plan_searches("arxiv", 'all:MACE OR all:ACE'), ['all:MACE OR all:ACE'])
+        github = plan_searches("github", names)
+        self.assertTrue(all(" ACE " not in f" {query} " and " GAP " not in f" {query} " for query in github))
+        self.assertTrue(any("MACE OR NequIP OR Allegro OR CHGNet" in query for query in github))
+        self.assertTrue(all("interatomic OR atomistic OR MLIP OR potential" in query for query in github))
+        self.assertNotIn("ACE", plan_searches("gitlab", names))
+        self.assertEqual(plan_searches("huggingface_model", names)[:2], ["MACE", "NequIP"])
+        crossref = plan_searches("crossref", names)
+        self.assertIn("SevenNet interatomic potential", crossref)
+        self.assertNotIn("ACE interatomic potential", crossref)
+        self.assertEqual(
+            plan_searches("github", "machine learning interatomic potential MLIP"),
+            ['"interatomic potential" OR MLIP'],
+        )
+        self.assertEqual(
+            plan_searches("gitlab", "machine-learned interatomic potential"),
+            ["machine-learned", "interatomic"],
+        )
+
+    def test_huggingface_name_search_rejects_unrelated_partial_names(self):
+        payload = [
+            {"id": "MacEpic/speaker", "cardData": {"description": "Speech model"}, "lastModified": "2026-10-10T11:30:00Z"},
+            {"id": "lab/mace-mp", "cardData": {"description": "MACE interatomic potential"}, "lastModified": "2026-10-10T11:30:00Z"},
+        ]
+        with patch("scripts.scan_providers._get_json", return_value=payload) as request:
+            results = search_profile({
+                "provider": "huggingface_model",
+                "queries": ["MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim"],
+                "max_results": 7,
+            }, now=NOW)
+        searched = [call.args[1]["search"] for call in request.call_args_list]
+        self.assertIn("MACE", searched)
+        self.assertNotIn("ACE", searched)
+        self.assertEqual([item["title"] for item in results], ["lab/mace-mp"])
 
     def test_repository_and_huggingface_adapters(self):
         github = {"items": [{"html_url": "https://github.com/org/model", "full_name": "org/model",
