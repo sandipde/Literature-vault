@@ -27,7 +27,7 @@ MLIP_COMMON_QUERIES = [
 ]
 MLIP_ARXIV_QUERIES = [
     'all:"machine-learned interatomic potential" OR all:"machine learning interatomic potential" OR all:MLIP',
-    "all:MACE OR all:NequIP OR all:Allegro OR all:ACE OR all:GAP OR all:MTP OR all:SNAP OR all:CHGNet OR all:M3GNet OR all:SevenNet OR all:MatterSim",
+    "(all:MACE OR all:NequIP OR all:Allegro OR all:CHGNet OR all:M3GNet OR all:SevenNet OR all:MatterSim OR all:ACE OR all:GAP OR all:MTP OR all:SNAP) AND (all:interatomic OR all:atomistic OR all:MLIP OR all:potential)",
     'all:"equivariant neural network" AND (all:interatomic OR all:atomistic)',
     'all:"foundation model" AND (all:materials OR all:atomistic) AND (all:potential OR all:simulation)',
     'all:"active learning" AND (all:"interatomic potential" OR all:"atomistic simulation")',
