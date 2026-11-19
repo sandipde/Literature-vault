@@ -30,6 +30,22 @@ class LiteratureTests(unittest.TestCase):
             literature.canonicalize_url("https://dx.doi.org/10.5555/EXAMPLE.123")[1],
             literature.canonicalize_url("https://doi.org/10.5555/example.123")[1],
         )
+        self.assertEqual(
+            literature.canonicalize_url(
+                "https://pubs.acs.org/doi/10.1021/acs.jctc.6c02044/5466833/Reweighting-Free-Energy"
+            )[1],
+            "https://doi.org/10.1021/acs.jctc.6c02044",
+        )
+        self.assertEqual(
+            literature.canonicalize_url(
+                "https://pubs.rsc.org/sc/article/doi/10.1039/d6sc05974k/1374738/Atomistic-mechanisms"
+            )[1],
+            "https://doi.org/10.1039/d6sc05974k",
+        )
+        self.assertEqual(
+            literature.canonicalize_url("https://doi.org/10.1000/foo/12345678")[1],
+            "https://doi.org/10.1000/foo/12345678",
+        )
 
     def test_repository_types_and_distinct_repositories(self):
         self.assertEqual(literature.classify_url("https://github.com/Org/Repo/tree/main"), "github")

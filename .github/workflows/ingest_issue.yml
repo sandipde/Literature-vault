@@ -5,7 +5,10 @@ on:
     types: [opened]
 
 concurrency:
-  group: literature-vault-${{ github.repository }}
+  # Each capture runs on its own. The shared repository group keeps only one
+  # pending run, so a scan or a second capture was cancelling issues before
+  # they could be saved.
+  group: literature-vault-ingest-${{ github.event.issue.number }}
   cancel-in-progress: false
 
 jobs:

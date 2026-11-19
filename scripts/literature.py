@@ -101,6 +101,10 @@ def canonicalize_url(value):
         doi = _doi_from(path)
         if not doi and host in {"doi.org", "dx.doi.org"}:
             doi = path
+        if doi and host not in {"doi.org", "dx.doi.org"}:
+            # Publisher article pages append an internal id and a title slug
+            # after the DOI. Those digits are not part of the identifier.
+            doi = re.sub(r"/\d{5,}(?:/.*)?$", "", doi)
         if doi:
             return kind, f"https://doi.org/{doi.lower()}"
     elif kind == "arxiv":
