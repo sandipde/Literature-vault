@@ -12715,6 +12715,279 @@
       "last_requested_at": "2026-11-19T13:42:05+00:00",
       "published_at": "2026",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24759": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24759",
+      "original_url": "https://arxiv.org/abs/2611.24759",
+      "title": "Characterizing adsorption thermodynamics in carbon capture materials: an efficient first-principles approach",
+      "notes": [
+        "notes/arxiv_2611.24759_Characterizing_adsorption_thermodynamics_in_c_f466e68e49.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24707": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24707",
+      "original_url": "https://arxiv.org/abs/2611.24707",
+      "title": "The Long and Winding Pore: Tuning Porosity in Templated Nanoporous Carbons",
+      "notes": [
+        "notes/arxiv_2611.24707_The_Long_and_Winding_Pore_Tuning_Porosity_in__40832c647f.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24148": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24148",
+      "original_url": "https://arxiv.org/abs/2611.24148",
+      "title": "Machine learning interatomic potentials and orientational defects in polymers",
+      "notes": [
+        "notes/arxiv_2611.24148_Machine_learning_interatomic_potentials_and_o_8310def292.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24097": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24097",
+      "original_url": "https://arxiv.org/abs/2611.24097",
+      "title": "Uncovering the Structural, Electronic, and Electrostatic Landscapes of SrTiO$_3$ Grain Boundaries via Grand Canonical Monte Carlo with a Machine-Learning Interatomic Potential",
+      "notes": [
+        "notes/arxiv_2611.24097_Uncovering_the_Structural_Electronic_and_Elec_403a46773d.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24088": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24088",
+      "original_url": "https://arxiv.org/abs/2611.24088",
+      "title": "A GPU-Native Nested Sampling Framework for Finite-Temperature Materials Modelling with Machine-Learned Interatomic Potentials",
+      "notes": [
+        "notes/arxiv_2611.24088_A_GPU-Native_Nested_Sampling_Framework_for_Fi_63cf1e1a4a.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.23873": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.23873",
+      "original_url": "https://arxiv.org/abs/2611.23873",
+      "title": "Technical Note on Matlantis PFP v9: Extending the Element and Domain Coverage of the r2SCAN Training Data",
+      "notes": [
+        "notes/arxiv_2611.23873_Technical_Note_on_Matlantis_PFP_v9_Extending__62f3774b58.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.23760": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.23760",
+      "original_url": "https://arxiv.org/abs/2611.23760",
+      "title": "Physics-Guided Crystal Structure Elucidation from Powder X-Ray Diffraction with Universal Machine-Learning Interatomic Potentials",
+      "notes": [
+        "notes/arxiv_2611.23760_Physics-Guided_Crystal_Structure_Elucidation__6e6e79b6b2.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24547": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24547",
+      "original_url": "https://arxiv.org/abs/2611.24547",
+      "title": "Orientation-Tunable Interfacial Thermal Conductance in Lateral MoSe2/MoS2 Heterostructures: A Deep Potential Molecular Dynamics Study",
+      "notes": [
+        "notes/arxiv_2611.24547_Orientation-Tunable_Interfacial_Thermal_Condu_9a8af8e77b.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24525": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24525",
+      "original_url": "https://arxiv.org/abs/2611.24525",
+      "title": "Machine-learned potentials for iron oxides at extreme conditions",
+      "notes": [
+        "notes/arxiv_2611.24525_Machine-learned_potentials_for_iron_oxides_at_da118cace4.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.23561": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.23561",
+      "original_url": "https://arxiv.org/abs/2611.23561",
+      "title": "Machine-learned acceleration of earthquake sequence simulations",
+      "notes": [
+        "notes/arxiv_2611.23561_Machine-learned_acceleration_of_earthquake_se_a8125e4c9c.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.23535": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.23535",
+      "original_url": "https://arxiv.org/abs/2611.23535",
+      "title": "Application of Pretrained Universal Machine Learning Force-Fields for Phase Transitions Prediction in ZrO2",
+      "notes": [
+        "notes/arxiv_2611.23535_Application_of_Pretrained_Universal_Machine_L_e9669de9c6.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-17",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24878": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24878",
+      "original_url": "https://arxiv.org/abs/2611.24878",
+      "title": "From geometric curvature to effective backgrounds: a dictionary for Dirac fermions in one, two and three spatial dimensions",
+      "notes": [
+        "notes/arxiv_2611.24878_From_geometric_curvature_to_effective_backgro_10fe733c34.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.24754": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.24754",
+      "original_url": "https://arxiv.org/abs/2611.24754",
+      "title": "Atomic-scale assembly of sulfur vacancy complexes for tailored in-gap states in monolayer WS$_{2}$",
+      "notes": [
+        "notes/arxiv_2611.24754_Atomic-scale_assembly_of_sulfur_vacancy_compl_0167c0c7d1.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011059/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011059/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011059/v2",
+      "title": "Analytic Electrostatic Embedding of MACE-POLAR for Fixed-Charge ML/MM",
+      "notes": [
+        "notes/crossref_Analytic_Electrostatic_Embedding_of_MACE-POLA_e3ee349a45.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jpcb.6c02084.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpcb.6c02084.s001",
+      "original_url": "https://doi.org/10.1021/acs.jpcb.6c02084.s001",
+      "title": "Multiscale Prediction of Thermodynamic Properties of Supercritical Aqueous Sodium Sulfide Using Synchrotron Experiments Atomistic Simulations, and Artificial Neural Networks",
+      "notes": [
+        "notes/crossref_Multiscale_Prediction_of_Thermodynamic_Proper_19f6add6fe.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1088/2632-2153/aec40f": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1088/2632-2153/aec40f",
+      "original_url": "https://doi.org/10.1088/2632-2153/aec40f",
+      "title": "Fast contracted Clebsch-Gordan tensor products for equivariant graph neural networks",
+      "notes": [
+        "notes/crossref_Fast_contracted_Clebsch-Gordan_tensor_product_fe69610cbd.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15004623/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15004623/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15004623/v2",
+      "title": "FLAMES – A flexible and extensible code for Monte Carlo simulations of nanoporous materials",
+      "notes": [
+        "notes/chemrxiv_FLAMES_A_flexible_and_extensible_code_for_Mon_16e3dc402a.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://gitlab.com/electrocatalysis-group/atomic-recipes": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/electrocatalysis-group/atomic-recipes",
+      "original_url": "https://gitlab.com/electrocatalysis-group/atomic-recipes",
+      "title": "electrocatalysis-group/atomic-recipes",
+      "notes": [
+        "notes/gitlab_electrocatalysis-group_atomic-recipes_d1fa1b10bc.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T02:27:56.666Z"
+    },
+    "https://gitlab.com/atomiq-project/heros": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/atomiq-project/heros",
+      "original_url": "https://gitlab.com/atomiq-project/heros",
+      "title": "atomiq-project/heros",
+      "notes": [
+        "notes/gitlab_atomiq-project_heros_d6d4e1184e.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T12:11:39.132Z"
+    },
+    "https://gitlab.com/tlcfem/suanpan": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/tlcfem/suanpan",
+      "original_url": "https://gitlab.com/tlcfem/suanPan",
+      "title": "tlcfem/suanPan",
+      "notes": [
+        "notes/gitlab_tlcfem_suanPan_8d9e320370.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T10:31:40.026Z"
+    },
+    "https://gitlab.com/tperrontouchette/polytechnique_pi4_hemac": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/tperrontouchette/polytechnique_pi4_hemac",
+      "original_url": "https://gitlab.com/TPerronTouchette/Polytechnique_PI4_hemac",
+      "title": "TPerronTouchette/Polytechnique_PI4_hemac",
+      "notes": [
+        "notes/gitlab_TPerronTouchette_Polytechnique_PI4_hemac_8c8290e55b.md"
+      ],
+      "added_at": "2026-11-19T14:04:33+00:00",
+      "last_requested_at": "2026-11-19T14:04:33+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T02:05:21.685Z"
     }
   }
 }
