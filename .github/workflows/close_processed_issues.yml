@@ -23,8 +23,8 @@ jobs:
           close() {
             number="$1"
             body="$2"
-            gh issue comment "${number}" --body "${body}"
-            gh issue close "${number}" --reason completed
+            gh issue comment "${number}" --repo "${GITHUB_REPOSITORY}" --body "${body}"
+            gh issue close "${number}" --repo "${GITHUB_REPOSITORY}" --reason completed
           }
           close 214 "This source is already captured in [notes/crossref_Reweighting_Free_Energy_Profiles_with_Univers_c0f556e02e.md](${base}/notes/crossref_Reweighting_Free_Energy_Profiles_with_Univers_c0f556e02e.md)."
           close 199 "This source is already captured in [notes/189_ag-salinga_fastatomstruct.md](${base}/notes/189_ag-salinga_fastatomstruct.md)."
