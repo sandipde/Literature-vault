@@ -401,7 +401,22 @@ class ScannerTests(unittest.TestCase):
                                                 now=datetime(2026, 10, 10, 6, tzinfo=timezone.utc), force=True)
             self.assertEqual(search.call_count, 1)
             self.assertEqual(result["completed"], ["mlip-arxiv"])
+            self.assertEqual(search.call_args.args[0]["lookback_hours"], 24)
             self.assertEqual(result["state"]["profiles"]["other"], "2026-10-10T05:00:00+00:00")
+
+    def test_scheduled_rerun_reaches_back_through_the_previous_window(self):
+        profile = {"id": "daily-arxiv", "name": "Daily", "provider": "arxiv", "enabled": True,
+                   "queries": ["all:MLIP"], "max_results": 10, "interval": "daily", "lookback_hours": 24}
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            config = root / "monitor_config.json"
+            config.write_text(json.dumps({"version": 1, "profiles": [profile]}), encoding="utf-8")
+            state = root / "scan_state.json"
+            state.write_text(json.dumps({"version": 1, "profiles": {"daily-arxiv": "2026-10-08T05:00:00+00:00"}}), encoding="utf-8")
+            with patch.object(scan_profiles, "search_profile", return_value=[]) as search:
+                scan_profiles.run_scan(config, root / "seen.json", root / "sources.json", root / "notes",
+                                       state, datetime(2026, 10, 10, 5, tzinfo=timezone.utc))
+        self.assertEqual(search.call_args.args[0]["lookback_hours"], 72)
 
     def test_duplicate_source_across_profiles_creates_one_note(self):
         profiles = [

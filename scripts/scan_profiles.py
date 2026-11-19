@@ -1,6 +1,7 @@
 import hashlib
 import argparse
 import json
+import math
 import os
 import re
 from datetime import datetime, timezone
@@ -36,6 +37,30 @@ def _load_history(path):
     except (OSError, json.JSONDecodeError):
         pass
     return {"version": 1, "runs": []}
+
+
+def _coverage_lookback(profile, previous, now):
+    """Extend a scheduled window back through the previous successful search.
+
+    The configured lookback is usually 24 hours, while arXiv only becomes
+    searchable hours after submission and the workflow itself often starts
+    late. Searching again from the previous window start keeps that gap from
+    dropping papers. The extension is capped at 7 days.
+    """
+    lookback = profile.get("lookback_hours", 24)
+    if not isinstance(previous, str) or not previous:
+        return lookback
+    try:
+        last = datetime.fromisoformat(previous.replace("Z", "+00:00"))
+    except ValueError:
+        return lookback
+    if last.tzinfo is None:
+        last = last.replace(tzinfo=timezone.utc)
+    elapsed_hours = (now - last.astimezone(timezone.utc)).total_seconds() / 3600
+    if elapsed_hours <= 0:
+        return lookback
+    cap = max(lookback, 24 * 7)
+    return min(lookback + math.ceil(elapsed_hours), cap)
 
 
 def _filename(profile, metadata):
@@ -83,6 +108,8 @@ def run_scan(config_file=CONFIG_FILE, seen_file=SEEN_FILE, registry_file=REGISTR
             continue
         try:
             active_profile = dict(profile)
+            if not force:
+                active_profile["lookback_hours"] = _coverage_lookback(profile, previous, now)
             if max_results_override is not None:
                 active_profile["max_results"] = min(profile["max_results"], max_results_override)
             results = search_profile(active_profile, now=now)

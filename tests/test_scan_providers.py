@@ -29,7 +29,7 @@ class ScanProviderTests(unittest.TestCase):
         payload = {"message": {"items": [{
             "DOI": "10.26434/chemrxiv-2026-test",
             "URL": "https://doi.org/10.26434/chemrxiv-2026-test",
-            "title": ["Catalysis preprint"],
+            "title": ["Heterogeneous catalysis preprint"],
             "abstract": "<jats:p>Open preprint abstract.</jats:p>",
             "author": [{"given": "Ada", "family": "Lovelace"}],
             "published": {"date-parts": [[2026, 10, 1]]},
@@ -45,6 +45,41 @@ class ScanProviderTests(unittest.TestCase):
         self.assertEqual(results[0]["type"], "chemrxiv")
         self.assertEqual(results[0]["abstract"], "Open preprint abstract.")
         self.assertEqual(results[0]["authors"], ["Ada Lovelace"])
+        self.assertGreaterEqual(request.call_args.args[1]["rows"], 15)
+
+    def test_crossref_drops_partial_keyword_matches(self):
+        def item(doi, title, created="2026-10-10T11:30:00Z"):
+            return {
+                "DOI": doi,
+                "URL": f"https://doi.org/{doi}",
+                "title": [title],
+                "created": {"date-time": created},
+            }
+        payload = {"message": {"items": [
+            item("10.1000/pet", "Plug-And-Play Pet Reconstruction With Learned Flow-Matching Priors"),
+            item("10.1000/dental", "Modeling Liquid Effect on Color Adjustment Potential of Universal Composites"),
+            item("10.1000/storage", "A Survey on Machine Learning Applications in Storage Quality Monitoring and Fault Detection"),
+            item("10.1000/hfo2", "A Wrong Ground-State Structure of HfO2 Predicted by Machine-Learning Interatomic Potential"),
+            item("10.1000/sevennet", "SevenNet interatomic potential for carbon"),
+            item("10.1000/ace", "ACE inhibitors widen the treatment gap"),
+        ]}}
+        queries = [
+            "machine-learned interatomic potential",
+            "machine learning interatomic potential MLIP",
+            "foundation model universal interatomic potential materials",
+            "MACE NequIP Allegro ACE GAP MTP SNAP CHGNet M3GNet SevenNet MatterSim",
+        ]
+        with patch("scripts.scan_providers._get_json", return_value=payload):
+            kept = []
+            for query in queries:
+                kept.extend(search_profile({"provider": "crossref", "queries": [query], "max_results": 10}, now=NOW))
+        urls = {item["canonical_url"] for item in kept}
+        self.assertIn("https://doi.org/10.1000/hfo2", urls)
+        self.assertIn("https://doi.org/10.1000/sevennet", urls)
+        self.assertNotIn("https://doi.org/10.1000/pet", urls)
+        self.assertNotIn("https://doi.org/10.1000/dental", urls)
+        self.assertNotIn("https://doi.org/10.1000/storage", urls)
+        self.assertNotIn("https://doi.org/10.1000/ace", urls)
 
     def test_repository_and_huggingface_adapters(self):
         github = {"items": [{"html_url": "https://github.com/org/model", "full_name": "org/model",

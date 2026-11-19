@@ -1,5 +1,6 @@
 import math
 import os
+import re
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
@@ -104,6 +105,78 @@ def _crossref_created_at(item):
     return ""
 
 
+# Crossref keeps a hit when roughly one in five query words appears anywhere in the
+# record, then ranks those hits. Common words such as "potential" or "learning"
+# therefore outrank an actual subject match inside a one-day window.
+_GENERIC_CROSSREF_WORDS = {
+    "a", "an", "and", "or", "the", "of", "for", "with", "from", "in", "on", "to",
+    "machine", "learn", "potential", "model", "material", "simulation", "network",
+    "neural", "active", "universal", "foundation", "energy", "charge", "surface",
+    "interface", "defect", "method", "using", "based", "long", "range", "molecular",
+    "atomic",
+}
+_AMBIGUOUS_MODEL_NAMES = {"ace", "gap", "mtp", "snap"}
+
+
+def _normalize_crossref_word(word):
+    word = word.lower()
+    if word.startswith("learn"):
+        return "learn"
+    if word in {"modelling", "modeling", "model", "models"}:
+        return "model"
+    if word in {"material", "materials"}:
+        return "material"
+    if word in {"simulation", "simulations"}:
+        return "simulation"
+    if word in {"potential", "potentials"}:
+        return "potential"
+    if word in {"network", "networks"}:
+        return "network"
+    if word in {"surface", "surfaces"}:
+        return "surface"
+    if word in {"interface", "interfaces"}:
+        return "interface"
+    if word in {"defect", "defects"}:
+        return "defect"
+    if word in {"method", "methods"}:
+        return "method"
+    return word
+
+
+def _crossref_words(text):
+    return {_normalize_crossref_word(word) for word in re.findall(r"[A-Za-z0-9]+", text or "")}
+
+
+def _crossref_matches_query(query, title, abstract="", subjects=None):
+    tokens = re.findall(r"[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*", query or "")
+    if not tokens:
+        return False
+    haystack = _crossref_words(" ".join([title or "", abstract or "", " ".join(subjects or [])]))
+    cased = sum(1 for token in tokens if any(character.isupper() for character in token))
+    # Model-family queries are alternative names ("MACE NequIP ..."), not phrases.
+    if len(tokens) >= 4 and cased * 2 >= len(tokens):
+        for token in tokens:
+            key = re.sub(r"[^A-Za-z0-9]", "", token).lower()
+            if len(key) < 4 or key in _AMBIGUOUS_MODEL_NAMES:
+                continue
+            if _normalize_crossref_word(key) in haystack:
+                return True
+        return False
+
+    matched = []
+    specific = []
+    for token in tokens:
+        parts = [_normalize_crossref_word(part) for part in re.findall(r"[A-Za-z0-9]+", token)]
+        if parts and all(part in haystack for part in parts):
+            matched.append(token)
+        if any(part not in _GENERIC_CROSSREF_WORDS for part in parts):
+            specific.append(token)
+    if specific and not any(token in matched for token in specific):
+        return False
+    needed = 1 if len(tokens) == 1 else max(2, math.ceil(len(tokens) * 0.5))
+    return len(matched) >= needed
+
+
 def _metadata(profile, source_url, title, abstract="", authors=None, published="", provider_data=None, metadata_provider=None, observed_at=""):
     detected_type, canonical_url = literature.canonicalize_url(source_url)
     doi_path = urllib.parse.urlsplit(canonical_url).path.lower()
@@ -164,7 +237,9 @@ def _arxiv(profile, query):
 def _crossref(profile, query):
     params = {
         "query": query,
-        "rows": profile["max_results"],
+        # Ask for more than the profile keeps. The highest-scored rows are often
+        # partial word matches, and the relevant record may sit further down.
+        "rows": min(30, max(profile["max_results"], 15)),
         "filter": f"from-created-date:{profile['_cutoff'].date().isoformat()}",
     }
     if profile["provider"] == "chemrxiv":
@@ -179,6 +254,11 @@ def _crossref(profile, query):
         if not doi:
             continue
         source_url = item.get("URL") or f"https://doi.org/{doi}"
+        title = (item.get("title") or [""])[0]
+        abstract = literature._plain_text(item.get("abstract", "") or "")
+        subjects = [subject for subject in item.get("subject", []) if isinstance(subject, str)]
+        if not _crossref_matches_query(query, title, abstract, subjects):
+            continue
         author_names = [
             " ".join(part for part in (author.get("given"), author.get("family")) if part)
             for author in item.get("author", [])
@@ -194,8 +274,8 @@ def _crossref(profile, query):
         results.append(_metadata(
             profile,
             source_url,
-            (item.get("title") or [""])[0],
-            item.get("abstract", ""),
+            title,
+            abstract,
             author_names,
             published,
             provider_data,
