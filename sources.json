@@ -12988,6 +12988,45 @@
       "last_requested_at": "2026-11-19T14:04:33+00:00",
       "published_at": "",
       "updated_at": "2026-11-19T02:05:21.685Z"
+    },
+    "https://doi.org/10.1021/acs.jpcc.6c04722.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpcc.6c04722.s001",
+      "original_url": "https://doi.org/10.1021/acs.jpcc.6c04722.s001",
+      "title": "Elucidation of Mg-Ion Diffusion Factors in MgO-Based Materials Using Machine-Learning Interatomic Potentials and Causal Analysis",
+      "notes": [
+        "notes/crossref_Elucidation_of_Mg-Ion_Diffusion_Factors_in_Mg_ee7ae2f702.md"
+      ],
+      "added_at": "2026-11-19T23:23:20+00:00",
+      "last_requested_at": "2026-11-19T23:23:20+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://gitlab.com/opencpi/opencpi": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/opencpi/opencpi",
+      "original_url": "https://gitlab.com/opencpi/opencpi",
+      "title": "opencpi/opencpi",
+      "notes": [
+        "notes/gitlab_opencpi_opencpi_0a8845ce2f.md"
+      ],
+      "added_at": "2026-11-19T23:23:20+00:00",
+      "last_requested_at": "2026-11-19T23:23:20+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T22:05:07.213Z"
+    },
+    "https://gitlab.com/dawalters/opencpi": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/dawalters/opencpi",
+      "original_url": "https://gitlab.com/dawalters/opencpi",
+      "title": "dawalters/opencpi",
+      "notes": [
+        "notes/gitlab_dawalters_opencpi_f52a907605.md"
+      ],
+      "added_at": "2026-11-19T23:23:20+00:00",
+      "last_requested_at": "2026-11-19T23:23:20+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T20:27:46.463Z"
     }
   }
 }
