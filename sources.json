@@ -12442,6 +12442,19 @@
       "last_requested_at": "2026-11-19T12:33:04+00:00",
       "published_at": "2026-11-15",
       "updated_at": "2026-11-15T21:03:56Z"
+    },
+    "https://github.com/khervefitting/khervefitting": {
+      "type": "github",
+      "canonical_url": "https://github.com/khervefitting/khervefitting",
+      "original_url": "https://github.com/KherveFitting/KherveFitting",
+      "title": "KherveFitting/KherveFitting",
+      "notes": [
+        "notes/223_KherveFitting_KherveFitting.md"
+      ],
+      "added_at": "2026-11-19T12:35:58+00:00",
+      "last_requested_at": "2026-11-19T12:35:58+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-17T21:12:54Z"
     }
   }
 }
