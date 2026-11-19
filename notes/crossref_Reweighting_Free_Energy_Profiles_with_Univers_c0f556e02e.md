@@ -7,7 +7,7 @@ canonical_url: https://doi.org/10.1021/acs.jctc.6c02044
 captured_by: auto-scanner
 date: '2026-11-10'
 captured_at: '2026-11-10T00:31:39+00:00'
-last_requested: '2026-11-10T00:31:39+00:00'
+last_requested: '2026-11-19T13:42:02+00:00'
 issue: scan:mlip-development-crossref
 status: to-read
 authors:

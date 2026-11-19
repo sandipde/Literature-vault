@@ -6888,7 +6888,7 @@
         "notes/189_ag-salinga_fastatomstruct.md"
       ],
       "added_at": "2026-10-30T11:12:17+00:00",
-      "last_requested_at": "2026-10-30T11:12:17+00:00",
+      "last_requested_at": "2026-11-19T13:40:39+00:00",
       "published_at": "",
       "updated_at": "2026-10-30T07:21:40.788Z"
     },
@@ -6914,7 +6914,7 @@
         "notes/191_A_latent-space_extrapolation_grade_built_into_grap.md"
       ],
       "added_at": "2026-10-30T11:14:21+00:00",
-      "last_requested_at": "2026-10-30T11:14:21+00:00",
+      "last_requested_at": "2026-11-19T13:41:01+00:00",
       "published_at": "2026-09-30",
       "updated_at": "2026-09-30T16:21:09Z"
     },
@@ -9475,7 +9475,7 @@
         "notes/crossref_Reweighting_Free_Energy_Profiles_with_Univers_c0f556e02e.md"
       ],
       "added_at": "2026-11-10T00:31:39+00:00",
-      "last_requested_at": "2026-11-10T00:31:39+00:00",
+      "last_requested_at": "2026-11-19T13:42:02+00:00",
       "published_at": "2026-11-09",
       "updated_at": ""
     },
@@ -12455,6 +12455,266 @@
       "last_requested_at": "2026-11-19T12:35:58+00:00",
       "published_at": "",
       "updated_at": "2026-11-17T21:12:54Z"
+    },
+    "https://github.com/nvidia/nvalchemi-toolkit": {
+      "type": "github",
+      "canonical_url": "https://github.com/nvidia/nvalchemi-toolkit",
+      "original_url": "https://github.com/NVIDIA/nvalchemi-toolkit/",
+      "title": "NVIDIA/nvalchemi-toolkit",
+      "notes": [
+        "notes/211_NVIDIA_nvalchemi-toolkit.md"
+      ],
+      "added_at": "2026-11-19T13:40:30+00:00",
+      "last_requested_at": "2026-11-19T13:40:30+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-18T21:08:05Z"
+    },
+    "https://mcpservers.org": {
+      "type": "web",
+      "canonical_url": "https://mcpservers.org",
+      "original_url": "https://mcpservers.org/",
+      "title": "Awesome MCP Servers",
+      "notes": [
+        "notes/209_Awesome_MCP_Servers.md"
+      ],
+      "added_at": "2026-11-19T13:40:32+00:00",
+      "last_requested_at": "2026-11-19T13:40:32+00:00",
+      "published_at": "",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.30086": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.30086",
+      "original_url": "https://arxiv.org/abs/2610.30086",
+      "title": "Orbitol: Crystal Generation on Wyckoff Orbits",
+      "notes": [
+        "notes/207_Orbitol_Crystal_Generation_on_Wyckoff_Orbits.md"
+      ],
+      "added_at": "2026-11-19T13:40:33+00:00",
+      "last_requested_at": "2026-11-19T13:40:33+00:00",
+      "published_at": "2026-10-21",
+      "updated_at": "2026-11-05T17:03:59Z"
+    },
+    "https://github.com/stases/orbitol": {
+      "type": "github",
+      "canonical_url": "https://github.com/stases/orbitol",
+      "original_url": "https://github.com/stases/orbitol",
+      "title": "stases/orbitol",
+      "notes": [
+        "notes/206_stases_orbitol.md"
+      ],
+      "added_at": "2026-11-19T13:40:35+00:00",
+      "last_requested_at": "2026-11-19T13:40:35+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-06T14:01:34Z"
+    },
+    "https://huggingface.co/spaces/vagosolutions/sauerkrautlm-glinerel-knowledge-graph": {
+      "type": "huggingface_space",
+      "canonical_url": "https://huggingface.co/spaces/vagosolutions/sauerkrautlm-glinerel-knowledge-graph",
+      "original_url": "https://huggingface.co/spaces/VAGOsolutions/SauerkrautLM-GLiNEREL-Knowledge-Graph",
+      "title": "VAGOsolutions/SauerkrautLM-GLiNEREL-Knowledge-Graph",
+      "notes": [
+        "notes/204_VAGOsolutions_SauerkrautLM-GLiNEREL-Knowledge-Grap.md"
+      ],
+      "added_at": "2026-11-19T13:40:36+00:00",
+      "last_requested_at": "2026-11-19T13:40:36+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-05T10:28:17.000Z"
+    },
+    "https://github.com/nvidia/auto-ontology": {
+      "type": "github",
+      "canonical_url": "https://github.com/nvidia/auto-ontology",
+      "original_url": "https://github.com/NVIDIA/auto-ontology",
+      "title": "NVIDIA/auto-ontology",
+      "notes": [
+        "notes/203_NVIDIA_auto-ontology.md"
+      ],
+      "added_at": "2026-11-19T13:40:38+00:00",
+      "last_requested_at": "2026-11-19T13:40:38+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T13:36:08Z"
+    },
+    "https://arxiv.org/abs/2611.00228": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.00228",
+      "original_url": "https://arxiv.org/abs/2611.00228v1",
+      "title": "In the age of big data and AI: do we still need chemical bonds?",
+      "notes": [
+        "notes/197_In_the_age_of_big_data_and_AI_do_we_still_need_che.md"
+      ],
+      "added_at": "2026-11-19T13:40:41+00:00",
+      "last_requested_at": "2026-11-19T13:40:41+00:00",
+      "published_at": "2026-10-30",
+      "updated_at": "2026-10-30T18:11:07Z"
+    },
+    "https://doi.org/10.1021/acs.jctc.5c02081": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.5c02081",
+      "original_url": "https://doi.org/10.1021/acs.jctc.5c02081",
+      "title": "A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era",
+      "notes": [
+        "notes/187_A_Systematic_Survey_and_Benchmark_of_Deep_Learning.md"
+      ],
+      "added_at": "2026-11-19T13:40:44+00:00",
+      "last_requested_at": "2026-11-19T13:40:44+00:00",
+      "published_at": "2026-05-26",
+      "updated_at": ""
+    },
+    "https://github.com/zongru-li/survey-and-benchmarks-of-dl-for-molecular-property-prediction-in-the-foundation-model-era": {
+      "type": "github",
+      "canonical_url": "https://github.com/zongru-li/survey-and-benchmarks-of-dl-for-molecular-property-prediction-in-the-foundation-model-era",
+      "original_url": "https://github.com/Zongru-Li/Survey-and-Benchmarks-of-DL-for-Molecular-Property-Prediction-in-the-Foundation-Model-Era",
+      "title": "Zongru-Li/Survey-and-Benchmarks-of-DL-for-Molecular-Property-Prediction-in-the-Foundation-Model-Era",
+      "notes": [
+        "notes/186_Zongru-Li_Survey-and-Benchmarks-of-DL-for-Molecula.md"
+      ],
+      "added_at": "2026-11-19T13:40:45+00:00",
+      "last_requested_at": "2026-11-19T13:40:45+00:00",
+      "published_at": "",
+      "updated_at": "2026-05-06T03:58:10Z"
+    },
+    "https://april-zhu.com/colorfigures": {
+      "type": "web",
+      "canonical_url": "https://april-zhu.com/colorfigures",
+      "original_url": "https://april-zhu.com/colorfigures",
+      "title": "Colorfigures skill",
+      "notes": [
+        "notes/184_Colorfigures_skill.md"
+      ],
+      "added_at": "2026-11-19T13:40:47+00:00",
+      "last_requested_at": "2026-11-19T13:40:47+00:00",
+      "published_at": "",
+      "updated_at": ""
+    },
+    "https://v.edisonscientific.com/draw-an-equation-html-hto1": {
+      "type": "web",
+      "canonical_url": "https://v.edisonscientific.com/draw-an-equation-html-hto1",
+      "original_url": "https://v.edisonscientific.com/draw-an-equation-html-hto1",
+      "title": "Draw an equation",
+      "notes": [
+        "notes/183_Draw_an_equation.md"
+      ],
+      "added_at": "2026-11-19T13:40:50+00:00",
+      "last_requested_at": "2026-11-19T13:40:50+00:00",
+      "published_at": "",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2610.23643": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2610.23643",
+      "original_url": "https://arxiv.org/abs/2610.23643",
+      "title": "Scalable long-range machine learning interatomic potentials with electrical response for atomistic material modeling",
+      "notes": [
+        "notes/178_Scalable_long-range_machine_learning_interatomic_p.md"
+      ],
+      "added_at": "2026-11-19T13:40:52+00:00",
+      "last_requested_at": "2026-11-19T13:40:52+00:00",
+      "published_at": "2026-10-16",
+      "updated_at": "2026-10-16T15:44:07Z"
+    },
+    "https://github.com/am3grouphub/deepmd-lr": {
+      "type": "github",
+      "canonical_url": "https://github.com/am3grouphub/deepmd-lr",
+      "original_url": "https://github.com/AM3GroupHub/deepmd-lr",
+      "title": "AM3GroupHub/deepmd-lr",
+      "notes": [
+        "notes/177_AM3GroupHub_deepmd-lr.md"
+      ],
+      "added_at": "2026-11-19T13:40:53+00:00",
+      "last_requested_at": "2026-11-19T13:40:53+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-18T06:13:46Z"
+    },
+    "https://github.com/facebookresearch/fairchem": {
+      "type": "github",
+      "canonical_url": "https://github.com/facebookresearch/fairchem",
+      "original_url": "https://github.com/facebookresearch/fairchem",
+      "title": "facebookresearch/fairchem",
+      "notes": [
+        "notes/176_facebookresearch_fairchem.md"
+      ],
+      "added_at": "2026-11-19T13:40:55+00:00",
+      "last_requested_at": "2026-11-19T13:40:55+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-19T01:41:36Z"
+    },
+    "https://github.com/google-research/harness2": {
+      "type": "github",
+      "canonical_url": "https://github.com/google-research/harness2",
+      "original_url": "https://github.com/google-research/harness2",
+      "title": "google-research/harness2",
+      "notes": [
+        "notes/154_google-research_harness2.md"
+      ],
+      "added_at": "2026-11-19T13:40:58+00:00",
+      "last_requested_at": "2026-11-19T13:40:58+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-02T02:17:27Z"
+    },
+    "https://kitchingroup.cheme.cmu.edu/posts/pycse-2-12": {
+      "type": "web",
+      "canonical_url": "https://kitchingroup.cheme.cmu.edu/posts/pycse-2-12",
+      "original_url": "https://kitchingroup.cheme.cmu.edu/posts/pycse-2-12/",
+      "title": "pycse 2.12",
+      "notes": [
+        "notes/150_pycse_2_12.md"
+      ],
+      "added_at": "2026-11-19T13:40:59+00:00",
+      "last_requested_at": "2026-11-19T13:40:59+00:00",
+      "published_at": "",
+      "updated_at": ""
+    },
+    "https://github.com/awesome-selfhosted/awesome-selfhosted": {
+      "type": "github",
+      "canonical_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "original_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "notes": [
+        "notes/136_awesome-selfhosted_awesome-selfhosted.md"
+      ],
+      "added_at": "2026-11-19T13:41:02+00:00",
+      "last_requested_at": "2026-11-19T13:41:02+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-17T17:21:32Z"
+    },
+    "https://whitead.github.io/symdjs": {
+      "type": "web",
+      "canonical_url": "https://whitead.github.io/symdjs",
+      "original_url": "https://whitead.github.io/symdjs/",
+      "title": "An atlas of 2D crystals",
+      "notes": [
+        "notes/133_An_atlas_of_2D_crystals.md"
+      ],
+      "added_at": "2026-11-19T13:41:04+00:00",
+      "last_requested_at": "2026-11-19T13:41:04+00:00",
+      "published_at": "",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6sc05974k": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6sc05974k",
+      "original_url": "https://pubs.rsc.org/sc/article/doi/10.1039/d6sc05974k/1374738/Atomistic-mechanisms-of-hard-carbon-formation-from",
+      "title": "Atomistic mechanisms of hard carbon formation from polyvinylidene chloride",
+      "notes": [
+        "notes/188_Atomistic_mechanisms_of_hard_carbon_formation_from.md"
+      ],
+      "added_at": "2026-11-19T13:42:04+00:00",
+      "last_requested_at": "2026-11-19T13:42:04+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6dd00224b": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6dd00224b",
+      "original_url": "https://pubs.rsc.org/dd/article/doi/10.1039/d6dd00224b/1370719/BoFlex-modular-Bayesian-optimization-for",
+      "title": "BoFlex: modular Bayesian optimization for autonomous experimentation",
+      "notes": [
+        "notes/164_BoFlex_modular_Bayesian_optimization_for_autonomou.md"
+      ],
+      "added_at": "2026-11-19T13:42:05+00:00",
+      "last_requested_at": "2026-11-19T13:42:05+00:00",
+      "published_at": "2026",
+      "updated_at": ""
     }
   }
 }

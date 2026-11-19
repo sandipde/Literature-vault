@@ -6,7 +6,7 @@ canonical_url: https://gitlab.com/ag-salinga/fastatomstruct
 captured_by: sandipde
 date: '2026-10-30'
 captured_at: '2026-10-30T11:12:17+00:00'
-last_requested: '2026-10-30T11:12:17+00:00'
+last_requested: '2026-11-19T13:40:39+00:00'
 issue: '189'
 status: to-read
 authors: []
