@@ -13131,6 +13131,97 @@
       "last_requested_at": "2026-11-20T13:47:16+00:00",
       "published_at": "",
       "updated_at": "2026-11-20T07:48:40.549Z"
+    },
+    "https://arxiv.org/abs/2611.25178": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.25178",
+      "original_url": "https://arxiv.org/abs/2611.25178",
+      "title": "The phase diagram of fluid hydrogen near melting from machine-learned interatomic potentials trained on quantum Monte Carlo",
+      "notes": [
+        "notes/arxiv_2611.25178_The_phase_diagram_of_fluid_hydrogen_near_melt_eb495f9f30.md"
+      ],
+      "added_at": "2026-11-20T22:56:01+00:00",
+      "last_requested_at": "2026-11-20T22:56:01+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.26349": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.26349",
+      "original_url": "https://arxiv.org/abs/2611.26349",
+      "title": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+      "notes": [
+        "notes/arxiv_2611.26349_Perfumer_A_Large_Language_Model-based_Agentic_51b6dc6d9d.md"
+      ],
+      "added_at": "2026-11-20T22:56:01+00:00",
+      "last_requested_at": "2026-11-20T22:56:01+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.26186": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.26186",
+      "original_url": "https://arxiv.org/abs/2611.26186",
+      "title": "Reward misalignment as an opportunity for materials discovery",
+      "notes": [
+        "notes/arxiv_2611.26186_Reward_misalignment_as_an_opportunity_for_mat_9abd203793.md"
+      ],
+      "added_at": "2026-11-20T22:56:01+00:00",
+      "last_requested_at": "2026-11-20T22:56:01+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.25646": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.25646",
+      "original_url": "https://arxiv.org/abs/2611.25646",
+      "title": "AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction",
+      "notes": [
+        "notes/arxiv_2611.25646_AdsNet_A_Graph_Neural_Network_for_Direct_Adso_d5e0bbb03c.md"
+      ],
+      "added_at": "2026-11-20T22:56:01+00:00",
+      "last_requested_at": "2026-11-20T22:56:01+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.25452": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.25452",
+      "original_url": "https://arxiv.org/abs/2611.25452",
+      "title": "FamilySpace: From Emergent Chemical Semantics to Controllable Crystal Generation",
+      "notes": [
+        "notes/arxiv_2611.25452_FamilySpace_From_Emergent_Chemical_Semantics__62aa476658.md"
+      ],
+      "added_at": "2026-11-20T22:56:01+00:00",
+      "last_requested_at": "2026-11-20T22:56:01+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.25127": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.25127",
+      "original_url": "https://arxiv.org/abs/2611.25127",
+      "title": "Machine Learning-Driven High-Throughput Screening of Equimolar and Non-Equimolar High-Entropy Carbides",
+      "notes": [
+        "notes/arxiv_2611.25127_Machine_Learning-Driven_High-Throughput_Scree_2729c4518c.md"
+      ],
+      "added_at": "2026-11-20T22:56:01+00:00",
+      "last_requested_at": "2026-11-20T22:56:01+00:00",
+      "published_at": "2026-11-18",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.enmf.2026.10.005": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.enmf.2026.10.005",
+      "original_url": "https://doi.org/10.1016/j.enmf.2026.10.005",
+      "title": "Machine Learning Potential-Enabled Atomistic Elucidation of Interfacial Mechanics in Energetic Composites: A Case Study on NEPE Propellant",
+      "notes": [
+        "notes/crossref_Machine_Learning_Potential-Enabled_Atomistic__11a0fd0753.md"
+      ],
+      "added_at": "2026-11-20T22:56:01+00:00",
+      "last_requested_at": "2026-11-20T22:56:01+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
     }
   }
 }
