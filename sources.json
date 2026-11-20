@@ -13040,6 +13040,97 @@
       "last_requested_at": "2026-11-20T12:08:50+00:00",
       "published_at": "",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.26533": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.26533",
+      "original_url": "https://arxiv.org/abs/2611.26533",
+      "title": "Emergent Fatigue Dynamics from Foundational Interatomic Potentials",
+      "notes": [
+        "notes/arxiv_2611.26533_Emergent_Fatigue_Dynamics_from_Foundational_I_3ebde00e88.md"
+      ],
+      "added_at": "2026-11-20T13:47:16+00:00",
+      "last_requested_at": "2026-11-20T13:47:16+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.25944": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.25944",
+      "original_url": "https://arxiv.org/abs/2611.25944",
+      "title": "Alloying effects on the interface cohesion of grain boundaries in the Ni--Fe--Cr system",
+      "notes": [
+        "notes/arxiv_2611.25944_Alloying_effects_on_the_interface_cohesion_of_4969f5d0e1.md"
+      ],
+      "added_at": "2026-11-20T13:47:16+00:00",
+      "last_requested_at": "2026-11-20T13:47:16+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.26592": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.26592",
+      "original_url": "https://arxiv.org/abs/2611.26592",
+      "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+      "notes": [
+        "notes/arxiv_2611.26592_Realized_versus_Population_Reliability_Anytim_ecae9dde37.md"
+      ],
+      "added_at": "2026-11-20T13:47:16+00:00",
+      "last_requested_at": "2026-11-20T13:47:16+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.26417": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.26417",
+      "original_url": "https://arxiv.org/abs/2611.26417",
+      "title": "Thermal Resummation Effects on Electroweak Phase Transitions and Gravitational Waves in Conformal and Non-Conformal 2HDMs",
+      "notes": [
+        "notes/arxiv_2611.26417_Thermal_Resummation_Effects_on_Electroweak_Ph_88ac524731.md"
+      ],
+      "added_at": "2026-11-20T13:47:16+00:00",
+      "last_requested_at": "2026-11-20T13:47:16+00:00",
+      "published_at": "2026-11-19",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21203/rs.3.rs-11670201/v1": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-11670201/v1",
+      "original_url": "https://doi.org/10.21203/rs.3.rs-11670201/v1",
+      "title": "Equivariant Many-body Message Passing Interatomic Potentials for Magnetic Materials",
+      "notes": [
+        "notes/crossref_Equivariant_Many-body_Message_Passing_Interat_7b194c8f4e.md"
+      ],
+      "added_at": "2026-11-20T13:47:16+00:00",
+      "last_requested_at": "2026-11-20T13:47:16+00:00",
+      "published_at": "2026-11-20",
+      "updated_at": ""
+    },
+    "https://gitlab.com/inverse-inc/packetfence": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/inverse-inc/packetfence",
+      "original_url": "https://gitlab.com/inverse-inc/packetfence",
+      "title": "inverse-inc/packetfence",
+      "notes": [
+        "notes/gitlab_inverse-inc_packetfence_20d3fe738a.md"
+      ],
+      "added_at": "2026-11-20T13:47:16+00:00",
+      "last_requested_at": "2026-11-20T13:47:16+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-20T12:23:39.423Z"
+    },
+    "https://gitlab.com/ra-shree/prequal-paper": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/ra-shree/prequal-paper",
+      "original_url": "https://gitlab.com/ra-shree/prequal-paper",
+      "title": "ra-shree/prequal-paper",
+      "notes": [
+        "notes/gitlab_ra-shree_prequal-paper_efb8cc5aa4.md"
+      ],
+      "added_at": "2026-11-20T13:47:16+00:00",
+      "last_requested_at": "2026-11-20T13:47:16+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-20T07:48:40.549Z"
     }
   }
 }
