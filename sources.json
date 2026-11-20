@@ -13027,6 +13027,19 @@
       "last_requested_at": "2026-11-19T23:23:20+00:00",
       "published_at": "",
       "updated_at": "2026-11-19T20:27:46.463Z"
+    },
+    "https://github.com/alphaxiv/openresearch": {
+      "type": "github",
+      "canonical_url": "https://github.com/alphaxiv/openresearch",
+      "original_url": "https://github.com/alphaXiv/OpenResearch",
+      "title": "GitHub - alphaXiv/OpenResearch: Turn your coding agents into research agents · GitHub",
+      "notes": [
+        "notes/224_GitHub_-_alphaXiv_OpenResearch_Turn_your_coding_ag.md"
+      ],
+      "added_at": "2026-11-20T12:08:50+00:00",
+      "last_requested_at": "2026-11-20T12:08:50+00:00",
+      "published_at": "",
+      "updated_at": ""
     }
   }
 }
