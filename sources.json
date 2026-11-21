@@ -13222,6 +13222,19 @@
       "last_requested_at": "2026-11-20T22:56:01+00:00",
       "published_at": "2026-11",
       "updated_at": ""
+    },
+    "https://github.com/zccalka/matsci-claude-harness": {
+      "type": "github",
+      "canonical_url": "https://github.com/zccalka/matsci-claude-harness",
+      "original_url": "https://github.com/zccalka/matsci-claude-harness",
+      "title": "zccalka/matsci-claude-harness",
+      "notes": [
+        "notes/225_zccalka_matsci-claude-harness.md"
+      ],
+      "added_at": "2026-11-21T11:34:19+00:00",
+      "last_requested_at": "2026-11-21T11:34:19+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-18T19:13:16Z"
     }
   }
 }
