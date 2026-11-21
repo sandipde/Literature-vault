@@ -13235,6 +13235,58 @@
       "last_requested_at": "2026-11-21T11:34:19+00:00",
       "published_at": "",
       "updated_at": "2026-11-18T19:13:16Z"
+    },
+    "https://huggingface.co/at1uri/equivariant-graph-neural-network-vault": {
+      "type": "huggingface_model",
+      "canonical_url": "https://huggingface.co/at1uri/equivariant-graph-neural-network-vault",
+      "original_url": "https://huggingface.co/At1uri/equivariant-graph-neural-network-vault",
+      "title": "At1uri/equivariant-graph-neural-network-vault",
+      "notes": [
+        "notes/huggingface_model_At1uri_equivariant-graph-neural-network-vault_96f1121846.md"
+      ],
+      "added_at": "2026-11-21T13:12:38+00:00",
+      "last_requested_at": "2026-11-21T13:12:38+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-21T00:50:59.000Z"
+    },
+    "https://huggingface.co/at1uri/egnn-equivariant-3d-dynamics-engine": {
+      "type": "huggingface_model",
+      "canonical_url": "https://huggingface.co/at1uri/egnn-equivariant-3d-dynamics-engine",
+      "original_url": "https://huggingface.co/At1uri/egnn-equivariant-3d-dynamics-engine",
+      "title": "At1uri/egnn-equivariant-3d-dynamics-engine",
+      "notes": [
+        "notes/huggingface_model_At1uri_egnn-equivariant-3d-dynamics-engine_1770a319d0.md"
+      ],
+      "added_at": "2026-11-21T13:12:38+00:00",
+      "last_requested_at": "2026-11-21T13:12:38+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-21T00:50:49.000Z"
+    },
+    "https://huggingface.co/datasets/at1uri/equivariant-3d-particle-benchmarks": {
+      "type": "huggingface_dataset",
+      "canonical_url": "https://huggingface.co/datasets/at1uri/equivariant-3d-particle-benchmarks",
+      "original_url": "https://huggingface.co/datasets/At1uri/equivariant-3d-particle-benchmarks",
+      "title": "At1uri/equivariant-3d-particle-benchmarks",
+      "notes": [
+        "notes/huggingface_dataset_At1uri_equivariant-3d-particle-benchmarks_e2ea46be64.md"
+      ],
+      "added_at": "2026-11-21T13:12:38+00:00",
+      "last_requested_at": "2026-11-21T13:12:38+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-21T00:50:56.000Z"
+    },
+    "https://huggingface.co/spaces/at1uri/equivariant-graph-neural-network-studio": {
+      "type": "huggingface_space",
+      "canonical_url": "https://huggingface.co/spaces/at1uri/equivariant-graph-neural-network-studio",
+      "original_url": "https://huggingface.co/spaces/At1uri/equivariant-graph-neural-network-studio",
+      "title": "At1uri/equivariant-graph-neural-network-studio",
+      "notes": [
+        "notes/huggingface_space_At1uri_equivariant-graph-neural-network-studi_ef9fad6e9c.md"
+      ],
+      "added_at": "2026-11-21T13:12:38+00:00",
+      "last_requested_at": "2026-11-21T13:12:38+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-21T00:50:43.000Z"
     }
   }
 }
