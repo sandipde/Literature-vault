@@ -13300,6 +13300,58 @@
       "last_requested_at": "2026-11-22T13:01:02+00:00",
       "published_at": "2026-11-22",
       "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012574/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012574/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012574/v1",
+      "title": "Accuracy and Limits of Pretrained Interatomic Potentials Across Molecular Reaction Pathways",
+      "notes": [
+        "notes/crossref_Accuracy_and_Limits_of_Pretrained_Interatomic_65b06ba54f.md"
+      ],
+      "added_at": "2026-11-23T15:38:12+00:00",
+      "last_requested_at": "2026-11-23T15:38:12+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.21779/2542-0321-2026-41-3-20-31": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.21779/2542-0321-2026-41-3-20-31",
+      "original_url": "https://doi.org/10.21779/2542-0321-2026-41-3-20-31",
+      "title": "Anharmonicity Contribution to the Energy of Interatomic Interaction of Classical Metals",
+      "notes": [
+        "notes/crossref_Anharmonicity_Contribution_to_the_Energy_of_I_827bea4852.md"
+      ],
+      "added_at": "2026-11-23T15:38:12+00:00",
+      "last_requested_at": "2026-11-23T15:38:12+00:00",
+      "published_at": "2026-09-28",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01610": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01610",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01610",
+      "title": "AdaptiveNet: Accurate Electron Density Prediction with Adaptive Global Charge Equilibration for Accelerating Large-Scale DFT Calculations",
+      "notes": [
+        "notes/crossref_AdaptiveNet_Accurate_Electron_Density_Predict_8ce3320b8c.md"
+      ],
+      "added_at": "2026-11-23T15:38:12+00:00",
+      "last_requested_at": "2026-11-23T15:38:12+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012608/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012608/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012608/v1",
+      "title": "Building a grain-boundary machine-learning force field by reactive sampling and data curation, and its application to large-scale grain-boundary transport in Li6PS5X (X =Cl, Br)",
+      "notes": [
+        "notes/chemrxiv_Building_a_grain-boundary_machine-learning_fo_3997815dc1.md"
+      ],
+      "added_at": "2026-11-23T15:38:12+00:00",
+      "last_requested_at": "2026-11-23T15:38:12+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
     }
   }
 }
