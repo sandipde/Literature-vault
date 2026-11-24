@@ -13365,6 +13365,71 @@
       "last_requested_at": "2026-11-23T17:34:04+00:00",
       "published_at": "",
       "updated_at": "2026-11-23T03:21:41Z"
+    },
+    "https://doi.org/10.1039/d6na00908e": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6na00908e",
+      "original_url": "https://doi.org/10.1039/d6na00908e",
+      "title": "Molecular Dynamics Simulations of MXenes: Interatomic Potentials, Predictive Reliability, and Machine-Learning Opportunities",
+      "notes": [
+        "notes/crossref_Molecular_Dynamics_Simulations_of_MXenes_Inte_df6dfa6316.md"
+      ],
+      "added_at": "2026-11-24T03:08:07+00:00",
+      "last_requested_at": "2026-11-24T03:08:07+00:00",
+      "published_at": "2026",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jpclett.6c02955": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpclett.6c02955",
+      "original_url": "https://doi.org/10.1021/acs.jpclett.6c02955",
+      "title": "Machine-Learned NMR Shieldings in Molecular Solids with Built-In Hybrid-Functional Molecular Corrections",
+      "notes": [
+        "notes/crossref_Machine-Learned_NMR_Shieldings_in_Molecular_S_0d37ab1808.md"
+      ],
+      "added_at": "2026-11-24T03:08:07+00:00",
+      "last_requested_at": "2026-11-24T03:08:07+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1109/iros61738.2026.11777505": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1109/iros61738.2026.11777505",
+      "original_url": "https://doi.org/10.1109/iros61738.2026.11777505",
+      "title": "Local-Canonicalization Equivariant Graph Neural Networks for Sample-Efficient and Generalizable Swarm Robot Control",
+      "notes": [
+        "notes/crossref_Local-Canonicalization_Equivariant_Graph_Neur_6bdb8697f9.md"
+      ],
+      "added_at": "2026-11-24T03:08:07+00:00",
+      "last_requested_at": "2026-11-24T03:08:07+00:00",
+      "published_at": "2026-09",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jcim.6c02767": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jcim.6c02767",
+      "original_url": "https://doi.org/10.1021/acs.jcim.6c02767",
+      "title": "LICA: A Multiview Relation-Aware Equivariant Graph Neural Network with Interfacial Atomic-Pair Attention for Protein–Ligand Binding Affinity Prediction",
+      "notes": [
+        "notes/crossref_LICA_A_Multiview_Relation-Aware_Equivariant_G_c4b03085df.md"
+      ],
+      "added_at": "2026-11-24T03:08:07+00:00",
+      "last_requested_at": "2026-11-24T03:08:07+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://gitlab.com/k1000/j01n.me": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/k1000/j01n.me",
+      "original_url": "https://gitlab.com/k1000/j01n.me",
+      "title": "k1000/j01n.me",
+      "notes": [
+        "notes/gitlab_k1000_j01n_me_9c05653a8e.md"
+      ],
+      "added_at": "2026-11-24T03:08:07+00:00",
+      "last_requested_at": "2026-11-24T03:08:07+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-23T23:15:43.294Z"
     }
   }
 }
