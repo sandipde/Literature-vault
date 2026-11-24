@@ -13430,6 +13430,149 @@
       "last_requested_at": "2026-11-24T03:08:07+00:00",
       "published_at": "",
       "updated_at": "2026-11-23T23:15:43.294Z"
+    },
+    "https://arxiv.org/abs/2611.31029": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.31029",
+      "original_url": "https://arxiv.org/abs/2611.31029",
+      "title": "LeIFF: A localized-electron and ion force field for coupled nuclear and electronic dynamics",
+      "notes": [
+        "notes/arxiv_2611.31029_LeIFF_A_localized-electron_and_ion_force_fiel_7d07dfa1c9.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30917": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30917",
+      "original_url": "https://arxiv.org/abs/2611.30917",
+      "title": "Molecular Pawns on a Surface Chessboard: Computational Investigation of Nanographenes with Atomistic Methods",
+      "notes": [
+        "notes/arxiv_2611.30917_Molecular_Pawns_on_a_Surface_Chessboard_Compu_01f23c19e7.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30344": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30344",
+      "original_url": "https://arxiv.org/abs/2611.30344",
+      "title": "High-Throughput Screening of Phononic Bandgap in Experimentally Realized Materials",
+      "notes": [
+        "notes/arxiv_2611.30344_High-Throughput_Screening_of_Phononic_Bandgap_1a1c0713cc.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.31054": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.31054",
+      "original_url": "https://arxiv.org/abs/2611.31054",
+      "title": "Completing analytical conversion scheme among DH, Hayati, CPC and POE models for manipulator calibration",
+      "notes": [
+        "notes/arxiv_2611.31054_Completing_analytical_conversion_scheme_among_18802e4340.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.31045": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.31045",
+      "original_url": "https://arxiv.org/abs/2611.31045",
+      "title": "When Positivity Matters: Maximal Distance Integrals on Curves and Surfaces",
+      "notes": [
+        "notes/arxiv_2611.31045_When_Positivity_Matters_Maximal_Distance_Inte_1446aa670d.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30984": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30984",
+      "original_url": "https://arxiv.org/abs/2611.30984",
+      "title": "Convergence of potential-preserving annealed Sinkhorn algorithm",
+      "notes": [
+        "notes/arxiv_2611.30984_Convergence_of_potential-preserving_annealed__b6a8906cf0.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01621.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01621.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01621.s001",
+      "title": "A Charge-Consistent Long-Range Machine-Learned Interatomic Potential Compatible with Quantum Linear System Algorithms",
+      "notes": [
+        "notes/crossref_A_Charge-Consistent_Long-Range_Machine-Learne_9f4201d55a.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c02044.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c02044.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c02044.s001",
+      "title": "Reweighting Free Energy Profiles with Universal Machine Learning Interatomic Potentials for Fast Consensus Building",
+      "notes": [
+        "notes/crossref_Reweighting_Free_Energy_Profiles_with_Univers_fcc7d36e88.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c00712.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c00712.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c00712.s001",
+      "title": "Equivariant Interatomic Potentials without Tensor Products",
+      "notes": [
+        "notes/crossref_Equivariant_Interatomic_Potentials_without_Te_246a05a665.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acs.jctc.6c01678.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jctc.6c01678.s001",
+      "original_url": "https://doi.org/10.1021/acs.jctc.6c01678.s001",
+      "title": "DEGAUSS-3p: A Three-Site Water Model from Soft Gaussian-Charge Electrostatics and a Rare-Gas-Informed Double-Exponential Potential",
+      "notes": [
+        "notes/crossref_DEGAUSS-3p_A_Three-Site_Water_Model_from_Soft_e5e5fd98fb.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv-2025-f1hgn/v6": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv-2025-f1hgn/v6",
+      "original_url": "https://doi.org/10.26434/chemrxiv-2025-f1hgn/v6",
+      "title": "A Foundation Model for Accurate Atomistic Simulations in Drug Design",
+      "notes": [
+        "notes/chemrxiv_A_Foundation_Model_for_Accurate_Atomistic_Sim_fa8725059b.md"
+      ],
+      "added_at": "2026-11-24T15:29:01+00:00",
+      "last_requested_at": "2026-11-24T15:29:01+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
     }
   }
 }
