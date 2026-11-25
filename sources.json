@@ -13690,6 +13690,136 @@
       "last_requested_at": "2026-11-25T01:13:37+00:00",
       "published_at": "",
       "updated_at": "2026-11-24T17:28:46.896Z"
+    },
+    "https://arxiv.org/abs/2611.32739": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.32739",
+      "original_url": "https://arxiv.org/abs/2611.32739",
+      "title": "Neutron Spectroscopy Transformed: Deuterated ZIF-8 and Machine-Learned Potentials Catch Nitrogen Threading Its Gates",
+      "notes": [
+        "notes/arxiv_2611.32739_Neutron_Spectroscopy_Transformed_Deuterated_Z_9fc2ac7953.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.32133": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.32133",
+      "original_url": "https://arxiv.org/abs/2611.32133",
+      "title": "OMNI-P3x universal neural network potential for large-scale computational photochemistry workflows",
+      "notes": [
+        "notes/arxiv_2611.32133_OMNI-P3x_universal_neural_network_potential_f_0df10a33dd.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.32059": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.32059",
+      "original_url": "https://arxiv.org/abs/2611.32059",
+      "title": "From Weighted Frontier d-States to Geometric Descriptors for Atomically Dispersed Catalysts at the Molecule-Solid Crossover",
+      "notes": [
+        "notes/arxiv_2611.32059_From_Weighted_Frontier_d-States_to_Geometric__b00e66cdd5.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33111": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33111",
+      "original_url": "https://arxiv.org/abs/2611.33111",
+      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+      "notes": [
+        "notes/arxiv_2611.33111_Draft_Calibration_for_Speculative_Decoding_Ac_7805514c92.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33018": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33018",
+      "original_url": "https://arxiv.org/abs/2611.33018",
+      "title": "The relativistic BCS-BEC crossover in closed form: the cutoff as an effective range",
+      "notes": [
+        "notes/arxiv_2611.33018_The_relativistic_BCS-BEC_crossover_in_closed__a3517dc011.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.32818": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.32818",
+      "original_url": "https://arxiv.org/abs/2611.32818",
+      "title": "Data-driven Reduced-order Modeling of a Multistable Viscoelastic Flow",
+      "notes": [
+        "notes/arxiv_2611.32818_Data-driven_Reduced-order_Modeling_of_a_Multi_a4517be0b9.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.32609": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.32609",
+      "original_url": "https://arxiv.org/abs/2611.32609",
+      "title": "Thermodynamics of complex crystals from a generalized mean-field bond model",
+      "notes": [
+        "notes/arxiv_2611.32609_Thermodynamics_of_complex_crystals_from_a_gen_f2c53fdd62.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1017/jfm.2026.12178": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1017/jfm.2026.12178",
+      "original_url": "https://doi.org/10.1017/jfm.2026.12178",
+      "title": "Structure tensor Reynolds-averaged Navier–Stokes turbulence models with equivariant neural networks",
+      "notes": [
+        "notes/crossref_Structure_tensor_Reynolds-averaged_Navier_Sto_7928a84196.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-10",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1021/acscatal.6c05831": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acscatal.6c05831",
+      "original_url": "https://doi.org/10.1021/acscatal.6c05831",
+      "title": "Machine Learning in Homogeneous and Heterogeneous Catalysis: Complementary Strengths across Scales",
+      "notes": [
+        "notes/crossref_Machine_Learning_in_Homogeneous_and_Heterogen_1818915ba8.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15011901/v2": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15011901/v2",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15011901/v2",
+      "title": "Assessment of machine-learned vs. classical/quantum atomistic simulations for predicting palladium-hydrogen materials",
+      "notes": [
+        "notes/chemrxiv_Assessment_of_machine-learned_vs_classical_qu_33a8c408ca.md"
+      ],
+      "added_at": "2026-11-25T15:15:02+00:00",
+      "last_requested_at": "2026-11-25T15:15:02+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
     }
   }
 }
