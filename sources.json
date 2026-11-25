@@ -13573,6 +13573,123 @@
       "last_requested_at": "2026-11-24T15:29:01+00:00",
       "published_at": "2026-11-24",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30066": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30066",
+      "original_url": "https://arxiv.org/abs/2611.30066",
+      "title": "Diagnostic Accuracy Is Not Deployment Value: Decision-Aligned Reliability Evaluation for Foundation MLIPs in Materials Discovery",
+      "notes": [
+        "notes/arxiv_2611.30066_Diagnostic_Accuracy_Is_Not_Deployment_Value_D_73a950d0eb.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30348": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30348",
+      "original_url": "https://arxiv.org/abs/2611.30348",
+      "title": "Strain-Induced Tetragonal-to-Cubic Transition in MAPbI$_3$ from Machine-Learned Molecular Dynamics",
+      "notes": [
+        "notes/arxiv_2611.30348_Strain-Induced_Tetragonal-to-Cubic_Transition_9873b6c8f4.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30330": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30330",
+      "original_url": "https://arxiv.org/abs/2611.30330",
+      "title": "Atomistic insight into defect-mediated boron redistribution and high-temperature strengthening in TiAl alloys",
+      "notes": [
+        "notes/arxiv_2611.30330_Atomistic_insight_into_defect-mediated_boron__da1c95ec8f.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30070": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30070",
+      "original_url": "https://arxiv.org/abs/2611.30070",
+      "title": "Stable but Hidden: Identifiability and Experimental Design under Missing Compositional Support",
+      "notes": [
+        "notes/arxiv_2611.30070_Stable_but_Hidden_Identifiability_and_Experim_2b6b9aff1c.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30015": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30015",
+      "original_url": "https://arxiv.org/abs/2611.30015",
+      "title": "Nonmonotonic In-Plane Thermal Transport in Metal-Embedded Graphitic Carbon Nitride",
+      "notes": [
+        "notes/arxiv_2611.30015_Nonmonotonic_In-Plane_Thermal_Transport_in_Me_3f328819d0.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.29814": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.29814",
+      "original_url": "https://arxiv.org/abs/2611.29814",
+      "title": "Inferring Experimental Objectives in Microscopy Experiments from Decision Traces",
+      "notes": [
+        "notes/arxiv_2611.29814_Inferring_Experimental_Objectives_in_Microsco_88a39ac12f.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-22",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.30537": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.30537",
+      "original_url": "https://arxiv.org/abs/2611.30537",
+      "title": "Correlated chemical and displacive disorder in a lithium-rich disordered rocksalt revealed by electron diffuse scattering",
+      "notes": [
+        "notes/arxiv_2611.30537_Correlated_chemical_and_displacive_disorder_i_20947b8673.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-23",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1201/9781003662815-84": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1201/9781003662815-84",
+      "original_url": "https://doi.org/10.1201/9781003662815-84",
+      "title": "Multimodal Face Emotion Detection Using Facial Expressions and Body Posture via Reflection Equivariant Quantum Neural Networks Optimized by Prism Refraction Search",
+      "notes": [
+        "notes/crossref_Multimodal_Face_Emotion_Detection_Using_Facia_753d9dc09b.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://gitlab.com/independent5355048/alessio-barone-master-thesis-codebase": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/independent5355048/alessio-barone-master-thesis-codebase",
+      "original_url": "https://gitlab.com/independent5355048/alessio-barone-master-thesis-codebase",
+      "title": "independent5355048/alessio-barone-master-thesis-codebase",
+      "notes": [
+        "notes/gitlab_independent5355048_alessio-barone-master-thes_47dc830b25.md"
+      ],
+      "added_at": "2026-11-25T01:13:37+00:00",
+      "last_requested_at": "2026-11-25T01:13:37+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-24T17:28:46.896Z"
     }
   }
 }
