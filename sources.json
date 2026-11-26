@@ -13820,6 +13820,19 @@
       "last_requested_at": "2026-11-25T15:15:02+00:00",
       "published_at": "2026-11-25",
       "updated_at": ""
+    },
+    "https://doi.org/10.1039/d6ra06452c": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1039/d6ra06452c",
+      "original_url": "https://doi.org/10.1039/d6ra06452c",
+      "title": "Neither harmonic benchmarks nor a default SSCHA cross-check certifies a foundation machine-learning interatomic potential for finite-temperature dynamic stability",
+      "notes": [
+        "notes/crossref_Neither_harmonic_benchmarks_nor_a_default_SSC_d2da7dc82a.md"
+      ],
+      "added_at": "2026-11-26T00:48:40+00:00",
+      "last_requested_at": "2026-11-26T00:48:40+00:00",
+      "published_at": "2026",
+      "updated_at": ""
     }
   }
 }
