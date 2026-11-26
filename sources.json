@@ -13833,6 +13833,292 @@
       "last_requested_at": "2026-11-26T00:48:40+00:00",
       "published_at": "2026",
       "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34551": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34551",
+      "original_url": "https://arxiv.org/abs/2611.34551",
+      "title": "EGQCA Code: automated high-throughput thermodynamic modeling of solid solutions",
+      "notes": [
+        "notes/arxiv_2611.34551_EGQCA_Code_automated_high-throughput_thermody_0906b27899.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34334": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34334",
+      "original_url": "https://arxiv.org/abs/2611.34334",
+      "title": "PineIR: 3D molecular structures from an infrared spectrum alone",
+      "notes": [
+        "notes/arxiv_2611.34334_PineIR_3D_molecular_structures_from_an_infrar_d3bd9f7555.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34156": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34156",
+      "original_url": "https://arxiv.org/abs/2611.34156",
+      "title": "Foundation interatomic potentials capture structural disorder in metallic glasses",
+      "notes": [
+        "notes/arxiv_2611.34156_Foundation_interatomic_potentials_capture_str_cbeec040f6.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33985": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33985",
+      "original_url": "https://arxiv.org/abs/2611.33985",
+      "title": "MolGPAO: Molecular Generative Pre-trained Autoregressive Octree with Speculative Decoding and Sub-Millisecond Seam Healing for 3D Molecules",
+      "notes": [
+        "notes/arxiv_2611.33985_MolGPAO_Molecular_Generative_Pre-trained_Auto_7a5f963952.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33913": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33913",
+      "original_url": "https://arxiv.org/abs/2611.33913",
+      "title": "PerovAgent: Autonomous Ligand Design for Halide Perovskite Nanocrystals",
+      "notes": [
+        "notes/arxiv_2611.33913_PerovAgent_Autonomous_Ligand_Design_for_Halid_3031d7e60d.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33912": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33912",
+      "original_url": "https://arxiv.org/abs/2611.33912",
+      "title": "Phono3GPU: GPU-Accelerated Linear Tetrahedron Integration for Phonon Thermal Transport",
+      "notes": [
+        "notes/arxiv_2611.33912_Phono3GPU_GPU-Accelerated_Linear_Tetrahedron__cc63f6c354.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33830": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33830",
+      "original_url": "https://arxiv.org/abs/2611.33830",
+      "title": "Geometry Sets the Neutral MLIP-DFT Gap in Non-Covalent Binding, and Charged Systems Fail",
+      "notes": [
+        "notes/arxiv_2611.33830_Geometry_Sets_the_Neutral_MLIP-DFT_Gap_in_Non_575c12754e.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33538": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33538",
+      "original_url": "https://arxiv.org/abs/2611.33538",
+      "title": "ILMlip: fast and universal machine-learning interatomic potentials",
+      "notes": [
+        "notes/arxiv_2611.33538_ILMlip_fast_and_universal_machine-learning_in_470b1a3639.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33408": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33408",
+      "original_url": "https://arxiv.org/abs/2611.33408",
+      "title": "Computing hydration free energies and crystalline solubility of drug-like molecules with MACE",
+      "notes": [
+        "notes/arxiv_2611.33408_Computing_hydration_free_energies_and_crystal_b77446c6c3.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.31865": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.31865",
+      "original_url": "https://arxiv.org/abs/2611.31865",
+      "title": "Accelerating Equivariant Interatomic Potentials for Molecular Dynamics through Radial tabulation and Kernel Fusion",
+      "notes": [
+        "notes/arxiv_2611.31865_Accelerating_Equivariant_Interatomic_Potentia_05352b7ca2.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34310": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34310",
+      "original_url": "https://arxiv.org/abs/2611.34310",
+      "title": "Interpretable identification of constitutive parameter field for three-dimensional heterogeneous and graded hyperelastic materials from full-field displacements",
+      "notes": [
+        "notes/arxiv_2611.34310_Interpretable_identification_of_constitutive__4d89fe7ccf.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34154": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34154",
+      "original_url": "https://arxiv.org/abs/2611.34154",
+      "title": "When High Capacity Becomes Undeployable: Pore-Filling Constraints for Multi-Objective Optimization of Direct Air Capture Sorbents",
+      "notes": [
+        "notes/arxiv_2611.34154_When_High_Capacity_Becomes_Undeployable_Pore-_3bc35a5ac1.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33544": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33544",
+      "original_url": "https://arxiv.org/abs/2611.33544",
+      "title": "Machine-Learning Spin-Fermion Models for Strongly Disordered Magnets: Sb-Doped MnTe",
+      "notes": [
+        "notes/arxiv_2611.33544_Machine-Learning_Spin-Fermion_Models_for_Stro_9e53e48820.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.33089": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.33089",
+      "original_url": "https://arxiv.org/abs/2611.33089",
+      "title": "Anharmonic enhancement of thermal conductivity in amorphous Ge$_2$Sb$_2$Te$_5$: A consistent picture from molecular dynamics and Wigner transport",
+      "notes": [
+        "notes/arxiv_2611.33089_Anharmonic_enhancement_of_thermal_conductivit_8803437aac.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-24",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34877": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34877",
+      "original_url": "https://arxiv.org/abs/2611.34877",
+      "title": "Towards Closing the Performance Gap in Cross-Modal Place Recognition",
+      "notes": [
+        "notes/arxiv_2611.34877_Towards_Closing_the_Performance_Gap_in_Cross-_446763d706.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34547": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34547",
+      "original_url": "https://arxiv.org/abs/2611.34547",
+      "title": "SCO-Hyper-Meta-Double-GroupNN: A Double-Group SU(2) Hyper-/Meta-Graph Neural Network for Cooperative Spin-Crossover Potential Energy Surfaces",
+      "notes": [
+        "notes/arxiv_2611.34547_SCO-Hyper-Meta-Double-GroupNN_A_Double-Group__8adb940bf3.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://arxiv.org/abs/2611.34452": {
+      "type": "arxiv",
+      "canonical_url": "https://arxiv.org/abs/2611.34452",
+      "original_url": "https://arxiv.org/abs/2611.34452",
+      "title": "Global Convergence of Second-Order Methods for Physics-Informed Neural Networks in the Overparameterized Limit",
+      "notes": [
+        "notes/arxiv_2611.34452_Global_Convergence_of_Second-Order_Methods_fo_c591d31366.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-25",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012828/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012828/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012828/v1",
+      "title": "Benchmarking Machine-Learned Interatomic Potentials for Reactive Chemistry: Failure Modes in Nitromethane Decomposition",
+      "notes": [
+        "notes/crossref_Benchmarking_Machine-Learned_Interatomic_Pote_fc724da379.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2026-11-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.commatsci.2026.115277": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.commatsci.2026.115277",
+      "original_url": "https://doi.org/10.1016/j.commatsci.2026.115277",
+      "title": "Defect-limited thermal transport in AlN using pretrained machine-learning interatomic potentials",
+      "notes": [
+        "notes/crossref_Defect-limited_thermal_transport_in_AlN_using_48bfd32a35.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "2027-01",
+      "updated_at": ""
+    },
+    "https://gitlab.com/aadit_guin/atomic-recipes": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/aadit_guin/atomic-recipes",
+      "original_url": "https://gitlab.com/Aadit_guin/atomic-recipes",
+      "title": "Aadit_guin/atomic-recipes",
+      "notes": [
+        "notes/gitlab_Aadit_guin_atomic-recipes_d6d602266e.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-26T13:04:10.158Z"
+    },
+    "https://huggingface.co/shiqiao123/mace-foundation-model-supervision-models": {
+      "type": "huggingface_model",
+      "canonical_url": "https://huggingface.co/shiqiao123/mace-foundation-model-supervision-models",
+      "original_url": "https://huggingface.co/shiqiao123/mace-foundation-model-supervision-models",
+      "title": "shiqiao123/mace-foundation-model-supervision-models",
+      "notes": [
+        "notes/huggingface_model_shiqiao123_mace-foundation-model-supervision-_2847d59ba8.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-26T06:01:13.000Z"
+    },
+    "https://huggingface.co/datasets/shiqiao123/mace-foundation-model-supervision-data": {
+      "type": "huggingface_dataset",
+      "canonical_url": "https://huggingface.co/datasets/shiqiao123/mace-foundation-model-supervision-data",
+      "original_url": "https://huggingface.co/datasets/shiqiao123/mace-foundation-model-supervision-data",
+      "title": "shiqiao123/mace-foundation-model-supervision-data",
+      "notes": [
+        "notes/huggingface_dataset_shiqiao123_mace-foundation-model-supervision-_fdf90ec768.md"
+      ],
+      "added_at": "2026-11-26T14:39:56+00:00",
+      "last_requested_at": "2026-11-26T14:39:56+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-26T06:02:02.000Z"
     }
   }
 }

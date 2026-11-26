@@ -1,0 +1,57 @@
+---
+title: 'PineIR: 3D molecular structures from an infrared spectrum alone'
+type: arxiv
+source: https://arxiv.org/abs/2611.34334
+canonical_url: https://arxiv.org/abs/2611.34334
+captured_by: auto-scanner
+date: '2026-11-26'
+captured_at: '2026-11-26T14:39:56+00:00'
+last_requested: '2026-11-26T14:39:56+00:00'
+issue: scan:arxiv-mlips
+status: to-read
+authors:
+- Giulio Benedini
+- Pierre-Paul De Breuck
+- Miguel A. L. Marques
+- Silvana Botti
+published: '2026-11-25'
+abstract: Computing the infrared (IR) spectrum of a molecule from its structure is
+  routine. The inverse problem is not. In practice, IR spectra are used to identify
+  the functional groups present in a molecule, while the determination of its complete
+  structure requires additional measurements. Machine-learning models that return
+  3D structures from IR spectra exist, but all of them need extra input, such as Raman,
+  ultraviolet or nuclear magnetic resonance spectra, the molecular formula, or the
+  number of atoms. In this work we present PineIR, a generative model that returns
+  3D molecular structures from the IR spectrum alone. PineIR builds the molecule atom
+  by atom, and each atom is associated with its contribution to the IR spectrum. This
+  contribution is subtracted from the input spectrum before the next atom is generated.
+  To train it, we computed with a machine-learned interatomic potential the IR spectra
+  of 4.6 million structures of 3.1 million molecules, including conformer ensembles.
+  On computed spectra of held-out molecules, the best-ranked of fifty candidates has
+  the correct connectivity in 43% of the cases, and the generated geometries reproduce
+  the conformer and the diastereomer that produced the input spectrum. After fine-tuning
+  on 161k spectra calculated with the hybrid functional B3LYP, the model can also
+  be applied to spectra at this level of theory.
+metadata_provider: arXiv
+metadata_status: complete
+provider_data:
+  arxiv_id: '2611.34334'
+  categories:
+  - physics.chem-ph
+---
+
+# PineIR: 3D molecular structures from an infrared spectrum alone
+
+- **Type:** arxiv
+- **Source:** https://arxiv.org/abs/2611.34334
+- **Captured by:** @auto-scanner
+- **Metadata:** complete (arXiv)
+- **Authors:** Giulio Benedini, Pierre-Paul De Breuck, Miguel A. L. Marques, Silvana Botti
+- **Published:** 2026-11-25
+
+## Summary
+Computing the infrared (IR) spectrum of a molecule from its structure is routine. The inverse problem is not. In practice, IR spectra are used to identify the functional groups present in a molecule, while the determination of its complete structure requires additional measurements. Machine-learning models that return 3D structures from IR spectra exist, but all of them need extra input, such as Raman, ultraviolet or nuclear magnetic resonance spectra, the molecular formula, or the number of atoms. In this work we present PineIR, a generative model that returns 3D molecular structures from the IR spectrum alone. PineIR builds the molecule atom by atom, and each atom is associated with its contribution to the IR spectrum. This contribution is subtracted from the input spectrum before the next atom is generated. To train it, we computed with a machine-learned interatomic potential the IR spectra of 4.6 million structures of 3.1 million molecules, including conformer ensembles. On computed spectra of held-out molecules, the best-ranked of fifty candidates has the correct connectivity in 43% of the cases, and the generated geometries reproduce the conformer and the diastereomer that produced the input spectrum. After fine-tuning on 161k spectra calculated with the hybrid functional B3LYP, the model can also be applied to spectra at this level of theory.
+
+## Provider details
+- **Arxiv Id:** 2611.34334
+- **Categories:** ["physics.chem-ph"]
