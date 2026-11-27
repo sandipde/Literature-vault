@@ -14119,6 +14119,45 @@
       "last_requested_at": "2026-11-26T14:39:56+00:00",
       "published_at": "",
       "updated_at": "2026-11-26T06:02:02.000Z"
+    },
+    "https://doi.org/10.1021/acs.jpcc.6c07249.s001": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1021/acs.jpcc.6c07249.s001",
+      "original_url": "https://doi.org/10.1021/acs.jpcc.6c07249.s001",
+      "title": "Ion-Induced Atomic and Cluster Sputtering from Amorphous Wollastonite: A Comparison of Empirical and Machine-Learning Interatomic Potentials with BCA Models and Experiments",
+      "notes": [
+        "notes/crossref_Ion-Induced_Atomic_and_Cluster_Sputtering_fro_67d49cb59a.md"
+      ],
+      "added_at": "2026-11-27T00:55:27+00:00",
+      "last_requested_at": "2026-11-27T00:55:27+00:00",
+      "published_at": "2026-11-26",
+      "updated_at": ""
+    },
+    "https://doi.org/10.1016/j.jnucmat.2026.157293": {
+      "type": "paper",
+      "canonical_url": "https://doi.org/10.1016/j.jnucmat.2026.157293",
+      "original_url": "https://doi.org/10.1016/j.jnucmat.2026.157293",
+      "title": "Atomistic Insights into Temperature-Dependent Damage Recovery in Irradiated 3C-SiC: A machine learning molecular dynamics study",
+      "notes": [
+        "notes/crossref_Atomistic_Insights_into_Temperature-Dependent_9811f37be3.md"
+      ],
+      "added_at": "2026-11-27T00:55:27+00:00",
+      "last_requested_at": "2026-11-27T00:55:27+00:00",
+      "published_at": "2026-11",
+      "updated_at": ""
+    },
+    "https://huggingface.co/hlzl/equivariant-convnext-c4-small-in1k": {
+      "type": "huggingface_model",
+      "canonical_url": "https://huggingface.co/hlzl/equivariant-convnext-c4-small-in1k",
+      "original_url": "https://huggingface.co/hlzl/equivariant-convnext-c4-small-in1k",
+      "title": "hlzl/equivariant-convnext-c4-small-in1k",
+      "notes": [
+        "notes/huggingface_model_hlzl_equivariant-convnext-c4-small-in1k_c9f18281cc.md"
+      ],
+      "added_at": "2026-11-27T00:55:27+00:00",
+      "last_requested_at": "2026-11-27T00:55:27+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-26T17:40:56.000Z"
     }
   }
 }
