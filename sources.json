@@ -14158,6 +14158,45 @@
       "last_requested_at": "2026-11-27T00:55:27+00:00",
       "published_at": "",
       "updated_at": "2026-11-26T17:40:56.000Z"
+    },
+    "https://doi.org/10.26434/chemrxiv.15012881/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012881/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012881/v1",
+      "title": "klasp: Performance-Portable Crystal Structure Prediction with Distributed Multipoles and Machine-Learned Interatomic Potentials",
+      "notes": [
+        "notes/crossref_klasp_Performance-Portable_Crystal_Structure__14d5910a28.md"
+      ],
+      "added_at": "2026-11-27T14:38:01+00:00",
+      "last_requested_at": "2026-11-27T14:38:01+00:00",
+      "published_at": "2026-11-27",
+      "updated_at": ""
+    },
+    "https://doi.org/10.26434/chemrxiv.15012877/v1": {
+      "type": "chemrxiv",
+      "canonical_url": "https://doi.org/10.26434/chemrxiv.15012877/v1",
+      "original_url": "https://doi.org/10.26434/chemrxiv.15012877/v1",
+      "title": "Simulating Silicon Surface Passivation in Water using ReaxFF Force Field and Fine-Tuned Machine Learning Models",
+      "notes": [
+        "notes/chemrxiv_Simulating_Silicon_Surface_Passivation_in_Wat_e97274fd17.md"
+      ],
+      "added_at": "2026-11-27T14:38:01+00:00",
+      "last_requested_at": "2026-11-27T14:38:01+00:00",
+      "published_at": "2026-11-27",
+      "updated_at": ""
+    },
+    "https://gitlab.com/alasca.cloud/krake/krake": {
+      "type": "gitlab",
+      "canonical_url": "https://gitlab.com/alasca.cloud/krake/krake",
+      "original_url": "https://gitlab.com/alasca.cloud/krake/krake",
+      "title": "alasca.cloud/krake/krake",
+      "notes": [
+        "notes/gitlab_alasca_cloud_krake_krake_dd0000aa28.md"
+      ],
+      "added_at": "2026-11-27T14:38:01+00:00",
+      "last_requested_at": "2026-11-27T14:38:01+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-27T11:51:26.896Z"
     }
   }
 }
