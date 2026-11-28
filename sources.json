@@ -14197,6 +14197,19 @@
       "last_requested_at": "2026-11-27T14:38:01+00:00",
       "published_at": "",
       "updated_at": "2026-11-27T11:51:26.896Z"
+    },
+    "https://huggingface.co/spaces/hugging-apps/equivariant-convnext-c4": {
+      "type": "huggingface_space",
+      "canonical_url": "https://huggingface.co/spaces/hugging-apps/equivariant-convnext-c4",
+      "original_url": "https://huggingface.co/spaces/hugging-apps/equivariant-convnext-c4",
+      "title": "hugging-apps/equivariant-convnext-c4",
+      "notes": [
+        "notes/huggingface_space_hugging-apps_equivariant-convnext-c4_4eb7de8f03.md"
+      ],
+      "added_at": "2026-11-28T13:49:41+00:00",
+      "last_requested_at": "2026-11-28T13:49:41+00:00",
+      "published_at": "",
+      "updated_at": "2026-11-28T07:53:43.000Z"
     }
   }
 }
